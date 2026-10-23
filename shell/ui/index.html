@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>纸环 PaperRing</title>
+<style>
+  :root { color-scheme: light; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+    background: #faf7f4;
+    color: #2b2320;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    user-select: none;
+  }
+  /* 内联 SVG 复刻品牌标记:折角纸(浅陶土)+ 圆环(深陶土红),与正式 logo 同构图 */
+  .mark { width: 84px; height: 84px; }
+  h1 { font-size: 26px; font-weight: 600; letter-spacing: 2px; }
+  .spinner {
+    width: 30px; height: 30px; border-radius: 50%;
+    border: 3px solid #e4d5cc; border-top-color: #a03d2a;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #status { font-size: 14px; color: #8a7a72; }
+  .hint { font-size: 12px; color: #b3a49b; }
+</style>
+</head>
+<body>
+  <svg class="mark" viewBox="0 0 100 100" aria-hidden="true">
+    <!-- 纸:右上折角的竖版纸张 -->
+    <path d="M30 8 h28 l14 14 v70 h-42 z" fill="#c08552" opacity="0.55"/>
+    <path d="M58 8 l14 14 h-14 z" fill="#c08552" opacity="0.8"/>
+    <!-- 环:压在纸面右下方的圆环(镂空) -->
+    <circle cx="60" cy="62" r="17" fill="none" stroke="#a03d2a" stroke-width="9"/>
+  </svg>
+  <h1>纸环 PaperRing</h1>
+  <div class="spinner"></div>
+  <p id="status">正在启动…</p>
+  <p class="hint">首次启动需要十几秒,请稍候</p>
+</body>
+</html>

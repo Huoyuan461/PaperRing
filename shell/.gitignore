@@ -1,0 +1,9 @@
+# Rust / Tauri 构建产物
+/target/
+
+# 构建时才填充的资源(见 resources/README-STAGE.txt),不进仓库
+/resources/app.jar
+/resources/jre/
+
+# 杂项
+.DS_Store

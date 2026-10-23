@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <!-- PaperRing mark, thinking variant. ChatPanel.css animates these paths; geometry is the paper + ring mark in 192x192 units. -->
+  <g transform="scale(0.125)"><g transform="translate(50,4) scale(2.2)">
+    <path class="stirling-thinking__path-left" d="M0 0 H26 L40 14 V84 H0 Z" />
+    <path class="stirling-thinking__path-right" d="M0 55 a23 23 0 1 0 46 0 a23 23 0 1 0 -46 0 M10.5 55 a12.5 12.5 0 1 0 25 0 a12.5 12.5 0 1 0 -25 0" fill-rule="evenodd" />
+  </g></g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- PaperRing mark: paper sheet + ring. BrandMark.css colours these paths via the sui-brandmark__a/__b classes (soft / main brand tones). -->
+  <g transform="translate(5.43,0) scale(0.2857)">
+    <path class="sui-brandmark__a" d="M0 0 H26 L40 14 V84 H0 Z" />
+    <path class="sui-brandmark__b" d="M0 55 a23 23 0 1 0 46 0 a23 23 0 1 0 -46 0 M10.5 55 a12.5 12.5 0 1 0 25 0 a12.5 12.5 0 1 0 -25 0" fill-rule="evenodd" />
+  </g>
+</svg>

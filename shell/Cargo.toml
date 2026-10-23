@@ -1,0 +1,27 @@
+[package]
+name = "paperring-shell"
+version = "1.0.0"
+description = "纸环 PaperRing 桌面壳:拉起内嵌后端 jar 并加载本地 Web 界面"
+edition = "2021"
+rust-version = "1.77"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+
+# Windows 下用 Job Object 托管 java 子进程:壳进程退出(含被强杀)时,
+# 系统会连带回收整个进程组,不会留下孤儿 java 进程占着端口。
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_System_JobObjects",
+    "Win32_System_Threading",
+] }
+
+[profile.release]
+# 安装包体积敏感:开 LTO + strip 瘦身
+lto = true
+strip = true
