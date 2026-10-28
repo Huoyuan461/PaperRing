@@ -16,7 +16,7 @@ import {
 // visibly, while unchanged words keep their scanned pixels.
 //
 // Both fixtures are the same 150dpi greyscale scan, OCR'd offline by ocrmypdf
-// 17 with the two renderers Stirling's OCR tool offers (hocr, sandwich).
+// 17 with the two renderers PaperRing's OCR tool offers (hocr, sandwich).
 
 const FIX = (n: string) =>
   path.join(import.meta.dirname, "../test-fixtures", n);

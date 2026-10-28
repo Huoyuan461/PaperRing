@@ -55,7 +55,7 @@ keepWorking = "繼續編輯"
 loading = "載入中..."
 loginAgreementAccept = "接受"
 loginAgreementDecline = "拒絕"
-loginAgreementProvider = "此通知由您的系統管理員提供，非 Stirling PDF Inc."
+loginAgreementProvider = "此通知由您的系統管理員提供，非纸环"
 loginAgreementTitle = "登入協議"
 logOut = "登出"
 marginTooltip = "頁碼與頁面邊緣的距離。"
@@ -668,8 +668,8 @@ description = "最長執行時間"
 label = "逾時（分鐘）"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert 目前為測試版。相較於 LibreOffice，它能以更快速度與更少記憶體提供更好的轉換效果。"
-label = "使用新的 Stirling Office 轉換功能"
+description = "纸环 Office Convert 目前為測試版。相較於 LibreOffice，它能以更快速度與更少記憶體提供更好的轉換效果。"
+label = "使用新的 纸环 Office 轉換功能"
 
 [admin.settings.advanced.tempFileManagement]
 description = "設定暫存檔案的儲存與清理行為"
@@ -736,7 +736,7 @@ permissionNotice = "tessdata 路徑不可寫入。下載將在瀏覽器中開啟
 
 [admin.settings.ai]
 customProvider = "自訂（OpenAI 相容）"
-description = "讓 Stirling 連線至 Python AI 引擎、選擇模型，並設定執行時的安全限制。"
+description = "讓纸环連線至 Python AI 引擎、選擇模型，並設定執行時的安全限制。"
 managedByCloud = "在此模式下由 Stirling Cloud 管理。"
 managedByCloudShort = "由 Stirling Cloud 管理"
 
@@ -797,7 +797,7 @@ help = "關閉表示無法使用文件提問。這不會阻止文字被傳送，
 label = "允許 Stirling Cloud 保留已索引的文件"
 
 [admin.settings.ai.general.cloudNote]
-body = "推理會在 Stirling 的基礎架構上執行，並計費至此伺服器連結的帳戶。這裡沒有需要執行的容器，也沒有需要保存的供應商金鑰。AI 讀取的任何內容都會由 Stirling Cloud 處理，而不是在您自己的硬體上處理。"
+body = "推理會在纸环的基礎架構上執行，並計費至此伺服器連結的帳戶。這裡沒有需要執行的容器，也沒有需要保存的供應商金鑰。AI 讀取的任何內容都會由 Stirling Cloud 處理，而不是在您自己的硬體上處理。"
 title = "關於 Stirling Cloud AI"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "AI 執行位置"
 
 [admin.settings.ai.general.mode.cloud]
 description = "不需要容器、不需要供應商金鑰，也不需要選擇模型 - 工作會在 Stirling Cloud 上執行，並計費至此伺服器連結的帳戶。"
-linkCta = "將此伺服器連結至 Stirling 帳戶"
+linkCta = "將此伺服器連結至纸环帳戶"
 notLinked = "請先連結帳戶"
-ownerOnly = "只有組織擁有者可以將此伺服器連結至 Stirling 帳戶。"
+ownerOnly = "只有組織擁有者可以將此伺服器連結至纸环帳戶。"
 title = "使用 Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "執行您自己的引擎"
 
 [admin.settings.ai.general.note]
 docs = "設定指南"
-intro = "您在 Stirling 旁邊執行的一個獨立容器。它負責推理；Stirling 仍會自行處理每個頁面操作。它需要相同的"
+intro = "您在纸环旁邊執行的一個獨立容器。它負責推理；纸环仍會自行處理每個頁面操作。它需要相同的"
 outro = "在兩個容器上，以及模型供應商金鑰。AI 讀取的任何內容都會傳送給您選擇的供應商 - 您自行託管的 Ollama 會將每一頁保留在內部。"
 title = "關於 AI engine"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "輸入確認碼以繼續"
 confirmImport = "確認匯入"
 confirmImportTitle = "確認匯入資料庫"
 connection = "連線"
-connectionDescription = "讓 Stirling 改用外部資料庫，取代內嵌資料庫。"
+connectionDescription = "讓纸环改用外部資料庫，取代內嵌資料庫。"
 createBackup = "建立備份"
 created = "建立時間"
 delete = "刪除"
@@ -1224,11 +1224,11 @@ description = "設定選用功能。"
 title = "功能"
 
 [admin.settings.features.serverCertificate]
-description = "產生供 [以 Stirling-PDF 簽署] 功能使用的憑證。"
+description = "產生供 [以纸环簽署] 功能使用的憑證。"
 label = "憑證簽章"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "使用此伺服器產生的憑證，提供 [以 Stirling-PDF 簽署] 功能"
+description = "使用此伺服器產生的憑證，提供 [以纸环簽署] 功能"
 label = "啟用憑證簽章"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "憑證有效期（天）"
 
 [admin.settings.folderAccess]
 description = "允許資料夾來源與資料夾輸出讀取和寫入的目錄。這是安全邊界：自動化絕不能指向此清單之外的伺服器路徑。"
-securityNote = "留空可完全停用資料夾來源與輸出。Stirling 自身的設定目錄一律禁止存取。"
+securityNote = "留空可完全停用資料夾來源與輸出。纸环自身的設定目錄一律禁止存取。"
 title = "資料夾存取"
 
 [admin.settings.folderAccess.implied]
-description = "這些由 Stirling 管理的目錄一律允許，且無法在此變更。"
+description = "這些由纸环管理的目錄一律允許，且無法在此變更。"
 serverStorage = "伺服器檔案儲存空間"
 title = "一律允許"
 watchedFolder = "Pipeline 監看資料夾"
@@ -1390,7 +1390,7 @@ description = "Cookie 政策的 URL 或檔名"
 label = "Cookie 政策"
 
 [admin.settings.legal.disclaimer]
-message = "透過自訂這些法律文件，您即承擔確保遵守所有適用法律與法規的全部責任，包括但不限於 GDPR 與其他歐盟資料保護要求。僅在下列情況下修改這些設定：（1）您運作的是個人/私人部署，（2）您位於歐盟司法管轄區之外並理解當地法律義務，或（3）您已取得適當之法律意見，並同意對所有使用者資料與法遵事項負完全責任。Stirling-PDF 及其開發者對您的法律義務不承擔任何責任。"
+message = "透過自訂這些法律文件，您即承擔確保遵守所有適用法律與法規的全部責任，包括但不限於 GDPR 與其他歐盟資料保護要求。僅在下列情況下修改這些設定：（1）您運作的是個人/私人部署，（2）您位於歐盟司法管轄區之外並理解當地法律義務，或（3）您已取得適當之法律意見，並同意對所有使用者資料與法遵事項負完全責任。纸环及其開發者，以及其所基於的開源 Stirling-PDF 引擎的開發者，對您的法律義務不承擔任何責任。"
 title = "法律責任警示"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "SMTP 驗證使用者名稱"
 label = "SMTP 使用者名稱"
 
 [admin.settings.mcp]
-apikeyNote = "用戶端會在 X-API-KEY 標頭（或 Authorization: Bearer <key>）傳送 Stirling API 金鑰。該金鑰會對應到擁有它的 Stirling 使用者，只有已佈建的帳號可以存取，所有動作都會以該使用者身分留下稽核記錄。請在 [帳號] > [API 金鑰] 管理金鑰。"
-description = "透過受 OAuth 保護的端點，向 MCP 用戶端公開 Stirling 的 PDF 工具與 AI 代理。"
+apikeyNote = "用戶端會在 X-API-KEY 標頭（或 Authorization: Bearer <key>）傳送纸环 API 金鑰。該金鑰會對應到擁有它的纸环使用者，只有已佈建的帳號可以存取，所有動作都會以該使用者身分留下稽核記錄。請在 [帳號] > [API 金鑰] 管理金鑰。"
+description = "透過受 OAuth 保護的端點，向 MCP 用戶端公開纸环的 PDF 工具與 AI 代理。"
 title = "MCP 伺服器"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "標頭傳送金鑰（或 Authorization: Bearer <key>）。此模
 step4 = "核准登入；用戶端會使用權杖重試。工具會分組顯示：convert、pages、misc、security、ai。"
 step4ApiKey = "工具會分組顯示：convert、pages、misc、security、ai，且每次呼叫都會以金鑰擁有者身分留下稽核記錄。"
 tip = "提示：請在 IdP 中將資源 ID 註冊為允許的 audience。已使用 MCP Inspector 與 Claude Desktop 測試。"
-tipApiKey = "提示：API 金鑰模式不需要外部 IdP，最適合自架。金鑰會對應到擁有它的 Stirling 使用者。"
+tipApiKey = "提示：API 金鑰模式不需要外部 IdP，最適合自架。金鑰會對應到擁有它的纸环使用者。"
 title = "連線 MCP 用戶端"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL（選填）"
 placeholder = "從發行者自動探索"
 
 [admin.settings.mcp.mode]
-apikey = "API key（Stirling 每位使用者金鑰）"
-description = "OAuth 需要外部 IdP。API 金鑰模式會使用 Stirling 的個別使用者 API 金鑰（X-API-KEY），最適合自架。"
+apikey = "API key（纸环每位使用者金鑰）"
+description = "OAuth 需要外部 IdP。API 金鑰模式會使用纸环的個別使用者 API 金鑰（X-API-KEY），最適合自架。"
 label = "驗證模式"
 oauth = "OAuth 2.1（外部 IdP）"
 
 [admin.settings.mcp.requireAccount]
-description = "只有在權杖 subject 對應到已佈建且已啟用的 Stirling 使用者時，才會放行。"
-label = "要求既有 Stirling 帳號"
+description = "只有在權杖 subject 對應到已佈建且已啟用的纸环使用者時，才會放行。"
+label = "要求既有纸环帳號"
 
 [admin.settings.mcp.resourceId]
 description = "此伺服器公開的 /mcp URL。權杖必須在 audience 中列出此值（RFC 8707），否則會被拒絕。"
@@ -1540,7 +1540,7 @@ description = "讀取作業需要 mcp.tools.read，寫入與 AI 作業需要 mcp
 label = "強制檢查 OAuth scope"
 
 [admin.settings.mcp.usernameClaim]
-description = "用來比對 Stirling 使用者名稱的 JWT claim（例如 sub、email、preferred_username）。"
+description = "用來比對纸环使用者名稱的 JWT claim（例如 sub、email、preferred_username）。"
 label = "使用者名稱 claim"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "啟用後，只有清單中的使用者 ID 可使用機器人。"
 label = "僅允許特定使用者 ID"
 
 [admin.settings.telegram.enabled]
-description = "允許使用者透過您設定的 Telegram 機器人操作 Stirling PDF。"
+description = "允許使用者透過您設定的 Telegram 機器人操作纸环。"
 label = "啟用 Telegram 機器人"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "這裡是 <strong>設定面板</strong>。管理設定依類
 systemCustomization = "我們提供多種自訂介面的方法：<strong>系統設定</strong> 可變更應用程式名稱與語言，<strong>功能</strong> 可管理伺服器憑證，<strong>端點</strong> 可為您的使用者啟用或停用特定工具。"
 teamsAndUsers = "在此管理 <strong>團隊</strong> 與個別使用者。您可透過電子郵件、可分享連結邀請新使用者，或自行為他們建立自訂帳號。"
 welcome = "歡迎使用 <strong>管理員導覽</strong>！一起探索提供系統管理員使用的強大企業功能與設定。"
-wrapUp = "管理員導覽到此結束！您已了解讓 Stirling PDF 成為組織強大且可自訂解決方案的企業功能。您可以隨時重新播放導覽，只要開啟 <strong>設定</strong>，並在說明下的 <strong>導覽</strong> 區段中找到它。"
+wrapUp = "管理員導覽到此結束！您已了解讓纸环成為組織強大且可自訂解決方案的企業功能。您可以隨時重新播放導覽，只要開啟 <strong>設定</strong>，並在說明下的 <strong>導覽</strong> 區段中找到它。"
 
 [adminUserSettings]
 admin = "管理員"
 title = "使用者控制設定"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "纸环"
 
 [alphabetOptions]
 arabic = "阿拉伯文"
@@ -1952,9 +1952,9 @@ thai = "泰文"
 
 [analytics]
 learnMore = "進一步了解我們的分析功能"
-paragraph1 = "Stirling PDF 提供選擇加入的分析功能，協助我們改善產品。我們不會追蹤任何個人資訊或檔案內容。"
-paragraph2 = "請考慮啟用分析功能，以協助 Stirling-PDF 成長並讓我們更了解使用者需求。"
-title = "您想協助讓 Stirling PDF 變得更好嗎？"
+paragraph1 = "纸环提供選擇加入的分析功能，協助我們改善產品。我們不會追蹤任何個人資訊或檔案內容。"
+paragraph2 = "請考慮啟用分析功能，以協助纸环成長並讓我們更了解使用者需求。"
+title = "您想協助讓纸环變得更好嗎？"
 
 [annotate]
 tags = "註解,醒目提示,繪製,標記,評論,筆記,審閱,紅線,意見回饋,標記工具,便利貼,形狀,箭頭,文字方塊,手繪"
@@ -2902,9 +2902,9 @@ typeSignature = "輸入姓名以建立簽名"
 uploadCert = "上傳憑證"
 uploadCertDesc = "使用您自己的 PKCS12、PFX、PEM 或 JKS 憑證。"
 uploadSignature = "上傳簽名圖片"
-usePersonalCert = "Stirling Sign · 個人"
+usePersonalCert = "纸环 Sign · 個人"
 usePersonalCertDesc = "使用為您的帳戶建立的憑證簽署。"
-useServerCert = "Stirling Sign · 組織"
+useServerCert = "纸环 Sign · 組織"
 useServerCertDesc = "使用此伺服器的共用組織憑證簽署。"
 useSignature = "使用簽名"
 
@@ -3224,10 +3224,10 @@ text = "詢問關於文件的問題，或取得 PDF 工具的協助。"
 
 [chat.fab]
 close = "關閉聊天"
-open = "開啟 Stirling AI 助理"
+open = "開啟纸环 AI 助理"
 
 [chat.header]
-agentMenu = "Stirling 代理選項"
+agentMenu = "纸环代理選項"
 assistant = "AI 助理"
 clearChat = "清除聊天"
 
@@ -3587,9 +3587,9 @@ label = "依類型分類的文件：{{summary}}"
 noTypes = "這些文件不符合已知類型。"
 
 [classificationDemo.defaultApp]
-body = "將 Stirling 設為預設 PDF 應用程式。無論從電子郵件、瀏覽器或桌面開啟 PDF，都會在這裡開啟，供閱讀或編輯。隨時可在 [設定] 中變更。"
-cta = "將 Stirling 設為我的預設"
-title = "使用 Stirling 開啟所有 PDF"
+body = "將纸环設為預設 PDF 應用程式。無論從電子郵件、瀏覽器或桌面開啟 PDF，都會在這裡開啟，供閱讀或編輯。隨時可在 [設定] 中變更。"
+cta = "將纸环設為我的預設"
+title = "使用纸环開啟所有 PDF"
 
 [classificationDemo.followUp]
 background = "處理會在背景執行。左側的圓環會顯示進度。"
@@ -3604,7 +3604,7 @@ other = "其他"
 body = "依類型分類並整理 [下載] 資料夾中最新的 {{count}} 個 PDF 檔案。"
 cta = "處理下載資料夾"
 privacy = "PDF 檔案會留在此裝置；連線的伺服器會記錄處理用量。"
-title = "看看 Stirling 如何處理整個資料夾"
+title = "看看纸环如何處理整個資料夾"
 
 [classificationDemo.phase]
 finishing = "正在完成最後步驟..."
@@ -3618,10 +3618,10 @@ counts = "個 PDF 檔案已處理，共 {{total}} 個"
 [classificationDemo.results]
 documentCount_one = "{{count}} 個 PDF"
 documentCount_other = "{{count}} 個 PDF"
-failedBody = "Stirling 無法讀取 [下載] 資料夾。電腦上的所有內容均未變更。"
+failedBody = "纸环無法讀取 [下載] 資料夾。電腦上的所有內容均未變更。"
 failedTitle = "未能完成處理"
 heading = "下載資料夾已整理完成"
-summary = "Stirling 已讀取 {{documents}}，並分為 {{types}}。"
+summary = "纸环已讀取 {{documents}}，並分為 {{types}}。"
 typeCount_one = "{{count}} 種類型"
 typeCount_other = "{{count}} 種類型"
 
@@ -3947,14 +3947,14 @@ upgradeButton = "升級帳號"
 
 [config.apiKeys]
 copyKeyAriaLabel = "複製 API 金鑰"
-description = "用於存取 Stirling 的 PDF 工具套件的 API 金鑰。將它複製到您的專案，或重新產生以建立新金鑰。"
-docsDescription = "深入了解如何與 Stirling PDF 整合："
+description = "用於存取纸环的 PDF 工具套件的 API 金鑰。將它複製到您的專案，或重新產生以建立新金鑰。"
+docsDescription = "深入了解如何與纸环整合："
 docsLink = "API 文件"
 docsTitle = "API 文件"
 generateError = "無法產生您的 API 金鑰。"
 goToAccount = "前往帳號"
 guestInfo = "訪客不會取得 API 金鑰。建立帳號即可取得可在您的應用程式中使用的 API 金鑰。"
-intro = "使用您的 API 金鑰以程式方式存取 Stirling PDF 的處理能力。"
+intro = "使用您的 API 金鑰以程式方式存取纸环的處理能力。"
 label = "API 金鑰"
 publicKeyAriaLabel = "公開 API 金鑰"
 refreshAriaLabel = "重新產生 API 金鑰"
@@ -3978,10 +3978,10 @@ title = "重新產生 API 金鑰"
 warning = "⚠️ 警告：此動作將產生新的 API 金鑰，並使您先前的金鑰失效。"
 
 [config.mcp]
-description = "Model Context Protocol（MCP）可讓 Claude 等 AI 助理直接使用 Stirling PDF 工具。只要連線一次用戶端，助理就能代為轉換、編輯、保護及處理文件。"
-guestInfo = "訪客無法連線 MCP 用戶端。請建立帳號以使用 MCP 伺服器，讓 AI 助理代為執行 Stirling PDF 工具。"
+description = "Model Context Protocol（MCP）可讓 Claude 等 AI 助理直接使用纸环工具。只要連線一次用戶端，助理就能代為轉換、編輯、保護及處理文件。"
+guestInfo = "訪客無法連線 MCP 用戶端。請建立帳號以使用 MCP 伺服器，讓 AI 助理代為執行纸环工具。"
 navLabel = "MCP 伺服器"
-tip = "助理執行的每個動作都會以您的帳號身分進行，並計入您的使用量，就像直接使用 Stirling PDF 一樣。"
+tip = "助理執行的每個動作都會以您的帳號身分進行，並計入您的使用量，就像直接使用纸环一樣。"
 viewApiKeys = "檢視 API 金鑰"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "您的 MCP 端點"
 
 [config.mcp.setup]
 addTo = "新增至"
-hint = "選擇用戶端，將片段貼到畫面顯示的檔案，然後重新啟動。首次使用時會以 Stirling 帳號登入，不需要複製金鑰。"
+hint = "選擇用戶端，將片段貼到畫面顯示的檔案，然後重新啟動。首次使用時會以纸环帳號登入，不需要複製金鑰。"
 title = "連線 AI 助理"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "第 {{current}} 步，共 {{total}} 步"
 [connect.confirm]
 acknowledge = "我確認此位址，並要將它連結到我的團隊"
 approve = "連結伺服器"
-cannotDecide = "只有團隊擁有者可以核准或拒絕此連線。請使用其他帳戶，或關閉此提示以繼續使用 Stirling。"
+cannotDecide = "只有團隊擁有者可以核准或拒絕此連線。請使用其他帳戶，或關閉此提示以繼續使用纸环。"
 deny = "拒絕"
 dismiss = "關閉"
-lead = "一台 Stirling 伺服器正在要求連結到您的團隊。核准前，請確認下方位址是您的。"
+lead = "一台纸环伺服器正在要求連結到您的團隊。核准前，請確認下方位址是您的。"
 originLabel = "位址"
 signedInAs = "登入身分"
 switchAccount = "使用其他帳號"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "請先選擇來源格式"
 settings = "設定"
 single = "單一"
 sourceFormatPlaceholder = "來源格式"
-stirlingOfficeConvert = "使用 Stirling Office Convert（測試版）"
+stirlingOfficeConvert = "使用 纸环 Office Convert（測試版）"
 stirlingOfficeConvertDescription = "以更少記憶體進行更好、更快速的轉換。關閉此選項以使用標準轉換器。"
 strictMode = "嚴格模式"
 strictModeDesc = "轉換不完美時回報錯誤（使用 VeraPDF 驗證）"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "管理偏好設定"
 title = "我們如何使用 Cookies"
 
 [cookieBanner.popUp.description]
-1 = "我們使用 cookies 和其他技術，讓 Stirling PDF 更好地為您服務，協助我們改進工具並持續打造您會喜愛的功能。"
+1 = "我們使用 cookies 和其他技術，讓纸环更好地為您服務，協助我們改進工具並持續打造您會喜愛的功能。"
 2 = "如果您仍不想，點選「不，謝謝」只會開啟必要的 Cookies 好讓網站功能保持運作"
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Cookies 的用途"
 title = "喜好設定中心"
 
 [cookieBanner.preferencesModal.analytics]
-description = "這些 cookies 協助我們了解工具的使用方式，讓我們能專注打造社群最重視的功能。請放心，Stirling PDF 無法也絕不會追蹤您處理的文件內容。"
+description = "這些 cookies 協助我們了解工具的使用方式，讓我們能專注打造社群最重視的功能。請放心，纸环無法也絕不會追蹤您處理的文件內容。"
 title = "分析 Cookies"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF 使用 Cookies 與其他相似技術去改善您的體驗和分析您如何使用我們的工具。這有助於我們改善效能、開發您注目的功能，和提供使用者協助。"
-2 = "Stirling PDF 無法也絕不會追蹤或存取您使用的文件內容。"
+1 = "纸环使用 Cookies 與其他相似技術去改善您的體驗和分析您如何使用我們的工具。這有助於我們改善效能、開發您注目的功能，和提供使用者協助。"
+2 = "纸环無法也絕不會追蹤或存取您使用的文件內容。"
 3 = "您的隱私和信任是我們的核心理念。"
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "設定預設 PDF 處理程式失敗"
 title = "錯誤"
 
 [defaultApp.settingsOpened]
-message = "在 Windows 設定中搜尋「PDF」，並選擇 Stirling PDF 作為您的預設應用程式"
+message = "在 Windows 設定中搜尋「PDF」，並選擇纸环作為您的預設應用程式"
 title = "已開啟設定"
 
 [defaultApp.success]
-message = "Stirling PDF 已成為您的預設 PDF 編輯器"
+message = "纸环已成為您的預設 PDF 編輯器"
 title = "已設為預設應用程式"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "最小化"
 restore = "還原"
 
 [desktopBilling]
-description = "在瀏覽器中管理使用量與帳務。請使用您在此處使用的相同 Stirling 帳戶登入。"
+description = "在瀏覽器中管理使用量與帳務。請使用您在此處使用的相同纸环帳戶登入。"
 open = "在瀏覽器中開啟使用量與帳務"
 openFailed = "無法開啟使用量與帳務。請檢查您的連線後再試一次。"
 selfHostedDescription = "在瀏覽器中於已連線的伺服器上管理使用量與帳務。請使用您的伺服器擁有者帳戶登入。"
@@ -4377,7 +4377,7 @@ updateFailedMessage = "下載或安裝更新失敗。"
 
 [desktopUpdate.blocked]
 docsLink = "檢視安裝文件"
-message = "Stirling PDF 在此裝置上沒有自行更新的權限。"
+message = "纸环在此裝置上沒有自行更新的權限。"
 title = "需要系統管理員權限"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "重新命名"
 title = "重新命名檔案"
 
 [filesPage]
-addedToLibrary = "已新增至 Stirling 資料庫"
-addingToLibrary = "正在新增至 Stirling 資料庫…"
-addToLibrary = "新增至 Stirling 資料庫…"
+addedToLibrary = "已新增至纸环資料庫"
+addingToLibrary = "正在新增至纸环資料庫…"
+addToLibrary = "新增至纸环資料庫…"
 addToLibraryFailed = "部分檔案無法新增"
 addToWorkspace = "加入至工作區"
 addToWorkspaceCount = "將 {{count}} 個加入工作區"
-allFiles = "Stirling 檔案庫"
+allFiles = "纸环檔案庫"
 back = "返回"
 backToFolder = "返回 {{folder}}"
 backToMyFiles = "回到檔案庫"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "同時刪除資料夾內的 {{count}} 個檔案"
 deleteFolderContents_other = "同時刪除資料夾內的 {{count}} 個檔案"
 deleteFolderContentsWarning = "檔案將被永久移除且無法復原。"
 deleteFolderError = "無法刪除資料夾。請再試一次。"
-deleteFolderKeepHint = "資料夾內的檔案會移至 Stirling 檔案庫。"
+deleteFolderKeepHint = "資料夾內的檔案會移至纸环檔案庫。"
 deleteFolderTitle = "要刪除資料夾嗎？"
 deselectAll = "清除選取"
 details = "詳細資料"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "有 {{count}} 個檔案無法在伺服器上移動（
 moveTo = "移至…"
 newFolder = "新增資料夾"
 newFolderStorageDisabled = "伺服器資料夾儲存未啟用。"
-newFolderTabUnavailable = "請切換至 [Stirling 檔案庫] 以建立資料夾。"
+newFolderTabUnavailable = "請切換至 [纸环檔案庫] 以建立資料夾。"
 offlineNoFolderEdits = "無法同步伺服器資料夾—已停用資料夾變更。請檢查登入與儲存設定。"
 open = "開啟"
 openVersionInWorkspace = "在工作區開啟"
@@ -4856,7 +4856,7 @@ recentFiles = "最近使用"
 refresh = "重新整理"
 refreshNeedsConnection = "登入以從伺服器重新整理。"
 remove = "刪除"
-removeLocalFolder = "從 Stirling 卸除掛載"
+removeLocalFolder = "從纸环卸除掛載"
 removeVersion = "移除此版本"
 rename = "重新命名"
 renamed = "已重新命名"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} 個項目"
 tree = "資料夾"
 unmount = "卸除掛載"
 unmountFolderBody = "要卸除「{{name}}」的掛載嗎？資料夾及其中的檔案仍會保留在磁碟上。"
-unmountFolderTitle = "要從 Stirling 卸除掛載嗎？"
+unmountFolderTitle = "要從纸环卸除掛載嗎？"
 upload = "上傳"
 uploadFromMobile = "從行動裝置上傳"
 versionActions = "版本動作"
@@ -4921,7 +4921,7 @@ orphaned = "磁碟上已無此檔案"
 orphanedHint = "位於 {{path}} 的原始檔案已不存在。目前僅保留這裡的副本，儲存時會請您選擇新的位置。"
 unavailable = "無法使用"
 unavailableHintOffline = "存放此檔案的磁碟機或共用位置尚未連線。重新連線後即可繼續讀取變更。"
-unavailableHintPermission = "Stirling 沒有讀取此位置的權限。請在 [系統設定] 中授予存取權限，以繼續讀取變更。"
+unavailableHintPermission = "纸环沒有讀取此位置的權限。請在 [系統設定] 中授予存取權限，以繼續讀取變更。"
 unavailableHintUnknown = "目前無法存取此檔案。這裡的副本未變更。"
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "資料夾名稱"
 
 [filesPage.folderOrigin]
 diskHint = "從磁碟上的目錄掛載的資料夾"
-serverHint = "儲存在 Stirling 伺服器上的資料夾"
+serverHint = "儲存在纸环伺服器上的資料夾"
 virtualHint = "僅存在於此瀏覽器中的資料夾"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "同步至帳號，登入後即可隨處使用。"
 [filesPage.origin]
 all = "所有來源"
 cloud = "雲端"
-cloudHint = "儲存在 Stirling PDF 伺服器上"
+cloudHint = "儲存在纸环伺服器上"
 diskFileHint = "儲存在你的電腦上"
 diskHint = "磁碟上已掛載資料夾中的檔案"
 local = "本機"
@@ -5474,7 +5474,7 @@ invisible = "隱藏（僅中繼資料）"
 location = "地點："
 logo = "Logo："
 logoHidden = "無 Logo"
-logoShown = "顯示 Stirling PDF Logo"
+logoShown = "顯示纸环 Logo"
 participantCount_one = "已選取 {{count}} 位參與者"
 participantCount_other = "已選取 {{count}} 位參與者"
 participants = "參與者"
@@ -5525,7 +5525,7 @@ title = "以任何順序簽署"
 dismiss = "關閉橫幅"
 message = "建立免費帳號以儲存您的工作、存取更多功能，並支援本專案。"
 signUp = "免費註冊"
-title = "您正以訪客身分使用 Stirling PDF！"
+title = "您正以訪客身分使用纸环！"
 
 [home.addAttachments]
 desc = "檢視、新增、擷取、重新命名或刪除嵌入的 PDF 附件"
@@ -5704,7 +5704,7 @@ tags = "合併,連接,整合,combine,join,unite,merge,merge PDFs,combine PDFs,jo
 title = "合併"
 
 [home.mobile]
-brandAlt = "Stirling PDF Logo"
+brandAlt = "纸环 Logo"
 openFiles = "開啟檔案"
 swipeHint = "向左或向右滑動以切換檢視"
 tools = "工具"
@@ -5743,7 +5743,7 @@ tags = "整理,重新排列,重新排序,organize,rearrange,reorder,organise,arr
 title = "整理"
 
 [home.pdfTextEditor]
-desc = "檢視與編輯 Stirling PDF 的 JSON 匯出，支援群組文字編輯與重新產生 PDF"
+desc = "檢視與編輯纸环的 JSON 匯出，支援群組文字編輯與重新產生 PDF"
 tags = "編輯文字,修改文字,變更文字,編輯內容,更新文字,改寫,校正,修訂,文字編輯器,內容編輯器,edit text,modify text,change text,edit content,update text,rewrite,correct,amend,redline,revise,text editor,content editor"
 title = "PDF 文字編輯器"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "需要密碼"
 signIn = "登入"
 validating = "正在驗證邀請..."
 validationError = "驗證邀請連結失敗"
-welcome = "歡迎使用 Stirling PDF"
+welcome = "歡迎使用纸环"
 welcomeSubtitle = "完成帳號設定即可開始使用"
 welcomeTitle = "您已獲邀！"
 
@@ -6209,7 +6209,7 @@ message = "驗證未成功。您可以關閉此視窗後再試一次。"
 title = "驗證失敗"
 
 [oauth.success]
-message = "您可以關閉此視窗並回到 Stirling PDF。"
+message = "您可以關閉此視窗並回到纸环。"
 title = "驗證成功"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "此授權請求無效或已過期。請關閉此分頁，並從應
 loading = "正在載入授權請求……"
 missingId = "缺少授權請求。請從應用程式開始連線並再試一次。"
 redirecting = "正在回到應用程式……"
-requesting = "{{app}} 想要存取您的 Stirling PDF 帳號"
+requesting = "{{app}} 想要存取您的纸环帳號"
 scopesIntro = "這會允許 {{app}}："
 signedInAs = "以 {{name}} 登入"
 signInButton = "登入以繼續"
-signInPrompt = "請登入 Stirling PDF 帳號以繼續連線應用程式。"
+signInPrompt = "請登入纸环帳號以繼續連線應用程式。"
 title = "授權存取"
 unknownApp = "第三方應用程式"
 
 [oauthConsent.access]
 actAsYou = "以您的身分操作：{{app}} 會使用您的帳號執行所有動作，並計入您的使用量"
-tools = "代為使用 Stirling PDF 工具，轉換、編輯、簽署、保護及處理您的文件"
+tools = "代為使用纸环工具，轉換、編輯、簽署、保護及處理您的文件"
 
 [oauthConsent.scope]
 email = "檢視您的電子郵件地址"
@@ -6362,26 +6362,26 @@ skipTheTour = "略過導覽"
 
 [onboarding.checklist]
 dismiss = "關閉"
-title = "設定 Stirling PDF"
+title = "設定纸环"
 
 [onboarding.checklist.downloadDesktop]
-description = "在您的電腦上原生執行 Stirling"
-title = "下載 Stirling Desktop"
+description = "在您的電腦上原生執行纸环"
+title = "下載纸环 Desktop"
 
 [onboarding.checklist.inviteTeam]
 description = "與您的團隊協作"
 title = "邀請團隊成員"
 
 [onboarding.checklist.setDefaultApp]
-description = "使用 Stirling PDF 開啟 PDF 檔案"
-title = "將 Stirling 設為預設應用程式"
+description = "使用纸环開啟 PDF 檔案"
+title = "將纸环設為預設應用程式"
 
 [onboarding.checklist.takeTour]
-description = "透過快速導覽了解 Stirling 的運作方式"
+description = "透過快速導覽了解纸环的運作方式"
 title = "開始導覽"
 
 [onboarding.desktopInstall]
-body = "Stirling 最適合以桌面應用程式使用。您可以離線操作、更快存取文件，並在電腦本機進行編輯。"
+body = "纸环最適合以桌面應用程式使用。您可以離線操作、更快存取文件，並在電腦本機進行編輯。"
 selectOs = "選擇作業系統"
 title = "下載"
 titleWithOs = "下載適用於 {{osLabel}} 的版本"
@@ -6389,7 +6389,7 @@ titleWithOs = "下載適用於 {{osLabel}} 的版本"
 [onboarding.desktopWelcome]
 body = "有許多新功能等著探索，包括 <strong>AI 代理對話</strong>、文件自動<strong>分類</strong>等。"
 freeLine = "編輯器現在<free>完全免費</free>。"
-title = "歡迎使用 Stirling <product>Desktop</product>"
+title = "歡迎使用纸环 <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "驗證碼"
@@ -6410,21 +6410,21 @@ success = "MFA 已啟用。您現在可以繼續。"
 title = "多因素驗證設定"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "啟用登入模式後，您可以管理使用者、設定參數並監控伺服器健康狀態。伺服器上的前 <strong>{{freeTierLimit}}</strong> 人可免費使用 Stirling。"
-adminBodyLoginEnabled = "身為管理員，您可以管理使用者、設定參數並監控伺服器健康狀態。伺服器上的前 <strong>{{freeTierLimit}}</strong> 人可免費使用 Stirling。"
+adminBodyLoginDisabled = "啟用登入模式後，您可以管理使用者、設定參數並監控伺服器健康狀態。伺服器上的前 <strong>{{freeTierLimit}}</strong> 人可免費使用纸环。"
+adminBodyLoginEnabled = "身為管理員，您可以管理使用者、設定參數並監控伺服器健康狀態。伺服器上的前 <strong>{{freeTierLimit}}</strong> 人可免費使用纸环。"
 adminTitle = "管理員總覽"
 userBody = "邀請隊友、指派角色，並在單一安全的工作區中整理您的文件。當您準備好超越個人使用時，可隨時啟用登入模式。"
 userTitle = "方案總覽"
 
 [onboarding.processorIntro]
-body = "Stirling 現在會執行 <strong>Policies</strong> — 自動化規則會在每份文件抵達時進行分類、保護與處理。請在 <strong>Processor</strong> 中設定並監控執行狀態。"
+body = "纸环現在會執行 <strong>Policies</strong> — 自動化規則會在每份文件抵達時進行分類、保護與處理。請在 <strong>Processor</strong> 中設定並監控執行狀態。"
 cta = "查看 Processor"
-title = "查看 Stirling Processor"
+title = "查看纸环 Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "編輯器現在<free>完全免費</free>。"
 premium = "我們加入了許多新功能，包括 <strong>政策</strong> 與 <strong>代理聊天</strong>。"
-title = "歡迎使用 Stirling"
+title = "歡迎使用纸环"
 
 [onboarding.saas.team]
 addButton = "新增"
@@ -6447,18 +6447,18 @@ title = "安全性檢查"
 [onboarding.serverLicense]
 freeBody = "我們的 <strong>Open-Core</strong> 授權免費提供 <strong>OAuth SSO</strong>，並支援最多 <strong>{{freeTierLimit}}</strong> 位使用者。若要無縫擴充，我們推薦 Stirling Team 方案 — 每月 99 美元，包含 <strong>100 位使用者</strong>。"
 freeTitle = "Team 方案"
-overLimitBody = "我們的授權允許最多 <strong>{{freeTierLimit}}</strong> 位使用者免費使用。目前有 <strong>{{overLimitUserCopy}}</strong> 位 Stirling 使用者。若要不中斷使用，請升級至 Stirling Team 方案，每月 $99，即可供 <strong>100 位使用者</strong>使用，並享有 PDF 文字編輯與完整管理權限。"
+overLimitBody = "我們的授權允許最多 <strong>{{freeTierLimit}}</strong> 位使用者免費使用。目前有 <strong>{{overLimitUserCopy}}</strong> 位纸环使用者。若要不中斷使用，請升級至 Stirling Team 方案，每月 $99，即可供 <strong>100 位使用者</strong>使用，並享有 PDF 文字編輯與完整管理權限。"
 overLimitTitle = "需要 Team 方案"
 seePlans = "檢視方案 →"
 upgrade = "立即升級 →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 隨附數十種工具與全新版面配置。快速導覽可讓您了解有哪些改變以及在哪裡找到所需功能。"
+body = "纸环 V2 隨附數十種工具與全新版面配置。快速導覽可讓您了解有哪些改變以及在哪裡找到所需功能。"
 title = "導覽總覽"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF 現在已準備好支援各種規模的團隊。此更新包含全新版面、強大的新管理功能，以及大家最期待的功能 - <strong>編輯文字</strong>。"
-title = "歡迎使用 Stirling"
+body = "纸环現在已準備好支援各種規模的團隊。此更新包含全新版面、強大的新管理功能，以及大家最期待的功能 - <strong>編輯文字</strong>。"
+title = "歡迎使用纸环"
 
 [onboarding.whatsNew]
 activeFilesView = "使用「使用中檔案」檢視所有已開啟的內容並選擇要處理的內容。"
@@ -6545,7 +6545,7 @@ check = "再次檢查"
 checkAccount = "檢查帳戶"
 chooseEmail = "在 {{team}} 中選擇他們的帳戶，或輸入電子郵件邀請他們。"
 close = "關閉轉移對話方塊"
-cloudAccount = "Stirling 帳戶"
+cloudAccount = "纸环帳戶"
 cloudScopeStyled = "<user>{{name}}</user> 將管理 {{team}}、其成員與帳務。"
 cloudTargetChanged = "請選擇另一位雲端成員。此帳戶不再符合交接資格。"
 confirm = "我了解存取權與所有權的變更。"
@@ -6560,7 +6560,7 @@ inviteAddress = "邀請 <account>{{email}}</account> 加入 {{team}}。"
 inviteBlocked = "無法傳送邀請。請檢查可用的團隊席位，以及接收者是否已有付費訂閱。"
 linkChanged = "伺服器的雲端連結已變更。請要求伺服器操作員在繼續之前還原原始連結。"
 linkedServerCount = "{{count}} 台已連結伺服器"
-linkRevoked = "此伺服器的雲端連結已不再有效。請取消轉移，然後在設定中重新連線您的 Stirling 帳戶。所有權不會變更。"
+linkRevoked = "此伺服器的雲端連結已不再有效。請取消轉移，然後在設定中重新連線您的纸环帳戶。所有權不會變更。"
 localScope = "他們將擁有此伺服器並管理帳務與雲端連線。您會保留管理員存取權，但會失去對這些設定的存取權。"
 membershipDetails = "團隊成員資格詳細資料"
 membershipFirst = "他們必須先加入團隊，您才能確認轉移。"
@@ -6872,7 +6872,7 @@ benefit1Body = "串接工具、排程執行、批次處理"
 benefit1Title = "自動化管線"
 benefit2Body = "摘要、分類、遮蔽、AI-OCR"
 benefit2Title = "AI 工具"
-benefit3Body = "以程式方式呼叫任何 Stirling 端點"
+benefit3Body = "以程式方式呼叫任何纸环端點"
 benefit3Title = "API 存取"
 button = "啟用 Processor →"
 reassurance = "無最低消費 · 可設 $0 上限測試 · 隨時可取消"
@@ -6962,7 +6962,7 @@ editorLabel = "PDF 編輯器"
 login = "登入"
 manualToolsPromo = "免費且不限量的手動 PDF 工具"
 processorLabel = "PDF 處理器"
-processorTitle = "建立帳號，體驗 Stirling 的強大功能"
+processorTitle = "建立帳號，體驗纸环的強大功能"
 readerLabel = "PDF 閱讀器"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "以 USD 估算。訂閱後可隨時以您自己的幣別調整上限�
 [payg.upgrade.checkout]
 capValue = "每月 {{symbol}}{{amount}}"
 edit = "編輯"
-help = "Stripe 會處理您的卡片詳細資料，Stirling 不會看到這些資料。"
+help = "Stripe 會處理您的卡片詳細資料，纸环不會看到這些資料。"
 loading = "正在載入結帳…"
 noCap = "無上限"
 title = "新增付款方式"
@@ -7010,7 +7010,7 @@ title = "新增付款方式"
 [payg.upgrade.help]
 aiBody = "摘要、分類、遮蔽、AI-OCR"
 aiTitle = "AI 工具"
-apiBody = "以程式方式存取任何 Stirling 端點"
+apiBody = "以程式方式存取任何纸环端點"
 apiTitle = "API 呼叫"
 automationBody = "不需點選即可串接工具或排程執行"
 automationTitle = "自動化管線"
@@ -7870,7 +7870,7 @@ connectDescription = "連結此伺服器，以使用你團隊在 Stirling Cloud 
 disconnectBody = "此伺服器將停止使用團隊在 Stirling Cloud 的處理額度。本機檔案會留在此伺服器上。若要重新連線，請依照原本的連線步驟操作。"
 disconnectTitle = "要中斷此執行個體的連線嗎？"
 eyebrow = "此執行個體"
-linkButton = "連線至 Stirling 帳戶"
+linkButton = "連線至纸环帳戶"
 loading = "正在檢查帳戶連線"
 notLinked = "未連線"
 signedInAs = "登入 Stirling Cloud 的身分："
@@ -7886,14 +7886,14 @@ description = "請你的伺服器管理員啟用與 Stirling Cloud 的連線。"
 title = "無法使用帳戶連線"
 
 [portal.accountLink.connect]
-adminRequired = "請你的伺服器管理員開啟使用量與帳務，並連結 Stirling 帳戶以取得更多每月點數。手動 PDF 工具仍可使用。"
+adminRequired = "請你的伺服器管理員開啟使用量與帳務，並連結纸环帳戶以取得更多每月點數。手動 PDF 工具仍可使用。"
 adminTitle = "請洽你的伺服器管理員"
 close = "關閉"
 copied = "已複製"
 copyAdminMessage = "複製給管理員的訊息"
-exhaustedLede = "此伺服器已用完本月的免費點數。連結新的或現有的 Stirling 帳戶，即可使用團隊的每月額度。"
+exhaustedLede = "此伺服器已用完本月的免費點數。連結新的或現有的纸环帳戶，即可使用團隊的每月額度。"
 notNow = "暫時不要"
-start = "連線至 Stirling 帳戶"
+start = "連線至纸环帳戶"
 step = "第 {{current}} 步，共 {{total}} 步"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "透過付費 Team 方案新增更多使用者"
 teamsLabel = "更大的團隊"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "此瀏覽器尚未登入 Stirling，因此檢視用量與帳務時會要求登入。"
+linkedNotSignedIn = "此瀏覽器尚未登入纸环，因此檢視用量與帳務時會要求登入。"
 retry = "再試一次"
-signedInAnyway = "已登入 Stirling，因此可載入帳務與用量；只有伺服器連結尚未完成。"
+signedInAnyway = "已登入纸环，因此可載入帳務與用量；只有伺服器連結尚未完成。"
 working = "正在完成連線。"
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "此要求已被拒絕或使用過。若非預期結果，請重新提出
 title = "連線未完成"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling 未確認連線，這通常只是暫時狀況。"
+body = "纸环未確認連線，這通常只是暫時狀況。"
 title = "尚未完成"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "剩餘免費點數"
 creditsSuffix = "點可用，共 {{allowance}} 點免費點數"
 cta = "完成"
 inviteTeam = "邀請團隊成員"
-lede = "此伺服器現在使用 Stirling 帳戶的額度進行處理。"
+lede = "此伺服器現在使用纸环帳戶的額度進行處理。"
 pendingTitle = "即將完成"
 switchOnProcessor = "啟用 Processor"
 title = "已連線"
 
 [portal.accountLink.connect.handoff]
-opening = "正在開啟 Stirling 登入..."
-reauthLede = "Stirling 工作階段已過期。再次登入即可繼續檢視用量與帳務。無論是否登入，此伺服器都會保持連線。"
+opening = "正在開啟纸环登入..."
+reauthLede = "纸环工作階段已過期。再次登入即可繼續檢視用量與帳務。無論是否登入，此伺服器都會保持連線。"
 title = "正在連線"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "此伺服器設定的前端位址與目前開啟的位址不
 cancel = "取消"
 continueReauth = "再次登入"
 exhaustedTitle = "讓您的工作流程持續執行"
-identity = "Stirling 帳戶"
-linkTitle = "連結你的 Stirling 帳戶"
-noAuthorizeUrl = "Stirling 未提供可繼續前往的網址。請稍後再試。"
-startFailed = "無法連上 Stirling 以開始連線。請檢查此伺服器的對外網路存取，然後再試一次。"
+identity = "纸环帳戶"
+linkTitle = "連結你的纸环帳戶"
+noAuthorizeUrl = "纸环未提供可繼續前往的網址。請稍後再試。"
+startFailed = "無法連上纸环以開始連線。請檢查此伺服器的對外網路存取，然後再試一次。"
 transferPending = "有一項所有權轉移待處理。請前往設定 → 使用者完成或取消它，然後再次嘗試連結。"
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "讓此伺服器在您回到此頁面時完成連線。"
 and = "和"
 before = "設定"
-title = "尚未設定 Stirling 連線"
+title = "尚未設定纸环連線"
 
 [portal.accountLink.notice]
 openFailed = "無法開啟您的瀏覽器。請在已連線伺服器上開啟「用量與帳務」以連結帳戶。"
@@ -8027,7 +8027,7 @@ viewAll = "檢視所有管線"
 
 [portal.accountLink.rail]
 adminCta = "如何取得更多點數"
-adminSub = "請要求您的伺服器管理員連結 Stirling 帳戶以取得更多點數。手動 PDF 工具仍可使用。"
+adminSub = "請要求您的伺服器管理員連結纸环帳戶以取得更多點數。手動 PDF 工具仍可使用。"
 exhaustedCta = "連結帳戶以取得更多點數"
 exhaustedSub = "連結後可取得每月點數、共用帳務，並可選擇升級到 Team 方案。"
 exhaustedTitle = "此伺服器的免費點數已用完"
@@ -8041,9 +8041,9 @@ malformed = "我們無法驗證此登入回應。請從「用量與帳務」重�
 malformedTitle = "無法驗證登入"
 rejected = "此登入要求遭拒絕或已被使用。請再試一次以續用帳務存取權。"
 rejectedTitle = "尚未完成登入"
-retry = "Stirling 無法完成帳務存取權續用。請稍後再試；您的伺服器仍保持連線。"
+retry = "纸环無法完成帳務存取權續用。請稍後再試；您的伺服器仍保持連線。"
 retryTitle = "尚未恢復帳務存取權"
-success = "您的帳務存取權已續用。此伺服器仍連線到同一個 Stirling 帳戶。"
+success = "您的帳務存取權已續用。此伺服器仍連線到同一個纸环帳戶。"
 title = "更新帳務存取權"
 working = "正在恢復帳務存取權。"
 
@@ -8057,7 +8057,7 @@ close = "關閉助理"
 error = "無法連線到助理。"
 errorWithDetail = "無法連線到助理：{{detail}}"
 inputAriaLabel = "詢問助理"
-inputPlaceholder = "詢問關於 Stirling…"
+inputPlaceholder = "詢問關於纸环…"
 open = "開啟助理"
 send = "傳送"
 title = "助理"
@@ -8102,7 +8102,7 @@ title = "設定您的支出上限"
 [portal.billing.checkout.card]
 fields = "卡號 · MM / YY · CVC · ZIP"
 label = "卡片詳細資料"
-note = "卡片詳細資料由 Stripe 收集。Stirling 絕不儲存 PAN 或 CVC。"
+note = "卡片詳細資料由 Stripe 收集。纸环絕不儲存 PAN 或 CVC。"
 
 [portal.billing.checkout.error]
 title = "無法開始結帳"
@@ -8180,7 +8180,7 @@ users = "使用者"
 [portal.billing.enterprise]
 cta = "取得企業報價"
 sub = "隔離網路部署、SCIM、資料駐留、運作時間 SLA，以及符合需求的合約。"
-title = "在受法規監管的環境中使用 Stirling？"
+title = "在受法規監管的環境中使用纸环？"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "無法開始結帳"
@@ -8458,7 +8458,7 @@ description = "處理後文件的目的地 - bucket、drive、ticket 或 page。
 label = "檔案與附件"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling 會加密儲存此項目，且不會再次顯示。"
+helperText = "纸环會加密儲存此項目，且不會再次顯示。"
 label = "存取權杖"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "再試一次"
 title = "此頁面發生問題"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "纸环"
 noMatches = "沒有符合目前篩選條件的項目"
 occurrences = "{{count}} 次發生"
 searchPlaceholder = "搜尋問題、使用者與錯誤"
@@ -9106,7 +9106,7 @@ description = "此伺服器缺少此步驟所需的軟體，因此作業無法�
 title = "未安裝軟體"
 
 [portal.failures.kind.unknown]
-description = "發生 Stirling 尚無法辨識的問題。"
+description = "發生纸环尚無法辨識的問題。"
 title = "無法辨識的問題"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "開啟 {{name}} 指南"
 openInBrowser = "改在瀏覽器中開啟"
 sectionDesktop = "桌面應用程式"
 sectionSelfHosted = "自架"
-title = "安裝 Stirling PDF Editor"
+title = "安裝纸环 Editor"
 
 [portal.home.download.docker]
 detailBody = "在您的伺服器上執行官方 image。"
@@ -9224,7 +9224,7 @@ usageMonth = "本月用量"
 usageToday = "今日用量"
 
 [portal.infrastructure.apiKeys.empty]
-description = "建立金鑰以開始呼叫 Stirling API。"
+description = "建立金鑰以開始呼叫纸环 API。"
 title = "尚無 API 金鑰"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "完成"
 keyNameLabel = "金鑰名稱"
 keyNamePlaceholder = "例如：Production ingest"
 secretKeyCaption = "秘密金鑰"
-secretWarning = "請將此儲存在 secrets manager 中。Stirling 只會儲存 hash，因此之後無法復原。"
+secretWarning = "請將此儲存在 secrets manager 中。纸环只會儲存 hash，因此之後無法復原。"
 subtitle = "為金鑰命名，方便您日後識別。您可以隨時撤銷它。"
 subtitleCreated = "立即複製此秘密 — 之後不會再顯示。"
 title = "建立 API 金鑰"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} 個連線"
 connectionCount_other = "{{count}} 個連線"
 customApi = "自訂 API"
 searchPlaceholder = "搜尋整合"
-subtitle = "Stirling 可連接的一切。憑證只需在此建立一次，之後由來源、政策和管線參照。"
+subtitle = "纸环可連接的一切。憑證只需在此建立一次，之後由來源、政策和管線參照。"
 title = "整合"
 typedName = "{{tool}} 名稱"
 
@@ -10183,8 +10183,8 @@ saveFailed = "無法儲存管線。請再試一次。"
 
 [portal.policies.wizard.locations]
 aiSettings = "開啟 AI 設定"
-builtin = "Stirling 知識庫"
-builtinHelp = "在 Stirling 中索引可搜尋區塊，並將處理後的 PDF 傳回下方目的地。必須在 AI 設定中設定嵌入提供者。"
+builtin = "纸环知識庫"
+builtinHelp = "在纸环中索引可搜尋區塊，並將處理後的 PDF 傳回下方目的地。必須在 AI 設定中設定嵌入提供者。"
 checking = "正在檢查擷取可用性..."
 chooseOutput = "儲存前請選擇已啟用的輸出目的地。"
 chooseSource = "選擇文件來源"
@@ -10276,7 +10276,7 @@ title = "尚無流程"
 
 [portal.processorFlow.sources]
 comingSoonTag = "連線"
-editor = "Stirling PDF 編輯器"
+editor = "纸环編輯器"
 heading = "來源"
 perDay = "{{n}} / 24h"
 
@@ -10463,7 +10463,7 @@ gatingAction = "接受您的報價"
 label = "報價"
 
 [portal.procurement.journeySteps.trial]
-blurb = "以您的文件和工作流程評估 Stirling。"
+blurb = "以您的文件和工作流程評估纸环。"
 gatingAction = "建立您的報價"
 label = "試用"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "這是您的試用授權檔案。協議就緒後，請回來再
 
 [portal.procurement.link]
 cta = "連結帳戶"
-description = "採購流程會在您連結的 Stirling 帳戶上執行：我們會用它來佈建試用、為報價定價並開始計費。連結帳戶即可開始。"
+description = "採購流程會在您連結的纸环帳戶上執行：我們會用它來佈建試用、為報價定價並開始計費。連結帳戶即可開始。"
 eyebrow = "企業版"
 title = "連結您的帳戶以開始"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "受管理，最快開始"
 continue = "繼續"
 deployment = "要部署到哪裡？"
-eula = "我同意 Stirling EULA 與商業條款。"
+eula = "我同意纸环 EULA 與商業條款。"
 fullName = "全名"
 fullNamePlaceholder = "您的姓名"
 invites = "邀請團隊成員 · 選填"
@@ -10565,7 +10565,7 @@ account-link = "帳戶連線"
 [portal.shell.sidebar]
 appEditor = "編輯器"
 appProcessor = "處理器"
-linkAccount = "連結 Stirling 帳戶"
+linkAccount = "連結纸环帳戶"
 primaryNav = "主要導覽"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "搜尋"
 
 [portal.sources]
 processingModeHelp = "追蹤模式會保留原始檔案，每個版本只處理一次。快照模式會保留原始檔案，並在每次執行時重新處理。取用模式會在成功傳送後刪除原始檔案。"
-subtitle = "可重複使用的輸入連線，將文件送入 Stirling。設定一次連線後，即可從任意數量的政策參照它。點選資料列即可檢視其設定，以及使用它的政策。"
+subtitle = "可重複使用的輸入連線，將文件送入纸环。設定一次連線後，即可從任意數量的政策參照它。點選資料列即可檢視其設定，以及使用它的政策。"
 title = "來源"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "此伺服器的每月點數由所有使用者共用，因此只有�
 barAria = "剩餘免費點數"
 capSuffix_one = "本月 {{allowance}} 個免費點數中剩餘"
 capSuffix_other = "本月 {{allowance}} 個免費點數中剩餘"
-connect = "連線至 Stirling 帳戶"
+connect = "連線至纸环帳戶"
 connectBody = "連線後可額外取得一份每月額度、提高此伺服器的使用者人數上限，並啟用 Processor。"
-connectTitle = "此伺服器沒有 Stirling 帳戶"
+connectTitle = "此伺服器沒有纸环帳戶"
 loadError = "無法讀取此伺服器的點數使用量。請稍後再試。"
 loadErrorTitle = "無法載入點數使用量"
 resets = "於 {{date}} 重設"
 
 [portal.usage.sessionExpired]
-body = "您的 Stirling 帳戶工作階段已過期。請重新登入以檢視帳務 — 您的執行個體會保持連結。"
+body = "您的纸环帳戶工作階段已過期。請重新登入以檢視帳務 — 您的執行個體會保持連結。"
 
 [portal.users]
 title = "使用者"
@@ -11129,7 +11129,7 @@ files = "檔案"
 account = "帳號"
 docs = "說明文件"
 editor = "編輯器"
-home = "Stirling"
+home = "纸环"
 invite = "邀請"
 landmark = "快速導覽"
 noProcessorAccess = "請聯絡管理員以取得 Processor 存取權"
@@ -11682,8 +11682,8 @@ hideTools = "隱藏無法使用的工具 ▴"
 messageNoFallback = "在您的伺服器恢復連線前，這些工具無法使用。"
 messageWithFallback = "部分工具需要伺服器連線。"
 showTools = "檢視無法使用的工具 ▾"
-title = "無法連線至您的 Stirling-PDF 伺服器"
-toolNotAvailableLocally = "您的 Stirling-PDF 伺服器已離線，且本機後端無法使用「{{endpoint}}」。"
+title = "無法連線至您的纸环伺服器"
+toolNotAvailableLocally = "您的纸环伺服器已離線，且本機後端無法使用「{{endpoint}}」。"
 
 [session]
 expired = "您的工作階段已過期。請重新整理頁面並再試一次。"
@@ -11755,7 +11755,7 @@ unknown = "無資料"
 yourTeam = "您的團隊"
 
 [settings.connection]
-description = "在這台電腦上以本機模式工作，或讓應用程式連線至 Stirling 伺服器。"
+description = "在這台電腦上以本機模式工作，或讓應用程式連線至纸环伺服器。"
 localDescription = "您正使用本機後端且未登入帳號。部分需要雲端處理或自架伺服器的工具無法使用。"
 logout = "登出"
 server = "伺服器"
@@ -11770,7 +11770,7 @@ selfhosted = "自架"
 
 [settings.developer]
 apiKeys = "API 金鑰"
-apiKeysDescription = "用於從指令碼和整合呼叫 Stirling API 的個人金鑰。"
+apiKeysDescription = "用於從指令碼和整合呼叫纸环 API 的個人金鑰。"
 title = "開發者"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "自動解壓縮檔案上限"
 autoUnzipFileLimitTooltip = "僅在 ZIP 含有不超過此數量的檔案時解壓縮。提高數值可解壓較大的 ZIP。"
 autoUnzipTooltip = "自動解壓縮 API 操作回傳的 ZIP 檔案。停用以保留 ZIP 檔不變。這不會影響自動化工作流程。"
 defaultPdfEditor = "預設 PDF 編輯器"
-defaultPdfEditorActive = "Stirling PDF 是您的預設 PDF 編輯器"
+defaultPdfEditorActive = "纸环是您的預設 PDF 編輯器"
 defaultPdfEditorChecking = "正在檢查..."
 defaultPdfEditorInactive = "已由其他應用程式設為預設"
 defaultPdfEditorSet = "已是預設"
@@ -11849,7 +11849,7 @@ updateBehavior = "更新行為"
 updateBehaviorDescription = "選擇是否在安裝更新前提示、自動安裝，或完全略過更新檢查。"
 updateBehaviorError = "無法變更更新行為"
 updateBehaviorErrorLocked = "此設定已由管理員鎖定。"
-updateBehaviorLockedDescription = "您的管理員已設定 Stirling PDF 在此裝置上的更新處理方式。若要變更，請與其聯絡。"
+updateBehaviorLockedDescription = "您的管理員已設定纸环在此裝置上的更新處理方式。若要變更，請與其聯絡。"
 updateBehaviorSaved = "已儲存更新行為。"
 versionMismatch = "您的桌面應用程式與伺服器正在執行不同版本。請將兩者更新至相同版本，以避免相容性問題。"
 viewDetails = "檢視詳細資料"
@@ -12074,7 +12074,7 @@ emptyUsername = "請輸入您的使用者名稱"
 oauthFailed = "OAuth 登入失敗。請再試一次。"
 
 [setup.saas]
-title = "登入 Stirling"
+title = "登入纸环"
 
 [setup.selfhosted]
 changeServerLocked = "您的組織已將此應用程式限制於特定伺服器"
@@ -12120,7 +12120,7 @@ step3 = "重新啟動伺服器"
 title = "未啟用登入"
 
 [setup.server.url]
-description = "輸入您自架 Stirling PDF 伺服器的完整 URL"
+description = "輸入您自架纸环伺服器的完整 URL"
 label = "伺服器 URL"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "請填寫所有欄位"
 signUp = "註冊"
 signUpWith = "使用以下方式註冊"
 skip = "略過"
-subtitle = "加入 Stirling PDF 以開始使用"
+subtitle = "加入纸环以開始使用"
 title = "建立帳號"
 unableToAccessTool = "無法存取工具：{{error}}"
 unexpectedError = "未預期的錯誤：{{message}}"
@@ -12856,7 +12856,7 @@ download = "下載"
 downloaded = "已下載"
 downloadFailed = "無法下載此檔案。"
 downloadsCount = "下載次數：{{count}}"
-emailWarningBody = "此輸入看起來像是電子郵件地址。如果此人尚未成為 Stirling PDF 使用者，將無法存取該檔案。"
+emailWarningBody = "此輸入看起來像是電子郵件地址。如果此人尚未成為纸环使用者，將無法存取該檔案。"
 emailWarningConfirm = "仍要共用"
 emailWarningTitle = "電子郵件地址"
 errorTitle = "共用失敗"
@@ -12887,7 +12887,7 @@ manageTitle = "管理共用"
 noActivity = "尚無活動記錄。"
 noLinks = "尚無有效的共用連結。"
 noSharedUsers = "目前尚無使用者擁有存取權限。"
-openInApp = "在 Stirling PDF 中開啟"
+openInApp = "在纸环中開啟"
 ownerLabel = "擁有者"
 ownerUnknown = "未知"
 removeLink = "移除連結"
@@ -12945,7 +12945,7 @@ all = "全部"
 ariaLabel = "超級搜尋"
 filtersAriaLabel = "搜尋篩選器"
 hint = "輸入以搜尋"
-placeholder = "搜尋 Stirling"
+placeholder = "搜尋纸环"
 placeholderShort = "搜尋"
 showLess = "顯示較少"
 showMore = "再顯示 {{count}} 個"
@@ -12959,7 +12959,7 @@ settings = "設定"
 tools = "工具"
 
 [survey]
-title = "Stirling-PDF 問卷"
+title = "纸环問卷"
 
 [swagger]
 clickHere = "點選這裡"
@@ -13128,7 +13128,7 @@ favorites = "我的最愛"
 heading = "所有工具（全螢幕檢視）"
 noResults = "嘗試調整搜尋或切換說明以找到所需內容。"
 recommended = "建議"
-selfHostedOffline = "需要您的 Stirling-PDF 伺服器（目前離線）："
+selfHostedOffline = "需要您的纸环伺服器（目前離線）："
 showDetails = "顯示詳細資料"
 unavailable = "已被伺服器管理員停用："
 unavailableDependency = "無法使用 - 伺服器缺少必要工具："
@@ -13137,7 +13137,7 @@ unfavorite = "從我的最愛移除"
 [toolPanel.modePrompt]
 chooseFullscreen = "使用全螢幕模式"
 chooseSidebar = "使用側邊欄模式"
-description = "預覽兩種版面，決定如何瀏覽 Stirling PDF 工具。"
+description = "預覽兩種版面，決定如何瀏覽纸环工具。"
 dismiss = "稍後再說"
 fullscreenDescription = "在覆蓋工作區的工具目錄中瀏覽所有工具，直到選定為止。"
 fullscreenTitle = "全螢幕模式 -（舊版）"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "正在載入詳細資訊..."
 migrationGuide = "遷移指南"
 migrationGuides = "遷移指南"
 migrationGuidesDesc = "更新前請先檢閱重要變更。"
-modalSubtitle = "新版 Stirling PDF 已準備好安裝。"
+modalSubtitle = "新版纸环已準備好安裝。"
 modalTitle = "有可用更新"
 notes = "發行說明"
 releaseNotes = "版本資訊"
@@ -13230,7 +13230,7 @@ urgent = "緊急"
 attentionBody = "您的管理員需要登入以檢視更多資訊。請立即聯絡他們。"
 attentionBodyAdmin = "請檢視授權需求以維持此伺服器合規。"
 attentionTitle = "此伺服器需要管理員關注"
-message = "充分運用 Stirling PDF，享有 100 位使用者、PDF 文字編輯及進階功能"
+message = "充分運用纸环，享有 100 位使用者、PDF 文字編輯及進階功能"
 seeInfo = "檢視資訊"
 title = "升級至 Team 方案"
 upgradeButton = "立即升級"
@@ -13368,7 +13368,7 @@ authWeb = "密碼"
 create = "建立帳戶"
 createSubtitle = "使用密碼或 SSO 建立自架帳戶。"
 createTitle = "建立帳戶"
-editorDesc = "在 Stirling PDF Editor 中編輯 PDFs。每個人都會獲得此權限。"
+editorDesc = "在纸环 Editor 中編輯 PDFs。每個人都會獲得此權限。"
 email = "Email 地址"
 emailError = "請輸入有效的 email 地址"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "邀請已送出，但尚無法授予 Processor 存取權 �
 processorDesc = "治理介面、執行 pipelines、agents 和 API。"
 role = "角色"
 send2 = "傳送邀請"
-subtitle2 = "他們會收到電子郵件以加入您的 Stirling 工作區。"
+subtitle2 = "他們會收到電子郵件以加入您的纸环工作區。"
 team = "團隊"
 title = "邀請成員"
 username = "使用者名稱"
@@ -13525,7 +13525,7 @@ downloads = "下載"
 entryLabel = "簽章摘要"
 filesEvaluated_one = "已評估 {{count}} 個檔案"
 filesEvaluated_other = "已評估 {{count}} 個檔案"
-footer = "透過 Stirling PDF 驗證"
+footer = "透過纸环驗證"
 generatedAt = "產生時間"
 noPdf = "成功驗證後將提供 PDF 報告。"
 page = "頁"
@@ -13718,7 +13718,7 @@ text = "文字"
 addFile = "新增檔案"
 count_one = "此文件集中有 {{count}} 個檔案"
 count_other = "此文件集中有 {{count}} 個檔案"
-import = "匯入至 Stirling"
+import = "匯入至纸环"
 importFailed = "無法將此檔案新增至工作區。"
 memberUnavailable = "無法從文件集中讀取此檔案。"
 preview = "預覽"

@@ -3,7 +3,7 @@ import { loginAndSetup } from "@app/tests/helpers/login";
 import * as path from "path";
 import * as fs from "fs";
 
-// In dev environments where the Stirling backend ships with login disabled
+// In dev environments where the PaperRing backend ships with login disabled
 // (anonymous-mode), `loginAndSetup` will throw because /login doesn't render.
 async function loginIfNeeded(
   page: import("@playwright/test").Page,

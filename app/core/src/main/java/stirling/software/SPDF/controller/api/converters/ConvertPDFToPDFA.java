@@ -2359,7 +2359,7 @@ public class ConvertPDFToPDFA {
             }
         }
 
-        info.setProducer("Stirling-PDF Sanitizer");
+        info.setProducer("纸环 PaperRing");
     }
 
     private void removeForbiddenActions(PDDocument doc) {

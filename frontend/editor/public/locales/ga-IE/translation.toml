@@ -55,7 +55,7 @@ keepWorking = "Lean ort ag obair"
 loading = "Á lódáil..."
 loginAgreementAccept = "Glac leis"
 loginAgreementDecline = "Diúltaigh"
-loginAgreementProvider = "Soláthraíonn do riarthóir an fógra seo, ní Stirling PDF Inc."
+loginAgreementProvider = "Soláthraíonn do riarthóir an fógra seo, ní PaperRing"
 loginAgreementTitle = "Comhaontú Logála Isteach"
 logOut = "Logáil amach"
 marginTooltip = "Fad idir an uimhir leathanaigh agus imeall na leathanaigh."
@@ -668,8 +668,8 @@ description = "Am reatha uasta"
 label = "Teorainn Ama (nóiméid)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Tá Stirling Office Convert i mbéite. Cuireann sé tiontuithe níos fearr ar fáil, níos tapúla agus le níos lú cuimhne ná LibreOffice."
-label = "Úsáid tiontú nua Stirling Office"
+description = "Tá PaperRing Office Convert i mbéite. Cuireann sé tiontuithe níos fearr ar fáil, níos tapúla agus le níos lú cuimhne ná LibreOffice."
+label = "Úsáid tiontú nua PaperRing Office"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Cumraigh stóráil agus iompar glanta comhad sealadach"
@@ -736,7 +736,7 @@ permissionNotice = "Níl cosán an tessdata inscríofa. Osclófar íoslódálach
 
 [admin.settings.ai]
 customProvider = "Saincheaptha (comhoiriúnach le OpenAI)"
-description = "Ceangail Stirling leis an inneall Python AI, roghnaigh a shamhlacha, agus socraigh na cosaintí faoina ritheann sé."
+description = "Ceangail PaperRing leis an inneall Python AI, roghnaigh a shamhlacha, agus socraigh na cosaintí faoina ritheann sé."
 managedByCloud = "Á bhainistiú ag Stirling Cloud sa mhód seo."
 managedByCloudShort = "Á bhainistiú ag Stirling Cloud"
 
@@ -797,7 +797,7 @@ help = "Ciallaíonn múchta nach bhfuil ceisteanna doiciméid ar fáil. Ní stop
 label = "Lig do Stirling Cloud doiciméid innéacsaithe a choinneáil"
 
 [admin.settings.ai.general.cloudNote]
-body = "Ritheann an réasúnú ar bhonneagar Stirling, billeáilte don chuntas a bhfuil an freastalaí seo nasctha leis. Níl aon choimeádán le rith agus níl aon eochair soláthraí le coinneáil anseo. Próiseálann Stirling Cloud cibé rud a léann an AI seachas ar do chrua-earraí féin."
+body = "Ritheann an réasúnú ar bhonneagar PaperRing, billeáilte don chuntas a bhfuil an freastalaí seo nasctha leis. Níl aon choimeádán le rith agus níl aon eochair soláthraí le coinneáil anseo. Próiseálann Stirling Cloud cibé rud a léann an AI seachas ar do chrua-earraí féin."
 title = "Maidir le Stirling Cloud AI"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "Cá ritheann AI"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Gan choimeádán, gan eochair soláthraí, gan rogha samhla - ritheann an obair ar Stirling Cloud agus billeáiltear í don chuntas a bhfuil an freastalaí seo nasctha leis."
-linkCta = "Ceangail an freastalaí seo le cuntas Stirling"
+linkCta = "Ceangail an freastalaí seo le cuntas PaperRing"
 notLinked = "Nasc cuntas ar dtús"
-ownerOnly = "Ní féidir ach le húinéir na heagraíochta an freastalaí seo a nascadh le cuntas Stirling."
+ownerOnly = "Ní féidir ach le húinéir na heagraíochta an freastalaí seo a nascadh le cuntas PaperRing."
 title = "Úsáid Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Rith d'inneall féin"
 
 [admin.settings.ai.general.note]
 docs = "Treoir suiteála"
-intro = "Coimeádán ar leith a ritheann tú in aice le Stirling. Déanann sé an réasúnú; déanann Stirling gach oibríocht leathanaigh é féin fós. Teastaíonn an rud céanna uaidh"
+intro = "Coimeádán ar leith a ritheann tú in aice le PaperRing. Déanann sé an réasúnú; déanann PaperRing gach oibríocht leathanaigh é féin fós. Teastaíonn an rud céanna uaidh"
 outro = "ar an dá choimeádán agus eochair soláthraí samhla. Seoltar cibé rud a léann an AI chuig an soláthraí a roghnaíonn tú - coimeádann Ollama a óstálann tú gach leathanach istigh."
 title = "Maidir leis an inneall AI"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Iontráil an cód dearbhaithe chun dul ar aghaidh"
 confirmImport = "Deimhnigh an iompórtáil"
 confirmImportTitle = "Deimhnigh iompórtáil an bhunachair sonraí"
 connection = "Ceangal"
-connectionDescription = "Dírigh Stirling ar bhunachar sonraí seachtrach in ionad an cheann ionsuite."
+connectionDescription = "Dírigh PaperRing ar bhunachar sonraí seachtrach in ionad an cheann ionsuite."
 createBackup = "Cruthaigh cúltaca"
 created = "Cruthaithe"
 delete = "Scrios"
@@ -1224,11 +1224,11 @@ description = "Cumraigh gnéithe roghnacha agus feidhmiúlacht."
 title = "Gnéithe"
 
 [admin.settings.features.serverCertificate]
-description = "Gin an teastas a thacaíonn leis an ngné sínithe \"Sign with Stirling-PDF\"."
+description = "Gin an teastas a thacaíonn leis an ngné sínithe \"Sign with PaperRing\"."
 label = "Síniú Teastais"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Tairg \"Sign with Stirling-PDF\" ag úsáid teastais a ghineann an freastalaí seo"
+description = "Tairg \"Sign with PaperRing\" ag úsáid teastais a ghineann an freastalaí seo"
 label = "Cumasaigh Síniú Teastais"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Bailíocht an Deimhnithe (laethanta)"
 
 [admin.settings.folderAccess]
 description = "Comhadlanna a bhfuil cead ag foinsí fillteáin agus aschuir fillteáin léamh uathu agus scríobh chucu. Is teorainn slándála í seo: ní féidir uathoibrithe a dhíriú riamh ar chonair freastalaí lasmuigh den liosta seo."
-securityNote = "Fág folamh é seo chun foinsí agus aschuir fillteáin a dhíchumasú go hiomlán. Bíonn comhadlann chumraíochta Stirling féin i gcónaí as teorainn."
+securityNote = "Fág folamh é seo chun foinsí agus aschuir fillteáin a dhíchumasú go hiomlán. Bíonn comhadlann chumraíochta PaperRing féin i gcónaí as teorainn."
 title = "Rochtain Fillteáin"
 
 [admin.settings.folderAccess.implied]
-description = "Ceadaítear na comhadlanna seo atá á mbainistiú ag Stirling i gcónaí agus ní féidir iad a athrú anseo."
+description = "Ceadaítear na comhadlanna seo atá á mbainistiú ag PaperRing i gcónaí agus ní féidir iad a athrú anseo."
 serverStorage = "Stóráil comhad freastalaí"
 title = "Ceadaithe i gcónaí"
 watchedFolder = "Fillteán faire Pipeline"
@@ -1390,7 +1390,7 @@ description = "URL nó ainm comhaid do bheartas fianán"
 label = "Beartas Fianán"
 
 [admin.settings.legal.disclaimer]
-message = "Trí na doiciméid dhlíthiúla seo a shaincheapadh, glacann tú freagracht iomlán as comhlíonadh a chinntiú le gach dlí agus rialachán i bhfeidhm, lena n‑áirítear ach gan a bheith teoranta do GDPR agus ceanglais chosanta sonraí AE eile. Ná modhnaigh na socruithe seo ach amháin má: (1) tá cás pearsanta/príobháideach á rith agat, (2) tá tú lasmuigh de dhlínse an AE agus tuigeann tú do chuid dualgas dlíthiúil áitiúil, nó (3) tá comhairle dhlí chuí faighte agat agus glacann tú leat freagracht iomlán as sonraí úsáideoirí agus comhlíonadh dlíthiúil. Ní ghlacann Stirling-PDF ná a fhorbróirí aon dliteanas as do chuid dualgas dlíthiúil."
+message = "Trí na doiciméid dhlíthiúla seo a shaincheapadh, glacann tú freagracht iomlán as comhlíonadh a chinntiú le gach dlí agus rialachán i bhfeidhm, lena n‑áirítear ach gan a bheith teoranta do GDPR agus ceanglais chosanta sonraí AE eile. Ná modhnaigh na socruithe seo ach amháin má: (1) tá cás pearsanta/príobháideach á rith agat, (2) tá tú lasmuigh de dhlínse an AE agus tuigeann tú do chuid dualgas dlíthiúil áitiúil, nó (3) tá comhairle dhlí chuí faighte agat agus glacann tú leat freagracht iomlán as sonraí úsáideoirí agus comhlíonadh dlíthiúil. Ní ghlacann PaperRing ná a fhorbróirí aon dliteanas as do chuid dualgas dlíthiúil."
 title = "Rabhadh Freagrachta Dlí"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "Ainm úsáideora le haghaidh fíordheimhnithe SMTP"
 label = "Ainm Úsáideora SMTP"
 
 [admin.settings.mcp]
-apikeyNote = "Seolann cliaint eochair Stirling API sa cheanntásc X-API-KEY (nó Authorization: Bearer <key>). Meaitseálann an eochair lena húsáideoir Stirling úinéireachta - ní ligtear isteach ach cuntais soláthraithe, agus déantar gníomhartha a iniúchadh mar an t-úsáideoir sin. Bainistigh eochracha faoi Cuntas > Eochracha API."
-description = "Nocht uirlisí PDF agus gníomhairí AI Stirling do chliaint MCP thar chríochphointe cosanta ag OAuth."
+apikeyNote = "Seolann cliaint eochair PaperRing API sa cheanntásc X-API-KEY (nó Authorization: Bearer <key>). Meaitseálann an eochair lena húsáideoir PaperRing úinéireachta - ní ligtear isteach ach cuntais soláthraithe, agus déantar gníomhartha a iniúchadh mar an t-úsáideoir sin. Bainistigh eochracha faoi Cuntas > Eochracha API."
+description = "Nocht uirlisí PDF agus gníomhairí AI PaperRing do chliaint MCP thar chríochphointe cosanta ag OAuth."
 title = "Freastalaí MCP"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "(nó Authorization: Bearer <key>). Ní úsáidtear OAuth ná aim
 step4 = "Ceadaigh an síniú isteach; déanann an cliant athiarracht le comhartha. Beidh uirlisí grúpáilte le feiceáil: convert, pages, misc, security, ai."
 step4ApiKey = "Beidh uirlisí grúpáilte le feiceáil: convert, pages, misc, security, ai - agus déantar gach glao a iniúchadh mar úinéir na heochrach."
 tip = "Leid: cláraigh an resource ID mar lucht féachana ceadaithe i do IdP. Tástáilte le MCP Inspector agus Claude Desktop."
-tipApiKey = "Leid: ní theastaíonn IdP seachtrach ó mhód eochrach API - an ceann is simplí do self-host. Meaitseálann an eochair lena húsáideoir Stirling úinéireachta."
+tipApiKey = "Leid: ní theastaíonn IdP seachtrach ó mhód eochrach API - an ceann is simplí do self-host. Meaitseálann an eochair lena húsáideoir PaperRing úinéireachta."
 title = "Ceangail cliant MCP"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (roghnach)"
 placeholder = "Aimsithe go huathoibríoch ón eisitheoir"
 
 [admin.settings.mcp.mode]
-apikey = "API key (eochair in aghaidh an úsáideora Stirling)"
-description = "Teastaíonn IdP seachtrach ó OAuth. Úsáideann eochair API eochair Stirling API in aghaidh an úsáideora (X-API-KEY) - an ceann is simplí do self-host."
+apikey = "API key (eochair in aghaidh an úsáideora PaperRing)"
+description = "Teastaíonn IdP seachtrach ó OAuth. Úsáideann eochair API eochair PaperRing API in aghaidh an úsáideora (X-API-KEY) - an ceann is simplí do self-host."
 label = "Mód fíordheimhnithe"
 oauth = "OAuth 2.1 (IdP seachtrach)"
 
 [admin.settings.mcp.requireAccount]
-description = "Ná lig comharthaí tríd ach amháin má mheaitseálann a n-ábhar le húsáideoir Stirling soláthraithe, cumasaithe."
-label = "Éiligh cuntas Stirling atá ann cheana"
+description = "Ná lig comharthaí tríd ach amháin má mheaitseálann a n-ábhar le húsáideoir PaperRing soláthraithe, cumasaithe."
+label = "Éiligh cuntas PaperRing atá ann cheana"
 
 [admin.settings.mcp.resourceId]
 description = "URL poiblí /mcp an fhreastalaí seo. Ní mór do chomharthaí é a liostú ina lucht féachana (RFC 8707) nó diúltófar dóibh."
@@ -1540,7 +1540,7 @@ description = "Éiligh mcp.tools.read le haghaidh oibríochtaí léite agus mcp.
 label = "Cuir scopes OAuth i bhfeidhm"
 
 [admin.settings.mcp.usernameClaim]
-description = "Éileamh JWT a mheaitseáiltear le hainm úsáideora Stirling (m.sh. sub, email, preferred_username)."
+description = "Éileamh JWT a mheaitseáiltear le hainm úsáideora PaperRing (m.sh. sub, email, preferred_username)."
 label = "Éileamh ainm úsáideora"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Nuair a chumasaítear é, ní féidir ach leis na IDanna úsáide
 label = "Ceadaigh IDanna Úsáideora Sonracha"
 
 [admin.settings.telegram.enabled]
-description = "Ceadaigh d’úsáideoirí idirghníomhú le Stirling PDF tríd do bot Telegram cumraithe."
+description = "Ceadaigh d’úsáideoirí idirghníomhú le PaperRing tríd do bot Telegram cumraithe."
 label = "Cumasaigh Bot Telegram"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Seo é an <strong>Painéal Socruithe</strong>. Tá socruithe
 systemCustomization = "Tá bealaí fairsinge againn chun an comhéadan úsáideora a shaincheapadh: Ligeann <strong>Socruithe Córais</strong> duit ainm agus teangacha an aip a athrú, ceadaíonn <strong>Gnéithe</strong> bainistíocht teastais freastalaí, agus ligeann <strong>Deireadhphointí</strong> duit uirlisí sonracha a chumasú nó a dhíchumasú do d'úsáideoirí."
 teamsAndUsers = "Bainistigh <strong>Foirne</strong> agus úsáideoirí aonair anseo. Is féidir leat úsáideoirí nua a thabhairt isteach trí r-phost, naisc inroinnte, nó cuntais shaincheaptha a chruthú dóibh tú féin."
 welcome = "Fáilte go dtí an <strong>Turas Riaracháin</strong>! Déanaimis iniúchadh ar na gnéithe agus na socruithe cumhachtacha fiontraíochta atá ar fáil do riarthóirí córais."
-wrapUp = "Sin é an turas riaracháin! Tá na gnéithe enterprise feicthe agat a dhéanann Stirling PDF ina réiteach cumhachtach, insaincheaptha d'eagraíochtaí. Is féidir leat é a sheinm arís am ar bith - oscail <strong>Socruithe</strong> agus aimsigh anseo é sa rannán <strong>Turais</strong> faoi Chabhair."
+wrapUp = "Sin é an turas riaracháin! Tá na gnéithe enterprise feicthe agat a dhéanann PaperRing ina réiteach cumhachtach, insaincheaptha d'eagraíochtaí. Is féidir leat é a sheinm arís am ar bith - oscail <strong>Socruithe</strong> agus aimsigh anseo é sa rannán <strong>Turais</strong> faoi Chabhair."
 
 [adminUserSettings]
 admin = "Riarachán"
 title = "Socruithe Rialaithe Úsáideora"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arabach"
@@ -1952,9 +1952,9 @@ thai = "Téalannach"
 
 [analytics]
 learnMore = "Foghlaim tuilleadh faoinár n-anailísíocht"
-paragraph1 = "Tá anailísíocht roghnach ag Stirling PDF chun cabhrú linn an táirge a fheabhsú. Ní rianaímid aon fhaisnéis phearsanta ná ábhar comhad."
-paragraph2 = "Smaoinigh le do thoil ar anailísíocht a chumasú chun cabhrú le Stirling-PDF fás agus chun ligean dúinn ár n-úsáideoirí a thuiscint níos fearr."
-title = "Ar mhaith leat cabhrú le Stirling PDF a dhéanamh níos fearr?"
+paragraph1 = "Tá anailísíocht roghnach ag PaperRing chun cabhrú linn an táirge a fheabhsú. Ní rianaímid aon fhaisnéis phearsanta ná ábhar comhad."
+paragraph2 = "Smaoinigh le do thoil ar anailísíocht a chumasú chun cabhrú le PaperRing fás agus chun ligean dúinn ár n-úsáideoirí a thuiscint níos fearr."
+title = "Ar mhaith leat cabhrú le PaperRing a dhéanamh níos fearr?"
 
 [annotate]
 tags = "anótáil,aibhsigh,tarraing,marcáil,nóta tráchta,nótaí,athbhreithniú,redline,aiseolas,uirlisí marcála,nótaí greamaitheacha,cruthanna,saigheada,bosca téacs,lámhshaor"
@@ -2902,9 +2902,9 @@ typeSignature = "Clóscríobh d'ainm chun síniú a chruthú"
 uploadCert = "Uaslódáil deimhniú"
 uploadCertDesc = "Úsáid do dheimhniú PKCS12, PFX, PEM nó JKS féin."
 uploadSignature = "Uasluchtaigh íomhá do shínithe"
-usePersonalCert = "Stirling Sign · Pearsanta"
+usePersonalCert = "PaperRing Sign · Pearsanta"
 usePersonalCertDesc = "Sínigh leis an deimhniú a cruthaíodh do do chuntas."
-useServerCert = "Stirling Sign · Eagraíocht"
+useServerCert = "PaperRing Sign · Eagraíocht"
 useServerCertDesc = "Sínigh le deimhniú comhroinnte eagraíochta an fhreastalaí seo."
 useSignature = "Úsáid an síniú"
 
@@ -3224,10 +3224,10 @@ text = "Cuir ceist faoi do dhoiciméid nó faigh cabhair le huirlisí PDF."
 
 [chat.fab]
 close = "Dún comhrá"
-open = "Oscail cúntóir Stirling AI"
+open = "Oscail cúntóir PaperRing AI"
 
 [chat.header]
-agentMenu = "Roghanna gníomhaire Stirling"
+agentMenu = "Roghanna gníomhaire PaperRing"
 assistant = "Cúntóir AI"
 clearChat = "Glan comhrá"
 
@@ -3587,9 +3587,9 @@ label = "Doiciméid de réir cineáil: {{summary}}"
 noTypes = "Níor mheaitseáil na doiciméid seo cineál aitheanta."
 
 [classificationDemo.defaultApp]
-body = "Déan Stirling de d'aip réamhshocraithe PDF. Gach PDF a osclaíonn tú, ó ríomhphost, ó do bhrabhsálaí, nó ó do dheasc, tagann sé anseo, réidh le léamh nó le cur in eagar. Is féidir leat é seo a athrú am ar bith sna Socruithe."
-cta = "Déan Stirling de mo réamhshocrú"
-title = "Oscail gach PDF in Stirling"
+body = "Déan PaperRing de d'aip réamhshocraithe PDF. Gach PDF a osclaíonn tú, ó ríomhphost, ó do bhrabhsálaí, nó ó do dheasc, tagann sé anseo, réidh le léamh nó le cur in eagar. Is féidir leat é seo a athrú am ar bith sna Socruithe."
+cta = "Déan PaperRing de mo réamhshocrú"
+title = "Oscail gach PDF in PaperRing"
 
 [classificationDemo.followUp]
 background = "Ritheann sé seo sa chúlra. Taispeánann an fáinne ar chlé an dul chun cinn."
@@ -3604,7 +3604,7 @@ other = "Eile"
 body = "Aicmigh agus eagraigh na {{count}} PDF is déanaí i d'fhillteán Íoslódálacha de réir cineáil."
 cta = "Próiseáil m'fhillteán Íoslódálacha"
 privacy = "Fanann do PDF ar an ngléas seo. Taifeadann do fhreastalaí ceangailte úsáid phróiseála."
-title = "Féach cad is féidir le Stirling a dhéanamh le fillteán iomlán"
+title = "Féach cad is féidir le PaperRing a dhéanamh le fillteán iomlán"
 
 [classificationDemo.phase]
 finishing = "Á chríochnú..."
@@ -3618,10 +3618,10 @@ counts = "de {{total}} PDF próiseáilte"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF"
-failedBody = "Níorbh fhéidir le Stirling d'fhillteán Íoslódálacha a léamh. Níor athraíodh aon rud ar do ríomhaire."
+failedBody = "Níorbh fhéidir le PaperRing d'fhillteán Íoslódálacha a léamh. Níor athraíodh aon rud ar do ríomhaire."
 failedTitle = "Níor chríochnaigh sé sin"
 heading = "D'Íoslódálacha, sórtáilte"
-summary = "Léigh Stirling {{documents}} agus shórtáil sé iad i {{types}}."
+summary = "Léigh PaperRing {{documents}} agus shórtáil sé iad i {{types}}."
 typeCount_one = "{{count}} chineál"
 typeCount_other = "{{count}} chineál"
 
@@ -3947,14 +3947,14 @@ upgradeButton = "Uasghrádaigh an Cuntas"
 
 [config.apiKeys]
 copyKeyAriaLabel = "Cóipeáil eochair API"
-description = "Do eochair API chun rochtain a fháil ar shraith uirlisí PDF Stirling. Cóipeáil chuig do thionscadal í nó déan athnuachan chun ceann nua a ghiniúint."
-docsDescription = "Tuilleadh eolais faoi chomhtháthú le Stirling PDF:"
+description = "Do eochair API chun rochtain a fháil ar shraith uirlisí PDF PaperRing. Cóipeáil chuig do thionscadal í nó déan athnuachan chun ceann nua a ghiniúint."
+docsDescription = "Tuilleadh eolais faoi chomhtháthú le PaperRing:"
 docsLink = "Doiciméadú API"
 docsTitle = "Doiciméadú API"
 generateError = "Níor éirigh linn d’eochair API a ghiniúint."
 goToAccount = "Téigh chuig an gCuntas"
 guestInfo = "Ní fhaigheann úsáideoirí aíochta eochracha API. Cruthaigh cuntas chun eochair API a fháil is féidir leat a úsáid i d’fheidhmchláir."
-intro = "Úsáid do eochair API chun rochtain ríomhchláraithe a fháil ar chumais phróiseála Stirling PDF."
+intro = "Úsáid do eochair API chun rochtain ríomhchláraithe a fháil ar chumais phróiseála PaperRing."
 label = "Eochair API"
 publicKeyAriaLabel = "Eochair API phoiblí"
 refreshAriaLabel = "Athnuaigh eochair API"
@@ -3978,10 +3978,10 @@ title = "Athnuaigh Eochracha API"
 warning = "⚠️ Rabhadh: Ginfidh an gníomh seo eochracha API nua agus déanfaidh sé do chuid eochracha roimhe seo neamhbhailí."
 
 [config.mcp]
-description = "Ligeann Model Context Protocol (MCP) do chúntóirí AI cosúil le Claude do chuid uirlisí Stirling PDF a úsáid go díreach. Ceangail cliant uair amháin agus is féidir le do chúntóir doiciméid a thiontú, a chur in eagar, a dhaingniú agus a phróiseáil thar do cheann."
-guestInfo = "Ní féidir le haíonna cliaint MCP a cheangal. Cruthaigh cuntas chun an freastalaí MCP a úsáid agus lig do do chúntóir AI uirlisí Stirling PDF a rith thar do cheann."
+description = "Ligeann Model Context Protocol (MCP) do chúntóirí AI cosúil le Claude do chuid uirlisí PaperRing a úsáid go díreach. Ceangail cliant uair amháin agus is féidir le do chúntóir doiciméid a thiontú, a chur in eagar, a dhaingniú agus a phróiseáil thar do cheann."
+guestInfo = "Ní féidir le haíonna cliaint MCP a cheangal. Cruthaigh cuntas chun an freastalaí MCP a úsáid agus lig do do chúntóir AI uirlisí PaperRing a rith thar do cheann."
 navLabel = "Freastalaí MCP"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Féach ar eochracha API"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Do chríochphointe MCP"
 
 [config.mcp.setup]
 addTo = "Cuir le"
-hint = "Roghnaigh do chliant, greamaigh an sliocht isteach sa chomhad a thaispeántar, ansin atosaigh é. Sínfidh tú isteach le do chuntas Stirling ar an gcéad úsáid - níl aon eochracha le cóipeáil."
+hint = "Roghnaigh do chliant, greamaigh an sliocht isteach sa chomhad a thaispeántar, ansin atosaigh é. Sínfidh tú isteach le do chuntas PaperRing ar an gcéad úsáid - níl aon eochracha le cóipeáil."
 title = "Ceangail do chúntóir AI"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Céim {{current}} de {{total}}"
 [connect.confirm]
 acknowledge = "Aithním an seoladh seo agus ba mhaith liom é a cheangal le m'fhoireann"
 approve = "Ceangail freastalaí"
-cannotDecide = "Ní féidir ach le húinéir foirne an ceangal seo a cheadú nó a dhiúltú. Úsáid cuntas eile nó dún an leid seo chun leanúint ar aghaidh ag úsáid Stirling."
+cannotDecide = "Ní féidir ach le húinéir foirne an ceangal seo a cheadú nó a dhiúltú. Úsáid cuntas eile nó dún an leid seo chun leanúint ar aghaidh ag úsáid PaperRing."
 deny = "Diúltaigh"
 dismiss = "Dún"
-lead = "Tá freastalaí Stirling ag iarraidh ceangal le d'fhoireann. Seiceáil gur leatsa an seoladh thíos sula gceadaíonn tú é."
+lead = "Tá freastalaí PaperRing ag iarraidh ceangal le d'fhoireann. Seiceáil gur leatsa an seoladh thíos sula gceadaíonn tú é."
 originLabel = "Seoladh"
 signedInAs = "Sínithe isteach mar"
 switchAccount = "Úsáid cuntas eile"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Roghnaigh formáid fhoinse ar dtús"
 settings = "Socruithe"
 single = "Aonair"
 sourceFormatPlaceholder = "Formáid fhoinseach"
-stirlingOfficeConvert = "Úsáid Stirling Office Convert (béite)"
+stirlingOfficeConvert = "Úsáid PaperRing Office Convert (béite)"
 stirlingOfficeConvertDescription = "Tiontuithe níos fearr agus níos tapúla le níos lú cuimhne. Múch é chun an tiontaire caighdeánach a úsáid."
 strictMode = "Mód Docht"
 strictModeDesc = "Earráid mura bhfuil an tiontú foirfe (úsáideann sé fíorú VeraPDF)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Bainistigh sainroghanna"
 title = "Conas a Úsáidimid Fianáin"
 
 [cookieBanner.popUp.description]
-1 = "Úsáidimid cookies agus teicneolaíochtaí eile chun go n-oibreoidh Stirling PDF níos fearr duit - ag cabhrú linn ár n-uirlisí a fheabhsú agus gnéithe a thógáil a thaitneoidh leat."
+1 = "Úsáidimid cookies agus teicneolaíochtaí eile chun go n-oibreoidh PaperRing níos fearr duit - ag cabhrú linn ár n-uirlisí a fheabhsú agus gnéithe a thógáil a thaitneoidh leat."
 2 = "Mura mian leat, ní chuirfear ar chumas ach na fianáin riachtanacha atá riachtanach chun go n-oibreoidh rudaí go réidh má chliceálann tú ar 'Níl Go raibh maith agat'."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Úsáid Fianáin"
 title = "Lárionad Sainroghanna Toilithe"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Cabhraíonn na cookies seo linn tuiscint a fháil ar conas atá ár n-uirlisí á n-úsáid, ionas gur féidir linn díriú ar na gnéithe is mó a bhfuil meas ag ár bpobal orthu a thógáil. Bí cinnte de - ní féidir le Stirling PDF ábhar na ndoiciméad a n-oibríonn tú leo a rianú agus ní dhéanfaidh sé sin choíche."
+description = "Cabhraíonn na cookies seo linn tuiscint a fháil ar conas atá ár n-uirlisí á n-úsáid, ionas gur féidir linn díriú ar na gnéithe is mó a bhfuil meas ag ár bpobal orthu a thógáil. Bí cinnte de - ní féidir le PaperRing ábhar na ndoiciméad a n-oibríonn tú leo a rianú agus ní dhéanfaidh sé sin choíche."
 title = "Anailísíocht"
 
 [cookieBanner.preferencesModal.description]
-1 = "Úsáideann Stirling PDF fianáin agus teicneolaíochtaí cosúil leo chun do thaithí a fheabhsú agus chun tuiscint a fháil ar conas a úsáidtear ár n-uirlisí. Cabhraíonn sé seo linn feidhmíocht a fheabhsú, na gnéithe a bhfuil cúram agat fúthu a fhorbairt, agus tacaíocht leanúnach a sholáthar dár n-úsáideoirí."
-2 = "Ní féidir le Stirling PDF - agus ní dhéanfaidh sé choíche - ábhar na ndoiciméad a úsáideann tú a rianú ná rochtain a fháil air."
+1 = "Úsáideann PaperRing fianáin agus teicneolaíochtaí cosúil leo chun do thaithí a fheabhsú agus chun tuiscint a fháil ar conas a úsáidtear ár n-uirlisí. Cabhraíonn sé seo linn feidhmíocht a fheabhsú, na gnéithe a bhfuil cúram agat fúthu a fhorbairt, agus tacaíocht leanúnach a sholáthar dár n-úsáideoirí."
+2 = "Ní féidir le PaperRing - agus ní dhéanfaidh sé choíche - ábhar na ndoiciméad a úsáideann tú a rianú ná rochtain a fháil air."
 3 = "Tá do phríobháideachas agus do mhuinín i gcroílár ár gcuid oibre."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Theip ar shocrú láimhseálaí PDF réamhshocraithe"
 title = "Earráid"
 
 [defaultApp.settingsOpened]
-message = "I Socruithe Windows, cuardaigh 'PDF' agus roghnaigh Stirling PDF mar d'aip réamhshocraithe"
+message = "I Socruithe Windows, cuardaigh 'PDF' agus roghnaigh PaperRing mar d'aip réamhshocraithe"
 title = "Socruithe Oscailte"
 
 [defaultApp.success]
-message = "Is é Stirling PDF d’eagarthóir PDF réamhshocraithe anois"
+message = "Is é PaperRing d’eagarthóir PDF réamhshocraithe anois"
 title = "Aip Réamhshocraithe Socraithe"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Íoslaghdaigh"
 restore = "Athchóirigh"
 
 [desktopBilling]
-description = "Bainistigh úsáid agus billeáil i do bhrabhsálaí. Sínigh isteach leis an gcuntas Stirling céanna a úsáideann tú anseo."
+description = "Bainistigh úsáid agus billeáil i do bhrabhsálaí. Sínigh isteach leis an gcuntas PaperRing céanna a úsáideann tú anseo."
 open = "Oscail Úsáid & Billeáil sa bhrabhsálaí"
 openFailed = "Níorbh fhéidir Úsáid & Billeáil a oscailt. Seiceáil do cheangal agus bain triail eile as."
 selfHostedDescription = "Bainistigh úsáid agus billeáil ar do fhreastalaí nasctha i do bhrabhsálaí. Sínigh isteach le cuntas úinéara do fhreastalaí."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Theip ar íoslódáil nó ar shuiteáil an nuashonraithe.
 
 [desktopUpdate.blocked]
 docsLink = "Féach ar dhoiciméadú suiteála"
-message = "Níl cead ag Stirling-PDF é féin a nuashonrú ar an meaisín seo."
+message = "Níl cead ag PaperRing é féin a nuashonrú ar an meaisín seo."
 title = "Teastaíonn ceadanna riarthóra"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Athainmnigh"
 title = "Athainmnigh comhad"
 
 [filesPage]
-addedToLibrary = "Curtha le leabharlann Stirling"
-addingToLibrary = "Á chur le leabharlann Stirling…"
-addToLibrary = "Cuir le leabharlann Stirling…"
+addedToLibrary = "Curtha le leabharlann PaperRing"
+addingToLibrary = "Á chur le leabharlann PaperRing…"
+addToLibrary = "Cuir le leabharlann PaperRing…"
 addToLibraryFailed = "Níorbh fhéidir roinnt comhad a chur leis"
 addToWorkspace = "Cuir leis an spás oibre"
 addToWorkspaceCount = "Cuir {{count}} leis an spás oibre"
-allFiles = "Leabharlann Stirling"
+allFiles = "Leabharlann PaperRing"
 back = "Ar ais"
 backToFolder = "Ar ais go {{folder}}"
 backToMyFiles = "Ar ais chuig Leabharlann comhad"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Scrios {{count}} chomhad taobh istigh den fhillteán
 deleteFolderContents_other = "Scrios {{count}} comhad taobh istigh den fhillteán freisin"
 deleteFolderContentsWarning = "Bainfear na comhaid go buan agus ní féidir iad a ghnóthú."
 deleteFolderError = "Níorbh fhéidir an fillteán a scriosadh. Bain triail eile as."
-deleteFolderKeepHint = "Bogfar comhaid istigh go leabharlann Stirling."
+deleteFolderKeepHint = "Bogfar comhaid istigh go leabharlann PaperRing."
 deleteFolderTitle = "Scrios an fillteán?"
 deselectAll = "Glan an roghnú"
 details = "Sonraí"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "Níorbh fhéidir {{count}} comhad a bhogadh ar an bhf
 moveTo = "Bog go…"
 newFolder = "Fillteán nua"
 newFolderStorageDisabled = "Níl stóráil fillteán freastalaí cumasaithe."
-newFolderTabUnavailable = "Athraigh go leabharlann Stirling chun fillteáin a chruthú."
+newFolderTabUnavailable = "Athraigh go leabharlann PaperRing chun fillteáin a chruthú."
 offlineNoFolderEdits = "Níl sioncrónú fillteán an fhreastalaí ar fáil - díchumasaithe athruithe ar fhillteáin. Seiceáil logáil isteach agus cumraíocht stórála."
 open = "Oscail"
 openVersionInWorkspace = "Oscail sa spás oibre"
@@ -4856,7 +4856,7 @@ recentFiles = "Le déanaí"
 refresh = "Athnuaigh"
 refreshNeedsConnection = "Sínigh isteach chun athnuachan ón bhfreastalaí."
 remove = "Scrios"
-removeLocalFolder = "Díghléas ó Stirling"
+removeLocalFolder = "Díghléas ó PaperRing"
 removeVersion = "Bain an leagan seo"
 rename = "Athainmnigh"
 renamed = "Athainmnithe"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} mír"
 tree = "Fillteáin"
 unmount = "Díghléas"
 unmountFolderBody = "Díghléas \"{{name}}\"? Fanann an fillteán agus a chomhaid ar do dhiosca."
-unmountFolderTitle = "Díghléas ó Stirling?"
+unmountFolderTitle = "Díghléas ó PaperRing?"
 upload = "Uaslódáil"
 uploadFromMobile = "Uaslódáil ón bhfón póca"
 versionActions = "Gníomhartha leagain"
@@ -4921,7 +4921,7 @@ orphaned = "Níl ar an diosca"
 orphanedHint = "Tá an bunleagan ag {{path}} imithe. Níl an chóip seo ach anseo - nuair a shábhálfar í, iarrfar suíomh nua."
 unavailable = "Níl ar fáil"
 unavailableHintOffline = "Níl an tiomántán nó an chomhroinnt a bhfuil an comhad seo air ceangailte. Athcheangail é chun athruithe a fháil arís."
-unavailableHintPermission = "Níl cead ag Stirling an suíomh seo a léamh. Tabhair rochtain i Socruithe an Chórais chun athruithe a fháil arís."
+unavailableHintPermission = "Níl cead ag PaperRing an suíomh seo a léamh. Tabhair rochtain i Socruithe an Chórais chun athruithe a fháil arís."
 unavailableHintUnknown = "Ní féidir teacht ar an gcomhad seo faoi láthair. Níl aon athrú ar an gcóip anseo."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Ainm an fhillteáin"
 
 [filesPage.folderOrigin]
 diskHint = "Fillteán gléasta ó chomhadlann ar do dhiosca"
-serverHint = "Fillteán stóráilte ar fhreastalaí Stirling"
+serverHint = "Fillteán stóráilte ar fhreastalaí PaperRing"
 virtualHint = "Fillteán nach bhfuil ann ach sa bhrabhsálaí seo"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Sioncronaithe le do chuntas, ar fáil cibé áit a síníonn tú i
 [filesPage.origin]
 all = "Gach foinse"
 cloud = "Scamall"
-cloudHint = "Stóráilte ar fhreastalaí Stirling"
+cloudHint = "Stóráilte ar fhreastalaí PaperRing"
 diskFileHint = "Stóráilte ar do ríomhaire"
 diskHint = "Comhad san fhillteán gléasta ar do dhiosca"
 local = "Áitiúil"
@@ -5474,7 +5474,7 @@ invisible = "Dofheicthe (meiteashonraí amháin)"
 location = "Suíomh:"
 logo = "Lógó:"
 logoHidden = "Gan lógó"
-logoShown = "Lógó Stirling PDF le feiceáil"
+logoShown = "Lógó PaperRing le feiceáil"
 participantCount_one = "Tá {{count}} rannpháirtí roghnaithe"
 participantCount_other = "Tá {{count}} rannpháirtithe roghnaithe"
 participants = "Rannpháirtithe"
@@ -5525,7 +5525,7 @@ title = "Síniú in Aon Ord"
 dismiss = "Dún an meirge"
 message = "Cruthaigh cuntas saor in aisce chun do chuid oibre a shábháil, rochtain a fháil ar níos mó gnéithe, agus tacú leis an tionscadal."
 signUp = "Cláraigh saor in aisce"
-title = "Tá tú ag úsáid Stirling PDF mar aoi!"
+title = "Tá tú ag úsáid PaperRing mar aoi!"
 
 [home.addAttachments]
 desc = "Féach ar cheangaltáin PDF leabaithe, cuir leo, eastósc iad, athainmnigh iad nó scrios iad"
@@ -5704,7 +5704,7 @@ tags = "comhcheangail,ceangail,aontaigh,cumaisc,cumaisc PDFs,comhcheangail PDFs,
 title = "Cumaisc"
 
 [home.mobile]
-brandAlt = "Lógó Stirling PDF"
+brandAlt = "Lógó PaperRing"
 openFiles = "Oscail comhaid"
 swipeHint = "Svaidhpeáil ar chlé nó ar dheis chun radhairc a athrú"
 tools = "Uirlisí"
@@ -5921,7 +5921,7 @@ passwordRequired = "Tá focal faire riachtanach"
 signIn = "Sínigh isteach"
 validating = "Cuireadh á bhailíochtú..."
 validationError = "Theip ar bhailíochtú an naisc chuireadh"
-welcome = "Fáilte go Stirling PDF"
+welcome = "Fáilte go PaperRing"
 welcomeSubtitle = "Críochnaigh socrú do chuntais chun tosú"
 welcomeTitle = "Tugadh cuireadh duit!"
 
@@ -6209,7 +6209,7 @@ message = "Níor éirigh leis an bhfíordheimhniú. Is féidir leat an fhuinneog
 title = "Theip ar an bhfíordheimhniú"
 
 [oauth.success]
-message = "Is féidir leat an fhuinneog seo a dhúnadh agus filleadh ar Stirling PDF."
+message = "Is féidir leat an fhuinneog seo a dhúnadh agus filleadh ar PaperRing."
 title = "Fíordheimhniú Rathúil"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Á dtabhairt ar ais chuig an app..."
-requesting = "Tá {{app}} ag iarraidh rochtain ar do chuntas Stirling PDF"
+requesting = "Tá {{app}} ag iarraidh rochtain ar do chuntas PaperRing"
 scopesIntro = "Ceadóidh sé seo do {{app}}:"
 signedInAs = "Sínithe isteach mar {{name}}"
 signInButton = "Sínigh isteach chun leanúint ar aghaidh"
-signInPrompt = "Sínigh isteach i do chuntas Stirling PDF chun leanúint den app a nascadh."
+signInPrompt = "Sínigh isteach i do chuntas PaperRing chun leanúint den app a nascadh."
 title = "Authorise access"
 unknownApp = "Feidhmchlár tríú páirtí"
 
 [oauthConsent.access]
 actAsYou = "Gníomhú mar tusa - rithfidh gach rud a dhéanann {{app}} faoi do chuntas agus comhaireamh sé i d’úsáid"
-tools = "Úsáid do chuid uirlisí Stirling PDF ar do shon - tiontaigh, cuir in eagar, sínigh, slánaigh agus próiseáil do dhoiciméid"
+tools = "Úsáid do chuid uirlisí PaperRing ar do shon - tiontaigh, cuir in eagar, sínigh, slánaigh agus próiseáil do dhoiciméid"
 
 [oauthConsent.scope]
 email = "Féach do sheoladh email"
@@ -6362,26 +6362,26 @@ skipTheTour = "Scipeáil an turas"
 
 [onboarding.checklist]
 dismiss = "Ruaig"
-title = "Socraigh Stirling PDF"
+title = "Socraigh PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Rith Stirling go dúchasach ar do mheaisín"
-title = "Íoslódáil Stirling don Deasc"
+description = "Rith PaperRing go dúchasach ar do mheaisín"
+title = "Íoslódáil PaperRing don Deasc"
 
 [onboarding.checklist.inviteTeam]
 description = "Comhoibrigh le do fhoireann"
 title = "Tabhair cuireadh do bhaill foirne"
 
 [onboarding.checklist.setDefaultApp]
-description = "Oscail comhaid PDF in Stirling PDF"
-title = "Déan Stirling mar réamhshocrú agat"
+description = "Oscail comhaid PDF in PaperRing"
+title = "Déan PaperRing mar réamhshocrú agat"
 
 [onboarding.checklist.takeTour]
-description = "Féach conas a oibríonn Stirling i dtreoir thapa"
+description = "Féach conas a oibríonn PaperRing i dtreoir thapa"
 title = "Tóg an turas"
 
 [onboarding.desktopInstall]
-body = "Oibríonn Stirling is fearr mar aip deisce. Is féidir leat é a úsáid as líne, rochtain níos tapúla a fháil ar dhoiciméid, agus eagarthóireacht a dhéanamh go háitiúil ar do ríomhaire."
+body = "Oibríonn PaperRing is fearr mar aip deisce. Is féidir leat é a úsáid as líne, rochtain níos tapúla a fháil ar dhoiciméid, agus eagarthóireacht a dhéanamh go háitiúil ar do ríomhaire."
 selectOs = "Roghnaigh córas oibriúcháin"
 title = "Íoslódáil"
 titleWithOs = "Íoslódáil do {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Íoslódáil do {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Tá raidhse athruithe nua le hiniúchadh, lena n-áirítear <strong>Agent Chat</strong>, <strong>aicmiú</strong> doiciméad uathoibríoch, agus tuilleadh."
 freeLine = "Tá an t-eagarthóir <free>go hiomlán saor in aisce</free> anois."
-title = "Fáilte go Stirling <product>Desktop</product>"
+title = "Fáilte go PaperRing <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "Cód fíordheimhnithe"
@@ -6410,21 +6410,21 @@ success = "Cumasaíodh MFA. Is féidir leat leanúint ar aghaidh anois."
 title = "Socrú Fíordheimhnithe Ilfhachtóra"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Nuair a chumasaíonn tú mód logála isteach, is féidir leat úsáideoirí a bhainistiú, socruithe a chumrú, agus sláinte an fhreastalaí a mheas. Faigheann an chéad <strong>{{freeTierLimit}}</strong> duine ar do fhreastalaí Stirling saor in aisce."
-adminBodyLoginEnabled = "Mar riarthóir, is féidir leat úsáideoirí a bhainistiú, socruithe a chumrú, agus sláinte an fhreastalaí a mheas. Faigheann an chéad <strong>{{freeTierLimit}}</strong> duine ar do fhreastalaí Stirling saor in aisce."
+adminBodyLoginDisabled = "Nuair a chumasaíonn tú mód logála isteach, is féidir leat úsáideoirí a bhainistiú, socruithe a chumrú, agus sláinte an fhreastalaí a mheas. Faigheann an chéad <strong>{{freeTierLimit}}</strong> duine ar do fhreastalaí PaperRing saor in aisce."
+adminBodyLoginEnabled = "Mar riarthóir, is féidir leat úsáideoirí a bhainistiú, socruithe a chumrú, agus sláinte an fhreastalaí a mheas. Faigheann an chéad <strong>{{freeTierLimit}}</strong> duine ar do fhreastalaí PaperRing saor in aisce."
 adminTitle = "Forbhreathnú Riarthóra"
 userBody = "Tabhair cuireadh do chomhoibrithe, sann róil, agus coinnigh do dhoiciméid eagraithe in aon spás oibre slán amháin. Cumasaigh mód logála isteach aon uair is mian leat dul thar úsáid aonair."
 userTitle = "Forbhreathnú Plean"
 
 [onboarding.processorIntro]
-body = "Ritheann Stirling <strong>Polasaithe</strong> anois — rialacha uathoibrithe a aicmíonn, a dhaingníonn agus a phróiseálann gach doiciméad de réir mar a thagann sé isteach. Socraigh iad agus déan monatóireacht ar rith sa <strong>Processor</strong>."
+body = "Ritheann PaperRing <strong>Polasaithe</strong> anois — rialacha uathoibrithe a aicmíonn, a dhaingníonn agus a phróiseálann gach doiciméad de réir mar a thagann sé isteach. Socraigh iad agus déan monatóireacht ar rith sa <strong>Processor</strong>."
 cta = "Féach ar an Processor"
-title = "Féach ar an Stirling Processor"
+title = "Féach ar an PaperRing Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "Tá an t-eagarthóir anois <free>go hiomlán saor in aisce</free>."
 premium = "Chuireamar go leor gnéithe nua leis, lena n-áirítear <strong>Polasaithe</strong> agus <strong>Agent Chat</strong>."
-title = "Fáilte go Stirling"
+title = "Fáilte go PaperRing"
 
 [onboarding.saas.team]
 addButton = "Cuir leis"
@@ -6447,18 +6447,18 @@ title = "Seiceáil Slándála"
 [onboarding.serverLicense]
 freeBody = "Cuimsíonn ár gceadúnas <strong>Open-Core</strong> <strong>OAuth SSO</strong> agus suas le <strong>{{freeTierLimit}}</strong> úsáideoir saor in aisce. Chun fás gan bhriseadh, molaimid plean Stirling Team — <strong>100 úsáideoir</strong> ar $99 sa mhí."
 freeTitle = "Plean foirne"
-overLimitBody = "Ceadaíonn ár gceadúnú suas le <strong>{{freeTierLimit}}</strong> úsáideoir saor in aisce. Tá <strong>{{overLimitUserCopy}}</strong> úsáideoir Stirling agat. Chun leanúint ar aghaidh gan bhriseadh, uasghrádaigh go plean Stirling Team - <strong>100 úsáideoir</strong>, eagarthóireacht téacs PDF, agus rialú iomlán riaracháin ar $99/mo."
+overLimitBody = "Ceadaíonn ár gceadúnú suas le <strong>{{freeTierLimit}}</strong> úsáideoir saor in aisce. Tá <strong>{{overLimitUserCopy}}</strong> úsáideoir PaperRing agat. Chun leanúint ar aghaidh gan bhriseadh, uasghrádaigh go plean Stirling Team - <strong>100 úsáideoir</strong>, eagarthóireacht téacs PDF, agus rialú iomlán riaracháin ar $99/mo."
 overLimitTitle = "Tá plean foirne ag teastáil"
 seePlans = "Féach ar Phleananna →"
 upgrade = "Uasghrádaigh anois →"
 
 [onboarding.tourOverview]
-body = "Tagann Stirling PDF V2 le mórán uirlisí agus leagan amach athnuaite. Tabhair cuairt ghearr chun a fheiceáil cad a d'athraigh agus cá háit le fáil na gnéithe atá uait."
+body = "Tagann PaperRing V2 le mórán uirlisí agus leagan amach athnuaite. Tabhair cuairt ghearr chun a fheiceáil cad a d'athraigh agus cá háit le fáil na gnéithe atá uait."
 title = "Forbhreathnú ar an Turas"
 
 [onboarding.welcomeSlide]
-body = "Tá Stirling PDF réidh anois do fhoirne de gach méid. Cuimsíonn an nuashonrú seo leagan amach nua, cumais riaracháin chumhachtacha nua, agus ár ngné is mó a iarradh - <strong>Cuir Téacs in Eagar</strong>."
-title = "Fáilte go Stirling"
+body = "Tá PaperRing réidh anois do fhoirne de gach méid. Cuimsíonn an nuashonrú seo leagan amach nua, cumais riaracháin chumhachtacha nua, agus ár ngné is mó a iarradh - <strong>Cuir Téacs in Eagar</strong>."
+title = "Fáilte go PaperRing"
 
 [onboarding.whatsNew]
 activeFilesView = "Bain úsáid as Comhaid Ghníomhacha chun gach rud atá oscailte agat a fheiceáil agus chun a roghnú cad atá le hoibriú air."
@@ -6545,7 +6545,7 @@ check = "Seiceáil arís"
 checkAccount = "Seiceáil cuntas"
 chooseEmail = "Roghnaigh a gcuntas in {{team}}, nó cuir isteach ríomhphost chun cuireadh a thabhairt dóibh."
 close = "Dún dialóg aistrithe"
-cloudAccount = "Cuntas Stirling"
+cloudAccount = "Cuntas PaperRing"
 cloudScopeStyled = "Bainisteoidh <user>{{name}}</user> {{team}}, a baill agus billeáil."
 cloudTargetChanged = "Roghnaigh ball scamall eile. Níl an cuntas seo incháilithe don aistriú a thuilleadh."
 confirm = "Tuigim na hathruithe rochtana agus úinéireachta."
@@ -6560,7 +6560,7 @@ inviteAddress = "Tabhair cuireadh do <account>{{email}}</account> chuig {{team}}
 inviteBlocked = "Níorbh fhéidir an cuireadh a sheoladh. Seiceáil suíocháin foirne atá ar fáil agus an bhfuil síntiús íoctha ag an bhfaighteoir cheana."
 linkChanged = "D’athraigh nasc scamall an fhreastalaí. Iarr ar oibreoir an fhreastalaí an nasc bunaidh a athchóiriú sula n-atosófar."
 linkedServerCount = "{{count}} fhreastalaí nasctha"
-linkRevoked = "Níl nasc scamall an fhreastalaí seo bailí a thuilleadh. Cealaigh an t-aistriú, ansin athcheangail do chuntas Stirling sna socruithe. Ní athróidh úinéireacht."
+linkRevoked = "Níl nasc scamall an fhreastalaí seo bailí a thuilleadh. Cealaigh an t-aistriú, ansin athcheangail do chuntas PaperRing sna socruithe. Ní athróidh úinéireacht."
 localScope = "Beidh úinéireacht acu ar an bhfreastalaí seo agus bainisteoidh siad billeáil agus naisc scamall. Coinneoidh tú rochtain riarthóra, ach caillfidh tú rochtain ar na socruithe sin."
 membershipDetails = "Sonraí ballraíochta foirne"
 membershipFirst = "Caithfidh siad dul isteach san fhoireann sular féidir leat an t-aistriú a dheimhniú."
@@ -6872,7 +6872,7 @@ benefit1Body = "slabhraigh uirlisí, sceidealaigh rith, próiseáil i mbaisc"
 benefit1Title = "Píblínte uathoibrithe"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "Uirlisí AI"
-benefit3Body = "glaoigh ar aon Stirling endpoint go clárúil"
+benefit3Body = "glaoigh ar aon PaperRing endpoint go clárúil"
 benefit3Title = "Rochtain API"
 button = "Cuir Processor ar siúl →"
 reassurance = "Gan íosmhéid · Socraigh teorainn $0 le tástáil · Cealaigh am ar bith"
@@ -6962,7 +6962,7 @@ editorLabel = "Eagarthóir PDF"
 login = "Logáil isteach"
 manualToolsPromo = "Uirlisí láimhe PDF gan teorainn saor in aisce"
 processorLabel = "Próiseálaí PDF"
-processorTitle = "Cruthaigh cuntas chun an chuid is fearr de Stirling a dhíghlasáil"
+processorTitle = "Cruthaigh cuntas chun an chuid is fearr de PaperRing a dhíghlasáil"
 readerLabel = "Léitheoir PDF"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "Measta in USD. Is féidir leat do theorainn a choigeartú am ar bith 
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / mí"
 edit = "Eagar"
-help = "Láimhseálann Stripe sonraí do chárta. Ní fheiceann Stirling iad riamh."
+help = "Láimhseálann Stripe sonraí do chárta. Ní fheiceann PaperRing iad riamh."
 loading = "Checkout á luchtú…"
 noCap = "Gan teorainn"
 title = "Cuir do mhodh íocaíochta leis"
@@ -7010,7 +7010,7 @@ title = "Cuir do mhodh íocaíochta leis"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "Uirlisí AI"
-apiBody = "rochtain chlárúil ar aon Stirling endpoint"
+apiBody = "rochtain chlárúil ar aon PaperRing endpoint"
 apiTitle = "Glaonna API"
 automationBody = "uirlisí slabhraithe nó rith sceidealaithe nach dteastaíonn cliceanna uathu"
 automationTitle = "Píblínte uathoibrithe"
@@ -7870,7 +7870,7 @@ connectDescription = "Ceangail an freastalaí seo chun liúntas próiseála d'fh
 disconnectBody = "Stopfaidh an freastalaí seo de liúntas próiseála d'fhoirne a úsáid in Stirling Cloud. Fanann do chomhaid áitiúla ar an bhfreastalaí seo. Chun ceangal arís, lean na céimeanna ceangail bunaidh."
 disconnectTitle = "Dícheangail an tásc seo?"
 eyebrow = "An instance seo"
-linkButton = "Ceangail do chuntas Stirling"
+linkButton = "Ceangail do chuntas PaperRing"
 loading = "Nasc cuntais á sheiceáil"
 notLinked = "Níl sé ceangailte"
 signedInAs = "Sínithe isteach i Stirling Cloud mar"
@@ -7886,14 +7886,14 @@ description = "Iarr ar riarthóir do fhreastalaí an nasc le Stirling Cloud a ch
 title = "Níl nascadh cuntais ar fáil"
 
 [portal.accountLink.connect]
-adminRequired = "Iarr ar riarthóir do fhreastalaí Úsáid & billeáil a oscailt agus cuntas Stirling a nascadh le haghaidh tuilleadh creidmheasanna míosúla. Tá uirlisí láimhe PDF fós ar fáil."
+adminRequired = "Iarr ar riarthóir do fhreastalaí Úsáid & billeáil a oscailt agus cuntas PaperRing a nascadh le haghaidh tuilleadh creidmheasanna míosúla. Tá uirlisí láimhe PDF fós ar fáil."
 adminTitle = "Iarr ar riarthóir do fhreastalaí"
 close = "Dún"
 copied = "Cóipeáilte"
 copyAdminMessage = "Cóipeáil teachtaireacht don riarthóir"
-exhaustedLede = "D'úsáid an freastalaí seo a chreidmheasanna saor in aisce don mhí. Nasc cuntas Stirling nua nó reatha chun rochtain a fháil ar liúntas míosúil d'fhoirne."
+exhaustedLede = "D'úsáid an freastalaí seo a chreidmheasanna saor in aisce don mhí. Nasc cuntas PaperRing nua nó reatha chun rochtain a fháil ar liúntas míosúil d'fhoirne."
 notNow = "Ní anois"
-start = "Ceangail cuntas Stirling"
+start = "Ceangail cuntas PaperRing"
 step = "Céim {{current}} as {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Cuir tuilleadh úsáideoirí leis le plean Foirne íoctha"
 teamsLabel = "Foirne níos mó"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "Níl tú sínithe isteach i Stirling sa bhrabhsálaí seo, mar sin iarrfaidh úsáid agus billeáil ort síniú isteach."
+linkedNotSignedIn = "Níl tú sínithe isteach i PaperRing sa bhrabhsálaí seo, mar sin iarrfaidh úsáid agus billeáil ort síniú isteach."
 retry = "Bain triail eile as"
-signedInAnyway = "Tá tú sínithe isteach i Stirling, mar sin luchtóidh billeáil agus úsáid. Níl ach nasc an fhreastalaí neamhiomlán."
+signedInAnyway = "Tá tú sínithe isteach i PaperRing, mar sin luchtóidh billeáil agus úsáid. Níl ach nasc an fhreastalaí neamhiomlán."
 working = "An nasc á chríochnú."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Diúltaíodh don iarratas seo nó úsáideadh é cheana. Tosaigh ceann e
 title = "Níor críochnaíodh an nasc"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Níor dheimhnigh Stirling an nasc. Is sealadach é seo de ghnáth."
+body = "Níor dheimhnigh PaperRing an nasc. Is sealadach é seo de ghnáth."
 title = "Níl críochnaithe fós"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Creidmheasanna saor in aisce fágtha"
 creditsSuffix = "as {{allowance}} creidmheas saor in aisce fágtha"
 cta = "Déanta"
 inviteTeam = "Tabhair cuireadh do d'fhoireann"
-lede = "Ritheann an freastalaí seo anois i gcoinne do chuntais Stirling."
+lede = "Ritheann an freastalaí seo anois i gcoinne do chuntais PaperRing."
 pendingTitle = "Beagnach ann"
 switchOnProcessor = "Cuir an Processor ar siúl"
 title = "Ceangailte"
 
 [portal.accountLink.connect.handoff]
-opening = "Síniú isteach Stirling á oscailt..."
-reauthLede = "Tá do sheisiún Stirling imithe in éag. Má shíníonn tú isteach arís, fanfaidh úsáid agus billeáil infheicthe. Fanfaidh an freastalaí seo ceangailte ar aon nós."
+opening = "Síniú isteach PaperRing á oscailt..."
+reauthLede = "Tá do sheisiún PaperRing imithe in éag. Má shíníonn tú isteach arís, fanfaidh úsáid agus billeáil infheicthe. Fanfaidh an freastalaí seo ceangailte ar aon nós."
 title = "Á cheangal"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Ní mheaitseálann seoladh frontend cumraithe an fhreastala�
 cancel = "Cealaigh"
 continueReauth = "Sínigh isteach arís"
 exhaustedTitle = "Coinnigh do shreafaí oibre ag rith"
-identity = "Cuntas Stirling"
-linkTitle = "Ceangail do chuntas Stirling"
-noAuthorizeUrl = "Níor thug Stirling áit le leanúint ar aghaidh. Bain triail eile as ar ball."
-startFailed = "Níorbh fhéidir Stirling a bhaint amach chun an nasc a thosú. Seiceáil rochtain líonra amach an fhreastalaí seo, ansin bain triail eile as."
+identity = "Cuntas PaperRing"
+linkTitle = "Ceangail do chuntas PaperRing"
+noAuthorizeUrl = "Níor thug PaperRing áit le leanúint ar aghaidh. Bain triail eile as ar ball."
+startFailed = "Níorbh fhéidir PaperRing a bhaint amach chun an nasc a thosú. Seiceáil rochtain líonra amach an fhreastalaí seo, ansin bain triail eile as."
 transferPending = "Tá aistriú úinéireachta ar feitheamh. Téigh go Socruithe → Úsáideoirí chun é a chríochnú nó a chealú, ansin bain triail as nascadh arís."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "ionas gur féidir leis an bhfreastalaí seo an nasc a chríochnú nuair a fhilleann tú."
 and = "agus"
 before = "Socraigh"
-title = "Níl nasc Stirling cumraithe"
+title = "Níl nasc PaperRing cumraithe"
 
 [portal.accountLink.notice]
 openFailed = "Níorbh fhéidir do bhrabhsálaí a oscailt. Oscail Úsáid & billeáil ar do fhreastalaí ceangailte chun cuntas a nascadh."
@@ -8027,7 +8027,7 @@ viewAll = "Féach ar gach píblíne"
 
 [portal.accountLink.rail]
 adminCta = "Conas níos mó creidmheasanna a fháil"
-adminSub = "Iarr ar riarthóir do fhreastalaí cuntas Stirling a nascadh le haghaidh tuilleadh creidmheasanna. Tá uirlisí láimhe PDF fós ar fáil."
+adminSub = "Iarr ar riarthóir do fhreastalaí cuntas PaperRing a nascadh le haghaidh tuilleadh creidmheasanna. Tá uirlisí láimhe PDF fós ar fáil."
 exhaustedCta = "Nasc cuntas le haghaidh tuilleadh creidmheasanna"
 exhaustedSub = "Nasc le haghaidh creidmheasanna míosúla, billeáil chomhroinnte agus an rogha fás le plean Team."
 exhaustedTitle = "Tá creidmheasanna saor in aisce an fhreastalaí seo ídithe"
@@ -8041,9 +8041,9 @@ malformed = "Níorbh fhéidir linn an freagra sínithe isteach seo a fhíorú. T
 malformedTitle = "Níorbh fhéidir síniú isteach a fhíorú"
 rejected = "Diúltaíodh don iarratas sínithe isteach seo nó úsáideadh cheana é. Bain triail eile as chun rochtain billeála a athnuachan."
 rejectedTitle = "Níor críochnaíodh síniú isteach"
-retry = "Níorbh fhéidir le Stirling rochtain billeála a athnuachan a chríochnú. Bain triail eile as ar ball; tá do fhreastalaí fós ceangailte."
+retry = "Níorbh fhéidir le PaperRing rochtain billeála a athnuachan a chríochnú. Bain triail eile as ar ball; tá do fhreastalaí fós ceangailte."
 retryTitle = "Níor athchóiríodh rochtain billeála"
-success = "Athnuadh do rochtain billeála. Tá an freastalaí seo fós ceangailte leis an gcuntas Stirling céanna."
+success = "Athnuadh do rochtain billeála. Tá an freastalaí seo fós ceangailte leis an gcuntas PaperRing céanna."
 title = "Athnuaigh rochtain billeála"
 working = "Rochtain billeála á hathchóiriú."
 
@@ -8057,7 +8057,7 @@ close = "Dún cúntóir"
 error = "Níorbh fhéidir an cúntóir a bhaint amach."
 errorWithDetail = "Níorbh fhéidir an cúntóir a bhaint amach: {{detail}}"
 inputAriaLabel = "Cuir ceist ar an gcúntóir"
-inputPlaceholder = "Fiafraigh faoi Stirling…"
+inputPlaceholder = "Fiafraigh faoi PaperRing…"
 open = "Oscail cúntóir"
 send = "Seol"
 title = "Cúntóir"
@@ -8102,7 +8102,7 @@ title = "Socraigh do theorainn chaiteachais"
 [portal.billing.checkout.card]
 fields = "Uimhir chárta · MM / YY · CVC · ZIP"
 label = "Sonraí cárta"
-note = "Bailíonn Stripe sonraí cárta. Ní stórálann Stirling PAN ná CVC riamh."
+note = "Bailíonn Stripe sonraí cárta. Ní stórálann PaperRing PAN ná CVC riamh."
 
 [portal.billing.checkout.error]
 title = "Níorbh fhéidir checkout a thosú"
@@ -8180,7 +8180,7 @@ users = "Úsáideoirí"
 [portal.billing.enterprise]
 cta = "Faigh luachan enterprise"
 sub = "Imscaradh air-gapped, SCIM, cónaitheacht sonraí, SLAanna aga fónaimh, agus comhaontú a oireann."
-title = "An bhfuil Stirling á rith agat i dtimpeallacht rialáilte?"
+title = "An bhfuil PaperRing á rith agat i dtimpeallacht rialáilte?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Níorbh fhéidir checkout a thosú"
@@ -8458,7 +8458,7 @@ description = "Áit a gcríochnaíonn doiciméid phróiseáilte - buicéad, tiom
 label = "Comhad & ceangail"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stórálann Stirling é seo criptithe agus ní thaispeánann sé arís é riamh."
+helperText = "Stórálann PaperRing é seo criptithe agus ní thaispeánann sé arís é riamh."
 label = "Comhartha rochtana"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Bain triail eile as"
 title = "Chuaigh rud éigin mícheart ar an leathanach seo"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Ní mheaitseálann aon rud na scagairí reatha"
 occurrences = "{{count}} tarluithe"
 searchPlaceholder = "Cuardaigh saincheisteanna, úsáideoirí agus earráidí"
@@ -9106,7 +9106,7 @@ description = "Tá bogearraí in easnamh ar an bhfreastalaí seo a theastaíonn 
 title = "Bogearraí gan suiteáil"
 
 [portal.failures.kind.unknown]
-description = "Chuaigh rud éigin mícheart nach n-aithníonn Stirling fós."
+description = "Chuaigh rud éigin mícheart nach n-aithníonn PaperRing fós."
 title = "Saincheist anaithnid"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "Oscail treoir {{name}}"
 openInBrowser = "Oscail sa bhrabhsálaí ina ionad"
 sectionDesktop = "Aip deisce"
 sectionSelfHosted = "Féin-óstáilte"
-title = "Suiteáil an Stirling PDF Editor"
+title = "Suiteáil an PaperRing Editor"
 
 [portal.home.download.docker]
 detailBody = "Rith an íomhá oifigiúil ar do fhreastalaí."
@@ -9224,7 +9224,7 @@ usageMonth = "Úsáid an mhí seo"
 usageToday = "Úsáid inniu"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Cruthaigh eochair chun tosú ag glaoch ar an Stirling API."
+description = "Cruthaigh eochair chun tosú ag glaoch ar an PaperRing API."
 title = "Níl aon eochracha API fós"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Déanta"
 keyNameLabel = "Ainm eochrach"
 keyNamePlaceholder = "m.sh. Production ingest"
 secretKeyCaption = "Eochair rúnda"
-secretWarning = "Stóráil é seo i mbainisteoir rúin. Ní stórálann Stirling ach hash riamh, mar sin níl aon bhealach ann é a aisghabháil níos déanaí."
+secretWarning = "Stóráil é seo i mbainisteoir rúin. Ní stórálann PaperRing ach hash riamh, mar sin níl aon bhealach ann é a aisghabháil níos déanaí."
 subtitle = "Tabhair ainm don eochair ionas gur féidir leat í a aithint níos déanaí. Is féidir leat í a chúlghairm am ar bith."
 subtitleCreated = "Cóipeáil an rún seo anois — ní thaispeánfar arís é."
 title = "Cruthaigh eochair API"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} nasc"
 connectionCount_other = "{{count}} nasc"
 customApi = "API saincheaptha"
 searchPlaceholder = "Cuardaigh comhtháthuithe"
-subtitle = "Gach rud ar féidir le Stirling labhairt leis. Cruthaítear dintiúir uair amháin anseo, ansin tagraíonn foinsí, polasaithe agus píblínte dóibh."
+subtitle = "Gach rud ar féidir le PaperRing labhairt leis. Cruthaítear dintiúir uair amháin anseo, ansin tagraíonn foinsí, polasaithe agus píblínte dóibh."
 title = "Comhtháthuithe"
 typedName = "Ainm {{tool}}"
 
@@ -10183,8 +10183,8 @@ saveFailed = "Níorbh fhéidir an phíblíne a shábháil. Bain triail eile as."
 
 [portal.policies.wizard.locations]
 aiSettings = "Oscail socruithe AI"
-builtin = "Bunachar eolais Stirling"
-builtinHelp = "Innéacsaíonn sé smutáin inchuardaithe in Stirling agus filleann sé an PDF próiseáilte chuig an gceann scríbe thíos. Ní mór soláthraí leabaithe a chumrú i socruithe AI."
+builtin = "Bunachar eolais PaperRing"
+builtinHelp = "Innéacsaíonn sé smutáin inchuardaithe in PaperRing agus filleann sé an PDF próiseáilte chuig an gceann scríbe thíos. Ní mór soláthraí leabaithe a chumrú i socruithe AI."
 checking = "Infhaighteacht ionghabhála á seiceáil..."
 chooseOutput = "Roghnaigh ceann scríbe aschuir cumasaithe roimh shábháil."
 chooseSource = "Roghnaigh cá as a dtagann doiciméid"
@@ -10276,7 +10276,7 @@ title = "Níl aon sreabhadh fós"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Ceangail"
-editor = "Eagarthóir Stirling PDF"
+editor = "Eagarthóir PaperRing"
 heading = "Foinsí"
 perDay = "{{n}} / 24h"
 
@@ -10293,7 +10293,7 @@ title = "Soláthar"
 agreeCta = "Sínigh comhaontú"
 confidential = "Rúnda"
 confirm = "Tá an Comhaontú seo léite agam agus aontaím leis, agus dearbhaím go bhfuil údarás agam é a shíniú thar ceann na heagraíochta atá ainmnithe thuas."
-docName = "Comhaontú Fiontair Stirling"
+docName = "Comhaontú Fiontair PaperRing"
 docSub = "MSA, Foirm Ordaithe, EULA agus DPA, comhcheangailte in aon síniú amháin."
 download = "Íoslódáil"
 downloadDraftError = "Níorbh fhéidir PDF an chomhaontaithe a ghiniúint - níl rindreálaí an doiciméid ar fáil. Bain triail eile as go gairid nó déan teagmháil le tacaíocht."
@@ -10463,7 +10463,7 @@ gatingAction = "Glac le do luachan"
 label = "Luachan"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Déan Stirling a mheas i gcoinne do cháipéisí agus sreafaí oibre."
+blurb = "Déan PaperRing a mheas i gcoinne do cháipéisí agus sreafaí oibre."
 gatingAction = "Tóg do luachan"
 label = "Triail"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Seo do chomhad ceadúnais trialach. Nuair a bheidh do chomhaont
 
 [portal.procurement.link]
 cta = "Nasc cuntas"
-description = "Ritheann soláthar ar do chuntas Stirling nasctha: sin mar a sholáthraímid an triail, a phraghsálaimid do luachan, agus a thosaímid billeáil. Nasc cuntas chun tosú."
+description = "Ritheann soláthar ar do chuntas PaperRing nasctha: sin mar a sholáthraímid an triail, a phraghsálaimid do luachan, agus a thosaímid billeáil. Nasc cuntas chun tosú."
 eyebrow = "Fiontar"
 title = "Nasc do chuntas chun tosú"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Bainistithe, tosú is tapúla"
 continue = "Lean ar aghaidh"
 deployment = "Cá háit ar cheart é a imscaradh?"
-eula = "Aontaím le Stirling EULA & Téarmaí Tráchtála."
+eula = "Aontaím le PaperRing EULA & Téarmaí Tráchtála."
 fullName = "Ainm iomlán"
 fullNamePlaceholder = "D'ainm"
 invites = "Tabhair cuireadh do chomhghleacaithe · roghnach"
@@ -10565,7 +10565,7 @@ account-link = "Ceangal cuntais"
 [portal.shell.sidebar]
 appEditor = "Eagarthóir"
 appProcessor = "Próiseálaí"
-linkAccount = "Nasc cuntas Stirling"
+linkAccount = "Nasc cuntas PaperRing"
 primaryNav = "Príomh-nascleanúint"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Cuardaigh"
 
 [portal.sources]
 processingModeHelp = "Coinníonn Track na bunchóipeanna agus próiseálann sé gach leagan uair amháin. Coinníonn Snapshot na bunchóipeanna agus próiseálann sé iad ar gach rith. Scriosann Consume na bunchóipeanna tar éis seachadadh rathúil."
-subtitle = "Naisc ionchuir in-athúsáidte a chuireann doiciméid isteach i Stirling. Cumraigh foinse uair amháin, ansin tagair di ó aon líon píblínte."
+subtitle = "Naisc ionchuir in-athúsáidte a chuireann doiciméid isteach i PaperRing. Cumraigh foinse uair amháin, ansin tagair di ó aon líon píblínte."
 title = "Foinsí"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Roinntear creidmheasanna míosúla an fhreastalaí seo ag gach duin
 barAria = "Creidmheasanna saor in aisce fágtha"
 capSuffix_one = "as {{allowance}} chreidmheas saor in aisce fágtha an mhí seo"
 capSuffix_other = "as {{allowance}} chreidmheas saor in aisce fágtha an mhí seo"
-connect = "Ceangail cuntas Stirling"
+connect = "Ceangail cuntas PaperRing"
 connectBody = "Cuireann ceangal liúntas míosúil eile leis, méadaíonn sé líon na n-úsáideoirí is féidir leis an bhfreastalaí seo a bheith aige, agus cuireann sé an Próiseálaí ar siúl."
-connectTitle = "Níl aon chuntas Stirling ag an bhfreastalaí seo"
+connectTitle = "Níl aon chuntas PaperRing ag an bhfreastalaí seo"
 loadError = "Níorbh fhéidir úsáid chreidmheasa an fhreastalaí seo a léamh. Bain triail eile as i gceann tamaill."
 loadErrorTitle = "Níorbh fhéidir úsáid chreidmheasa a luchtú"
 resets = "Athshocraítear {{date}}"
 
 [portal.usage.sessionExpired]
-body = "Tá seisiún do chuntais Stirling imithe in éag. Sínigh isteach arís chun billeáil a fheiceáil — fanann d’instance nasctha."
+body = "Tá seisiún do chuntais PaperRing imithe in éag. Sínigh isteach arís chun billeáil a fheiceáil — fanann d’instance nasctha."
 
 [portal.users]
 title = "Úsáideoirí"
@@ -11129,7 +11129,7 @@ files = "Comhaid"
 account = "Cuntas"
 docs = "Doiciméadú"
 editor = "Eagarthóir"
-home = "Stirling"
+home = "PaperRing"
 invite = "Tabhair cuireadh"
 landmark = "Nascleanúint thapa"
 noProcessorAccess = "Iarr rochtain ar an bpróiseálaí ar riarthóir"
@@ -11682,8 +11682,8 @@ hideTools = "Folaigh uirlisí nach bhfuil ar fáil ▴"
 messageNoFallback = "Ní bheidh uirlisí ar fáil go dtí go mbeidh do fhreastalaí ar líne arís."
 messageWithFallback = "Teastaíonn ceangal le freastalaí ó chuid d’uirlisí."
 showTools = "Féach uirlisí nach bhfuil ar fáil ▾"
-title = "Ní féidir do fhreastalaí Stirling-PDF a bhaint amach"
-toolNotAvailableLocally = "Tá do fhreastalaí Stirling-PDF as líne agus níl \"{{endpoint}}\" ar fáil ar an gcúlcheann áitiúil."
+title = "Ní féidir do fhreastalaí PaperRing a bhaint amach"
+toolNotAvailableLocally = "Tá do fhreastalaí PaperRing as líne agus níl \"{{endpoint}}\" ar fáil ar an gcúlcheann áitiúil."
 
 [session]
 expired = "Tá do sheisiún imithe in éag. Athnuaigh an leathanach agus bain triail eile as."
@@ -11755,7 +11755,7 @@ unknown = "Níl ar fáil"
 yourTeam = "D’fhoireann"
 
 [settings.connection]
-description = "Oibrigh go háitiúil ar an meaisín seo nó ceangail an aip le freastalaí Stirling."
+description = "Oibrigh go háitiúil ar an meaisín seo nó ceangail an aip le freastalaí PaperRing."
 localDescription = "Tá tú ag úsáid an chúlcheann áitiúil gan chuntas. Níl roinnt uirlisí a éilíonn próiseáil néil nó freastalaí féinóstáilte ar fáil."
 logout = "Logáil Amach"
 server = "Freastalaí"
@@ -11770,7 +11770,7 @@ selfhosted = "Féin-óstáilte"
 
 [settings.developer]
 apiKeys = "Eochracha API"
-apiKeysDescription = "Eochracha pearsanta chun glaoch ar an Stirling API ó scripteanna agus comhtháthuithe."
+apiKeysDescription = "Eochracha pearsanta chun glaoch ar an PaperRing API ó scripteanna agus comhtháthuithe."
 title = "Forbróir"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Teorainn chomhaid dífhuascailte uathoibríoch"
 autoUnzipFileLimitTooltip = "Dífhuascail ach amháin má tá an oiread seo comhad sa ZIP nó níos lú. Socraigh níos airde chun ZIPanna níos mó a bhaint."
 autoUnzipTooltip = "Baineann sé comhaid ZIP a fhilleann ó oibríochtaí API go huathoibríoch. Díchumasaigh chun comhaid ZIP a choinneáil slán. Ní théann sé seo i bhfeidhm ar shreafaí oibre uathoibrithe."
 defaultPdfEditor = "Eagarthóir PDF réamhshocraithe"
-defaultPdfEditorActive = "Is é Stirling PDF d’eagarthóir PDF réamhshocraithe"
+defaultPdfEditorActive = "Is é PaperRing d’eagarthóir PDF réamhshocraithe"
 defaultPdfEditorChecking = "Á sheiceáil..."
 defaultPdfEditorInactive = "Tá feidhmchlár eile socraithe mar réamhshocrú"
 defaultPdfEditorSet = "Réamhshocraithe Cheana"
@@ -11849,7 +11849,7 @@ updateBehavior = "Iompar nuashonruithe"
 updateBehaviorDescription = "Roghnaigh an dtabharfar leid roimh shuiteáil nuashonruithe, an suiteálfar go huathoibríoch iad, nó an scipeálfar seiceálacha nuashonraithe go hiomlán."
 updateBehaviorError = "Níorbh fhéidir iompar an nuashonraithe a athrú"
 updateBehaviorErrorLocked = "Tá an socrú seo faoi ghlas ag do riarthóir."
-updateBehaviorLockedDescription = "Tá do riarthóir tar éis a chumrú conas a láimhseálann Stirling-PDF nuashonruithe ar an meaisín seo. Déan teagmháil leo chun é seo a athrú."
+updateBehaviorLockedDescription = "Tá do riarthóir tar éis a chumrú conas a láimhseálann PaperRing nuashonruithe ar an meaisín seo. Déan teagmháil leo chun é seo a athrú."
 updateBehaviorSaved = "Sábháladh iompar an nuashonraithe."
 versionMismatch = "Tá leaganacha éagsúla á rith ag d’fheidhmchlár deisce agus ag an bhfreastalaí. Nuashonraigh an dá cheann go dtí an leagan céanna chun fadhbanna comhoiriúnachta a sheachaint."
 viewDetails = "Féach Sonraí"
@@ -12074,7 +12074,7 @@ emptyUsername = "Cuir isteach d’ainm úsáideora"
 oauthFailed = "Theip ar logáil isteach OAuth. Bain triail eile as."
 
 [setup.saas]
-title = "Sínigh isteach i Stirling"
+title = "Sínigh isteach i PaperRing"
 
 [setup.selfhosted]
 changeServerLocked = "Tá do eagraíocht tar éis an aip seo a shrianadh le freastalaí ar leith"
@@ -12120,7 +12120,7 @@ step3 = "Atosaigh an freastalaí"
 title = "Níl an Logáil Isteach Cumasaithe"
 
 [setup.server.url]
-description = "Cuir isteach URL iomlán do fhreastalaí Stirling PDF féin-óstáilte"
+description = "Cuir isteach URL iomlán do fhreastalaí PaperRing féin-óstáilte"
 label = "URL an fhreastalaí"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Líon isteach na réimsí go léir, le do thoil"
 signUp = "Cláraigh"
 signUpWith = "Cláraigh le"
 skip = "Scipeáil"
-subtitle = "Bí le Stirling PDF chun tosú"
+subtitle = "Bí le PaperRing chun tosú"
 title = "Cruthaigh cuntas"
 unableToAccessTool = "Ní féidir rochtain a fháil ar an uirlis: {{error}}"
 unexpectedError = "Earráid gan choinne: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Íoslódáil"
 downloaded = "Íosluchtaithe"
 downloadFailed = "Níorbh fhéidir an comhad seo a íoslódáil."
 downloadsCount = "Íoslódálacha: {{count}}"
-emailWarningBody = "Is cosúil gur seoladh ríomhphoist é seo. Mura bhfuil an duine seo ina úsáideoir Stirling PDF cheana, ní bheidh sé in ann rochtain a fháil ar an gcomhad."
+emailWarningBody = "Is cosúil gur seoladh ríomhphoist é seo. Mura bhfuil an duine seo ina úsáideoir PaperRing cheana, ní bheidh sé in ann rochtain a fháil ar an gcomhad."
 emailWarningConfirm = "Comhroinn mar sin féin"
 emailWarningTitle = "Seoladh ríomhphoist"
 errorTitle = "Theip ar chomhroinnt"
@@ -12887,7 +12887,7 @@ manageTitle = "Bainistigh Comhroinnt"
 noActivity = "Níl aon ghníomhaíocht fós."
 noLinks = "Níl aon naisc chomhroinnte gníomhacha fós."
 noSharedUsers = "Níl aon úsáideoirí le rochtain fós."
-openInApp = "Oscail i Stirling PDF"
+openInApp = "Oscail i PaperRing"
 ownerLabel = "Úinéir"
 ownerUnknown = "Anaithnid"
 removeLink = "Bain nasc"
@@ -12945,7 +12945,7 @@ all = "Uile"
 ariaLabel = "Sárchuardach"
 filtersAriaLabel = "Scagairí cuardaigh"
 hint = "Clóscríobh chun cuardach a dhéanamh"
-placeholder = "Cuardaigh Stirling"
+placeholder = "Cuardaigh PaperRing"
 placeholderShort = "Cuardach"
 showLess = "Taispeáin níos lú"
 showMore = "Taispeáin {{count}} eile"
@@ -12959,7 +12959,7 @@ settings = "Socruithe"
 tools = "Uirlisí"
 
 [survey]
-title = "Suirbhé Stirling-PDF"
+title = "Suirbhé PaperRing"
 
 [swagger]
 clickHere = "cliceáil anseo"
@@ -13128,7 +13128,7 @@ favorites = "Ceanáin"
 heading = "Gach uirlis (radharc lánscáileáin)"
 noResults = "Bain triail as do chuardach a choigeartú nó tuairiscí a scoránaigh chun an rud atá uait a aimsiú."
 recommended = "Molta"
-selfHostedOffline = "Teastaíonn do fhreastalaí Stirling-PDF uaidh (faoi láthair as líne):"
+selfHostedOffline = "Teastaíonn do fhreastalaí PaperRing uaidh (faoi láthair as líne):"
 showDetails = "Taispeáin Sonraí"
 unavailable = "Díchumasaithe ag riarthóir freastalaí:"
 unavailableDependency = "Níl ar fáil - uirlis riachtanach ar iarraidh ar an bhfreastalaí:"
@@ -13137,7 +13137,7 @@ unfavorite = "Bain den Cheanáin"
 [toolPanel.modePrompt]
 chooseFullscreen = "Úsáid mód lánscáileáin"
 chooseSidebar = "Úsáid mód barra taoibh"
-description = "Réamhamharc ar an dá leagan amach agus socraigh conas is mian leat uirlisí Stirling PDF a iniúchadh."
+description = "Réamhamharc ar an dá leagan amach agus socraigh conas is mian leat uirlisí PaperRing a iniúchadh."
 dismiss = "B'fhéidir níos déanaí"
 fullscreenDescription = "Brabhsáil gach uirlis i gcatalóg a chlúdaíonn an spás oibre go dtí go roghnaíonn tú ceann."
 fullscreenTitle = "Mód lánscáileáin - (oidhreachta)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Ag lódáil eolas mionsonraithe..."
 migrationGuide = "Treoir Imirce"
 migrationGuides = "Treoracha Imirce"
 migrationGuidesDesc = "Athbhreithnigh na hathruithe tábhachtacha sula nuashonraítear."
-modalSubtitle = "Tá leagan nua de Stirling PDF réidh le suiteáil."
+modalSubtitle = "Tá leagan nua de PaperRing réidh le suiteáil."
 modalTitle = "Nuashonrú ar Fáil"
 notes = "Nótaí"
 releaseNotes = "Nótaí Eisiúna"
@@ -13230,7 +13230,7 @@ urgent = "Práinneach"
 attentionBody = "Ní mór do d’riarthóir síniú isteach chun tuilleadh eolais a fheiceáil. Déan teagmháil leo láithreach."
 attentionBodyAdmin = "Athbhreithnigh na riachtanais ceadúnais chun an freastalaí seo a choinneáil comhlíontach."
 attentionTitle = "Teastaíonn aird riarthóra ón bhfreastalaí seo"
-message = "Bain an leas is fearr as Stirling PDF le 100 úsáideoir, eagarthóireacht téacs PDF agus gnéithe ardleibhéil"
+message = "Bain an leas is fearr as PaperRing le 100 úsáideoir, eagarthóireacht téacs PDF agus gnéithe ardleibhéil"
 seeInfo = "Féach eolas"
 title = "Uasghrádaigh go dtí an plean Team"
 upgradeButton = "Uasghrádaigh Anois"
@@ -13368,7 +13368,7 @@ authWeb = "Pasfhocal"
 create = "Cruthaigh cuntas"
 createSubtitle = "Cruthaigh cuntas self-hosted le pasfhocal nó SSO."
 createTitle = "Cruthaigh cuntas"
-editorDesc = "Cuir PDFs in eagar san Eagarthóir Stirling PDF. Faigheann gach duine é seo."
+editorDesc = "Cuir PDFs in eagar san Eagarthóir PaperRing. Faigheann gach duine é seo."
 email = "Seoladh ríomhphoist"
 emailError = "Cuir isteach seoladh ríomhphoist bailí"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Seoladh cuireadh, ach níorbh fhéidir rochtain Processor a
 processorDesc = "An dromchla rialachais, píblínte a rith, gníomhairí, agus an API."
 role = "Ról"
 send2 = "Seol cuireadh"
-subtitle2 = "Gheobhaidh siad ríomhphost chun dul isteach i do spás oibre Stirling."
+subtitle2 = "Gheobhaidh siad ríomhphost chun dul isteach i do spás oibre PaperRing."
 team = "Foireann"
 title = "Tabhair cuireadh do dhaoine"
 username = "Ainm úsáideora"
@@ -13525,7 +13525,7 @@ downloads = "Íoslódálacha"
 entryLabel = "Achoimre ar Shínithe"
 filesEvaluated_one = "Measadh {{count}} comhad"
 filesEvaluated_other = "Measadh {{count}} comhad"
-footer = "Bailíochtaithe trí Stirling PDF"
+footer = "Bailíochtaithe trí PaperRing"
 generatedAt = "Ginte"
 noPdf = "Beidh tuarascáil PDF ar fáil tar éis bailíochtaithe rathúla."
 page = "Leathanach"
@@ -13718,7 +13718,7 @@ text = "Téacs"
 addFile = "Cuir comhad leis"
 count_one = "{{count}} chomhad sa phunann seo"
 count_other = "{{count}} chomhad sa phunann seo"
-import = "Iompórtáil isteach i Stirling"
+import = "Iompórtáil isteach i PaperRing"
 importFailed = "Níorbh fhéidir an comhad seo a chur le do spás oibre."
 memberUnavailable = "Níorbh fhéidir an comhad seo a léamh ón bpunann."
 preview = "Réamhamharc"

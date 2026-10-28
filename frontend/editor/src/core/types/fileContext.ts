@@ -124,7 +124,7 @@ export function createQuickKey(file: File): string {
   return `${file.name}|${file.size}|${file.lastModified}`;
 }
 
-// Stirling PDF file with embedded UUID - replaces loose File + FileId parameter passing
+// PaperRing file with embedded UUID - replaces loose File + FileId parameter passing
 export interface StirlingFile extends File {
   readonly fileId: FileId;
   readonly quickKey: string; // Fast deduplication key: name|size|lastModified
@@ -191,7 +191,7 @@ export function createStirlingFile(
   id?: FileId,
   options?: { bindSessionAccess?: boolean },
 ): StirlingFile {
-  // If the file already has Stirling metadata and we aren't trying to override it,
+  // If the file already has PaperRing metadata and we aren't trying to override it,
   // return as–is. When a new id is requested we clone the File so we can embed
   // the fresh identifier without mutating the original object.
   if (isStirlingFile(file)) {

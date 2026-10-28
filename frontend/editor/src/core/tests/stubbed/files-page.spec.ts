@@ -266,7 +266,7 @@ test.describe("Files page", () => {
     });
     test.use({ autoGoto: false });
 
-    test("Add to Stirling library hidden when nothing selected", async ({
+    test("Add to PaperRing library hidden when nothing selected", async ({
       page,
     }) => {
       await gotoFilesPage(page);
@@ -275,7 +275,7 @@ test.describe("Files page", () => {
       ).toHaveCount(0);
     });
 
-    test("Add to Stirling library visible when local file selected", async ({
+    test("Add to PaperRing library visible when local file selected", async ({
       page,
     }) => {
       await gotoFilesPage(page);
@@ -289,7 +289,7 @@ test.describe("Files page", () => {
       // dropdowns stay mounted once opened, so each is read through the id its
       // own trigger controls.
       await expect(
-        page.getByRole("button", { name: /^Add to Stirling library/i }),
+        page.getByRole("button", { name: /^Add to PaperRing library/i }),
       ).toHaveCount(0);
       await expect(
         await openMenuItem(
@@ -297,7 +297,7 @@ test.describe("Files page", () => {
           page.locator(
             ".files-page-selection-actions .files-page-toolbar-bulk-trigger",
           ),
-          /^Add to Stirling library/i,
+          /^Add to PaperRing library/i,
         ),
       ).toBeVisible();
       await expect(
@@ -306,12 +306,12 @@ test.describe("Files page", () => {
           page
             .locator(".files-page-details-actions-row")
             .getByRole("button", { name: /^Actions$/i }),
-          /^Add to Stirling library/i,
+          /^Add to PaperRing library/i,
         ),
       ).toBeVisible();
     });
 
-    test("Add to Stirling library hidden when ONLY cloud files selected", async ({
+    test("Add to PaperRing library hidden when ONLY cloud files selected", async ({
       page,
     }) => {
       await gotoFilesPage(page);
@@ -326,7 +326,7 @@ test.describe("Files page", () => {
           page.locator(
             ".files-page-selection-actions .files-page-toolbar-bulk-trigger",
           ),
-          /^Add to Stirling library/i,
+          /^Add to PaperRing library/i,
         ),
       ).toHaveCount(0);
       await expect(
@@ -335,12 +335,12 @@ test.describe("Files page", () => {
           page
             .locator(".files-page-details-actions-row")
             .getByRole("button", { name: /^Actions$/i }),
-          /^Add to Stirling library/i,
+          /^Add to PaperRing library/i,
         ),
       ).toHaveCount(0);
     });
 
-    test("Per-file kebab has Add to Stirling library item for local file", async ({
+    test("Per-file kebab has Add to PaperRing library item for local file", async ({
       page,
     }) => {
       await gotoFilesPage(page);
@@ -350,11 +350,11 @@ test.describe("Files page", () => {
         .filter({ hasText: "local-a.pdf" });
       await localCard.getByRole("button", { name: /File actions/i }).click();
       await expect(
-        page.getByRole("menuitem", { name: /^Add to Stirling library/i }),
+        page.getByRole("menuitem", { name: /^Add to PaperRing library/i }),
       ).toBeVisible();
     });
 
-    test("Per-file kebab hides Add to Stirling library for cloud file", async ({
+    test("Per-file kebab hides Add to PaperRing library for cloud file", async ({
       page,
     }) => {
       await gotoFilesPage(page);
@@ -363,12 +363,12 @@ test.describe("Files page", () => {
         .filter({ hasText: "cloud-a.pdf" });
       await cloudCard.getByRole("button", { name: /File actions/i }).click();
       await expect(
-        page.getByRole("menuitem", { name: /^Add to Stirling library/i }),
+        page.getByRole("menuitem", { name: /^Add to PaperRing library/i }),
       ).toHaveCount(0);
     });
   });
 
-  test.describe("Add to Stirling library gating (storage disabled)", () => {
+  test.describe("Add to PaperRing library gating (storage disabled)", () => {
     test.beforeEach(async ({ page }) => {
       // Keep the disabled action discoverable so users know to ask their admin.
       await stubStorageApis(page, { storageEnabled: false });
@@ -378,7 +378,7 @@ test.describe("Files page", () => {
     });
     test.use({ autoGoto: false });
 
-    test("bulk Add to Stirling library is disabled (not hidden) when storage off", async ({
+    test("bulk Add to PaperRing library is disabled (not hidden) when storage off", async ({
       page,
     }) => {
       await gotoFilesPage(page);
@@ -391,7 +391,7 @@ test.describe("Files page", () => {
         page.locator(
           ".files-page-selection-actions .files-page-toolbar-bulk-trigger",
         ),
-        /^Add to Stirling library/i,
+        /^Add to PaperRing library/i,
       );
       await expect(selectionSave).toBeVisible();
       await expect(selectionSave).toBeDisabled();
@@ -401,13 +401,13 @@ test.describe("Files page", () => {
         page
           .locator(".files-page-details-actions-row")
           .getByRole("button", { name: /^Actions$/i }),
-        /^Add to Stirling library/i,
+        /^Add to PaperRing library/i,
       );
       await expect(panelSave).toBeVisible();
       await expect(panelSave).toBeDisabled();
     });
 
-    test("per-file kebab Add to Stirling library is disabled (not hidden) when storage off", async ({
+    test("per-file kebab Add to PaperRing library is disabled (not hidden) when storage off", async ({
       page,
     }) => {
       await gotoFilesPage(page);
@@ -416,7 +416,7 @@ test.describe("Files page", () => {
         .filter({ hasText: "local-a.pdf" });
       await localCard.getByRole("button", { name: /File actions/i }).click();
       const item = page.getByRole("menuitem", {
-        name: /^Add to Stirling library/i,
+        name: /^Add to PaperRing library/i,
       });
       await expect(item).toBeVisible();
       await expect(item).toBeDisabled();
@@ -732,7 +732,7 @@ test.describe("Files page", () => {
     });
   });
 
-  test.describe("Add to Stirling library", () => {
+  test.describe("Add to PaperRing library", () => {
     test.use({ autoGoto: false, seedJwt: true });
 
     for (const destination of ["root", "new folder"] as const) {
@@ -806,7 +806,7 @@ test.describe("Files page", () => {
           page.getByRole("menuitem", { name: /Move to/i }),
         ).toHaveCount(0);
         await page
-          .getByRole("menuitem", { name: /Add to Stirling library/i })
+          .getByRole("menuitem", { name: /Add to PaperRing library/i })
           .click();
         const picker = page.getByRole("dialog").filter({
           has: page.getByRole("button", { name: "Add here", exact: true }),
@@ -858,7 +858,7 @@ test.describe("Files page", () => {
           page.getByRole("menuitem", { name: /Move to/i }),
         ).toBeVisible();
         await expect(
-          page.getByRole("menuitem", { name: /Add to Stirling library/i }),
+          page.getByRole("menuitem", { name: /Add to PaperRing library/i }),
         ).toHaveCount(0);
         await expect(page).toHaveURL(/\/files\?view=recent$/);
       });
@@ -1377,11 +1377,11 @@ test.describe("Files page", () => {
       const crumbs = page.getByRole("navigation", { name: /Folder path/i });
       await expect(crumbs).toBeVisible({ timeout: 5_000 });
       await expect(
-        crumbs.getByRole("button", { name: /Stirling library/i }),
+        crumbs.getByRole("button", { name: /PaperRing library/i }),
       ).toHaveCount(0);
       await page
         .getByRole("navigation", { name: "File sources" })
-        .getByRole("button", { name: "Stirling library", exact: true })
+        .getByRole("button", { name: "PaperRing library", exact: true })
         .click();
 
       await expect(page).toHaveURL(/\/files\/?$/, { timeout: 5_000 });

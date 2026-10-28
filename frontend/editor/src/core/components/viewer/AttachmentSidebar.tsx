@@ -674,9 +674,9 @@ export const AttachmentSidebar = ({
                     className="attachment-item__download-icon"
                     aria-label={t(
                       "viewer.portfolio.import",
-                      "Import into Stirling",
+                      "Import into PaperRing",
                     )}
-                    title={t("viewer.portfolio.import", "Import into Stirling")}
+                    title={t("viewer.portfolio.import", "Import into PaperRing")}
                     onClick={(event) => {
                       event.stopPropagation();
                       void importMember(attachment);

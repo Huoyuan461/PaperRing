@@ -38,12 +38,12 @@ export const ReviewSignatureStep: React.FC<ReviewSignatureStepProps> = ({
       case "USER_CERT":
         return t(
           "certSign.collab.signRequest.usePersonalCert",
-          "Stirling Sign · Personal",
+          "PaperRing Sign · Personal",
         );
       case "SERVER":
         return t(
           "certSign.collab.signRequest.useServerCert",
-          "Stirling Sign · Organization",
+          "PaperRing Sign · Organization",
         );
       case "UPLOAD":
         return `${uploadFormat} — ${p12File?.name || t("certSign.collab.signRequest.uploadCert", "Upload a certificate")}`;

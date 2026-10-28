@@ -109,21 +109,16 @@ class InitialSetupTest {
     class LegalUrls {
 
         @Test
-        @DisplayName("sets defaults when both URLs are empty")
-        void setsDefaults() throws Exception {
+        @DisplayName("leaves empty URLs unset")
+        void leavesEmptyUnset() throws Exception {
             legal.setTermsAndConditions(null);
             legal.setPrivacyPolicy("");
             try (MockedStatic<GeneralUtils> util = mockStatic(GeneralUtils.class)) {
                 initialSetup.initLegalUrls();
 
-                assertThat(legal.getTermsAndConditions()).contains("stirlingpdf.com/terms");
-                assertThat(legal.getPrivacyPolicy()).contains("privacy-policy");
-                util.verify(
-                        () -> GeneralUtils.saveKeyToSettings(eq("legal.termsAndConditions"), any()),
-                        times(1));
-                util.verify(
-                        () -> GeneralUtils.saveKeyToSettings(eq("legal.privacyPolicy"), any()),
-                        times(1));
+                assertThat(legal.getTermsAndConditions()).isNull();
+                assertThat(legal.getPrivacyPolicy()).isEmpty();
+                util.verify(() -> GeneralUtils.saveKeyToSettings(any(), any()), never());
             }
         }
 

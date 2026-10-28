@@ -46,7 +46,7 @@ export function DeleteFolderDialog({
       onClose={onClose}
       title={
         isMount
-          ? t("filesPage.unmountFolderTitle", "Unmount from Stirling?")
+          ? t("filesPage.unmountFolderTitle", "Unmount from PaperRing?")
           : t("filesPage.deleteFolderTitle", "Delete folder?")
       }
       centered
@@ -85,7 +85,7 @@ export function DeleteFolderDialog({
                 )
               : t(
                   "filesPage.deleteFolderKeepHint",
-                  "Files inside will be moved to Stirling library.",
+                  "Files inside will be moved to PaperRing library.",
                 )}
           </Text>
         )}

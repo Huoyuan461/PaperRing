@@ -214,13 +214,19 @@ fn set_default_macos() -> Result<String, String> {
 
 /// Installed desktop entry names vary by packaging (template vs binary name).
 #[cfg(target_os = "linux")]
-const LINUX_DESKTOP_CANDIDATES: &[&str] =
-    &["Stirling-PDF.desktop", "stirling-pdf.desktop"];
+const LINUX_DESKTOP_CANDIDATES: &[&str] = &[
+    "PaperRing.desktop",
+    "纸环 PaperRing.desktop",
+    "Stirling-PDF.desktop",
+    "stirling-pdf.desktop",
+];
 
 #[cfg(target_os = "linux")]
 fn is_stirling_desktop_handler(handler: &str) -> bool {
+    // Installed entries follow the package name. PaperRing is the current
+    // desktop id; Stirling-PDF remains accepted so an older install is still recognized.
     let name = handler.trim().to_lowercase();
-    name.contains("stirling") && name.ends_with(".desktop")
+    name.ends_with(".desktop") && (name.contains("paperring") || name.contains("stirling"))
 }
 
 #[cfg(target_os = "linux")]

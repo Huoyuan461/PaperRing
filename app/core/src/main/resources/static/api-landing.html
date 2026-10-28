@@ -228,15 +228,13 @@
                 <p class="section-text"><strong>If you're using Docker:</strong></p>
                 <ul class="section-list">
                     <li>You may have pulled an <strong>API-only image</strong> or there was a build configuration issue</li>
-                    <li>Use the standard Docker image: <code class="code-inline">stirlingtools/stirling-pdf:latest</code></li>
+                    <li>The upstream engine image is <code class="code-inline">stirlingtools/stirling-pdf:latest</code>. 纸环 desktop builds use their own shell instead.</li>
                 </ul>
 
                 <p class="section-text"><strong>If you're using a JAR file:</strong></p>
                 <ul class="section-list">
-                    <li>You downloaded <code class="code-inline">Stirling-PDF-server.jar</code> which is the <strong>API-only version without UI</strong></li>
-                    <li>Download the full version from <a href="https://github.com/Stirling-Tools/Stirling-PDF/releases" target="_blank">GitHub Releases</a>:</li>
-                    <li style="margin-left: 1.5rem;"><code class="code-inline">Stirling-PDF.jar</code> - Standard version with UI</li>
-                    <li style="margin-left: 1.5rem;"><code class="code-inline">Stirling-PDF-with-login.jar</code> - Version with authentication features</li>
+                    <li>An API-only jar has no web UI. Upstream builds name that file <code class="code-inline">Stirling-PDF-server.jar</code>.</li>
+                    <li>纸环 PaperRing is the desktop app. The engine is open-source <a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank">Stirling-PDF</a>, which is not this product's name.</li>
                 </ul>
 
                 <p class="section-text"><strong>If you built from source:</strong></p>
@@ -250,19 +248,17 @@
 
             <div class="section">
                 <h2 class="section-title">Need Help?</h2>
-                <p class="section-text">Join our community for support:</p>
+                <p class="section-text">纸环 PaperRing is based on the open-source Stirling-PDF engine:</p>
                 <ul class="section-list">
-                    <li><a href="https://discord.gg/Cn8pWhQRxZ" target="_blank">Discord Community</a> - Get help from the community</li>
-                    <li><a href="https://github.com/Stirling-Tools/Stirling-PDF/issues" target="_blank">GitHub Issues</a> - Report bugs or request features</li>
-                    <li><a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank">GitHub Repository</a> - View documentation and source code</li>
+                    <li><a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank">Stirling-PDF source</a> — engine license and upstream project</li>
                 </ul>
             </div>
         </div>
     </div>
 
     <div class="footer">
-        <span>Powered by </span>
-        <a href="https://stirlingpdf.com">纸环 PaperRing</a>
+        <span>纸环 PaperRing · powered by open-source </span>
+        <a href="https://github.com/Stirling-Tools/Stirling-PDF">Stirling-PDF</a>
     </div>
 </body>
 </html>

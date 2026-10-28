@@ -37,16 +37,17 @@ export default function Footer({
 
   const { showCookiePreferences } = useCookieConsent();
 
-  // Default URLs
-  const defaultTermsUrl = "https://www.stirling.com/terms";
-  const defaultPrivacyUrl = "https://www.stirling.com/privacy";
-
-  // Use provided URLs or fall back to defaults
-  const finalTermsUrl = finalTermsAndConditions || defaultTermsUrl;
-  const finalPrivacyUrl = finalPrivacyPolicy || defaultPrivacyUrl;
-
   // Helper to check if a value is valid (not null/undefined/empty string)
   const isValidLink = (link?: string) => link && link.trim().length > 0;
+
+  // Only show policies this install configured. Empty must not fall through
+  // to Stirling-PDF's website and present that site as 纸环's terms.
+  const finalTermsUrl = isValidLink(finalTermsAndConditions)
+    ? finalTermsAndConditions
+    : undefined;
+  const finalPrivacyUrl = isValidLink(finalPrivacyPolicy)
+    ? finalPrivacyPolicy
+    : undefined;
 
   return (
     <div
@@ -68,22 +69,26 @@ export default function Footer({
           fontSize: "0.75rem",
         }}
       >
-        <a
-          className="footer-link px-3"
-          target="_blank"
-          rel="noopener noreferrer"
-          href={finalPrivacyUrl}
-        >
-          {t("legal.privacy", "Privacy Policy")}
-        </a>
-        <a
-          className="footer-link px-3"
-          target="_blank"
-          rel="noopener noreferrer"
-          href={finalTermsUrl}
-        >
-          {t("legal.terms", "Terms and Conditions")}
-        </a>
+        {finalPrivacyUrl && (
+          <a
+            className="footer-link px-3"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={finalPrivacyUrl}
+          >
+            {t("legal.privacy", "Privacy Policy")}
+          </a>
+        )}
+        {finalTermsUrl && (
+          <a
+            className="footer-link px-3"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={finalTermsUrl}
+          >
+            {t("legal.terms", "Terms and Conditions")}
+          </a>
+        )}
         <a
           className="footer-link px-3"
           target="_blank"

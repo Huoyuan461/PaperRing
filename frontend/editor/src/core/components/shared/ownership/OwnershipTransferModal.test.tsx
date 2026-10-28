@@ -106,7 +106,7 @@ describe("ownership handover", () => {
     });
     show();
     const input = await screen.findByRole("combobox", {
-      name: "Stirling account",
+      name: "PaperRing account",
     });
     expect(
       screen.getByRole("button", { name: "Transfer ownership" }),
@@ -120,7 +120,7 @@ describe("ownership handover", () => {
     expect(screen.getByText("Server account")).toBeVisible();
     expect(screen.getAllByText("Jamie")[0]).toBeVisible();
     expect(
-      screen.getByRole("combobox", { name: "Stirling account" }),
+      screen.getByRole("combobox", { name: "PaperRing account" }),
     ).toHaveValue("cloud@example.com");
     expect(adapter.transferCloud).not.toHaveBeenCalled();
     await confirm();
@@ -132,7 +132,7 @@ describe("ownership handover", () => {
     adapter.selectCloud = vi.fn();
     show();
     const input = await screen.findByRole("combobox", {
-      name: "Stirling account",
+      name: "PaperRing account",
     });
     fireEvent.focus(input);
     await screen.findByRole("option", { name: "cloud@example.com" });
@@ -165,17 +165,17 @@ describe("ownership handover", () => {
     adapter.selectCloud = vi.fn().mockResolvedValue(awaiting);
     vi.mocked(adapter.invite!).mockResolvedValue(awaiting);
     show();
-    await screen.findByRole("combobox", { name: "Stirling account" });
+    await screen.findByRole("combobox", { name: "PaperRing account" });
     expect(screen.queryByRole("alert")).toBeNull();
     fireEvent.change(
-      screen.getByRole("combobox", { name: "Stirling account" }),
+      screen.getByRole("combobox", { name: "PaperRing account" }),
       { target: { value: "invalid" } },
     );
     expect(
       screen.getByRole("button", { name: "Transfer ownership" }),
     ).toBeDisabled();
     fireEvent.change(
-      screen.getByRole("combobox", { name: "Stirling account" }),
+      screen.getByRole("combobox", { name: "PaperRing account" }),
       { target: { value: "new@example.com" } },
     );
     expect(adapter.invite).not.toHaveBeenCalled();
@@ -210,7 +210,7 @@ describe("ownership handover", () => {
     vi.mocked(adapter.invite!).mockResolvedValue(awaiting);
     show();
     fireEvent.focus(
-      await screen.findByRole("combobox", { name: "Stirling account" }),
+      await screen.findByRole("combobox", { name: "PaperRing account" }),
     );
     await click(
       await screen.findByRole("option", { name: "cloud@example.com" }),
@@ -219,7 +219,7 @@ describe("ownership handover", () => {
       "Choose another cloud member",
     );
     fireEvent.change(
-      screen.getByRole("combobox", { name: "Stirling account" }),
+      screen.getByRole("combobox", { name: "PaperRing account" }),
       { target: { value: "other@example.com" } },
     );
     await click(await screen.findByRole("button", { name: "Send invitation" }));
@@ -242,7 +242,7 @@ describe("ownership handover", () => {
       );
     show();
     const input = await screen.findByRole("combobox", {
-      name: "Stirling account",
+      name: "PaperRing account",
     });
     fireEvent.focus(input);
     await click(
@@ -347,12 +347,12 @@ describe("ownership handover", () => {
     await screen.findByRole("checkbox");
     vi.mocked(adapter.prepare).mockResolvedValue(choosing());
     fireEvent.change(
-      screen.getByRole("combobox", { name: "Stirling account" }),
+      screen.getByRole("combobox", { name: "PaperRing account" }),
       { target: { value: "other@example.com" } },
     );
     await waitFor(() => expect(adapter.cancel).toHaveBeenCalledOnce());
     expect(
-      screen.getByRole("combobox", { name: "Stirling account" }),
+      screen.getByRole("combobox", { name: "PaperRing account" }),
     ).toHaveValue("other@example.com");
     expect(adapter.cancel).toHaveBeenCalledOnce();
     expect(adapter.transferCloud).not.toHaveBeenCalled();
@@ -483,7 +483,7 @@ describe("ownership handover", () => {
     );
     show();
     const input = await screen.findByRole("combobox", {
-      name: "Stirling account",
+      name: "PaperRing account",
     });
     fireEvent.focus(input);
     expect(await screen.findAllByRole("option")).toHaveLength(8);
@@ -511,7 +511,7 @@ describe("ownership handover", () => {
     });
     show();
     fireEvent.change(
-      await screen.findByRole("combobox", { name: "Stirling account" }),
+      await screen.findByRole("combobox", { name: "PaperRing account" }),
       {
         target: { value: "joined@example.com" },
       },
@@ -527,7 +527,7 @@ describe("ownership handover", () => {
     vi.mocked(adapter.cancel!).mockRejectedValue(new Error("network"));
     show();
     const input = await screen.findByRole("combobox", {
-      name: "Stirling account",
+      name: "PaperRing account",
     });
     fireEvent.change(input, { target: { value: "other@example.com" } });
     expect(await screen.findByRole("alert")).toBeVisible();
@@ -696,7 +696,7 @@ describe("ownership handover", () => {
     show();
     expect(await screen.findByText("New owner")).toBeVisible();
     expect(screen.getAllByText("jamie@example.com")[0]).toBeVisible();
-    expect(screen.queryByText("Stirling account")).toBeNull();
+    expect(screen.queryByText("PaperRing account")).toBeNull();
     expect(
       screen.getByText("You'll become a team member and lose owner access."),
     ).toBeVisible();

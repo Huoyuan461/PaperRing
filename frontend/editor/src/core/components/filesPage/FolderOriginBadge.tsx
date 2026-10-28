@@ -19,7 +19,7 @@ export function FolderOriginBadge({ folder }: { folder: FolderRecord }) {
           )
         : t(
             "filesPage.folderOrigin.serverHint",
-            "A folder stored on the Stirling server",
+            "A folder stored on the PaperRing server",
           );
   return (
     <FileOriginBadge

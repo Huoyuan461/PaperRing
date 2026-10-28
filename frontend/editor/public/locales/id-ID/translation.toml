@@ -55,7 +55,7 @@ keepWorking = "Lanjutkan"
 loading = "Mengambil data..."
 loginAgreementAccept = "Setuju"
 loginAgreementDecline = "Tolak"
-loginAgreementProvider = "Pemberitahuan ini disediakan oleh administrator Anda, bukan Stirling PDF Inc."
+loginAgreementProvider = "Pemberitahuan ini disediakan oleh administrator Anda, bukan PaperRing"
 loginAgreementTitle = "Perjanjian Login"
 logOut = "Keluar"
 marginTooltip = "Jarak antara nomor halaman dan tepi halaman."
@@ -668,8 +668,8 @@ description = "Waktu eksekusi maksimum"
 label = "Batas Waktu (menit)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert masih dalam versi beta. Menawarkan konversi yang lebih baik, lebih cepat, dan menggunakan lebih sedikit memori dibandingkan LibreOffice."
-label = "Gunakan konversi Stirling Office yang baru"
+description = "PaperRing Office Convert masih dalam versi beta. Menawarkan konversi yang lebih baik, lebih cepat, dan menggunakan lebih sedikit memori dibandingkan LibreOffice."
+label = "Gunakan konversi PaperRing Office yang baru"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Konfigurasikan penyimpanan file sementara dan perilaku pembersihan"
@@ -736,7 +736,7 @@ permissionNotice = "Jalur tessdata tidak dapat ditulisi. Unduhan akan dibuka di 
 
 [admin.settings.ai]
 customProvider = "Kustom (kompatibel OpenAI)"
-description = "Hubungkan Stirling ke mesin AI Python, pilih modelnya, dan atur batasan yang digunakan saat berjalan."
+description = "Hubungkan PaperRing ke mesin AI Python, pilih modelnya, dan atur batasan yang digunakan saat berjalan."
 managedByCloud = "Dikelola oleh Stirling Cloud dalam mode ini."
 managedByCloudShort = "Dikelola oleh Stirling Cloud"
 
@@ -797,7 +797,7 @@ help = "Nonaktif berarti pertanyaan dokumen tidak tersedia. Ini tidak menghentik
 label = "Izinkan Stirling Cloud menyimpan dokumen terindeks"
 
 [admin.settings.ai.general.cloudNote]
-body = "Penalaran berjalan di infrastruktur Stirling, ditagihkan ke akun yang tertaut dengan server ini. Tidak ada container yang perlu dijalankan dan tidak ada kunci penyedia yang perlu disimpan di sini. Apa pun yang dibaca AI diproses oleh Stirling Cloud, bukan di hardware Anda sendiri."
+body = "Penalaran berjalan di infrastruktur PaperRing, ditagihkan ke akun yang tertaut dengan server ini. Tidak ada container yang perlu dijalankan dan tidak ada kunci penyedia yang perlu disimpan di sini. Apa pun yang dibaca AI diproses oleh Stirling Cloud, bukan di hardware Anda sendiri."
 title = "Tentang Stirling Cloud AI"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "Tempat AI berjalan"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Tanpa container, tanpa kunci penyedia, tanpa pilihan model - pekerjaan berjalan di Stirling Cloud dan ditagihkan ke akun yang tertaut dengan server ini."
-linkCta = "Hubungkan server ini ke akun Stirling"
+linkCta = "Hubungkan server ini ke akun PaperRing"
 notLinked = "Tautkan akun terlebih dahulu"
-ownerOnly = "Hanya pemilik organisasi yang dapat menautkan server ini ke akun Stirling."
+ownerOnly = "Hanya pemilik organisasi yang dapat menautkan server ini ke akun PaperRing."
 title = "Gunakan Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Jalankan mesin Anda sendiri"
 
 [admin.settings.ai.general.note]
 docs = "Panduan penyiapan"
-intro = "Container terpisah yang Anda jalankan di samping Stirling. Ini melakukan penalaran; Stirling tetap melakukan setiap operasi halaman sendiri. Ini membutuhkan"
+intro = "Container terpisah yang Anda jalankan di samping PaperRing. Ini melakukan penalaran; PaperRing tetap melakukan setiap operasi halaman sendiri. Ini membutuhkan"
 outro = "yang sama di kedua container dan kunci penyedia model. Apa pun yang dibaca AI dikirim ke penyedia yang Anda pilih - Ollama yang Anda host menjaga setiap halaman tetap di internal."
 title = "Tentang mesin AI"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Masukkan kode konfirmasi untuk melanjutkan"
 confirmImport = "Konfirmasi impor"
 confirmImportTitle = "Konfirmasi impor basis data"
 connection = "Koneksi"
-connectionDescription = "Arahkan Stirling ke database eksternal alih-alih yang tertanam."
+connectionDescription = "Arahkan PaperRing ke database eksternal alih-alih yang tertanam."
 createBackup = "Buat cadangan"
 created = "Dibuat"
 delete = "Hapus"
@@ -1224,11 +1224,11 @@ description = "Konfigurasikan fitur dan fungsionalitas opsional."
 title = "Fitur"
 
 [admin.settings.features.serverCertificate]
-description = "Buat sertifikat yang mendukung fitur penandatanganan \"Sign with Stirling-PDF\"."
+description = "Buat sertifikat yang mendukung fitur penandatanganan \"Sign with PaperRing\"."
 label = "Penandatanganan Sertifikat"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Tawarkan \"Sign with Stirling-PDF\" menggunakan sertifikat yang dibuat server ini"
+description = "Tawarkan \"Sign with PaperRing\" menggunakan sertifikat yang dibuat server ini"
 label = "Aktifkan Penandatanganan Sertifikat"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Masa Berlaku Sertifikat (hari)"
 
 [admin.settings.folderAccess]
 description = "Direktori yang boleh dibaca dan ditulis oleh sumber folder dan output folder. Ini adalah batas keamanan: automations tidak pernah dapat diarahkan ke path server di luar daftar ini."
-securityNote = "Biarkan kosong untuk menonaktifkan sumber dan output folder sepenuhnya. Direktori konfigurasi milik Stirling selalu tidak boleh diakses."
+securityNote = "Biarkan kosong untuk menonaktifkan sumber dan output folder sepenuhnya. Direktori konfigurasi milik PaperRing selalu tidak boleh diakses."
 title = "Akses Folder"
 
 [admin.settings.folderAccess.implied]
-description = "Direktori yang dikelola Stirling ini selalu diizinkan dan tidak dapat diubah di sini."
+description = "Direktori yang dikelola PaperRing ini selalu diizinkan dan tidak dapat diubah di sini."
 serverStorage = "Penyimpanan file server"
 title = "Selalu diizinkan"
 watchedFolder = "Folder yang dipantau Pipeline"
@@ -1390,7 +1390,7 @@ description = "URL atau nama file untuk kebijakan cookie"
 label = "Kebijakan Cookie"
 
 [admin.settings.legal.disclaimer]
-message = "Dengan menyesuaikan dokumen legal ini, Anda menanggung tanggung jawab penuh untuk memastikan kepatuhan terhadap semua hukum dan peraturan yang berlaku, termasuk namun tidak terbatas pada GDPR dan persyaratan perlindungan data UE lainnya. Hanya ubah pengaturan ini jika: (1) Anda mengoperasikan instance pribadi/pribadi, (2) Anda berada di luar yurisdiksi UE dan memahami kewajiban hukum lokal Anda, atau (3) Anda telah memperoleh nasihat hukum yang tepat dan menerima tanggung jawab penuh atas semua data pengguna dan kepatuhan hukum. Stirling-PDF dan para pengembangnya tidak menanggung kewajiban atas kewajiban hukum Anda."
+message = "Dengan menyesuaikan dokumen legal ini, Anda menanggung tanggung jawab penuh untuk memastikan kepatuhan terhadap semua hukum dan peraturan yang berlaku, termasuk namun tidak terbatas pada GDPR dan persyaratan perlindungan data UE lainnya. Hanya ubah pengaturan ini jika: (1) Anda mengoperasikan instance pribadi/pribadi, (2) Anda berada di luar yurisdiksi UE dan memahami kewajiban hukum lokal Anda, atau (3) Anda telah memperoleh nasihat hukum yang tepat dan menerima tanggung jawab penuh atas semua data pengguna dan kepatuhan hukum. PaperRing dan para pengembangnya tidak menanggung kewajiban atas kewajiban hukum Anda."
 title = "Peringatan Tanggung Jawab Hukum"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "Nama pengguna untuk autentikasi SMTP"
 label = "Nama Pengguna SMTP"
 
 [admin.settings.mcp]
-apikeyNote = "Klien mengirim kunci API Stirling di header X-API-KEY (atau Authorization: Bearer <key>). Kunci dipetakan ke pengguna Stirling pemiliknya - hanya akun yang telah disediakan yang dapat masuk, dan tindakan diaudit sebagai pengguna tersebut. Kelola kunci di Akun > Kunci API."
-description = "Ekspos alat PDF dan agen AI Stirling ke klien MCP melalui endpoint yang dilindungi OAuth."
+apikeyNote = "Klien mengirim kunci API PaperRing di header X-API-KEY (atau Authorization: Bearer <key>). Kunci dipetakan ke pengguna PaperRing pemiliknya - hanya akun yang telah disediakan yang dapat masuk, dan tindakan diaudit sebagai pengguna tersebut. Kelola kunci di Akun > Kunci API."
+description = "Ekspos alat PDF dan agen AI PaperRing ke klien MCP melalui endpoint yang dilindungi OAuth."
 title = "Server MCP"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "(atau Authorization: Bearer <key>). Tidak ada OAuth atau penemua
 step4 = "Setujui proses masuk; klien mencoba lagi dengan token. Alat muncul dikelompokkan: convert, pages, misc, security, ai."
 step4ApiKey = "Alat muncul dikelompokkan: convert, pages, misc, security, ai - dan setiap panggilan diaudit sebagai pemilik kunci."
 tip = "Tips: daftarkan resource ID sebagai audience yang diizinkan di IdP Anda. Diuji dengan MCP Inspector dan Claude Desktop."
-tipApiKey = "Tips: mode kunci API tidak memerlukan IdP eksternal - paling sederhana untuk self-host. Kunci dipetakan ke pengguna Stirling pemiliknya."
+tipApiKey = "Tips: mode kunci API tidak memerlukan IdP eksternal - paling sederhana untuk self-host. Kunci dipetakan ke pengguna PaperRing pemiliknya."
 title = "Hubungkan klien MCP"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (opsional)"
 placeholder = "Ditemukan otomatis dari issuer"
 
 [admin.settings.mcp.mode]
-apikey = "API key (kunci per pengguna Stirling)"
-description = "OAuth memerlukan IdP eksternal. Kunci API menggunakan kunci API per pengguna Stirling (X-API-KEY) - paling sederhana untuk self-host."
+apikey = "API key (kunci per pengguna PaperRing)"
+description = "OAuth memerlukan IdP eksternal. Kunci API menggunakan kunci API per pengguna PaperRing (X-API-KEY) - paling sederhana untuk self-host."
 label = "Mode autentikasi"
 oauth = "OAuth 2.1 (IdP eksternal)"
 
 [admin.settings.mcp.requireAccount]
-description = "Hanya izinkan token masuk jika subjeknya dipetakan ke pengguna Stirling yang telah disediakan dan diaktifkan."
-label = "Wajibkan akun Stirling yang sudah ada"
+description = "Hanya izinkan token masuk jika subjeknya dipetakan ke pengguna PaperRing yang telah disediakan dan diaktifkan."
+label = "Wajibkan akun PaperRing yang sudah ada"
 
 [admin.settings.mcp.resourceId]
 description = "URL publik /mcp server ini. Token harus mencantumkannya dalam audience (RFC 8707) atau akan ditolak."
@@ -1540,7 +1540,7 @@ description = "Wajibkan mcp.tools.read untuk operasi baca dan mcp.tools.write un
 label = "Terapkan OAuth scopes"
 
 [admin.settings.mcp.usernameClaim]
-description = "JWT claim yang dicocokkan dengan nama pengguna Stirling (mis. sub, email, preferred_username)."
+description = "JWT claim yang dicocokkan dengan nama pengguna PaperRing (mis. sub, email, preferred_username)."
 label = "Klaim username"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Saat diaktifkan, hanya ID pengguna yang terdaftar yang dapat meng
 label = "Izinkan ID Pengguna Tertentu"
 
 [admin.settings.telegram.enabled]
-description = "Izinkan pengguna berinteraksi dengan Stirling PDF melalui bot Telegram yang Anda konfigurasi."
+description = "Izinkan pengguna berinteraksi dengan PaperRing melalui bot Telegram yang Anda konfigurasi."
 label = "Aktifkan Bot Telegram"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Ini adalah <strong>Settings Panel</strong>. Pengaturan admin
 systemCustomization = "Kami memiliki banyak cara untuk menyesuaikan UI: <strong>System Settings</strong> memungkinkan Anda mengubah nama aplikasi dan bahasa, <strong>Features</strong> memungkinkan pengelolaan sertifikat server, dan <strong>Endpoints</strong> memungkinkan Anda mengaktifkan atau menonaktifkan alat tertentu untuk pengguna Anda."
 teamsAndUsers = "Kelola <strong>Teams</strong> dan pengguna individu di sini. Anda dapat mengundang pengguna baru melalui email, tautan yang dapat dibagikan, atau membuat akun kustom untuk mereka sendiri."
 welcome = "Selamat datang di <strong>Tur Admin</strong>! Mari jelajahi fitur dan pengaturan enterprise yang kuat yang tersedia untuk administrator sistem."
-wrapUp = "Itu tadi tur admin! Anda telah melihat fitur enterprise yang menjadikan Stirling PDF solusi yang kuat dan dapat disesuaikan untuk organisasi. Anda dapat memutarnya ulang kapan saja - cukup buka <strong>Pengaturan</strong> dan temukan di sini di bagian <strong>Tur</strong> di bawah Bantuan."
+wrapUp = "Itu tadi tur admin! Anda telah melihat fitur enterprise yang menjadikan PaperRing solusi yang kuat dan dapat disesuaikan untuk organisasi. Anda dapat memutarnya ulang kapan saja - cukup buka <strong>Pengaturan</strong> dan temukan di sini di bagian <strong>Tur</strong> di bawah Bantuan."
 
 [adminUserSettings]
 admin = "Administrator"
 title = "Pengaturan Kontrol Pengguna"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arab"
@@ -1952,9 +1952,9 @@ thai = "Thai"
 
 [analytics]
 learnMore = "Pelajari lebih lanjut tentang analytics kami"
-paragraph1 = "Stirling PDF memiliki analytics opt-in untuk membantu kami meningkatkan produk. Kami tidak melacak informasi pribadi atau isi file apa pun."
-paragraph2 = "Silakan pertimbangkan untuk mengaktifkan analitik agar Stirling PDF dapat berkembang dan untuk memungkinkan kami memahami pengguna kami dengan lebih baik."
-title = "Apakah Anda ingin membantu membuat Stirling PDF lebih baik?"
+paragraph1 = "PaperRing memiliki analytics opt-in untuk membantu kami meningkatkan produk. Kami tidak melacak informasi pribadi atau isi file apa pun."
+paragraph2 = "Silakan pertimbangkan untuk mengaktifkan analitik agar PaperRing dapat berkembang dan untuk memungkinkan kami memahami pengguna kami dengan lebih baik."
+title = "Apakah Anda ingin membantu membuat PaperRing lebih baik?"
 
 [annotate]
 tags = "anotasi,sorot,gambar,markup,komentar,catatan,tinjau,redline,umpan balik,alat markup,catatan tempel,bentuk,panah,kotak teks,freehand"
@@ -2902,9 +2902,9 @@ typeSignature = "Ketik nama Anda untuk membuat tanda tangan"
 uploadCert = "Unggah sertifikat"
 uploadCertDesc = "Gunakan sertifikat PKCS12, PFX, PEM, atau JKS Anda sendiri."
 uploadSignature = "Unggah gambar tanda tangan Anda"
-usePersonalCert = "Stirling Sign · Personal"
+usePersonalCert = "PaperRing Sign · Personal"
 usePersonalCertDesc = "Tandatangani dengan sertifikat yang dibuat untuk akun Anda."
-useServerCert = "Stirling Sign · Organization"
+useServerCert = "PaperRing Sign · Organization"
 useServerCertDesc = "Tandatangani dengan sertifikat organisasi bersama server ini."
 useSignature = "Gunakan tanda tangan"
 
@@ -3224,10 +3224,10 @@ text = "Ajukan pertanyaan tentang dokumen Anda atau dapatkan bantuan dengan alat
 
 [chat.fab]
 close = "Tutup chat"
-open = "Buka asisten AI Stirling"
+open = "Buka asisten AI PaperRing"
 
 [chat.header]
-agentMenu = "Opsi agen Stirling"
+agentMenu = "Opsi agen PaperRing"
 assistant = "Asisten AI"
 clearChat = "Hapus obrolan"
 
@@ -3587,9 +3587,9 @@ label = "Dokumen menurut jenis: {{summary}}"
 noTypes = "Dokumen ini tidak cocok dengan jenis yang dikenal."
 
 [classificationDemo.defaultApp]
-body = "Jadikan Stirling aplikasi PDF default Anda. Setiap PDF yang Anda buka, dari email, browser, atau desktop, akan masuk ke sini, siap dibaca atau diedit. Anda dapat mengubah ini kapan saja di Pengaturan."
-cta = "Jadikan Stirling default saya"
-title = "Buka setiap PDF di Stirling"
+body = "Jadikan PaperRing aplikasi PDF default Anda. Setiap PDF yang Anda buka, dari email, browser, atau desktop, akan masuk ke sini, siap dibaca atau diedit. Anda dapat mengubah ini kapan saja di Pengaturan."
+cta = "Jadikan PaperRing default saya"
+title = "Buka setiap PDF di PaperRing"
 
 [classificationDemo.followUp]
 background = "Ini berjalan di latar belakang. Cincin di kiri menunjukkan progres."
@@ -3604,7 +3604,7 @@ other = "Lainnya"
 body = "Klasifikasikan dan atur {{count}} PDF terbaru di folder Downloads Anda berdasarkan jenis."
 cta = "Proses folder Downloads saya"
 privacy = "PDF Anda tetap berada di perangkat ini. Server terhubung Anda mencatat penggunaan pemrosesan."
-title = "Lihat apa yang dapat dilakukan Stirling dengan satu folder penuh"
+title = "Lihat apa yang dapat dilakukan PaperRing dengan satu folder penuh"
 
 [classificationDemo.phase]
 finishing = "Menyelesaikan..."
@@ -3618,10 +3618,10 @@ counts = "dari {{total}} PDF diproses"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF"
-failedBody = "Stirling tidak dapat membaca folder Downloads Anda. Tidak ada yang diubah di komputer Anda."
+failedBody = "PaperRing tidak dapat membaca folder Downloads Anda. Tidak ada yang diubah di komputer Anda."
 failedTitle = "Itu tidak selesai"
 heading = "Downloads Anda, diurutkan"
-summary = "Stirling membaca {{documents}} dan mengurutkannya ke dalam {{types}}."
+summary = "PaperRing membaca {{documents}} dan mengurutkannya ke dalam {{types}}."
 typeCount_one = "{{count}} jenis"
 typeCount_other = "{{count}} jenis"
 
@@ -3947,14 +3947,14 @@ upgradeButton = "Tingkatkan Akun"
 
 [config.apiKeys]
 copyKeyAriaLabel = "Salin kunci API"
-description = "Kunci API Anda untuk mengakses rangkaian alat PDF Stirling. Salin ke proyek Anda atau segarkan untuk membuat yang baru."
-docsDescription = "Pelajari lebih lanjut tentang integrasi dengan Stirling PDF:"
+description = "Kunci API Anda untuk mengakses rangkaian alat PDF PaperRing. Salin ke proyek Anda atau segarkan untuk membuat yang baru."
+docsDescription = "Pelajari lebih lanjut tentang integrasi dengan PaperRing:"
 docsLink = "Dokumentasi API"
 docsTitle = "Dokumentasi API"
 generateError = "Kami tidak dapat membuat kunci API Anda."
 goToAccount = "Buka Akun"
 guestInfo = "Pengguna tamu tidak menerima kunci API. Buat akun untuk mendapatkan kunci API yang dapat Anda gunakan di aplikasi Anda."
-intro = "Gunakan kunci API Anda untuk mengakses kemampuan pemrosesan Stirling PDF secara terprogram."
+intro = "Gunakan kunci API Anda untuk mengakses kemampuan pemrosesan PaperRing secara terprogram."
 label = "Kunci API"
 publicKeyAriaLabel = "Kunci API publik"
 refreshAriaLabel = "Segarkan kunci API"
@@ -3978,10 +3978,10 @@ title = "Segarkan Kunci API"
 warning = "⚠️ Peringatan: Tindakan ini akan menghasilkan kunci API baru dan membuat kunci sebelumnya tidak valid."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) memungkinkan asisten AI seperti Claude menggunakan alat Stirling PDF Anda secara langsung. Hubungkan klien sekali dan asisten Anda dapat mengonversi, mengedit, mengamankan, dan memproses dokumen atas nama Anda."
-guestInfo = "Pengguna tamu tidak dapat menghubungkan klien MCP. Buat akun untuk menggunakan server MCP dan izinkan asisten AI Anda menjalankan alat Stirling PDF atas nama Anda."
+description = "Model Context Protocol (MCP) memungkinkan asisten AI seperti Claude menggunakan alat PaperRing Anda secara langsung. Hubungkan klien sekali dan asisten Anda dapat mengonversi, mengedit, mengamankan, dan memproses dokumen atas nama Anda."
+guestInfo = "Pengguna tamu tidak dapat menghubungkan klien MCP. Buat akun untuk menggunakan server MCP dan izinkan asisten AI Anda menjalankan alat PaperRing atas nama Anda."
 navLabel = "Server MCP"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Lihat kunci API"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Endpoint MCP Anda"
 
 [config.mcp.setup]
 addTo = "Tambahkan ke"
-hint = "Pilih klien Anda, tempel snippet ke file yang ditampilkan, lalu restart. Anda akan login dengan akun Stirling Anda pada penggunaan pertama - tidak ada kunci yang perlu disalin."
+hint = "Pilih klien Anda, tempel snippet ke file yang ditampilkan, lalu restart. Anda akan login dengan akun PaperRing Anda pada penggunaan pertama - tidak ada kunci yang perlu disalin."
 title = "Hubungkan asisten AI Anda"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Langkah {{current}} dari {{total}}"
 [connect.confirm]
 acknowledge = "Saya mengenali alamat ini dan ingin menghubungkannya ke tim saya"
 approve = "Hubungkan server"
-cannotDecide = "Hanya pemilik tim yang dapat menyetujui atau menolak koneksi ini. Gunakan akun lain atau tutup prompt ini untuk terus menggunakan Stirling."
+cannotDecide = "Hanya pemilik tim yang dapat menyetujui atau menolak koneksi ini. Gunakan akun lain atau tutup prompt ini untuk terus menggunakan PaperRing."
 deny = "Tolak"
 dismiss = "Tutup"
-lead = "Server Stirling meminta untuk terhubung ke tim Anda. Pastikan alamat di bawah ini milik Anda sebelum Anda menyetujui."
+lead = "Server PaperRing meminta untuk terhubung ke tim Anda. Pastikan alamat di bawah ini milik Anda sebelum Anda menyetujui."
 originLabel = "Alamat"
 signedInAs = "Masuk sebagai"
 switchAccount = "Gunakan akun lain"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Pilih format sumber terlebih dahulu"
 settings = "Pengaturan"
 single = "Tunggal"
 sourceFormatPlaceholder = "Format sumber"
-stirlingOfficeConvert = "Gunakan Stirling Office Convert (beta)"
+stirlingOfficeConvert = "Gunakan PaperRing Office Convert (beta)"
 stirlingOfficeConvertDescription = "Konversi yang lebih baik dan lebih cepat dengan lebih sedikit memori. Nonaktifkan untuk menggunakan konverter standar."
 strictMode = "Mode Ketat"
 strictModeDesc = "Kesalahan jika konversi tidak sempurna (menggunakan verifikasi VeraPDF)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Kelola preferensi"
 title = "Bagaimana kami menggunakan Cookie"
 
 [cookieBanner.popUp.description]
-1 = "Kami menggunakan cookies dan teknologi lain agar Stirling PDF bekerja lebih baik untuk Anda-membantu kami meningkatkan alat kami dan terus membangun fitur yang akan Anda sukai."
+1 = "Kami menggunakan cookies dan teknologi lain agar PaperRing bekerja lebih baik untuk Anda-membantu kami meningkatkan alat kami dan terus membangun fitur yang akan Anda sukai."
 2 = "Jika Anda memilih tidak, mengeklik 'No Thanks' hanya akan mengaktifkan cookies penting yang diperlukan agar semuanya berjalan lancar."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Penggunaan Cookie"
 title = "Pusat Preferensi Persetujuan"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Cookies ini membantu kami memahami bagaimana alat kami digunakan, sehingga kami dapat fokus membangun fitur yang paling dihargai komunitas kami. Tenang saja-Stirling PDF tidak dapat dan tidak akan pernah melacak isi dokumen yang Anda kerjakan."
+description = "Cookies ini membantu kami memahami bagaimana alat kami digunakan, sehingga kami dapat fokus membangun fitur yang paling dihargai komunitas kami. Tenang saja-PaperRing tidak dapat dan tidak akan pernah melacak isi dokumen yang Anda kerjakan."
 title = "Analitik"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman Anda dan memahami bagaimana alat kami digunakan. Ini membantu kami meningkatkan kinerja, mengembangkan fitur yang Anda pedulikan, dan memberikan dukungan berkelanjutan kepada pengguna kami."
-2 = "Stirling PDF tidak dapat-dan tidak akan pernah-melacak atau mengakses isi dokumen yang Anda gunakan."
+1 = "PaperRing menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman Anda dan memahami bagaimana alat kami digunakan. Ini membantu kami meningkatkan kinerja, mengembangkan fitur yang Anda pedulikan, dan memberikan dukungan berkelanjutan kepada pengguna kami."
+2 = "PaperRing tidak dapat-dan tidak akan pernah-melacak atau mengakses isi dokumen yang Anda gunakan."
 3 = "Privasi dan kepercayaan Anda adalah inti dari apa yang kami lakukan."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Gagal menyetel penangan PDF default"
 title = "Kesalahan"
 
 [defaultApp.settingsOpened]
-message = "Di Pengaturan Windows, cari 'PDF' dan pilih Stirling PDF sebagai aplikasi default Anda"
+message = "Di Pengaturan Windows, cari 'PDF' dan pilih PaperRing sebagai aplikasi default Anda"
 title = "Pengaturan Dibuka"
 
 [defaultApp.success]
-message = "Stirling PDF sekarang adalah editor PDF default Anda"
+message = "PaperRing sekarang adalah editor PDF default Anda"
 title = "Aplikasi Default Disetel"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Minimalkan"
 restore = "Pulihkan"
 
 [desktopBilling]
-description = "Kelola penggunaan dan penagihan di browser Anda. Masuk dengan akun Stirling yang sama dengan yang Anda gunakan di sini."
+description = "Kelola penggunaan dan penagihan di browser Anda. Masuk dengan akun PaperRing yang sama dengan yang Anda gunakan di sini."
 open = "Buka Penggunaan & Penagihan di browser"
 openFailed = "Tidak dapat membuka Penggunaan & Penagihan. Periksa koneksi Anda dan coba lagi."
 selfHostedDescription = "Kelola penggunaan dan penagihan pada server terhubung Anda di browser. Masuk dengan akun pemilik server Anda."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Gagal mengunduh atau memasang pembaruan."
 
 [desktopUpdate.blocked]
 docsLink = "Lihat dokumentasi instalasi"
-message = "Stirling-PDF tidak memiliki izin untuk memperbarui dirinya di mesin ini."
+message = "PaperRing tidak memiliki izin untuk memperbarui dirinya di mesin ini."
 title = "Izin administrator diperlukan"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Ganti nama"
 title = "Ganti nama file"
 
 [filesPage]
-addedToLibrary = "Ditambahkan ke pustaka Stirling"
-addingToLibrary = "Menambahkan ke pustaka Stirling…"
-addToLibrary = "Tambahkan ke pustaka Stirling…"
+addedToLibrary = "Ditambahkan ke pustaka PaperRing"
+addingToLibrary = "Menambahkan ke pustaka PaperRing…"
+addToLibrary = "Tambahkan ke pustaka PaperRing…"
 addToLibraryFailed = "Beberapa file tidak dapat ditambahkan"
 addToWorkspace = "Tambahkan ke ruang kerja"
 addToWorkspaceCount = "Tambahkan {{count}} ke ruang kerja"
-allFiles = "Pustaka Stirling"
+allFiles = "Pustaka PaperRing"
 back = "Kembali"
 backToFolder = "Kembali ke {{folder}}"
 backToMyFiles = "Kembali ke Pustaka file"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Hapus juga {{count}} file di dalam folder"
 deleteFolderContents_other = "Hapus juga {{count}} file di dalam folder"
 deleteFolderContentsWarning = "File akan dihapus permanen dan tidak dapat dipulihkan."
 deleteFolderError = "Tidak dapat menghapus folder. Coba lagi."
-deleteFolderKeepHint = "File di dalamnya akan dipindahkan ke pustaka Stirling."
+deleteFolderKeepHint = "File di dalamnya akan dipindahkan ke pustaka PaperRing."
 deleteFolderTitle = "Hapus folder?"
 deselectAll = "Hapus pilihan"
 details = "Detail"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} file tidak dapat dipindahkan di server (tid
 moveTo = "Pindahkan ke…"
 newFolder = "Folder baru"
 newFolderStorageDisabled = "Penyimpanan folder server tidak diaktifkan."
-newFolderTabUnavailable = "Beralih ke pustaka Stirling untuk membuat folder."
+newFolderTabUnavailable = "Beralih ke pustaka PaperRing untuk membuat folder."
 offlineNoFolderEdits = "Sinkronisasi folder server tidak tersedia - perubahan folder dinonaktifkan. Periksa status masuk dan konfigurasi penyimpanan."
 open = "Buka"
 openVersionInWorkspace = "Buka di ruang kerja"
@@ -4856,7 +4856,7 @@ recentFiles = "Terbaru"
 refresh = "Segarkan"
 refreshNeedsConnection = "Masuk untuk menyegarkan dari server."
 remove = "Hapus"
-removeLocalFolder = "Lepas kaitan dari Stirling"
+removeLocalFolder = "Lepas kaitan dari PaperRing"
 removeVersion = "Hapus versi ini"
 rename = "Ganti nama"
 renamed = "Diganti nama"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} item"
 tree = "Folder"
 unmount = "Lepas kaitan"
 unmountFolderBody = "Lepas kaitan \"{{name}}\"? Folder dan filenya tetap berada di disk Anda."
-unmountFolderTitle = "Lepas kaitan dari Stirling?"
+unmountFolderTitle = "Lepas kaitan dari PaperRing?"
 upload = "Unggah"
 uploadFromMobile = "Unggah dari Ponsel"
 versionActions = "Tindakan versi"
@@ -4921,7 +4921,7 @@ orphaned = "Tidak ada di disk"
 orphanedHint = "Asli di {{path}} sudah hilang. Salinan ini hanya ada di sini - menyimpannya akan meminta lokasi baru."
 unavailable = "Tidak tersedia"
 unavailableHintOffline = "Drive atau share tempat file ini berada tidak terhubung. Hubungkan kembali untuk mengambil perubahan lagi."
-unavailableHintPermission = "Stirling tidak diizinkan membaca lokasi ini. Berikan akses di Pengaturan Sistem untuk mengambil perubahan lagi."
+unavailableHintPermission = "PaperRing tidak diizinkan membaca lokasi ini. Berikan akses di Pengaturan Sistem untuk mengambil perubahan lagi."
 unavailableHintUnknown = "File ini tidak dapat dijangkau saat ini. Salinan di sini tidak berubah."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Nama folder"
 
 [filesPage.folderOrigin]
 diskHint = "Folder yang dikaitkan dari direktori di disk Anda"
-serverHint = "Folder yang disimpan di server Stirling"
+serverHint = "Folder yang disimpan di server PaperRing"
 virtualHint = "Folder yang hanya berada di browser ini"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Disinkronkan ke akun Anda, tersedia di mana pun Anda masuk."
 [filesPage.origin]
 all = "Semua sumber"
 cloud = "Cloud"
-cloudHint = "Disimpan di server Stirling"
+cloudHint = "Disimpan di server PaperRing"
 diskFileHint = "Disimpan di komputer Anda"
 diskHint = "File dalam folder yang dikaitkan di disk Anda"
 local = "Lokal"
@@ -5474,7 +5474,7 @@ invisible = "Tidak terlihat (hanya metadata)"
 location = "Lokasi:"
 logo = "Logo:"
 logoHidden = "Tanpa logo"
-logoShown = "Logo Stirling PDF ditampilkan"
+logoShown = "Logo PaperRing ditampilkan"
 participantCount_one = "{{count}} peserta dipilih"
 participantCount_other = "{{count}} peserta dipilih"
 participants = "Peserta"
@@ -5525,7 +5525,7 @@ title = "Penandatanganan dalam Urutan Apa Pun"
 dismiss = "Tutup banner"
 message = "Buat akun gratis untuk menyimpan pekerjaan Anda, mengakses lebih banyak fitur, dan mendukung proyek ini."
 signUp = "Daftar Gratis"
-title = "Anda menggunakan Stirling PDF sebagai tamu!"
+title = "Anda menggunakan PaperRing sebagai tamu!"
 
 [home.addAttachments]
 desc = "Lihat, tambah, ekstrak, ganti nama, atau hapus lampiran PDF tertanam"
@@ -5704,7 +5704,7 @@ tags = "gabungkan,satukan,merge,merge PDF,gabungkan PDF,satukan PDF,concatenate,
 title = "Menggabungkan"
 
 [home.mobile]
-brandAlt = "logo Stirling PDF"
+brandAlt = "logo PaperRing"
 openFiles = "Buka file"
 swipeHint = "Geser ke kiri atau kanan untuk mengganti tampilan"
 tools = "Alat"
@@ -5743,7 +5743,7 @@ tags = "atur,susun ulang,urut ulang,susun halaman,sortir,pindahkan halaman,hapus
 title = "Mengatur"
 
 [home.pdfTextEditor]
-desc = "Tinjau dan edit ekspor Stirling PDF JSON dengan pengeditan teks terkelompok dan pembuatan ulang PDF"
+desc = "Tinjau dan edit ekspor PaperRing JSON dengan pengeditan teks terkelompok dan pembuatan ulang PDF"
 tags = "edit teks,ubah teks,ganti teks,edit konten,perbarui teks,tulis ulang,koreksi,perbaiki,redline,revisi,editor teks,editor konten"
 title = "Editor Teks PDF"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Kata sandi wajib diisi"
 signIn = "Masuk"
 validating = "Memvalidasi undangan..."
 validationError = "Gagal memvalidasi tautan undangan"
-welcome = "Selamat datang di Stirling PDF"
+welcome = "Selamat datang di PaperRing"
 welcomeSubtitle = "Lengkapi penyiapan akun Anda untuk memulai"
 welcomeTitle = "Anda telah diundang!"
 
@@ -6209,7 +6209,7 @@ message = "Autentikasi tidak berhasil. Anda dapat menutup jendela ini dan mencob
 title = "Autentikasi Gagal"
 
 [oauth.success]
-message = "Anda dapat menutup jendela ini dan kembali ke Stirling PDF."
+message = "Anda dapat menutup jendela ini dan kembali ke PaperRing."
 title = "Autentikasi Berhasil"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Mengembalikan Anda ke aplikasi..."
-requesting = "{{app}} ingin mengakses akun Stirling PDF Anda"
+requesting = "{{app}} ingin mengakses akun PaperRing Anda"
 scopesIntro = "Ini akan mengizinkan {{app}} untuk:"
 signedInAs = "Login sebagai {{name}}"
 signInButton = "Login untuk melanjutkan"
-signInPrompt = "Login ke akun Stirling PDF Anda untuk melanjutkan menghubungkan aplikasi."
+signInPrompt = "Login ke akun PaperRing Anda untuk melanjutkan menghubungkan aplikasi."
 title = "Authorise access"
 unknownApp = "Aplikasi pihak ketiga"
 
 [oauthConsent.access]
 actAsYou = "Bertindak sebagai Anda - semua yang dilakukan {{app}} berjalan di bawah akun Anda dan dihitung terhadap penggunaan Anda"
-tools = "Menggunakan alat Stirling PDF atas nama Anda - mengonversi, mengedit, menandatangani, mengamankan, dan memproses dokumen Anda"
+tools = "Menggunakan alat PaperRing atas nama Anda - mengonversi, mengedit, menandatangani, mengamankan, dan memproses dokumen Anda"
 
 [oauthConsent.scope]
 email = "Melihat alamat email Anda"
@@ -6362,26 +6362,26 @@ skipTheTour = "Lewati tur"
 
 [onboarding.checklist]
 dismiss = "Tutup"
-title = "Siapkan Stirling PDF"
+title = "Siapkan PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Jalankan Stirling secara native di mesin Anda"
-title = "Unduh Stirling untuk Desktop"
+description = "Jalankan PaperRing secara native di mesin Anda"
+title = "Unduh PaperRing untuk Desktop"
 
 [onboarding.checklist.inviteTeam]
 description = "Berkolaborasi dengan tim Anda"
 title = "Undang anggota tim"
 
 [onboarding.checklist.setDefaultApp]
-description = "Buka file PDF di Stirling PDF"
-title = "Jadikan Stirling sebagai default Anda"
+description = "Buka file PDF di PaperRing"
+title = "Jadikan PaperRing sebagai default Anda"
 
 [onboarding.checklist.takeTour]
-description = "Lihat cara kerja Stirling dalam panduan singkat"
+description = "Lihat cara kerja PaperRing dalam panduan singkat"
 title = "Ikuti tur"
 
 [onboarding.desktopInstall]
-body = "Stirling paling baik digunakan sebagai aplikasi desktop. Anda dapat menggunakannya offline, mengakses dokumen lebih cepat, dan mengedit secara lokal di komputer Anda."
+body = "PaperRing paling baik digunakan sebagai aplikasi desktop. Anda dapat menggunakannya offline, mengakses dokumen lebih cepat, dan mengedit secara lokal di komputer Anda."
 selectOs = "Pilih sistem operasi"
 title = "Unduh"
 titleWithOs = "Unduh untuk {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Unduh untuk {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Ada banyak perubahan baru untuk dijelajahi, termasuk <strong>Agent Chat</strong>, <strong>klasifikasi</strong> dokumen otomatis, dan banyak lagi."
 freeLine = "Editor sekarang <free>sepenuhnya gratis</free>."
-title = "Selamat datang di Stirling <product>Desktop</product>"
+title = "Selamat datang di PaperRing <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "Kode autentikasi"
@@ -6410,21 +6410,21 @@ success = "MFA telah diaktifkan. Anda sekarang dapat melanjutkan."
 title = "Penyiapan Autentikasi Multi-Faktor"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Setelah Anda mengaktifkan mode login, Anda dapat mengelola pengguna, mengonfigurasi pengaturan, dan memantau kesehatan server. <strong>{{freeTierLimit}}</strong> orang pertama di server Anda dapat menggunakan Stirling gratis."
-adminBodyLoginEnabled = "Sebagai admin, Anda dapat mengelola pengguna, mengonfigurasi pengaturan, dan memantau kesehatan server. <strong>{{freeTierLimit}}</strong> orang pertama di server Anda dapat menggunakan Stirling gratis."
+adminBodyLoginDisabled = "Setelah Anda mengaktifkan mode login, Anda dapat mengelola pengguna, mengonfigurasi pengaturan, dan memantau kesehatan server. <strong>{{freeTierLimit}}</strong> orang pertama di server Anda dapat menggunakan PaperRing gratis."
+adminBodyLoginEnabled = "Sebagai admin, Anda dapat mengelola pengguna, mengonfigurasi pengaturan, dan memantau kesehatan server. <strong>{{freeTierLimit}}</strong> orang pertama di server Anda dapat menggunakan PaperRing gratis."
 adminTitle = "Ringkasan Admin"
 userBody = "Undang rekan, tetapkan peran, dan jaga dokumen Anda tetap teratur dalam satu workspace yang aman. Aktifkan mode login kapan pun Anda siap berkembang dari penggunaan solo."
 userTitle = "Ringkasan Paket"
 
 [onboarding.processorIntro]
-body = "Stirling kini menjalankan <strong>Kebijakan</strong> — aturan otomatis yang mengklasifikasi, mengamankan, dan memproses setiap dokumen saat tiba. Siapkan dan pantau proses berjalan di <strong>Processor</strong>."
+body = "PaperRing kini menjalankan <strong>Kebijakan</strong> — aturan otomatis yang mengklasifikasi, mengamankan, dan memproses setiap dokumen saat tiba. Siapkan dan pantau proses berjalan di <strong>Processor</strong>."
 cta = "Lihat Processor"
-title = "Lihat Stirling Processor"
+title = "Lihat PaperRing Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "Editor kini <free>sepenuhnya gratis</free>."
 premium = "Kami telah menambahkan banyak fitur baru, termasuk <strong>Kebijakan</strong> dan <strong>Agent Chat</strong>."
-title = "Selamat datang di Stirling"
+title = "Selamat datang di PaperRing"
 
 [onboarding.saas.team]
 addButton = "Tambah"
@@ -6447,18 +6447,18 @@ title = "Pemeriksaan Keamanan"
 [onboarding.serverLicense]
 freeBody = "Lisensi <strong>Open-Core</strong> kami mencakup <strong>OAuth SSO</strong> dan hingga <strong>{{freeTierLimit}}</strong> pengguna secara gratis. Untuk berkembang tanpa hambatan, kami menyarankan paket Stirling Team — <strong>100 pengguna</strong> seharga $99/bulan."
 freeTitle = "Paket Team"
-overLimitBody = "Lisensi kami mengizinkan hingga <strong>{{freeTierLimit}}</strong> pengguna secara gratis. Anda memiliki <strong>{{overLimitUserCopy}}</strong> pengguna Stirling. Untuk terus tanpa gangguan, upgrade ke paket Stirling Team - <strong>100 pengguna</strong>, pengeditan teks PDF, dan kontrol admin penuh seharga $99/bln."
+overLimitBody = "Lisensi kami mengizinkan hingga <strong>{{freeTierLimit}}</strong> pengguna secara gratis. Anda memiliki <strong>{{overLimitUserCopy}}</strong> pengguna PaperRing. Untuk terus tanpa gangguan, upgrade ke paket Stirling Team - <strong>100 pengguna</strong>, pengeditan teks PDF, dan kontrol admin penuh seharga $99/bln."
 overLimitTitle = "Paket Team diperlukan"
 seePlans = "Lihat Paket →"
 upgrade = "Upgrade sekarang →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 hadir dengan puluhan alat dan tata letak yang diperbarui. Ikuti tur singkat untuk melihat apa yang berubah dan di mana menemukan fitur yang Anda butuhkan."
+body = "PaperRing V2 hadir dengan puluhan alat dan tata letak yang diperbarui. Ikuti tur singkat untuk melihat apa yang berubah dan di mana menemukan fitur yang Anda butuhkan."
 title = "Ringkasan Tur"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF kini siap untuk tim dari semua ukuran. Pembaruan ini mencakup tata letak baru, kemampuan admin yang kuat, dan fitur paling banyak diminta - <strong>Edit Text</strong>."
-title = "Selamat datang di Stirling"
+body = "PaperRing kini siap untuk tim dari semua ukuran. Pembaruan ini mencakup tata letak baru, kemampuan admin yang kuat, dan fitur paling banyak diminta - <strong>Edit Text</strong>."
+title = "Selamat datang di PaperRing"
 
 [onboarding.whatsNew]
 activeFilesView = "Gunakan File Aktif untuk melihat semua yang Anda buka dan memilih yang akan dikerjakan."
@@ -6545,7 +6545,7 @@ check = "Periksa lagi"
 checkAccount = "Periksa akun"
 chooseEmail = "Pilih akun mereka di {{team}}, atau masukkan email untuk mengundang mereka."
 close = "Tutup dialog transfer"
-cloudAccount = "Akun Stirling"
+cloudAccount = "Akun PaperRing"
 cloudScopeStyled = "<user>{{name}}</user> akan mengelola {{team}}, anggotanya, dan penagihan."
 cloudTargetChanged = "Pilih anggota cloud lain. Akun ini tidak lagi memenuhi syarat untuk penyerahan."
 confirm = "Saya memahami perubahan akses dan kepemilikan."
@@ -6560,7 +6560,7 @@ inviteAddress = "Undang <account>{{email}}</account> ke {{team}}."
 inviteBlocked = "Undangan tidak dapat dikirim. Periksa kursi tim yang tersedia dan apakah penerima sudah memiliki langganan berbayar."
 linkChanged = "Tautan cloud server berubah. Minta operator server untuk memulihkan tautan asli sebelum melanjutkan."
 linkedServerCount = "{{count}} server tertaut"
-linkRevoked = "Tautan cloud server ini tidak lagi valid. Batalkan transfer, lalu hubungkan kembali akun Stirling Anda di pengaturan. Kepemilikan tidak akan berubah."
+linkRevoked = "Tautan cloud server ini tidak lagi valid. Batalkan transfer, lalu hubungkan kembali akun PaperRing Anda di pengaturan. Kepemilikan tidak akan berubah."
 localScope = "Mereka akan memiliki server ini dan mengelola penagihan serta koneksi cloud. Anda tetap memiliki akses administrator, tetapi kehilangan akses ke pengaturan tersebut."
 membershipDetails = "Detail keanggotaan tim"
 membershipFirst = "Mereka harus bergabung dengan tim sebelum Anda dapat mengonfirmasi transfer."
@@ -6872,7 +6872,7 @@ benefit1Body = "rantai alat, jadwalkan proses, proses batch"
 benefit1Title = "Pipeline otomasi"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "Alat AI"
-benefit3Body = "panggil endpoint Stirling apa pun secara programatik"
+benefit3Body = "panggil endpoint PaperRing apa pun secara programatik"
 benefit3Title = "Akses API"
 button = "Aktifkan Processor →"
 reassurance = "Tidak ada minimum · Atur batas $0 untuk menguji · Batalkan kapan saja"
@@ -6962,7 +6962,7 @@ editorLabel = "Editor PDF"
 login = "Masuk"
 manualToolsPromo = "Tool PDF manual gratis tanpa batas"
 processorLabel = "Pemroses PDF"
-processorTitle = "Buat akun untuk membuka yang terbaik dari Stirling"
+processorTitle = "Buat akun untuk membuka yang terbaik dari PaperRing"
 readerLabel = "Pembaca PDF"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "Diperkirakan dalam USD. Anda dapat menyesuaikan batas kapan saja sete
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / bulan"
 edit = "Edit"
-help = "Stripe menangani detail kartu Anda. Stirling tidak pernah melihatnya."
+help = "Stripe menangani detail kartu Anda. PaperRing tidak pernah melihatnya."
 loading = "Memuat checkout…"
 noCap = "Tanpa batas"
 title = "Tambahkan metode pembayaran Anda"
@@ -7010,7 +7010,7 @@ title = "Tambahkan metode pembayaran Anda"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "Alat AI"
-apiBody = "akses programatik ke endpoint Stirling apa pun"
+apiBody = "akses programatik ke endpoint PaperRing apa pun"
 apiTitle = "Panggilan API"
 automationBody = "alat berantai atau proses terjadwal yang tidak memerlukan klik"
 automationTitle = "Pipeline otomasi"
@@ -7870,7 +7870,7 @@ connectDescription = "Hubungkan server ini untuk menggunakan kuota pemrosesan ti
 disconnectBody = "Server ini akan berhenti menggunakan kuota pemrosesan tim Anda di Stirling Cloud. File lokal Anda tetap berada di server ini. Untuk menghubungkan lagi, ikuti langkah koneksi awal."
 disconnectTitle = "Putuskan koneksi instance ini?"
 eyebrow = "Instance ini"
-linkButton = "Hubungkan akun Stirling Anda"
+linkButton = "Hubungkan akun PaperRing Anda"
 loading = "Memeriksa koneksi akun"
 notLinked = "Tidak terhubung"
 signedInAs = "Masuk ke Stirling Cloud sebagai"
@@ -7886,14 +7886,14 @@ description = "Minta administrator server Anda untuk mengaktifkan koneksi ke Sti
 title = "Koneksi akun tidak tersedia"
 
 [portal.accountLink.connect]
-adminRequired = "Minta administrator server Anda membuka Penggunaan & penagihan dan menautkan akun Stirling untuk kredit bulanan lebih banyak. Tool PDF manual tetap tersedia."
+adminRequired = "Minta administrator server Anda membuka Penggunaan & penagihan dan menautkan akun PaperRing untuk kredit bulanan lebih banyak. Tool PDF manual tetap tersedia."
 adminTitle = "Minta administrator server Anda"
 close = "Tutup"
 copied = "Disalin"
 copyAdminMessage = "Salin pesan untuk administrator"
-exhaustedLede = "Server ini telah menggunakan kredit gratisnya untuk bulan ini. Tautkan akun Stirling baru atau yang sudah ada untuk mengakses kuota bulanan tim Anda."
+exhaustedLede = "Server ini telah menggunakan kredit gratisnya untuk bulan ini. Tautkan akun PaperRing baru atau yang sudah ada untuk mengakses kuota bulanan tim Anda."
 notNow = "Tidak sekarang"
-start = "Hubungkan akun Stirling"
+start = "Hubungkan akun PaperRing"
 step = "Langkah {{current}} dari {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Tambahkan lebih banyak pengguna dengan paket Team berbayar"
 teamsLabel = "Tim yang lebih besar"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "Anda belum masuk ke Stirling di browser ini, jadi penggunaan dan penagihan akan meminta Anda untuk masuk."
+linkedNotSignedIn = "Anda belum masuk ke PaperRing di browser ini, jadi penggunaan dan penagihan akan meminta Anda untuk masuk."
 retry = "Coba lagi"
-signedInAnyway = "Anda sudah masuk ke Stirling, jadi penagihan dan penggunaan akan dimuat. Hanya tautan server yang belum lengkap."
+signedInAnyway = "Anda sudah masuk ke PaperRing, jadi penagihan dan penggunaan akan dimuat. Hanya tautan server yang belum lengkap."
 working = "Menyelesaikan koneksi."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Permintaan ini ditolak atau sudah digunakan. Mulai yang lain jika itu ti
 title = "Koneksi tidak selesai"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling tidak mengonfirmasi koneksi. Ini biasanya sementara."
+body = "PaperRing tidak mengonfirmasi koneksi. Ini biasanya sementara."
 title = "Belum selesai"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Kredit gratis tersisa"
 creditsSuffix = "dari {{allowance}} kredit gratis tersisa"
 cta = "Selesai"
 inviteTeam = "Undang tim Anda"
-lede = "Server ini sekarang berjalan dengan akun Stirling Anda."
+lede = "Server ini sekarang berjalan dengan akun PaperRing Anda."
 pendingTitle = "Hampir selesai"
 switchOnProcessor = "Aktifkan Processor"
 title = "Terhubung"
 
 [portal.accountLink.connect.handoff]
-opening = "Membuka masuk Stirling..."
-reauthLede = "Sesi Stirling Anda telah kedaluwarsa. Masuk lagi menjaga penggunaan dan penagihan tetap terlihat. Server ini tetap terhubung apa pun yang terjadi."
+opening = "Membuka masuk PaperRing..."
+reauthLede = "Sesi PaperRing Anda telah kedaluwarsa. Masuk lagi menjaga penggunaan dan penagihan tetap terlihat. Server ini tetap terhubung apa pun yang terjadi."
 title = "Menghubungkan"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Alamat frontend yang dikonfigurasi server ini tidak cocok de
 cancel = "Batal"
 continueReauth = "Masuk lagi"
 exhaustedTitle = "Jaga alur kerja Anda tetap berjalan"
-identity = "Akun Stirling"
-linkTitle = "Hubungkan akun Stirling Anda"
-noAuthorizeUrl = "Stirling tidak mengembalikan tempat untuk melanjutkan. Coba lagi sebentar lagi."
-startFailed = "Tidak dapat menjangkau Stirling untuk memulai koneksi. Periksa akses jaringan keluar server ini, lalu coba lagi."
+identity = "Akun PaperRing"
+linkTitle = "Hubungkan akun PaperRing Anda"
+noAuthorizeUrl = "PaperRing tidak mengembalikan tempat untuk melanjutkan. Coba lagi sebentar lagi."
+startFailed = "Tidak dapat menjangkau PaperRing untuk memulai koneksi. Periksa akses jaringan keluar server ini, lalu coba lagi."
 transferPending = "Transfer kepemilikan sedang tertunda. Buka Pengaturan → Pengguna untuk menyelesaikan atau membatalkannya, lalu coba tautkan lagi."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "agar server ini dapat menyelesaikan koneksi saat Anda kembali."
 and = "dan"
 before = "Atur"
-title = "Koneksi Stirling belum dikonfigurasi"
+title = "Koneksi PaperRing belum dikonfigurasi"
 
 [portal.accountLink.notice]
 openFailed = "Tidak dapat membuka browser Anda. Buka Penggunaan & penagihan di server terhubung Anda untuk menautkan akun."
@@ -8027,7 +8027,7 @@ viewAll = "Lihat semua pipeline"
 
 [portal.accountLink.rail]
 adminCta = "Cara mendapatkan lebih banyak kredit"
-adminSub = "Minta administrator server Anda untuk menautkan akun Stirling demi mendapatkan lebih banyak kredit. Alat PDF manual masih tersedia."
+adminSub = "Minta administrator server Anda untuk menautkan akun PaperRing demi mendapatkan lebih banyak kredit. Alat PDF manual masih tersedia."
 exhaustedCta = "Tautkan akun untuk lebih banyak kredit"
 exhaustedSub = "Tautkan untuk kredit bulanan, penagihan bersama, dan opsi untuk berkembang dengan paket Team."
 exhaustedTitle = "Kredit gratis server ini telah habis"
@@ -8041,9 +8041,9 @@ malformed = "Kami tidak dapat memverifikasi respons masuk ini. Mulai lagi dari P
 malformedTitle = "Tidak dapat memverifikasi masuk"
 rejected = "Permintaan masuk ini ditolak atau sudah digunakan. Coba lagi untuk memperbarui akses penagihan."
 rejectedTitle = "Masuk tidak selesai"
-retry = "Stirling tidak dapat menyelesaikan pembaruan akses penagihan. Coba lagi sebentar lagi; server Anda masih terhubung."
+retry = "PaperRing tidak dapat menyelesaikan pembaruan akses penagihan. Coba lagi sebentar lagi; server Anda masih terhubung."
 retryTitle = "Akses penagihan tidak dipulihkan"
-success = "Akses penagihan Anda telah diperbarui. Server ini masih terhubung ke akun Stirling yang sama."
+success = "Akses penagihan Anda telah diperbarui. Server ini masih terhubung ke akun PaperRing yang sama."
 title = "Perbarui akses penagihan"
 working = "Memulihkan akses penagihan."
 
@@ -8057,7 +8057,7 @@ close = "Tutup asisten"
 error = "Tidak dapat menghubungi asisten."
 errorWithDetail = "Tidak dapat menghubungi asisten: {{detail}}"
 inputAriaLabel = "Tanya asisten"
-inputPlaceholder = "Tanyakan tentang Stirling…"
+inputPlaceholder = "Tanyakan tentang PaperRing…"
 open = "Buka asisten"
 send = "Kirim"
 title = "Asisten"
@@ -8102,7 +8102,7 @@ title = "Tetapkan batas pengeluaran Anda"
 [portal.billing.checkout.card]
 fields = "Nomor kartu · MM / YY · CVC · ZIP"
 label = "Detail kartu"
-note = "Detail kartu dikumpulkan oleh Stripe. Stirling tidak pernah menyimpan PAN atau CVC."
+note = "Detail kartu dikumpulkan oleh Stripe. PaperRing tidak pernah menyimpan PAN atau CVC."
 
 [portal.billing.checkout.error]
 title = "Tidak dapat memulai checkout"
@@ -8180,7 +8180,7 @@ users = "Pengguna"
 [portal.billing.enterprise]
 cta = "Dapatkan penawaran enterprise"
 sub = "Deployment air-gapped, SCIM, residensi data, SLA uptime, dan perjanjian yang sesuai."
-title = "Menjalankan Stirling di lingkungan teregulasi?"
+title = "Menjalankan PaperRing di lingkungan teregulasi?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Tidak dapat memulai checkout"
@@ -8458,7 +8458,7 @@ description = "Tempat dokumen yang diproses berakhir - bucket, drive, tiket, ata
 label = "File & lampirkan"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling menyimpannya terenkripsi dan tidak pernah menampilkannya lagi."
+helperText = "PaperRing menyimpannya terenkripsi dan tidak pernah menampilkannya lagi."
 label = "Token akses"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Coba lagi"
 title = "Terjadi kesalahan pada halaman ini"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Tidak ada yang cocok dengan filter saat ini"
 occurrences = "{{count}} kejadian"
 searchPlaceholder = "Cari masalah, pengguna, dan error"
@@ -9106,7 +9106,7 @@ description = "Server ini tidak memiliki software yang dibutuhkan langkah terseb
 title = "Software tidak terpasang"
 
 [portal.failures.kind.unknown]
-description = "Terjadi kesalahan yang belum dikenali oleh Stirling."
+description = "Terjadi kesalahan yang belum dikenali oleh PaperRing."
 title = "Masalah tidak dikenali"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "Buka panduan {{name}}"
 openInBrowser = "Buka di browser saja"
 sectionDesktop = "Aplikasi desktop"
 sectionSelfHosted = "Dihosting sendiri"
-title = "Instal Stirling PDF Editor"
+title = "Instal PaperRing Editor"
 
 [portal.home.download.docker]
 detailBody = "Jalankan image resmi di server Anda."
@@ -9224,7 +9224,7 @@ usageMonth = "Penggunaan bulan ini"
 usageToday = "Penggunaan hari ini"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Buat kunci untuk mulai memanggil Stirling API."
+description = "Buat kunci untuk mulai memanggil PaperRing API."
 title = "Belum ada API key"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Selesai"
 keyNameLabel = "Nama kunci"
 keyNamePlaceholder = "mis. Ingest produksi"
 secretKeyCaption = "Kunci rahasia"
-secretWarning = "Simpan ini di secrets manager. Stirling hanya menyimpan hash, jadi tidak ada cara untuk memulihkannya nanti."
+secretWarning = "Simpan ini di secrets manager. PaperRing hanya menyimpan hash, jadi tidak ada cara untuk memulihkannya nanti."
 subtitle = "Beri nama kunci agar Anda dapat mengenalinya nanti. Anda dapat mencabutnya kapan saja."
 subtitleCreated = "Salin rahasia ini sekarang — tidak akan ditampilkan lagi."
 title = "Buat API key"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} koneksi"
 connectionCount_other = "{{count}} koneksi"
 customApi = "API kustom"
 searchPlaceholder = "Cari integrasi"
-subtitle = "Semua yang dapat diajak berkomunikasi oleh Stirling. Kredensial dibuat sekali di sini, lalu direferensikan oleh sumber, kebijakan, dan pipeline."
+subtitle = "Semua yang dapat diajak berkomunikasi oleh PaperRing. Kredensial dibuat sekali di sini, lalu direferensikan oleh sumber, kebijakan, dan pipeline."
 title = "Integrasi"
 typedName = "Nama {{tool}}"
 
@@ -10183,8 +10183,8 @@ saveFailed = "Tidak dapat menyimpan pipeline. Silakan coba lagi."
 
 [portal.policies.wizard.locations]
 aiSettings = "Buka pengaturan AI"
-builtin = "Basis pengetahuan Stirling"
-builtinHelp = "Mengindeks chunk yang dapat dicari di Stirling dan mengembalikan PDF yang diproses ke tujuan di bawah. Penyedia embedding harus dikonfigurasi di pengaturan AI."
+builtin = "Basis pengetahuan PaperRing"
+builtinHelp = "Mengindeks chunk yang dapat dicari di PaperRing dan mengembalikan PDF yang diproses ke tujuan di bawah. Penyedia embedding harus dikonfigurasi di pengaturan AI."
 checking = "Memeriksa ketersediaan ingestion..."
 chooseOutput = "Pilih tujuan output yang diaktifkan sebelum menyimpan."
 chooseSource = "Pilih asal dokumen"
@@ -10276,7 +10276,7 @@ title = "Belum ada alur"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Hubungkan"
-editor = "Stirling PDF Editor"
+editor = "PaperRing Editor"
 heading = "Sumber"
 perDay = "{{n}} / 24j"
 
@@ -10293,7 +10293,7 @@ title = "Pengadaan"
 agreeCta = "Tandatangani perjanjian"
 confidential = "Rahasia"
 confirm = "Saya telah membaca dan menyetujui Perjanjian ini, dan saya menyatakan bahwa saya berwenang untuk menandatanganinya atas nama organisasi yang disebutkan di atas."
-docName = "Perjanjian Enterprise Stirling"
+docName = "Perjanjian Enterprise PaperRing"
 docSub = "MSA, Order Form, EULA, dan DPA, digabungkan menjadi satu tanda tangan."
 download = "Unduh"
 downloadDraftError = "Tidak dapat membuat PDF perjanjian - perender dokumen tidak tersedia. Silakan coba lagi sebentar lagi atau hubungi dukungan."
@@ -10463,7 +10463,7 @@ gatingAction = "Terima penawaran Anda"
 label = "Penawaran"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Evaluasi Stirling terhadap dokumen dan workflow Anda."
+blurb = "Evaluasi PaperRing terhadap dokumen dan workflow Anda."
 gatingAction = "Buat penawaran Anda"
 label = "Uji coba"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Ini adalah file lisensi uji coba Anda. Setelah perjanjian Anda 
 
 [portal.procurement.link]
 cta = "Tautkan akun"
-description = "Pengadaan berjalan pada akun Stirling tertaut Anda: begitulah cara kami memprovision uji coba, memberi harga penawaran, dan memulai penagihan. Tautkan akun untuk memulai."
+description = "Pengadaan berjalan pada akun PaperRing tertaut Anda: begitulah cara kami memprovision uji coba, memberi harga penawaran, dan memulai penagihan. Tautkan akun untuk memulai."
 eyebrow = "Enterprise"
 title = "Tautkan akun Anda untuk memulai"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Terkelola, mulai paling cepat"
 continue = "Lanjutkan"
 deployment = "Di mana harus di-deploy?"
-eula = "Saya menyetujui Stirling EULA & Ketentuan Komersial."
+eula = "Saya menyetujui PaperRing EULA & Ketentuan Komersial."
 fullName = "Nama lengkap"
 fullNamePlaceholder = "Nama Anda"
 invites = "Undang rekan tim · opsional"
@@ -10565,7 +10565,7 @@ account-link = "Koneksi akun"
 [portal.shell.sidebar]
 appEditor = "Editor"
 appProcessor = "Processor"
-linkAccount = "Tautkan akun Stirling"
+linkAccount = "Tautkan akun PaperRing"
 primaryNav = "Navigasi utama"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Cari"
 
 [portal.sources]
 processingModeHelp = "Track menyimpan file asli dan memproses setiap versi satu kali. Snapshot menyimpan file asli dan memprosesnya di setiap eksekusi. Consume menghapus file asli setelah pengiriman berhasil."
-subtitle = "Koneksi input yang dapat digunakan ulang untuk memasukkan dokumen ke Stirling. Konfigurasikan sumber sekali, lalu referensikan dari sejumlah pipeline."
+subtitle = "Koneksi input yang dapat digunakan ulang untuk memasukkan dokumen ke PaperRing. Konfigurasikan sumber sekali, lalu referensikan dari sejumlah pipeline."
 title = "Sumber"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Kredit bulanan server ini dibagikan oleh semua orang di dalamnya, j
 barAria = "Sisa kredit gratis"
 capSuffix_one = "dari {{allowance}} kredit gratis tersisa bulan ini"
 capSuffix_other = "dari {{allowance}} kredit gratis tersisa bulan ini"
-connect = "Hubungkan akun Stirling"
+connect = "Hubungkan akun PaperRing"
 connectBody = "Menghubungkan akan menambahkan jatah bulanan kedua, meningkatkan jumlah pengguna yang dapat dimiliki server ini, dan mengaktifkan Processor."
-connectTitle = "Server ini tidak memiliki akun Stirling"
+connectTitle = "Server ini tidak memiliki akun PaperRing"
 loadError = "Tidak dapat membaca penggunaan kredit server ini. Coba lagi sebentar lagi."
 loadErrorTitle = "Tidak dapat memuat penggunaan kredit"
 resets = "Direset {{date}}"
 
 [portal.usage.sessionExpired]
-body = "Sesi akun Stirling Anda telah kedaluwarsa. Masuk lagi untuk melihat penagihan — instance Anda tetap tertaut."
+body = "Sesi akun PaperRing Anda telah kedaluwarsa. Masuk lagi untuk melihat penagihan — instance Anda tetap tertaut."
 
 [portal.users]
 title = "Pengguna"
@@ -11129,7 +11129,7 @@ files = "File"
 account = "Akun"
 docs = "Dokumentasi"
 editor = "Editor"
-home = "Stirling"
+home = "PaperRing"
 invite = "Undang"
 landmark = "Navigasi cepat"
 noProcessorAccess = "Minta akses Processor kepada admin"
@@ -11682,8 +11682,8 @@ hideTools = "Sembunyikan alat yang tidak tersedia ▴"
 messageNoFallback = "Alat tidak tersedia hingga server Anda kembali online."
 messageWithFallback = "Beberapa alat memerlukan koneksi server."
 showTools = "Lihat alat yang tidak tersedia ▾"
-title = "Server Stirling-PDF Anda tidak dapat dijangkau"
-toolNotAvailableLocally = "Server Stirling-PDF Anda sedang offline dan \"{{endpoint}}\" tidak tersedia pada backend lokal."
+title = "Server PaperRing Anda tidak dapat dijangkau"
+toolNotAvailableLocally = "Server PaperRing Anda sedang offline dan \"{{endpoint}}\" tidak tersedia pada backend lokal."
 
 [session]
 expired = "Sesi Anda telah kedaluwarsa. Silakan muat ulang halaman dan coba lagi."
@@ -11755,7 +11755,7 @@ unknown = "Tidak tersedia"
 yourTeam = "Tim Anda"
 
 [settings.connection]
-description = "Bekerja secara lokal di mesin ini atau hubungkan aplikasi ke server Stirling."
+description = "Bekerja secara lokal di mesin ini atau hubungkan aplikasi ke server PaperRing."
 localDescription = "Anda menggunakan backend lokal tanpa akun. Beberapa alat yang memerlukan pemrosesan cloud atau server self-hosted tidak tersedia."
 logout = "Keluar"
 server = "Server"
@@ -11770,7 +11770,7 @@ selfhosted = "Dihosting Sendiri"
 
 [settings.developer]
 apiKeys = "Kunci API"
-apiKeysDescription = "Kunci pribadi untuk memanggil Stirling API dari skrip dan integrasi."
+apiKeysDescription = "Kunci pribadi untuk memanggil PaperRing API dari skrip dan integrasi."
 title = "Pengembang"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Batas file auto-unzip"
 autoUnzipFileLimitTooltip = "Hanya unzip jika ZIP berisi sebanyak ini atau lebih sedikit. Atur lebih tinggi untuk mengekstrak ZIP yang lebih besar."
 autoUnzipTooltip = "Secara otomatis mengekstrak file ZIP yang dikembalikan dari operasi API. Nonaktifkan untuk menjaga file ZIP tetap utuh. Ini tidak memengaruhi alur otomasi."
 defaultPdfEditor = "Editor PDF default"
-defaultPdfEditorActive = "Stirling PDF adalah editor PDF default Anda"
+defaultPdfEditorActive = "PaperRing adalah editor PDF default Anda"
 defaultPdfEditorChecking = "Memeriksa..."
 defaultPdfEditorInactive = "Aplikasi lain disetel sebagai default"
 defaultPdfEditorSet = "Sudah Default"
@@ -11849,7 +11849,7 @@ updateBehavior = "Perilaku pembaruan"
 updateBehaviorDescription = "Pilih apakah akan meminta konfirmasi sebelum memasang pembaruan, memasangnya secara otomatis, atau melewati pemeriksaan pembaruan sepenuhnya."
 updateBehaviorError = "Tidak dapat mengubah perilaku pembaruan"
 updateBehaviorErrorLocked = "Pengaturan ini dikunci oleh administrator Anda."
-updateBehaviorLockedDescription = "Administrator Anda telah mengonfigurasi bagaimana Stirling-PDF menangani pembaruan di mesin ini. Hubungi mereka untuk mengubahnya."
+updateBehaviorLockedDescription = "Administrator Anda telah mengonfigurasi bagaimana PaperRing menangani pembaruan di mesin ini. Hubungi mereka untuk mengubahnya."
 updateBehaviorSaved = "Perilaku pembaruan disimpan."
 versionMismatch = "Aplikasi desktop dan server Anda menjalankan versi yang berbeda. Perbarui keduanya ke versi yang sama untuk menghindari masalah kompatibilitas."
 viewDetails = "Lihat Detail"
@@ -12074,7 +12074,7 @@ emptyUsername = "Masukkan nama pengguna Anda"
 oauthFailed = "Login OAuth gagal. Silakan coba lagi."
 
 [setup.saas]
-title = "Masuk ke Stirling"
+title = "Masuk ke PaperRing"
 
 [setup.selfhosted]
 changeServerLocked = "Organisasi Anda membatasi aplikasi ini ke server tertentu"
@@ -12120,7 +12120,7 @@ step3 = "Mulai ulang server"
 title = "Login Tidak Diaktifkan"
 
 [setup.server.url]
-description = "Masukkan URL lengkap server Stirling PDF self-hosted Anda"
+description = "Masukkan URL lengkap server PaperRing self-hosted Anda"
 label = "URL Server"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Harap isi semua bidang"
 signUp = "Daftar"
 signUpWith = "Daftar dengan"
 skip = "Lewati"
-subtitle = "Bergabunglah dengan Stirling PDF untuk memulai"
+subtitle = "Bergabunglah dengan PaperRing untuk memulai"
 title = "Buat akun"
 unableToAccessTool = "Tidak dapat mengakses alat: {{error}}"
 unexpectedError = "Kesalahan tak terduga: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Unduh"
 downloaded = "Diunduh"
 downloadFailed = "Tidak dapat mengunduh file ini."
 downloadsCount = "Unduhan: {{count}}"
-emailWarningBody = "Ini terlihat seperti alamat email. Jika orang ini belum menjadi pengguna Stirling PDF, mereka tidak akan dapat mengakses file."
+emailWarningBody = "Ini terlihat seperti alamat email. Jika orang ini belum menjadi pengguna PaperRing, mereka tidak akan dapat mengakses file."
 emailWarningConfirm = "Tetap bagikan"
 emailWarningTitle = "Alamat email"
 errorTitle = "Gagal berbagi"
@@ -12887,7 +12887,7 @@ manageTitle = "Kelola Berbagi"
 noActivity = "Belum ada aktivitas."
 noLinks = "Belum ada tautan berbagi aktif."
 noSharedUsers = "Belum ada pengguna yang memiliki akses."
-openInApp = "Buka di Stirling PDF"
+openInApp = "Buka di PaperRing"
 ownerLabel = "Pemilik"
 ownerUnknown = "Tidak diketahui"
 removeLink = "Hapus tautan"
@@ -12945,7 +12945,7 @@ all = "Semua"
 ariaLabel = "Pencarian super"
 filtersAriaLabel = "Filter pencarian"
 hint = "Ketik untuk mencari"
-placeholder = "Cari Stirling"
+placeholder = "Cari PaperRing"
 placeholderShort = "Cari"
 showLess = "Tampilkan lebih sedikit"
 showMore = "Tampilkan {{count}} lagi"
@@ -12959,7 +12959,7 @@ settings = "Pengaturan"
 tools = "Alat"
 
 [survey]
-title = "Survei Stirling-PDF"
+title = "Survei PaperRing"
 
 [swagger]
 clickHere = "klik di sini"
@@ -13128,7 +13128,7 @@ favorites = "Favorit"
 heading = "Semua alat (tampilan layar penuh)"
 noResults = "Coba sesuaikan pencarian Anda atau aktifkan deskripsi untuk menemukan yang Anda butuhkan."
 recommended = "Direkomendasikan"
-selfHostedOffline = "Memerlukan server Stirling-PDF Anda (saat ini offline):"
+selfHostedOffline = "Memerlukan server PaperRing Anda (saat ini offline):"
 showDetails = "Tampilkan Detail"
 unavailable = "Dinonaktifkan oleh admin server:"
 unavailableDependency = "Tidak tersedia - alat yang diperlukan tidak ada di server:"
@@ -13137,7 +13137,7 @@ unfavorite = "Hapus dari Favorit"
 [toolPanel.modePrompt]
 chooseFullscreen = "Gunakan mode layar penuh"
 chooseSidebar = "Gunakan mode bilah sisi"
-description = "Pratinjau kedua tata letak dan tentukan bagaimana Anda ingin menjelajahi alat Stirling PDF."
+description = "Pratinjau kedua tata letak dan tentukan bagaimana Anda ingin menjelajahi alat PaperRing."
 dismiss = "Mungkin nanti"
 fullscreenDescription = "Jelajahi setiap alat dalam katalog yang menutupi ruang kerja hingga Anda memilih satu."
 fullscreenTitle = "Mode layar penuh - (lama)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Memuat informasi detail..."
 migrationGuide = "Panduan Migrasi"
 migrationGuides = "Panduan Migrasi"
 migrationGuidesDesc = "Tinjau perubahan penting sebelum memperbarui."
-modalSubtitle = "Versi baru Stirling PDF siap dipasang."
+modalSubtitle = "Versi baru PaperRing siap dipasang."
 modalTitle = "Pembaruan Tersedia"
 notes = "Catatan"
 releaseNotes = "Catatan Rilis"
@@ -13230,7 +13230,7 @@ urgent = "Mendesak"
 attentionBody = "Admin Anda perlu masuk untuk melihat info lebih lanjut. Harap hubungi mereka segera."
 attentionBodyAdmin = "Tinjau persyaratan lisensi untuk menjaga kepatuhan server ini."
 attentionTitle = "Server ini memerlukan perhatian admin"
-message = "Dapatkan manfaat maksimal Stirling PDF dengan 100 pengguna, pengeditan teks PDF, dan fitur lanjutan"
+message = "Dapatkan manfaat maksimal PaperRing dengan 100 pengguna, pengeditan teks PDF, dan fitur lanjutan"
 seeInfo = "Lihat info"
 title = "Upgrade ke paket Team"
 upgradeButton = "Upgrade Sekarang"
@@ -13368,7 +13368,7 @@ authWeb = "Kata sandi"
 create = "Buat akun"
 createSubtitle = "Buat akun self-hosted dengan password atau SSO."
 createTitle = "Buat akun"
-editorDesc = "Edit PDF di Stirling PDF Editor. Semua orang mendapatkannya."
+editorDesc = "Edit PDF di PaperRing Editor. Semua orang mendapatkannya."
 email = "Alamat email"
 emailError = "Masukkan alamat email yang valid"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Undangan terkirim, tetapi akses Processor belum dapat diber
 processorDesc = "Permukaan tata kelola, jalankan pipeline, agen, dan API."
 role = "Peran"
 send2 = "Kirim undangan"
-subtitle2 = "Mereka akan menerima email untuk bergabung dengan ruang kerja Stirling Anda."
+subtitle2 = "Mereka akan menerima email untuk bergabung dengan ruang kerja PaperRing Anda."
 team = "Tim"
 title = "Undang orang"
 username = "Nama pengguna"
@@ -13525,7 +13525,7 @@ downloads = "Unduhan"
 entryLabel = "Ringkasan Tanda Tangan"
 filesEvaluated_one = "{{count}} file dievaluasi"
 filesEvaluated_other = "{{count}} file dievaluasi"
-footer = "Divalidasi melalui Stirling PDF"
+footer = "Divalidasi melalui PaperRing"
 generatedAt = "Dibuat"
 noPdf = "Laporan PDF akan tersedia setelah validasi berhasil."
 page = "Halaman"
@@ -13718,7 +13718,7 @@ text = "Teks"
 addFile = "Tambahkan file"
 count_one = "{{count}} file dalam portfolio ini"
 count_other = "{{count}} file dalam portfolio ini"
-import = "Impor ke Stirling"
+import = "Impor ke PaperRing"
 importFailed = "File ini tidak dapat ditambahkan ke ruang kerja Anda."
 memberUnavailable = "File ini tidak dapat dibaca dari portfolio."
 preview = "Pratinjau"

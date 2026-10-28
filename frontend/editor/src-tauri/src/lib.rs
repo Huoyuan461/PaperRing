@@ -164,9 +164,9 @@ pub fn run() {
         let handle = app.handle().clone();
         app.dialog()
           .message(format!(
-            "Stirling PDF could not apply your managed settings and cannot start.\n\n{err}\n\nContact your administrator to correct the provisioning file or restore access to the settings store, then restart Stirling PDF."
+            "纸环 PaperRing could not apply your managed settings and cannot start.\n\n{err}\n\nContact your administrator to correct the provisioning file or restore access to the settings store, then restart 纸环 PaperRing."
           ))
-          .title("Stirling PDF — managed settings error")
+          .title("纸环 PaperRing — managed settings error")
           .kind(MessageDialogKind::Error)
           .show(move |_| handle.exit(1));
         // Keep the event loop alive for the dialog, without opening the workspace or backend.

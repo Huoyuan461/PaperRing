@@ -176,7 +176,7 @@ function UpdateModalHeader({ canClose, onClose }: UpdateModalHeaderProps) {
             <Text size="sm" c="dimmed" mt={2}>
               {t(
                 "update.modalSubtitle",
-                "A new version of Stirling-PDF is ready to install.",
+                "A new version of PaperRing is ready to install.",
               )}
             </Text>
           </Box>
@@ -344,7 +344,7 @@ function InstallBlockedAlert({ show }: { show: boolean }) {
       <Text size="sm">
         {t(
           "desktopUpdate.blocked.message",
-          "Stirling-PDF does not have permission to update itself on this machine.",
+          "PaperRing does not have permission to update itself on this machine.",
         )}{" "}
         <Anchor
           href={WINDOWS_INSTALL_DOCS_URL}

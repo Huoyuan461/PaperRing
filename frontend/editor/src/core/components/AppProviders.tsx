@@ -143,7 +143,7 @@ export function AppProviders({
               >
                 <AppConfigLoader />
                 <ServerDefaultsSync />
-                {/* Auto-popup on startup when a newer Stirling-PDF release is available.
+                {/* Auto-popup on startup when a newer PaperRing release is available.
                   No-ops inside Tauri — the desktop popup handles that flow. */}
                 <UpdateStartupPopup />
                 <FileContextProvider

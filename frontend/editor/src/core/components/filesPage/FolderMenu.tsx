@@ -160,7 +160,7 @@ export function FolderMenu({
                 title={editsDisabled ? editsDisabledHint : undefined}
               >
                 {isMount
-                  ? t("filesPage.removeLocalFolder", "Unmount from Stirling")
+                  ? t("filesPage.removeLocalFolder", "Unmount from PaperRing")
                   : t("filesPage.deleteFolder", "Delete folder")}
               </Menu.Item>
             </>

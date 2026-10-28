@@ -48,7 +48,7 @@ export interface OnboardingSlideShellProps {
 }
 
 /**
- * Hero art for the inset panel. `appIcon` renders the Stirling app mark
+ * Hero art for the inset panel. `appIcon` renders the PaperRing app mark
  * directly; otherwise the children glyph sits inside a soft white tile.
  */
 export function ShellHero({

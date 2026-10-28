@@ -55,7 +55,7 @@ keepWorking = "Çalışmaya Devam Et"
 loading = "Yükleniyor..."
 loginAgreementAccept = "Kabul et"
 loginAgreementDecline = "Reddet"
-loginAgreementProvider = "Bu bildirim Stirling PDF Inc. tarafından değil, yöneticiniz tarafından sağlanmıştır."
+loginAgreementProvider = "Bu bildirim PaperRing tarafından değil, yöneticiniz tarafından sağlanmıştır."
 loginAgreementTitle = "Giriş Sözleşmesi"
 logOut = "Oturumu kapat"
 marginTooltip = "Sayfa numarası ile sayfa kenarı arasındaki mesafe."
@@ -668,8 +668,8 @@ description = "Azami yürütme süresi"
 label = "Zaman Aşımı (dakika)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert beta aşamasındadır. LibreOffice'e göre daha iyi, daha hızlı ve daha az bellek kullanan dönüşümler sunar."
-label = "Yeni Stirling Office dönüşümünü kullan"
+description = "PaperRing Office Convert beta aşamasındadır. LibreOffice'e göre daha iyi, daha hızlı ve daha az bellek kullanan dönüşümler sunar."
+label = "Yeni PaperRing Office dönüşümünü kullan"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Geçici dosya depolama ve temizleme davranışını yapılandırın"
@@ -736,7 +736,7 @@ permissionNotice = "tessdata yolu yazılabilir değil. İndirmeler tarayıcıda 
 
 [admin.settings.ai]
 customProvider = "Özel (OpenAI uyumlu)"
-description = "Stirling'i Python AI motoruna bağlayın, modellerini seçin ve altında çalışacağı koruma kurallarını ayarlayın."
+description = "PaperRing'i Python AI motoruna bağlayın, modellerini seçin ve altında çalışacağı koruma kurallarını ayarlayın."
 managedByCloud = "Bu modda Stirling Cloud tarafından yönetilir."
 managedByCloudShort = "Stirling Cloud tarafından yönetilir"
 
@@ -797,7 +797,7 @@ help = "Kapalı, belge sorularının kullanılamayacağı anlamına gelir. Metni
 label = "Stirling Cloud'un dizine eklenmiş belgeleri saklamasına izin ver"
 
 [admin.settings.ai.general.cloudNote]
-body = "Akıl yürütme Stirling'in altyapısında çalışır ve bu sunucunun bağlı olduğu hesaba ücretlendirilir. Burada çalıştırılacak konteyner veya tutulacak sağlayıcı anahtarı yoktur. AI'ın okuduğu her şey kendi donanımınız yerine Stirling Cloud tarafından işlenir."
+body = "Akıl yürütme PaperRing'in altyapısında çalışır ve bu sunucunun bağlı olduğu hesaba ücretlendirilir. Burada çalıştırılacak konteyner veya tutulacak sağlayıcı anahtarı yoktur. AI'ın okuduğu her şey kendi donanımınız yerine Stirling Cloud tarafından işlenir."
 title = "Stirling Cloud AI hakkında"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "AI nerede çalışır"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Konteyner yok, sağlayıcı anahtarı yok, model seçimi yok - iş Stirling Cloud üzerinde çalışır ve bu sunucunun bağlı olduğu hesaba ücretlendirilir."
-linkCta = "Bu sunucuyu bir Stirling hesabına bağla"
+linkCta = "Bu sunucuyu bir PaperRing hesabına bağla"
 notLinked = "Önce bir hesap bağlayın"
-ownerOnly = "Yalnızca kuruluş sahibi bu sunucuyu bir Stirling hesabına bağlayabilir."
+ownerOnly = "Yalnızca kuruluş sahibi bu sunucuyu bir PaperRing hesabına bağlayabilir."
 title = "Stirling Cloud AI kullan"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Kendi motorunuzu çalıştırın"
 
 [admin.settings.ai.general.note]
 docs = "Kurulum kılavuzu"
-intro = "Stirling'in yanında çalıştırdığınız ayrı bir konteyner. Akıl yürütmeyi o yapar; Stirling tüm sayfa işlemlerini yine kendisi yapar. Aynısını gerektirir"
+intro = "PaperRing'in yanında çalıştırdığınız ayrı bir konteyner. Akıl yürütmeyi o yapar; PaperRing tüm sayfa işlemlerini yine kendisi yapar. Aynısını gerektirir"
 outro = "her iki konteynerde ve bir model sağlayıcı anahtarında. AI'ın okuduğu her şey seçtiğiniz sağlayıcıya gönderilir - barındırdığınız bir Ollama her sayfayı kurum içinde tutar."
 title = "AI engine hakkında"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Devam etmek için onay kodunu girin"
 confirmImport = "İçe aktarımı onayla"
 confirmImportTitle = "Veritabanı içe aktarımını onayla"
 connection = "Bağlantı"
-connectionDescription = "Stirling'i yerleşik veritabanı yerine harici bir veritabanına yönlendirin."
+connectionDescription = "PaperRing'i yerleşik veritabanı yerine harici bir veritabanına yönlendirin."
 createBackup = "Yedek oluştur"
 created = "Oluşturulma"
 delete = "Sil"
@@ -1224,11 +1224,11 @@ description = "İsteğe bağlı özellikleri ve işlevleri yapılandırın."
 title = "Özellikler"
 
 [admin.settings.features.serverCertificate]
-description = "\"Stirling-PDF ile İmzala\" imzalama özelliğini destekleyen sertifikayı oluşturun."
+description = "\"PaperRing ile İmzala\" imzalama özelliğini destekleyen sertifikayı oluşturun."
 label = "Sertifika İmzalama"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Bu sunucunun oluşturduğu bir sertifikayı kullanarak \"Stirling-PDF ile İmzala\" seçeneğini sun"
+description = "Bu sunucunun oluşturduğu bir sertifikayı kullanarak \"PaperRing ile İmzala\" seçeneğini sun"
 label = "Sertifika İmzalamayı Etkinleştir"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Sertifika Geçerliliği (gün)"
 
 [admin.settings.folderAccess]
 description = "Klasör kaynaklarının ve klasör çıktılarının okuma ve yazma izni olan dizinler. Bu bir güvenlik sınırıdır: otomasyonlar asla bu listenin dışındaki bir sunucu yoluna yönlendirilemez."
-securityNote = "Klasör kaynaklarını ve çıktılarını tamamen devre dışı bırakmak için bunu boş bırakın. Stirling'in kendi yapılandırma dizini her zaman erişime kapalıdır."
+securityNote = "Klasör kaynaklarını ve çıktılarını tamamen devre dışı bırakmak için bunu boş bırakın. PaperRing'in kendi yapılandırma dizini her zaman erişime kapalıdır."
 title = "Klasör Erişimi"
 
 [admin.settings.folderAccess.implied]
-description = "Stirling tarafından yönetilen bu dizinlere her zaman izin verilir ve burada değiştirilemez."
+description = "PaperRing tarafından yönetilen bu dizinlere her zaman izin verilir ve burada değiştirilemez."
 serverStorage = "Sunucu dosya depolama"
 title = "Her zaman izinli"
 watchedFolder = "Pipeline izlenen klasör"
@@ -1390,7 +1390,7 @@ description = "Çerez politikası için URL veya dosya adı"
 label = "Çerez Politikası"
 
 [admin.settings.legal.disclaimer]
-message = "Bu hukuki belgeleri özelleştirerek, GDPR ve diğer AB veri koruma gereksinimleri dahil olmak üzere yürürlükteki tüm yasa ve yönetmeliklere uygunluğu sağlamaktan tamamen siz sorumlu olursunuz. Yalnızca şu durumlarda bu ayarları değiştirin: (1) kişisel/özel bir örnek çalıştırıyorsanız, (2) AB yargı yetkisi dışında bulunuyor ve yerel yasal yükümlülüklerinizi anlıyorsanız veya (3) uygun hukuki danışmanlık aldıysanız ve tüm kullanıcı verileri ile yasal uyumluluktan yalnızca sizin sorumlu olduğunuzu kabul ediyorsanız. Stirling-PDF ve geliştiricileri yasal yükümlülüklerinizden sorumlu değildir."
+message = "Bu hukuki belgeleri özelleştirerek, GDPR ve diğer AB veri koruma gereksinimleri dahil olmak üzere yürürlükteki tüm yasa ve yönetmeliklere uygunluğu sağlamaktan tamamen siz sorumlu olursunuz. Yalnızca şu durumlarda bu ayarları değiştirin: (1) kişisel/özel bir örnek çalıştırıyorsanız, (2) AB yargı yetkisi dışında bulunuyor ve yerel yasal yükümlülüklerinizi anlıyorsanız veya (3) uygun hukuki danışmanlık aldıysanız ve tüm kullanıcı verileri ile yasal uyumluluktan yalnızca sizin sorumlu olduğunuzu kabul ediyorsanız. PaperRing ve geliştiricileri yasal yükümlülüklerinizden sorumlu değildir."
 title = "Hukuki Sorumluluk Uyarısı"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "SMTP kimlik doğrulama kullanıcı adı"
 label = "SMTP Kullanıcı Adı"
 
 [admin.settings.mcp]
-apikeyNote = "İstemciler X-API-KEY header'ında (veya Authorization: Bearer <key>) bir Stirling API key gönderir. Anahtar, sahibi olan Stirling kullanıcısıyla eşleşir; yalnızca sağlanmış hesaplar erişebilir ve işlemler o kullanıcı olarak denetlenir. Anahtarları Hesap > API Keys altında yönetin."
-description = "Stirling'in PDF araçlarını ve AI aracılarını OAuth korumalı bir endpoint üzerinden MCP istemcilerine sunun."
+apikeyNote = "İstemciler X-API-KEY header'ında (veya Authorization: Bearer <key>) bir PaperRing API key gönderir. Anahtar, sahibi olan PaperRing kullanıcısıyla eşleşir; yalnızca sağlanmış hesaplar erişebilir ve işlemler o kullanıcı olarak denetlenir. Anahtarları Hesap > API Keys altında yönetin."
+description = "PaperRing'in PDF araçlarını ve AI aracılarını OAuth korumalı bir endpoint üzerinden MCP istemcilerine sunun."
 title = "MCP Server"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "header içinde gönderin (veya Authorization: Bearer <key>). OAu
 step4 = "Oturum açmayı onaylayın; istemci bir token ile yeniden dener. Araçlar gruplu görünür: convert, pages, misc, security, ai."
 step4ApiKey = "Araçlar gruplu görünür: convert, pages, misc, security, ai - ve her çağrı anahtar sahibinin adına denetlenir."
 tip = "İpucu: resource ID'yi IdP'nizde izin verilen audience olarak kaydedin. MCP Inspector ve Claude Desktop ile test edildi."
-tipApiKey = "İpucu: API-key modu harici IdP gerektirmez; self-host için en basitidir. Anahtar, sahibi olan Stirling kullanıcısıyla eşleşir."
+tipApiKey = "İpucu: API-key modu harici IdP gerektirmez; self-host için en basitidir. Anahtar, sahibi olan PaperRing kullanıcısıyla eşleşir."
 title = "Bir MCP istemcisi bağlayın"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (isteğe bağlı)"
 placeholder = "Issuer'dan otomatik keşfedildi"
 
 [admin.settings.mcp.mode]
-apikey = "API key (Stirling kullanıcı başına key)"
-description = "OAuth harici bir IdP gerektirir. API key, kullanıcı başına bir Stirling API key (X-API-KEY) kullanır; self-host için en basitidir."
+apikey = "API key (PaperRing kullanıcı başına key)"
+description = "OAuth harici bir IdP gerektirir. API key, kullanıcı başına bir PaperRing API key (X-API-KEY) kullanır; self-host için en basitidir."
 label = "Kimlik doğrulama modu"
 oauth = "OAuth 2.1 (harici IdP)"
 
 [admin.settings.mcp.requireAccount]
-description = "Yalnızca subject'i sağlanmış, etkin bir Stirling kullanıcısıyla eşleşen token'lara izin verin."
-label = "Mevcut bir Stirling hesabı gerektir"
+description = "Yalnızca subject'i sağlanmış, etkin bir PaperRing kullanıcısıyla eşleşen token'lara izin verin."
+label = "Mevcut bir PaperRing hesabı gerektir"
 
 [admin.settings.mcp.resourceId]
 description = "Bu sunucunun herkese açık /mcp URL'si. Token'lar bunu audience'larında listelemelidir (RFC 8707), aksi halde reddedilir."
@@ -1540,7 +1540,7 @@ description = "Okuma işlemleri için mcp.tools.read, yazma/AI işlemleri için 
 label = "OAuth scope'larını zorunlu kıl"
 
 [admin.settings.mcp.usernameClaim]
-description = "Bir Stirling kullanıcı adıyla eşleştirilen JWT claim'i (örn. sub, email, preferred_username)."
+description = "Bir PaperRing kullanıcı adıyla eşleştirilen JWT claim'i (örn. sub, email, preferred_username)."
 label = "Kullanıcı adı claim'i"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Etkinleştirildiğinde yalnızca listelenen kullanıcı kimlikler
 label = "Belirli Kullanıcı Kimliklerine İzin Ver"
 
 [admin.settings.telegram.enabled]
-description = "Kullanıcıların yapılandırdığınız Telegram botu üzerinden Stirling PDF ile etkileşim kurmasına izin verin."
+description = "Kullanıcıların yapılandırdığınız Telegram botu üzerinden PaperRing ile etkileşim kurmasına izin verin."
 label = "Telegram Botunu Etkinleştir"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Burası <strong>Ayarlar Paneli</strong>. Yönetici ayarları
 systemCustomization = "UI'yi özelleştirmenin kapsamlı yolları var: <strong>Sistem Ayarları</strong> uygulama adını ve dilleri değiştirmenizi sağlar, <strong>Özellikler</strong> sunucu sertifikası yönetimine olanak tanır ve <strong>Uç Noktalar</strong> kullanıcılarınız için belirli araçları etkinleştirip devre dışı bırakmanızı sağlar."
 teamsAndUsers = "Buradan <strong>Takımları</strong> ve bireysel kullanıcıları yönetin. Yeni kullanıcıları e-posta, paylaşılabilir bağlantılarla davet edebilir veya onlar için özel hesaplar oluşturabilirsiniz."
 welcome = "<strong>Yönetici Turu</strong>'na hoş geldiniz! Sistem yöneticileri için mevcut güçlü kurumsal özellikleri ve ayarları keşfedelim."
-wrapUp = "Yönetici turu bu kadar! Stirling PDF'yi kuruluşlar için güçlü ve özelleştirilebilir bir çözüm yapan enterprise özellikleri gördünüz. Bunu istediğiniz zaman yeniden oynatabilirsiniz; sadece <strong>Ayarlar</strong>'ı açın ve Yardım altındaki <strong>Turlar</strong> bölümünde bulun."
+wrapUp = "Yönetici turu bu kadar! PaperRing'yi kuruluşlar için güçlü ve özelleştirilebilir bir çözüm yapan enterprise özellikleri gördünüz. Bunu istediğiniz zaman yeniden oynatabilirsiniz; sadece <strong>Ayarlar</strong>'ı açın ve Yardım altındaki <strong>Turlar</strong> bölümünde bulun."
 
 [adminUserSettings]
 admin = "Yönetici"
 title = "Kullanıcı Kontrol Ayarları"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arapça"
@@ -1952,9 +1952,9 @@ thai = "Tayca"
 
 [analytics]
 learnMore = "Analytics hakkında daha fazla bilgi edinin"
-paragraph1 = "Stirling PDF, ürünü geliştirmemize yardımcı olmak için isteğe bağlı analytics kullanır. Hiçbir kişisel bilgiyi veya dosya içeriğini izlemeyiz."
-paragraph2 = "Stirling PDF’in büyümesine destek olmak ve kullanıcılarımızı daha iyi anlayabilmemiz için analizleri etkinleştirmeyi düşünebilirsiniz."
-title = "Stirling PDF'yi daha iyi hale getirmeye yardımcı olmak ister misiniz?"
+paragraph1 = "PaperRing, ürünü geliştirmemize yardımcı olmak için isteğe bağlı analytics kullanır. Hiçbir kişisel bilgiyi veya dosya içeriğini izlemeyiz."
+paragraph2 = "PaperRing’in büyümesine destek olmak ve kullanıcılarımızı daha iyi anlayabilmemiz için analizleri etkinleştirmeyi düşünebilirsiniz."
+title = "PaperRing'yi daha iyi hale getirmeye yardımcı olmak ister misiniz?"
 
 [annotate]
 tags = "açıklama ekle,vurgula,çiz,işaretle,yorum,notlar,inceleme,redline,geri bildirim,işaretleme araçları,yapışkan notlar,şekiller,oklar,metin kutusu,serbest çizim"
@@ -2902,9 +2902,9 @@ typeSignature = "İmza oluşturmak için adınızı yazın"
 uploadCert = "Sertifika yükle"
 uploadCertDesc = "Kendi PKCS12, PFX, PEM veya JKS sertifikanızı kullanın."
 uploadSignature = "İmza görselinizi yükleyin"
-usePersonalCert = "Stirling Sign · Kişisel"
+usePersonalCert = "PaperRing Sign · Kişisel"
 usePersonalCertDesc = "Hesabınız için oluşturulan sertifikayla imzalayın."
-useServerCert = "Stirling Sign · Kuruluş"
+useServerCert = "PaperRing Sign · Kuruluş"
 useServerCertDesc = "Bu sunucunun paylaşılan kuruluş sertifikasıyla imzalayın."
 useSignature = "İmzayı kullan"
 
@@ -3224,10 +3224,10 @@ text = "Belgeleriniz hakkında bir soru sorun veya PDF araçlarıyla ilgili yard
 
 [chat.fab]
 close = "Sohbeti kapat"
-open = "Stirling AI asistanını aç"
+open = "PaperRing AI asistanını aç"
 
 [chat.header]
-agentMenu = "Stirling ajan seçenekleri"
+agentMenu = "PaperRing ajan seçenekleri"
 assistant = "AI Asistanı"
 clearChat = "Sohbeti temizle"
 
@@ -3587,9 +3587,9 @@ label = "Türe göre belgeler: {{summary}}"
 noTypes = "Bu belgeler bilinen bir türle eşleşmedi."
 
 [classificationDemo.defaultApp]
-body = "Stirling'i varsayılan PDF uygulamanız yapın. Email, tarayıcınız veya masaüstünüzden açtığınız her PDF buraya gelir; okumaya veya düzenlemeye hazır olur. Bunu istediğiniz zaman Ayarlar'dan değiştirebilirsiniz."
-cta = "Stirling'i varsayılanım yap"
-title = "Her PDF'yi Stirling'de aç"
+body = "PaperRing'i varsayılan PDF uygulamanız yapın. Email, tarayıcınız veya masaüstünüzden açtığınız her PDF buraya gelir; okumaya veya düzenlemeye hazır olur. Bunu istediğiniz zaman Ayarlar'dan değiştirebilirsiniz."
+cta = "PaperRing'i varsayılanım yap"
+title = "Her PDF'yi PaperRing'de aç"
 
 [classificationDemo.followUp]
 background = "Bu arka planda çalışır. Soldaki halka ilerlemeyi gösterir."
@@ -3604,7 +3604,7 @@ other = "Diğer"
 body = "Downloads klasörünüzdeki en son {{count}} PDF'yi türe göre sınıflandırın ve düzenleyin."
 cta = "Downloads klasörümü işle"
 privacy = "PDF'leriniz bu cihazda kalır. Bağlı sunucunuz işleme kullanımını kaydeder."
-title = "Stirling'in tüm bir klasörle neler yapabileceğini görün"
+title = "PaperRing'in tüm bir klasörle neler yapabileceğini görün"
 
 [classificationDemo.phase]
 finishing = "Tamamlanıyor..."
@@ -3618,10 +3618,10 @@ counts = "{{total}} PDF içinden işlendi"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF"
-failedBody = "Stirling, Downloads klasörünüzü okuyamadı. Bilgisayarınızda hiçbir şey değiştirilmedi."
+failedBody = "PaperRing, Downloads klasörünüzü okuyamadı. Bilgisayarınızda hiçbir şey değiştirilmedi."
 failedTitle = "Bu tamamlanmadı"
 heading = "Downloads klasörünüz, sıralanmış"
-summary = "Stirling {{documents}} okudu ve bunları {{types}} içine sıraladı."
+summary = "PaperRing {{documents}} okudu ve bunları {{types}} içine sıraladı."
 typeCount_one = "{{count}} tür"
 typeCount_other = "{{count}} tür"
 
@@ -3947,14 +3947,14 @@ upgradeButton = "Hesabı Yükselt"
 
 [config.apiKeys]
 copyKeyAriaLabel = "API anahtarını kopyala"
-description = "Stirling'in PDF araç paketine erişmek için API anahtarınız. Projenize kopyalayın veya yenisini üretmek için yenileyin."
-docsDescription = "Stirling PDF ile entegrasyon hakkında daha fazla bilgi edinin:"
+description = "PaperRing'in PDF araç paketine erişmek için API anahtarınız. Projenize kopyalayın veya yenisini üretmek için yenileyin."
+docsDescription = "PaperRing ile entegrasyon hakkında daha fazla bilgi edinin:"
 docsLink = "API Dokümantasyonu"
 docsTitle = "API Dokümantasyonu"
 generateError = "API anahtarınızı oluşturamadık."
 goToAccount = "Hesaba Git"
 guestInfo = "Misafir kullanıcılar API anahtarı alamaz. Uygulamalarınızda kullanabileceğiniz bir API anahtarı almak için bir hesap oluşturun."
-intro = "API anahtarınızı kullanarak Stirling PDF'in işleme yeteneklerine programatik olarak erişin."
+intro = "API anahtarınızı kullanarak PaperRing'in işleme yeteneklerine programatik olarak erişin."
 label = "API Anahtarı"
 publicKeyAriaLabel = "Genel API anahtarı"
 refreshAriaLabel = "API anahtarını yenile"
@@ -3978,10 +3978,10 @@ title = "API Anahtarlarını Yenile"
 warning = "⚠️ Uyarı: Bu işlem yeni API anahtarları oluşturur ve önceki anahtarlarınızı geçersiz kılar."
 
 [config.mcp]
-description = "Model Context Protocol (MCP), Claude gibi AI asistanlarının Stirling PDF araçlarınızı doğrudan kullanmasını sağlar. Bir istemciyi bir kez bağlayın; asistanınız sizin adınıza belgeleri dönüştürebilir, düzenleyebilir, güvenceye alabilir ve işleyebilir."
-guestInfo = "Misafir kullanıcılar MCP istemcilerini bağlayamaz. MCP server'ı kullanmak ve AI asistanınızın sizin adınıza Stirling PDF araçlarını çalıştırmasını sağlamak için bir hesap oluşturun."
+description = "Model Context Protocol (MCP), Claude gibi AI asistanlarının PaperRing araçlarınızı doğrudan kullanmasını sağlar. Bir istemciyi bir kez bağlayın; asistanınız sizin adınıza belgeleri dönüştürebilir, düzenleyebilir, güvenceye alabilir ve işleyebilir."
+guestInfo = "Misafir kullanıcılar MCP istemcilerini bağlayamaz. MCP server'ı kullanmak ve AI asistanınızın sizin adınıza PaperRing araçlarını çalıştırmasını sağlamak için bir hesap oluşturun."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "API key'leri görüntüle"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "MCP endpoint'iniz"
 
 [config.mcp.setup]
 addTo = "Şuna ekle"
-hint = "İstemcinizi seçin, parçacığı gösterilen dosyaya yapıştırın ve ardından yeniden başlatın. İlk kullanımda Stirling hesabınızla oturum açacaksınız; kopyalanacak anahtar yok."
+hint = "İstemcinizi seçin, parçacığı gösterilen dosyaya yapıştırın ve ardından yeniden başlatın. İlk kullanımda PaperRing hesabınızla oturum açacaksınız; kopyalanacak anahtar yok."
 title = "AI asistanınızı bağlayın"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Adım {{current}} / {{total}}"
 [connect.confirm]
 acknowledge = "Bu adresi tanıyorum ve ekibime bağlamak istiyorum"
 approve = "Sunucuyu bağla"
-cannotDecide = "Bu bağlantıyı yalnızca bir ekip sahibi onaylayabilir veya reddedebilir. Farklı bir hesap kullanın ya da Stirling'i kullanmaya devam etmek için bu istemi kapatın."
+cannotDecide = "Bu bağlantıyı yalnızca bir ekip sahibi onaylayabilir veya reddedebilir. Farklı bir hesap kullanın ya da PaperRing'i kullanmaya devam etmek için bu istemi kapatın."
 deny = "Reddet"
 dismiss = "Kapat"
-lead = "Bir Stirling sunucusu ekibinize bağlanmak istiyor. Onaylamadan önce aşağıdaki adresin size ait olduğunu kontrol edin."
+lead = "Bir PaperRing sunucusu ekibinize bağlanmak istiyor. Onaylamadan önce aşağıdaki adresin size ait olduğunu kontrol edin."
 originLabel = "Adres"
 signedInAs = "Oturum açan"
 switchAccount = "Farklı bir hesap kullan"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Önce bir kaynak biçim seçin"
 settings = "Ayarlar"
 single = "Tek"
 sourceFormatPlaceholder = "Kaynak biçim"
-stirlingOfficeConvert = "Stirling Office Convert'i kullan (beta)"
+stirlingOfficeConvert = "PaperRing Office Convert'i kullan (beta)"
 stirlingOfficeConvertDescription = "Daha az bellekle daha iyi ve daha hızlı dönüşümler. Standart dönüştürücüyü kullanmak için kapatın."
 strictMode = "Katı Mod"
 strictModeDesc = "Dönüştürme mükemmel değilse hata ver (VeraPDF doğrulaması kullanır)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Tercihleri Yönet"
 title = "Çerezleri Nasıl Kullanıyoruz"
 
 [cookieBanner.popUp.description]
-1 = "Stirling PDF'nin sizin için daha iyi çalışmasını sağlamak, araçlarımızı geliştirmemize yardımcı olmak ve seveceğiniz özellikler geliştirmeyi sürdürmek için çerezler ve diğer teknolojileri kullanıyoruz."
+1 = "PaperRing'nin sizin için daha iyi çalışmasını sağlamak, araçlarımızı geliştirmemize yardımcı olmak ve seveceğiniz özellikler geliştirmeyi sürdürmek için çerezler ve diğer teknolojileri kullanıyoruz."
 2 = "Tercih etmezseniz, 'Hayır Teşekkürler'e tıklamak yalnızca işlerin sorunsuz çalışması için gereken temel çerezleri etkinleştirir."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Çerez Kullanımı"
 title = "Onay Tercih Merkezi"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Bu çerezler araçlarımızın nasıl kullanıldığını anlamamıza yardımcı olur; böylece topluluğumuzun en çok değer verdiği özellikleri geliştirmeye odaklanabiliriz. İçiniz rahat olsun; Stirling PDF üzerinde çalıştığınız belgelerin içeriğini izleyemez ve asla izlemeyecektir."
+description = "Bu çerezler araçlarımızın nasıl kullanıldığını anlamamıza yardımcı olur; böylece topluluğumuzun en çok değer verdiği özellikleri geliştirmeye odaklanabiliriz. İçiniz rahat olsun; PaperRing üzerinde çalıştığınız belgelerin içeriğini izleyemez ve asla izlemeyecektir."
 title = "Analitik"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF, deneyiminizi geliştirmek ve araçlarımızın nasıl kullanıldığını anlamak için çerezler ve benzeri teknolojiler kullanır. Bu, performansı iyileştirmemize, önemsediğiniz özellikleri geliştirmemize ve kullanıcılarımıza sürekli destek sağlamamıza yardımcı olur."
-2 = "Stirling PDF, kullandığınız belgelerin içeriğini izleyemez veya erişemez ve bunu asla yapmayacaktır."
+1 = "PaperRing, deneyiminizi geliştirmek ve araçlarımızın nasıl kullanıldığını anlamak için çerezler ve benzeri teknolojiler kullanır. Bu, performansı iyileştirmemize, önemsediğiniz özellikleri geliştirmemize ve kullanıcılarımıza sürekli destek sağlamamıza yardımcı olur."
+2 = "PaperRing, kullandığınız belgelerin içeriğini izleyemez veya erişemez ve bunu asla yapmayacaktır."
 3 = "Gizliliğiniz ve güveniniz bizim için en önemli şeydir."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Varsayılan PDF işleyicisi ayarlanamadı"
 title = "Hata"
 
 [defaultApp.settingsOpened]
-message = "Windows Ayarları'nda 'PDF' arayın ve varsayılan uygulamanız olarak Stirling PDF'yi seçin"
+message = "Windows Ayarları'nda 'PDF' arayın ve varsayılan uygulamanız olarak PaperRing'yi seçin"
 title = "Ayarlar Açıldı"
 
 [defaultApp.success]
-message = "Stirling PDF artık varsayılan PDF düzenleyiciniz"
+message = "PaperRing artık varsayılan PDF düzenleyiciniz"
 title = "Varsayılan Uygulama Ayarlandı"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Küçült"
 restore = "Geri yükle"
 
 [desktopBilling]
-description = "Kullanımı ve faturalandırmayı tarayıcınızda yönetin. Burada kullandığınız aynı Stirling hesabıyla oturum açın."
+description = "Kullanımı ve faturalandırmayı tarayıcınızda yönetin. Burada kullandığınız aynı PaperRing hesabıyla oturum açın."
 open = "Kullanım ve Faturalandırmayı tarayıcıda aç"
 openFailed = "Kullanım ve Faturalandırma açılamadı. Bağlantınızı kontrol edip tekrar deneyin."
 selfHostedDescription = "Bağlı sunucunuzdaki kullanımı ve faturalandırmayı tarayıcınızda yönetin. Sunucu sahibi hesabınızla oturum açın."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Güncelleme indirilemedi veya yüklenemedi."
 
 [desktopUpdate.blocked]
 docsLink = "Kurulum belgelerini görüntüle"
-message = "Stirling-PDF bu makinede kendini güncelleme iznine sahip değil."
+message = "PaperRing bu makinede kendini güncelleme iznine sahip değil."
 title = "Yönetici izinleri gerekli"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Yeniden adlandır"
 title = "Dosyayı yeniden adlandır"
 
 [filesPage]
-addedToLibrary = "Stirling kütüphanesine eklendi"
-addingToLibrary = "Stirling kütüphanesine ekleniyor…"
-addToLibrary = "Stirling kütüphanesine ekle…"
+addedToLibrary = "PaperRing kütüphanesine eklendi"
+addingToLibrary = "PaperRing kütüphanesine ekleniyor…"
+addToLibrary = "PaperRing kütüphanesine ekle…"
 addToLibraryFailed = "Bazı dosyalar eklenemedi"
 addToWorkspace = "Çalışma alanına ekle"
 addToWorkspaceCount = "{{count}} öğeyi çalışma alanına ekle"
-allFiles = "Stirling kitaplığı"
+allFiles = "PaperRing kitaplığı"
 back = "Geri"
 backToFolder = "{{folder}} klasörüne geri dön"
 backToMyFiles = "Dosya kitaplığına geri dön"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Klasör içindeki {{count}} dosyayı da sil"
 deleteFolderContents_other = "Klasör içindeki {{count}} dosyayı da sil"
 deleteFolderContentsWarning = "Dosyalar kalıcı olarak kaldırılacak ve kurtarılamaz."
 deleteFolderError = "Klasör silinemedi. Tekrar deneyin."
-deleteFolderKeepHint = "İçindeki dosyalar Stirling kitaplığına taşınır."
+deleteFolderKeepHint = "İçindeki dosyalar PaperRing kitaplığına taşınır."
 deleteFolderTitle = "Klasör silinsin mi?"
 deselectAll = "Seçimi temizle"
 details = "Ayrıntılar"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} dosya sunucuda taşınamadı (izin yok veya
 moveTo = "Şuraya taşı…"
 newFolder = "Yeni klasör"
 newFolderStorageDisabled = "Sunucu klasör depolaması etkin değil."
-newFolderTabUnavailable = "Klasör oluşturmak için Stirling kitaplığına geçin."
+newFolderTabUnavailable = "Klasör oluşturmak için PaperRing kitaplığına geçin."
 offlineNoFolderEdits = "Sunucu klasör eşitlemesi kullanılamıyor - klasör değişiklikleri devre dışı. Oturum açmayı ve depolama yapılandırmasını kontrol edin."
 open = "Aç"
 openVersionInWorkspace = "Çalışma alanında aç"
@@ -4856,7 +4856,7 @@ recentFiles = "Son kullanılanlar"
 refresh = "Yenile"
 refreshNeedsConnection = "Sunucudan yenilemek için oturum açın."
 remove = "Sil"
-removeLocalFolder = "Stirling'den bağlantısını kaldır"
+removeLocalFolder = "PaperRing'den bağlantısını kaldır"
 removeVersion = "Bu sürümü sil"
 rename = "Yeniden adlandır"
 renamed = "Yeniden adlandırıldı"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} öğe"
 tree = "Klasörler"
 unmount = "Bağlantısını kaldır"
 unmountFolderBody = "\"{{name}}\" bağlantısı kaldırılsın mı? Klasör ve dosyaları diskinizde kalır."
-unmountFolderTitle = "Stirling'den bağlantısı kaldırılsın mı?"
+unmountFolderTitle = "PaperRing'den bağlantısı kaldırılsın mı?"
 upload = "Yükle"
 uploadFromMobile = "Mobil'den yükle"
 versionActions = "Sürüm eylemleri"
@@ -4921,7 +4921,7 @@ orphaned = "Diskte değil"
 orphanedHint = "{{path}} konumundaki özgün dosya yok. Bu kopya yalnızca burada - kaydetmek yeni bir konum soracak."
 unavailable = "Kullanılamıyor"
 unavailableHintOffline = "Bu dosyanın bulunduğu sürücü veya paylaşım bağlı değil. Değişiklikleri tekrar almak için yeniden bağlayın."
-unavailableHintPermission = "Stirling'in bu konumu okumasına izin verilmiyor. Değişiklikleri tekrar almak için Sistem Ayarları'ndan erişim izni verin."
+unavailableHintPermission = "PaperRing'in bu konumu okumasına izin verilmiyor. Değişiklikleri tekrar almak için Sistem Ayarları'ndan erişim izni verin."
 unavailableHintUnknown = "Bu dosyaya şu anda ulaşılamıyor. Buradaki kopya değişmedi."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Klasör adı"
 
 [filesPage.folderOrigin]
 diskHint = "Diskinizdeki bir dizinden bağlanmış klasör"
-serverHint = "Stirling sunucusunda depolanan klasör"
+serverHint = "PaperRing sunucusunda depolanan klasör"
 virtualHint = "Yalnızca bu tarayıcıda bulunan klasör"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Hesabınızla senkronize edilir, oturum açtığınız her yerde k
 [filesPage.origin]
 all = "Tüm kaynaklar"
 cloud = "Bulut"
-cloudHint = "Stirling sunucusunda depolanır"
+cloudHint = "PaperRing sunucusunda depolanır"
 diskFileHint = "Bilgisayarınızda depolanır"
 diskHint = "Diskinizdeki bağlı klasörde bulunan dosya"
 local = "Yerel"
@@ -5474,7 +5474,7 @@ invisible = "Görünmez (yalnızca metaveri)"
 location = "Konum:"
 logo = "Logo:"
 logoHidden = "Logo yok"
-logoShown = "Stirling PDF logosu gösteriliyor"
+logoShown = "PaperRing logosu gösteriliyor"
 participantCount_one = "{{count}} katılımcı seçildi"
 participantCount_other = "{{count}} katılımcı seçildi"
 participants = "Katılımcılar"
@@ -5525,7 +5525,7 @@ title = "Herhangi Bir Sırada İmzalama"
 dismiss = "Afişi kapat"
 message = "Çalışmanızı kaydetmek, daha fazla özelliğe erişmek ve projeyi desteklemek için ücretsiz bir hesap oluşturun."
 signUp = "Ücretsiz Kaydol"
-title = "Misafir olarak Stirling PDF kullanıyorsunuz!"
+title = "Misafir olarak PaperRing kullanıyorsunuz!"
 
 [home.addAttachments]
 desc = "Gömülü PDF eklerini görüntüleyin, ekleyin, çıkarın, yeniden adlandırın veya silin"
@@ -5704,7 +5704,7 @@ tags = "birleştir,kat,bir araya getir,birleştir,PDF'leri birleştir,PDF'leri b
 title = "Birleştir"
 
 [home.mobile]
-brandAlt = "Stirling PDF logosu"
+brandAlt = "PaperRing logosu"
 openFiles = "Dosyaları aç"
 swipeHint = "Görünümler arasında geçmek için sola veya sağa kaydırın"
 tools = "Araçlar"
@@ -5743,7 +5743,7 @@ tags = "düzenle,yeniden düzenle,sırala,sayfaları düzenle,sayfaları sırala
 title = "Düzenle"
 
 [home.pdfTextEditor]
-desc = "Gruplu metin düzenleme ve PDF yeniden oluşturma ile Stirling PDF JSON dışa aktarımlarını gözden geçirin ve düzenleyin"
+desc = "Gruplu metin düzenleme ve PDF yeniden oluşturma ile PaperRing JSON dışa aktarımlarını gözden geçirin ve düzenleyin"
 tags = "metni düzenle,metni değiştir,metni güncelle,içeriği düzenle,metni güncelle,yeniden yaz,düzelt,değişiklik yap,redline,revize et,metin düzenleyici,içerik düzenleyici"
 title = "PDF Metin Düzenleyici"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Parola gerekli"
 signIn = "Giriş yap"
 validating = "Davet doğrulanıyor..."
 validationError = "Davet bağlantısı doğrulanamadı"
-welcome = "Stirling PDF'ye hoş geldiniz"
+welcome = "PaperRing'ye hoş geldiniz"
 welcomeSubtitle = "Başlamak için hesap kurulumunuzu tamamlayın"
 welcomeTitle = "Davet edildiniz!"
 
@@ -6209,7 +6209,7 @@ message = "Kimlik doğrulama başarılı olmadı. Bu pencereyi kapatıp tekrar d
 title = "Kimlik Doğrulama Başarısız"
 
 [oauth.success]
-message = "Bu pencereyi kapatabilir ve Stirling PDF'ye dönebilirsiniz."
+message = "Bu pencereyi kapatabilir ve PaperRing'ye dönebilirsiniz."
 title = "Kimlik Doğrulama Başarılı"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Uygulamaya geri döndürülüyorsunuz..."
-requesting = "{{app}} Stirling PDF hesabınıza erişmek istiyor"
+requesting = "{{app}} PaperRing hesabınıza erişmek istiyor"
 scopesIntro = "Bu, {{app}} uygulamasına şunları yapma izni verir:"
 signedInAs = "{{name}} olarak oturum açıldı"
 signInButton = "Devam etmek için oturum aç"
-signInPrompt = "Uygulamayı bağlamaya devam etmek için Stirling PDF hesabınızda oturum açın."
+signInPrompt = "Uygulamayı bağlamaya devam etmek için PaperRing hesabınızda oturum açın."
 title = "Authorise access"
 unknownApp = "Üçüncü taraf bir uygulama"
 
 [oauthConsent.access]
 actAsYou = "Sizin adınıza hareket eder - {{app}} tarafından yapılan her şey hesabınız altında çalışır ve kullanımınıza dahil edilir"
-tools = "Stirling PDF araçlarınızı sizin adınıza kullanır - belgelerinizi dönüştürür, düzenler, imzalar, güvenceye alır ve işler"
+tools = "PaperRing araçlarınızı sizin adınıza kullanır - belgelerinizi dönüştürür, düzenler, imzalar, güvenceye alır ve işler"
 
 [oauthConsent.scope]
 email = "Email adresinizi görme"
@@ -6362,26 +6362,26 @@ skipTheTour = "Turu atla"
 
 [onboarding.checklist]
 dismiss = "Kapat"
-title = "Stirling PDF'yi kurun"
+title = "PaperRing'yi kurun"
 
 [onboarding.checklist.downloadDesktop]
-description = "Stirling'i makinenizde yerel olarak çalıştırın"
-title = "Masaüstü için Stirling'i indir"
+description = "PaperRing'i makinenizde yerel olarak çalıştırın"
+title = "Masaüstü için PaperRing'i indir"
 
 [onboarding.checklist.inviteTeam]
 description = "Ekibinizle iş birliği yapın"
 title = "Ekip üyelerini davet et"
 
 [onboarding.checklist.setDefaultApp]
-description = "PDF dosyalarını Stirling PDF ile aç"
-title = "Stirling'i varsayılan yap"
+description = "PDF dosyalarını PaperRing ile aç"
+title = "PaperRing'i varsayılan yap"
 
 [onboarding.checklist.takeTour]
-description = "Kısa bir gezintiyle Stirling'in nasıl çalıştığını görün"
+description = "Kısa bir gezintiyle PaperRing'in nasıl çalıştığını görün"
 title = "Tura katıl"
 
 [onboarding.desktopInstall]
-body = "Stirling, bir masaüstü uygulaması olarak en iyi şekilde çalışır. Çevrimdışı kullanabilir, belgelere daha hızlı erişebilir ve düzenlemeleri bilgisayarınızda yerel olarak yapabilirsiniz."
+body = "PaperRing, bir masaüstü uygulaması olarak en iyi şekilde çalışır. Çevrimdışı kullanabilir, belgelere daha hızlı erişebilir ve düzenlemeleri bilgisayarınızda yerel olarak yapabilirsiniz."
 selectOs = "İşletim sistemini seç"
 title = "İndir"
 titleWithOs = "{{osLabel}} için indir"
@@ -6389,7 +6389,7 @@ titleWithOs = "{{osLabel}} için indir"
 [onboarding.desktopWelcome]
 body = "<strong>Agent Chat</strong>, otomatik belge <strong>sınıflandırması</strong> ve daha fazlası dahil keşfedilecek pek çok yeni değişiklik var."
 freeLine = "Düzenleyici artık <free>tamamen ücretsiz</free>."
-title = "Stirling <product>Desktop</product>'a hoş geldiniz"
+title = "PaperRing <product>Desktop</product>'a hoş geldiniz"
 
 [onboarding.mfa]
 authenticationCode = "Kimlik doğrulama kodu"
@@ -6410,21 +6410,21 @@ success = "MFA etkinleştirildi. Şimdi devam edebilirsiniz."
 title = "Çok Faktörlü Kimlik Doğrulama Kurulumu"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Oturum açma modunu etkinleştirdiğinizde kullanıcıları yönetebilir, ayarları yapılandırabilir ve sunucu sağlığını izleyebilirsiniz. Sunucunuzdaki ilk <strong>{{freeTierLimit}}</strong> kişi Stirling'i ücretsiz kullanır."
-adminBodyLoginEnabled = "Bir yönetici olarak kullanıcıları yönetebilir, ayarları yapılandırabilir ve sunucu sağlığını izleyebilirsiniz. Sunucunuzdaki ilk <strong>{{freeTierLimit}}</strong> kişi Stirling'i ücretsiz kullanır."
+adminBodyLoginDisabled = "Oturum açma modunu etkinleştirdiğinizde kullanıcıları yönetebilir, ayarları yapılandırabilir ve sunucu sağlığını izleyebilirsiniz. Sunucunuzdaki ilk <strong>{{freeTierLimit}}</strong> kişi PaperRing'i ücretsiz kullanır."
+adminBodyLoginEnabled = "Bir yönetici olarak kullanıcıları yönetebilir, ayarları yapılandırabilir ve sunucu sağlığını izleyebilirsiniz. Sunucunuzdaki ilk <strong>{{freeTierLimit}}</strong> kişi PaperRing'i ücretsiz kullanır."
 adminTitle = "Yönetici Özeti"
 userBody = "Ekip arkadaşlarını davet edin, roller atayın ve belgelerinizi tek bir güvenli çalışma alanında düzenli tutun. Tek başına kullanımdan büyümeye hazır olduğunuzda oturum açma modunu etkinleştirin."
 userTitle = "Plan Özeti"
 
 [onboarding.processorIntro]
-body = "Stirling artık <strong>İlkeler</strong> çalıştırıyor — her belge geldiğinde onu sınıflandıran, güvenceye alan ve işleyen otomatik kurallar. Bunları ayarlayın ve çalışmaları <strong>Processor</strong> içinde izleyin."
+body = "PaperRing artık <strong>İlkeler</strong> çalıştırıyor — her belge geldiğinde onu sınıflandıran, güvenceye alan ve işleyen otomatik kurallar. Bunları ayarlayın ve çalışmaları <strong>Processor</strong> içinde izleyin."
 cta = "Processor'ı incele"
-title = "Stirling Processor'ı inceleyin"
+title = "PaperRing Processor'ı inceleyin"
 
 [onboarding.saas.freeEditor]
 freeLine = "Düzenleyici artık <free>tamamen ücretsiz</free>."
 premium = "<strong>Policies</strong> ve <strong>Agent Chat</strong> dahil birçok yeni özellik ekledik."
-title = "Stirling'e hoş geldiniz"
+title = "PaperRing'e hoş geldiniz"
 
 [onboarding.saas.team]
 addButton = "Ekle"
@@ -6447,18 +6447,18 @@ title = "Güvenlik Kontrolü"
 [onboarding.serverLicense]
 freeBody = "<strong>Open-Core</strong> lisansımız, <strong>OAuth SSO</strong> ve en fazla <strong>{{freeTierLimit}}</strong> kullanıcıyı ücretsiz olarak içerir. Kesintisiz büyümek için Stirling Team planını öneririz — ayda 99 ABD doları karşılığında <strong>100 kullanıcı</strong>."
 freeTitle = "Team planı"
-overLimitBody = "Lisansımız ücretsiz olarak en fazla <strong>{{freeTierLimit}}</strong> kullanıcıya izin verir. <strong>{{overLimitUserCopy}}</strong> Stirling kullanıcınız var. Kesintisiz devam etmek için Stirling Team planına yükseltin - <strong>100 kullanıcı</strong>, PDF metin düzenleme ve tam yönetici kontrolü $99/ay."
+overLimitBody = "Lisansımız ücretsiz olarak en fazla <strong>{{freeTierLimit}}</strong> kullanıcıya izin verir. <strong>{{overLimitUserCopy}}</strong> PaperRing kullanıcınız var. Kesintisiz devam etmek için Stirling Team planına yükseltin - <strong>100 kullanıcı</strong>, PDF metin düzenleme ve tam yönetici kontrolü $99/ay."
 overLimitTitle = "Team planı gerekli"
 seePlans = "Planlara Bak →"
 upgrade = "Şimdi yükselt →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 onlarca araç ve yenilenmiş bir düzenle gelir. Nelerin değiştiğini ve ihtiyaç duyduğunuz özellikleri nerede bulacağınızı görmek için kısa bir tura çıkın."
+body = "PaperRing V2 onlarca araç ve yenilenmiş bir düzenle gelir. Nelerin değiştiğini ve ihtiyaç duyduğunuz özellikleri nerede bulacağınızı görmek için kısa bir tura çıkın."
 title = "Tur Genel Bakış"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF artık her boyuttan ekip için hazır. Bu güncelleme yeni bir düzen, güçlü yeni yönetici yetenekleri ve en çok istenen özelliği içerir - <strong>Metni Düzenle</strong>."
-title = "Stirling'e hoş geldiniz"
+body = "PaperRing artık her boyuttan ekip için hazır. Bu güncelleme yeni bir düzen, güçlü yeni yönetici yetenekleri ve en çok istenen özelliği içerir - <strong>Metni Düzenle</strong>."
+title = "PaperRing'e hoş geldiniz"
 
 [onboarding.whatsNew]
 activeFilesView = "Açık olan her şeyi görmek ve üzerinde çalışılacak dosyayı seçmek için Aktif Dosyaları kullanın."
@@ -6545,7 +6545,7 @@ check = "Tekrar kontrol et"
 checkAccount = "Hesabı kontrol et"
 chooseEmail = "{{team}} içinde hesaplarını seçin veya davet etmek için bir e-posta girin."
 close = "Devir iletişim kutusunu kapat"
-cloudAccount = "Stirling hesabı"
+cloudAccount = "PaperRing hesabı"
 cloudScopeStyled = "<user>{{name}}</user>, {{team}}, üyelerini ve faturalandırmayı yönetecek."
 cloudTargetChanged = "Başka bir bulut üyesi seçin. Bu hesap artık devir için uygun değil."
 confirm = "Erişim ve sahiplik değişikliklerini anlıyorum."
@@ -6560,7 +6560,7 @@ inviteAddress = "<account>{{email}}</account> adresini {{team}} ekibine davet et
 inviteBlocked = "Davet gönderilemedi. Kullanılabilir ekip koltuklarını ve alıcının zaten ücretli aboneliği olup olmadığını kontrol edin."
 linkChanged = "Sunucunun bulut bağlantısı değişti. Sürdürmeden önce sunucu operatöründen özgün bağlantıyı geri yüklemesini isteyin."
 linkedServerCount = "{{count}} bağlı sunucu"
-linkRevoked = "Bu sunucunun bulut bağlantısı artık geçerli değil. Devri iptal edin, ardından Stirling hesabınızı ayarlardan yeniden bağlayın. Sahiplik değişmeyecek."
+linkRevoked = "Bu sunucunun bulut bağlantısı artık geçerli değil. Devri iptal edin, ardından PaperRing hesabınızı ayarlardan yeniden bağlayın. Sahiplik değişmeyecek."
 localScope = "Bu sunucunun sahibi olacak ve faturalandırmayı ve bulut bağlantılarını yönetecekler. Yönetici erişiminiz devam eder, ancak bu ayarlara erişiminizi kaybedersiniz."
 membershipDetails = "Ekip üyeliği ayrıntıları"
 membershipFirst = "Devri onaylayabilmeniz için önce ekibe katılmaları gerekir."
@@ -6872,7 +6872,7 @@ benefit1Body = "araçları zincirleyin, çalıştırmaları zamanlayın, toplu i
 benefit1Title = "Otomasyon pipeline'ları"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "AI araçları"
-benefit3Body = "herhangi bir Stirling endpoint'ini programatik olarak çağırın"
+benefit3Body = "herhangi bir PaperRing endpoint'ini programatik olarak çağırın"
 benefit3Title = "API erişimi"
 button = "Processor'ı aç →"
 reassurance = "Minimum yok · Test için $0 limit ayarlayın · İstediğiniz zaman iptal edin"
@@ -6962,7 +6962,7 @@ editorLabel = "PDF Düzenleyici"
 login = "Oturum aç"
 manualToolsPromo = "Sınırsız ücretsiz manuel PDF araçları"
 processorLabel = "PDF İşleyici"
-processorTitle = "Stirling'in en iyi özelliklerinin kilidini açmak için bir hesap oluşturun"
+processorTitle = "PaperRing'in en iyi özelliklerinin kilidini açmak için bir hesap oluşturun"
 readerLabel = "PDF Okuyucu"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "USD cinsinden tahmin edilir. Abone olduktan sonra limitinizi istediğ
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / ay"
 edit = "Düzenle"
-help = "Stripe kart bilgilerinizi yönetir. Stirling bunları asla görmez."
+help = "Stripe kart bilgilerinizi yönetir. PaperRing bunları asla görmez."
 loading = "Checkout yükleniyor…"
 noCap = "Limit yok"
 title = "Ödeme yönteminizi ekleyin"
@@ -7010,7 +7010,7 @@ title = "Ödeme yönteminizi ekleyin"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "AI araçları"
-apiBody = "herhangi bir Stirling endpoint'ine programatik erişim"
+apiBody = "herhangi bir PaperRing endpoint'ine programatik erişim"
 apiTitle = "API çağrıları"
 automationBody = "tıklama gerektirmeyen zincirlenmiş araçlar veya zamanlanmış çalıştırmalar"
 automationTitle = "Otomasyon pipeline'ları"
@@ -7870,7 +7870,7 @@ connectDescription = "Stirling Cloud'da ekibinizin işleme hakkını kullanmak i
 disconnectBody = "Bu sunucu, Stirling Cloud'da ekibinizin işleme hakkını kullanmayı durduracak. Yerel dosyalarınız bu sunucuda kalır. Yeniden bağlanmak için özgün bağlantı adımlarını izleyin."
 disconnectTitle = "Bu instance bağlantısı kesilsin mi?"
 eyebrow = "Bu örnek"
-linkButton = "Stirling hesabınızı bağlayın"
+linkButton = "PaperRing hesabınızı bağlayın"
 loading = "Hesap bağlantısı kontrol ediliyor"
 notLinked = "Bağlı değil"
 signedInAs = "Stirling Cloud'da şu kullanıcı olarak oturum açıldı"
@@ -7886,14 +7886,14 @@ description = "Sunucu yöneticinizden Stirling Cloud bağlantısını etkinleşt
 title = "Hesap bağlantısı kullanılamıyor"
 
 [portal.accountLink.connect]
-adminRequired = "Sunucu yöneticinizden Usage & billing bölümünü açmasını ve daha fazla aylık kredi için bir Stirling hesabı bağlamasını isteyin. Manuel PDF araçları hâlâ kullanılabilir."
+adminRequired = "Sunucu yöneticinizden Usage & billing bölümünü açmasını ve daha fazla aylık kredi için bir PaperRing hesabı bağlamasını isteyin. Manuel PDF araçları hâlâ kullanılabilir."
 adminTitle = "Sunucu yöneticinize sorun"
 close = "Kapat"
 copied = "Kopyalandı"
 copyAdminMessage = "Yönetici için mesajı kopyala"
-exhaustedLede = "Bu sunucu bu ay ücretsiz kredilerini kullandı. Ekibinizin aylık hakkına erişmek için yeni veya mevcut bir Stirling hesabı bağlayın."
+exhaustedLede = "Bu sunucu bu ay ücretsiz kredilerini kullandı. Ekibinizin aylık hakkına erişmek için yeni veya mevcut bir PaperRing hesabı bağlayın."
 notNow = "Şimdi değil"
-start = "Stirling hesabını bağla"
+start = "PaperRing hesabını bağla"
 step = "{{total}} adımdan {{current}}."
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Ücretli Team planıyla daha fazla kullanıcı ekleyin"
 teamsLabel = "Daha büyük ekipler"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "Bu tarayıcıda Stirling'de oturum açmadınız, bu yüzden kullanım ve faturalandırma oturum açmanızı isteyecek."
+linkedNotSignedIn = "Bu tarayıcıda PaperRing'de oturum açmadınız, bu yüzden kullanım ve faturalandırma oturum açmanızı isteyecek."
 retry = "Tekrar dene"
-signedInAnyway = "Stirling'de oturum açtınız, bu yüzden faturalandırma ve kullanım yüklenecek. Yalnızca sunucu bağlantısı eksik."
+signedInAnyway = "PaperRing'de oturum açtınız, bu yüzden faturalandırma ve kullanım yüklenecek. Yalnızca sunucu bağlantısı eksik."
 working = "Bağlantı tamamlanıyor."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Bu istek reddedildi veya zaten kullanılmış. Amaç bu değilse başka 
 title = "Bağlantı tamamlanmadı"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling bağlantıyı onaylamadı. Bu genellikle geçicidir."
+body = "PaperRing bağlantıyı onaylamadı. Bu genellikle geçicidir."
 title = "Henüz bitmedi"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Kalan ücretsiz krediler"
 creditsSuffix = "{{allowance}} ücretsiz krediden kaldı"
 cta = "Tamam"
 inviteTeam = "Ekibinizi davet edin"
-lede = "Bu sunucu artık Stirling hesabınızla çalışıyor."
+lede = "Bu sunucu artık PaperRing hesabınızla çalışıyor."
 pendingTitle = "Neredeyse tamam"
 switchOnProcessor = "Processor'ı aç"
 title = "Bağlandı"
 
 [portal.accountLink.connect.handoff]
-opening = "Stirling oturumu açma sayfası açılıyor..."
-reauthLede = "Stirling oturumunuzun süresi doldu. Tekrar oturum açmak, kullanım ve faturalandırmanın görünür kalmasını sağlar. Bu sunucu her durumda bağlı kalır."
+opening = "PaperRing oturumu açma sayfası açılıyor..."
+reauthLede = "PaperRing oturumunuzun süresi doldu. Tekrar oturum açmak, kullanım ve faturalandırmanın görünür kalmasını sağlar. Bu sunucu her durumda bağlı kalır."
 title = "Bağlanıyor"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Bu sunucunun yapılandırılmış frontend adresi açtığı
 cancel = "İptal"
 continueReauth = "Tekrar oturum aç"
 exhaustedTitle = "İş akışlarınız çalışmaya devam etsin"
-identity = "Stirling hesabı"
-linkTitle = "Stirling hesabınızı bağlayın"
-noAuthorizeUrl = "Stirling devam etmek için bir yer döndürmedi. Birazdan tekrar deneyin."
-startFailed = "Bağlantıyı başlatmak için Stirling'e ulaşılamadı. Bu sunucunun dış ağ erişimini kontrol edin, ardından tekrar deneyin."
+identity = "PaperRing hesabı"
+linkTitle = "PaperRing hesabınızı bağlayın"
+noAuthorizeUrl = "PaperRing devam etmek için bir yer döndürmedi. Birazdan tekrar deneyin."
+startFailed = "Bağlantıyı başlatmak için PaperRing'e ulaşılamadı. Bu sunucunun dış ağ erişimini kontrol edin, ardından tekrar deneyin."
 transferPending = "Bekleyen bir sahiplik devri var. Bitirmek veya iptal etmek için Ayarlar → Kullanıcılar bölümüne gidin, ardından bağlamayı tekrar deneyin."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "böylece geri geldiğinizde bu sunucu bağlantıyı tamamlayabilir."
 and = "ve"
 before = "Ayarla"
-title = "Stirling bağlantısı yapılandırılmamış"
+title = "PaperRing bağlantısı yapılandırılmamış"
 
 [portal.accountLink.notice]
 openFailed = "Tarayıcınız açılamadı. Bir hesap bağlamak için bağlı sunucunuzda Kullanım ve faturalandırma'yı açın."
@@ -8027,7 +8027,7 @@ viewAll = "Tüm iş hatlarını görüntüle"
 
 [portal.accountLink.rail]
 adminCta = "Daha fazla kredi nasıl alınır"
-adminSub = "Daha fazla kredi için sunucu yöneticinizden bir Stirling hesabı bağlamasını isteyin. Manuel PDF araçları hâlâ kullanılabilir."
+adminSub = "Daha fazla kredi için sunucu yöneticinizden bir PaperRing hesabı bağlamasını isteyin. Manuel PDF araçları hâlâ kullanılabilir."
 exhaustedCta = "Daha fazla kredi için hesap bağla"
 exhaustedSub = "Aylık krediler, paylaşılan faturalandırma ve Team planıyla büyüme seçeneği için bağlayın."
 exhaustedTitle = "Bu sunucunun ücretsiz kredileri tükendi"
@@ -8041,9 +8041,9 @@ malformed = "Bu oturum açma yanıtını doğrulayamadık. Kullanım ve faturala
 malformedTitle = "Oturum açma doğrulanamadı"
 rejected = "Bu oturum açma isteği reddedildi veya zaten kullanılmış. Faturalandırma erişimini yenilemek için tekrar deneyin."
 rejectedTitle = "Oturum açma tamamlanmadı"
-retry = "Stirling, faturalandırma erişimini yenilemeyi tamamlayamadı. Birazdan tekrar deneyin; sunucunuz hâlâ bağlı."
+retry = "PaperRing, faturalandırma erişimini yenilemeyi tamamlayamadı. Birazdan tekrar deneyin; sunucunuz hâlâ bağlı."
 retryTitle = "Faturalandırma erişimi geri yüklenmedi"
-success = "Faturalandırma erişiminiz yenilendi. Bu sunucu hâlâ aynı Stirling hesabına bağlı."
+success = "Faturalandırma erişiminiz yenilendi. Bu sunucu hâlâ aynı PaperRing hesabına bağlı."
 title = "Faturalandırma erişimini yenile"
 working = "Faturalandırma erişimi geri yükleniyor."
 
@@ -8057,7 +8057,7 @@ close = "Asistanı kapat"
 error = "Asistana ulaşılamadı."
 errorWithDetail = "Asistana ulaşılamadı: {{detail}}"
 inputAriaLabel = "Asistana sor"
-inputPlaceholder = "Stirling hakkında sorun…"
+inputPlaceholder = "PaperRing hakkında sorun…"
 open = "Asistanı aç"
 send = "Gönder"
 title = "Asistan"
@@ -8102,7 +8102,7 @@ title = "Harcama limitinizi belirleyin"
 [portal.billing.checkout.card]
 fields = "Kart numarası · AA / YY · CVC · ZIP"
 label = "Kart bilgileri"
-note = "Kart bilgileri Stripe tarafından toplanır. Stirling hiçbir zaman PAN veya CVC saklamaz."
+note = "Kart bilgileri Stripe tarafından toplanır. PaperRing hiçbir zaman PAN veya CVC saklamaz."
 
 [portal.billing.checkout.error]
 title = "Checkout başlatılamadı"
@@ -8180,7 +8180,7 @@ users = "Kullanıcılar"
 [portal.billing.enterprise]
 cta = "Kurumsal teklif alın"
 sub = "Air-gapped dağıtım, SCIM, veri yerleşimi, çalışma süresi SLA'ları ve buna uygun bir sözleşme."
-title = "Stirling'i düzenlemeye tabi bir ortamda mı çalıştırıyorsunuz?"
+title = "PaperRing'i düzenlemeye tabi bir ortamda mı çalıştırıyorsunuz?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Checkout başlatılamadı"
@@ -8458,7 +8458,7 @@ description = "İşlenen belgelerin sona erdiği yer - bir bucket, drive, ticket
 label = "Dosya ve ek"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling bunu şifreli olarak saklar ve bir daha asla göstermez."
+helperText = "PaperRing bunu şifreli olarak saklar ve bir daha asla göstermez."
 label = "Erişim token'ı"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Tekrar dene"
 title = "Bu sayfada bir şeyler ters gitti"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Geçerli filtrelerle eşleşen bir şey yok"
 occurrences = "{{count}} oluşum"
 searchPlaceholder = "Sorunları, kullanıcıları ve hataları ara"
@@ -9106,7 +9106,7 @@ description = "Bu sunucuda adımın ihtiyaç duyduğu yazılım eksik, bu nedenl
 title = "Yazılım kurulu değil"
 
 [portal.failures.kind.unknown]
-description = "Stirling'in henüz tanımadığı bir şey ters gitti."
+description = "PaperRing'in henüz tanımadığı bir şey ters gitti."
 title = "Tanınmayan sorun"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "{{name}} kılavuzunu aç"
 openInBrowser = "Bunun yerine tarayıcıda aç"
 sectionDesktop = "Masaüstü uygulaması"
 sectionSelfHosted = "Kendi barındırılan"
-title = "Stirling PDF Editor'ı yükleyin"
+title = "PaperRing Editor'ı yükleyin"
 
 [portal.home.download.docker]
 detailBody = "Resmi image'ı sunucunuzda çalıştırın."
@@ -9224,7 +9224,7 @@ usageMonth = "Bu ay kullanım"
 usageToday = "Bugünkü kullanım"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Stirling API çağrılarına başlamak için bir anahtar oluşturun."
+description = "PaperRing API çağrılarına başlamak için bir anahtar oluşturun."
 title = "Henüz API anahtarı yok"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Tamam"
 keyNameLabel = "Anahtar adı"
 keyNamePlaceholder = "örn. Üretim alımı"
 secretKeyCaption = "Gizli anahtar"
-secretWarning = "Bunu bir sır yöneticisinde saklayın. Stirling yalnızca hash saklar, bu nedenle daha sonra kurtarmanın bir yolu yoktur."
+secretWarning = "Bunu bir sır yöneticisinde saklayın. PaperRing yalnızca hash saklar, bu nedenle daha sonra kurtarmanın bir yolu yoktur."
 subtitle = "Daha sonra tanıyabilmeniz için anahtara bir ad verin. İstediğiniz zaman iptal edebilirsiniz."
 subtitleCreated = "Bu sırrı şimdi kopyalayın — tekrar gösterilmeyecek."
 title = "API anahtarı oluştur"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} bağlantı"
 connectionCount_other = "{{count}} bağlantı"
 customApi = "Özel API"
 searchPlaceholder = "Entegrasyonlarda ara"
-subtitle = "Stirling'in konuşabileceği her şey. Kimlik bilgileri burada bir kez oluşturulur, ardından kaynaklar, politikalar ve işlem hatları tarafından referans verilir."
+subtitle = "PaperRing'in konuşabileceği her şey. Kimlik bilgileri burada bir kez oluşturulur, ardından kaynaklar, politikalar ve işlem hatları tarafından referans verilir."
 title = "Entegrasyonlar"
 typedName = "{{tool}} adı"
 
@@ -10183,8 +10183,8 @@ saveFailed = "İşlem hattı kaydedilemedi. Lütfen tekrar deneyin."
 
 [portal.policies.wizard.locations]
 aiSettings = "AI ayarlarını aç"
-builtin = "Stirling bilgi tabanı"
-builtinHelp = "Stirling'de aranabilir parçaları indeksler ve işlenmiş PDF'i aşağıdaki hedefe döndürür. AI ayarlarında bir embedding sağlayıcısı yapılandırılmalıdır."
+builtin = "PaperRing bilgi tabanı"
+builtinHelp = "PaperRing'de aranabilir parçaları indeksler ve işlenmiş PDF'i aşağıdaki hedefe döndürür. AI ayarlarında bir embedding sağlayıcısı yapılandırılmalıdır."
 checking = "Ingestion kullanılabilirliği kontrol ediliyor..."
 chooseOutput = "Kaydetmeden önce etkin bir çıktı hedefi seçin."
 chooseSource = "Belgelerin nereden geleceğini seçin"
@@ -10276,7 +10276,7 @@ title = "Henüz akış yok"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Bağlan"
-editor = "Stirling PDF Düzenleyici"
+editor = "PaperRing Düzenleyici"
 heading = "Kaynaklar"
 perDay = "{{n}} / 24s"
 
@@ -10293,7 +10293,7 @@ title = "Satın alma"
 agreeCta = "Sözleşmeyi imzala"
 confidential = "Gizli"
 confirm = "Bu Sözleşmeyi okudum ve kabul ediyorum; yukarıda adı belirtilen kuruluş adına imzalama yetkim olduğunu beyan ederim."
-docName = "Stirling Kurumsal Sözleşmesi"
+docName = "PaperRing Kurumsal Sözleşmesi"
 docSub = "MSA, Sipariş Formu, EULA ve DPA, tek bir imzada birleştirildi."
 download = "İndir"
 downloadDraftError = "Sözleşme PDF'i oluşturulamadı - belge renderer kullanılamıyor. Lütfen kısa süre sonra tekrar deneyin veya destekle iletişime geçin."
@@ -10463,7 +10463,7 @@ gatingAction = "Teklifinizi kabul edin"
 label = "Teklif"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Stirling'i belgeleriniz ve iş akışlarınızla değerlendirin."
+blurb = "PaperRing'i belgeleriniz ve iş akışlarınızla değerlendirin."
 gatingAction = "Teklifinizi oluşturun"
 label = "Deneme"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Bu, deneme lisans dosyanızdır. Sözleşmeniz yürürlüğe gi
 
 [portal.procurement.link]
 cta = "Hesabı bağla"
-description = "Satın alma, bağlı Stirling hesabınızda çalışır: denemeyi hazırlama, teklifinizi fiyatlandırma ve faturalandırmayı başlatma şeklimiz budur. Başlamak için bir hesap bağlayın."
+description = "Satın alma, bağlı PaperRing hesabınızda çalışır: denemeyi hazırlama, teklifinizi fiyatlandırma ve faturalandırmayı başlatma şeklimiz budur. Başlamak için bir hesap bağlayın."
 eyebrow = "Kurumsal"
 title = "Başlamak için hesabınızı bağlayın"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Yönetilen, en hızlı başlangıç"
 continue = "Devam et"
 deployment = "Nereye dağıtılmalı?"
-eula = "Stirling EULA ve Ticari Şartlar'ı kabul ediyorum."
+eula = "PaperRing EULA ve Ticari Şartlar'ı kabul ediyorum."
 fullName = "Tam ad"
 fullNamePlaceholder = "Adınız"
 invites = "Ekip arkadaşlarını davet et · isteğe bağlı"
@@ -10565,7 +10565,7 @@ account-link = "Hesap bağlantısı"
 [portal.shell.sidebar]
 appEditor = "Düzenleyici"
 appProcessor = "İşleyici"
-linkAccount = "Stirling hesabını bağla"
+linkAccount = "PaperRing hesabını bağla"
 primaryNav = "Birincil gezinme"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Ara"
 
 [portal.sources]
 processingModeHelp = "Track orijinalleri tutar ve her sürümü bir kez işler. Snapshot orijinalleri tutar ve her çalıştırmada işler. Consume başarılı teslimden sonra orijinalleri siler."
-subtitle = "Belgeleri Stirling'e besleyen yeniden kullanılabilir giriş bağlantıları. Bir kaynağı bir kez yapılandırın, ardından istediğiniz sayıda işlem hattından ona başvurun."
+subtitle = "Belgeleri PaperRing'e besleyen yeniden kullanılabilir giriş bağlantıları. Bir kaynağı bir kez yapılandırın, ardından istediğiniz sayıda işlem hattından ona başvurun."
 title = "Kaynaklar"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Bu sunucunun aylık kredileri sunucudaki herkes tarafından paylaş
 barAria = "Kalan ücretsiz krediler"
 capSuffix_one = "{{allowance}} ücretsiz krediden bu ay kalan"
 capSuffix_other = "{{allowance}} ücretsiz krediden bu ay kalan"
-connect = "Bir Stirling hesabı bağla"
+connect = "Bir PaperRing hesabı bağla"
 connectBody = "Bağlanmak ikinci bir aylık hak ekler, bu sunucunun sahip olabileceği kullanıcı sayısını artırır ve Processor’ı açar."
-connectTitle = "Bu sunucuda Stirling hesabı yok"
+connectTitle = "Bu sunucuda PaperRing hesabı yok"
 loadError = "Bu sunucunun kredi kullanımı okunamadı. Birazdan tekrar deneyin."
 loadErrorTitle = "Kredi kullanımı yüklenemedi"
 resets = "{{date}} tarihinde sıfırlanır"
 
 [portal.usage.sessionExpired]
-body = "Stirling hesap oturumunuzun süresi doldu. Faturalandırmayı görüntülemek için tekrar oturum açın — örneğiniz bağlı kalır."
+body = "PaperRing hesap oturumunuzun süresi doldu. Faturalandırmayı görüntülemek için tekrar oturum açın — örneğiniz bağlı kalır."
 
 [portal.users]
 title = "Kullanıcılar"
@@ -11129,7 +11129,7 @@ files = "Dosyalar"
 account = "Hesap"
 docs = "Dokümantasyon"
 editor = "Düzenleyici"
-home = "Stirling"
+home = "PaperRing"
 invite = "Davet et"
 landmark = "Hızlı gezinme"
 noProcessorAccess = "Processor erişimi için bir yöneticiden isteyin"
@@ -11682,8 +11682,8 @@ hideTools = "Kullanılamayan araçları gizle ▴"
 messageNoFallback = "Sunucunuz geri gelene kadar araçlar kullanılamaz."
 messageWithFallback = "Bazı araçlar sunucu bağlantısı gerektirir."
 showTools = "Kullanılamayan araçları görüntüle ▾"
-title = "Stirling-PDF sunucunuza ulaşılamıyor"
-toolNotAvailableLocally = "Stirling-PDF sunucunuz çevrimdışı ve \"{{endpoint}}\" yerel arka uçta kullanılamıyor."
+title = "PaperRing sunucunuza ulaşılamıyor"
+toolNotAvailableLocally = "PaperRing sunucunuz çevrimdışı ve \"{{endpoint}}\" yerel arka uçta kullanılamıyor."
 
 [session]
 expired = "Oturumunuzun süresi doldu. Lütfen sayfayı yenileyip tekrar deneyin."
@@ -11755,7 +11755,7 @@ unknown = "Kullanılamıyor"
 yourTeam = "Ekibiniz"
 
 [settings.connection]
-description = "Bu makinede yerel olarak çalışın veya uygulamayı bir Stirling sunucusuna bağlayın."
+description = "Bu makinede yerel olarak çalışın veya uygulamayı bir PaperRing sunucusuna bağlayın."
 localDescription = "Bir hesap olmadan yerel arka ucu kullanıyorsunuz. Bulut işlem veya kendi barındırılan sunucu gerektiren bazı araçlar kullanılamaz."
 logout = "Çıkış Yap"
 server = "Sunucu"
@@ -11770,7 +11770,7 @@ selfhosted = "Öz Barındırılan"
 
 [settings.developer]
 apiKeys = "API Anahtarları"
-apiKeysDescription = "Stirling API’yi script’lerden ve entegrasyonlardan çağırmak için kişisel anahtarlar."
+apiKeysDescription = "PaperRing API’yi script’lerden ve entegrasyonlardan çağırmak için kişisel anahtarlar."
 title = "Geliştirici"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Otomatik zip açma dosya sınırı"
 autoUnzipFileLimitTooltip = "Yalnızca ZIP bu kadar ya da daha az dosya içeriyorsa çıkar. Daha büyük ZIP'leri çıkarmak için daha yüksek ayarlayın."
 autoUnzipTooltip = "API işlemlerinden dönen ZIP dosyalarını otomatik olarak çıkarır. ZIP dosyalarını olduğu gibi tutmak için devre dışı bırakın. Bu, otomasyon iş akışlarını etkilemez."
 defaultPdfEditor = "Varsayılan PDF düzenleyici"
-defaultPdfEditorActive = "Stirling PDF varsayılan PDF düzenleyiciniz"
+defaultPdfEditorActive = "PaperRing varsayılan PDF düzenleyiciniz"
 defaultPdfEditorChecking = "Kontrol ediliyor..."
 defaultPdfEditorInactive = "Varsayılan olarak başka bir uygulama ayarlı"
 defaultPdfEditorSet = "Zaten Varsayılan"
@@ -11849,7 +11849,7 @@ updateBehavior = "Güncelleme davranışı"
 updateBehaviorDescription = "Güncellemeleri yüklemeden önce sorulmasını, otomatik yüklenmesini veya güncelleme denetimlerinin tamamen atlanmasını seçin."
 updateBehaviorError = "Güncelleme davranışı değiştirilemedi"
 updateBehaviorErrorLocked = "Bu ayar yöneticiniz tarafından kilitlendi."
-updateBehaviorLockedDescription = "Yöneticiniz bu makinede Stirling-PDF'in güncellemeleri nasıl ele alacağını yapılandırdı. Değiştirmek için onlarla iletişime geçin."
+updateBehaviorLockedDescription = "Yöneticiniz bu makinede PaperRing'in güncellemeleri nasıl ele alacağını yapılandırdı. Değiştirmek için onlarla iletişime geçin."
 updateBehaviorSaved = "Güncelleme davranışı kaydedildi."
 versionMismatch = "Masaüstü uygulamanız ve sunucunuz farklı sürümler çalıştırıyor. Uyumluluk sorunlarından kaçınmak için ikisini de aynı sürüme güncelleyin."
 viewDetails = "Ayrıntıları Görüntüle"
@@ -12074,7 +12074,7 @@ emptyUsername = "Lütfen kullanıcı adınızı girin"
 oauthFailed = "OAuth oturumu başarısız oldu. Lütfen tekrar deneyin."
 
 [setup.saas]
-title = "Stirling'de Oturum Açın"
+title = "PaperRing'de Oturum Açın"
 
 [setup.selfhosted]
 changeServerLocked = "Kuruluşunuz bu uygulamayı belirli bir sunucuyla sınırlamıştır"
@@ -12120,7 +12120,7 @@ step3 = "Sunucuyu yeniden başlatın"
 title = "Giriş Etkin Değil"
 
 [setup.server.url]
-description = "Öz barındırılan Stirling PDF sunucunuzun tam URL'sini girin"
+description = "Öz barındırılan PaperRing sunucunuzun tam URL'sini girin"
 label = "Sunucu URL'si"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Lütfen tüm alanları doldurun"
 signUp = "Kaydol"
 signUpWith = "Şununla kaydol"
 skip = "Atla"
-subtitle = "Başlamak için Stirling PDF ile başlayın"
+subtitle = "Başlamak için PaperRing ile başlayın"
 title = "Hesap oluşturun"
 unableToAccessTool = "Araca erişilemiyor: {{error}}"
 unexpectedError = "Beklenmeyen hata: {{message}}"
@@ -12856,7 +12856,7 @@ download = "İndir"
 downloaded = "İndirildi"
 downloadFailed = "Bu dosya indirilemedi."
 downloadsCount = "İndirme: {{count}}"
-emailWarningBody = "Bu bir e-posta adresine benziyor. Bu kişi henüz bir Stirling PDF kullanıcısı değilse dosyaya erişemez."
+emailWarningBody = "Bu bir e-posta adresine benziyor. Bu kişi henüz bir PaperRing kullanıcısı değilse dosyaya erişemez."
 emailWarningConfirm = "Yine de paylaş"
 emailWarningTitle = "E-posta adresi"
 errorTitle = "Paylaşım başarısız"
@@ -12887,7 +12887,7 @@ manageTitle = "Paylaşımı Yönet"
 noActivity = "Henüz etkinlik yok."
 noLinks = "Henüz etkin paylaşım bağlantısı yok."
 noSharedUsers = "Henüz hiçbir kullanıcının erişimi yok."
-openInApp = "Stirling PDF'de Aç"
+openInApp = "PaperRing'de Aç"
 ownerLabel = "Sahip"
 ownerUnknown = "Bilinmiyor"
 removeLink = "Bağlantıyı kaldır"
@@ -12945,7 +12945,7 @@ all = "Tümü"
 ariaLabel = "Süper arama"
 filtersAriaLabel = "Arama filtreleri"
 hint = "Aramak için yazın"
-placeholder = "Stirling içinde ara"
+placeholder = "PaperRing içinde ara"
 placeholderShort = "Ara"
 showLess = "Daha az göster"
 showMore = "{{count}} tane daha göster"
@@ -12959,7 +12959,7 @@ settings = "Ayarlar"
 tools = "Araçlar"
 
 [survey]
-title = "Stirling-PDF Anketi"
+title = "PaperRing Anketi"
 
 [swagger]
 clickHere = "buraya tıklayın"
@@ -13128,7 +13128,7 @@ favorites = "Favoriler"
 heading = "Tüm araçlar (tam ekran görünüm)"
 noResults = "Aramanızı ayarlamayı deneyin veya ihtiyacınızı bulmak için açıklamaları aç/kapatın."
 recommended = "Önerilen"
-selfHostedOffline = "Stirling-PDF sunucunuzu gerektirir (şu anda çevrimdışı):"
+selfHostedOffline = "PaperRing sunucunuzu gerektirir (şu anda çevrimdışı):"
 showDetails = "Ayrıntıları Göster"
 unavailable = "Sunucu yöneticisi tarafından devre dışı bırakıldı:"
 unavailableDependency = "Kullanılamıyor - sunucuda gerekli araç eksik:"
@@ -13137,7 +13137,7 @@ unfavorite = "Favorilerden kaldır"
 [toolPanel.modePrompt]
 chooseFullscreen = "Tam ekran modunu kullan"
 chooseSidebar = "Kenar çubuğu modunu kullan"
-description = "Her iki düzeni önizleyin ve Stirling PDF araçlarını nasıl keşfetmek istediğinize karar verin."
+description = "Her iki düzeni önizleyin ve PaperRing araçlarını nasıl keşfetmek istediğinize karar verin."
 dismiss = "Belki sonra"
 fullscreenDescription = "Birini seçene kadar çalışma alanını kaplayan bir katalogda tüm araçlara göz atın."
 fullscreenTitle = "Tam ekran modu - (eski)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Ayrıntılı bilgiler yükleniyor..."
 migrationGuide = "Geçiş Kılavuzu"
 migrationGuides = "Geçiş Kılavuzları"
 migrationGuidesDesc = "Güncellemeden önce önemli değişiklikleri gözden geçirin."
-modalSubtitle = "Stirling PDF'in yeni bir sürümü yüklenmeye hazır."
+modalSubtitle = "PaperRing'in yeni bir sürümü yüklenmeye hazır."
 modalTitle = "Güncelleme Mevcut"
 notes = "Notlar"
 releaseNotes = "Sürüm Notları"
@@ -13230,7 +13230,7 @@ urgent = "Acil"
 attentionBody = "Daha fazla bilgi görmek için yöneticinizin oturum açması gerekiyor. Lütfen hemen iletişime geçin."
 attentionBodyAdmin = "Bu sunucunun uyumlu kalması için lisans gereksinimlerini gözden geçirin."
 attentionTitle = "Bu sunucunun yönetici dikkatine ihtiyacı var"
-message = "100 kullanıcı, PDF metin düzenleme ve gelişmiş özelliklerle Stirling PDF'den en iyi şekilde yararlanın"
+message = "100 kullanıcı, PDF metin düzenleme ve gelişmiş özelliklerle PaperRing'den en iyi şekilde yararlanın"
 seeInfo = "Bilgileri gör"
 title = "Team planına yükselt"
 upgradeButton = "Şimdi Yükselt"
@@ -13368,7 +13368,7 @@ authWeb = "Parola"
 create = "Hesap oluştur"
 createSubtitle = "Parola veya SSO ile kendi sunucunuzda barındırılan bir hesap oluşturun."
 createTitle = "Hesap oluştur"
-editorDesc = "Stirling PDF Editor'da PDF'leri düzenleyin. Herkes bunu alır."
+editorDesc = "PaperRing Editor'da PDF'leri düzenleyin. Herkes bunu alır."
 email = "Email adresi"
 emailError = "Geçerli bir email adresi girin"
 emailPlaceholder2 = "ad@sirket.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Davet gönderildi, ancak Processor erişimi henüz verileme
 processorDesc = "Yönetişim yüzeyi, pipeline çalıştırma, aracılar ve API."
 role = "Rol"
 send2 = "Davet gönder"
-subtitle2 = "Stirling çalışma alanınıza katılmak için bir e-posta alacaklar."
+subtitle2 = "PaperRing çalışma alanınıza katılmak için bir e-posta alacaklar."
 team = "Ekip"
 title = "Kişileri davet et"
 username = "Kullanıcı adı"
@@ -13525,7 +13525,7 @@ downloads = "İndirmeler"
 entryLabel = "İmza Özeti"
 filesEvaluated_one = "{{count}} dosya değerlendirildi"
 filesEvaluated_other = "{{count}} dosya değerlendirildi"
-footer = "Stirling PDF ile doğrulandı"
+footer = "PaperRing ile doğrulandı"
 generatedAt = "Oluşturuldu"
 noPdf = "PDF raporu başarılı bir doğrulamadan sonra kullanılabilir olacaktır."
 page = "Sayfa"
@@ -13718,7 +13718,7 @@ text = "Metin"
 addFile = "Dosya ekle"
 count_one = "Bu portföyde {{count}} dosya"
 count_other = "Bu portföyde {{count}} dosya"
-import = "Stirling’e içe aktar"
+import = "PaperRing’e içe aktar"
 importFailed = "Bu dosya çalışma alanınıza eklenemedi."
 memberUnavailable = "Bu dosya portföyden okunamadı."
 preview = "Önizleme"

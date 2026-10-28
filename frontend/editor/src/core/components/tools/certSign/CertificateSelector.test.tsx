@@ -54,11 +54,11 @@ function setup(certType: CertificateType = "SERVER") {
 it("offers organization signing without a paid license", () => {
   const onChange = setup("UPLOAD");
   fireEvent.click(
-    screen.getByRole("radio", { name: /Stirling Sign · Organization/ }),
+    screen.getByRole("radio", { name: /PaperRing Sign · Organization/ }),
   );
   expect(onChange).toHaveBeenCalledWith("SERVER");
   expect(
-    screen.queryByRole("radio", { name: /Stirling Sign · Personal/ }),
+    screen.queryByRole("radio", { name: /PaperRing Sign · Personal/ }),
   ).not.toBeInTheDocument();
 });
 
@@ -70,7 +70,7 @@ it("selects the available organization certificate when personal signing is unav
 it("preserves a server certificate selection on the free tier", () => {
   const onChange = setup();
   expect(
-    screen.getByRole("radio", { name: /Stirling Sign · Organization/ }),
+    screen.getByRole("radio", { name: /PaperRing Sign · Organization/ }),
   ).toBeChecked();
   expect(onChange).not.toHaveBeenCalled();
 });
@@ -79,7 +79,7 @@ it("falls back to upload when the administrator disables organization signing", 
   config.serverCertificateEnabled = false;
   const onChange = setup();
   expect(
-    screen.queryByRole("radio", { name: /Stirling Sign · Organization/ }),
+    screen.queryByRole("radio", { name: /PaperRing Sign · Organization/ }),
   ).not.toBeInTheDocument();
   expect(onChange).toHaveBeenCalledWith("UPLOAD");
 });
@@ -89,10 +89,10 @@ it("keeps personal signing available on paid servers with organization signing d
   config.serverCertificateEnabled = false;
   const onChange = setup("USER_CERT");
   expect(
-    screen.getByRole("radio", { name: /Stirling Sign · Personal/ }),
+    screen.getByRole("radio", { name: /PaperRing Sign · Personal/ }),
   ).toBeChecked();
   expect(
-    screen.queryByRole("radio", { name: /Stirling Sign · Organization/ }),
+    screen.queryByRole("radio", { name: /PaperRing Sign · Organization/ }),
   ).not.toBeInTheDocument();
   expect(
     screen.getByRole("radio", { name: "Upload a certificate" }),

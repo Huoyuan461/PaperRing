@@ -57,7 +57,7 @@ export function FileOriginBadge({
           style: styles.cloud,
           tooltip: t(
             "filesPage.origin.cloudHint",
-            "Stored on the Stirling server",
+            "Stored on the PaperRing server",
           ),
         };
       case "shared-with-me":

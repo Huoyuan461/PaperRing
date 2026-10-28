@@ -52,7 +52,7 @@ class AppConfigTest {
         @Test
         @DisplayName("constant beans return fixed values")
         void constants() {
-            assertThat(appConfig.appName()).isEqualTo("Stirling PDF");
+            assertThat(appConfig.appName()).isEqualTo("纸环 PaperRing");
             assertThat(appConfig.homeText()).isEqualTo("null");
             assertThat(appConfig.contextPath("/ctx")).isEqualTo("/ctx");
         }
@@ -102,9 +102,9 @@ class AppConfigTest {
         }
 
         @Test
-        @DisplayName("navBarText falls back to Stirling PDF when unset")
+        @DisplayName("navBarText falls back to 纸环 PaperRing when unset")
         void navBarTextFallback() {
-            assertThat(appConfig.navBarText()).isEqualTo("Stirling PDF");
+            assertThat(appConfig.navBarText()).isEqualTo("纸环 PaperRing");
         }
 
         @Test

@@ -39,7 +39,7 @@ const TRAFFIC_LIGHT_INSET: (f64, f64) = (13.0, 18.0);
 // OS drag-drop is disabled; the frontend handles file drops itself.
 pub fn build_main_window(app: &AppHandle) -> Result<WebviewWindow, String> {
     let builder = WebviewWindowBuilder::new(app, MAIN_WINDOW_LABEL, WebviewUrl::App("/".into()))
-        .title("Stirling PDF")
+        .title("纸环 PaperRing")
         .inner_size(1280.0, 800.0)
         // Below this width the file manager collapses to its mobile layout, so
         // keep the window above the breakpoint (matches the spawned windows).
@@ -69,7 +69,7 @@ pub fn build_main_window(app: &AppHandle) -> Result<WebviewWindow, String> {
 // so all spawn paths funnel through here.
 fn build_window(app: &AppHandle, label: &str, url: &str) -> Result<WebviewWindow, String> {
     let builder = WebviewWindowBuilder::new(app, label, WebviewUrl::App(url.into()))
-        .title("Stirling-PDF")
+        .title("纸环 PaperRing")
         .inner_size(1280.0, 800.0)
         // Below this width the file manager collapses to its mobile layout,
         // so keep new windows above the breakpoint.

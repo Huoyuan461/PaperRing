@@ -1,0 +1,16 @@
+纸环 PaperRing
+
+This application is a branded desktop distribution. It is based on the
+open-source Stirling-PDF project:
+
+https://github.com/Stirling-Tools/Stirling-PDF
+
+including its PDF engine and editor, and is distributed under the terms in
+the LICENSE file in this repository.
+
+纸环 / PaperRing is not Stirling-PDF and is not a product of Stirling Tools
+or Stirling PDF Inc. The Stirling-PDF name and any upstream trademarks remain
+with their owners.
+
+Copyright (c) 2025 Stirling PDF Inc. and the Stirling-PDF contributors.
+Additional portions are licensed as described in LICENSE.

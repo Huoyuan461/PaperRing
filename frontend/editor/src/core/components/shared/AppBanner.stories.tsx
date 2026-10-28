@@ -24,7 +24,7 @@ export const Promo: Story = {
     icon: "sparkles",
     title: "Upgrade to Server Plan",
     message:
-      "Get the most out of Stirling PDF with unlimited users and advanced features.",
+      "Get the most out of PaperRing with unlimited users and advanced features.",
     buttonText: "Upgrade Now",
     buttonIcon: "circle-arrow-up",
     onButtonClick: () => {},
@@ -70,7 +70,7 @@ export const MessageOnly: Story = {
   args: {
     icon: "file-text",
     message:
-      "Make Stirling PDF your default application for opening PDF files.",
+      "Make PaperRing your default application for opening PDF files.",
     buttonText: "Set Default",
     onButtonClick: () => {},
     secondaryButtonText: "Don't remind me again",
@@ -122,7 +122,7 @@ export const AllTopBars: StoryObj = {
           compact
           icon="sparkles"
           title="Upgrade to Server Plan"
-          message="Get the most out of Stirling PDF with unlimited users and advanced features."
+          message="Get the most out of PaperRing with unlimited users and advanced features."
           buttonText="Upgrade Now"
           buttonIcon="circle-arrow-up"
           onButtonClick={() => {}}

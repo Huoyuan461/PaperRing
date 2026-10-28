@@ -349,7 +349,7 @@ function EmailWarningAlert({
         <Text size="sm">
           {t(
             "storageShare.emailWarningBody",
-            "This looks like an email address. If this person is not already a Stirling PDF user, they will not be able to access the file.",
+            "This looks like an email address. If this person is not already a PaperRing user, they will not be able to access the file.",
           )}
         </Text>
         <Group justify="flex-end" gap="sm">

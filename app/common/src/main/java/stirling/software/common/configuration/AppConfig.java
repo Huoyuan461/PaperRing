@@ -70,7 +70,7 @@ public class AppConfig {
 
     @Bean(name = "appName")
     public String appName() {
-        return "Stirling PDF";
+        return "纸环 PaperRing";
     }
 
     @Bean(name = "appVersion")
@@ -104,7 +104,7 @@ public class AppConfig {
     @Bean(name = "navBarText")
     public String navBarText() {
         String navBar = applicationProperties.getUi().getAppNameNavbar();
-        return (navBar != null) ? navBar : "Stirling PDF";
+        return (navBar != null) ? navBar : "纸环 PaperRing";
     }
 
     @Bean(name = "enableAlphaFunctionality")

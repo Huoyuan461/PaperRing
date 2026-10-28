@@ -199,7 +199,7 @@ test.describe("Files page screenshots", () => {
       .filter({ hasText: "alpha.pdf" });
     await card.getByRole("button", { name: /File actions/i }).click();
     await expect(
-      page.getByRole("menuitem", { name: /^Add to Stirling library/i }),
+      page.getByRole("menuitem", { name: /^Add to PaperRing library/i }),
     ).toBeVisible();
     await settle(page);
     await page.screenshot({ path: shotPath("04_kebab_add_to_library_local") });

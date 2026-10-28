@@ -125,7 +125,7 @@ test("Recents offers file actions and adds browser files to the library", async 
     menu.getByRole("menuitem", { name: "Add to workspace" }),
   ).toBeVisible();
   await expect(
-    menu.getByRole("menuitem", { name: /Add to Stirling library/ }),
+    menu.getByRole("menuitem", { name: /Add to PaperRing library/ }),
   ).toBeVisible();
   await expect(menu.getByRole("menuitem", { name: "Move to…" })).toHaveCount(0);
   await expect(menu.getByRole("menuitem", { name: "Download" })).toBeVisible();

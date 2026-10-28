@@ -499,7 +499,7 @@ test.describe("PDF text editor - whitespace preservation", () => {
     page,
   }) => {
     // Repro for the recurring "all spaces vanish when I delete a single letter"
-    // bug on the Stirling marketing PDF.
+    // bug on the PaperRing marketing PDF.
     await gotoEditor(page);
     await page
       .locator('[data-testid="pdf-editor-file-input"]')

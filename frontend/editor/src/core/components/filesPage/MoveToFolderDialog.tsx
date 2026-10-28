@@ -125,7 +125,7 @@ export function MoveToFolderDialog({
           }}
         >
           <FolderPick
-            label={t("filesPage.allFiles", "Stirling library")}
+            label={t("filesPage.allFiles", "PaperRing library")}
             isActive={target === ROOT_FOLDER_ID}
             disabled={false}
             depth={0}

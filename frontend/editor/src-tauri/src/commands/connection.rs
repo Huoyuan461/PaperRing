@@ -341,14 +341,14 @@ pub fn apply_provisioning_if_present(app_handle: &AppHandle) -> Result<(), Strin
         ProvisioningLoad::Ready(config) => config,
         ProvisioningLoad::Quarantined { backup, reason } => {
             let message = format!(
-                "Your per-user provisioning file could not be applied. Existing settings have been kept.\n\n{reason}\n\nA recovery copy is saved at:\n{}\n\nCorrect that copy and save it as:\n{}\nThen restart Stirling PDF to apply it.",
+                "Your per-user provisioning file could not be applied. Existing settings have been kept.\n\n{reason}\n\nA recovery copy is saved at:\n{}\n\nCorrect that copy and save it as:\n{}\nThen restart 纸环 PaperRing to apply it.",
                 backup.display(), provisioning_path.display()
             );
             add_log(message.clone());
             app_handle
                 .dialog()
                 .message(message)
-                .title("Stirling PDF provisioning")
+                .title("纸环 PaperRing provisioning")
                 .kind(MessageDialogKind::Warning)
                 .show(|_| {});
             return Ok(());
@@ -511,7 +511,7 @@ fn validate_managed_connection(
     server_config: Option<&ServerConfig>,
 ) -> Result<(), String> {
     if cloud_only && *mode == ConnectionMode::SelfHosted {
-        return Err("Your administrator requires Stirling Cloud sign-in".to_string());
+        return Err("Your administrator requires cloud sign-in".to_string());
     }
     // Legacy renderers represent local mode as SaaS without a server.
     if require_sign_in

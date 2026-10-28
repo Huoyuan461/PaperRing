@@ -31,7 +31,7 @@ export function LibraryTabs({
       id: "all",
       label: localOnly
         ? t("desktopPrivacy.localFiles", "Local files")
-        : t("filesPage.allFiles", "Stirling library"),
+        : t("filesPage.allFiles", "PaperRing library"),
     },
     ...(sharingEnabled && !localOnly
       ? [

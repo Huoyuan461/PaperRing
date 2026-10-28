@@ -55,7 +55,7 @@ keepWorking = "Fortsæt med at arbejde"
 loading = "Laster..."
 loginAgreementAccept = "Accepter"
 loginAgreementDecline = "Afvis"
-loginAgreementProvider = "Denne meddelelse er leveret af din administrator, ikke af Stirling PDF Inc."
+loginAgreementProvider = "Denne meddelelse er leveret af din administrator, ikke af PaperRing"
 loginAgreementTitle = "Login-aftale"
 logOut = "Log ud"
 marginTooltip = "Afstand mellem sidetallet og sidens kant."
@@ -668,8 +668,8 @@ description = "Maksimal køretid"
 label = "Tidsgrænse (minutter)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert er i beta. Det tilbyder bedre konverteringer, hurtigere og med mindre hukommelse end LibreOffice."
-label = "Brug ny Stirling Office-konvertering"
+description = "PaperRing Office Convert er i beta. Det tilbyder bedre konverteringer, hurtigere og med mindre hukommelse end LibreOffice."
+label = "Brug ny PaperRing Office-konvertering"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Konfigurer lagring af midlertidige filer og oprydningsadfærd"
@@ -736,7 +736,7 @@ permissionNotice = "Stien til tessdata er ikke skrivbar. Downloads åbnes i brow
 
 [admin.settings.ai]
 customProvider = "Brugerdefineret (OpenAI-kompatibel)"
-description = "Forbind Stirling til Python AI-motoren, vælg dens modeller, og angiv de sikkerhedsrammer, den kører under."
+description = "Forbind PaperRing til Python AI-motoren, vælg dens modeller, og angiv de sikkerhedsrammer, den kører under."
 managedByCloud = "Administreres af Stirling Cloud i denne tilstand."
 managedByCloudShort = "Administreres af Stirling Cloud"
 
@@ -837,9 +837,9 @@ label = "Hvor AI kører"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Ingen container, ingen udbydernøgle, intet modelvalg - arbejdet kører på Stirling Cloud og faktureres til den konto, som denne server er knyttet til."
-linkCta = "Forbind denne server til en Stirling-konto"
+linkCta = "Forbind denne server til en PaperRing-konto"
 notLinked = "Tilknyt først en konto"
-ownerOnly = "Kun organisationsejeren kan knytte denne server til en Stirling-konto."
+ownerOnly = "Kun organisationsejeren kan knytte denne server til en PaperRing-konto."
 title = "Brug Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Kør din egen motor"
 
 [admin.settings.ai.general.note]
 docs = "Opsætningsvejledning"
-intro = "En separat container, du kører ved siden af Stirling. Den står for ræsonneringen; Stirling udfører stadig selv alle sidehandlinger. Den kræver det samme"
+intro = "En separat container, du kører ved siden af PaperRing. Den står for ræsonneringen; PaperRing udfører stadig selv alle sidehandlinger. Den kræver det samme"
 outro = "på begge containere og en modeludbydernøgle. Alt, hvad AI'en læser, sendes til den udbyder, du vælger - en Ollama, du hoster, holder hver side internt."
 title = "Om AI-motoren"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Indtast bekræftelseskoden for at fortsætte"
 confirmImport = "Bekræft import"
 confirmImportTitle = "Bekræft databaseimport"
 connection = "Forbindelse"
-connectionDescription = "Ret Stirling mod en ekstern database i stedet for den indbyggede."
+connectionDescription = "Ret PaperRing mod en ekstern database i stedet for den indbyggede."
 createBackup = "Opret sikkerhedskopi"
 created = "Oprettet"
 delete = "Slet"
@@ -1224,11 +1224,11 @@ description = "Konfigurer valgfrie funktioner og funktionalitet."
 title = "Funktioner"
 
 [admin.settings.features.serverCertificate]
-description = "Generér certifikatet, der understøtter signeringsfunktionen \"Sign with Stirling-PDF\"."
+description = "Generér certifikatet, der understøtter signeringsfunktionen \"Sign with PaperRing\"."
 label = "Certifikatsignering"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Tilbyd \"Sign with Stirling-PDF\" ved hjælp af et certifikat, som denne server genererer"
+description = "Tilbyd \"Sign with PaperRing\" ved hjælp af et certifikat, som denne server genererer"
 label = "Aktivér certifikatsignering"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1249,7 +1249,7 @@ securityNote = "Lad dette stå tomt for at deaktivere mappekilder og output helt
 title = "Mappeadgang"
 
 [admin.settings.folderAccess.implied]
-description = "Disse Stirling-administrerede mapper er altid tilladt og kan ikke ændres her."
+description = "Disse PaperRing-administrerede mapper er altid tilladt og kan ikke ændres her."
 serverStorage = "Serverfillager"
 title = "Altid tilladt"
 watchedFolder = "Pipeline-overvåget mappe"
@@ -1390,7 +1390,7 @@ description = "URL eller filnavn til cookiepolitik"
 label = "Cookiepolitik"
 
 [admin.settings.legal.disclaimer]
-message = "Ved at tilpasse disse juridiske dokumenter påtager du dig det fulde ansvar for at sikre overholdelse af alle gældende love og regler, herunder men ikke begrænset til GDPR og andre EU-krav til databeskyttelse. Ændr kun disse indstillinger hvis: (1) du driver en personlig/privat instance, (2) du er uden for EU's jurisdiktion og forstår dine lokale juridiske forpligtelser, eller (3) du har indhentet korrekt juridisk rådgivning og accepterer det fulde ansvar for alle brugerdata og juridisk compliance. Stirling-PDF og dets udviklere påtager sig intet ansvar for dine juridiske forpligtelser."
+message = "Ved at tilpasse disse juridiske dokumenter påtager du dig det fulde ansvar for at sikre overholdelse af alle gældende love og regler, herunder men ikke begrænset til GDPR og andre EU-krav til databeskyttelse. Ændr kun disse indstillinger hvis: (1) du driver en personlig/privat instance, (2) du er uden for EU's jurisdiktion og forstår dine lokale juridiske forpligtelser, eller (3) du har indhentet korrekt juridisk rådgivning og accepterer det fulde ansvar for alle brugerdata og juridisk compliance. PaperRing og dets udviklere påtager sig intet ansvar for dine juridiske forpligtelser."
 title = "Advarsel om juridisk ansvar"
 
 [admin.settings.legal.impressum]
@@ -1478,7 +1478,7 @@ description = "Brugernavn til SMTP-godkendelse"
 label = "SMTP-brugernavn"
 
 [admin.settings.mcp]
-apikeyNote = "Klienter sender en Stirling API key i X-API-KEY-headeren (eller Authorization: Bearer <key>). Nøglen knyttes til den tilhørende Stirling-bruger - kun klargjorte konti får adgang, og handlinger auditeres som denne bruger. Administrer nøgler under Konto > API Keys."
+apikeyNote = "Klienter sender en PaperRing API key i X-API-KEY-headeren (eller Authorization: Bearer <key>). Nøglen knyttes til den tilhørende PaperRing-bruger - kun klargjorte konti får adgang, og handlinger auditeres som denne bruger. Administrer nøgler under Konto > API Keys."
 description = "Eksponér Stirlings PDF-værktøjer og AI-agenter til MCP-klienter via et OAuth-beskyttet endpoint."
 title = "MCP Server"
 
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "header (eller Authorization: Bearer <key>). Der bruges ingen OAu
 step4 = "Godkend login; klienten prøver igen med et token. Værktøjer vises grupperet: convert, pages, misc, security, ai."
 step4ApiKey = "Værktøjer vises grupperet: convert, pages, misc, security, ai - og hvert kald auditeres som nøglens ejer."
 tip = "Tip: registrer resource ID som en tilladt audience i din IdP. Testet med MCP Inspector og Claude Desktop."
-tipApiKey = "Tip: API-key-tilstand kræver ingen ekstern IdP - enklest til self-host. Nøglen knyttes til den tilhørende Stirling-bruger."
+tipApiKey = "Tip: API-key-tilstand kræver ingen ekstern IdP - enklest til self-host. Nøglen knyttes til den tilhørende PaperRing-bruger."
 title = "Tilslut en MCP-klient"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (valgfri)"
 placeholder = "Findes automatisk fra issuer"
 
 [admin.settings.mcp.mode]
-apikey = "API key (Stirling-nøgle pr. bruger)"
-description = "OAuth kræver en ekstern IdP. API key bruger en Stirling API key pr. bruger (X-API-KEY) - enklest til self-host."
+apikey = "API key (PaperRing-nøgle pr. bruger)"
+description = "OAuth kræver en ekstern IdP. API key bruger en PaperRing API key pr. bruger (X-API-KEY) - enklest til self-host."
 label = "Godkendelsestilstand"
 oauth = "OAuth 2.1 (ekstern IdP)"
 
 [admin.settings.mcp.requireAccount]
-description = "Lad kun tokens passere, hvis deres subject knyttes til en klargjort, aktiveret Stirling-bruger."
-label = "Kræv en eksisterende Stirling-konto"
+description = "Lad kun tokens passere, hvis deres subject knyttes til en klargjort, aktiveret PaperRing-bruger."
+label = "Kræv en eksisterende PaperRing-konto"
 
 [admin.settings.mcp.resourceId]
 description = "Denne servers offentlige /mcp URL. Tokens skal angive den i deres audience (RFC 8707), ellers afvises de."
@@ -1540,7 +1540,7 @@ description = "Kræv mcp.tools.read for læseoperationer og mcp.tools.write for 
 label = "Håndhæv OAuth scopes"
 
 [admin.settings.mcp.usernameClaim]
-description = "JWT claim matches mod et Stirling-brugernavn (f.eks. sub, email, preferred_username)."
+description = "JWT claim matches mod et PaperRing-brugernavn (f.eks. sub, email, preferred_username)."
 label = "Brugernavn claim"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Når aktiveret, kan kun de angivne bruger-ID'er bruge botten."
 label = "Tillad specifikke bruger-ID'er"
 
 [admin.settings.telegram.enabled]
-description = "Tillad brugere at interagere med Stirling PDF via din konfigurerede Telegram-bot."
+description = "Tillad brugere at interagere med PaperRing via din konfigurerede Telegram-bot."
 label = "Aktivér Telegram-bot"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Dette er <strong>Indstillingspanelet</strong>. Admin-indstil
 systemCustomization = "Vi har omfattende måder at tilpasse UI'et: <strong>Systemindstillinger</strong> lader dig ændre appnavn og sprog, <strong>Funktioner</strong> tillader håndtering af servercertifikater, og <strong>Endpoints</strong> lader dig aktivere eller deaktivere specifikke værktøjer for dine brugere."
 teamsAndUsers = "Administrér <strong>Teams</strong> og individuelle brugere her. Du kan invitere nye brugere via e-mail, delbare links eller oprette brugerdefinerede konti til dem selv."
 welcome = "Velkommen til <strong>Administratorrundturen</strong>! Lad os udforske de avancerede enterprise-funktioner og indstillinger, der er tilgængelige for systemadministratorer."
-wrapUp = "Det var admin-rundvisningen! Du har set enterprise-funktionerne, der gør Stirling PDF til en kraftfuld, tilpasselig løsning for organisationer. Du kan afspille den igen når som helst - åbn blot <strong>Indstillinger</strong> og find den her i sektionen <strong>Rundvisninger</strong> under Hjælp."
+wrapUp = "Det var admin-rundvisningen! Du har set enterprise-funktionerne, der gør PaperRing til en kraftfuld, tilpasselig løsning for organisationer. Du kan afspille den igen når som helst - åbn blot <strong>Indstillinger</strong> og find den her i sektionen <strong>Rundvisninger</strong> under Hjælp."
 
 [adminUserSettings]
 admin = "Administrer"
 title = "Brugerkontrolindstillinger"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arabisk"
@@ -1952,9 +1952,9 @@ thai = "Thai"
 
 [analytics]
 learnMore = "Læs mere om vores analytics"
-paragraph1 = "Stirling PDF har opt-in analytics for at hjælpe os med at forbedre produktet. Vi sporer ingen personlige oplysninger eller filindhold."
-paragraph2 = "Bevægelsesmæssigt aktiver du analytics for at hjælpe Stirling-PDF med at vokse og til atstå os bedre at forstå vores brugere."
-title = "Vil du hjælpe med at gøre Stirling PDF bedre?"
+paragraph1 = "PaperRing har opt-in analytics for at hjælpe os med at forbedre produktet. Vi sporer ingen personlige oplysninger eller filindhold."
+paragraph2 = "Bevægelsesmæssigt aktiver du analytics for at hjælpe PaperRing med at vokse og til atstå os bedre at forstå vores brugere."
+title = "Vil du hjælpe med at gøre PaperRing bedre?"
 
 [annotate]
 tags = "annoter,fremhæv,tegn,markup,kommentar,noter,gennemgang,redline,feedback,markup-værktøjer,sticky notes,former,pile,tekstfelt,frihånd"
@@ -2902,9 +2902,9 @@ typeSignature = "Skriv dit navn for at oprette en underskrift"
 uploadCert = "Upload et certifikat"
 uploadCertDesc = "Brug dit eget PKCS12-, PFX-, PEM- eller JKS-certifikat."
 uploadSignature = "Upload dit underskriftsbillede"
-usePersonalCert = "Stirling Sign · Personlig"
+usePersonalCert = "PaperRing Sign · Personlig"
 usePersonalCertDesc = "Underskriv med certifikatet, der er oprettet til din konto."
-useServerCert = "Stirling Sign · Organisation"
+useServerCert = "PaperRing Sign · Organisation"
 useServerCertDesc = "Underskriv med denne servers delte organisationscertifikat."
 useSignature = "Brug signatur"
 
@@ -3224,10 +3224,10 @@ text = "Stil et spørgsmål om dine dokumenter, eller få hjælp med PDF-værkt�
 
 [chat.fab]
 close = "Luk chat"
-open = "Åbn Stirling AI-assistent"
+open = "Åbn PaperRing AI-assistent"
 
 [chat.header]
-agentMenu = "Stirling-agentindstillinger"
+agentMenu = "PaperRing-agentindstillinger"
 assistant = "AI-assistent"
 clearChat = "Ryd chat"
 
@@ -3587,9 +3587,9 @@ label = "Dokumenter efter type: {{summary}}"
 noTypes = "Disse dokumenter matchede ikke en kendt type."
 
 [classificationDemo.defaultApp]
-body = "Gør Stirling til din standard-PDF-app. Hver PDF, du åbner fra email, din browser eller dit skrivebord, lander her, klar til at læse eller redigere. Du kan ændre dette når som helst i Indstillinger."
-cta = "Gør Stirling til min standard"
-title = "Åbn hver PDF i Stirling"
+body = "Gør PaperRing til din standard-PDF-app. Hver PDF, du åbner fra email, din browser eller dit skrivebord, lander her, klar til at læse eller redigere. Du kan ændre dette når som helst i Indstillinger."
+cta = "Gør PaperRing til min standard"
+title = "Åbn hver PDF i PaperRing"
 
 [classificationDemo.followUp]
 background = "Dette kører i baggrunden. Ringen til venstre viser fremskridtet."
@@ -3604,7 +3604,7 @@ other = "Andet"
 body = "Klassificér og organisér de {{count}} seneste PDFs i mappen Downloads efter type."
 cta = "Behandl min Downloads-mappe"
 privacy = "Dine PDFs bliver på denne enhed. Din tilsluttede server registrerer behandlingsforbrug."
-title = "Se, hvad Stirling kan gøre med en hel mappe"
+title = "Se, hvad PaperRing kan gøre med en hel mappe"
 
 [classificationDemo.phase]
 finishing = "Afslutter..."
@@ -3618,10 +3618,10 @@ counts = "af {{total}} PDFs behandlet"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDFs"
-failedBody = "Stirling kunne ikke læse din Downloads-mappe. Intet på din computer blev ændret."
+failedBody = "PaperRing kunne ikke læse din Downloads-mappe. Intet på din computer blev ændret."
 failedTitle = "Det blev ikke færdigt"
 heading = "Dine Downloads, sorteret"
-summary = "Stirling læste {{documents}} og sorterede dem i {{types}}."
+summary = "PaperRing læste {{documents}} og sorterede dem i {{types}}."
 typeCount_one = "{{count}} type"
 typeCount_other = "{{count}} typer"
 
@@ -3948,13 +3948,13 @@ upgradeButton = "Opgradér konto"
 [config.apiKeys]
 copyKeyAriaLabel = "Kopiér API-nøgle"
 description = "Din API-nøgle til adgang til Stirlings pakke af PDF-værktøjer. Kopiér den til dit projekt, eller opdatér for at generere en ny."
-docsDescription = "Lær mere om integration med Stirling PDF:"
+docsDescription = "Lær mere om integration med PaperRing:"
 docsLink = "API-dokumentation"
 docsTitle = "API-dokumentation"
 generateError = "Vi kunne ikke generere din API-nøgle."
 goToAccount = "Gå til konto"
 guestInfo = "Gæstebrugere modtager ikke API-nøgler. Opret en konto for at få en API-nøgle, du kan bruge i dine applikationer."
-intro = "Brug din API-nøgle til programmatisk at få adgang til Stirling PDFs behandlingsfunktioner."
+intro = "Brug din API-nøgle til programmatisk at få adgang til PaperRings behandlingsfunktioner."
 label = "API-nøgle"
 publicKeyAriaLabel = "Offentlig API-nøgle"
 refreshAriaLabel = "Opdatér API-nøgle"
@@ -3978,10 +3978,10 @@ title = "Opdatér API-nøgler"
 warning = "⚠️ Advarsel: Denne handling genererer nye API-nøgler og gør dine tidligere nøgler ugyldige."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) lader AI-assistenter som Claude bruge dine Stirling PDF-værktøjer direkte. Tilslut en klient én gang, og din assistent kan konvertere, redigere, sikre og behandle dokumenter på dine vegne."
-guestInfo = "Gæstebrugere kan ikke tilslutte MCP-klienter. Opret en konto for at bruge MCP-serveren og lade din AI-assistent køre Stirling PDF-værktøjer på dine vegne."
+description = "Model Context Protocol (MCP) lader AI-assistenter som Claude bruge dine PaperRing-værktøjer direkte. Tilslut en klient én gang, og din assistent kan konvertere, redigere, sikre og behandle dokumenter på dine vegne."
+guestInfo = "Gæstebrugere kan ikke tilslutte MCP-klienter. Opret en konto for at bruge MCP-serveren og lade din AI-assistent køre PaperRing-værktøjer på dine vegne."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Vis API keys"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Dit MCP endpoint"
 
 [config.mcp.setup]
 addTo = "Tilføj til"
-hint = "Vælg din klient, indsæt snippet'et i den viste fil, og genstart den. Du logger ind med din Stirling-konto ved første brug - ingen nøgler skal kopieres."
+hint = "Vælg din klient, indsæt snippet'et i den viste fil, og genstart den. Du logger ind med din PaperRing-konto ved første brug - ingen nøgler skal kopieres."
 title = "Tilslut din AI-assistent"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Trin {{current}} af {{total}}"
 [connect.confirm]
 acknowledge = "Jeg genkender denne adresse og vil forbinde den til mit team"
 approve = "Forbind server"
-cannotDecide = "Kun en teamejer kan godkende eller afvise denne forbindelse. Brug en anden konto, eller luk denne prompt for at fortsætte med at bruge Stirling."
+cannotDecide = "Kun en teamejer kan godkende eller afvise denne forbindelse. Brug en anden konto, eller luk denne prompt for at fortsætte med at bruge PaperRing."
 deny = "Afvis"
 dismiss = "Luk"
-lead = "En Stirling-server beder om at forbinde til dit team. Kontrollér, at adressen nedenfor er din, før du godkender."
+lead = "En PaperRing-server beder om at forbinde til dit team. Kontrollér, at adressen nedenfor er din, før du godkender."
 originLabel = "Adresse"
 signedInAs = "Logget ind som"
 switchAccount = "Brug en anden konto"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Vælg først et kildeformat"
 settings = "Indstillinger"
 single = "Enkelt"
 sourceFormatPlaceholder = "Kildeformat"
-stirlingOfficeConvert = "Brug Stirling Office Convert (beta)"
+stirlingOfficeConvert = "Brug PaperRing Office Convert (beta)"
 stirlingOfficeConvertDescription = "Bedre, hurtigere konverteringer med mindre hukommelse. Slå fra for at bruge standardkonverteren."
 strictMode = "Streng tilstand"
 strictModeDesc = "Fejl hvis konverteringen ikke er perfekt (bruger VeraPDF-verifikation)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Administrer præferencer"
 title = "Sådan bruger vi cookies"
 
 [cookieBanner.popUp.description]
-1 = "Vi bruger cookies og andre teknologier til at få Stirling PDF til at fungere bedre for dig - og hjælpe os med at forbedre vores værktøjer og blive ved med at bygge funktioner, du vil elske."
+1 = "Vi bruger cookies og andre teknologier til at få PaperRing til at fungere bedre for dig - og hjælpe os med at forbedre vores værktøjer og blive ved med at bygge funktioner, du vil elske."
 2 = "Hvis du hellere vil lade være, aktiverer et klik på 'Nej tak' kun de nødvendige cookies, der skal til for at holde tingene kørende problemfrit."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Brug af cookies"
 title = "Center for samtykkepræferencer"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Disse cookies hjælper os med at forstå, hvordan vores værktøjer bruges, så vi kan fokusere på at bygge de funktioner, vores community værdsætter mest. Du kan være tryg - Stirling PDF kan og vil aldrig spore indholdet af de dokumenter, du arbejder med."
+description = "Disse cookies hjælper os med at forstå, hvordan vores værktøjer bruges, så vi kan fokusere på at bygge de funktioner, vores community værdsætter mest. Du kan være tryg - PaperRing kan og vil aldrig spore indholdet af de dokumenter, du arbejder med."
 title = "Analyser"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF bruger cookies og lignende teknologier til at forbedre din oplevelse og forstå, hvordan vores værktøjer bruges. Det hjælper os med at forbedre ydeevnen, udvikle de funktioner, du går op i, og yde løbende support til vores brugere."
-2 = "Stirling PDF kan ikke - og vil aldrig - spore eller få adgang til indholdet af de dokumenter, du bruger."
+1 = "PaperRing bruger cookies og lignende teknologier til at forbedre din oplevelse og forstå, hvordan vores værktøjer bruges. Det hjælper os med at forbedre ydeevnen, udvikle de funktioner, du går op i, og yde løbende support til vores brugere."
+2 = "PaperRing kan ikke - og vil aldrig - spore eller få adgang til indholdet af de dokumenter, du bruger."
 3 = "Din privatlivsbeskyttelse og tillid er kernen i alt, hvad vi gør."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Kunne ikke angive standard PDF-håndterer"
 title = "Fejl"
 
 [defaultApp.settingsOpened]
-message = "Søg efter 'PDF' i Windows-indstillinger, og vælg Stirling PDF som din standardapp"
+message = "Søg efter 'PDF' i Windows-indstillinger, og vælg PaperRing som din standardapp"
 title = "Indstillinger åbnet"
 
 [defaultApp.success]
-message = "Stirling PDF er nu din standard PDF-editor"
+message = "PaperRing er nu din standard PDF-editor"
 title = "Standardapp valgt"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Minimer"
 restore = "Gendan"
 
 [desktopBilling]
-description = "Administrer brug og fakturering i din browser. Log ind med den samme Stirling-konto, som du bruger her."
+description = "Administrer brug og fakturering i din browser. Log ind med den samme PaperRing-konto, som du bruger her."
 open = "Åbn Brug og fakturering i browser"
 openFailed = "Kunne ikke åbne Brug og fakturering. Tjek din forbindelse, og prøv igen."
 selfHostedDescription = "Administrer brug og fakturering på din tilknyttede server i din browser. Log ind med din serverejerkonto."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Kunne ikke downloade eller installere opdateringen."
 
 [desktopUpdate.blocked]
 docsLink = "Se installationsdokumentation"
-message = "Stirling-PDF har ikke tilladelse til at opdatere sig selv på denne maskine."
+message = "PaperRing har ikke tilladelse til at opdatere sig selv på denne maskine."
 title = "Administratorrettigheder påkrævet"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Omdøb"
 title = "Omdøb fil"
 
 [filesPage]
-addedToLibrary = "Tilføjet til Stirling-biblioteket"
-addingToLibrary = "Tilføjer til Stirling-biblioteket…"
-addToLibrary = "Tilføj til Stirling-biblioteket…"
+addedToLibrary = "Tilføjet til PaperRing-biblioteket"
+addingToLibrary = "Tilføjer til PaperRing-biblioteket…"
+addToLibrary = "Tilføj til PaperRing-biblioteket…"
 addToLibraryFailed = "Nogle filer kunne ikke tilføjes"
 addToWorkspace = "Føj til arbejdsområde"
 addToWorkspaceCount = "Føj {{count}} til arbejdsområde"
-allFiles = "Stirling-bibliotek"
+allFiles = "PaperRing-bibliotek"
 back = "Tilbage"
 backToFolder = "Tilbage til {{folder}}"
 backToMyFiles = "Tilbage til filbibliotek"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Slet også {{count}} fil i mappen"
 deleteFolderContents_other = "Slet også {{count}} filer i mappen"
 deleteFolderContentsWarning = "Filerne vil blive fjernet permanent og kan ikke gendannes."
 deleteFolderError = "Kunne ikke slette mappen. Prøv igen."
-deleteFolderKeepHint = "Filerne indeni flyttes til Stirling-biblioteket."
+deleteFolderKeepHint = "Filerne indeni flyttes til PaperRing-biblioteket."
 deleteFolderTitle = "Slet mappe?"
 deselectAll = "Ryd markering"
 details = "Detaljer"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} filer kunne ikke flyttes på serveren (inge
 moveTo = "Flyt til…"
 newFolder = "Ny mappe"
 newFolderStorageDisabled = "Servermappelagring er ikke aktiveret."
-newFolderTabUnavailable = "Skift til Stirling-biblioteket for at oprette mapper."
+newFolderTabUnavailable = "Skift til PaperRing-biblioteket for at oprette mapper."
 offlineNoFolderEdits = "Serversynkronisering af mapper er ikke tilgængelig – mappeændringer er deaktiveret. Tjek login og lagerkonfiguration."
 open = "Åbn"
 openVersionInWorkspace = "Åbn i arbejdsområde"
@@ -4856,7 +4856,7 @@ recentFiles = "Seneste"
 refresh = "Opdater"
 refreshNeedsConnection = "Log ind for at opdatere fra serveren."
 remove = "Slet"
-removeLocalFolder = "Afmonter fra Stirling"
+removeLocalFolder = "Afmonter fra PaperRing"
 removeVersion = "Fjern denne version"
 rename = "Omdøb"
 renamed = "Omdøbt"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} elementer"
 tree = "Mapper"
 unmount = "Afmonter"
 unmountFolderBody = "Afmonter \"{{name}}\"? Mappen og dens filer bliver på din disk."
-unmountFolderTitle = "Afmonter fra Stirling?"
+unmountFolderTitle = "Afmonter fra PaperRing?"
 upload = "Upload"
 uploadFromMobile = "Upload fra mobil"
 versionActions = "Versionshandlinger"
@@ -4921,7 +4921,7 @@ orphaned = "Ikke på disken"
 orphanedHint = "Originalen på {{path}} er væk. Denne kopi findes kun her - hvis du gemmer den, bliver du bedt om en ny placering."
 unavailable = "Utilgængelig"
 unavailableHintOffline = "Drevet eller delingen, som denne fil ligger på, er ikke tilsluttet. Tilslut den igen for at hente ændringer igen."
-unavailableHintPermission = "Stirling har ikke tilladelse til at læse denne placering. Giv adgang i Systemindstillinger for at hente ændringer igen."
+unavailableHintPermission = "PaperRing har ikke tilladelse til at læse denne placering. Giv adgang i Systemindstillinger for at hente ændringer igen."
 unavailableHintUnknown = "Denne fil kan ikke nås lige nu. Kopien her er uændret."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Mappenavn"
 
 [filesPage.folderOrigin]
 diskHint = "En mappe monteret fra en mappe på din disk"
-serverHint = "En mappe gemt på Stirling-serveren"
+serverHint = "En mappe gemt på PaperRing-serveren"
 virtualHint = "En mappe, der kun findes i denne browser"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Synkroniseret til din konto, tilgængelig hvor du end logger ind."
 [filesPage.origin]
 all = "Alle kilder"
 cloud = "Sky"
-cloudHint = "Gemt på Stirling-serveren"
+cloudHint = "Gemt på PaperRing-serveren"
 diskFileHint = "Gemt på din computer"
 diskHint = "En fil i den monterede mappe på din disk"
 local = "Lokal"
@@ -5474,7 +5474,7 @@ invisible = "Usynlig (kun metadata)"
 location = "Placering:"
 logo = "Logo:"
 logoHidden = "Intet logo"
-logoShown = "Stirling PDF-logo vist"
+logoShown = "PaperRing-logo vist"
 participantCount_one = "{{count}} deltager valgt"
 participantCount_other = "{{count}} deltagere valgt"
 participants = "Deltagere"
@@ -5525,7 +5525,7 @@ title = "Signering i vilkårlig rækkefølge"
 dismiss = "Skjul banner"
 message = "Opret en gratis konto for at gemme dit arbejde, få adgang til flere funktioner og støtte projektet."
 signUp = "Tilmeld dig gratis"
-title = "Du bruger Stirling PDF som gæst!"
+title = "Du bruger PaperRing som gæst!"
 
 [home.addAttachments]
 desc = "Se, tilføj, udtræk, omdøb eller slet indlejrede PDF-vedhæftninger"
@@ -5704,7 +5704,7 @@ tags = "kombiner,saml,foren,flet,flet PDF'er,kombiner PDF'er,saml PDF'er,konkate
 title = "Flet"
 
 [home.mobile]
-brandAlt = "Stirling PDF-logo"
+brandAlt = "PaperRing-logo"
 openFiles = "Åbn filer"
 swipeHint = "Stryg til venstre eller højre for at skifte visning"
 tools = "Værktøjer"
@@ -5743,7 +5743,7 @@ tags = "organiser,omarranger,omorganiser,arranger sider,sorter,flyt sider,slet s
 title = "Organisér"
 
 [home.pdfTextEditor]
-desc = "Gennemse og rediger Stirling PDF JSON-eksporter med grupperet tekstredigering og regenerering af PDF"
+desc = "Gennemse og rediger PaperRing JSON-eksporter med grupperet tekstredigering og regenerering af PDF"
 tags = "rediger tekst,ændr tekst,skift tekst,rediger indhold,opdater tekst,omskriv,ret,ændr,redline,revider,teksteditor,indholdseditor"
 title = "PDF-teksteditor"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Adgangskode er påkrævet"
 signIn = "Log ind"
 validating = "Validerer invitation..."
 validationError = "Kunne ikke validere invitationslink"
-welcome = "Velkommen til Stirling PDF"
+welcome = "Velkommen til PaperRing"
 welcomeSubtitle = "Fuldfør opsætningen af din konto for at komme i gang"
 welcomeTitle = "Du er blevet inviteret!"
 
@@ -6209,7 +6209,7 @@ message = "Godkendelsen var ikke vellykket. Du kan lukke dette vindue og prøve 
 title = "Godkendelse mislykkedes"
 
 [oauth.success]
-message = "Du kan lukke dette vindue og vende tilbage til Stirling PDF."
+message = "Du kan lukke dette vindue og vende tilbage til PaperRing."
 title = "Godkendelse lykkedes"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Sender dig tilbage til appen..."
-requesting = "{{app}} vil have adgang til din Stirling PDF-konto"
+requesting = "{{app}} vil have adgang til din PaperRing-konto"
 scopesIntro = "Dette giver {{app}} mulighed for at:"
 signedInAs = "Logget ind som {{name}}"
 signInButton = "Log ind for at fortsætte"
-signInPrompt = "Log ind på din Stirling PDF-konto for at fortsætte med at forbinde appen."
+signInPrompt = "Log ind på din PaperRing-konto for at fortsætte med at forbinde appen."
 title = "Authorise access"
 unknownApp = "En tredjepartsapplikation"
 
 [oauthConsent.access]
 actAsYou = "Handle som dig – alt, hvad {{app}} gør, kører under din konto og tæller med i dit forbrug"
-tools = "Bruge dine Stirling PDF-værktøjer på dine vegne – konvertere, redigere, underskrive, sikre og behandle dine dokumenter"
+tools = "Bruge dine PaperRing-værktøjer på dine vegne – konvertere, redigere, underskrive, sikre og behandle dine dokumenter"
 
 [oauthConsent.scope]
 email = "Se din emailadresse"
@@ -6362,26 +6362,26 @@ skipTheTour = "Spring rundvisningen over"
 
 [onboarding.checklist]
 dismiss = "Afvis"
-title = "Opsæt Stirling PDF"
+title = "Opsæt PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Kør Stirling lokalt på din maskine"
-title = "Download Stirling til desktop"
+description = "Kør PaperRing lokalt på din maskine"
+title = "Download PaperRing til desktop"
 
 [onboarding.checklist.inviteTeam]
 description = "Samarbejd med dit team"
 title = "Inviter teammedlemmer"
 
 [onboarding.checklist.setDefaultApp]
-description = "Åbn PDF-filer i Stirling PDF"
-title = "Gør Stirling til din standard"
+description = "Åbn PDF-filer i PaperRing"
+title = "Gør PaperRing til din standard"
 
 [onboarding.checklist.takeTour]
-description = "Se, hvordan Stirling fungerer, i en hurtig gennemgang"
+description = "Se, hvordan PaperRing fungerer, i en hurtig gennemgang"
 title = "Tag rundvisningen"
 
 [onboarding.desktopInstall]
-body = "Stirling fungerer bedst som desktop-app. Du kan bruge den offline, få hurtigere adgang til dokumenter og redigere lokalt på din computer."
+body = "PaperRing fungerer bedst som desktop-app. Du kan bruge den offline, få hurtigere adgang til dokumenter og redigere lokalt på din computer."
 selectOs = "Vælg operativsystem"
 title = "Download"
 titleWithOs = "Download til {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Download til {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Der er masser af nye ændringer at udforske, herunder <strong>Agent Chat</strong>, automatisk dokument<strong>klassificering</strong> og mere."
 freeLine = "Editoren er nu <free>helt gratis</free>."
-title = "Velkommen til Stirling <product>Desktop</product>"
+title = "Velkommen til PaperRing <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "Godkendelseskode"
@@ -6410,21 +6410,21 @@ success = "MFA er blevet aktiveret. Du kan nu fortsætte."
 title = "Opsætning af multifaktorgodkendelse"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Når du aktiverer login-tilstand, kan du administrere brugere, konfigurere indstillinger og overvåge serverens tilstand. De første <strong>{{freeTierLimit}}</strong> personer på din server kan bruge Stirling gratis."
-adminBodyLoginEnabled = "Som admin kan du administrere brugere, konfigurere indstillinger og overvåge serverens tilstand. De første <strong>{{freeTierLimit}}</strong> personer på din server kan bruge Stirling gratis."
+adminBodyLoginDisabled = "Når du aktiverer login-tilstand, kan du administrere brugere, konfigurere indstillinger og overvåge serverens tilstand. De første <strong>{{freeTierLimit}}</strong> personer på din server kan bruge PaperRing gratis."
+adminBodyLoginEnabled = "Som admin kan du administrere brugere, konfigurere indstillinger og overvåge serverens tilstand. De første <strong>{{freeTierLimit}}</strong> personer på din server kan bruge PaperRing gratis."
 adminTitle = "Admin-overblik"
 userBody = "Invitér teammedlemmer, tildel roller, og hold dine dokumenter organiseret i ét sikkert arbejdsområde. Aktiver login-tilstand, når du er klar til at vokse ud over solo-brug."
 userTitle = "Plan-overblik"
 
 [onboarding.processorIntro]
-body = "Stirling kører nu <strong>Politikker</strong> — automatiserede regler, der klassificerer, sikrer og behandler hvert dokument, når det ankommer. Opsæt dem, og overvåg kørsler i <strong>Processor</strong>."
+body = "PaperRing kører nu <strong>Politikker</strong> — automatiserede regler, der klassificerer, sikrer og behandler hvert dokument, når det ankommer. Opsæt dem, og overvåg kørsler i <strong>Processor</strong>."
 cta = "Se Processor"
-title = "Se Stirling Processor"
+title = "Se PaperRing Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "Editoren er nu <free>helt gratis</free>."
 premium = "Vi har tilføjet masser af nye funktioner, herunder <strong>Politikker</strong> og <strong>Agent Chat</strong>."
-title = "Velkommen til Stirling"
+title = "Velkommen til PaperRing"
 
 [onboarding.saas.team]
 addButton = "Tilføj"
@@ -6447,18 +6447,18 @@ title = "Sikkerhedstjek"
 [onboarding.serverLicense]
 freeBody = "Vores <strong>Open-Core</strong>-licens inkluderer <strong>OAuth SSO</strong> og op til <strong>{{freeTierLimit}}</strong> brugere gratis. For at vokse uden afbrydelser anbefaler vi Stirling Team-abonnementet — <strong>100 brugere</strong> for $99/md."
 freeTitle = "Team-plan"
-overLimitBody = "Vores licens tillader op til <strong>{{freeTierLimit}}</strong> brugere gratis. Du har <strong>{{overLimitUserCopy}}</strong> Stirling-brugere. For at fortsætte uden afbrydelser skal du opgradere til Stirling Team-planen – <strong>100 brugere</strong>, PDF-tekstredigering og fuld adminkontrol for $99/md."
+overLimitBody = "Vores licens tillader op til <strong>{{freeTierLimit}}</strong> brugere gratis. Du har <strong>{{overLimitUserCopy}}</strong> PaperRing-brugere. For at fortsætte uden afbrydelser skal du opgradere til Stirling Team-planen – <strong>100 brugere</strong>, PDF-tekstredigering og fuld adminkontrol for $99/md."
 overLimitTitle = "Team-plan påkrævet"
 seePlans = "Se planer →"
 upgrade = "Opgrader nu →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 kommer med dusinvis af værktøjer og et fornyet layout. Tag en hurtig rundvisning for at se, hvad der er ændret, og hvor du finder de funktioner, du har brug for."
+body = "PaperRing V2 kommer med dusinvis af værktøjer og et fornyet layout. Tag en hurtig rundvisning for at se, hvad der er ændret, og hvor du finder de funktioner, du har brug for."
 title = "Oversigt over rundvisning"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF er nu klar til teams i alle størrelser. Denne opdatering indeholder et nyt layout, stærke nye admin-funktioner og vores mest efterspurgte funktion – <strong>Rediger tekst</strong>."
-title = "Velkommen til Stirling"
+body = "PaperRing er nu klar til teams i alle størrelser. Denne opdatering indeholder et nyt layout, stærke nye admin-funktioner og vores mest efterspurgte funktion – <strong>Rediger tekst</strong>."
+title = "Velkommen til PaperRing"
 
 [onboarding.whatsNew]
 activeFilesView = "Brug Aktive filer til at se alt, du har åbent, og vælge, hvad du vil arbejde på."
@@ -6545,7 +6545,7 @@ check = "Tjek igen"
 checkAccount = "Tjek konto"
 chooseEmail = "Vælg deres konto i {{team}}, eller indtast en e-mail for at invitere dem."
 close = "Luk overførselsdialog"
-cloudAccount = "Stirling-konto"
+cloudAccount = "PaperRing-konto"
 cloudScopeStyled = "<user>{{name}}</user> administrerer {{team}}, dets medlemmer og fakturering."
 cloudTargetChanged = "Vælg et andet cloud-medlem. Denne konto er ikke længere berettiget til overdragelsen."
 confirm = "Jeg forstår ændringerne i adgang og ejerskab."
@@ -6560,7 +6560,7 @@ inviteAddress = "Inviter <account>{{email}}</account> til {{team}}."
 inviteBlocked = "Invitationen kunne ikke sendes. Tjek tilgængelige teampladser, og om modtageren allerede har et betalt abonnement."
 linkChanged = "Serverens cloud-link er ændret. Bed serveroperatøren om at gendanne det oprindelige link, før du genoptager."
 linkedServerCount = "{{count}} tilknyttede servere"
-linkRevoked = "Denne servers cloud-link er ikke længere gyldigt. Annuller overførslen, og tilslut derefter din Stirling-konto igen i indstillingerne. Ejerskabet ændres ikke."
+linkRevoked = "Denne servers cloud-link er ikke længere gyldigt. Annuller overførslen, og tilslut derefter din PaperRing-konto igen i indstillingerne. Ejerskabet ændres ikke."
 localScope = "De vil eje denne server og administrere fakturering og cloud-forbindelser. Du beholder administratoradgang, men mister adgang til disse indstillinger."
 membershipDetails = "Oplysninger om teammedlemskab"
 membershipFirst = "De skal tilmelde sig teamet, før du kan bekræfte overførslen."
@@ -6872,7 +6872,7 @@ benefit1Body = "kæd værktøjer sammen, planlæg kørsler, batchbehandl"
 benefit1Title = "Automatiseringspipelines"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "AI-værktøjer"
-benefit3Body = "kald ethvert Stirling-endpoint programmatisk"
+benefit3Body = "kald ethvert PaperRing-endpoint programmatisk"
 benefit3Title = "API-adgang"
 button = "Slå Processor til →"
 reassurance = "Intet minimum · Angiv et loft på $0 for at teste · Opsig når som helst"
@@ -6962,7 +6962,7 @@ editorLabel = "PDF-editor"
 login = "Log ind"
 manualToolsPromo = "Ubegrænsede gratis manuelle PDF-værktøjer"
 processorLabel = "PDF-processor"
-processorTitle = "Opret en konto for at låse op for det bedste fra Stirling"
+processorTitle = "Opret en konto for at låse op for det bedste fra PaperRing"
 readerLabel = "PDF-læser"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "Estimeret i USD. Du kan justere dit loft når som helst efter abonnem
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / måned"
 edit = "Rediger"
-help = "Stripe håndterer dine kortoplysninger. Stirling ser dem aldrig."
+help = "Stripe håndterer dine kortoplysninger. PaperRing ser dem aldrig."
 loading = "Indlæser checkout…"
 noCap = "Intet loft"
 title = "Tilføj din betalingsmetode"
@@ -7010,7 +7010,7 @@ title = "Tilføj din betalingsmetode"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "AI-værktøjer"
-apiBody = "programmatisk adgang til ethvert Stirling-endpoint"
+apiBody = "programmatisk adgang til ethvert PaperRing-endpoint"
 apiTitle = "API-kald"
 automationBody = "sammenkædede værktøjer eller planlagte kørsler, der ikke kræver klik"
 automationTitle = "Automatiseringspipelines"
@@ -7870,7 +7870,7 @@ connectDescription = "Forbind denne server for at bruge dit teams behandlingskvo
 disconnectBody = "Denne server stopper med at bruge dit teams behandlingskvote i Stirling Cloud. Dine lokale filer bliver på denne server. Følg de oprindelige forbindelsestrin for at forbinde igen."
 disconnectTitle = "Afbryd forbindelsen til denne instans?"
 eyebrow = "Denne instans"
-linkButton = "Forbind din Stirling-konto"
+linkButton = "Forbind din PaperRing-konto"
 loading = "Kontrollerer kontoforbindelse"
 notLinked = "Ikke forbundet"
 signedInAs = "Logget ind på Stirling Cloud som"
@@ -7886,14 +7886,14 @@ description = "Bed din serveradministrator om at aktivere forbindelsen til Stirl
 title = "Kontoforbindelse ikke tilgængelig"
 
 [portal.accountLink.connect]
-adminRequired = "Bed din serveradministrator om at åbne Forbrug og fakturering og knytte en Stirling-konto for flere månedlige credits. Manuelle PDF-værktøjer er stadig tilgængelige."
+adminRequired = "Bed din serveradministrator om at åbne Forbrug og fakturering og knytte en PaperRing-konto for flere månedlige credits. Manuelle PDF-værktøjer er stadig tilgængelige."
 adminTitle = "Bed din serveradministrator"
 close = "Luk"
 copied = "Kopieret"
 copyAdminMessage = "Kopiér besked til administrator"
-exhaustedLede = "Denne server har brugt sine gratis credits for måneden. Tilknyt en ny eller eksisterende Stirling-konto for at få adgang til dit teams månedlige kvote."
+exhaustedLede = "Denne server har brugt sine gratis credits for måneden. Tilknyt en ny eller eksisterende PaperRing-konto for at få adgang til dit teams månedlige kvote."
 notNow = "Ikke nu"
-start = "Forbind Stirling-konto"
+start = "Forbind PaperRing-konto"
 step = "Trin {{current}} af {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Tilføj flere brugere med en betalt Team-plan"
 teamsLabel = "Større teams"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "Du er ikke logget ind på Stirling i denne browser, så forbrug og fakturering vil bede dig om at logge ind."
+linkedNotSignedIn = "Du er ikke logget ind på PaperRing i denne browser, så forbrug og fakturering vil bede dig om at logge ind."
 retry = "Prøv igen"
-signedInAnyway = "Du er logget ind på Stirling, så fakturering og forbrug indlæses. Kun serverforbindelsen er ufuldstændig."
+signedInAnyway = "Du er logget ind på PaperRing, så fakturering og forbrug indlæses. Kun serverforbindelsen er ufuldstændig."
 working = "Afslutter forbindelsen."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Denne anmodning blev afvist eller er allerede blevet brugt. Start en ny,
 title = "Forbindelse ikke fuldført"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling bekræftede ikke forbindelsen. Dette er normalt midlertidigt."
+body = "PaperRing bekræftede ikke forbindelsen. Dette er normalt midlertidigt."
 title = "Ikke færdig endnu"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Gratis credits tilbage"
 creditsSuffix = "af {{allowance}} gratis kreditter tilbage"
 cta = "Færdig"
 inviteTeam = "Inviter dit team"
-lede = "Denne server kører nu mod din Stirling-konto."
+lede = "Denne server kører nu mod din PaperRing-konto."
 pendingTitle = "Næsten færdig"
 switchOnProcessor = "Slå Processor til"
 title = "Forbundet"
 
 [portal.accountLink.connect.handoff]
-opening = "Åbner Stirling-log ind..."
-reauthLede = "Din Stirling-session er udløbet. Ved at logge ind igen forbliver forbrug og fakturering synlige. Denne server forbliver forbundet uanset hvad."
+opening = "Åbner PaperRing-log ind..."
+reauthLede = "Din PaperRing-session er udløbet. Ved at logge ind igen forbliver forbrug og fakturering synlige. Denne server forbliver forbundet uanset hvad."
 title = "Opretter forbindelse"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Denne servers konfigurerede frontend-adresse matcher ikke de
 cancel = "Annuller"
 continueReauth = "Log ind igen"
 exhaustedTitle = "Hold dine arbejdsgange kørende"
-identity = "Stirling-konto"
-linkTitle = "Forbind din Stirling-konto"
-noAuthorizeUrl = "Stirling returnerede ikke et sted at fortsætte. Prøv igen om et øjeblik."
-startFailed = "Kunne ikke nå Stirling for at starte forbindelsen. Tjek denne servers udgående netværksadgang, og prøv derefter igen."
+identity = "PaperRing-konto"
+linkTitle = "Forbind din PaperRing-konto"
+noAuthorizeUrl = "PaperRing returnerede ikke et sted at fortsætte. Prøv igen om et øjeblik."
+startFailed = "Kunne ikke nå PaperRing for at starte forbindelsen. Tjek denne servers udgående netværksadgang, og prøv derefter igen."
 transferPending = "En ejerskabsoverførsel afventer. Gå til Indstillinger → Brugere for at afslutte eller annullere den, og prøv derefter at tilknytte igen."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "så denne server kan fuldføre forbindelsen, når du kommer tilbage."
 and = "og"
 before = "Indstil"
-title = "Stirling-forbindelse ikke konfigureret"
+title = "PaperRing-forbindelse ikke konfigureret"
 
 [portal.accountLink.notice]
 openFailed = "Kunne ikke åbne din browser. Åbn Forbrug og fakturering på din forbundne server for at linke en konto."
@@ -8027,7 +8027,7 @@ viewAll = "Vis alle pipelines"
 
 [portal.accountLink.rail]
 adminCta = "Sådan får du flere kreditter"
-adminSub = "Bed din serveradministrator om at linke en Stirling-konto for at få flere kreditter. Manuelle PDF-værktøjer er stadig tilgængelige."
+adminSub = "Bed din serveradministrator om at linke en PaperRing-konto for at få flere kreditter. Manuelle PDF-værktøjer er stadig tilgængelige."
 exhaustedCta = "Link konto for flere kreditter"
 exhaustedSub = "Link for månedlige kreditter, delt fakturering og muligheden for at vokse med en Team-plan."
 exhaustedTitle = "Denne servers gratis kreditter er brugt op"
@@ -8041,9 +8041,9 @@ malformed = "Vi kunne ikke bekræfte dette log ind-svar. Start igen fra Forbrug 
 malformedTitle = "Kunne ikke bekræfte log ind"
 rejected = "Denne log ind-anmodning blev afvist eller er allerede blevet brugt. Prøv igen for at forny faktureringsadgang."
 rejectedTitle = "Log ind ikke fuldført"
-retry = "Stirling kunne ikke fuldføre fornyelsen af faktureringsadgang. Prøv igen om et øjeblik; din server er stadig forbundet."
+retry = "PaperRing kunne ikke fuldføre fornyelsen af faktureringsadgang. Prøv igen om et øjeblik; din server er stadig forbundet."
 retryTitle = "Faktureringsadgang ikke gendannet"
-success = "Din faktureringsadgang er blevet fornyet. Denne server er stadig forbundet til den samme Stirling-konto."
+success = "Din faktureringsadgang er blevet fornyet. Denne server er stadig forbundet til den samme PaperRing-konto."
 title = "Forny faktureringsadgang"
 working = "Gendanner faktureringsadgang."
 
@@ -8057,7 +8057,7 @@ close = "Luk assistent"
 error = "Kunne ikke nå assistenten."
 errorWithDetail = "Kunne ikke nå assistenten: {{detail}}"
 inputAriaLabel = "Spørg assistenten"
-inputPlaceholder = "Spørg om Stirling…"
+inputPlaceholder = "Spørg om PaperRing…"
 open = "Åbn assistent"
 send = "Send"
 title = "Assistent"
@@ -8102,7 +8102,7 @@ title = "Angiv din forbrugsgrænse"
 [portal.billing.checkout.card]
 fields = "Kortnummer · MM / ÅÅ · CVC · ZIP"
 label = "Kortoplysninger"
-note = "Kortoplysninger indsamles af Stripe. Stirling gemmer aldrig PAN eller CVC."
+note = "Kortoplysninger indsamles af Stripe. PaperRing gemmer aldrig PAN eller CVC."
 
 [portal.billing.checkout.error]
 title = "Kunne ikke starte checkout"
@@ -8180,7 +8180,7 @@ users = "Brugere"
 [portal.billing.enterprise]
 cta = "Få et enterprise-tilbud"
 sub = "Air-gapped udrulning, SCIM, data residency, uptime SLA'er og en aftale, der matcher."
-title = "Kører du Stirling i et reguleret miljø?"
+title = "Kører du PaperRing i et reguleret miljø?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Kunne ikke starte checkout"
@@ -8458,7 +8458,7 @@ description = "Hvor behandlede dokumenter ender - en bucket, et drev, en ticket 
 label = "Fil og vedhæft"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling gemmer dette krypteret og viser det aldrig igen."
+helperText = "PaperRing gemmer dette krypteret og viser det aldrig igen."
 label = "Adgangstoken"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Prøv igen"
 title = "Noget gik galt på denne side"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Intet matcher de aktuelle filtre"
 occurrences = "{{count}} forekomster"
 searchPlaceholder = "Søg i problemer, brugere og fejl"
@@ -9106,7 +9106,7 @@ description = "Denne server mangler software, som trinnet har brug for, så kør
 title = "Software ikke installeret"
 
 [portal.failures.kind.unknown]
-description = "Noget gik galt, som Stirling endnu ikke genkender."
+description = "Noget gik galt, som PaperRing endnu ikke genkender."
 title = "Ukendt problem"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "Åbn {{name}}-guiden"
 openInBrowser = "Åbn i browser i stedet"
 sectionDesktop = "Desktop-app"
 sectionSelfHosted = "Selvhostet"
-title = "Installer Stirling PDF Editor"
+title = "Installer PaperRing Editor"
 
 [portal.home.download.docker]
 detailBody = "Kør det officielle image på din server."
@@ -9224,7 +9224,7 @@ usageMonth = "Forbrug denne måned"
 usageToday = "Forbrug i dag"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Opret en nøgle for at begynde at kalde Stirling API."
+description = "Opret en nøgle for at begynde at kalde PaperRing API."
 title = "Ingen API-nøgler endnu"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Færdig"
 keyNameLabel = "Nøglenavn"
 keyNamePlaceholder = "f.eks. Produktionsindtag"
 secretKeyCaption = "Hemmelig nøgle"
-secretWarning = "Gem dette i en secrets manager. Stirling gemmer kun en hash, så der er ingen måde at gendanne det senere."
+secretWarning = "Gem dette i en secrets manager. PaperRing gemmer kun en hash, så der er ingen måde at gendanne det senere."
 subtitle = "Giv nøglen et navn, så du kan genkende den senere. Du kan tilbagekalde den når som helst."
 subtitleCreated = "Kopiér denne hemmelighed nu — den vises ikke igen."
 title = "Opret API-nøgle"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} forbindelse"
 connectionCount_other = "{{count}} forbindelser"
 customApi = "Brugerdefineret API"
 searchPlaceholder = "Søg efter integrationer"
-subtitle = "Alt, Stirling kan tale med. Legitimationsoplysninger oprettes én gang her og refereres derefter af kilder, politikker og pipelines."
+subtitle = "Alt, PaperRing kan tale med. Legitimationsoplysninger oprettes én gang her og refereres derefter af kilder, politikker og pipelines."
 title = "Integrationer"
 typedName = "{{tool}}-navn"
 
@@ -10183,8 +10183,8 @@ saveFailed = "Kunne ikke gemme pipelinen. Prøv igen."
 
 [portal.policies.wizard.locations]
 aiSettings = "Åbn AI-indstillinger"
-builtin = "Stirling-vidensbase"
-builtinHelp = "Indekserer søgbare chunks i Stirling og returnerer den behandlede PDF til destinationen nedenfor. En embedding-udbyder skal være konfigureret i AI-indstillinger."
+builtin = "PaperRing-vidensbase"
+builtinHelp = "Indekserer søgbare chunks i PaperRing og returnerer den behandlede PDF til destinationen nedenfor. En embedding-udbyder skal være konfigureret i AI-indstillinger."
 checking = "Tjekker ingestion-tilgængelighed..."
 chooseOutput = "Vælg en aktiveret outputdestination, før du gemmer."
 chooseSource = "Vælg, hvor dokumenter kommer fra"
@@ -10276,7 +10276,7 @@ title = "Intet flow endnu"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Forbind"
-editor = "Stirling PDF Editor"
+editor = "PaperRing Editor"
 heading = "Kilder"
 perDay = "{{n}} / 24 t"
 
@@ -10463,7 +10463,7 @@ gatingAction = "Accepter dit tilbud"
 label = "Tilbud"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Evaluer Stirling mod dine dokumenter og workflows."
+blurb = "Evaluer PaperRing mod dine dokumenter og workflows."
 gatingAction = "Byg dit tilbud"
 label = "Prøveperiode"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Dette er din prøvelicensfil. Når din aftale er på plads, ska
 
 [portal.procurement.link]
 cta = "Tilknyt konto"
-description = "Indkøb kører på din tilknyttede Stirling-konto: Det er sådan, vi klargør prøveperioden, prissætter dit tilbud og starter fakturering. Tilknyt en konto for at starte."
+description = "Indkøb kører på din tilknyttede PaperRing-konto: Det er sådan, vi klargør prøveperioden, prissætter dit tilbud og starter fakturering. Tilknyt en konto for at starte."
 eyebrow = "Enterprise"
 title = "Tilknyt din konto for at begynde"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Administreret, hurtigste start"
 continue = "Fortsæt"
 deployment = "Hvor skal det udrulles?"
-eula = "Jeg accepterer Stirling EULA & Commercial Terms."
+eula = "Jeg accepterer PaperRing EULA & Commercial Terms."
 fullName = "Fulde navn"
 fullNamePlaceholder = "Dit navn"
 invites = "Inviter teammedlemmer · valgfrit"
@@ -10565,7 +10565,7 @@ account-link = "Kontoforbindelse"
 [portal.shell.sidebar]
 appEditor = "Editor"
 appProcessor = "Processor"
-linkAccount = "Tilknyt Stirling-konto"
+linkAccount = "Tilknyt PaperRing-konto"
 primaryNav = "Primær navigation"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Søg"
 
 [portal.sources]
 processingModeHelp = "Sporing beholder originaler og behandler hver version én gang. Øjebliksbillede beholder originaler og behandler dem ved hver kørsel. Forbrug sletter originaler efter vellykket levering."
-subtitle = "Genanvendelige inputforbindelser, der sender dokumenter ind i Stirling. Konfigurer en kilde én gang, og henvis derefter til den fra et vilkårligt antal pipelines."
+subtitle = "Genanvendelige inputforbindelser, der sender dokumenter ind i PaperRing. Konfigurer en kilde én gang, og henvis derefter til den fra et vilkårligt antal pipelines."
 title = "Kilder"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Denne servers månedlige credits deles af alle på den, så kun en 
 barAria = "Resterende gratis credits"
 capSuffix_one = "af {{allowance}} gratis credit tilbage denne måned"
 capSuffix_other = "af {{allowance}} gratis credits tilbage denne måned"
-connect = "Tilslut en Stirling-konto"
+connect = "Tilslut en PaperRing-konto"
 connectBody = "Tilslutning tilføjer en ekstra månedlig kvote, øger antallet af brugere, denne server kan have, og aktiverer Processor."
-connectTitle = "Denne server har ingen Stirling-konto"
+connectTitle = "Denne server har ingen PaperRing-konto"
 loadError = "Kunne ikke læse denne servers creditforbrug. Prøv igen om lidt."
 loadErrorTitle = "Kunne ikke indlæse creditforbrug"
 resets = "Nulstilles {{date}}"
 
 [portal.usage.sessionExpired]
-body = "Din Stirling-kontosession er udløbet. Log ind igen for at se fakturering — din instans forbliver tilknyttet."
+body = "Din PaperRing-kontosession er udløbet. Log ind igen for at se fakturering — din instans forbliver tilknyttet."
 
 [portal.users]
 title = "Brugere"
@@ -11129,7 +11129,7 @@ files = "Filer"
 account = "Konto"
 docs = "Dokumentation"
 editor = "Editor"
-home = "Stirling"
+home = "PaperRing"
 invite = "Inviter"
 landmark = "Hurtig navigation"
 noProcessorAccess = "Bed en admin om adgang til processor"
@@ -11682,8 +11682,8 @@ hideTools = "Skjul utilgængelige værktøjer ▴"
 messageNoFallback = "Værktøjer er utilgængelige, indtil din server kommer online igen."
 messageWithFallback = "Nogle værktøjer kræver en serverforbindelse."
 showTools = "Vis utilgængelige værktøjer ▾"
-title = "Din Stirling-PDF-server kan ikke nås"
-toolNotAvailableLocally = "Din Stirling-PDF-server er offline, og \"{{endpoint}}\" er ikke tilgængelig på den lokale backend."
+title = "Din PaperRing-server kan ikke nås"
+toolNotAvailableLocally = "Din PaperRing-server er offline, og \"{{endpoint}}\" er ikke tilgængelig på den lokale backend."
 
 [session]
 expired = "Din sesions tid har udløbet. Genlad siden og prøv igen."
@@ -11755,7 +11755,7 @@ unknown = "Ikke tilgængelig"
 yourTeam = "Dit team"
 
 [settings.connection]
-description = "Arbejd lokalt på denne maskine, eller tilslut appen til en Stirling-server."
+description = "Arbejd lokalt på denne maskine, eller tilslut appen til en PaperRing-server."
 localDescription = "Du bruger den lokale backend uden en konto. Nogle værktøjer, der kræver cloud-behandling eller en selvhostet server, er ikke tilgængelige."
 logout = "Log ud"
 server = "Server"
@@ -11770,7 +11770,7 @@ selfhosted = "Selvhostet"
 
 [settings.developer]
 apiKeys = "API-nøgler"
-apiKeysDescription = "Personlige nøgler til at kalde Stirling API fra scripts og integrationer."
+apiKeysDescription = "Personlige nøgler til at kalde PaperRing API fra scripts og integrationer."
 title = "Udvikler"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Grænse for auto-udpakning"
 autoUnzipFileLimitTooltip = "Pak kun ud, hvis ZIP'en indeholder dette antal filer eller færre. Sæt højere for at udpakke større ZIP'er."
 autoUnzipTooltip = "Udpak automatisk ZIP-filer returneret fra API-operationer. Deaktivér for at beholde ZIP-filer intakte. Dette påvirker ikke automatiseringsarbejdsgange."
 defaultPdfEditor = "Standard PDF-editor"
-defaultPdfEditorActive = "Stirling PDF er din standard PDF-editor"
+defaultPdfEditorActive = "PaperRing er din standard PDF-editor"
 defaultPdfEditorChecking = "Tjekker..."
 defaultPdfEditorInactive = "En anden app er sat som standard"
 defaultPdfEditorSet = "Allerede standard"
@@ -11849,7 +11849,7 @@ updateBehavior = "Opdateringsadfærd"
 updateBehaviorDescription = "Vælg om du vil spørges før installation af opdateringer, installere dem automatisk eller helt springe søgning efter opdateringer over."
 updateBehaviorError = "Kunne ikke ændre opdateringsadfærd"
 updateBehaviorErrorLocked = "Denne indstilling er låst af din administrator."
-updateBehaviorLockedDescription = "Din administrator har konfigureret, hvordan Stirling-PDF håndterer opdateringer på denne maskine. Kontakt dem for at ændre dette."
+updateBehaviorLockedDescription = "Din administrator har konfigureret, hvordan PaperRing håndterer opdateringer på denne maskine. Kontakt dem for at ændre dette."
 updateBehaviorSaved = "Opdateringsadfærd gemt."
 versionMismatch = "Din desktopapplikation og server kører forskellige versioner. Opdater begge til samme version for at undgå kompatibilitetsproblemer."
 viewDetails = "Vis detaljer"
@@ -12074,7 +12074,7 @@ emptyUsername = "Indtast dit brugernavn"
 oauthFailed = "OAuth-login mislykkedes. Prøv igen."
 
 [setup.saas]
-title = "Log ind på Stirling"
+title = "Log ind på PaperRing"
 
 [setup.selfhosted]
 changeServerLocked = "Din organisation har begrænset denne app til en specifik server"
@@ -12120,7 +12120,7 @@ step3 = "Genstart serveren"
 title = "Login ikke aktiveret"
 
 [setup.server.url]
-description = "Indtast den fulde URL til din selvhostede Stirling PDF-server"
+description = "Indtast den fulde URL til din selvhostede PaperRing-server"
 label = "Server-URL"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Udfyld alle felter"
 signUp = "Tilmeld dig"
 signUpWith = "Tilmeld dig med"
 skip = "Spring over"
-subtitle = "Tilmeld dig Stirling PDF for at komme i gang"
+subtitle = "Tilmeld dig PaperRing for at komme i gang"
 title = "Opret en konto"
 unableToAccessTool = "Kan ikke få adgang til værktøj: {{error}}"
 unexpectedError = "Uventet fejl: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Download"
 downloaded = "Hentet"
 downloadFailed = "Kan ikke downloade denne fil."
 downloadsCount = "Downloads: {{count}}"
-emailWarningBody = "Dette ligner en e-mailadresse. Hvis denne person ikke allerede er Stirling PDF-bruger, vil vedkommende ikke kunne få adgang til filen."
+emailWarningBody = "Dette ligner en e-mailadresse. Hvis denne person ikke allerede er PaperRing-bruger, vil vedkommende ikke kunne få adgang til filen."
 emailWarningConfirm = "Del alligevel"
 emailWarningTitle = "E-mailadresse"
 errorTitle = "Deling mislykkedes"
@@ -12887,7 +12887,7 @@ manageTitle = "Administrer deling"
 noActivity = "Ingen aktivitet endnu."
 noLinks = "Ingen aktive delingslinks endnu."
 noSharedUsers = "Ingen brugere har adgang endnu."
-openInApp = "Åbn i Stirling PDF"
+openInApp = "Åbn i PaperRing"
 ownerLabel = "Ejer"
 ownerUnknown = "Ukendt"
 removeLink = "Fjern link"
@@ -12945,7 +12945,7 @@ all = "Alle"
 ariaLabel = "Supersøgning"
 filtersAriaLabel = "Søgefiltre"
 hint = "Skriv for at søge"
-placeholder = "Søg i Stirling"
+placeholder = "Søg i PaperRing"
 placeholderShort = "Søg"
 showLess = "Vis mindre"
 showMore = "Vis {{count}} flere"
@@ -12959,7 +12959,7 @@ settings = "Indstillinger"
 tools = "Værktøjer"
 
 [survey]
-title = "Stirling-PDF-undersøgelse"
+title = "PaperRing-undersøgelse"
 
 [swagger]
 clickHere = "klik her"
@@ -13128,7 +13128,7 @@ favorites = "Favoritter"
 heading = "Alle værktøjer (fuldskærmsvisning)"
 noResults = "Prøv at justere din søgning eller slå beskrivelser til for at finde det, du har brug for."
 recommended = "Anbefalet"
-selfHostedOffline = "Kræver din Stirling-PDF-server (i øjeblikket offline):"
+selfHostedOffline = "Kræver din PaperRing-server (i øjeblikket offline):"
 showDetails = "Vis detaljer"
 unavailable = "Deaktiveret af serveradministrator:"
 unavailableDependency = "Ikke tilgængelig – påkrævet værktøj mangler på serveren:"
@@ -13137,7 +13137,7 @@ unfavorite = "Fjern fra favoritter"
 [toolPanel.modePrompt]
 chooseFullscreen = "Brug fuldskærmstilstand"
 chooseSidebar = "Brug sidepanel-tilstand"
-description = "Forhåndsvis begge layouts og beslæt, hvordan du vil udforske Stirling PDF-værktøjer."
+description = "Forhåndsvis begge layouts og beslæt, hvordan du vil udforske PaperRing-værktøjer."
 dismiss = "Måske senere"
 fullscreenDescription = "Gennemse alle værktøjer i et katalog, der dækker arbejdsområdet, indtil du vælger et."
 fullscreenTitle = "Fuldskærmstilstand - (forældet)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Indlæser detaljerede oplysninger..."
 migrationGuide = "Migrationsvejledning"
 migrationGuides = "Migrationsvejledninger"
 migrationGuidesDesc = "Gennemgå vigtige ændringer før opdatering."
-modalSubtitle = "En ny version af Stirling PDF er klar til installation."
+modalSubtitle = "En ny version af PaperRing er klar til installation."
 modalTitle = "Opdatering tilgængelig"
 notes = "Noter"
 releaseNotes = "Udgivelsesnoter"
@@ -13230,7 +13230,7 @@ urgent = "Hastende"
 attentionBody = "Din admin skal logge ind for at se flere oplysninger. Kontakt dem straks."
 attentionBodyAdmin = "Gennemgå licenskravene for at holde denne server i overensstemmelse."
 attentionTitle = "Denne server kræver admin-opmærksomhed"
-message = "Få mest ud af Stirling PDF med 100 brugere, PDF-tekstredigering og avancerede funktioner"
+message = "Få mest ud af PaperRing med 100 brugere, PDF-tekstredigering og avancerede funktioner"
 seeInfo = "Se info"
 title = "Opgrader til Team-abonnementet"
 upgradeButton = "Opgrader nu"
@@ -13368,7 +13368,7 @@ authWeb = "Adgangskode"
 create = "Opret konto"
 createSubtitle = "Opret en self-hosted konto med en adgangskode eller SSO."
 createTitle = "Opret konto"
-editorDesc = "Rediger PDFs i Stirling PDF Editor. Alle får dette."
+editorDesc = "Rediger PDFs i PaperRing Editor. Alle får dette."
 email = "E-mailadresse"
 emailError = "Indtast en gyldig e-mailadresse"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Invitation sendt, men Processor-adgang kunne ikke tildeles 
 processorDesc = "Styringsfladen, kør pipelines, agents og API."
 role = "Rolle"
 send2 = "Send invitation"
-subtitle2 = "De får en e-mail for at deltage i dit Stirling-arbejdsområde."
+subtitle2 = "De får en e-mail for at deltage i dit PaperRing-arbejdsområde."
 team = "Team"
 title = "Inviter personer"
 username = "Brugernavn"
@@ -13525,7 +13525,7 @@ downloads = "Downloads"
 entryLabel = "Signaturoversigt"
 filesEvaluated_one = "{{count}} fil evalueret"
 filesEvaluated_other = "{{count}} filer evalueret"
-footer = "Valideret via Stirling PDF"
+footer = "Valideret via PaperRing"
 generatedAt = "Genereret"
 noPdf = "PDF-rapport vil være tilgængelig efter en vellykket validering."
 page = "Side"
@@ -13718,7 +13718,7 @@ text = "Tekst"
 addFile = "Tilføj fil"
 count_one = "{{count}} fil i denne portfolio"
 count_other = "{{count}} filer i denne portfolio"
-import = "Importer til Stirling"
+import = "Importer til PaperRing"
 importFailed = "Denne fil kunne ikke føjes til dit arbejdsområde."
 memberUnavailable = "Denne fil kunne ikke læses fra portfolioen."
 preview = "Forhåndsvisning"

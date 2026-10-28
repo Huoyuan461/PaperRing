@@ -16,7 +16,7 @@ export const Default: Story = {
     obj: {
       Title: "Sample Document",
       Author: "Jane Doe",
-      Producer: "Stirling-PDF",
+      Producer: "PaperRing",
       CreationDate: "2026-01-15",
     },
   },

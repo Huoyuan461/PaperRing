@@ -55,7 +55,7 @@ keepWorking = "Nastavi raditi"
 loading = "Učitavanje..."
 loginAgreementAccept = "Prihvati"
 loginAgreementDecline = "Odbij"
-loginAgreementProvider = "Ovu obavijest pruža vaš administrator, a ne Stirling PDF Inc."
+loginAgreementProvider = "Ovu obavijest pruža vaš administrator, a ne PaperRing"
 loginAgreementTitle = "Ugovor o prijavi"
 logOut = "Odjava"
 marginTooltip = "Udaljenost između broja stranice i ruba stranice."
@@ -668,8 +668,8 @@ description = "Maksimalno vrijeme izvođenja"
 label = "Vrijeme isteka (minute)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert je u beta verziji. Nudi bolje i brže pretvorbe uz manje memorije nego LibreOffice."
-label = "Koristi novu Stirling Office pretvorbu"
+description = "PaperRing Office Convert je u beta verziji. Nudi bolje i brže pretvorbe uz manje memorije nego LibreOffice."
+label = "Koristi novu PaperRing Office pretvorbu"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Konfigurirajte pohranu privremenih datoteka i ponašanje čišćenja"
@@ -736,7 +736,7 @@ permissionNotice = "Putanja do tessdata nije zapisiva. Preuzimanja će se otvori
 
 [admin.settings.ai]
 customProvider = "Prilagođeno (kompatibilno s OpenAI)"
-description = "Povežite Stirling s Python AI mehanizmom, odaberite njegove modele i postavite zaštitna pravila pod kojima radi."
+description = "Povežite PaperRing s Python AI mehanizmom, odaberite njegove modele i postavite zaštitna pravila pod kojima radi."
 managedByCloud = "U ovom načinu rada upravlja Stirling Cloud."
 managedByCloudShort = "Upravlja Stirling Cloud"
 
@@ -837,9 +837,9 @@ label = "Gdje se AI izvodi"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Nema kontejnera, nema ključa pružatelja, nema odabira modela - posao se izvodi na Stirling Cloud i naplaćuje se računu s kojim je ovaj poslužitelj povezan."
-linkCta = "Poveži ovaj poslužitelj sa Stirling računom"
+linkCta = "Poveži ovaj poslužitelj sa PaperRing računom"
 notLinked = "Najprije povežite račun"
-ownerOnly = "Samo vlasnik organizacije može povezati ovaj poslužitelj sa Stirling računom."
+ownerOnly = "Samo vlasnik organizacije može povezati ovaj poslužitelj sa PaperRing računom."
 title = "Koristi Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Pokrenite vlastiti mehanizam"
 
 [admin.settings.ai.general.note]
 docs = "Vodič za postavljanje"
-intro = "Zaseban kontejner koji pokrećete uz Stirling. On obavlja zaključivanje; Stirling i dalje sam obavlja svaku operaciju sa stranicama. Potreban mu je isti"
+intro = "Zaseban kontejner koji pokrećete uz PaperRing. On obavlja zaključivanje; PaperRing i dalje sam obavlja svaku operaciju sa stranicama. Potreban mu je isti"
 outro = "na oba kontejnera i ključ pružatelja modela. Sve što AI čita šalje se pružatelju kojeg odaberete - Ollama koju hostate zadržava svaku stranicu interno."
 title = "O AI engineu"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Unesite potvrdni kod za nastavak"
 confirmImport = "Potvrdi uvoz"
 confirmImportTitle = "Potvrdite uvoz baze podataka"
 connection = "Veza"
-connectionDescription = "Usmjerite Stirling na vanjsku bazu podataka umjesto ugrađene."
+connectionDescription = "Usmjerite PaperRing na vanjsku bazu podataka umjesto ugrađene."
 createBackup = "Izradi sigurnosnu kopiju"
 created = "Stvoreno"
 delete = "Izbriši"
@@ -1224,11 +1224,11 @@ description = "Konfigurirajte opcionalne značajke i funkcionalnosti."
 title = "Značajke"
 
 [admin.settings.features.serverCertificate]
-description = "Generirajte certifikat koji podržava značajku potpisivanja „Sign with Stirling-PDF”."
+description = "Generirajte certifikat koji podržava značajku potpisivanja „Sign with PaperRing”."
 label = "Potpisivanje certifikatom"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Ponudi „Sign with Stirling-PDF” koristeći certifikat koji ovaj poslužitelj generira"
+description = "Ponudi „Sign with PaperRing” koristeći certifikat koji ovaj poslužitelj generira"
 label = "Omogući potpisivanje certifikatom"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1249,7 +1249,7 @@ securityNote = "Ostavite prazno za potpuno onemogućavanje izvora mapa i izlaza.
 title = "Pristup mapama"
 
 [admin.settings.folderAccess.implied]
-description = "Ovi direktoriji kojima upravlja Stirling uvijek su dopušteni i ovdje se ne mogu mijenjati."
+description = "Ovi direktoriji kojima upravlja PaperRing uvijek su dopušteni i ovdje se ne mogu mijenjati."
 serverStorage = "Pohrana datoteka na poslužitelju"
 title = "Uvijek dopušteno"
 watchedFolder = "Praćena mapa pipelinea"
@@ -1390,7 +1390,7 @@ description = "URL ili naziv datoteke za pravila o kolačićima"
 label = "Pravila o kolačićima"
 
 [admin.settings.legal.disclaimer]
-message = "Prilagođavanjem ovih pravnih dokumenata preuzimate punu odgovornost za osiguranje usklađenosti sa svim primjenjivim zakonima i propisima, uključujući, ali ne ograničavajući se na GDPR i druge zahtjeve EU zaštite podataka. Mijenjajte ove postavke samo ako: (1) upravljate osobnom/privatnom instancom, (2) izvan ste nadležnosti EU-a i razumijete svoje lokalne pravne obveze, ili (3) ste pribavili odgovarajući pravni savjet i prihvaćate isključivu odgovornost za sve korisničke podatke i pravnu usklađenost. Stirling-PDF i njegovi razvojni programeri ne preuzimaju nikakvu odgovornost za vaše pravne obveze."
+message = "Prilagođavanjem ovih pravnih dokumenata preuzimate punu odgovornost za osiguranje usklađenosti sa svim primjenjivim zakonima i propisima, uključujući, ali ne ograničavajući se na GDPR i druge zahtjeve EU zaštite podataka. Mijenjajte ove postavke samo ako: (1) upravljate osobnom/privatnom instancom, (2) izvan ste nadležnosti EU-a i razumijete svoje lokalne pravne obveze, ili (3) ste pribavili odgovarajući pravni savjet i prihvaćate isključivu odgovornost za sve korisničke podatke i pravnu usklađenost. PaperRing i njegovi razvojni programeri ne preuzimaju nikakvu odgovornost za vaše pravne obveze."
 title = "Upozorenje o pravnoj odgovornosti"
 
 [admin.settings.legal.impressum]
@@ -1478,7 +1478,7 @@ description = "Korisničko ime za SMTP autentikaciju"
 label = "SMTP korisničko ime"
 
 [admin.settings.mcp]
-apikeyNote = "Klijenti šalju Stirling API ključ u zaglavlju X-API-KEY (ili Authorization: Bearer <key>). Ključ se mapira na svog vlasnika, Stirling korisnika - pristup dobivaju samo pripremljeni računi, a radnje se bilježe kao taj korisnik. Ključevima upravljajte pod Račun > API ključevi."
+apikeyNote = "Klijenti šalju PaperRing API ključ u zaglavlju X-API-KEY (ili Authorization: Bearer <key>). Ključ se mapira na svog vlasnika, PaperRing korisnika - pristup dobivaju samo pripremljeni računi, a radnje se bilježe kao taj korisnik. Ključevima upravljajte pod Račun > API ključevi."
 description = "Izložite Stirlingove PDF alate i AI agente MCP klijentima preko endpointa zaštićenog OAuthom."
 title = "MCP poslužitelj"
 
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "zaglavlju (ili Authorization: Bearer <key>). Ne koristi se OAuth
 step4 = "Odobrite prijavu; klijent ponovno pokušava s tokenom. Alati se prikazuju grupirani: convert, pages, misc, security, ai."
 step4ApiKey = "Alati se prikazuju grupirani: convert, pages, misc, security, ai - i svaki poziv bilježi se kao vlasnik ključa."
 tip = "Savjet: registrirajte resource ID kao dopuštenu publiku u svom IdP-u. Testirano s MCP Inspector i Claude Desktop."
-tipApiKey = "Savjet: način s API ključem ne treba vanjski IdP - najjednostavnije za self-host. Ključ se mapira na svog vlasnika, Stirling korisnika."
+tipApiKey = "Savjet: način s API ključem ne treba vanjski IdP - najjednostavnije za self-host. Ključ se mapira na svog vlasnika, PaperRing korisnika."
 title = "Povežite MCP klijent"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (neobavezno)"
 placeholder = "Automatski otkriveno od izdavatelja"
 
 [admin.settings.mcp.mode]
-apikey = "API ključ (Stirling ključ po korisniku)"
-description = "OAuth treba vanjski IdP. API ključ koristi Stirling API ključ po korisniku (X-API-KEY) - najjednostavnije za self-host."
+apikey = "API ključ (PaperRing ključ po korisniku)"
+description = "OAuth treba vanjski IdP. API ključ koristi PaperRing API ključ po korisniku (X-API-KEY) - najjednostavnije za self-host."
 label = "Način autentikacije"
 oauth = "OAuth 2.1 (vanjski IdP)"
 
 [admin.settings.mcp.requireAccount]
-description = "Propusti tokene samo ako se njihov subjekt mapira na pripremljenog, omogućenog Stirling korisnika."
-label = "Zahtijevaj postojeći Stirling račun"
+description = "Propusti tokene samo ako se njihov subjekt mapira na pripremljenog, omogućenog PaperRing korisnika."
+label = "Zahtijevaj postojeći PaperRing račun"
 
 [admin.settings.mcp.resourceId]
 description = "Javni /mcp URL ovog poslužitelja. Tokeni ga moraju navesti u svojoj publici (RFC 8707) ili će biti odbijeni."
@@ -1540,7 +1540,7 @@ description = "Zahtijevaj mcp.tools.read za operacije čitanja i mcp.tools.write
 label = "Provedi OAuth opsege"
 
 [admin.settings.mcp.usernameClaim]
-description = "JWT claim koji se podudara sa Stirling korisničkim imenom (npr. sub, email, preferred_username)."
+description = "JWT claim koji se podudara sa PaperRing korisničkim imenom (npr. sub, email, preferred_username)."
 label = "Claim korisničkog imena"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Kad je omogućeno, samo navedeni korisnički ID-jevi mogu koristi
 label = "Dopusti određene korisničke ID-jeve"
 
 [admin.settings.telegram.enabled]
-description = "Dopustite korisnicima interakciju sa Stirling PDF-om putem konfiguriranog Telegram bota."
+description = "Dopustite korisnicima interakciju sa PaperRing-om putem konfiguriranog Telegram bota."
 label = "Omogući Telegram bot"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Ovo je <strong>Panel postavki</strong>. Administratorske pos
 systemCustomization = "Imamo opsežne načine za prilagodbu sučelja: <strong>Postavke sustava</strong> omogućuju promjenu naziva aplikacije i jezika, <strong>Značajke</strong> omogućuju upravljanje certifikatima poslužitelja, a <strong>Krajnje točke</strong> omogućuju uključivanje ili isključivanje pojedinih alata za vaše korisnike."
 teamsAndUsers = "Ovdje upravljajte <strong>timovima</strong> i pojedinačnim korisnicima. Možete pozvati nove korisnike putem e-pošte, dijeljivih poveznica ili im sami stvoriti prilagođene račune."
 welcome = "Dobrodošli u <strong>Administratorski obilazak</strong>! Istražimo moćne korporativne značajke i postavke dostupne administratorima sustava."
-wrapUp = "To je kraj administratorskog obilaska! Vidjeli ste enterprise značajke koje Stirling PDF čine snažnim, prilagodljivim rješenjem za organizacije. Možete ga ponoviti bilo kada - samo otvorite <strong>Postavke</strong> i pronađite ga ovdje u odjeljku <strong>Obilasci</strong> pod Pomoć."
+wrapUp = "To je kraj administratorskog obilaska! Vidjeli ste enterprise značajke koje PaperRing čine snažnim, prilagodljivim rješenjem za organizacije. Možete ga ponoviti bilo kada - samo otvorite <strong>Postavke</strong> i pronađite ga ovdje u odjeljku <strong>Obilasci</strong> pod Pomoć."
 
 [adminUserSettings]
 admin = "Administrator"
 title = "Postavka kontrole korisnika"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arapski"
@@ -1952,9 +1952,9 @@ thai = "Tajlandski"
 
 [analytics]
 learnMore = "Saznajte više o našoj analitici"
-paragraph1 = "Stirling PDF ima opt-in analitiku koja nam pomaže poboljšati proizvod. Ne pratimo nikakve osobne podatke ni sadržaj datoteka."
-paragraph2 = "Razmotrite omogućivanje analitičkih podataka kako biste stvorili Stirling-PDF veće i da bismo bolje razumeli naših korisnika."
-title = "Želite li pomoći da Stirling PDF bude bolji?"
+paragraph1 = "PaperRing ima opt-in analitiku koja nam pomaže poboljšati proizvod. Ne pratimo nikakve osobne podatke ni sadržaj datoteka."
+paragraph2 = "Razmotrite omogućivanje analitičkih podataka kako biste stvorili PaperRing veće i da bismo bolje razumeli naših korisnika."
+title = "Želite li pomoći da PaperRing bude bolji?"
 
 [annotate]
 tags = "komentiraj,istakni,crtaj,označavanje,komentar,bilješke,pregled,redline,povratne informacije,alati za označavanje,ljepljive bilješke,oblici,strelice,tekstni okvir,slobodno crtanje"
@@ -2902,9 +2902,9 @@ typeSignature = "Upišite svoje ime da biste izradili potpis"
 uploadCert = "Učitaj certifikat"
 uploadCertDesc = "Upotrijebite vlastiti PKCS12, PFX, PEM ili JKS certifikat."
 uploadSignature = "Prenesite sliku svog potpisa"
-usePersonalCert = "Stirling Sign · Osobno"
+usePersonalCert = "PaperRing Sign · Osobno"
 usePersonalCertDesc = "Potpišite certifikatom izrađenim za vaš račun."
-useServerCert = "Stirling Sign · Organizacija"
+useServerCert = "PaperRing Sign · Organizacija"
 useServerCertDesc = "Potpišite zajedničkim organizacijskim certifikatom ovog servera."
 useSignature = "Upotrijebi potpis"
 
@@ -3224,10 +3224,10 @@ text = "Postavite pitanje o svojim dokumentima ili zatražite pomoć s PDF alati
 
 [chat.fab]
 close = "Zatvori chat"
-open = "Otvori Stirling AI asistenta"
+open = "Otvori PaperRing AI asistenta"
 
 [chat.header]
-agentMenu = "Opcije Stirling agenta"
+agentMenu = "Opcije PaperRing agenta"
 assistant = "AI asistent"
 clearChat = "Obriši chat"
 
@@ -3587,8 +3587,8 @@ label = "Dokumenti prema vrsti: {{summary}}"
 noTypes = "Ovi dokumenti ne odgovaraju poznatoj vrsti."
 
 [classificationDemo.defaultApp]
-body = "Postavite Stirling kao zadanu PDF aplikaciju. Svaki PDF koji otvorite, iz e-pošte, preglednika ili radne površine, stiže ovdje, spreman za čitanje ili uređivanje. To možete promijeniti bilo kada u Postavkama."
-cta = "Postavi Stirling kao zadani"
+body = "Postavite PaperRing kao zadanu PDF aplikaciju. Svaki PDF koji otvorite, iz e-pošte, preglednika ili radne površine, stiže ovdje, spreman za čitanje ili uređivanje. To možete promijeniti bilo kada u Postavkama."
+cta = "Postavi PaperRing kao zadani"
 title = "Otvorite svaki PDF u Stirlingu"
 
 [classificationDemo.followUp]
@@ -3604,7 +3604,7 @@ other = "Ostalo"
 body = "Klasificirajte i organizirajte {{count}} najnovijih PDF datoteka u mapi Preuzimanja prema vrsti."
 cta = "Obradi moju mapu Preuzimanja"
 privacy = "Vaše PDF datoteke ostaju na ovom uređaju. Vaš povezani poslužitelj bilježi upotrebu obrade."
-title = "Pogledajte što Stirling može učiniti s cijelom mapom"
+title = "Pogledajte što PaperRing može učiniti s cijelom mapom"
 
 [classificationDemo.phase]
 finishing = "Završavanje..."
@@ -3618,10 +3618,10 @@ counts = "od {{total}} PDF datoteka obrađeno"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF datoteka"
-failedBody = "Stirling nije mogao pročitati vašu mapu Preuzimanja. Ništa na vašem računalu nije promijenjeno."
+failedBody = "PaperRing nije mogao pročitati vašu mapu Preuzimanja. Ništa na vašem računalu nije promijenjeno."
 failedTitle = "To nije dovršeno"
 heading = "Vaša Preuzimanja, sortirana"
-summary = "Stirling je pročitao {{documents}} i sortirao ih u {{types}}."
+summary = "PaperRing je pročitao {{documents}} i sortirao ih u {{types}}."
 typeCount_one = "{{count}} vrsta"
 typeCount_other = "{{count}} vrsta"
 
@@ -3948,13 +3948,13 @@ upgradeButton = "Nadogradi račun"
 [config.apiKeys]
 copyKeyAriaLabel = "Kopiraj API ključ"
 description = "Vaš API ključ za pristup Stirlingovom paketu PDF alata. Kopirajte ga u svoj projekt ili osvježite za generiranje novog."
-docsDescription = "Saznajte više o integraciji sa Stirling PDF:"
+docsDescription = "Saznajte više o integraciji sa PaperRing:"
 docsLink = "API dokumentacija"
 docsTitle = "API dokumentacija"
 generateError = "Nismo mogli generirati vaš API ključ."
 goToAccount = "Idi na račun"
 guestInfo = "Gostujući korisnici ne dobivaju API ključeve. Izradite račun kako biste dobili API ključ koji možete koristiti u svojim aplikacijama."
-intro = "Upotrijebite svoj API ključ za programatski pristup Stirling PDF mogućnostima obrade."
+intro = "Upotrijebite svoj API ključ za programatski pristup PaperRing mogućnostima obrade."
 label = "API ključ"
 publicKeyAriaLabel = "Javni API ključ"
 refreshAriaLabel = "Osvježi API ključ"
@@ -3978,10 +3978,10 @@ title = "Osvježi API ključeve"
 warning = "⚠️ Upozorenje: Ova radnja generirat će nove API ključeve i učiniti vaše prethodne ključeve nevažećima."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) omogućuje AI asistentima poput Claudea da izravno koriste vaše Stirling PDF alate. Povežite klijenta jednom i vaš asistent može u vaše ime pretvarati, uređivati, osiguravati i obrađivati dokumente."
-guestInfo = "Gosti ne mogu povezati MCP klijente. Izradite račun za korištenje MCP poslužitelja i omogućite svom AI asistentu pokretanje Stirling PDF alata u vaše ime."
+description = "Model Context Protocol (MCP) omogućuje AI asistentima poput Claudea da izravno koriste vaše PaperRing alate. Povežite klijenta jednom i vaš asistent može u vaše ime pretvarati, uređivati, osiguravati i obrađivati dokumente."
+guestInfo = "Gosti ne mogu povezati MCP klijente. Izradite račun za korištenje MCP poslužitelja i omogućite svom AI asistentu pokretanje PaperRing alata u vaše ime."
 navLabel = "MCP poslužitelj"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Prikaži API ključeve"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Vaš MCP endpoint"
 
 [config.mcp.setup]
 addTo = "Dodaj u"
-hint = "Odaberite svoj klijent, zalijepite isječak u prikazanu datoteku, a zatim ga ponovno pokrenite. Pri prvoj upotrebi prijavit ćete se svojim Stirling računom - nema ključeva za kopiranje."
+hint = "Odaberite svoj klijent, zalijepite isječak u prikazanu datoteku, a zatim ga ponovno pokrenite. Pri prvoj upotrebi prijavit ćete se svojim PaperRing računom - nema ključeva za kopiranje."
 title = "Povežite svog AI asistenta"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Korak {{current}} od {{total}}"
 [connect.confirm]
 acknowledge = "Prepoznajem ovu adresu i želim je povezati sa svojim timom"
 approve = "Poveži poslužitelj"
-cannotDecide = "Samo vlasnik tima može odobriti ili odbiti ovu vezu. Upotrijebite drugi račun ili odbacite ovaj upit da biste nastavili koristiti Stirling."
+cannotDecide = "Samo vlasnik tima može odobriti ili odbiti ovu vezu. Upotrijebite drugi račun ili odbacite ovaj upit da biste nastavili koristiti PaperRing."
 deny = "Odbij"
 dismiss = "Odbaci"
-lead = "Stirling poslužitelj traži povezivanje s vašim timom. Prije odobrenja provjerite je li adresa u nastavku vaša."
+lead = "PaperRing poslužitelj traži povezivanje s vašim timom. Prije odobrenja provjerite je li adresa u nastavku vaša."
 originLabel = "Adresa"
 signedInAs = "Prijavljeni kao"
 switchAccount = "Upotrijebi drugi račun"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Najprije odaberite izvorni format"
 settings = "Postavke"
 single = "Jedan"
 sourceFormatPlaceholder = "Izvorni format"
-stirlingOfficeConvert = "Koristi Stirling Office Convert (beta)"
+stirlingOfficeConvert = "Koristi PaperRing Office Convert (beta)"
 stirlingOfficeConvertDescription = "Bolje i brže pretvorbe uz manje memorije. Isključite za korištenje standardnog pretvarača."
 strictMode = "Strogi način"
 strictModeDesc = "Pogreška ako pretvorba nije savršena (koristi VeraPDF provjeru)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Upravljajte preferencijama"
 title = "Kako koristimo kolačiće"
 
 [cookieBanner.popUp.description]
-1 = "Koristimo kolačiće i druge tehnologije kako bi Stirling PDF bolje radio za vas - pomažu nam poboljšati alate i nastaviti graditi značajke koje ćete voljeti."
+1 = "Koristimo kolačiće i druge tehnologije kako bi PaperRing bolje radio za vas - pomažu nam poboljšati alate i nastaviti graditi značajke koje ćete voljeti."
 2 = "Ako to radije ne želite, klik na „Ne hvala” omogućit će samo nužne kolačiće potrebne da sve radi glatko."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Upotreba kolačića"
 title = "Centar preferencija privole"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Ovi kolačići pomažu nam razumjeti kako se naši alati koriste, kako bismo se mogli usredotočiti na izradu značajki koje naša zajednica najviše cijeni. Budite sigurni - Stirling PDF ne može i nikada neće pratiti sadržaj dokumenata s kojima radite."
+description = "Ovi kolačići pomažu nam razumjeti kako se naši alati koriste, kako bismo se mogli usredotočiti na izradu značajki koje naša zajednica najviše cijeni. Budite sigurni - PaperRing ne može i nikada neće pratiti sadržaj dokumenata s kojima radite."
 title = "Analitika"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF koristi kolačiće i slične tehnologije za poboljšanje vašeg iskustva i razumijevanje kako se naši alati koriste. To nam pomaže poboljšati performanse, razviti značajke do kojih vam je stalo i pružati stalnu podršku našim korisnicima."
-2 = "Stirling PDF ne može - i nikada neće - pratiti niti pristupiti sadržaju dokumenata koje koristite."
+1 = "PaperRing koristi kolačiće i slične tehnologije za poboljšanje vašeg iskustva i razumijevanje kako se naši alati koriste. To nam pomaže poboljšati performanse, razviti značajke do kojih vam je stalo i pružati stalnu podršku našim korisnicima."
+2 = "PaperRing ne može - i nikada neće - pratiti niti pristupiti sadržaju dokumenata koje koristite."
 3 = "Vaša privatnost i povjerenje u središtu su svega što radimo."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Nije uspjelo postaviti zadanu aplikaciju za PDF"
 title = "Pogreška"
 
 [defaultApp.settingsOpened]
-message = "U postavkama sustava Windows potražite 'PDF' i odaberite Stirling PDF kao zadanu aplikaciju"
+message = "U postavkama sustava Windows potražite 'PDF' i odaberite PaperRing kao zadanu aplikaciju"
 title = "Otvorene postavke"
 
 [defaultApp.success]
-message = "Stirling PDF je sada vaš zadani PDF uređivač"
+message = "PaperRing je sada vaš zadani PDF uređivač"
 title = "Zadana aplikacija postavljena"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Minimiziraj"
 restore = "Vrati"
 
 [desktopBilling]
-description = "Upravljajte upotrebom i naplatom u pregledniku. Prijavite se istim Stirling računom koji koristite ovdje."
+description = "Upravljajte upotrebom i naplatom u pregledniku. Prijavite se istim PaperRing računom koji koristite ovdje."
 open = "Otvori upotrebu i naplatu u pregledniku"
 openFailed = "Nije moguće otvoriti upotrebu i naplatu. Provjerite vezu i pokušajte ponovno."
 selfHostedDescription = "Upravljajte upotrebom i naplatom na povezanom poslužitelju u pregledniku. Prijavite se računom vlasnika poslužitelja."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Nije uspjelo preuzimanje ili instalacija ažuriranja."
 
 [desktopUpdate.blocked]
 docsLink = "Pogledaj dokumentaciju za instalaciju"
-message = "Stirling-PDF nema dopuštenje za samostalno ažuriranje na ovom računalu."
+message = "PaperRing nema dopuštenje za samostalno ažuriranje na ovom računalu."
 title = "Potrebna su administratorska dopuštenja"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Preimenuj"
 title = "Preimenuj datoteku"
 
 [filesPage]
-addedToLibrary = "Dodano u Stirling biblioteku"
-addingToLibrary = "Dodavanje u Stirling biblioteku…"
-addToLibrary = "Dodaj u Stirling biblioteku…"
+addedToLibrary = "Dodano u PaperRing biblioteku"
+addingToLibrary = "Dodavanje u PaperRing biblioteku…"
+addToLibrary = "Dodaj u PaperRing biblioteku…"
 addToLibraryFailed = "Neke datoteke nije moguće dodati"
 addToWorkspace = "Dodaj u radni prostor"
 addToWorkspaceCount = "Dodaj {{count}} u radni prostor"
-allFiles = "Stirling biblioteka"
+allFiles = "PaperRing biblioteka"
 back = "Natrag"
 backToFolder = "Natrag na {{folder}}"
 backToMyFiles = "Natrag na Biblioteku datoteka"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Izbriši i {{count}} datoteku unutar mape"
 deleteFolderContents_other = "Izbriši i {{count}} datoteka unutar mape"
 deleteFolderContentsWarning = "Datoteke će biti trajno uklonjene i nije ih moguće oporaviti."
 deleteFolderError = "Nije moguće izbrisati mapu. Pokušajte ponovno."
-deleteFolderKeepHint = "Datoteke unutra bit će premještene u Stirling biblioteku."
+deleteFolderKeepHint = "Datoteke unutra bit će premještene u PaperRing biblioteku."
 deleteFolderTitle = "Izbrisati mapu?"
 deselectAll = "Poništi odabir"
 details = "Detalji"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} datoteka nije bilo moguće premjestiti na p
 moveTo = "Premjesti u…"
 newFolder = "Nova mapa"
 newFolderStorageDisabled = "Pohrana mapa na poslužitelju nije omogućena."
-newFolderTabUnavailable = "Prebacite se na Stirling biblioteku za izradu mapa."
+newFolderTabUnavailable = "Prebacite se na PaperRing biblioteku za izradu mapa."
 offlineNoFolderEdits = "Sinkronizacija mapa s poslužiteljem nije dostupna – promjene mapa su onemogućene. Provjerite prijavu i konfiguraciju pohrane."
 open = "Otvori"
 openVersionInWorkspace = "Otvori u radnom prostoru"
@@ -4921,7 +4921,7 @@ orphaned = "Nije na disku"
 orphanedHint = "Izvornik na {{path}} više ne postoji. Ova kopija je samo ovdje - pri spremanju će se tražiti nova lokacija."
 unavailable = "Nedostupno"
 unavailableHintOffline = "Pogon ili dijeljena lokacija na kojoj se ova datoteka nalazi nije povezana. Ponovno je povežite kako biste ponovno preuzeli promjene."
-unavailableHintPermission = "Stirling nema dopuštenje za čitanje ove lokacije. Odobrite pristup u postavkama sustava kako biste ponovno preuzeli promjene."
+unavailableHintPermission = "PaperRing nema dopuštenje za čitanje ove lokacije. Odobrite pristup u postavkama sustava kako biste ponovno preuzeli promjene."
 unavailableHintUnknown = "Trenutačno nije moguće pristupiti ovoj datoteci. Kopija ovdje nije promijenjena."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Naziv mape"
 
 [filesPage.folderOrigin]
 diskHint = "Mapa montirana iz direktorija na vašem disku"
-serverHint = "Mapa pohranjena na Stirling poslužitelju"
+serverHint = "Mapa pohranjena na PaperRing poslužitelju"
 virtualHint = "Mapa koja postoji samo u ovom pregledniku"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Sinkronizirano s vašim računom, dostupno gdje god se prijavite."
 [filesPage.origin]
 all = "Svi izvori"
 cloud = "Oblak"
-cloudHint = "Pohranjeno na Stirling poslužitelju"
+cloudHint = "Pohranjeno na PaperRing poslužitelju"
 diskFileHint = "Pohranjeno na vašem računalu"
 diskHint = "Datoteka u montiranoj mapi na vašem disku"
 local = "Lokalno"
@@ -5474,7 +5474,7 @@ invisible = "Nevidljivo (samo metapodaci)"
 location = "Lokacija:"
 logo = "Logo:"
 logoHidden = "Bez logotipa"
-logoShown = "Prikazan Stirling PDF logotip"
+logoShown = "Prikazan PaperRing logotip"
 participantCount_one = "Odabran je {{count}} sudionik"
 participantCount_other = "Odabrano je {{count}} sudionika"
 participants = "Sudionici"
@@ -5525,7 +5525,7 @@ title = "Potpisivanje bilo kojim redoslijedom"
 dismiss = "Odbaci baner"
 message = "Izradite besplatan račun kako biste spremili svoj rad, pristupili više značajki i podržali projekt."
 signUp = "Registrirajte se besplatno"
-title = "Koristite Stirling PDF kao gost!"
+title = "Koristite PaperRing kao gost!"
 
 [home.addAttachments]
 desc = "Pregledajte, dodajte, izdvojite, preimenujte ili izbrišite ugrađene PDF privitke"
@@ -5704,7 +5704,7 @@ tags = "kombiniraj,spoji,ujedini,merge,spoji PDF-ove,kombiniraj PDF-ove,pridruž
 title = "Spajanje"
 
 [home.mobile]
-brandAlt = "Stirling PDF logotip"
+brandAlt = "PaperRing logotip"
 openFiles = "Otvori datoteke"
 swipeHint = "Povucite lijevo ili desno za promjenu prikaza"
 tools = "Alati"
@@ -5743,7 +5743,7 @@ tags = "organiziraj,presloži,promijeni redoslijed,rasporedi stranice,sortiraj,p
 title = "Organiziranje"
 
 [home.pdfTextEditor]
-desc = "Pregledajte i uredite Stirling PDF JSON izvoze s grupnim uređivanjem teksta i ponovnim generiranjem PDF-a"
+desc = "Pregledajte i uredite PaperRing JSON izvoze s grupnim uređivanjem teksta i ponovnim generiranjem PDF-a"
 tags = "uredi tekst,izmijeni tekst,promijeni tekst,uredi sadržaj,ažuriraj tekst,prepiši,ispravi,dopuni,redline,revidiraj,uređivač teksta,uređivač sadržaja"
 title = "PDF uređivač teksta"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Lozinka je obvezna"
 signIn = "Prijavite se"
 validating = "Provjera poziva..."
 validationError = "Provjera poveznice za poziv nije uspjela"
-welcome = "Dobrodošli u Stirling PDF"
+welcome = "Dobrodošli u PaperRing"
 welcomeSubtitle = "Dovršite postavljanje računa kako biste započeli"
 welcomeTitle = "Pozvani ste!"
 
@@ -6209,7 +6209,7 @@ message = "Autentikacija nije bila uspješna. Možete zatvoriti ovaj prozor i po
 title = "Autentikacija nije uspjela"
 
 [oauth.success]
-message = "Možete zatvoriti ovaj prozor i vratiti se u Stirling PDF."
+message = "Možete zatvoriti ovaj prozor i vratiti se u PaperRing."
 title = "Autentikacija uspješna"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Vraćamo vas u aplikaciju..."
-requesting = "{{app}} želi pristupiti vašem Stirling PDF računu"
+requesting = "{{app}} želi pristupiti vašem PaperRing računu"
 scopesIntro = "To će aplikaciji {{app}} omogućiti:"
 signedInAs = "Prijavljeni ste kao {{name}}"
 signInButton = "Prijavite se za nastavak"
-signInPrompt = "Prijavite se na svoj Stirling PDF račun za nastavak povezivanja aplikacije."
+signInPrompt = "Prijavite se na svoj PaperRing račun za nastavak povezivanja aplikacije."
 title = "Authorise access"
 unknownApp = "Aplikacija treće strane"
 
 [oauthConsent.access]
 actAsYou = "Djelovanje u vaše ime - sve što {{app}} radi izvodi se pod vašim računom i računa se u vašu upotrebu"
-tools = "Upotreba vaših Stirling PDF alata u vaše ime - pretvaranje, uređivanje, potpisivanje, zaštita i obrada vaših dokumenata"
+tools = "Upotreba vaših PaperRing alata u vaše ime - pretvaranje, uređivanje, potpisivanje, zaštita i obrada vaših dokumenata"
 
 [oauthConsent.scope]
 email = "Prikaz vaše email adrese"
@@ -6362,26 +6362,26 @@ skipTheTour = "Preskoči obilazak"
 
 [onboarding.checklist]
 dismiss = "Odbaci"
-title = "Postavite Stirling PDF"
+title = "Postavite PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Pokrenite Stirling izvorno na svojem računalu"
-title = "Preuzmi Stirling za Desktop"
+description = "Pokrenite PaperRing izvorno na svojem računalu"
+title = "Preuzmi PaperRing za Desktop"
 
 [onboarding.checklist.inviteTeam]
 description = "Surađujte sa svojim timom"
 title = "Pozovite članove tima"
 
 [onboarding.checklist.setDefaultApp]
-description = "Otvarajte PDF datoteke u Stirling PDF"
-title = "Postavite Stirling kao zadano"
+description = "Otvarajte PDF datoteke u PaperRing"
+title = "Postavite PaperRing kao zadano"
 
 [onboarding.checklist.takeTour]
-description = "Pogledajte kako Stirling radi u kratkom obilasku"
+description = "Pogledajte kako PaperRing radi u kratkom obilasku"
 title = "Kreni u obilazak"
 
 [onboarding.desktopInstall]
-body = "Stirling najbolje radi kao desktop aplikacija. Možete ga koristiti izvan mreže, brže pristupati dokumentima i uređivati lokalno na računalu."
+body = "PaperRing najbolje radi kao desktop aplikacija. Možete ga koristiti izvan mreže, brže pristupati dokumentima i uređivati lokalno na računalu."
 selectOs = "Odaberite operacijski sustav"
 title = "Preuzimanje"
 titleWithOs = "Preuzmi za {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Preuzmi za {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Postoji mnoštvo novih promjena za istraživanje, uključujući <strong>Agent Chat</strong>, automatsku <strong>klasifikaciju</strong> dokumenata i još mnogo toga."
 freeLine = "Uređivač je sada <free>potpuno besplatan</free>."
-title = "Dobro došli u Stirling <product>Desktop</product>"
+title = "Dobro došli u PaperRing <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "Autentifikacijski kod"
@@ -6410,21 +6410,21 @@ success = "MFA je omogućen. Sada možete nastaviti."
 title = "Postavljanje višefaktorske autentifikacije"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Kad omogućite način prijave, moći ćete upravljati korisnicima, konfigurirati postavke i nadzirati zdravlje poslužitelja. Prvih <strong>{{freeTierLimit}}</strong> osoba na vašem poslužitelju koristi Stirling besplatno."
-adminBodyLoginEnabled = "Kao administrator možete upravljati korisnicima, konfigurirati postavke i nadzirati zdravlje poslužitelja. Prvih <strong>{{freeTierLimit}}</strong> osoba na vašem poslužitelju koristi Stirling besplatno."
+adminBodyLoginDisabled = "Kad omogućite način prijave, moći ćete upravljati korisnicima, konfigurirati postavke i nadzirati zdravlje poslužitelja. Prvih <strong>{{freeTierLimit}}</strong> osoba na vašem poslužitelju koristi PaperRing besplatno."
+adminBodyLoginEnabled = "Kao administrator možete upravljati korisnicima, konfigurirati postavke i nadzirati zdravlje poslužitelja. Prvih <strong>{{freeTierLimit}}</strong> osoba na vašem poslužitelju koristi PaperRing besplatno."
 adminTitle = "Pregled za administratore"
 userBody = "Pozovite suradnike, dodijelite uloge i držite dokumente organiziranima u jednom sigurnom radnom prostoru. Omogućite način prijave kad budete spremni prerasti samostalnu upotrebu."
 userTitle = "Pregled plana"
 
 [onboarding.processorIntro]
-body = "Stirling sada pokreće <strong>Pravila</strong> — automatizirana pravila koja klasificiraju, štite i obrađuju svaki dokument čim stigne. Postavite ih i pratite izvođenja u <strong>Processoru</strong>."
+body = "PaperRing sada pokreće <strong>Pravila</strong> — automatizirana pravila koja klasificiraju, štite i obrađuju svaki dokument čim stigne. Postavite ih i pratite izvođenja u <strong>Processoru</strong>."
 cta = "Pogledajte Processor"
-title = "Pogledajte Stirling Processor"
+title = "Pogledajte PaperRing Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "Uređivač je sada <free>potpuno besplatan</free>."
 premium = "Dodali smo mnoštvo novih značajki, uključujući <strong>Pravila</strong> i <strong>Agent Chat</strong>."
-title = "Dobro došli u Stirling"
+title = "Dobro došli u PaperRing"
 
 [onboarding.saas.team]
 addButton = "Dodaj"
@@ -6447,18 +6447,18 @@ title = "Sigurnosna provjera"
 [onboarding.serverLicense]
 freeBody = "Naša licenca <strong>Open-Core</strong> uključuje <strong>OAuth SSO</strong> i do <strong>{{freeTierLimit}}</strong> korisnika besplatno. Za rast bez prekida preporučujemo plan Stirling Team — <strong>100 korisnika</strong> za 99 USD mjesečno."
 freeTitle = "Team plan"
-overLimitBody = "Naša licenca dopušta do <strong>{{freeTierLimit}}</strong> korisnika besplatno. Imate <strong>{{overLimitUserCopy}}</strong> Stirling korisnika. Za nastavak bez prekida nadogradite na Stirling Team plan - <strong>100 korisnika</strong>, uređivanje PDF teksta i potpunu administratorsku kontrolu za $99 mjesečno."
+overLimitBody = "Naša licenca dopušta do <strong>{{freeTierLimit}}</strong> korisnika besplatno. Imate <strong>{{overLimitUserCopy}}</strong> PaperRing korisnika. Za nastavak bez prekida nadogradite na Stirling Team plan - <strong>100 korisnika</strong>, uređivanje PDF teksta i potpunu administratorsku kontrolu za $99 mjesečno."
 overLimitTitle = "Potreban je Team plan"
 seePlans = "Pogledaj planove →"
 upgrade = "Nadogradi odmah →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 dolazi s desecima alata i osvježenim izgledom. Uzmite kratki obilazak da vidite što se promijenilo i gdje pronaći potrebne značajke."
+body = "PaperRing V2 dolazi s desecima alata i osvježenim izgledom. Uzmite kratki obilazak da vidite što se promijenilo i gdje pronaći potrebne značajke."
 title = "Pregled obilaska"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF je sada spreman za timove svih veličina. Ovo ažuriranje donosi novi izgled, moćne nove administratorske mogućnosti i našu najtraženiju značajku - <strong>Uredi tekst</strong>."
-title = "Dobrodošli u Stirling"
+body = "PaperRing je sada spreman za timove svih veličina. Ovo ažuriranje donosi novi izgled, moćne nove administratorske mogućnosti i našu najtraženiju značajku - <strong>Uredi tekst</strong>."
+title = "Dobrodošli u PaperRing"
 
 [onboarding.whatsNew]
 activeFilesView = "Koristite Aktivne datoteke da vidite sve što je otvoreno i odaberete na čemu raditi."
@@ -6545,7 +6545,7 @@ check = "Provjeri ponovno"
 checkAccount = "Provjeri račun"
 chooseEmail = "Odaberite njihov račun u {{team}} ili unesite e-poštu kako biste ih pozvali."
 close = "Zatvori dijaloški okvir za prijenos"
-cloudAccount = "Stirling račun"
+cloudAccount = "PaperRing račun"
 cloudScopeStyled = "<user>{{name}}</user> će upravljati timom {{team}}, njegovim članovima i naplatom."
 cloudTargetChanged = "Odaberite drugog člana clouda. Ovaj račun više ne ispunjava uvjete za predaju."
 confirm = "Razumijem promjene pristupa i vlasništva."
@@ -6560,7 +6560,7 @@ inviteAddress = "Pozovite <account>{{email}}</account> u {{team}}."
 inviteBlocked = "Pozivnicu nije moguće poslati. Provjerite dostupna mjesta u timu i ima li primatelj već plaćenu pretplatu."
 linkChanged = "Cloud veza poslužitelja se promijenila. Zatražite od operatora poslužitelja da vrati izvornu vezu prije nastavka."
 linkedServerCount = "{{count}} povezanih poslužitelja"
-linkRevoked = "Cloud veza ovog poslužitelja više nije valjana. Otkažite prijenos, zatim ponovno povežite svoj Stirling račun u postavkama. Vlasništvo se neće promijeniti."
+linkRevoked = "Cloud veza ovog poslužitelja više nije valjana. Otkažite prijenos, zatim ponovno povežite svoj PaperRing račun u postavkama. Vlasništvo se neće promijeniti."
 localScope = "Oni će biti vlasnici ovog poslužitelja i upravljati naplatom i cloud vezama. Zadržavate administratorski pristup, ali gubite pristup tim postavkama."
 membershipDetails = "Pojedinosti članstva u timu"
 membershipFirst = "Moraju se pridružiti timu prije nego što možete potvrditi prijenos."
@@ -6872,7 +6872,7 @@ benefit1Body = "lančajte alate, zakažite pokretanja, obrađujte skupno"
 benefit1Title = "Automatizacijski pipelineovi"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "AI alati"
-benefit3Body = "programski pozovite bilo koji Stirling endpoint"
+benefit3Body = "programski pozovite bilo koji PaperRing endpoint"
 benefit3Title = "API pristup"
 button = "Uključi Processor →"
 reassurance = "Bez minimuma · Postavite ograničenje od $0 za testiranje · Otkažite bilo kada"
@@ -7002,7 +7002,7 @@ usdNote = "Procijenjeno u USD. Nakon pretplate možete bilo kada prilagoditi ogr
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / mjesec"
 edit = "Uredi"
-help = "Stripe obrađuje podatke vaše kartice. Stirling ih nikada ne vidi."
+help = "Stripe obrađuje podatke vaše kartice. PaperRing ih nikada ne vidi."
 loading = "Učitavanje checkouta…"
 noCap = "Bez ograničenja"
 title = "Dodajte način plaćanja"
@@ -7010,7 +7010,7 @@ title = "Dodajte način plaćanja"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "AI alati"
-apiBody = "programski pristup bilo kojem Stirling endpointu"
+apiBody = "programski pristup bilo kojem PaperRing endpointu"
 apiTitle = "API pozivi"
 automationBody = "lančani alati ili zakazana pokretanja koja ne trebaju klikove"
 automationTitle = "Automatizacijski pipelineovi"
@@ -7870,7 +7870,7 @@ connectDescription = "Povežite ovaj poslužitelj za korištenje kvote obrade va
 disconnectBody = "Ovaj poslužitelj prestat će koristiti kvotu obrade vašeg tima u Stirling Cloud. Vaše lokalne datoteke ostaju na ovom poslužitelju. Za ponovno povezivanje slijedite izvorne korake povezivanja."
 disconnectTitle = "Odspojiti ovu instancu?"
 eyebrow = "Ova instanca"
-linkButton = "Povežite svoj Stirling račun"
+linkButton = "Povežite svoj PaperRing račun"
 loading = "Provjera veze računa"
 notLinked = "Nije povezano"
 signedInAs = "Prijavljeni ste u Stirling Cloud kao"
@@ -7886,14 +7886,14 @@ description = "Zatražite od administratora poslužitelja da omogući povezivanj
 title = "Povezivanje računa nije dostupno"
 
 [portal.accountLink.connect]
-adminRequired = "Zatražite od administratora poslužitelja da otvori Upotreba i naplata i poveže Stirling račun za više mjesečnih kredita. Ručni PDF alati i dalje su dostupni."
+adminRequired = "Zatražite od administratora poslužitelja da otvori Upotreba i naplata i poveže PaperRing račun za više mjesečnih kredita. Ručni PDF alati i dalje su dostupni."
 adminTitle = "Zatražite od administratora poslužitelja"
 close = "Zatvori"
 copied = "Kopirano"
 copyAdminMessage = "Kopiraj poruku za administratora"
-exhaustedLede = "Ovaj poslužitelj iskoristio je svoje besplatne kredite za ovaj mjesec. Povežite novi ili postojeći Stirling račun za pristup mjesečnoj kvoti vašeg tima."
+exhaustedLede = "Ovaj poslužitelj iskoristio je svoje besplatne kredite za ovaj mjesec. Povežite novi ili postojeći PaperRing račun za pristup mjesečnoj kvoti vašeg tima."
 notNow = "Ne sada"
-start = "Poveži Stirling račun"
+start = "Poveži PaperRing račun"
 step = "Korak {{current}} od {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Dodajte više korisnika s plaćenim Team planom"
 teamsLabel = "Veći timovi"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "Niste prijavljeni u Stirling u ovom pregledniku, pa će upotreba i naplata zatražiti prijavu."
+linkedNotSignedIn = "Niste prijavljeni u PaperRing u ovom pregledniku, pa će upotreba i naplata zatražiti prijavu."
 retry = "Pokušaj ponovno"
-signedInAnyway = "Prijavljeni ste u Stirling, pa će se naplata i upotreba učitati. Samo veza s poslužiteljem nije dovršena."
+signedInAnyway = "Prijavljeni ste u PaperRing, pa će se naplata i upotreba učitati. Samo veza s poslužiteljem nije dovršena."
 working = "Dovršavanje veze."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Ovaj je zahtjev odbijen ili je već iskorišten. Pokrenite drugi ako to 
 title = "Povezivanje nije dovršeno"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling nije potvrdio vezu. To je obično privremeno."
+body = "PaperRing nije potvrdio vezu. To je obično privremeno."
 title = "Još nije dovršeno"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Preostali besplatni krediti"
 creditsSuffix = "od {{allowance}} besplatnih kredita preostalo"
 cta = "Gotovo"
 inviteTeam = "Pozovite svoj tim"
-lede = "Ovaj se server sada izvodi putem vašeg Stirling računa."
+lede = "Ovaj se server sada izvodi putem vašeg PaperRing računa."
 pendingTitle = "Još malo"
 switchOnProcessor = "Uključite Processor"
 title = "Povezano"
 
 [portal.accountLink.connect.handoff]
-opening = "Otvara se Stirling prijava..."
-reauthLede = "Vaša Stirling sesija je istekla. Ponovna prijava omogućuje vidljivost korištenja i naplate. Ovaj server ostaje povezan u svakom slučaju."
+opening = "Otvara se PaperRing prijava..."
+reauthLede = "Vaša PaperRing sesija je istekla. Ponovna prijava omogućuje vidljivost korištenja i naplate. Ovaj server ostaje povezan u svakom slučaju."
 title = "Povezivanje"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Konfigurirana adresa sučelja ovog servera ne podudara se s 
 cancel = "Odustani"
 continueReauth = "Prijavite se ponovno"
 exhaustedTitle = "Neka vaši radni tijekovi nastave raditi"
-identity = "Stirling račun"
-linkTitle = "Povežite svoj Stirling račun"
-noAuthorizeUrl = "Stirling nije vratio mjesto za nastavak. Pokušajte ponovno za trenutak."
-startFailed = "Nije moguće dosegnuti Stirling za pokretanje veze. Provjerite odlazni mrežni pristup ovog servera, zatim pokušajte ponovno."
+identity = "PaperRing račun"
+linkTitle = "Povežite svoj PaperRing račun"
+noAuthorizeUrl = "PaperRing nije vratio mjesto za nastavak. Pokušajte ponovno za trenutak."
+startFailed = "Nije moguće dosegnuti PaperRing za pokretanje veze. Provjerite odlazni mrežni pristup ovog servera, zatim pokušajte ponovno."
 transferPending = "Prijenos vlasništva je na čekanju. Idite na Postavke → Korisnici da biste ga dovršili ili otkazali, zatim ponovno pokušajte povezivanje."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "kako bi ovaj poslužitelj mogao dovršiti vezu kada se vratite."
 and = "i"
 before = "Postavite"
-title = "Stirling veza nije konfigurirana"
+title = "PaperRing veza nije konfigurirana"
 
 [portal.accountLink.notice]
 openFailed = "Nije moguće otvoriti vaš preglednik. Otvorite Korištenje i naplatu na povezanom serveru kako biste povezali račun."
@@ -8027,7 +8027,7 @@ viewAll = "Prikaži sve pipelinee"
 
 [portal.accountLink.rail]
 adminCta = "Kako dobiti više kredita"
-adminSub = "Zamolite administratora servera da poveže Stirling račun za više kredita. Ručni PDF alati i dalje su dostupni."
+adminSub = "Zamolite administratora servera da poveže PaperRing račun za više kredita. Ručni PDF alati i dalje su dostupni."
 exhaustedCta = "Poveži račun za više kredita"
 exhaustedSub = "Povežite za mjesečne kredite, zajedničku naplatu i mogućnost rasta uz Team plan."
 exhaustedTitle = "Besplatni krediti ovog servera su potrošeni"
@@ -8041,9 +8041,9 @@ malformed = "Nismo mogli potvrditi ovaj odgovor prijave. Započnite ponovno iz K
 malformedTitle = "Nije moguće potvrditi prijavu"
 rejected = "Ovaj zahtjev za prijavu je odbijen ili je već upotrijebljen. Pokušajte ponovno obnoviti pristup naplati."
 rejectedTitle = "Prijava nije dovršena"
-retry = "Stirling nije mogao dovršiti obnovu pristupa naplati. Pokušajte ponovno za trenutak; vaš server je još uvijek povezan."
+retry = "PaperRing nije mogao dovršiti obnovu pristupa naplati. Pokušajte ponovno za trenutak; vaš server je još uvijek povezan."
 retryTitle = "Pristup naplati nije vraćen"
-success = "Vaš pristup naplati je obnovljen. Ovaj server je još uvijek povezan s istim Stirling računom."
+success = "Vaš pristup naplati je obnovljen. Ovaj server je još uvijek povezan s istim PaperRing računom."
 title = "Obnovi pristup naplati"
 working = "Vraćanje pristupa naplati."
 
@@ -8102,7 +8102,7 @@ title = "Postavite ograničenje potrošnje"
 [portal.billing.checkout.card]
 fields = "Broj kartice · MM / GG · CVC · ZIP"
 label = "Podaci o kartici"
-note = "Podatke o kartici prikuplja Stripe. Stirling nikada ne pohranjuje PAN ili CVC."
+note = "Podatke o kartici prikuplja Stripe. PaperRing nikada ne pohranjuje PAN ili CVC."
 
 [portal.billing.checkout.error]
 title = "Nije moguće pokrenuti checkout"
@@ -8180,7 +8180,7 @@ users = "Korisnici"
 [portal.billing.enterprise]
 cta = "Zatražite enterprise ponudu"
 sub = "Air-gapped implementacija, SCIM, rezidencija podataka, SLA-ovi za dostupnost i odgovarajući ugovor."
-title = "Pokrećete Stirling u reguliranom okruženju?"
+title = "Pokrećete PaperRing u reguliranom okruženju?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Nije moguće pokrenuti checkout"
@@ -8458,7 +8458,7 @@ description = "Gdje obrađeni dokumenti završavaju - bucket, drive, tiket ili s
 label = "Datoteke i privitci"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling ovo pohranjuje šifrirano i nikada ga više ne prikazuje."
+helperText = "PaperRing ovo pohranjuje šifrirano i nikada ga više ne prikazuje."
 label = "Pristupni token"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Pokušaj ponovno"
 title = "Nešto je pošlo po zlu na ovoj stranici"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Ništa ne odgovara trenutačnim filtrima"
 occurrences = "{{count}} pojavljivanja"
 searchPlaceholder = "Pretražite probleme, korisnike i pogreške"
@@ -9106,7 +9106,7 @@ description = "Na ovom serveru nedostaje softver koji korak treba, pa ga pokreta
 title = "Softver nije instaliran"
 
 [portal.failures.kind.unknown]
-description = "Nešto je pošlo po zlu što Stirling još ne prepoznaje."
+description = "Nešto je pošlo po zlu što PaperRing još ne prepoznaje."
 title = "Neprepoznat problem"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "Otvori vodič {{name}}"
 openInBrowser = "Umjesto toga otvori u pregledniku"
 sectionDesktop = "Desktop aplikacija"
 sectionSelfHosted = "Samostalno hostirano"
-title = "Instalirajte Stirling PDF Editor"
+title = "Instalirajte PaperRing Editor"
 
 [portal.home.download.docker]
 detailBody = "Pokrenite službenu sliku na svojem poslužitelju."
@@ -9224,7 +9224,7 @@ usageMonth = "Korištenje ovog mjeseca"
 usageToday = "Korištenje danas"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Izradite ključ za početak pozivanja Stirling API-ja."
+description = "Izradite ključ za početak pozivanja PaperRing API-ja."
 title = "Još nema API ključeva"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Gotovo"
 keyNameLabel = "Naziv ključa"
 keyNamePlaceholder = "npr. Produkcijski unos"
 secretKeyCaption = "Tajni ključ"
-secretWarning = "Spremite ovo u upravitelj tajni. Stirling uvijek pohranjuje samo hash, pa ga kasnije nije moguće oporaviti."
+secretWarning = "Spremite ovo u upravitelj tajni. PaperRing uvijek pohranjuje samo hash, pa ga kasnije nije moguće oporaviti."
 subtitle = "Dajte ključu naziv kako biste ga kasnije mogli prepoznati. Možete ga opozvati u bilo kojem trenutku."
 subtitleCreated = "Kopirajte ovu tajnu sada — neće se ponovno prikazati."
 title = "Izradi API ključ"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} veza"
 connectionCount_other = "{{count}} veza"
 customApi = "Prilagođeni API"
 searchPlaceholder = "Pretraži integracije"
-subtitle = "Sve s čime Stirling može komunicirati. Vjerodajnice se ovdje stvaraju jednom, a zatim ih koriste izvori, pravila i tijekovi obrade."
+subtitle = "Sve s čime PaperRing može komunicirati. Vjerodajnice se ovdje stvaraju jednom, a zatim ih koriste izvori, pravila i tijekovi obrade."
 title = "Integracije"
 typedName = "Naziv za {{tool}}"
 
@@ -10183,7 +10183,7 @@ saveFailed = "Nije moguće spremiti pipeline. Pokušajte ponovno."
 
 [portal.policies.wizard.locations]
 aiSettings = "Otvori AI postavke"
-builtin = "Stirling baza znanja"
+builtin = "PaperRing baza znanja"
 builtinHelp = "Indeksira pretražive dijelove u Stirlingu i vraća obrađeni PDF na odredište u nastavku. Pružatelj embeddinga mora biti konfiguriran u AI postavkama."
 checking = "Provjera dostupnosti unosa..."
 chooseOutput = "Odaberite omogućeno izlazno odredište prije spremanja."
@@ -10276,7 +10276,7 @@ title = "Još nema toka"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Poveži"
-editor = "Stirling PDF uređivač"
+editor = "PaperRing uređivač"
 heading = "Izvori"
 perDay = "{{n}} / 24h"
 
@@ -10463,7 +10463,7 @@ gatingAction = "Prihvatite svoju ponudu"
 label = "Ponuda"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Procijenite Stirling prema svojim dokumentima i tijekovima rada."
+blurb = "Procijenite PaperRing prema svojim dokumentima i tijekovima rada."
 gatingAction = "Izradite svoju ponudu"
 label = "Probno razdoblje"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Ovo je vaša datoteka probne licence. Nakon što vaš ugovor bu
 
 [portal.procurement.link]
 cta = "Poveži račun"
-description = "Nabava radi na vašem povezanom Stirling računu: tako omogućujemo probno razdoblje, određujemo cijenu ponude i pokrećemo naplatu. Povežite račun za početak."
+description = "Nabava radi na vašem povezanom PaperRing računu: tako omogućujemo probno razdoblje, određujemo cijenu ponude i pokrećemo naplatu. Povežite račun za početak."
 eyebrow = "Enterprise"
 title = "Povežite svoj račun za početak"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Upravljano, najbrži početak"
 continue = "Nastavi"
 deployment = "Gdje ga treba implementirati?"
-eula = "Prihvaćam Stirling EULA i komercijalne uvjete."
+eula = "Prihvaćam PaperRing EULA i komercijalne uvjete."
 fullName = "Puno ime"
 fullNamePlaceholder = "Vaše ime"
 invites = "Pozovite članove tima · neobavezno"
@@ -10565,7 +10565,7 @@ account-link = "Povezivanje računa"
 [portal.shell.sidebar]
 appEditor = "Uređivač"
 appProcessor = "Procesor"
-linkAccount = "Poveži Stirling račun"
+linkAccount = "Poveži PaperRing račun"
 primaryNav = "Primarna navigacija"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Pretraži"
 
 [portal.sources]
 processingModeHelp = "Praćenje zadržava originale i obrađuje svaku verziju jednom. Snimka zadržava originale i obrađuje ih pri svakom pokretanju. Potrošnja briše originale nakon uspješne isporuke."
-subtitle = "Ponovno upotrebljive ulazne veze koje dovode dokumente u Stirling. Konfigurirajte izvor jednom, a zatim ga referencirajte iz bilo kojeg broja pipelinea."
+subtitle = "Ponovno upotrebljive ulazne veze koje dovode dokumente u PaperRing. Konfigurirajte izvor jednom, a zatim ga referencirajte iz bilo kojeg broja pipelinea."
 title = "Izvori"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Mjesečni krediti ovog poslužitelja dijele se među svima na njemu
 barAria = "Preostali besplatni krediti"
 capSuffix_one = "od {{allowance}} besplatnog kredita preostalo ovog mjeseca"
 capSuffix_other = "od {{allowance}} besplatnih kredita preostalo ovog mjeseca"
-connect = "Povežite Stirling račun"
+connect = "Povežite PaperRing račun"
 connectBody = "Povezivanje dodaje drugu mjesečnu kvotu, povećava broj korisnika koje ovaj poslužitelj može imati i uključuje Processor."
-connectTitle = "Ovaj poslužitelj nema Stirling račun"
+connectTitle = "Ovaj poslužitelj nema PaperRing račun"
 loadError = "Nije moguće pročitati potrošnju kredita ovog poslužitelja. Pokušajte ponovno za trenutak."
 loadErrorTitle = "Nije moguće učitati potrošnju kredita"
 resets = "Ponovno se postavlja {{date}}"
 
 [portal.usage.sessionExpired]
-body = "Sesija vašeg Stirling računa je istekla. Ponovno se prijavite za prikaz naplate — vaša instanca ostaje povezana."
+body = "Sesija vašeg PaperRing računa je istekla. Ponovno se prijavite za prikaz naplate — vaša instanca ostaje povezana."
 
 [portal.users]
 title = "Korisnici"
@@ -11129,7 +11129,7 @@ files = "Datoteke"
 account = "Račun"
 docs = "Dokumentacija"
 editor = "Uređivač"
-home = "Stirling"
+home = "PaperRing"
 invite = "Pozovi"
 landmark = "Brza navigacija"
 noProcessorAccess = "Zatražite pristup procesoru od administratora"
@@ -11682,8 +11682,8 @@ hideTools = "Sakrij nedostupne alate ▴"
 messageNoFallback = "Alati neće biti dostupni dok se vaš poslužitelj ne vrati na mrežu."
 messageWithFallback = "Neki alati zahtijevaju vezu s poslužiteljem."
 showTools = "Prikaži nedostupne alate ▾"
-title = "Vaš Stirling-PDF poslužitelj je nedostupan"
-toolNotAvailableLocally = "Vaš Stirling-PDF poslužitelj je izvan mreže i \"{{endpoint}}\" nije dostupan na lokalnom pozadinskom sustavu."
+title = "Vaš PaperRing poslužitelj je nedostupan"
+toolNotAvailableLocally = "Vaš PaperRing poslužitelj je izvan mreže i \"{{endpoint}}\" nije dostupan na lokalnom pozadinskom sustavu."
 
 [session]
 expired = "Vaš sesija je istekla. Molim vas da osvježite stranicu i pokušate ponovno."
@@ -11755,7 +11755,7 @@ unknown = "Nije dostupno"
 yourTeam = "Vaš tim"
 
 [settings.connection]
-description = "Radite lokalno na ovom računalu ili povežite aplikaciju sa Stirling poslužiteljem."
+description = "Radite lokalno na ovom računalu ili povežite aplikaciju sa PaperRing poslužiteljem."
 localDescription = "Koristite lokalni pozadinski sustav bez računa. Neki alati koji zahtijevaju obradu u oblaku ili samohostani poslužitelj nisu dostupni."
 logout = "Odjava"
 server = "Poslužitelj"
@@ -11770,7 +11770,7 @@ selfhosted = "Self-hosted"
 
 [settings.developer]
 apiKeys = "API ključevi"
-apiKeysDescription = "Osobni ključevi za pozivanje Stirling API-ja iz skripti i integracija."
+apiKeysDescription = "Osobni ključevi za pozivanje PaperRing API-ja iz skripti i integracija."
 title = "Razvoj"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Ograničenje automatskog raspakiravanja"
 autoUnzipFileLimitTooltip = "Raspakiraj samo ako ZIP sadrži ovoliko ili manje datoteka. Postavite više za izdvajanje većih ZIP-ova."
 autoUnzipTooltip = "Automatski izdvoji ZIP datoteke vraćene iz API operacija. Isključite da biste zadržali ZIP datoteke netaknute. Ovo ne utječe na automatizirane tijekove rada."
 defaultPdfEditor = "Zadani PDF uređivač"
-defaultPdfEditorActive = "Stirling PDF je vaš zadani PDF uređivač"
+defaultPdfEditorActive = "PaperRing je vaš zadani PDF uređivač"
 defaultPdfEditorChecking = "Provjera..."
 defaultPdfEditorInactive = "Druga je aplikacija postavljena kao zadana"
 defaultPdfEditorSet = "Već je zadano"
@@ -11849,7 +11849,7 @@ updateBehavior = "Način ažuriranja"
 updateBehaviorDescription = "Odaberite želite li upit prije instalacije ažuriranja, automatsku instalaciju ili potpuno preskočiti provjere ažuriranja."
 updateBehaviorError = "Nije moguće promijeniti način ažuriranja"
 updateBehaviorErrorLocked = "Ovu je postavku zaključao vaš administrator."
-updateBehaviorLockedDescription = "Vaš je administrator konfigurirao kako Stirling-PDF obrađuje ažuriranja na ovom računalu. Obratite im se za promjenu."
+updateBehaviorLockedDescription = "Vaš je administrator konfigurirao kako PaperRing obrađuje ažuriranja na ovom računalu. Obratite im se za promjenu."
 updateBehaviorSaved = "Način ažuriranja spremljen."
 versionMismatch = "Vaša desktop aplikacija i poslužitelj koriste različite verzije. Ažurirajte oboje na istu verziju kako biste izbjegli probleme s kompatibilnošću."
 viewDetails = "Prikaži detalje"
@@ -12074,7 +12074,7 @@ emptyUsername = "Unesite korisničko ime"
 oauthFailed = "OAuth prijava nije uspjela. Pokušajte ponovno."
 
 [setup.saas]
-title = "Prijavite se u Stirling"
+title = "Prijavite se u PaperRing"
 
 [setup.selfhosted]
 changeServerLocked = "Vaša organizacija je ograničila ovu aplikaciju na određeni poslužitelj"
@@ -12091,7 +12091,7 @@ retry = "Pokušaj ponovno"
 title = "Nije moguće povezati se s poslužiteljem"
 
 [setup.server]
-subtitle = "Unesite URL svog self-hosted Stirling PDF poslužitelja"
+subtitle = "Unesite URL svog self-hosted PaperRing poslužitelja"
 testing = "Testiranje veze..."
 title = "Povežite se s poslužiteljem"
 useLast = "Zadnji korišteni poslužitelj: {{serverUrl}}"
@@ -12120,7 +12120,7 @@ step3 = "Ponovno pokrenite poslužitelj"
 title = "Prijava nije omogućena"
 
 [setup.server.url]
-description = "Unesite puni URL svog self-hosted Stirling PDF poslužitelja"
+description = "Unesite puni URL svog self-hosted PaperRing poslužitelja"
 label = "URL poslužitelja"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Ispunite sva polja"
 signUp = "Registrirajte se"
 signUpWith = "Registrirajte se s"
 skip = "Preskoči"
-subtitle = "Pridružite se Stirling PDF-u kako biste započeli"
+subtitle = "Pridružite se PaperRing-u kako biste započeli"
 title = "Stvorite račun"
 unableToAccessTool = "Nije moguće pristupiti alatu: {{error}}"
 unexpectedError = "Neočekivana pogreška: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Preuzmi"
 downloaded = "Preuzeto"
 downloadFailed = "Nije moguće preuzeti ovu datoteku."
 downloadsCount = "Preuzimanja: {{count}}"
-emailWarningBody = "Ovo izgleda kao adresa e-pošte. Ako ova osoba još nije korisnik Stirling PDF-a, neće moći pristupiti datoteci."
+emailWarningBody = "Ovo izgleda kao adresa e-pošte. Ako ova osoba još nije korisnik PaperRing-a, neće moći pristupiti datoteci."
 emailWarningConfirm = "Ipak podijeli"
 emailWarningTitle = "Adresa e-pošte"
 errorTitle = "Dijeljenje nije uspjelo"
@@ -12887,7 +12887,7 @@ manageTitle = "Upravljanje dijeljenjem"
 noActivity = "Još nema aktivnosti."
 noLinks = "Još nema aktivnih poveznica za dijeljenje."
 noSharedUsers = "Još nitko nema pristup."
-openInApp = "Otvori u Stirling PDF"
+openInApp = "Otvori u PaperRing"
 ownerLabel = "Vlasnik"
 ownerUnknown = "Nepoznato"
 removeLink = "Ukloni poveznicu"
@@ -12945,7 +12945,7 @@ all = "Sve"
 ariaLabel = "Super pretraživanje"
 filtersAriaLabel = "Filtri pretraživanja"
 hint = "Upišite za pretraživanje"
-placeholder = "Pretraži Stirling"
+placeholder = "Pretraži PaperRing"
 placeholderShort = "Pretraži"
 showLess = "Prikaži manje"
 showMore = "Prikaži još {{count}}"
@@ -12959,7 +12959,7 @@ settings = "Postavke"
 tools = "Alati"
 
 [survey]
-title = "Stirling-PDF anketa"
+title = "PaperRing anketa"
 
 [swagger]
 clickHere = "kliknite ovdje"
@@ -13128,7 +13128,7 @@ favorites = "Omiljene"
 heading = "Svi alati (prikaz cijelog zaslona)"
 noResults = "Pokušajte prilagoditi pretragu ili prebacite prikaz opisa kako biste našli što trebate."
 recommended = "Preporučeno"
-selfHostedOffline = "Zahtijeva vaš Stirling-PDF poslužitelj (trenutno izvan mreže):"
+selfHostedOffline = "Zahtijeva vaš PaperRing poslužitelj (trenutno izvan mreže):"
 showDetails = "Prikaži detalje"
 unavailable = "Onemogućio administrator poslužitelja:"
 unavailableDependency = "Nedostupno - potreban alat nedostaje na poslužitelju:"
@@ -13137,7 +13137,7 @@ unfavorite = "Ukloni iz omiljenih"
 [toolPanel.modePrompt]
 chooseFullscreen = "Koristi način cijelog zaslona"
 chooseSidebar = "Koristi način bočne trake"
-description = "Pregledajte oba izgleda i odlučite kako želite istraživati Stirling PDF alate."
+description = "Pregledajte oba izgleda i odlučite kako želite istraživati PaperRing alate."
 dismiss = "Možda kasnije"
 fullscreenDescription = "Pregledajte svaki alat u katalogu koji prekriva radni prostor dok ne odaberete jedan."
 fullscreenTitle = "Način cijelog zaslona - (zastarjelo)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Učitavanje detaljnih informacija..."
 migrationGuide = "Vodič za migraciju"
 migrationGuides = "Vodiči za migraciju"
 migrationGuidesDesc = "Pregledajte važne promjene prije ažuriranja."
-modalSubtitle = "Nova verzija Stirling PDF-a spremna je za instalaciju."
+modalSubtitle = "Nova verzija PaperRing-a spremna je za instalaciju."
 modalTitle = "Dostupno ažuriranje"
 notes = "Bilješke"
 releaseNotes = "Napomene uz izdanje"
@@ -13230,7 +13230,7 @@ urgent = "Hitno"
 attentionBody = "Vaš se administrator treba prijaviti za više informacija. Odmah ih kontaktirajte."
 attentionBodyAdmin = "Pregledajte zahtjeve licence kako bi ovaj poslužitelj bio usklađen."
 attentionTitle = "Ovom poslužitelju treba pažnja administratora"
-message = "Iskoristite Stirling PDF uz 100 korisnika, uređivanje teksta u PDF-u i napredne značajke"
+message = "Iskoristite PaperRing uz 100 korisnika, uređivanje teksta u PDF-u i napredne značajke"
 seeInfo = "Prikaži informacije"
 title = "Nadogradite na Team plan"
 upgradeButton = "Nadogradi odmah"
@@ -13368,7 +13368,7 @@ authWeb = "Lozinka"
 create = "Stvori račun"
 createSubtitle = "Stvorite self-hosted račun s lozinkom ili SSO."
 createTitle = "Stvori račun"
-editorDesc = "Uređujte PDF-ove u Stirling PDF Editoru. Svi to dobivaju."
+editorDesc = "Uređujte PDF-ove u PaperRing Editoru. Svi to dobivaju."
 email = "Email adresa"
 emailError = "Unesite valjanu email adresu"
 emailPlaceholder2 = "ime@tvrtka.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Pozivnica je poslana, ali Processor pristup još nije mogao
 processorDesc = "Površina za upravljanje, pokretanje pipelinea, agenata i API."
 role = "Uloga"
 send2 = "Pošalji pozivnicu"
-subtitle2 = "Dobit će e-poruku za pridruživanje vašem Stirling radnom prostoru."
+subtitle2 = "Dobit će e-poruku za pridruživanje vašem PaperRing radnom prostoru."
 team = "Tim"
 title = "Pozovi osobe"
 username = "Korisničko ime"
@@ -13525,7 +13525,7 @@ downloads = "Preuzimanja"
 entryLabel = "Sažetak potpisa"
 filesEvaluated_one = "{{count}} datoteka je analizirana"
 filesEvaluated_other = "{{count}} datoteka je analizirano"
-footer = "Provjereno putem Stirling PDF"
+footer = "Provjereno putem PaperRing"
 generatedAt = "Generirano"
 noPdf = "PDF izvješće bit će dostupno nakon uspješne provjere."
 page = "Stranica"
@@ -13718,7 +13718,7 @@ text = "Tekst"
 addFile = "Dodaj datoteku"
 count_one = "{{count}} datoteka u ovom portfelju"
 count_other = "{{count}} datoteka u ovom portfelju"
-import = "Uvezi u Stirling"
+import = "Uvezi u PaperRing"
 importFailed = "Ovu datoteku nije bilo moguće dodati u vaš radni prostor."
 memberUnavailable = "Ovu datoteku nije bilo moguće pročitati iz portfelja."
 preview = "Pretpregled"

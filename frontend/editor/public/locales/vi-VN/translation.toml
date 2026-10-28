@@ -55,7 +55,7 @@ keepWorking = "Tiếp tục làm việc"
 loading = "Đang tải..."
 loginAgreementAccept = "Chấp nhận"
 loginAgreementDecline = "Từ chối"
-loginAgreementProvider = "Thông báo này do quản trị viên của bạn cung cấp, không phải Stirling PDF Inc."
+loginAgreementProvider = "Thông báo này do quản trị viên của bạn cung cấp, không phải PaperRing"
 loginAgreementTitle = "Thỏa thuận đăng nhập"
 logOut = "Đăng xuất"
 marginTooltip = "Khoảng cách giữa số trang và mép trang."
@@ -668,8 +668,8 @@ description = "Thời gian thực thi tối đa"
 label = "Thời gian chờ (phút)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert đang ở beta. Công cụ này cung cấp khả năng chuyển đổi tốt hơn, nhanh hơn và dùng ít bộ nhớ hơn LibreOffice."
-label = "Sử dụng chuyển đổi Stirling Office mới"
+description = "PaperRing Office Convert đang ở beta. Công cụ này cung cấp khả năng chuyển đổi tốt hơn, nhanh hơn và dùng ít bộ nhớ hơn LibreOffice."
+label = "Sử dụng chuyển đổi PaperRing Office mới"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Cấu hình lưu trữ tạm thời và hành vi dọn dẹp"
@@ -736,7 +736,7 @@ permissionNotice = "Đường dẫn tessdata không thể ghi. Tệp tải xuố
 
 [admin.settings.ai]
 customProvider = "Tùy chỉnh (tương thích OpenAI)"
-description = "Kết nối Stirling với công cụ AI Python, chọn mô hình và đặt các giới hạn vận hành cho nó."
+description = "Kết nối PaperRing với công cụ AI Python, chọn mô hình và đặt các giới hạn vận hành cho nó."
 managedByCloud = "Được Stirling Cloud quản lý ở chế độ này."
 managedByCloudShort = "Được Stirling Cloud quản lý"
 
@@ -797,7 +797,7 @@ help = "Tắt nghĩa là không thể đặt câu hỏi về tài liệu. Điề
 label = "Cho phép Stirling Cloud giữ tài liệu đã lập chỉ mục"
 
 [admin.settings.ai.general.cloudNote]
-body = "Quá trình suy luận chạy trên hạ tầng của Stirling, được tính phí vào tài khoản mà máy chủ này được liên kết. Không có container nào để chạy và không có khóa nhà cung cấp nào cần giữ ở đây. Bất cứ nội dung nào AI đọc đều được xử lý bởi Stirling Cloud thay vì trên phần cứng của riêng bạn."
+body = "Quá trình suy luận chạy trên hạ tầng của PaperRing, được tính phí vào tài khoản mà máy chủ này được liên kết. Không có container nào để chạy và không có khóa nhà cung cấp nào cần giữ ở đây. Bất cứ nội dung nào AI đọc đều được xử lý bởi Stirling Cloud thay vì trên phần cứng của riêng bạn."
 title = "Giới thiệu về Stirling Cloud AI"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "AI chạy ở đâu"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Không cần container, không cần khóa nhà cung cấp, không cần chọn mô hình - tác vụ chạy trên Stirling Cloud và được tính phí vào tài khoản mà máy chủ này được liên kết."
-linkCta = "Kết nối máy chủ này với tài khoản Stirling"
+linkCta = "Kết nối máy chủ này với tài khoản PaperRing"
 notLinked = "Trước tiên hãy liên kết một tài khoản"
-ownerOnly = "Chỉ chủ sở hữu tổ chức mới có thể liên kết máy chủ này với tài khoản Stirling."
+ownerOnly = "Chỉ chủ sở hữu tổ chức mới có thể liên kết máy chủ này với tài khoản PaperRing."
 title = "Sử dụng Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Chạy engine của riêng bạn"
 
 [admin.settings.ai.general.note]
 docs = "Hướng dẫn thiết lập"
-intro = "Một container riêng biệt mà bạn chạy bên cạnh Stirling. Nó thực hiện suy luận; Stirling vẫn tự thực hiện mọi thao tác trên trang. Nó cần cùng"
+intro = "Một container riêng biệt mà bạn chạy bên cạnh PaperRing. Nó thực hiện suy luận; PaperRing vẫn tự thực hiện mọi thao tác trên trang. Nó cần cùng"
 outro = "trên cả hai container và khóa nhà cung cấp mô hình. Bất cứ nội dung nào AI đọc sẽ được gửi đến nhà cung cấp bạn chọn - một Ollama do bạn lưu trữ sẽ giữ mọi trang trong nội bộ."
 title = "Giới thiệu về AI engine"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Nhập mã xác nhận để tiếp tục"
 confirmImport = "Xác nhận nhập"
 confirmImportTitle = "Xác nhận nhập cơ sở dữ liệu"
 connection = "Kết nối"
-connectionDescription = "Trỏ Stirling đến cơ sở dữ liệu bên ngoài thay vì cơ sở dữ liệu nhúng."
+connectionDescription = "Trỏ PaperRing đến cơ sở dữ liệu bên ngoài thay vì cơ sở dữ liệu nhúng."
 createBackup = "Tạo bản sao lưu"
 created = "Ngày tạo"
 delete = "Xóa"
@@ -1224,11 +1224,11 @@ description = "Cấu hình các tính năng và chức năng tùy chọn."
 title = "Tính năng"
 
 [admin.settings.features.serverCertificate]
-description = "Tạo chứng chỉ hỗ trợ tính năng ký \"Sign with Stirling-PDF\"."
+description = "Tạo chứng chỉ hỗ trợ tính năng ký \"Sign with PaperRing\"."
 label = "Ký chứng chỉ"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Cung cấp \"Sign with Stirling-PDF\" bằng chứng chỉ do máy chủ này tạo"
+description = "Cung cấp \"Sign with PaperRing\" bằng chứng chỉ do máy chủ này tạo"
 label = "Bật ký chứng chỉ"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Hiệu lực chứng chỉ (ngày)"
 
 [admin.settings.folderAccess]
 description = "Các thư mục mà nguồn thư mục và đầu ra thư mục được phép đọc và ghi. Đây là ranh giới bảo mật: tự động hóa không bao giờ có thể được trỏ tới đường dẫn máy chủ nằm ngoài danh sách này."
-securityNote = "Để trống mục này để tắt hoàn toàn nguồn thư mục và đầu ra thư mục. Thư mục cấu hình riêng của Stirling luôn bị cấm truy cập."
+securityNote = "Để trống mục này để tắt hoàn toàn nguồn thư mục và đầu ra thư mục. Thư mục cấu hình riêng của PaperRing luôn bị cấm truy cập."
 title = "Quyền truy cập thư mục"
 
 [admin.settings.folderAccess.implied]
-description = "Các thư mục do Stirling quản lý này luôn được phép và không thể thay đổi tại đây."
+description = "Các thư mục do PaperRing quản lý này luôn được phép và không thể thay đổi tại đây."
 serverStorage = "Lưu trữ tệp máy chủ"
 title = "Luôn được phép"
 watchedFolder = "Thư mục được Pipeline theo dõi"
@@ -1390,7 +1390,7 @@ description = "URL hoặc tên tệp cho chính sách cookie"
 label = "Chính sách cookie"
 
 [admin.settings.legal.disclaimer]
-message = "Bằng cách tùy chỉnh các tài liệu pháp lý này, bạn tự chịu hoàn toàn trách nhiệm bảo đảm tuân thủ mọi luật và quy định áp dụng, bao gồm nhưng không giới hạn GDPR và các yêu cầu bảo vệ dữ liệu của EU khác. Chỉ sửa các cài đặt này nếu: (1) bạn đang vận hành bản cài đặt cá nhân/riêng tư, (2) bạn ở ngoài phạm vi pháp lý của EU và hiểu nghĩa vụ pháp lý địa phương của mình, hoặc (3) bạn đã nhận được tư vấn pháp lý phù hợp và chấp nhận tự chịu trách nhiệm với toàn bộ dữ liệu người dùng và tuân thủ pháp lý. Stirling-PDF và các nhà phát triển không chịu bất kỳ trách nhiệm nào cho nghĩa vụ pháp lý của bạn."
+message = "Bằng cách tùy chỉnh các tài liệu pháp lý này, bạn tự chịu hoàn toàn trách nhiệm bảo đảm tuân thủ mọi luật và quy định áp dụng, bao gồm nhưng không giới hạn GDPR và các yêu cầu bảo vệ dữ liệu của EU khác. Chỉ sửa các cài đặt này nếu: (1) bạn đang vận hành bản cài đặt cá nhân/riêng tư, (2) bạn ở ngoài phạm vi pháp lý của EU và hiểu nghĩa vụ pháp lý địa phương của mình, hoặc (3) bạn đã nhận được tư vấn pháp lý phù hợp và chấp nhận tự chịu trách nhiệm với toàn bộ dữ liệu người dùng và tuân thủ pháp lý. PaperRing và các nhà phát triển không chịu bất kỳ trách nhiệm nào cho nghĩa vụ pháp lý của bạn."
 title = "Cảnh báo trách nhiệm pháp lý"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "Tên người dùng để xác thực SMTP"
 label = "Tên người dùng SMTP"
 
 [admin.settings.mcp]
-apikeyNote = "Client gửi Stirling API key trong header X-API-KEY (hoặc Authorization: Bearer <key>). Khóa ánh xạ tới người dùng Stirling sở hữu nó - chỉ các tài khoản đã được cấp quyền mới truy cập được, và các hành động được kiểm tra với tư cách người dùng đó. Quản lý khóa trong Tài khoản > API Keys."
-description = "Cung cấp các công cụ PDF và tác tử AI của Stirling cho MCP client qua endpoint được bảo vệ bằng OAuth."
+apikeyNote = "Client gửi PaperRing API key trong header X-API-KEY (hoặc Authorization: Bearer <key>). Khóa ánh xạ tới người dùng PaperRing sở hữu nó - chỉ các tài khoản đã được cấp quyền mới truy cập được, và các hành động được kiểm tra với tư cách người dùng đó. Quản lý khóa trong Tài khoản > API Keys."
+description = "Cung cấp các công cụ PDF và tác tử AI của PaperRing cho MCP client qua endpoint được bảo vệ bằng OAuth."
 title = "MCP Server"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "(hoặc Authorization: Bearer <key>). Không dùng OAuth hoặc 
 step4 = "Phê duyệt đăng nhập; client thử lại với token. Công cụ xuất hiện theo nhóm: chuyển đổi, trang, khác, bảo mật, ai."
 step4ApiKey = "Công cụ xuất hiện theo nhóm: chuyển đổi, trang, khác, bảo mật, ai - và mọi lệnh gọi được kiểm tra với tư cách chủ sở hữu khóa."
 tip = "Mẹo: đăng ký resource ID làm audience được phép trong IdP của bạn. Đã thử nghiệm với MCP Inspector và Claude Desktop."
-tipApiKey = "Mẹo: chế độ API-key không cần IdP bên ngoài - đơn giản nhất cho self-host. Khóa ánh xạ tới người dùng Stirling sở hữu nó."
+tipApiKey = "Mẹo: chế độ API-key không cần IdP bên ngoài - đơn giản nhất cho self-host. Khóa ánh xạ tới người dùng PaperRing sở hữu nó."
 title = "Kết nối MCP client"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (tùy chọn)"
 placeholder = "Tự động phát hiện từ issuer"
 
 [admin.settings.mcp.mode]
-apikey = "API key (khóa theo người dùng của Stirling)"
-description = "OAuth cần IdP bên ngoài. API key dùng API key theo từng người dùng của Stirling (X-API-KEY) - đơn giản nhất cho self-host."
+apikey = "API key (khóa theo người dùng của PaperRing)"
+description = "OAuth cần IdP bên ngoài. API key dùng API key theo từng người dùng của PaperRing (X-API-KEY) - đơn giản nhất cho self-host."
 label = "Chế độ xác thực"
 oauth = "OAuth 2.1 (IdP bên ngoài)"
 
 [admin.settings.mcp.requireAccount]
-description = "Chỉ cho token đi qua nếu subject của chúng ánh xạ tới một người dùng Stirling đã được cấp, đang bật."
-label = "Yêu cầu tài khoản Stirling hiện có"
+description = "Chỉ cho token đi qua nếu subject của chúng ánh xạ tới một người dùng PaperRing đã được cấp, đang bật."
+label = "Yêu cầu tài khoản PaperRing hiện có"
 
 [admin.settings.mcp.resourceId]
 description = "URL /mcp công khai của máy chủ này. Token phải liệt kê nó trong audience (RFC 8707) nếu không sẽ bị từ chối."
@@ -1540,7 +1540,7 @@ description = "Yêu cầu mcp.tools.read cho thao tác đọc và mcp.tools.writ
 label = "Bắt buộc OAuth scopes"
 
 [admin.settings.mcp.usernameClaim]
-description = "JWT claim được khớp với username Stirling (ví dụ: sub, email, preferred_username)."
+description = "JWT claim được khớp với username PaperRing (ví dụ: sub, email, preferred_username)."
 label = "Username claim"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Khi bật, chỉ các User ID trong danh sách mới được dù
 label = "Chỉ cho phép User ID cụ thể"
 
 [admin.settings.telegram.enabled]
-description = "Cho phép người dùng tương tác với Stirling PDF qua bot Telegram đã cấu hình của bạn."
+description = "Cho phép người dùng tương tác với PaperRing qua bot Telegram đã cấu hình của bạn."
 label = "Bật Bot Telegram"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Đây là <strong>Bảng Cài đặt</strong>. Cài đặt q
 systemCustomization = "Chúng tôi có nhiều cách tùy biến UI: <strong>Cài đặt hệ thống</strong> cho phép đổi tên ứng dụng và ngôn ngữ, <strong>Tính năng</strong> cho phép quản lý chứng chỉ máy chủ, và <strong>Endpoint</strong> cho phép bật/tắt công cụ cụ thể cho người dùng của bạn."
 teamsAndUsers = "Quản lý <strong>Nhóm</strong> và người dùng riêng lẻ tại đây. Bạn có thể mời người dùng mới qua email, liên kết chia sẻ, hoặc tự tạo tài khoản tùy chỉnh cho họ."
 welcome = "Chào mừng đến với <strong>Chuyến tham quan Quản trị</strong>! Hãy khám phá các tính năng enterprise mạnh mẽ và cài đặt dành cho quản trị viên hệ thống."
-wrapUp = "Đó là chuyến tham quan dành cho admin! Bạn đã xem các tính năng enterprise giúp Stirling PDF trở thành giải pháp mạnh mẽ, tùy chỉnh cho tổ chức. Bạn có thể phát lại bất cứ lúc nào - chỉ cần mở <strong>Cài đặt</strong> và tìm nó trong phần <strong>Tham quan</strong> dưới Trợ giúp."
+wrapUp = "Đó là chuyến tham quan dành cho admin! Bạn đã xem các tính năng enterprise giúp PaperRing trở thành giải pháp mạnh mẽ, tùy chỉnh cho tổ chức. Bạn có thể phát lại bất cứ lúc nào - chỉ cần mở <strong>Cài đặt</strong> và tìm nó trong phần <strong>Tham quan</strong> dưới Trợ giúp."
 
 [adminUserSettings]
 admin = "Quản trị viên"
 title = "Cài đặt kiểm soát người dùng"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Tiếng Ả Rập"
@@ -1952,9 +1952,9 @@ thai = "Tiếng Thái"
 
 [analytics]
 learnMore = "Tìm hiểu thêm về phân tích của chúng tôi"
-paragraph1 = "Stirling PDF có phân tích opt-in để giúp chúng tôi cải thiện sản phẩm. Chúng tôi không theo dõi bất kỳ thông tin cá nhân hoặc nội dung tệp nào."
-paragraph2 = "Vui lòng cân nhắc bật phân tích để giúp Stirling-PDF phát triển và cho phép chúng tôi hiểu người dùng tốt hơn."
-title = "Bạn có muốn giúp Stirling PDF tốt hơn không?"
+paragraph1 = "PaperRing có phân tích opt-in để giúp chúng tôi cải thiện sản phẩm. Chúng tôi không theo dõi bất kỳ thông tin cá nhân hoặc nội dung tệp nào."
+paragraph2 = "Vui lòng cân nhắc bật phân tích để giúp PaperRing phát triển và cho phép chúng tôi hiểu người dùng tốt hơn."
+title = "Bạn có muốn giúp PaperRing tốt hơn không?"
 
 [annotate]
 tags = "chú thích,tô sáng,vẽ,đánh dấu,bình luận,ghi chú,đánh giá,redline,phản hồi,công cụ đánh dấu,ghi chú dán,hình dạng,mũi tên,hộp văn bản,vẽ tay"
@@ -2902,9 +2902,9 @@ typeSignature = "Nhập tên của bạn để tạo chữ ký"
 uploadCert = "Tải lên chứng chỉ"
 uploadCertDesc = "Sử dụng chứng chỉ PKCS12, PFX, PEM hoặc JKS của riêng bạn."
 uploadSignature = "Tải lên hình ảnh chữ ký của bạn"
-usePersonalCert = "Stirling Sign · Cá nhân"
+usePersonalCert = "PaperRing Sign · Cá nhân"
 usePersonalCertDesc = "Ký bằng chứng chỉ được tạo cho tài khoản của bạn."
-useServerCert = "Stirling Sign · Tổ chức"
+useServerCert = "PaperRing Sign · Tổ chức"
 useServerCertDesc = "Ký bằng chứng chỉ tổ chức dùng chung của máy chủ này."
 useSignature = "Sử dụng chữ ký"
 
@@ -3224,10 +3224,10 @@ text = "Đặt câu hỏi về tài liệu của bạn hoặc nhận trợ giúp
 
 [chat.fab]
 close = "Đóng chat"
-open = "Mở trợ lý Stirling AI"
+open = "Mở trợ lý PaperRing AI"
 
 [chat.header]
-agentMenu = "Tùy chọn tác nhân Stirling"
+agentMenu = "Tùy chọn tác nhân PaperRing"
 assistant = "Trợ lý AI"
 clearChat = "Xóa trò chuyện"
 
@@ -3587,9 +3587,9 @@ label = "Tài liệu theo loại: {{summary}}"
 noTypes = "Các tài liệu này không khớp với loại đã biết."
 
 [classificationDemo.defaultApp]
-body = "Đặt Stirling làm ứng dụng PDF mặc định của bạn. Mọi PDF bạn mở, từ email, trình duyệt hoặc màn hình nền, sẽ vào đây, sẵn sàng để đọc hoặc chỉnh sửa. Bạn có thể thay đổi điều này bất cứ lúc nào trong Cài đặt."
-cta = "Đặt Stirling làm mặc định của tôi"
-title = "Mở mọi PDF trong Stirling"
+body = "Đặt PaperRing làm ứng dụng PDF mặc định của bạn. Mọi PDF bạn mở, từ email, trình duyệt hoặc màn hình nền, sẽ vào đây, sẵn sàng để đọc hoặc chỉnh sửa. Bạn có thể thay đổi điều này bất cứ lúc nào trong Cài đặt."
+cta = "Đặt PaperRing làm mặc định của tôi"
+title = "Mở mọi PDF trong PaperRing"
 
 [classificationDemo.followUp]
 background = "Tác vụ này chạy trong nền. Vòng tròn bên trái hiển thị tiến trình."
@@ -3604,7 +3604,7 @@ other = "Khác"
 body = "Phân loại và sắp xếp {{count}} PDF gần đây nhất trong thư mục Tải xuống của bạn theo loại."
 cta = "Xử lý thư mục Tải xuống của tôi"
 privacy = "PDF của bạn vẫn ở trên thiết bị này. Máy chủ đã kết nối của bạn ghi lại mức sử dụng xử lý."
-title = "Xem Stirling có thể làm gì với cả một thư mục"
+title = "Xem PaperRing có thể làm gì với cả một thư mục"
 
 [classificationDemo.phase]
 finishing = "Đang hoàn tất..."
@@ -3618,10 +3618,10 @@ counts = "trong tổng số {{total}} PDF đã xử lý"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF"
-failedBody = "Stirling không thể đọc thư mục Tải xuống của bạn. Không có gì trên máy tính của bạn bị thay đổi."
+failedBody = "PaperRing không thể đọc thư mục Tải xuống của bạn. Không có gì trên máy tính của bạn bị thay đổi."
 failedTitle = "Chưa hoàn tất"
 heading = "Tải xuống của bạn, đã được sắp xếp"
-summary = "Stirling đã đọc {{documents}} và sắp xếp chúng thành {{types}}."
+summary = "PaperRing đã đọc {{documents}} và sắp xếp chúng thành {{types}}."
 typeCount_one = "{{count}} loại"
 typeCount_other = "{{count}} loại"
 
@@ -3947,14 +3947,14 @@ upgradeButton = "Nâng cấp tài khoản"
 
 [config.apiKeys]
 copyKeyAriaLabel = "Sao chép khóa API"
-description = "Khóa API của bạn để truy cập bộ công cụ PDF của Stirling. Sao chép vào dự án của bạn hoặc làm mới để tạo khóa mới."
-docsDescription = "Tìm hiểu thêm về tích hợp với Stirling PDF:"
+description = "Khóa API của bạn để truy cập bộ công cụ PDF của PaperRing. Sao chép vào dự án của bạn hoặc làm mới để tạo khóa mới."
+docsDescription = "Tìm hiểu thêm về tích hợp với PaperRing:"
 docsLink = "Tài liệu API"
 docsTitle = "Tài liệu API"
 generateError = "Chúng tôi không thể tạo khóa API của bạn."
 goToAccount = "Đến Tài khoản"
 guestInfo = "Người dùng khách không nhận khóa API. Tạo tài khoản để có khóa API dùng trong ứng dụng của bạn."
-intro = "Sử dụng khóa API của bạn để truy cập lập trình vào khả năng xử lý của Stirling PDF."
+intro = "Sử dụng khóa API của bạn để truy cập lập trình vào khả năng xử lý của PaperRing."
 label = "Khóa API"
 publicKeyAriaLabel = "Khóa API công khai"
 refreshAriaLabel = "Làm mới khóa API"
@@ -3978,10 +3978,10 @@ title = "Làm mới khóa API"
 warning = "⚠️ Cảnh báo: Thao tác này sẽ tạo khóa API mới và khiến các khóa trước đó không còn hiệu lực."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) cho phép trợ lý AI như Claude dùng trực tiếp các công cụ Stirling PDF của bạn. Kết nối client một lần và trợ lý của bạn có thể chuyển đổi, chỉnh sửa, bảo mật và xử lý tài liệu thay mặt bạn."
-guestInfo = "Người dùng khách không thể kết nối MCP client. Tạo tài khoản để dùng MCP server và cho phép trợ lý AI chạy công cụ Stirling PDF thay mặt bạn."
+description = "Model Context Protocol (MCP) cho phép trợ lý AI như Claude dùng trực tiếp các công cụ PaperRing của bạn. Kết nối client một lần và trợ lý của bạn có thể chuyển đổi, chỉnh sửa, bảo mật và xử lý tài liệu thay mặt bạn."
+guestInfo = "Người dùng khách không thể kết nối MCP client. Tạo tài khoản để dùng MCP server và cho phép trợ lý AI chạy công cụ PaperRing thay mặt bạn."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Xem API keys"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "MCP endpoint của bạn"
 
 [config.mcp.setup]
 addTo = "Thêm vào"
-hint = "Chọn client của bạn, dán đoạn snippet vào tệp được hiển thị, rồi khởi động lại. Bạn sẽ đăng nhập bằng tài khoản Stirling khi dùng lần đầu - không cần sao chép khóa."
+hint = "Chọn client của bạn, dán đoạn snippet vào tệp được hiển thị, rồi khởi động lại. Bạn sẽ đăng nhập bằng tài khoản PaperRing khi dùng lần đầu - không cần sao chép khóa."
 title = "Kết nối trợ lý AI của bạn"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Bước {{current}} trên {{total}}"
 [connect.confirm]
 acknowledge = "Tôi nhận ra địa chỉ này và muốn kết nối nó với nhóm của tôi"
 approve = "Kết nối máy chủ"
-cannotDecide = "Chỉ chủ sở hữu nhóm mới có thể phê duyệt hoặc từ chối kết nối này. Dùng tài khoản khác hoặc đóng lời nhắc này để tiếp tục dùng Stirling."
+cannotDecide = "Chỉ chủ sở hữu nhóm mới có thể phê duyệt hoặc từ chối kết nối này. Dùng tài khoản khác hoặc đóng lời nhắc này để tiếp tục dùng PaperRing."
 deny = "Từ chối"
 dismiss = "Đóng"
-lead = "Một máy chủ Stirling đang yêu cầu kết nối với nhóm của bạn. Kiểm tra địa chỉ bên dưới là của bạn trước khi phê duyệt."
+lead = "Một máy chủ PaperRing đang yêu cầu kết nối với nhóm của bạn. Kiểm tra địa chỉ bên dưới là của bạn trước khi phê duyệt."
 originLabel = "Địa chỉ"
 signedInAs = "Đã đăng nhập với tư cách"
 switchAccount = "Dùng tài khoản khác"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Trước tiên hãy chọn định dạng nguồn"
 settings = "Cài đặt"
 single = "Một tệp"
 sourceFormatPlaceholder = "Định dạng nguồn"
-stirlingOfficeConvert = "Sử dụng Stirling Office Convert (beta)"
+stirlingOfficeConvert = "Sử dụng PaperRing Office Convert (beta)"
 stirlingOfficeConvertDescription = "Chuyển đổi tốt hơn, nhanh hơn với ít bộ nhớ hơn. Tắt để sử dụng trình chuyển đổi tiêu chuẩn."
 strictMode = "Chế độ nghiêm ngặt"
 strictModeDesc = "Báo lỗi nếu chuyển đổi không hoàn hảo (dùng xác minh VeraPDF)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Quản lý tùy chọn"
 title = "Cách chúng tôi sử dụng Cookie"
 
 [cookieBanner.popUp.description]
-1 = "Chúng tôi dùng cookies và các công nghệ khác để Stirling PDF hoạt động tốt hơn cho bạn - giúp chúng tôi cải thiện công cụ và tiếp tục xây dựng các tính năng bạn sẽ thích."
+1 = "Chúng tôi dùng cookies và các công nghệ khác để PaperRing hoạt động tốt hơn cho bạn - giúp chúng tôi cải thiện công cụ và tiếp tục xây dựng các tính năng bạn sẽ thích."
 2 = "Nếu bạn không muốn, nhấp 'Không, cảm ơn' sẽ chỉ bật các cookies thiết yếu cần thiết để mọi thứ chạy trơn tru."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Cách sử dụng cookie"
 title = "Trung tâm tùy chọn đồng ý"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Những cookies này giúp chúng tôi hiểu cách các công cụ được sử dụng, để có thể tập trung xây dựng những tính năng mà cộng đồng coi trọng nhất. Hãy yên tâm - Stirling PDF không thể và sẽ không bao giờ theo dõi nội dung tài liệu bạn làm việc."
+description = "Những cookies này giúp chúng tôi hiểu cách các công cụ được sử dụng, để có thể tập trung xây dựng những tính năng mà cộng đồng coi trọng nhất. Hãy yên tâm - PaperRing không thể và sẽ không bao giờ theo dõi nội dung tài liệu bạn làm việc."
 title = "Phân tích"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF sử dụng cookie và các công nghệ tương tự để nâng cao trải nghiệm của bạn và hiểu cách các công cụ được sử dụng. Điều này giúp chúng tôi cải thiện hiệu năng, phát triển các tính năng bạn quan tâm và hỗ trợ người dùng lâu dài."
-2 = "Stirling PDF không thể - và sẽ không bao giờ - theo dõi hoặc truy cập nội dung tài liệu bạn sử dụng."
+1 = "PaperRing sử dụng cookie và các công nghệ tương tự để nâng cao trải nghiệm của bạn và hiểu cách các công cụ được sử dụng. Điều này giúp chúng tôi cải thiện hiệu năng, phát triển các tính năng bạn quan tâm và hỗ trợ người dùng lâu dài."
+2 = "PaperRing không thể - và sẽ không bao giờ - theo dõi hoặc truy cập nội dung tài liệu bạn sử dụng."
 3 = "Quyền riêng tư và sự tin tưởng của bạn là cốt lõi trong những gì chúng tôi làm."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Không thể đặt trình xử lý PDF mặc định"
 title = "Lỗi"
 
 [defaultApp.settingsOpened]
-message = "Trong Cài đặt Windows, tìm 'PDF' và chọn Stirling PDF làm ứng dụng mặc định của bạn"
+message = "Trong Cài đặt Windows, tìm 'PDF' và chọn PaperRing làm ứng dụng mặc định của bạn"
 title = "Đã mở Cài đặt"
 
 [defaultApp.success]
-message = "Stirling PDF hiện là trình chỉnh sửa PDF mặc định của bạn"
+message = "PaperRing hiện là trình chỉnh sửa PDF mặc định của bạn"
 title = "Đã đặt ứng dụng mặc định"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Thu nhỏ"
 restore = "Khôi phục"
 
 [desktopBilling]
-description = "Quản lý mức sử dụng và thanh toán trong trình duyệt của bạn. Đăng nhập bằng cùng tài khoản Stirling mà bạn dùng ở đây."
+description = "Quản lý mức sử dụng và thanh toán trong trình duyệt của bạn. Đăng nhập bằng cùng tài khoản PaperRing mà bạn dùng ở đây."
 open = "Mở Mức sử dụng & Thanh toán trong trình duyệt"
 openFailed = "Không thể mở Mức sử dụng & Thanh toán. Kiểm tra kết nối của bạn và thử lại."
 selfHostedDescription = "Quản lý mức sử dụng và thanh toán trên máy chủ đã kết nối của bạn trong trình duyệt. Đăng nhập bằng tài khoản chủ sở hữu máy chủ của bạn."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Không thể tải xuống hoặc cài đặt bản cập
 
 [desktopUpdate.blocked]
 docsLink = "Xem tài liệu cài đặt"
-message = "Stirling-PDF không có quyền tự cập nhật trên máy này."
+message = "PaperRing không có quyền tự cập nhật trên máy này."
 title = "Cần quyền quản trị viên"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Đổi tên"
 title = "Đổi tên tệp"
 
 [filesPage]
-addedToLibrary = "Đã thêm vào thư viện Stirling"
-addingToLibrary = "Đang thêm vào thư viện Stirling…"
-addToLibrary = "Thêm vào thư viện Stirling…"
+addedToLibrary = "Đã thêm vào thư viện PaperRing"
+addingToLibrary = "Đang thêm vào thư viện PaperRing…"
+addToLibrary = "Thêm vào thư viện PaperRing…"
 addToLibraryFailed = "Không thể thêm một số tệp"
 addToWorkspace = "Thêm vào không gian làm việc"
 addToWorkspaceCount = "Thêm {{count}} vào không gian làm việc"
-allFiles = "Thư viện Stirling"
+allFiles = "Thư viện PaperRing"
 back = "Quay lại"
 backToFolder = "Quay lại {{folder}}"
 backToMyFiles = "Quay lại Thư viện tệp"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Đồng thời xóa {{count}} tệp bên trong thư 
 deleteFolderContents_other = "Đồng thời xóa {{count}} tệp bên trong thư mục"
 deleteFolderContentsWarning = "Các tệp sẽ bị xóa vĩnh viễn và không thể phục hồi."
 deleteFolderError = "Không thể xóa thư mục. Hãy thử lại."
-deleteFolderKeepHint = "Các tệp bên trong sẽ được chuyển vào thư viện Stirling."
+deleteFolderKeepHint = "Các tệp bên trong sẽ được chuyển vào thư viện PaperRing."
 deleteFolderTitle = "Xóa thư mục?"
 deselectAll = "Bỏ chọn"
 details = "Chi tiết"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "Không thể di chuyển {{count}} tệp trên server
 moveTo = "Di chuyển đến…"
 newFolder = "Thư mục mới"
 newFolderStorageDisabled = "Lưu trữ thư mục trên server chưa được bật."
-newFolderTabUnavailable = "Chuyển sang thư viện Stirling để tạo thư mục."
+newFolderTabUnavailable = "Chuyển sang thư viện PaperRing để tạo thư mục."
 offlineNoFolderEdits = "Đồng bộ thư mục trên máy chủ không khả dụng - thay đổi thư mục bị vô hiệu. Kiểm tra đăng nhập và cấu hình lưu trữ."
 open = "Mở"
 openVersionInWorkspace = "Mở trong không gian làm việc"
@@ -4856,7 +4856,7 @@ recentFiles = "Gần đây"
 refresh = "Làm mới"
 refreshNeedsConnection = "Đăng nhập để làm mới từ máy chủ."
 remove = "Xóa"
-removeLocalFolder = "Ngắt gắn kết khỏi Stirling"
+removeLocalFolder = "Ngắt gắn kết khỏi PaperRing"
 removeVersion = "Xóa phiên bản này"
 rename = "Đổi tên"
 renamed = "Đã đổi tên"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} mục"
 tree = "Thư mục"
 unmount = "Ngắt gắn kết"
 unmountFolderBody = "Ngắt gắn kết \"{{name}}\"? Thư mục và các tệp của nó vẫn nằm trên ổ đĩa của bạn."
-unmountFolderTitle = "Ngắt gắn kết khỏi Stirling?"
+unmountFolderTitle = "Ngắt gắn kết khỏi PaperRing?"
 upload = "Tải lên"
 uploadFromMobile = "Tải lên từ Di động"
 versionActions = "Hành động phiên bản"
@@ -4921,7 +4921,7 @@ orphaned = "Không có trên ổ đĩa"
 orphanedHint = "Bản gốc tại {{path}} đã không còn. Bản sao này chỉ ở đây - khi lưu, bạn sẽ được yêu cầu chọn vị trí mới."
 unavailable = "Không khả dụng"
 unavailableHintOffline = "Ổ đĩa hoặc chia sẻ chứa tệp này chưa được kết nối. Kết nối lại để nhận các thay đổi."
-unavailableHintPermission = "Stirling không được phép đọc vị trí này. Cấp quyền truy cập trong Cài đặt hệ thống để nhận các thay đổi."
+unavailableHintPermission = "PaperRing không được phép đọc vị trí này. Cấp quyền truy cập trong Cài đặt hệ thống để nhận các thay đổi."
 unavailableHintUnknown = "Hiện không thể truy cập tệp này. Bản sao ở đây không thay đổi."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Tên thư mục"
 
 [filesPage.folderOrigin]
 diskHint = "Thư mục được gắn kết từ một thư mục trên ổ đĩa của bạn"
-serverHint = "Thư mục được lưu trữ trên máy chủ Stirling"
+serverHint = "Thư mục được lưu trữ trên máy chủ PaperRing"
 virtualHint = "Thư mục chỉ tồn tại trong trình duyệt này"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Được đồng bộ với tài khoản của bạn, khả dụng
 [filesPage.origin]
 all = "Tất cả nguồn"
 cloud = "Đám mây"
-cloudHint = "Lưu trên máy chủ Stirling"
+cloudHint = "Lưu trên máy chủ PaperRing"
 diskFileHint = "Được lưu trữ trên máy tính của bạn"
 diskHint = "Tệp trong thư mục đã gắn kết trên ổ đĩa của bạn"
 local = "Cục bộ"
@@ -5474,7 +5474,7 @@ invisible = "Ẩn (chỉ siêu dữ liệu)"
 location = "Vị trí:"
 logo = "Logo:"
 logoHidden = "Không có logo"
-logoShown = "Hiển thị logo Stirling PDF"
+logoShown = "Hiển thị logo PaperRing"
 participantCount_one = "Đã chọn {{count}} người tham gia"
 participantCount_other = "Đã chọn {{count}} người tham gia"
 participants = "Người tham gia"
@@ -5525,7 +5525,7 @@ title = "Ký theo bất kỳ thứ tự nào"
 dismiss = "Ẩn banner"
 message = "Tạo tài khoản miễn phí để lưu công việc, truy cập nhiều tính năng hơn và ủng hộ dự án."
 signUp = "Đăng ký miễn phí"
-title = "Bạn đang dùng Stirling PDF với tư cách khách!"
+title = "Bạn đang dùng PaperRing với tư cách khách!"
 
 [home.addAttachments]
 desc = "Xem, thêm, trích xuất, đổi tên hoặc xóa tệp đính kèm PDF được nhúng"
@@ -5704,7 +5704,7 @@ tags = "kết hợp,nối,hợp nhất,gộp,gộp PDF,kết hợp PDF,nối PDF
 title = "Ghép nối"
 
 [home.mobile]
-brandAlt = "Logo Stirling PDF"
+brandAlt = "Logo PaperRing"
 openFiles = "Mở tệp"
 swipeHint = "Vuốt sang trái hoặc phải để chuyển chế độ xem"
 tools = "Công cụ"
@@ -5743,7 +5743,7 @@ tags = "sắp xếp,sắp xếp lại,đổi thứ tự,sắp xếp trang,phân 
 title = "Sắp xếp"
 
 [home.pdfTextEditor]
-desc = "Xem và chỉnh sửa xuất JSON của Stirling PDF với chỉnh sửa văn bản theo nhóm và tái tạo PDF"
+desc = "Xem và chỉnh sửa xuất JSON của PaperRing với chỉnh sửa văn bản theo nhóm và tái tạo PDF"
 tags = "chỉnh sửa văn bản,sửa văn bản,thay đổi văn bản,chỉnh sửa nội dung,cập nhật văn bản,viết lại,sửa lỗi,sửa đổi,redline,duyệt lại,trình chỉnh sửa văn bản,trình chỉnh sửa nội dung"
 title = "Trình chỉnh sửa văn bản PDF"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Yêu cầu mật khẩu"
 signIn = "Đăng nhập"
 validating = "Đang xác thực lời mời..."
 validationError = "Không thể xác thực liên kết mời"
-welcome = "Chào mừng đến với Stirling PDF"
+welcome = "Chào mừng đến với PaperRing"
 welcomeSubtitle = "Hoàn tất thiết lập tài khoản để bắt đầu"
 welcomeTitle = "Bạn đã được mời!"
 
@@ -6209,7 +6209,7 @@ message = "Xác thực không thành công. Bạn có thể đóng cửa sổ n�
 title = "Xác thực thất bại"
 
 [oauth.success]
-message = "Bạn có thể đóng cửa sổ này và quay lại Stirling PDF."
+message = "Bạn có thể đóng cửa sổ này và quay lại PaperRing."
 title = "Xác thực thành công"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Đang đưa bạn trở lại ứng dụng..."
-requesting = "{{app}} muốn truy cập tài khoản Stirling PDF của bạn"
+requesting = "{{app}} muốn truy cập tài khoản PaperRing của bạn"
 scopesIntro = "Điều này sẽ cho phép {{app}}:"
 signedInAs = "Đã đăng nhập với {{name}}"
 signInButton = "Đăng nhập để tiếp tục"
-signInPrompt = "Đăng nhập vào tài khoản Stirling PDF của bạn để tiếp tục kết nối ứng dụng."
+signInPrompt = "Đăng nhập vào tài khoản PaperRing của bạn để tiếp tục kết nối ứng dụng."
 title = "Authorise access"
 unknownApp = "Một ứng dụng bên thứ ba"
 
 [oauthConsent.access]
 actAsYou = "Hành động như bạn - mọi việc {{app}} thực hiện đều chạy dưới tài khoản của bạn và được tính vào mức sử dụng của bạn"
-tools = "Sử dụng các công cụ Stirling PDF thay mặt bạn - chuyển đổi, chỉnh sửa, ký, bảo mật và xử lý tài liệu của bạn"
+tools = "Sử dụng các công cụ PaperRing thay mặt bạn - chuyển đổi, chỉnh sửa, ký, bảo mật và xử lý tài liệu của bạn"
 
 [oauthConsent.scope]
 email = "Xem địa chỉ email của bạn"
@@ -6362,26 +6362,26 @@ skipTheTour = "Bỏ qua hướng dẫn"
 
 [onboarding.checklist]
 dismiss = "Bỏ qua"
-title = "Thiết lập Stirling PDF"
+title = "Thiết lập PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Chạy Stirling nguyên bản trên máy của bạn"
-title = "Tải xuống Stirling cho Desktop"
+description = "Chạy PaperRing nguyên bản trên máy của bạn"
+title = "Tải xuống PaperRing cho Desktop"
 
 [onboarding.checklist.inviteTeam]
 description = "Cộng tác với đội ngũ của bạn"
 title = "Mời thành viên đội ngũ"
 
 [onboarding.checklist.setDefaultApp]
-description = "Mở tệp PDF trong Stirling PDF"
-title = "Đặt Stirling làm mặc định"
+description = "Mở tệp PDF trong PaperRing"
+title = "Đặt PaperRing làm mặc định"
 
 [onboarding.checklist.takeTour]
-description = "Xem cách Stirling hoạt động qua hướng dẫn nhanh"
+description = "Xem cách PaperRing hoạt động qua hướng dẫn nhanh"
 title = "Tham quan nhanh"
 
 [onboarding.desktopInstall]
-body = "Stirling hoạt động tốt nhất như ứng dụng desktop. Bạn có thể dùng offline, truy cập tài liệu nhanh hơn và chỉnh sửa trực tiếp trên máy."
+body = "PaperRing hoạt động tốt nhất như ứng dụng desktop. Bạn có thể dùng offline, truy cập tài liệu nhanh hơn và chỉnh sửa trực tiếp trên máy."
 selectOs = "Chọn hệ điều hành"
 title = "Tải xuống"
 titleWithOs = "Tải cho {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Tải cho {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Có rất nhiều thay đổi mới để khám phá, bao gồm <strong>Agent Chat</strong>, <strong>phân loại</strong> tài liệu tự động và nhiều hơn nữa."
 freeLine = "Trình chỉnh sửa hiện <free>hoàn toàn miễn phí</free>."
-title = "Chào mừng đến với Stirling <product>Desktop</product>"
+title = "Chào mừng đến với PaperRing <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "Mã xác thực"
@@ -6410,21 +6410,21 @@ success = "MFA đã được bật. Bây giờ bạn có thể tiếp tục."
 title = "Thiết lập xác thực đa yếu tố"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Khi bật chế độ đăng nhập, bạn có thể quản lý người dùng, cấu hình cài đặt và theo dõi tình trạng server. <strong>{{freeTierLimit}}</strong> người đầu tiên trên server của bạn được dùng Stirling miễn phí."
-adminBodyLoginEnabled = "Là admin, bạn có thể quản lý người dùng, cấu hình cài đặt và theo dõi tình trạng server. <strong>{{freeTierLimit}}</strong> người đầu tiên trên server của bạn được dùng Stirling miễn phí."
+adminBodyLoginDisabled = "Khi bật chế độ đăng nhập, bạn có thể quản lý người dùng, cấu hình cài đặt và theo dõi tình trạng server. <strong>{{freeTierLimit}}</strong> người đầu tiên trên server của bạn được dùng PaperRing miễn phí."
+adminBodyLoginEnabled = "Là admin, bạn có thể quản lý người dùng, cấu hình cài đặt và theo dõi tình trạng server. <strong>{{freeTierLimit}}</strong> người đầu tiên trên server của bạn được dùng PaperRing miễn phí."
 adminTitle = "Tổng quan Admin"
 userBody = "Mời đồng đội, gán vai trò và quản lý tài liệu gọn gàng trong một không gian làm việc an toàn. Bật chế độ đăng nhập khi bạn sẵn sàng vượt qua chế độ dùng cá nhân."
 userTitle = "Tổng quan gói"
 
 [onboarding.processorIntro]
-body = "Stirling hiện chạy <strong>Chính sách</strong> — các quy tắc tự động phân loại, bảo mật và xử lý mọi tài liệu khi tài liệu đến. Thiết lập và theo dõi các lần chạy trong <strong>Processor</strong>."
+body = "PaperRing hiện chạy <strong>Chính sách</strong> — các quy tắc tự động phân loại, bảo mật và xử lý mọi tài liệu khi tài liệu đến. Thiết lập và theo dõi các lần chạy trong <strong>Processor</strong>."
 cta = "Xem Processor"
-title = "Khám phá Stirling Processor"
+title = "Khám phá PaperRing Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "Trình chỉnh sửa hiện <free>hoàn toàn miễn phí</free>."
 premium = "Chúng tôi đã thêm rất nhiều tính năng mới, bao gồm <strong>Chính sách</strong> và <strong>Agent Chat</strong>."
-title = "Chào mừng đến với Stirling"
+title = "Chào mừng đến với PaperRing"
 
 [onboarding.saas.team]
 addButton = "Thêm"
@@ -6447,18 +6447,18 @@ title = "Kiểm tra bảo mật"
 [onboarding.serverLicense]
 freeBody = "Giấy phép <strong>Open-Core</strong> của chúng tôi bao gồm <strong>OAuth SSO</strong> và tối đa <strong>{{freeTierLimit}}</strong> người dùng miễn phí. Để mở rộng không gián đoạn, chúng tôi khuyến nghị gói Stirling Team — <strong>100 người dùng</strong> với giá 99 USD/tháng."
 freeTitle = "Gói Team"
-overLimitBody = "Giấy phép của chúng tôi cho phép tối đa <strong>{{freeTierLimit}}</strong> người dùng miễn phí. Bạn có <strong>{{overLimitUserCopy}}</strong> người dùng Stirling. Để tiếp tục không gián đoạn, hãy nâng cấp lên gói Stirling Team - <strong>100 người dùng</strong>, chỉnh sửa văn bản PDF và toàn quyền quản trị với $99/tháng."
+overLimitBody = "Giấy phép của chúng tôi cho phép tối đa <strong>{{freeTierLimit}}</strong> người dùng miễn phí. Bạn có <strong>{{overLimitUserCopy}}</strong> người dùng PaperRing. Để tiếp tục không gián đoạn, hãy nâng cấp lên gói Stirling Team - <strong>100 người dùng</strong>, chỉnh sửa văn bản PDF và toàn quyền quản trị với $99/tháng."
 overLimitTitle = "Cần gói Team"
 seePlans = "Xem gói →"
 upgrade = "Nâng cấp ngay →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 đi kèm hàng chục công cụ và bố cục được làm mới. Hãy tham quan nhanh để xem những thay đổi và nơi tìm các tính năng bạn cần."
+body = "PaperRing V2 đi kèm hàng chục công cụ và bố cục được làm mới. Hãy tham quan nhanh để xem những thay đổi và nơi tìm các tính năng bạn cần."
 title = "Tổng quan tour"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF nay sẵn sàng cho mọi quy mô đội nhóm. Bản cập nhật này có bố cục mới, khả năng quản trị mạnh mẽ và tính năng được yêu cầu nhiều nhất - <strong>Chỉnh sửa văn bản</strong>."
-title = "Chào mừng đến với Stirling"
+body = "PaperRing nay sẵn sàng cho mọi quy mô đội nhóm. Bản cập nhật này có bố cục mới, khả năng quản trị mạnh mẽ và tính năng được yêu cầu nhiều nhất - <strong>Chỉnh sửa văn bản</strong>."
+title = "Chào mừng đến với PaperRing"
 
 [onboarding.whatsNew]
 activeFilesView = "Dùng Tệp đang hoạt động để xem mọi thứ bạn đang mở và chọn việc cần làm."
@@ -6545,7 +6545,7 @@ check = "Kiểm tra lại"
 checkAccount = "Kiểm tra tài khoản"
 chooseEmail = "Chọn tài khoản của họ trong {{team}}, hoặc nhập email để mời họ."
 close = "Đóng hộp thoại chuyển giao"
-cloudAccount = "Tài khoản Stirling"
+cloudAccount = "Tài khoản PaperRing"
 cloudScopeStyled = "<user>{{name}}</user> sẽ quản lý {{team}}, thành viên và thanh toán của nhóm."
 cloudTargetChanged = "Chọn một thành viên đám mây khác. Tài khoản này không còn đủ điều kiện để bàn giao."
 confirm = "Tôi hiểu các thay đổi về quyền truy cập và quyền sở hữu."
@@ -6560,7 +6560,7 @@ inviteAddress = "Mời <account>{{email}}</account> vào {{team}}."
 inviteBlocked = "Không thể gửi lời mời. Kiểm tra số chỗ còn trống trong nhóm và liệu người nhận đã có gói đăng ký trả phí hay chưa."
 linkChanged = "Liên kết đám mây của máy chủ đã thay đổi. Hãy yêu cầu người vận hành máy chủ khôi phục liên kết ban đầu trước khi tiếp tục."
 linkedServerCount = "{{count}} máy chủ đã liên kết"
-linkRevoked = "Liên kết đám mây của máy chủ này không còn hợp lệ. Hủy chuyển giao, rồi kết nối lại tài khoản Stirling của bạn trong cài đặt. Quyền sở hữu sẽ không thay đổi."
+linkRevoked = "Liên kết đám mây của máy chủ này không còn hợp lệ. Hủy chuyển giao, rồi kết nối lại tài khoản PaperRing của bạn trong cài đặt. Quyền sở hữu sẽ không thay đổi."
 localScope = "Họ sẽ sở hữu máy chủ này và quản lý thanh toán cũng như kết nối đám mây. Bạn vẫn giữ quyền truy cập quản trị viên, nhưng mất quyền truy cập vào các cài đặt đó."
 membershipDetails = "Chi tiết tư cách thành viên nhóm"
 membershipFirst = "Họ phải tham gia nhóm trước khi bạn có thể xác nhận chuyển giao."
@@ -6872,7 +6872,7 @@ benefit1Body = "xâu chuỗi công cụ, lên lịch chạy, xử lý hàng lo�
 benefit1Title = "Pipeline tự động hóa"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "Công cụ AI"
-benefit3Body = "gọi bất kỳ endpoint Stirling nào bằng lập trình"
+benefit3Body = "gọi bất kỳ endpoint PaperRing nào bằng lập trình"
 benefit3Title = "Truy cập API"
 button = "Bật Processor →"
 reassurance = "Không tối thiểu · Đặt giới hạn $0 để thử nghiệm · Hủy bất cứ lúc nào"
@@ -6962,7 +6962,7 @@ editorLabel = "Trình chỉnh sửa PDF"
 login = "Đăng nhập"
 manualToolsPromo = "Công cụ PDF thủ công miễn phí không giới hạn"
 processorLabel = "Bộ xử lý PDF"
-processorTitle = "Tạo tài khoản để mở khóa những tính năng tốt nhất của Stirling"
+processorTitle = "Tạo tài khoản để mở khóa những tính năng tốt nhất của PaperRing"
 readerLabel = "Trình đọc PDF"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "Ước tính bằng USD. Bạn có thể điều chỉnh giới hạn
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / tháng"
 edit = "Chỉnh sửa"
-help = "Stripe xử lý chi tiết thẻ của bạn. Stirling không bao giờ nhìn thấy chúng."
+help = "Stripe xử lý chi tiết thẻ của bạn. PaperRing không bao giờ nhìn thấy chúng."
 loading = "Đang tải thanh toán…"
 noCap = "Không giới hạn"
 title = "Thêm phương thức thanh toán của bạn"
@@ -7010,7 +7010,7 @@ title = "Thêm phương thức thanh toán của bạn"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "Công cụ AI"
-apiBody = "truy cập bằng lập trình tới bất kỳ endpoint Stirling nào"
+apiBody = "truy cập bằng lập trình tới bất kỳ endpoint PaperRing nào"
 apiTitle = "Lệnh gọi API"
 automationBody = "công cụ xâu chuỗi hoặc lần chạy đã lên lịch không cần nhấp chuột"
 automationTitle = "Pipeline tự động hóa"
@@ -7870,7 +7870,7 @@ connectDescription = "Kết nối máy chủ này để sử dụng hạn mức 
 disconnectBody = "Máy chủ này sẽ ngừng sử dụng hạn mức xử lý của nhóm bạn trong Stirling Cloud. Các tệp cục bộ của bạn vẫn ở trên máy chủ này. Để kết nối lại, hãy làm theo các bước kết nối ban đầu."
 disconnectTitle = "Ngắt kết nối phiên bản này?"
 eyebrow = "Instance này"
-linkButton = "Kết nối tài khoản Stirling của bạn"
+linkButton = "Kết nối tài khoản PaperRing của bạn"
 loading = "Đang kiểm tra kết nối tài khoản"
 notLinked = "Chưa kết nối"
 signedInAs = "Đã đăng nhập vào Stirling Cloud với tư cách"
@@ -7886,14 +7886,14 @@ description = "Yêu cầu quản trị viên máy chủ của bạn bật kết 
 title = "Kết nối tài khoản không khả dụng"
 
 [portal.accountLink.connect]
-adminRequired = "Yêu cầu quản trị viên máy chủ của bạn mở Sử dụng & thanh toán và liên kết tài khoản Stirling để có thêm tín dụng hàng tháng. Các công cụ PDF thủ công vẫn khả dụng."
+adminRequired = "Yêu cầu quản trị viên máy chủ của bạn mở Sử dụng & thanh toán và liên kết tài khoản PaperRing để có thêm tín dụng hàng tháng. Các công cụ PDF thủ công vẫn khả dụng."
 adminTitle = "Yêu cầu quản trị viên máy chủ của bạn"
 close = "Đóng"
 copied = "Đã sao chép"
 copyAdminMessage = "Sao chép tin nhắn cho quản trị viên"
-exhaustedLede = "Máy chủ này đã sử dụng hết tín dụng miễn phí trong tháng. Liên kết tài khoản Stirling mới hoặc hiện có để truy cập hạn mức hàng tháng của nhóm bạn."
+exhaustedLede = "Máy chủ này đã sử dụng hết tín dụng miễn phí trong tháng. Liên kết tài khoản PaperRing mới hoặc hiện có để truy cập hạn mức hàng tháng của nhóm bạn."
 notNow = "Không phải bây giờ"
-start = "Kết nối tài khoản Stirling"
+start = "Kết nối tài khoản PaperRing"
 step = "Bước {{current}} trên {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Thêm nhiều người dùng hơn với gói Team trả phí"
 teamsLabel = "Nhóm lớn hơn"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "Bạn chưa đăng nhập vào Stirling trong trình duyệt này, nên phần sử dụng và thanh toán sẽ yêu cầu bạn đăng nhập."
+linkedNotSignedIn = "Bạn chưa đăng nhập vào PaperRing trong trình duyệt này, nên phần sử dụng và thanh toán sẽ yêu cầu bạn đăng nhập."
 retry = "Thử lại"
-signedInAnyway = "Bạn đã đăng nhập vào Stirling, nên thanh toán và sử dụng sẽ tải. Chỉ liên kết máy chủ là chưa hoàn tất."
+signedInAnyway = "Bạn đã đăng nhập vào PaperRing, nên thanh toán và sử dụng sẽ tải. Chỉ liên kết máy chủ là chưa hoàn tất."
 working = "Đang hoàn tất kết nối."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Yêu cầu này đã bị từ chối hoặc đã được sử dụng. 
 title = "Kết nối chưa hoàn tất"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling chưa xác nhận kết nối. Điều này thường chỉ là tạm thời."
+body = "PaperRing chưa xác nhận kết nối. Điều này thường chỉ là tạm thời."
 title = "Chưa hoàn tất"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Tín dụng miễn phí còn lại"
 creditsSuffix = "trong tổng số {{allowance}} tín dụng miễn phí còn lại"
 cta = "Xong"
 inviteTeam = "Mời nhóm của bạn"
-lede = "Server này hiện chạy bằng tài khoản Stirling của bạn."
+lede = "Server này hiện chạy bằng tài khoản PaperRing của bạn."
 pendingTitle = "Sắp hoàn tất"
 switchOnProcessor = "Bật Processor"
 title = "Đã kết nối"
 
 [portal.accountLink.connect.handoff]
-opening = "Đang mở đăng nhập Stirling..."
-reauthLede = "Phiên Stirling của bạn đã hết hạn. Đăng nhập lại giúp hiển thị mức sử dụng và thanh toán. Server này vẫn được kết nối trong mọi trường hợp."
+opening = "Đang mở đăng nhập PaperRing..."
+reauthLede = "Phiên PaperRing của bạn đã hết hạn. Đăng nhập lại giúp hiển thị mức sử dụng và thanh toán. Server này vẫn được kết nối trong mọi trường hợp."
 title = "Đang kết nối"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Địa chỉ frontend đã cấu hình của server này kh�
 cancel = "Hủy"
 continueReauth = "Đăng nhập lại"
 exhaustedTitle = "Duy trì workflow của bạn"
-identity = "Tài khoản Stirling"
-linkTitle = "Kết nối tài khoản Stirling của bạn"
-noAuthorizeUrl = "Stirling không trả về nơi để tiếp tục. Hãy thử lại sau giây lát."
-startFailed = "Không thể kết nối tới Stirling để bắt đầu kết nối. Kiểm tra quyền truy cập mạng đi ra của server này, rồi thử lại."
+identity = "Tài khoản PaperRing"
+linkTitle = "Kết nối tài khoản PaperRing của bạn"
+noAuthorizeUrl = "PaperRing không trả về nơi để tiếp tục. Hãy thử lại sau giây lát."
+startFailed = "Không thể kết nối tới PaperRing để bắt đầu kết nối. Kiểm tra quyền truy cập mạng đi ra của server này, rồi thử lại."
 transferPending = "Đang chờ chuyển quyền sở hữu. Đi tới Cài đặt → Người dùng để hoàn tất hoặc hủy, rồi thử liên kết lại."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "để máy chủ này có thể hoàn tất kết nối khi bạn quay lại."
 and = "và"
 before = "Đặt"
-title = "Chưa cấu hình kết nối Stirling"
+title = "Chưa cấu hình kết nối PaperRing"
 
 [portal.accountLink.notice]
 openFailed = "Không thể mở trình duyệt của bạn. Mở Mức sử dụng & thanh toán trên server đã kết nối của bạn để liên kết tài khoản."
@@ -8027,7 +8027,7 @@ viewAll = "Xem tất cả pipeline"
 
 [portal.accountLink.rail]
 adminCta = "Cách nhận thêm tín dụng"
-adminSub = "Yêu cầu quản trị viên server liên kết tài khoản Stirling để có thêm tín dụng. Các công cụ PDF thủ công vẫn khả dụng."
+adminSub = "Yêu cầu quản trị viên server liên kết tài khoản PaperRing để có thêm tín dụng. Các công cụ PDF thủ công vẫn khả dụng."
 exhaustedCta = "Liên kết tài khoản để có thêm tín dụng"
 exhaustedSub = "Liên kết để nhận tín dụng hằng tháng, thanh toán chung và tùy chọn mở rộng với gói Team."
 exhaustedTitle = "Tín dụng miễn phí của server này đã dùng hết"
@@ -8041,9 +8041,9 @@ malformed = "Chúng tôi không thể xác minh phản hồi đăng nhập này.
 malformedTitle = "Không thể xác minh đăng nhập"
 rejected = "Yêu cầu đăng nhập này đã bị từ chối hoặc đã được sử dụng. Thử lại để gia hạn quyền truy cập thanh toán."
 rejectedTitle = "Đăng nhập chưa hoàn tất"
-retry = "Stirling không thể hoàn tất gia hạn quyền truy cập thanh toán. Hãy thử lại sau giây lát; server của bạn vẫn được kết nối."
+retry = "PaperRing không thể hoàn tất gia hạn quyền truy cập thanh toán. Hãy thử lại sau giây lát; server của bạn vẫn được kết nối."
 retryTitle = "Quyền truy cập thanh toán chưa được khôi phục"
-success = "Quyền truy cập thanh toán của bạn đã được gia hạn. Server này vẫn được kết nối với cùng tài khoản Stirling."
+success = "Quyền truy cập thanh toán của bạn đã được gia hạn. Server này vẫn được kết nối với cùng tài khoản PaperRing."
 title = "Gia hạn quyền truy cập thanh toán"
 working = "Đang khôi phục quyền truy cập thanh toán."
 
@@ -8057,7 +8057,7 @@ close = "Đóng trợ lý"
 error = "Không thể kết nối với trợ lý."
 errorWithDetail = "Không thể kết nối với trợ lý: {{detail}}"
 inputAriaLabel = "Hỏi trợ lý"
-inputPlaceholder = "Hỏi về Stirling…"
+inputPlaceholder = "Hỏi về PaperRing…"
 open = "Mở trợ lý"
 send = "Gửi"
 title = "Trợ lý"
@@ -8102,7 +8102,7 @@ title = "Đặt giới hạn chi tiêu của bạn"
 [portal.billing.checkout.card]
 fields = "Số thẻ · MM / YY · CVC · ZIP"
 label = "Chi tiết thẻ"
-note = "Chi tiết thẻ do Stripe thu thập. Stirling không bao giờ lưu PAN hoặc CVC."
+note = "Chi tiết thẻ do Stripe thu thập. PaperRing không bao giờ lưu PAN hoặc CVC."
 
 [portal.billing.checkout.error]
 title = "Không thể bắt đầu thanh toán"
@@ -8180,7 +8180,7 @@ users = "Người dùng"
 [portal.billing.enterprise]
 cta = "Nhận báo giá enterprise"
 sub = "Triển khai air-gapped, SCIM, lưu trú dữ liệu, SLA thời gian hoạt động và thỏa thuận phù hợp."
-title = "Bạn đang chạy Stirling trong môi trường được quản lý?"
+title = "Bạn đang chạy PaperRing trong môi trường được quản lý?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Không thể bắt đầu thanh toán"
@@ -8458,7 +8458,7 @@ description = "Nơi tài liệu đã xử lý kết thúc - bucket, drive, ticke
 label = "Tệp & đính kèm"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling lưu trữ mục này ở dạng mã hóa và không bao giờ hiển thị lại."
+helperText = "PaperRing lưu trữ mục này ở dạng mã hóa và không bao giờ hiển thị lại."
 label = "Token truy cập"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Thử lại"
 title = "Đã xảy ra lỗi trên trang này"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Không có gì khớp với bộ lọc hiện tại"
 occurrences = "{{count}} lần xuất hiện"
 searchPlaceholder = "Tìm kiếm sự cố, người dùng và lỗi"
@@ -9106,7 +9106,7 @@ description = "Server này thiếu phần mềm mà bước cần, nên lần ch
 title = "Phần mềm chưa được cài đặt"
 
 [portal.failures.kind.unknown]
-description = "Đã xảy ra lỗi mà Stirling chưa nhận diện được."
+description = "Đã xảy ra lỗi mà PaperRing chưa nhận diện được."
 title = "Sự cố không được nhận diện"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "Mở hướng dẫn {{name}}"
 openInBrowser = "Mở trong trình duyệt thay thế"
 sectionDesktop = "Ứng dụng desktop"
 sectionSelfHosted = "Tự lưu trữ"
-title = "Cài đặt Stirling PDF Editor"
+title = "Cài đặt PaperRing Editor"
 
 [portal.home.download.docker]
 detailBody = "Chạy image chính thức trên máy chủ của bạn."
@@ -9224,7 +9224,7 @@ usageMonth = "Sử dụng tháng này"
 usageToday = "Sử dụng hôm nay"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Tạo một khóa để bắt đầu gọi Stirling API."
+description = "Tạo một khóa để bắt đầu gọi PaperRing API."
 title = "Chưa có khóa API"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Xong"
 keyNameLabel = "Tên khóa"
 keyNamePlaceholder = "ví dụ: Nhập liệu Production"
 secretKeyCaption = "Khóa bí mật"
-secretWarning = "Hãy lưu thông tin này trong trình quản lý bí mật. Stirling chỉ lưu hash, vì vậy không có cách nào khôi phục sau này."
+secretWarning = "Hãy lưu thông tin này trong trình quản lý bí mật. PaperRing chỉ lưu hash, vì vậy không có cách nào khôi phục sau này."
 subtitle = "Đặt tên cho khóa để bạn có thể nhận ra sau này. Bạn có thể thu hồi khóa bất cứ lúc nào."
 subtitleCreated = "Sao chép bí mật này ngay — nó sẽ không được hiển thị lại."
 title = "Tạo khóa API"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} kết nối"
 connectionCount_other = "{{count}} kết nối"
 customApi = "API tùy chỉnh"
 searchPlaceholder = "Tìm kiếm tích hợp"
-subtitle = "Mọi thứ Stirling có thể giao tiếp. Thông tin xác thực được tạo một lần tại đây, rồi được tham chiếu bởi nguồn, chính sách và pipeline."
+subtitle = "Mọi thứ PaperRing có thể giao tiếp. Thông tin xác thực được tạo một lần tại đây, rồi được tham chiếu bởi nguồn, chính sách và pipeline."
 title = "Tích hợp"
 typedName = "Tên {{tool}}"
 
@@ -10183,8 +10183,8 @@ saveFailed = "Không thể lưu quy trình. Vui lòng thử lại."
 
 [portal.policies.wizard.locations]
 aiSettings = "Mở cài đặt AI"
-builtin = "Cơ sở tri thức Stirling"
-builtinHelp = "Lập chỉ mục các đoạn có thể tìm kiếm trong Stirling và trả PDF đã xử lý về đích bên dưới. Phải cấu hình nhà cung cấp embedding trong cài đặt AI."
+builtin = "Cơ sở tri thức PaperRing"
+builtinHelp = "Lập chỉ mục các đoạn có thể tìm kiếm trong PaperRing và trả PDF đã xử lý về đích bên dưới. Phải cấu hình nhà cung cấp embedding trong cài đặt AI."
 checking = "Đang kiểm tra khả năng nạp..."
 chooseOutput = "Chọn đích đầu ra đã bật trước khi lưu."
 chooseSource = "Chọn nguồn tài liệu"
@@ -10276,7 +10276,7 @@ title = "Chưa có luồng"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Kết nối"
-editor = "Stirling PDF Editor"
+editor = "PaperRing Editor"
 heading = "Nguồn"
 perDay = "{{n}} / 24h"
 
@@ -10463,7 +10463,7 @@ gatingAction = "Chấp nhận báo giá của bạn"
 label = "Báo giá"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Đánh giá Stirling với tài liệu và workflow của bạn."
+blurb = "Đánh giá PaperRing với tài liệu và workflow của bạn."
 gatingAction = "Tạo báo giá của bạn"
 label = "Dùng thử"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Đây là file giấy phép dùng thử của bạn. Khi thỏa
 
 [portal.procurement.link]
 cta = "Liên kết tài khoản"
-description = "Mua sắm chạy trên tài khoản Stirling được liên kết của bạn: đó là cách chúng tôi cấp phát bản dùng thử, định giá báo giá và bắt đầu lập hóa đơn. Liên kết một tài khoản để bắt đầu."
+description = "Mua sắm chạy trên tài khoản PaperRing được liên kết của bạn: đó là cách chúng tôi cấp phát bản dùng thử, định giá báo giá và bắt đầu lập hóa đơn. Liên kết một tài khoản để bắt đầu."
 eyebrow = "Doanh nghiệp"
 title = "Liên kết tài khoản của bạn để bắt đầu"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Được quản lý, bắt đầu nhanh nhất"
 continue = "Tiếp tục"
 deployment = "Nên triển khai ở đâu?"
-eula = "Tôi đồng ý với Stirling EULA & Điều khoản thương mại."
+eula = "Tôi đồng ý với PaperRing EULA & Điều khoản thương mại."
 fullName = "Họ và tên"
 fullNamePlaceholder = "Tên của bạn"
 invites = "Mời đồng đội · tùy chọn"
@@ -10565,7 +10565,7 @@ account-link = "Kết nối tài khoản"
 [portal.shell.sidebar]
 appEditor = "Trình chỉnh sửa"
 appProcessor = "Trình xử lý"
-linkAccount = "Liên kết tài khoản Stirling"
+linkAccount = "Liên kết tài khoản PaperRing"
 primaryNav = "Điều hướng chính"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Tìm kiếm"
 
 [portal.sources]
 processingModeHelp = "Theo dõi giữ bản gốc và xử lý mỗi phiên bản một lần. Ảnh chụp giữ bản gốc và xử lý chúng trong mỗi lần chạy. Tiêu thụ xóa bản gốc sau khi gửi thành công."
-subtitle = "Các kết nối đầu vào có thể tái sử dụng để đưa tài liệu vào Stirling. Cấu hình một nguồn một lần, rồi tham chiếu nguồn đó từ bất kỳ số lượng quy trình nào."
+subtitle = "Các kết nối đầu vào có thể tái sử dụng để đưa tài liệu vào PaperRing. Cấu hình một nguồn một lần, rồi tham chiếu nguồn đó từ bất kỳ số lượng quy trình nào."
 title = "Nguồn"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Tín dụng hằng tháng của máy chủ này được chia sẻ 
 barAria = "Tín dụng miễn phí còn lại"
 capSuffix_one = "trong số {{allowance}} tín dụng miễn phí còn lại trong tháng này"
 capSuffix_other = "trong số {{allowance}} tín dụng miễn phí còn lại trong tháng này"
-connect = "Kết nối tài khoản Stirling"
+connect = "Kết nối tài khoản PaperRing"
 connectBody = "Kết nối sẽ thêm hạn mức hằng tháng thứ hai, tăng số người dùng mà máy chủ này có thể có và bật Bộ xử lý."
-connectTitle = "Máy chủ này chưa có tài khoản Stirling"
+connectTitle = "Máy chủ này chưa có tài khoản PaperRing"
 loadError = "Không thể đọc mức sử dụng tín dụng của máy chủ này. Hãy thử lại sau giây lát."
 loadErrorTitle = "Không thể tải mức sử dụng tín dụng"
 resets = "Đặt lại {{date}}"
 
 [portal.usage.sessionExpired]
-body = "Phiên tài khoản Stirling của bạn đã hết hạn. Đăng nhập lại để xem thanh toán — phiên bản của bạn vẫn được liên kết."
+body = "Phiên tài khoản PaperRing của bạn đã hết hạn. Đăng nhập lại để xem thanh toán — phiên bản của bạn vẫn được liên kết."
 
 [portal.users]
 title = "Người dùng"
@@ -11129,7 +11129,7 @@ files = "Tệp"
 account = "Tài khoản"
 docs = "Tài liệu"
 editor = "Trình chỉnh sửa"
-home = "Stirling"
+home = "PaperRing"
 invite = "Mời"
 landmark = "Điều hướng nhanh"
 noProcessorAccess = "Yêu cầu quản trị viên cấp quyền truy cập Bộ xử lý"
@@ -11682,8 +11682,8 @@ hideTools = "Ẩn các công cụ không khả dụng ▴"
 messageNoFallback = "Các công cụ sẽ không khả dụng cho đến khi máy chủ của bạn trực tuyến trở lại."
 messageWithFallback = "Một số công cụ cần kết nối máy chủ."
 showTools = "Xem các công cụ không khả dụng ▾"
-title = "Máy chủ Stirling-PDF của bạn không thể truy cập"
-toolNotAvailableLocally = "Máy chủ Stirling-PDF của bạn đang ngoại tuyến và \"{{endpoint}}\" không có sẵn trên backend cục bộ."
+title = "Máy chủ PaperRing của bạn không thể truy cập"
+toolNotAvailableLocally = "Máy chủ PaperRing của bạn đang ngoại tuyến và \"{{endpoint}}\" không có sẵn trên backend cục bộ."
 
 [session]
 expired = "Phiên của bạn đã hết hạn. Vui lòng làm mới trang và thử lại."
@@ -11755,7 +11755,7 @@ unknown = "Không khả dụng"
 yourTeam = "Nhóm của bạn"
 
 [settings.connection]
-description = "Làm việc cục bộ trên máy này hoặc kết nối ứng dụng với một máy chủ Stirling."
+description = "Làm việc cục bộ trên máy này hoặc kết nối ứng dụng với một máy chủ PaperRing."
 localDescription = "Bạn đang sử dụng backend cục bộ mà không có tài khoản. Một số công cụ cần xử lý trên đám mây hoặc máy chủ tự lưu trữ sẽ không khả dụng."
 logout = "Đăng xuất"
 server = "Máy chủ"
@@ -11770,7 +11770,7 @@ selfhosted = "Tự lưu trữ"
 
 [settings.developer]
 apiKeys = "Khóa API"
-apiKeysDescription = "Khóa cá nhân để gọi Stirling API từ script và tích hợp."
+apiKeysDescription = "Khóa cá nhân để gọi PaperRing API từ script và tích hợp."
 title = "Nhà phát triển"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Giới hạn tệp tự động giải nén"
 autoUnzipFileLimitTooltip = "Chỉ giải nén nếu ZIP chứa số tệp bằng hoặc ít hơn giá trị này. Tăng lên để giải nén ZIP lớn hơn."
 autoUnzipTooltip = "Tự động giải nén các tệp ZIP trả về từ thao tác API. Tắt để giữ nguyên tệp ZIP. Điều này không ảnh hưởng đến các quy trình tự động."
 defaultPdfEditor = "Trình chỉnh sửa PDF mặc định"
-defaultPdfEditorActive = "Stirling PDF là trình chỉnh sửa PDF mặc định của bạn"
+defaultPdfEditorActive = "PaperRing là trình chỉnh sửa PDF mặc định của bạn"
 defaultPdfEditorChecking = "Đang kiểm tra..."
 defaultPdfEditorInactive = "Ứng dụng khác đang được đặt mặc định"
 defaultPdfEditorSet = "Đã là mặc định"
@@ -11849,7 +11849,7 @@ updateBehavior = "Hành vi cập nhật"
 updateBehaviorDescription = "Chọn xem có hỏi trước khi cài đặt, tự động cài đặt, hoặc bỏ qua kiểm tra cập nhật."
 updateBehaviorError = "Không thể thay đổi hành vi cập nhật"
 updateBehaviorErrorLocked = "Thiết lập này bị khóa bởi quản trị viên của bạn."
-updateBehaviorLockedDescription = "Quản trị viên đã cấu hình cách Stirling-PDF xử lý cập nhật trên máy này. Liên hệ họ để thay đổi."
+updateBehaviorLockedDescription = "Quản trị viên đã cấu hình cách PaperRing xử lý cập nhật trên máy này. Liên hệ họ để thay đổi."
 updateBehaviorSaved = "Đã lưu hành vi cập nhật."
 versionMismatch = "Ứng dụng desktop và máy chủ của bạn đang chạy các phiên bản khác nhau. Cập nhật cả hai lên cùng một phiên bản để tránh sự cố tương thích."
 viewDetails = "Xem chi tiết"
@@ -12074,7 +12074,7 @@ emptyUsername = "Vui lòng nhập tên người dùng"
 oauthFailed = "Đăng nhập OAuth thất bại. Vui lòng thử lại."
 
 [setup.saas]
-title = "Đăng nhập vào Stirling"
+title = "Đăng nhập vào PaperRing"
 
 [setup.selfhosted]
 changeServerLocked = "Tổ chức của bạn đã giới hạn ứng dụng này vào một máy chủ cụ thể"
@@ -12120,7 +12120,7 @@ step3 = "Khởi động lại máy chủ"
 title = "Chưa bật đăng nhập"
 
 [setup.server.url]
-description = "Nhập URL đầy đủ của server Stirling PDF tự lưu trữ"
+description = "Nhập URL đầy đủ của server PaperRing tự lưu trữ"
 label = "URL server"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Vui lòng điền đầy đủ tất cả các trường"
 signUp = "Đăng ký"
 signUpWith = "Đăng ký bằng"
 skip = "Bỏ qua"
-subtitle = "Tham gia Stirling PDF để bắt đầu"
+subtitle = "Tham gia PaperRing để bắt đầu"
 title = "Tạo tài khoản"
 unableToAccessTool = "Không thể truy cập công cụ: {{error}}"
 unexpectedError = "Lỗi không mong muốn: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Tải xuống"
 downloaded = "Đã tải xuống"
 downloadFailed = "Không thể tải xuống tệp này."
 downloadsCount = "Lượt tải xuống: {{count}}"
-emailWarningBody = "Có vẻ đây là một địa chỉ email. Nếu người này chưa là người dùng Stirling PDF, họ sẽ không thể truy cập tệp."
+emailWarningBody = "Có vẻ đây là một địa chỉ email. Nếu người này chưa là người dùng PaperRing, họ sẽ không thể truy cập tệp."
 emailWarningConfirm = "Vẫn chia sẻ"
 emailWarningTitle = "Địa chỉ email"
 errorTitle = "Chia sẻ thất bại"
@@ -12887,7 +12887,7 @@ manageTitle = "Quản lý chia sẻ"
 noActivity = "Chưa có hoạt động."
 noLinks = "Chưa có liên kết chia sẻ đang hoạt động."
 noSharedUsers = "Chưa có người dùng nào có quyền truy cập."
-openInApp = "Mở trong Stirling PDF"
+openInApp = "Mở trong PaperRing"
 ownerLabel = "Chủ sở hữu"
 ownerUnknown = "Không xác định"
 removeLink = "Xóa liên kết"
@@ -12945,7 +12945,7 @@ all = "Tất cả"
 ariaLabel = "Tìm kiếm siêu tốc"
 filtersAriaLabel = "Bộ lọc tìm kiếm"
 hint = "Nhập để tìm kiếm"
-placeholder = "Tìm kiếm Stirling"
+placeholder = "Tìm kiếm PaperRing"
 placeholderShort = "Tìm kiếm"
 showLess = "Hiển thị ít hơn"
 showMore = "Hiển thị thêm {{count}}"
@@ -12959,7 +12959,7 @@ settings = "Cài đặt"
 tools = "Công cụ"
 
 [survey]
-title = "Khảo sát Stirling-PDF"
+title = "Khảo sát PaperRing"
 
 [swagger]
 clickHere = "nhấp vào đây"
@@ -13128,7 +13128,7 @@ favorites = "Mục yêu thích"
 heading = "Tất cả công cụ (chế độ toàn màn hình)"
 noResults = "Hãy thử điều chỉnh tìm kiếm hoặc chuyển đổi mô tả để tìm thứ bạn cần."
 recommended = "Đề xuất"
-selfHostedOffline = "Cần máy chủ Stirling-PDF của bạn (hiện đang ngoại tuyến):"
+selfHostedOffline = "Cần máy chủ PaperRing của bạn (hiện đang ngoại tuyến):"
 showDetails = "Hiển thị chi tiết"
 unavailable = "Bị quản trị viên server vô hiệu hóa:"
 unavailableDependency = "Không khả dụng - thiếu công cụ cần thiết trên server:"
@@ -13137,7 +13137,7 @@ unfavorite = "Xóa khỏi Mục yêu thích"
 [toolPanel.modePrompt]
 chooseFullscreen = "Dùng chế độ toàn màn hình"
 chooseSidebar = "Dùng chế độ thanh bên"
-description = "Xem trước cả hai bố cục và quyết định cách bạn muốn khám phá các công cụ của Stirling PDF."
+description = "Xem trước cả hai bố cục và quyết định cách bạn muốn khám phá các công cụ của PaperRing."
 dismiss = "Để sau"
 fullscreenDescription = "Duyệt mọi công cụ trong một danh mục che khu vực làm việc cho đến khi bạn chọn một công cụ."
 fullscreenTitle = "Chế độ toàn màn hình - (cũ)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Đang tải thông tin chi tiết..."
 migrationGuide = "Hướng dẫn chuyển đổi"
 migrationGuides = "Hướng dẫn chuyển đổi"
 migrationGuidesDesc = "Xem lại những thay đổi quan trọng trước khi cập nhật."
-modalSubtitle = "Một phiên bản mới của Stirling PDF đã sẵn sàng để cài đặt."
+modalSubtitle = "Một phiên bản mới của PaperRing đã sẵn sàng để cài đặt."
 modalTitle = "Có bản cập nhật"
 notes = "Ghi chú"
 releaseNotes = "Ghi chú phát hành"
@@ -13230,7 +13230,7 @@ urgent = "Khẩn cấp"
 attentionBody = "Admin của bạn cần đăng nhập để xem thêm thông tin. Vui lòng liên hệ ngay."
 attentionBodyAdmin = "Xem lại yêu cầu giấy phép để giữ server tuân thủ."
 attentionTitle = "Server này cần sự chú ý của admin"
-message = "Tận dụng tối đa Stirling PDF với 100 người dùng, chỉnh sửa văn bản PDF và các tính năng nâng cao"
+message = "Tận dụng tối đa PaperRing với 100 người dùng, chỉnh sửa văn bản PDF và các tính năng nâng cao"
 seeInfo = "Xem thông tin"
 title = "Nâng cấp lên gói Team"
 upgradeButton = "Nâng cấp ngay"
@@ -13368,7 +13368,7 @@ authWeb = "Mật khẩu"
 create = "Tạo tài khoản"
 createSubtitle = "Tạo tài khoản tự host bằng mật khẩu hoặc SSO."
 createTitle = "Tạo tài khoản"
-editorDesc = "Chỉnh sửa PDF trong Stirling PDF Editor. Mọi người đều có quyền này."
+editorDesc = "Chỉnh sửa PDF trong PaperRing Editor. Mọi người đều có quyền này."
 email = "Địa chỉ email"
 emailError = "Nhập địa chỉ email hợp lệ"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Đã gửi lời mời, nhưng chưa thể cấp quyền tr
 processorDesc = "Bề mặt quản trị, chạy pipeline, agent và API."
 role = "Vai trò"
 send2 = "Gửi lời mời"
-subtitle2 = "Họ sẽ nhận được email để tham gia không gian làm việc Stirling của bạn."
+subtitle2 = "Họ sẽ nhận được email để tham gia không gian làm việc PaperRing của bạn."
 team = "Nhóm"
 title = "Mời mọi người"
 username = "Tên người dùng"
@@ -13525,7 +13525,7 @@ downloads = "Tải xuống"
 entryLabel = "Tóm tắt chữ ký"
 filesEvaluated_one = "{{count}} tệp đã được đánh giá"
 filesEvaluated_other = "{{count}} tệp đã được đánh giá"
-footer = "Xác thực qua Stirling PDF"
+footer = "Xác thực qua PaperRing"
 generatedAt = "Đã tạo"
 noPdf = "Báo cáo PDF sẽ khả dụng sau khi xác thực thành công."
 page = "Trang"
@@ -13718,7 +13718,7 @@ text = "Văn bản"
 addFile = "Thêm tệp"
 count_one = "{{count}} tệp trong Portfolio này"
 count_other = "{{count}} tệp trong Portfolio này"
-import = "Nhập vào Stirling"
+import = "Nhập vào PaperRing"
 importFailed = "Không thể thêm tệp này vào không gian làm việc của bạn."
 memberUnavailable = "Không thể đọc tệp này từ Portfolio."
 preview = "Xem trước"

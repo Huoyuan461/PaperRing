@@ -19,7 +19,7 @@ export function getFileOrigin(file: StirlingFileStub): FileOrigin {
   return "local";
 }
 
-/** Local files without a known folder are hidden from Stirling library but remain in Recents. */
+/** Local files without a known folder are hidden from PaperRing library but remain in Recents. */
 export function isUnfiledLocalFile(
   file: StirlingFileStub,
   foldersById: ReadonlyMap<FolderId, FolderRecord>,

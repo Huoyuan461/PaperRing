@@ -52,7 +52,7 @@ async function findRun(page: Page): Promise<string> {
       .__editor_store;
     for (const p of s.state.pages) {
       for (const r of p.runs) {
-        if (/Stirling\s+PDF\s+is\s+a\s+robust/.test(r.text)) return r.id;
+        if (/PaperRing\s+PDF\s+is\s+a\s+robust/.test(r.text)) return r.id;
       }
     }
     return "";

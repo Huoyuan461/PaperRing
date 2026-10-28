@@ -30,9 +30,10 @@ public class OpenApiConfig {
 
     private final ApplicationProperties applicationProperties;
 
-    private static final String DEFAULT_TITLE = "Stirling PDF API";
+    private static final String DEFAULT_TITLE = "纸环 PaperRing API";
     private static final String DEFAULT_DESCRIPTION =
-            "API documentation for all Server-Side processing.\n"
+            "纸环 PaperRing API. Document processing in this build is powered by the open-source"
+                    + " Stirling-PDF engine under its license.\n"
                     + "Please note some functionality might be UI only and missing from here.";
 
     @Bean
@@ -51,12 +52,7 @@ public class OpenApiConfig {
                                         .name("Open-Core - MIT Licensed")
                                         .url(
                                                 "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/refs/heads/main/LICENSE"))
-                        .termsOfService("https://www.stirlingpdf.com/terms")
-                        .contact(
-                                new Contact()
-                                        .name("Stirling Software")
-                                        .url("https://www.stirlingpdf.com")
-                                        .email("contact@stirlingpdf.com"))
+                        .contact(new Contact().name("纸环 PaperRing"))
                         .description(DEFAULT_DESCRIPTION);
 
         OpenAPI openAPI = new OpenAPI().info(info).openapi("3.0.3");

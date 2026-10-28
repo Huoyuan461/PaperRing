@@ -10,7 +10,7 @@ import {
 } from "@app/components/easterEgg/brickGame/brickGameGeometry";
 
 /**
- * Knock a stack of pages apart with the Stirling mark.
+ * Knock a stack of pages apart with the PaperRing mark.
  *
  * The simulation runs in a fixed 800x560 playfield and the renderer scales that
  * to whatever canvas it is given, so physics behaves identically on every

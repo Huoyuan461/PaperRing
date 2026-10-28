@@ -55,7 +55,7 @@ keepWorking = "Munka folytatása"
 loading = "Betöltés..."
 loginAgreementAccept = "Elfogadom"
 loginAgreementDecline = "Elutasítom"
-loginAgreementProvider = "Ezt a közleményt az Ön rendszergazdája biztosítja, nem a Stirling PDF Inc."
+loginAgreementProvider = "Ezt a közleményt az Ön rendszergazdája biztosítja, nem a PaperRing"
 loginAgreementTitle = "Bejelentkezési megállapodás"
 logOut = "Kijelentkezés"
 marginTooltip = "A lapszám és az oldal széle közötti távolság."
@@ -668,8 +668,8 @@ description = "Maximális futási idő"
 label = "Időkorlát (perc)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "A Stirling Office Convert béta verzióban van. Jobb konverziókat kínál, gyorsabban és kevesebb memóriahasználattal, mint a LibreOffice."
-label = "Új Stirling Office konverzió használata"
+description = "A PaperRing Office Convert béta verzióban van. Jobb konverziókat kínál, gyorsabban és kevesebb memóriahasználattal, mint a LibreOffice."
+label = "Új PaperRing Office konverzió használata"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Ideiglenes fájltárolás és takarítási viselkedés konfigurálása"
@@ -797,7 +797,7 @@ help = "Kikapcsolva a dokumentumkérdések nem érhetők el. Ez nem akadályozza
 label = "A Stirling Cloud megtarthatja az indexelt dokumentumokat"
 
 [admin.settings.ai.general.cloudNote]
-body = "Az érvelés a Stirling infrastruktúráján fut, és annak a fióknak kerül kiszámlázásra, amelyhez ez a szerver kapcsolódik. Itt nincs futtatandó konténer és nincs tárolandó szolgáltatói kulcs. Amit az AI olvas, azt a Stirling Cloud dolgozza fel, nem a saját hardvere."
+body = "Az érvelés a PaperRing infrastruktúráján fut, és annak a fióknak kerül kiszámlázásra, amelyhez ez a szerver kapcsolódik. Itt nincs futtatandó konténer és nincs tárolandó szolgáltatói kulcs. Amit az AI olvas, azt a Stirling Cloud dolgozza fel, nem a saját hardvere."
 title = "A Stirling Cloud AI-ról"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "Hol fut az AI"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Nincs konténer, nincs szolgáltatói kulcs, nincs modellválasztás – a munka a Stirling Cloudban fut, és annak a fióknak kerül kiszámlázásra, amelyhez ez a szerver kapcsolódik."
-linkCta = "Szerver csatlakoztatása egy Stirling-fiókhoz"
+linkCta = "Szerver csatlakoztatása egy PaperRing-fiókhoz"
 notLinked = "Először kapcsoljon egy fiókot"
-ownerOnly = "Csak a szervezet tulajdonosa kapcsolhatja ezt a szervert egy Stirling-fiókhoz."
+ownerOnly = "Csak a szervezet tulajdonosa kapcsolhatja ezt a szervert egy PaperRing-fiókhoz."
 title = "Stirling Cloud AI használata"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Saját motor futtatása"
 
 [admin.settings.ai.general.note]
 docs = "Beállítási útmutató"
-intro = "Egy külön konténer, amelyet a Stirling mellett futtat. Ez végzi az érvelést; a Stirling továbbra is maga végez minden oldalműveletet. Ugyanarra van szüksége"
+intro = "Egy külön konténer, amelyet a PaperRing mellett futtat. Ez végzi az érvelést; a PaperRing továbbra is maga végez minden oldalműveletet. Ugyanarra van szüksége"
 outro = "mindkét konténeren és egy modellszolgáltatói kulcsra. Amit az AI olvas, az elküldésre kerül az Ön által választott szolgáltatónak – egy Ön által üzemeltetett Ollama minden oldalt házon belül tart."
 title = "Az AI-motorról"
 
@@ -1224,11 +1224,11 @@ description = "Választható funkciók és képességek konfigurálása."
 title = "Funkciók"
 
 [admin.settings.features.serverCertificate]
-description = "Generálja a tanúsítványt, amely a \"Sign with Stirling-PDF\" aláírási funkciót támogatja."
+description = "Generálja a tanúsítványt, amely a \"Sign with PaperRing\" aláírási funkciót támogatja."
 label = "Tanúsítványos aláírás"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "A \"Sign with Stirling-PDF\" biztosítása a szerver által generált tanúsítvánnyal"
+description = "A \"Sign with PaperRing\" biztosítása a szerver által generált tanúsítvánnyal"
 label = "Tanúsítványos aláírás engedélyezése"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Tanúsítvány érvényessége (nap)"
 
 [admin.settings.folderAccess]
 description = "Könyvtárak, amelyekből a mappaforrások és mappakimenetek olvashatnak, illetve amelyekbe írhatnak. Ez biztonsági határ: az automatizálások soha nem mutathatnak a listán kívüli szerverútvonalra."
-securityNote = "Hagyja üresen a mappaforrások és -kimenetek teljes letiltásához. A Stirling saját konfigurációs könyvtára mindig tiltott."
+securityNote = "Hagyja üresen a mappaforrások és -kimenetek teljes letiltásához. A PaperRing saját konfigurációs könyvtára mindig tiltott."
 title = "Mappahozzáférés"
 
 [admin.settings.folderAccess.implied]
-description = "Ezek a Stirling által kezelt könyvtárak mindig engedélyezettek, és itt nem módosíthatók."
+description = "Ezek a PaperRing által kezelt könyvtárak mindig engedélyezettek, és itt nem módosíthatók."
 serverStorage = "Szerver fájltárolója"
 title = "Mindig engedélyezett"
 watchedFolder = "Pipeline figyelt mappája"
@@ -1390,7 +1390,7 @@ description = "URL vagy fájlnév a cookie-szabályzathoz"
 label = "Cookie-szabályzat"
 
 [admin.settings.legal.disclaimer]
-message = "Ezen jogi dokumentumok testreszabásával teljes felelősséget vállal a vonatkozó jogszabályoknak és előírásoknak való megfelelés biztosításáért, beleértve, de nem kizárólag a GDPR-t és más EU-s adatvédelmi követelményeket. Csak akkor módosítsa ezeket a beállításokat, ha: (1) személyes/privát példányt üzemeltet, (2) az EU joghatóságán kívül van és tisztában van helyi jogi kötelezettségeivel, vagy (3) megfelelő jogi tanácsot szerzett, és elfogadja az egyedüli felelősséget minden felhasználói adatért és a jogszabályoknak való megfelelésért. A Stirling-PDF és fejlesztői nem vállalnak felelősséget az Ön jogi kötelezettségeiért."
+message = "Ezen jogi dokumentumok testreszabásával teljes felelősséget vállal a vonatkozó jogszabályoknak és előírásoknak való megfelelés biztosításáért, beleértve, de nem kizárólag a GDPR-t és más EU-s adatvédelmi követelményeket. Csak akkor módosítsa ezeket a beállításokat, ha: (1) személyes/privát példányt üzemeltet, (2) az EU joghatóságán kívül van és tisztában van helyi jogi kötelezettségeivel, vagy (3) megfelelő jogi tanácsot szerzett, és elfogadja az egyedüli felelősséget minden felhasználói adatért és a jogszabályoknak való megfelelésért. A PaperRing és fejlesztői nem vállalnak felelősséget az Ön jogi kötelezettségeiért."
 title = "Jogi felelősségi figyelmeztetés"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "Felhasználónév az SMTP hitelesítéshez"
 label = "SMTP felhasználónév"
 
 [admin.settings.mcp]
-apikeyNote = "Az ügyfelek egy Stirling API key-t küldenek az X-API-KEY fejlécben (vagy Authorization: Bearer <key>). A kulcs a tulajdonos Stirling felhasználójához van rendelve – csak előre létrehozott fiókok kapnak hozzáférést, és a műveletek az adott felhasználóként kerülnek naplózásra. A kulcsok kezelése: Fiók > API Keys."
-description = "Tegye elérhetővé a Stirling PDF-eszközeit és AI-ügynökeit MCP kliensek számára egy OAuth-védett végponton keresztül."
+apikeyNote = "Az ügyfelek egy PaperRing API key-t küldenek az X-API-KEY fejlécben (vagy Authorization: Bearer <key>). A kulcs a tulajdonos PaperRing felhasználójához van rendelve – csak előre létrehozott fiókok kapnak hozzáférést, és a műveletek az adott felhasználóként kerülnek naplózásra. A kulcsok kezelése: Fiók > API Keys."
+description = "Tegye elérhetővé a PaperRing-eszközeit és AI-ügynökeit MCP kliensek számára egy OAuth-védett végponton keresztül."
 title = "MCP szerver"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "fejlécben (vagy Authorization: Bearer <key>). OAuth vagy metada
 step4 = "Hagyja jóvá a bejelentkezést; a kliens tokennel újrapróbálkozik. Az eszközök csoportosítva jelennek meg: convert, pages, misc, security, ai."
 step4ApiKey = "Az eszközök csoportosítva jelennek meg: convert, pages, misc, security, ai – és minden hívás a kulcs tulajdonosaként kerül naplózásra."
 tip = "Tipp: regisztrálja a Resource ID-t engedélyezett audience-ként az IdP-ben. MCP Inspectorral és Claude Desktop-pal tesztelve."
-tipApiKey = "Tipp: az API-key módhoz nincs szükség külső IdP-re – ez a legegyszerűbb saját üzemeltetéshez. A kulcs a tulajdonos Stirling felhasználójához van rendelve."
+tipApiKey = "Tipp: az API-key módhoz nincs szükség külső IdP-re – ez a legegyszerűbb saját üzemeltetéshez. A kulcs a tulajdonos PaperRing felhasználójához van rendelve."
 title = "MCP kliens csatlakoztatása"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (opcionális)"
 placeholder = "Automatikusan felderítve a kibocsátótól"
 
 [admin.settings.mcp.mode]
-apikey = "API key (Stirling felhasználónkénti kulcs)"
-description = "Az OAuth külső IdP-t igényel. Az API key egy felhasználónkénti Stirling API key-t használ (X-API-KEY) – ez a legegyszerűbb saját üzemeltetéshez."
+apikey = "API key (PaperRing felhasználónkénti kulcs)"
+description = "Az OAuth külső IdP-t igényel. Az API key egy felhasználónkénti PaperRing API key-t használ (X-API-KEY) – ez a legegyszerűbb saját üzemeltetéshez."
 label = "Hitelesítési mód"
 oauth = "OAuth 2.1 (külső IdP)"
 
 [admin.settings.mcp.requireAccount]
-description = "Csak akkor engedje át a tokeneket, ha az alanyuk egy előre létrehozott, engedélyezett Stirling felhasználóhoz van rendelve."
-label = "Meglévő Stirling fiók megkövetelése"
+description = "Csak akkor engedje át a tokeneket, ha az alanyuk egy előre létrehozott, engedélyezett PaperRing felhasználóhoz van rendelve."
+label = "Meglévő PaperRing fiók megkövetelése"
 
 [admin.settings.mcp.resourceId]
 description = "A szerver nyilvános /mcp URL-je. A tokenek audience mezőjében szerepelnie kell (RFC 8707), különben elutasításra kerülnek."
@@ -1540,7 +1540,7 @@ description = "mcp.tools.read megkövetelése olvasási műveletekhez, és mcp.t
 label = "OAuth scope-ok kikényszerítése"
 
 [admin.settings.mcp.usernameClaim]
-description = "JWT claim, amelyet egy Stirling felhasználónévhez illeszt (pl. sub, email, preferred_username)."
+description = "JWT claim, amelyet egy PaperRing felhasználónévhez illeszt (pl. sub, email, preferred_username)."
 label = "Felhasználónév claim"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Bekapcsolva csak a listában szereplő felhasználóazonosítók 
 label = "Csak megadott felhasználóazonosítók engedélyezése"
 
 [admin.settings.telegram.enabled]
-description = "Lehetővé teszi a felhasználóknak a Stirling PDF használatát a beállított Telegram botján keresztül."
+description = "Lehetővé teszi a felhasználóknak a PaperRing használatát a beállított Telegram botján keresztül."
 label = "Telegram bot engedélyezése"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Ez a <strong>Beállítások panel</strong>. Az adminisztrát
 systemCustomization = "Számos módon testre szabhatja a felületet: a <strong>Rendszerbeállítások</strong> lehetővé teszik az alkalmazás nevének és nyelveinek módosítását, a <strong>Funkciók</strong> a kiszolgáló tanúsítványainak kezelését, a <strong>Végpontok</strong> pedig az egyes eszközök engedélyezését vagy letiltását a felhasználói számára."
 teamsAndUsers = "Itt kezelheti a <strong>csapatokat</strong> és az egyes felhasználókat. Meghívhat új felhasználókat e-mailben, megosztható hivatkozásokkal, vagy saját maga hozhat létre egyéni fiókokat számukra."
 welcome = "Üdvözöljük az <strong>Admin túrában</strong>! Fedezzük fel a rendszeradminisztrátorok számára elérhető, hatékony vállalati funkciókat és beállításokat."
-wrapUp = "Ezzel véget ért az admin bemutató! Látta az enterprise funkciókat, amelyek a Stirling PDF-et hatékony, testreszabható megoldássá teszik szervezetek számára. Bármikor újrajátszhatja – csak nyissa meg a <strong>Beállítások</strong> menüt, és keresse meg itt a Súgó <strong>Bemutatók</strong> szakaszában."
+wrapUp = "Ezzel véget ért az admin bemutató! Látta az enterprise funkciókat, amelyek a PaperRing-et hatékony, testreszabható megoldássá teszik szervezetek számára. Bármikor újrajátszhatja – csak nyissa meg a <strong>Beállítások</strong> menüt, és keresse meg itt a Súgó <strong>Bemutatók</strong> szakaszában."
 
 [adminUserSettings]
 admin = "Rendszergazda"
 title = "Felhasználókezelés"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arab"
@@ -1952,9 +1952,9 @@ thai = "thai"
 
 [analytics]
 learnMore = "További információ az analitikánkról"
-paragraph1 = "A Stirling PDF választható analitikát használ, hogy segítsen javítani a terméket. Nem követünk semmilyen személyes információt vagy fájltartalmat."
-paragraph2 = "Kérjük, fontolja meg az analitika engedélyezését, hogy segítse a Stirling-PDF növekedését és jobban megérthessük felhasználóink igényeit."
-title = "Szeretne segíteni a Stirling PDF fejlesztésében?"
+paragraph1 = "A PaperRing választható analitikát használ, hogy segítsen javítani a terméket. Nem követünk semmilyen személyes információt vagy fájltartalmat."
+paragraph2 = "Kérjük, fontolja meg az analitika engedélyezését, hogy segítse a PaperRing növekedését és jobban megérthessük felhasználóink igényeit."
+title = "Szeretne segíteni a PaperRing fejlesztésében?"
 
 [annotate]
 tags = "jegyzetelés,kiemelés,rajzolás,jelölés,megjegyzés,jegyzetek,áttekintés,korrektúra,visszajelzés,jelölő eszközök,öntapadós jegyzetek,alakzatok,nyilak,szövegdoboz,szabadkézi"
@@ -2902,9 +2902,9 @@ typeSignature = "Írja be a nevét az aláírás létrehozásához"
 uploadCert = "Tanúsítvány feltöltése"
 uploadCertDesc = "Használja saját PKCS12, PFX, PEM vagy JKS tanúsítványát."
 uploadSignature = "Töltse fel az aláírás képfájlját"
-usePersonalCert = "Stirling Sign · Személyes"
+usePersonalCert = "PaperRing Sign · Személyes"
 usePersonalCertDesc = "Aláírás a fiókjához létrehozott tanúsítvánnyal."
-useServerCert = "Stirling Sign · Szervezet"
+useServerCert = "PaperRing Sign · Szervezet"
 useServerCertDesc = "Aláírás a szerver megosztott szervezeti tanúsítványával."
 useSignature = "Aláírás használata"
 
@@ -3224,10 +3224,10 @@ text = "Tegyen fel kérdést a dokumentumairól, vagy kérjen segítséget a PDF
 
 [chat.fab]
 close = "Chat bezárása"
-open = "Stirling AI asszisztens megnyitása"
+open = "PaperRing AI asszisztens megnyitása"
 
 [chat.header]
-agentMenu = "Stirling ügynök beállításai"
+agentMenu = "PaperRing ügynök beállításai"
 assistant = "AI asszisztens"
 clearChat = "Csevegés törlése"
 
@@ -3588,7 +3588,7 @@ noTypes = "Ezek a dokumentumok nem egyeztek ismert típussal."
 
 [classificationDemo.defaultApp]
 body = "Tegye a Stirlinget alapértelmezett PDF alkalmazássá. Minden PDF, amelyet emailből, böngészőből vagy az asztalról megnyit, ide kerül, készen olvasásra vagy szerkesztésre. Ezt bármikor módosíthatja a Beállításokban."
-cta = "Legyen a Stirling az alapértelmezett"
+cta = "Legyen a PaperRing az alapértelmezett"
 title = "Minden PDF megnyitása a Stirlingben"
 
 [classificationDemo.followUp]
@@ -3604,7 +3604,7 @@ other = "Egyéb"
 body = "Osztályozza és rendezze típus szerint a Letöltések mappában található {{count}} legutóbbi PDF-et."
 cta = "Letöltések mappám feldolgozása"
 privacy = "A PDF-ek ezen az eszközön maradnak. A csatlakoztatott szerver rögzíti a feldolgozási használatot."
-title = "Nézze meg, mire képes a Stirling egy teljes mappával"
+title = "Nézze meg, mire képes a PaperRing egy teljes mappával"
 
 [classificationDemo.phase]
 finishing = "Befejezés..."
@@ -3618,10 +3618,10 @@ counts = "{{total}} PDF-ből feldolgozva"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF"
-failedBody = "A Stirling nem tudta olvasni a Letöltések mappát. A számítógépén semmi sem változott."
+failedBody = "A PaperRing nem tudta olvasni a Letöltések mappát. A számítógépén semmi sem változott."
 failedTitle = "Ez nem fejeződött be"
 heading = "Letöltései rendezve"
-summary = "A Stirling beolvasott {{documents}} elemet, és {{types}} típusba rendezte őket."
+summary = "A PaperRing beolvasott {{documents}} elemet, és {{types}} típusba rendezte őket."
 typeCount_one = "{{count}} típus"
 typeCount_other = "{{count}} típus"
 
@@ -3947,14 +3947,14 @@ upgradeButton = "Fiók frissítése"
 
 [config.apiKeys]
 copyKeyAriaLabel = "API-kulcs másolása"
-description = "Az API-kulcsa a Stirling PDF eszközkészletének eléréséhez. Másolja a projektjébe, vagy frissítse, hogy újat generáljon."
-docsDescription = "További információ a Stirling PDF integrálásáról:"
+description = "Az API-kulcsa a PaperRing eszközkészletének eléréséhez. Másolja a projektjébe, vagy frissítse, hogy újat generáljon."
+docsDescription = "További információ a PaperRing integrálásáról:"
 docsLink = "API-dokumentáció"
 docsTitle = "API-dokumentáció"
 generateError = "Nem sikerült API-kulcsot létrehozni."
 goToAccount = "Ugrás a fiókhoz"
 guestInfo = "A vendégek nem kapnak API-kulcsot. Hozzon létre egy fiókot, hogy API-kulcsot kapjon az alkalmazásaihoz."
-intro = "API-kulcsát használhatja a Stirling PDF feldolgozási képességeinek programozott eléréséhez."
+intro = "API-kulcsát használhatja a PaperRing feldolgozási képességeinek programozott eléréséhez."
 label = "API-kulcs"
 publicKeyAriaLabel = "Nyilvános API-kulcs"
 refreshAriaLabel = "API-kulcs frissítése"
@@ -3978,10 +3978,10 @@ title = "API-kulcsok frissítése"
 warning = "⚠️ Figyelmeztetés: Ez a művelet új API-kulcsokat hoz létre, és a korábbi kulcsokat érvényteleníti."
 
 [config.mcp]
-description = "A Model Context Protocol (MCP) lehetővé teszi, hogy az olyan AI asszisztensek, mint a Claude, közvetlenül használják a Stirling PDF eszközeit. Csatlakoztasson egyszer egy klienst, és az asszisztense az Ön nevében konvertálhat, szerkeszthet, biztosíthat és feldolgozhat dokumentumokat."
-guestInfo = "A vendégfelhasználók nem csatlakoztathatnak MCP klienseket. Hozzon létre fiókot az MCP szerver használatához, és engedje, hogy AI asszisztense az Ön nevében futtassa a Stirling PDF eszközeit."
+description = "A Model Context Protocol (MCP) lehetővé teszi, hogy az olyan AI asszisztensek, mint a Claude, közvetlenül használják a PaperRing eszközeit. Csatlakoztasson egyszer egy klienst, és az asszisztense az Ön nevében konvertálhat, szerkeszthet, biztosíthat és feldolgozhat dokumentumokat."
+guestInfo = "A vendégfelhasználók nem csatlakoztathatnak MCP klienseket. Hozzon létre fiókot az MCP szerver használatához, és engedje, hogy AI asszisztense az Ön nevében futtassa a PaperRing eszközeit."
 navLabel = "MCP szerver"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "API keys megtekintése"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Az Ön MCP végpontja"
 
 [config.mcp.setup]
 addTo = "Hozzáadás ehhez:"
-hint = "Válassza ki a kliensét, illessze be a részletet a megadott fájlba, majd indítsa újra. Az első használatkor Stirling fiókjával jelentkezik be – nincs másolandó kulcs."
+hint = "Válassza ki a kliensét, illessze be a részletet a megadott fájlba, majd indítsa újra. Az első használatkor PaperRing fiókjával jelentkezik be – nincs másolandó kulcs."
 title = "AI asszisztens csatlakoztatása"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "{{current}}. lépés / {{total}}"
 [connect.confirm]
 acknowledge = "Felismerem ezt a címet, és szeretném csatlakoztatni a csapatomhoz"
 approve = "Szerver csatlakoztatása"
-cannotDecide = "Csak a csapattulajdonos hagyhatja jóvá vagy utasíthatja el ezt a kapcsolatot. Használjon másik fiókot, vagy zárja be ezt az üzenetet a Stirling használatának folytatásához."
+cannotDecide = "Csak a csapattulajdonos hagyhatja jóvá vagy utasíthatja el ezt a kapcsolatot. Használjon másik fiókot, vagy zárja be ezt az üzenetet a PaperRing használatának folytatásához."
 deny = "Elutasítás"
 dismiss = "Bezárás"
-lead = "Egy Stirling szerver csatlakozni szeretne a csapatához. Jóváhagyás előtt ellenőrizze, hogy az alábbi cím az Öné-e."
+lead = "Egy PaperRing szerver csatlakozni szeretne a csapatához. Jóváhagyás előtt ellenőrizze, hogy az alábbi cím az Öné-e."
 originLabel = "Cím"
 signedInAs = "Bejelentkezve mint"
 switchAccount = "Másik fiók használata"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Először válasszon forrásformátumot"
 settings = "Beállítások"
 single = "Egyetlen"
 sourceFormatPlaceholder = "Forrásformátum"
-stirlingOfficeConvert = "Stirling Office Convert használata (béta)"
+stirlingOfficeConvert = "PaperRing Office Convert használata (béta)"
 stirlingOfficeConvertDescription = "Jobb, gyorsabb konverziók kevesebb memóriahasználattal. Kapcsolja ki a standard konverter használatához."
 strictMode = "Szigorú mód"
 strictModeDesc = "Hiba, ha a konverzió nem tökéletes (VeraPDF ellenőrzést használ)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Preferenciák kezelése"
 title = "Hogy használjuk a sütiket"
 
 [cookieBanner.popUp.description]
-1 = "Cookie-kat és más technológiákat használunk, hogy a Stirling PDF jobban működjön Önnek – segítve eszközeink fejlesztését és olyan funkciók építését, amelyeket szeretni fog."
+1 = "Cookie-kat és más technológiákat használunk, hogy a PaperRing jobban működjön Önnek – segítve eszközeink fejlesztését és olyan funkciók építését, amelyeket szeretni fog."
 2 = "Ha inkább nem szeretné, a „Nem, köszönöm” gombra kattintva csak a zökkenőmentes működéshez szükséges alapvető cookie-k lesznek engedélyezve."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Süti használat"
 title = "Beleegyezési preferenciák központja"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Ezek a cookie-k segítenek megérteni, hogyan használják eszközeinket, így azokra a funkciókra összpontosíthatunk, amelyeket közösségünk a legtöbbre értékel. Biztos lehet benne – a Stirling PDF nem tudja és soha nem fogja követni az Ön által kezelt dokumentumok tartalmát."
+description = "Ezek a cookie-k segítenek megérteni, hogyan használják eszközeinket, így azokra a funkciókra összpontosíthatunk, amelyeket közösségünk a legtöbbre értékel. Biztos lehet benne – a PaperRing nem tudja és soha nem fogja követni az Ön által kezelt dokumentumok tartalmát."
 title = "Adatelemzések"
 
 [cookieBanner.preferencesModal.description]
-1 = "A Stirling PDF sütiket és hasonló technológiákat használ az Ön élményének javítása, valamint eszközeink használatának megértése érdekében. Ez segít nekünk abban, hogy javítsuk a teljesítményt, fejlesszük az Ön számára fontos funkciókat, és folyamatos támogatást nyújtsunk felhasználóinknak."
-2 = "A Stirling PDF nem tudja – és soha nem fogja – követni vagy elérni az Ön által használt dokumentumok tartalmát."
+1 = "A PaperRing sütiket és hasonló technológiákat használ az Ön élményének javítása, valamint eszközeink használatának megértése érdekében. Ez segít nekünk abban, hogy javítsuk a teljesítményt, fejlesszük az Ön számára fontos funkciókat, és folyamatos támogatást nyújtsunk felhasználóinknak."
+2 = "A PaperRing nem tudja – és soha nem fogja – követni vagy elérni az Ön által használt dokumentumok tartalmát."
 3 = "Az Ön bizalma és adatainak védelme a tevékenységünk középpontjában áll."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Nem sikerült beállítani az alapértelmezett PDF-kezelőt"
 title = "Hiba"
 
 [defaultApp.settingsOpened]
-message = "A Windows Beállításokban keressen rá a „PDF” kifejezésre, és válassza a Stirling PDF-et alapértelmezett alkalmazásként"
+message = "A Windows Beállításokban keressen rá a „PDF” kifejezésre, és válassza a PaperRing-et alapértelmezett alkalmazásként"
 title = "Beállítások megnyitva"
 
 [defaultApp.success]
-message = "A Stirling PDF mostantól az alapértelmezett PDF-szerkesztő"
+message = "A PaperRing mostantól az alapértelmezett PDF-szerkesztő"
 title = "Alapértelmezett alkalmazás beállítva"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Minimalizálás"
 restore = "Visszaállítás"
 
 [desktopBilling]
-description = "Kezelje a használatot és a számlázást a böngészőben. Jelentkezzen be ugyanazzal a Stirling-fiókkal, amelyet itt használ."
+description = "Kezelje a használatot és a számlázást a böngészőben. Jelentkezzen be ugyanazzal a PaperRing-fiókkal, amelyet itt használ."
 open = "Használat és számlázás megnyitása a böngészőben"
 openFailed = "Nem sikerült megnyitni a Használat és számlázás oldalt. Ellenőrizze a kapcsolatot, és próbálja újra."
 selfHostedDescription = "Kezelje a használatot és a számlázást a kapcsolt szerveren a böngészőben. Jelentkezzen be a szervertulajdonosi fiókjával."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "A frissítés letöltése vagy telepítése nem sikerült
 
 [desktopUpdate.blocked]
 docsLink = "Telepítési dokumentáció megtekintése"
-message = "A Stirling-PDF-nek nincs jogosultsága saját magát frissíteni ezen a gépen."
+message = "A PaperRing-nek nincs jogosultsága saját magát frissíteni ezen a gépen."
 title = "Rendszergazdai jogosultság szükséges"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Átnevezés"
 title = "Fájl átnevezése"
 
 [filesPage]
-addedToLibrary = "Hozzáadva a Stirling-könyvtárhoz"
-addingToLibrary = "Hozzáadás a Stirling-könyvtárhoz…"
-addToLibrary = "Hozzáadás a Stirling-könyvtárhoz…"
+addedToLibrary = "Hozzáadva a PaperRing-könyvtárhoz"
+addingToLibrary = "Hozzáadás a PaperRing-könyvtárhoz…"
+addToLibrary = "Hozzáadás a PaperRing-könyvtárhoz…"
 addToLibraryFailed = "Néhány fájlt nem sikerült hozzáadni"
 addToWorkspace = "Hozzáadás a munkaterülethez"
 addToWorkspaceCount = "{{count}} hozzáadása a munkaterülethez"
-allFiles = "Stirling könyvtár"
+allFiles = "PaperRing könyvtár"
 back = "Vissza"
 backToFolder = "Vissza ide: {{folder}}"
 backToMyFiles = "Vissza a Fájlkönyvtárhoz"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "A mappában lévő {{count}} fájl törlése is"
 deleteFolderContents_other = "A mappában lévő {{count}} fájl törlése is"
 deleteFolderContentsWarning = "A fájlok véglegesen törlődnek, nem állíthatók vissza."
 deleteFolderError = "A mappát nem sikerült törölni. Próbálja újra."
-deleteFolderKeepHint = "A benne lévő fájlok a Stirling könyvtárba kerülnek."
+deleteFolderKeepHint = "A benne lévő fájlok a PaperRing könyvtárba kerülnek."
 deleteFolderTitle = "Mappa törlése?"
 deselectAll = "Kijelölés törlése"
 details = "Részletek"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} fájlt nem sikerült áthelyezni a szervere
 moveTo = "Áthelyezés…"
 newFolder = "Új mappa"
 newFolderStorageDisabled = "A szerver mappatárolása nincs engedélyezve."
-newFolderTabUnavailable = "Váltson a Stirling könyvtárra mappák létrehozásához."
+newFolderTabUnavailable = "Váltson a PaperRing könyvtárra mappák létrehozásához."
 offlineNoFolderEdits = "A szerver mappaszinkronja nem érhető el – mappamódosítások letiltva. Ellenőrizze a bejelentkezést és a tárhely beállításait."
 open = "Megnyitás"
 openVersionInWorkspace = "Megnyitás a munkaterületen"
@@ -4921,7 +4921,7 @@ orphaned = "Nincs a lemezen"
 orphanedHint = "Az eredeti itt: {{path}} eltűnt. Ez a másolat csak itt van – mentéskor új helyet kell megadnod."
 unavailable = "Nem érhető el"
 unavailableHintOffline = "A meghajtó vagy megosztás, amelyen ez a fájl található, nincs csatlakoztatva. Csatlakoztasd újra a módosítások ismételt átvételéhez."
-unavailableHintPermission = "A Stirling nem olvashatja ezt a helyet. Adj hozzáférést a Rendszerbeállításokban a módosítások ismételt átvételéhez."
+unavailableHintPermission = "A PaperRing nem olvashatja ezt a helyet. Adj hozzáférést a Rendszerbeállításokban a módosítások ismételt átvételéhez."
 unavailableHintUnknown = "Ez a fájl jelenleg nem érhető el. Az itt lévő másolat változatlan."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Mappanév"
 
 [filesPage.folderOrigin]
 diskHint = "A lemezeden lévő könyvtárból csatolt mappa"
-serverHint = "A Stirling szerveren tárolt mappa"
+serverHint = "A PaperRing szerveren tárolt mappa"
 virtualHint = "Csak ebben a böngészőben létező mappa"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Szinkronizálva a fiókoddal, bárhol elérhető, ahol bejelentkez
 [filesPage.origin]
 all = "Összes forrás"
 cloud = "Felhő"
-cloudHint = "A Stirling szerveren tárolva"
+cloudHint = "A PaperRing szerveren tárolva"
 diskFileHint = "A számítógépeden tárolva"
 diskHint = "Fájl a lemezeden lévő csatolt mappában"
 local = "Helyi"
@@ -5474,7 +5474,7 @@ invisible = "Láthatatlan (csak metaadat)"
 location = "Hely:"
 logo = "Logó:"
 logoHidden = "Nincs logó"
-logoShown = "Stirling PDF logó megjelenítve"
+logoShown = "PaperRing logó megjelenítve"
 participantCount_one = "{{count}} résztvevő kiválasztva"
 participantCount_other = "{{count}} résztvevő kiválasztva"
 participants = "Résztvevők"
@@ -5525,7 +5525,7 @@ title = "Aláírás tetszőleges sorrendben"
 dismiss = "Banner elrejtése"
 message = "Hozzon létre ingyenes fiókot, hogy menthesse munkáját, több funkcióhoz férjen hozzá és támogassa a projektet."
 signUp = "Ingyenes regisztráció"
-title = "A Stirling PDF-et vendégként használja!"
+title = "A PaperRing-et vendégként használja!"
 
 [home.addAttachments]
 desc = "Beágyazott PDF-mellékletek megtekintése, hozzáadása, kinyerése, átnevezése vagy törlése"
@@ -5704,7 +5704,7 @@ tags = "egyesítés,összekapcsolás,összevonás,egyesítés,PDF-ek egyesítés
 title = "Egyesítés"
 
 [home.mobile]
-brandAlt = "Stirling PDF logó"
+brandAlt = "PaperRing logó"
 openFiles = "Fájlok megnyitása"
 swipeHint = "Húzza balra vagy jobbra a nézetek váltásához"
 tools = "Eszközök"
@@ -5743,7 +5743,7 @@ tags = "rendezés,átrendezés,újrasorrendezés,oldalak rendezése,sorrendezés
 title = "Rendszerezés"
 
 [home.pdfTextEditor]
-desc = "Nézze át és szerkessze a Stirling PDF JSON exportokat csoportosított szövegszerkesztéssel és PDF-újragenerálással"
+desc = "Nézze át és szerkessze a PaperRing JSON exportokat csoportosított szövegszerkesztéssel és PDF-újragenerálással"
 tags = "szöveg szerkesztése,szöveg módosítása,szöveg megváltoztatása,tartalom szerkesztése,szöveg frissítése,újraírás,javítás,módosítás,korrektúra,átdolgozás,szövegszerkesztő,tartalomszerkesztő"
 title = "PDF szövegszerkesztő"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "A jelszó megadása kötelező"
 signIn = "Bejelentkezés"
 validating = "Meghívó ellenőrzése..."
 validationError = "Nem sikerült ellenőrizni a meghívó linket"
-welcome = "Üdvözli a Stirling PDF"
+welcome = "Üdvözli a PaperRing"
 welcomeSubtitle = "Fejezze be a fiók beállítását a kezdéshez"
 welcomeTitle = "Meghívták!"
 
@@ -6209,7 +6209,7 @@ message = "A hitelesítés nem volt sikeres. Bezárhatja ezt az ablakot, és meg
 title = "Sikertelen hitelesítés"
 
 [oauth.success]
-message = "Bezárhatja ezt az ablakot, és visszatérhet a Stirling PDF-hez."
+message = "Bezárhatja ezt az ablakot, és visszatérhet a PaperRing-hez."
 title = "Sikeres hitelesítés"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Visszairányítunk az alkalmazásba..."
-requesting = "{{app}} hozzá szeretne férni a Stirling PDF-fiókodhoz"
+requesting = "{{app}} hozzá szeretne férni a PaperRing-fiókodhoz"
 scopesIntro = "Ez lehetővé teszi {{app}} számára, hogy:"
 signedInAs = "Bejelentkezve mint {{name}}"
 signInButton = "Jelentkezz be a folytatáshoz"
-signInPrompt = "Jelentkezz be a Stirling PDF-fiókodba az alkalmazás csatlakoztatásának folytatásához."
+signInPrompt = "Jelentkezz be a PaperRing-fiókodba az alkalmazás csatlakoztatásának folytatásához."
 title = "Authorise access"
 unknownApp = "Egy harmadik féltől származó alkalmazás"
 
 [oauthConsent.access]
 actAsYou = "A nevedben járjon el – minden, amit {{app}} tesz, a fiókod alatt fut, és beleszámít a használatodba"
-tools = "A nevedben használja a Stirling PDF-eszközeidet – dokumentumaid konvertálása, szerkesztése, aláírása, védelme és feldolgozása"
+tools = "A nevedben használja a PaperRing-eszközeidet – dokumentumaid konvertálása, szerkesztése, aláírása, védelme és feldolgozása"
 
 [oauthConsent.scope]
 email = "Megtekintse az email-címedet"
@@ -6362,26 +6362,26 @@ skipTheTour = "Körbevezetés kihagyása"
 
 [onboarding.checklist]
 dismiss = "Elvetés"
-title = "Stirling PDF beállítása"
+title = "PaperRing beállítása"
 
 [onboarding.checklist.downloadDesktop]
 description = "Futtassa a Stirlinget natívan a gépén"
-title = "Stirling letöltése asztali gépre"
+title = "PaperRing letöltése asztali gépre"
 
 [onboarding.checklist.inviteTeam]
 description = "Működjön együtt a csapatával"
 title = "Csapattagok meghívása"
 
 [onboarding.checklist.setDefaultApp]
-description = "PDF-fájlok megnyitása a Stirling PDF-ben"
-title = "Legyen a Stirling az alapértelmezett"
+description = "PDF-fájlok megnyitása a PaperRing-ben"
+title = "Legyen a PaperRing az alapértelmezett"
 
 [onboarding.checklist.takeTour]
-description = "Nézze meg egy gyors bemutatóban, hogyan működik a Stirling"
+description = "Nézze meg egy gyors bemutatóban, hogyan működik a PaperRing"
 title = "Bemutató megtekintése"
 
 [onboarding.desktopInstall]
-body = "A Stirling asztali alkalmazásként működik a legjobban. Használhatja offline, gyorsabban érheti el a dokumentumokat, és helyben szerkeszthet a gépén."
+body = "A PaperRing asztali alkalmazásként működik a legjobban. Használhatja offline, gyorsabban érheti el a dokumentumokat, és helyben szerkeszthet a gépén."
 selectOs = "Operációs rendszer kiválasztása"
 title = "Letöltés"
 titleWithOs = "Letöltés: {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Letöltés: {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Rengeteg új változás fedezhető fel, köztük az <strong>Agent Chat</strong>, az automatikus dokumentum-<strong>osztályozás</strong> és még sok más."
 freeLine = "A szerkesztő mostantól <free>teljesen ingyenes</free>."
-title = "Üdvözlünk a Stirling <product>Desktop</product> alkalmazásban"
+title = "Üdvözlünk a PaperRing <product>Desktop</product> alkalmazásban"
 
 [onboarding.mfa]
 authenticationCode = "Hitelesítési kód"
@@ -6417,9 +6417,9 @@ userBody = "Hívja meg a csapattagokat, rendeljen szerepköröket, és tartsa re
 userTitle = "Csomag áttekintése"
 
 [onboarding.processorIntro]
-body = "A Stirling mostantól <strong>Szabályokat</strong> futtat — automatizált szabályokat, amelyek érkezéskor minden dokumentumot osztályoznak, védenek és feldolgoznak. Állítsa be őket, és kövesse a futásokat a <strong>Processor</strong> felületén."
+body = "A PaperRing mostantól <strong>Szabályokat</strong> futtat — automatizált szabályokat, amelyek érkezéskor minden dokumentumot osztályoznak, védenek és feldolgoznak. Állítsa be őket, és kövesse a futásokat a <strong>Processor</strong> felületén."
 cta = "A Processor megtekintése"
-title = "Ismerje meg a Stirling Processort"
+title = "Ismerje meg a PaperRing Processort"
 
 [onboarding.saas.freeEditor]
 freeLine = "A szerkesztő mostantól <free>teljesen ingyenes</free>."
@@ -6447,17 +6447,17 @@ title = "Biztonsági ellenőrzés"
 [onboarding.serverLicense]
 freeBody = "Az <strong>Open-Core</strong> licencünk ingyenesen tartalmazza az <strong>OAuth SSO</strong> funkciót és legfeljebb <strong>{{freeTierLimit}}</strong> felhasználót. A zavartalan bővüléshez a Stirling Team csomagot ajánljuk — <strong>100 felhasználó</strong> havi 99 dollárért."
 freeTitle = "Team csomag"
-overLimitBody = "Licencelésünk legfeljebb <strong>{{freeTierLimit}}</strong> felhasználót engedélyez ingyenesen. Neked <strong>{{overLimitUserCopy}}</strong> Stirling-felhasználód van. A megszakítás nélküli folytatáshoz válts a Stirling Team csomagra – <strong>100 felhasználó</strong>, PDF-szövegszerkesztés és teljes adminisztrátori vezérlés $99/hó áron."
+overLimitBody = "Licencelésünk legfeljebb <strong>{{freeTierLimit}}</strong> felhasználót engedélyez ingyenesen. Neked <strong>{{overLimitUserCopy}}</strong> PaperRing-felhasználód van. A megszakítás nélküli folytatáshoz válts a Stirling Team csomagra – <strong>100 felhasználó</strong>, PDF-szövegszerkesztés és teljes adminisztrátori vezérlés $99/hó áron."
 overLimitTitle = "Team csomag szükséges"
 seePlans = "Csomagok megtekintése →"
 upgrade = "Frissítés most →"
 
 [onboarding.tourOverview]
-body = "A Stirling PDF V2 tucatnyi eszközzel és megújult elrendezéssel érkezik. Tegyen egy gyors túrát, hogy lássa, mi változott és hol találja a szükséges funkciókat."
+body = "A PaperRing V2 tucatnyi eszközzel és megújult elrendezéssel érkezik. Tegyen egy gyors túrát, hogy lássa, mi változott és hol találja a szükséges funkciókat."
 title = "Bemutató áttekintése"
 
 [onboarding.welcomeSlide]
-body = "A Stirling PDF mostantól minden méretű csapat számára készen áll. Ez a frissítés új elrendezést, erőteljes új adminisztrátori képességeket és a leggyakrabban kért funkciónkat – a <strong>Szöveg szerkesztése</strong>-t tartalmazza."
+body = "A PaperRing mostantól minden méretű csapat számára készen áll. Ez a frissítés új elrendezést, erőteljes új adminisztrátori képességeket és a leggyakrabban kért funkciónkat – a <strong>Szöveg szerkesztése</strong>-t tartalmazza."
 title = "Üdvözöljük a Stirlingben"
 
 [onboarding.whatsNew]
@@ -6545,7 +6545,7 @@ check = "Újraellenőrzés"
 checkAccount = "Fiók ellenőrzése"
 chooseEmail = "Válassza ki a fiókjukat itt: {{team}}, vagy adjon meg egy e-mail-címet a meghíváshoz."
 close = "Átruházási párbeszédpanel bezárása"
-cloudAccount = "Stirling-fiók"
+cloudAccount = "PaperRing-fiók"
 cloudScopeStyled = "<user>{{name}}</user> fogja kezelni ezt: {{team}}, valamint a tagokat és a számlázást."
 cloudTargetChanged = "Válasszon másik felhőtagot. Ez a fiók már nem jogosult az átadásra."
 confirm = "Megértem a hozzáférési és tulajdonjogi változásokat."
@@ -6560,7 +6560,7 @@ inviteAddress = "<account>{{email}}</account> meghívása ide: {{team}}."
 inviteBlocked = "A meghívót nem sikerült elküldeni. Ellenőrizze az elérhető csapathelyeket, és hogy a címzettnek van-e már fizetős előfizetése."
 linkChanged = "A szerver felhőkapcsolata megváltozott. Kérje meg a szerver üzemeltetőjét, hogy állítsa vissza az eredeti kapcsolatot a folytatás előtt."
 linkedServerCount = "{{count}} kapcsolt szerver"
-linkRevoked = "A szerver felhőkapcsolata már nem érvényes. Szakítsa meg az átruházást, majd csatlakoztassa újra a Stirling-fiókját a beállításokban. A tulajdonjog nem változik."
+linkRevoked = "A szerver felhőkapcsolata már nem érvényes. Szakítsa meg az átruházást, majd csatlakoztassa újra a PaperRing-fiókját a beállításokban. A tulajdonjog nem változik."
 localScope = "Ők lesznek a szerver tulajdonosai, és kezelik a számlázást és a felhőkapcsolatokat. Ön megtartja a rendszergazdai hozzáférést, de elveszíti a hozzáférést ezekhez a beállításokhoz."
 membershipDetails = "Csapattagsági adatok"
 membershipFirst = "Csatlakozniuk kell a csapathoz, mielőtt megerősítheti az átruházást."
@@ -6872,7 +6872,7 @@ benefit1Body = "eszközök láncolása, futtatások ütemezése, kötegelt feldo
 benefit1Title = "Automatizálási pipeline-ok"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "AI-eszközök"
-benefit3Body = "bármely Stirling endpoint programozott meghívása"
+benefit3Body = "bármely PaperRing endpoint programozott meghívása"
 benefit3Title = "API-hozzáférés"
 button = "Processor bekapcsolása →"
 reassurance = "Nincs minimum · Teszteléshez állíts be $0 limitet · Bármikor lemondható"
@@ -6962,7 +6962,7 @@ editorLabel = "PDF-szerkesztő"
 login = "Bejelentkezés"
 manualToolsPromo = "Korlátlan ingyenes manuális PDF-eszközök"
 processorLabel = "PDF-feldolgozó"
-processorTitle = "Hozz létre fiókot a Stirling legjobb funkcióinak feloldásához"
+processorTitle = "Hozz létre fiókot a PaperRing legjobb funkcióinak feloldásához"
 readerLabel = "PDF-olvasó"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "USD-ben becsülve. Az előfizetés után bármikor módosíthatod a l
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / hónap"
 edit = "Szerkesztés"
-help = "A kártyaadataidat a Stripe kezeli. A Stirling soha nem látja őket."
+help = "A kártyaadataidat a Stripe kezeli. A PaperRing soha nem látja őket."
 loading = "Checkout betöltése…"
 noCap = "Nincs limit"
 title = "Fizetési mód hozzáadása"
@@ -7010,7 +7010,7 @@ title = "Fizetési mód hozzáadása"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "AI-eszközök"
-apiBody = "programozott hozzáférés bármely Stirling endpointhoz"
+apiBody = "programozott hozzáférés bármely PaperRing endpointhoz"
 apiTitle = "API-hívások"
 automationBody = "láncolt eszközök vagy ütemezett futtatások, amelyekhez nincs szükség kattintásra"
 automationTitle = "Automatizálási pipeline-ok"
@@ -7870,7 +7870,7 @@ connectDescription = "Csatlakoztasd ezt a szervert, hogy a csapatod feldolgozás
 disconnectBody = "Ez a szerver nem fogja tovább használni a csapatod feldolgozási keretét a Stirling Cloudban. A helyi fájljaid ezen a szerveren maradnak. Az újbóli csatlakozáshoz kövesd az eredeti csatlakozási lépéseket."
 disconnectTitle = "Leválasztod ezt a példányt?"
 eyebrow = "Ez a példány"
-linkButton = "Stirling-fiókod csatlakoztatása"
+linkButton = "PaperRing-fiókod csatlakoztatása"
 loading = "Fiókkapcsolat ellenőrzése"
 notLinked = "Nincs csatlakoztatva"
 signedInAs = "Bejelentkezve a Stirling Cloudba mint"
@@ -7886,14 +7886,14 @@ description = "Kérd meg a szerver rendszergazdáját, hogy engedélyezze a kapc
 title = "A fiókcsatlakozás nem érhető el"
 
 [portal.accountLink.connect]
-adminRequired = "Kérd meg a szerver rendszergazdáját, hogy nyissa meg a Használat és számlázás részt, és kapcsoljon össze egy Stirling-fiókot több havi kreditért. A manuális PDF-eszközök továbbra is elérhetők."
+adminRequired = "Kérd meg a szerver rendszergazdáját, hogy nyissa meg a Használat és számlázás részt, és kapcsoljon össze egy PaperRing-fiókot több havi kreditért. A manuális PDF-eszközök továbbra is elérhetők."
 adminTitle = "Kérd meg a szerver rendszergazdáját"
 close = "Bezárás"
 copied = "Másolva"
 copyAdminMessage = "Üzenet másolása a rendszergazdának"
-exhaustedLede = "Ez a szerver felhasználta a hónapra járó ingyenes kreditjeit. Kapcsolj össze egy új vagy meglévő Stirling-fiókot, hogy hozzáférj a csapatod havi keretéhez."
+exhaustedLede = "Ez a szerver felhasználta a hónapra járó ingyenes kreditjeit. Kapcsolj össze egy új vagy meglévő PaperRing-fiókot, hogy hozzáférj a csapatod havi keretéhez."
 notNow = "Most nem"
-start = "Stirling-fiók csatlakoztatása"
+start = "PaperRing-fiók csatlakoztatása"
 step = "{{current}}. lépés / {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7925,7 +7925,7 @@ body = "Ezt a kérelmet elutasították, vagy már felhasználták. Indíts egy 
 title = "A csatlakozás nem fejeződött be"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "A Stirling nem erősítette meg a kapcsolatot. Ez általában átmeneti."
+body = "A PaperRing nem erősítette meg a kapcsolatot. Ez általában átmeneti."
 title = "Még nincs befejezve"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Hátralévő ingyenes kreditek"
 creditsSuffix = "{{allowance}} ingyenes kreditből maradt"
 cta = "Kész"
 inviteTeam = "Csapat meghívása"
-lede = "Ez a szerver mostantól a Stirling-fiókjával működik."
+lede = "Ez a szerver mostantól a PaperRing-fiókjával működik."
 pendingTitle = "Már majdnem kész"
 switchOnProcessor = "Processor bekapcsolása"
 title = "Csatlakoztatva"
 
 [portal.accountLink.connect.handoff]
-opening = "Stirling bejelentkezés megnyitása..."
-reauthLede = "A Stirling-munkamenete lejárt. Az újbóli bejelentkezés láthatóvá teszi a használatot és a számlázást. Ez a szerver ettől függetlenül csatlakoztatva marad."
+opening = "PaperRing bejelentkezés megnyitása..."
+reauthLede = "A PaperRing-munkamenete lejárt. Az újbóli bejelentkezés láthatóvá teszi a használatot és a számlázást. Ez a szerver ettől függetlenül csatlakoztatva marad."
 title = "Csatlakozás"
 
 [portal.accountLink.connectionNotice]
@@ -7981,9 +7981,9 @@ callbackMismatch = "A szerver beállított frontend címe nem egyezik a megnyito
 cancel = "Mégse"
 continueReauth = "Bejelentkezés újra"
 exhaustedTitle = "Tartsa működésben a munkafolyamatait"
-identity = "Stirling-fiók"
-linkTitle = "Stirling-fiókod csatlakoztatása"
-noAuthorizeUrl = "A Stirling nem adott vissza folytatási helyet. Próbálja újra később."
+identity = "PaperRing-fiók"
+linkTitle = "PaperRing-fiókod csatlakoztatása"
+noAuthorizeUrl = "A PaperRing nem adott vissza folytatási helyet. Próbálja újra később."
 startFailed = "Nem sikerült elérni a Stirlinget a kapcsolat indításához. Ellenőrizze a szerver kimenő hálózati hozzáférését, majd próbálja újra."
 transferPending = "Egy tulajdonjog-átruházás függőben van. Lépjen a Beállítások → Felhasználók részre a befejezéshez vagy megszakításhoz, majd próbálja újra az összekapcsolást."
 
@@ -7991,7 +7991,7 @@ transferPending = "Egy tulajdonjog-átruházás függőben van. Lépjen a Beáll
 after = "hogy ez a szerver befejezhesse a csatlakozást, amikor visszatérsz."
 and = "és"
 before = "Állítsa be:"
-title = "A Stirling-kapcsolat nincs konfigurálva"
+title = "A PaperRing-kapcsolat nincs konfigurálva"
 
 [portal.accountLink.notice]
 openFailed = "Nem sikerült megnyitni a böngészőt. Nyissa meg a Használat és számlázás részt a csatlakoztatott szerverén egy fiók összekapcsolásához."
@@ -8027,7 +8027,7 @@ viewAll = "Összes folyamat megtekintése"
 
 [portal.accountLink.rail]
 adminCta = "Hogyan szerezhet több kreditet"
-adminSub = "Kérje meg a szerver rendszergazdáját, hogy kapcsoljon össze egy Stirling-fiókot több kreditért. A kézi PDF-eszközök továbbra is elérhetők."
+adminSub = "Kérje meg a szerver rendszergazdáját, hogy kapcsoljon össze egy PaperRing-fiókot több kreditért. A kézi PDF-eszközök továbbra is elérhetők."
 exhaustedCta = "Fiók összekapcsolása több kreditért"
 exhaustedSub = "Kapcsolja össze havi kreditekért, közös számlázásért és a Team csomaggal való bővítés lehetőségéért."
 exhaustedTitle = "Ennek a szervernek elfogytak az ingyenes kreditjei"
@@ -8041,9 +8041,9 @@ malformed = "Nem sikerült ellenőrizni ezt a bejelentkezési választ. Indítsa
 malformedTitle = "Nem sikerült ellenőrizni a bejelentkezést"
 rejected = "Ezt a bejelentkezési kérést elutasították, vagy már felhasználták. Próbálja újra a számlázási hozzáférés megújításához."
 rejectedTitle = "A bejelentkezés nem fejeződött be"
-retry = "A Stirling nem tudta befejezni a számlázási hozzáférés megújítását. Próbálja újra később; a szervere továbbra is csatlakoztatva van."
+retry = "A PaperRing nem tudta befejezni a számlázási hozzáférés megújítását. Próbálja újra később; a szervere továbbra is csatlakoztatva van."
 retryTitle = "A számlázási hozzáférés nem állt vissza"
-success = "A számlázási hozzáférése megújult. Ez a szerver továbbra is ugyanahhoz a Stirling-fiókhoz csatlakozik."
+success = "A számlázási hozzáférése megújult. Ez a szerver továbbra is ugyanahhoz a PaperRing-fiókhoz csatlakozik."
 title = "Számlázási hozzáférés megújítása"
 working = "Számlázási hozzáférés visszaállítása."
 
@@ -8102,7 +8102,7 @@ title = "Költési korlát beállítása"
 [portal.billing.checkout.card]
 fields = "Kártyaszám · HH / ÉÉ · CVC · ZIP"
 label = "Kártyaadatok"
-note = "A kártyaadatokat a Stripe gyűjti. A Stirling soha nem tárol PAN-t vagy CVC-t."
+note = "A kártyaadatokat a Stripe gyűjti. A PaperRing soha nem tárol PAN-t vagy CVC-t."
 
 [portal.billing.checkout.error]
 title = "Nem sikerült elindítani a fizetést"
@@ -8458,7 +8458,7 @@ description = "Ahova a feldolgozott dokumentumok kerülnek – bucket, meghajtó
 label = "Fájl és csatolás"
 
 [portal.connections.commonFields.accessToken]
-helperText = "A Stirling ezt titkosítva tárolja, és többé nem jeleníti meg."
+helperText = "A PaperRing ezt titkosítva tárolja, és többé nem jeleníti meg."
 label = "Hozzáférési token"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Próbálja újra"
 title = "Valami hiba történt ezen az oldalon"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Semmi sem felel meg az aktuális szűrőknek"
 occurrences = "{{count}} előfordulás"
 searchPlaceholder = "Problémák, felhasználók és hibák keresése"
@@ -9106,7 +9106,7 @@ description = "A szerverről hiányzik a lépéshez szükséges szoftver, ezért
 title = "A szoftver nincs telepítve"
 
 [portal.failures.kind.unknown]
-description = "Valami olyan hiba történt, amelyet a Stirling még nem ismer fel."
+description = "Valami olyan hiba történt, amelyet a PaperRing még nem ismer fel."
 title = "Ismeretlen probléma"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "A(z) {{name}} útmutató megnyitása"
 openInBrowser = "Megnyitás inkább böngészőben"
 sectionDesktop = "Asztali alkalmazás"
 sectionSelfHosted = "Saját üzemeltetésű"
-title = "A Stirling PDF Editor telepítése"
+title = "A PaperRing Editor telepítése"
 
 [portal.home.download.docker]
 detailBody = "Futtassa a hivatalos image-et a szerverén."
@@ -9224,7 +9224,7 @@ usageMonth = "E havi használat"
 usageToday = "Mai használat"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Hozz létre egy kulcsot a Stirling API hívásainak megkezdéséhez."
+description = "Hozz létre egy kulcsot a PaperRing API hívásainak megkezdéséhez."
 title = "Még nincsenek API kulcsok"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Kész"
 keyNameLabel = "Kulcs neve"
 keyNamePlaceholder = "pl. Éles beolvasás"
 secretKeyCaption = "Titkos kulcs"
-secretWarning = "Tárold ezt egy titokkezelőben. A Stirling csak hash-t tárol, ezért később nincs mód a visszaállítására."
+secretWarning = "Tárold ezt egy titokkezelőben. A PaperRing csak hash-t tárol, ezért később nincs mód a visszaállítására."
 subtitle = "Adj nevet a kulcsnak, hogy később felismerd. Bármikor visszavonhatod."
 subtitleCreated = "Másolja ki most ezt a titkot — többé nem jelenik meg."
 title = "API kulcs létrehozása"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} kapcsolat"
 connectionCount_other = "{{count}} kapcsolat"
 customApi = "Egyéni API"
 searchPlaceholder = "Integrációk keresése"
-subtitle = "Minden, amellyel a Stirling kommunikálni tud. A hitelesítő adatok itt egyszer jönnek létre, majd források, házirendek és folyamatok hivatkoznak rájuk."
+subtitle = "Minden, amellyel a PaperRing kommunikálni tud. A hitelesítő adatok itt egyszer jönnek létre, majd források, házirendek és folyamatok hivatkoznak rájuk."
 title = "Integrációk"
 typedName = "{{tool}} neve"
 
@@ -10183,7 +10183,7 @@ saveFailed = "Nem sikerült menteni a pipeline-t. Próbáld újra."
 
 [portal.policies.wizard.locations]
 aiSettings = "AI-beállítások megnyitása"
-builtin = "Stirling tudásbázis"
+builtin = "PaperRing tudásbázis"
 builtinHelp = "Indexeli a kereshető darabokat a Stirlingben, és visszaküldi a feldolgozott PDF-et az alábbi célhelyre. Egy beágyazási szolgáltatót be kell állítani az AI-beállításokban."
 checking = "Betöltési elérhetőség ellenőrzése..."
 chooseOutput = "Mentés előtt válasszon egy engedélyezett kimeneti célhelyet."
@@ -10276,7 +10276,7 @@ title = "Még nincs folyamat"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Csatlakoztatás"
-editor = "Stirling PDF-szerkesztő"
+editor = "PaperRing-szerkesztő"
 heading = "Források"
 perDay = "{{n}} / 24 óra"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Ez az Ön próba licencfájlja. Miután a megállapodás létre
 
 [portal.procurement.link]
 cta = "Fiók összekapcsolása"
-description = "A beszerzés az összekapcsolt Stirling-fiókján fut: így hozzuk létre a próbaidőszakot, árazzuk be az ajánlatát és indítjuk el a számlázást. A kezdéshez kapcsoljon össze egy fiókot."
+description = "A beszerzés az összekapcsolt PaperRing-fiókján fut: így hozzuk létre a próbaidőszakot, árazzuk be az ajánlatát és indítjuk el a számlázást. A kezdéshez kapcsoljon össze egy fiókot."
 eyebrow = "Enterprise"
 title = "Kapcsolja össze fiókját a kezdéshez"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Felügyelt, leggyorsabb kezdés"
 continue = "Folytatás"
 deployment = "Hová legyen telepítve?"
-eula = "Elfogadom a Stirling EULA-t és a kereskedelmi feltételeket."
+eula = "Elfogadom a PaperRing EULA-t és a kereskedelmi feltételeket."
 fullName = "Teljes név"
 fullNamePlaceholder = "Az Ön neve"
 invites = "Csapattagok meghívása · opcionális"
@@ -10565,7 +10565,7 @@ account-link = "Fiókkapcsolat"
 [portal.shell.sidebar]
 appEditor = "Szerkesztő"
 appProcessor = "Feldolgozó"
-linkAccount = "Stirling-fiók összekapcsolása"
+linkAccount = "PaperRing-fiók összekapcsolása"
 primaryNav = "Elsődleges navigáció"
 
 [portal.shell.topbar]
@@ -10796,15 +10796,15 @@ adminOnly = "A szerver havi kreditjeit mindenki közösen használja, ezért csa
 barAria = "Fennmaradó ingyenes kreditek"
 capSuffix_one = "a havi {{allowance}} ingyenes kreditből maradt"
 capSuffix_other = "a havi {{allowance}} ingyenes kreditből maradt"
-connect = "Stirling fiók csatlakoztatása"
+connect = "PaperRing fiók csatlakoztatása"
 connectBody = "A csatlakoztatás egy második havi keretet ad hozzá, növeli a szerveren engedélyezett felhasználók számát, és bekapcsolja a Processort."
-connectTitle = "Ehhez a szerverhez nincs Stirling fiók"
+connectTitle = "Ehhez a szerverhez nincs PaperRing fiók"
 loadError = "Nem sikerült beolvasni a szerver kredithasználatát. Próbálja újra néhány pillanat múlva."
 loadErrorTitle = "Nem sikerült betölteni a kredithasználatot"
 resets = "Visszaállítás: {{date}}"
 
 [portal.usage.sessionExpired]
-body = "A Stirling-fiók munkamenete lejárt. Jelentkezzen be újra a számlázás megtekintéséhez — a példánya összekapcsolva marad."
+body = "A PaperRing-fiók munkamenete lejárt. Jelentkezzen be újra a számlázás megtekintéséhez — a példánya összekapcsolva marad."
 
 [portal.users]
 title = "Felhasználók"
@@ -11129,7 +11129,7 @@ files = "Fájlok"
 account = "Fiók"
 docs = "Dokumentáció"
 editor = "Szerkesztő"
-home = "Stirling"
+home = "PaperRing"
 invite = "Meghívás"
 landmark = "Gyors navigáció"
 noProcessorAccess = "Kérjen Processor-hozzáférést egy rendszergazdától"
@@ -11682,8 +11682,8 @@ hideTools = "Nem elérhető eszközök elrejtése ▴"
 messageNoFallback = "Az eszközök csak akkor lesznek elérhetők, ha a szervere újra online."
 messageWithFallback = "Néhány eszközhöz szerverkapcsolat szükséges."
 showTools = "Nem elérhető eszközök megtekintése ▾"
-title = "A Stirling-PDF szervere nem érhető el"
-toolNotAvailableLocally = "A Stirling-PDF szervere offline, és a(z) \"{{endpoint}}\" nem érhető el a helyi backenden."
+title = "A PaperRing szervere nem érhető el"
+toolNotAvailableLocally = "A PaperRing szervere offline, és a(z) \"{{endpoint}}\" nem érhető el a helyi backenden."
 
 [session]
 expired = "A munkamenet lejárt. Kérjük, frissítse az oldalt és próbálja újra."
@@ -11755,7 +11755,7 @@ unknown = "Nem elérhető"
 yourTeam = "Az Ön csapata"
 
 [settings.connection]
-description = "Dolgozzon helyben ezen a gépen, vagy csatlakoztassa az alkalmazást egy Stirling szerverhez."
+description = "Dolgozzon helyben ezen a gépen, vagy csatlakoztassa az alkalmazást egy PaperRing szerverhez."
 localDescription = "A helyi backendet használja fiók nélkül. Egyes eszközök, amelyek felhőalapú feldolgozást vagy önhosztolt szervert igényelnek, nem érhetők el."
 logout = "Kijelentkezés"
 server = "Szerver"
@@ -11770,7 +11770,7 @@ selfhosted = "Önhostolt"
 
 [settings.developer]
 apiKeys = "API-kulcsok"
-apiKeysDescription = "Személyes kulcsok a Stirling API szkriptekből és integrációkból történő hívásához."
+apiKeysDescription = "Személyes kulcsok a PaperRing API szkriptekből és integrációkból történő hívásához."
 title = "Fejlesztő"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Automatikus kicsomagolás fájlkorlátja"
 autoUnzipFileLimitTooltip = "Csak akkor bontsa ki, ha a ZIP legfeljebb ennyi fájlt tartalmaz. Állítsa magasabbra nagyobb ZIP-ek kibontásához."
 autoUnzipTooltip = "Az API műveletek által visszaadott ZIP fájlok automatikus kibontása. Tiltsa le, ha a ZIP fájlokat érintetlenül akarja hagyni. Ez nem érinti az automatizálási munkafolyamatokat."
 defaultPdfEditor = "Alapértelmezett PDF-szerkesztő"
-defaultPdfEditorActive = "A Stirling PDF az alapértelmezett PDF-szerkesztő"
+defaultPdfEditorActive = "A PaperRing az alapértelmezett PDF-szerkesztő"
 defaultPdfEditorChecking = "Ellenőrzés..."
 defaultPdfEditorInactive = "Más alkalmazás van alapértelmezettként beállítva"
 defaultPdfEditorSet = "Már alapértelmezett"
@@ -11849,7 +11849,7 @@ updateBehavior = "Frissítési viselkedés"
 updateBehaviorDescription = "Válassza ki, hogy telepítés előtt rákérdezzen, automatikusan telepítsen, vagy teljesen kihagyja a frissítésellenőrzést."
 updateBehaviorError = "Nem sikerült módosítani a frissítési viselkedést"
 updateBehaviorErrorLocked = "Ezt a beállítást az adminisztrátor zárolta."
-updateBehaviorLockedDescription = "Az adminisztrátor beállította, hogyan kezeli a Stirling-PDF a frissítéseket ezen a gépen. Változtatáshoz lépjen kapcsolatba vele."
+updateBehaviorLockedDescription = "Az adminisztrátor beállította, hogyan kezeli a PaperRing a frissítéseket ezen a gépen. Változtatáshoz lépjen kapcsolatba vele."
 updateBehaviorSaved = "Frissítési viselkedés elmentve."
 versionMismatch = "Az asztali alkalmazásod és a szerver különböző verziókat futtat. Frissítsd mindkettőt ugyanarra a verzióra a kompatibilitási problémák elkerüléséhez."
 viewDetails = "Részletek megtekintése"
@@ -12120,7 +12120,7 @@ step3 = "Indítsa újra a szervert"
 title = "A bejelentkezés nincs engedélyezve"
 
 [setup.server.url]
-description = "Adja meg az önhostolt Stirling PDF szerver teljes URL-jét"
+description = "Adja meg az önhostolt PaperRing szerver teljes URL-jét"
 label = "Szerver URL"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Kérjük, töltsön ki minden mezőt"
 signUp = "Regisztráció"
 signUpWith = "Regisztráció ezzel:"
 skip = "Kihagyás"
-subtitle = "Csatlakozzon a Stirling PDF-hez a kezdéshez"
+subtitle = "Csatlakozzon a PaperRing-hez a kezdéshez"
 title = "Fiók létrehozása"
 unableToAccessTool = "Nem lehet hozzáférni az eszközhöz: {{error}}"
 unexpectedError = "Váratlan hiba: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Letöltés"
 downloaded = "Letöltve"
 downloadFailed = "A fájl nem tölthető le."
 downloadsCount = "Letöltések: {{count}}"
-emailWarningBody = "Ez e-mail-címnek tűnik. Ha ez a személy nem Stirling PDF felhasználó, nem fogja tudni elérni a fájlt."
+emailWarningBody = "Ez e-mail-címnek tűnik. Ha ez a személy nem PaperRing felhasználó, nem fogja tudni elérni a fájlt."
 emailWarningConfirm = "Megosztás mindenképp"
 emailWarningTitle = "E-mail-cím"
 errorTitle = "A megosztás sikertelen"
@@ -12887,7 +12887,7 @@ manageTitle = "Megosztás kezelése"
 noActivity = "Még nincs aktivitás."
 noLinks = "Még nincsenek aktív megosztási hivatkozások."
 noSharedUsers = "Még nincs felhasználó, aki hozzáfér."
-openInApp = "Megnyitás a Stirling PDF-ben"
+openInApp = "Megnyitás a PaperRing-ben"
 ownerLabel = "Tulajdonos"
 ownerUnknown = "Ismeretlen"
 removeLink = "Hivatkozás eltávolítása"
@@ -12959,7 +12959,7 @@ settings = "Beállítások"
 tools = "Eszközök"
 
 [survey]
-title = "Stirling-PDF felmérés"
+title = "PaperRing felmérés"
 
 [swagger]
 clickHere = "kattintson ide"
@@ -13128,7 +13128,7 @@ favorites = "Kedvencek"
 heading = "Minden eszköz (teljes képernyős nézet)"
 noResults = "Próbálja módosítani a keresést vagy kapcsolja be a leírásokat, hogy megtalálja, amit keres."
 recommended = "Ajánlott"
-selfHostedOffline = "A saját Stirling-PDF szerverére van szükség (jelenleg offline):"
+selfHostedOffline = "A saját PaperRing szerverére van szükség (jelenleg offline):"
 showDetails = "Részletek megjelenítése"
 unavailable = "Szerveradminisztrátor letiltotta:"
 unavailableDependency = "Nem érhető el – szükséges eszköz hiányzik a szerveren:"
@@ -13137,7 +13137,7 @@ unfavorite = "Eltávolítás a kedvencekből"
 [toolPanel.modePrompt]
 chooseFullscreen = "Teljes képernyős mód használata"
 chooseSidebar = "Oldalsáv mód használata"
-description = "Tekintse meg mindkét elrendezést, és döntse el, hogyan szeretné felfedezni a Stirling PDF eszközeit."
+description = "Tekintse meg mindkét elrendezést, és döntse el, hogyan szeretné felfedezni a PaperRing eszközeit."
 dismiss = "Talán később"
 fullscreenDescription = "Böngéssze az összes eszközt egy katalógusban, amely lefedi a munkaterületet, amíg választ egyet."
 fullscreenTitle = "Teljes képernyős mód - (örökölt)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Részletes információk betöltése..."
 migrationGuide = "Átállási útmutató"
 migrationGuides = "Átállási útmutatók"
 migrationGuidesDesc = "Frissítés előtt tekintse át a fontos változásokat."
-modalSubtitle = "A Stirling PDF új verziója készen áll a telepítésre."
+modalSubtitle = "A PaperRing új verziója készen áll a telepítésre."
 modalTitle = "Frissítés elérhető"
 notes = "Megjegyzések"
 releaseNotes = "Kiadási megjegyzések"
@@ -13230,7 +13230,7 @@ urgent = "Sürgős"
 attentionBody = "Az adminnak be kell jelentkeznie a részletek megtekintéséhez. Kérjük, lépjen vele azonnal kapcsolatba."
 attentionBodyAdmin = "Tekintse át a licenckövetelményeket a megfelelőség fenntartásához."
 attentionTitle = "Ez a szerver adminisztrátori figyelmet igényel"
-message = "Hozza ki a legtöbbet a Stirling PDF-ből 100 felhasználóval, PDF-szövegszerkesztéssel és fejlett funkciókkal"
+message = "Hozza ki a legtöbbet a PaperRing-ből 100 felhasználóval, PDF-szövegszerkesztéssel és fejlett funkciókkal"
 seeInfo = "Infó megtekintése"
 title = "Frissítés Team csomagra"
 upgradeButton = "Frissítés most"
@@ -13368,7 +13368,7 @@ authWeb = "Jelszó"
 create = "Fiók létrehozása"
 createSubtitle = "Hozzon létre self-hosted fiókot jelszóval vagy SSO-val."
 createTitle = "Fiók létrehozása"
-editorDesc = "PDF-ek szerkesztése a Stirling PDF Editorban. Ezt mindenki megkapja."
+editorDesc = "PDF-ek szerkesztése a PaperRing Editorban. Ezt mindenki megkapja."
 email = "Email-cím"
 emailError = "Adjon meg érvényes email-címet"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "A meghívó elküldve, de a Processor hozzáférést még n
 processorDesc = "Az irányítási felület, pipeline-ok, agentek és az API futtatása."
 role = "Szerepkör"
 send2 = "Meghívó küldése"
-subtitle2 = "E-mailt kapnak, amellyel csatlakozhatnak a Stirling PDF-munkaterületedhez."
+subtitle2 = "E-mailt kapnak, amellyel csatlakozhatnak a PaperRing-munkaterületedhez."
 team = "Csapat"
 title = "Személyek meghívása"
 username = "Felhasználónév"
@@ -13525,7 +13525,7 @@ downloads = "Letöltések"
 entryLabel = "Aláírási összegzés"
 filesEvaluated_one = "{{count}} fájl kiértékelve"
 filesEvaluated_other = "{{count}} fájl kiértékelve"
-footer = "Ellenőrizve a Stirling PDF segítségével"
+footer = "Ellenőrizve a PaperRing segítségével"
 generatedAt = "Létrehozva"
 noPdf = "A PDF jelentés sikeres ellenőrzés után lesz elérhető."
 page = "Oldal"

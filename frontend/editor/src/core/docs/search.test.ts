@@ -12,13 +12,13 @@ const DOCS: SearchDoc[] = [
     id: "ocr",
     title: "OCR Guide",
     sectionLabel: "Configuration",
-    text: "Stirling PDF uses Tesseract for its text recognition and language packs.",
+    text: "PaperRing uses Tesseract for its text recognition and language packs.",
   },
   {
     id: "docker",
     title: "Docker Install",
     sectionLabel: "Installation",
-    text: "Run Stirling with docker compose up to start the container.",
+    text: "Run PaperRing with docker compose up to start the container.",
   },
   {
     id: "ranky",

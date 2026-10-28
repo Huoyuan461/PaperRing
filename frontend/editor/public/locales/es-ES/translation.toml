@@ -55,7 +55,7 @@ keepWorking = "Seguir trabajando"
 loading = "Cargando..."
 loginAgreementAccept = "Aceptar"
 loginAgreementDecline = "Rechazar"
-loginAgreementProvider = "Este aviso lo proporciona su administrador, no Stirling PDF Inc."
+loginAgreementProvider = "Este aviso lo proporciona su administrador, no PaperRing"
 loginAgreementTitle = "Acuerdo de acceso"
 logOut = "Cerrar sesión"
 marginTooltip = "Distancia entre el número de página y el borde de la página."
@@ -668,8 +668,8 @@ description = "Tiempo máximo de ejecución"
 label = "Tiempo de espera (minutos)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert está en beta. Ofrece conversiones mejores y más rápidas, con menos memoria que LibreOffice."
-label = "Usar la nueva conversión de Stirling Office"
+description = "PaperRing Office Convert está en beta. Ofrece conversiones mejores y más rápidas, con menos memoria que LibreOffice."
+label = "Usar la nueva conversión de PaperRing Office"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Configura el almacenamiento de archivos temporales y el comportamiento de limpieza"
@@ -736,7 +736,7 @@ permissionNotice = "La ruta de tessdata no tiene permisos de escritura. Las desc
 
 [admin.settings.ai]
 customProvider = "Personalizado (compatible con OpenAI)"
-description = "Conecta Stirling al motor de IA de Python, elige sus modelos y establece las barreras de seguridad bajo las que se ejecuta."
+description = "Conecta PaperRing al motor de IA de Python, elige sus modelos y establece las barreras de seguridad bajo las que se ejecuta."
 managedByCloud = "Gestionado por Stirling Cloud en este modo."
 managedByCloudShort = "Gestionado por Stirling Cloud"
 
@@ -797,7 +797,7 @@ help = "Desactivado significa que las preguntas sobre documentos no están dispo
 label = "Permitir que Stirling Cloud conserve documentos indexados"
 
 [admin.settings.ai.general.cloudNote]
-body = "El razonamiento se ejecuta en la infraestructura de Stirling y se factura a la cuenta a la que está vinculado este servidor. No hay ningún contenedor que ejecutar ni clave de proveedor que guardar aquí. Todo lo que lee la IA lo procesa Stirling Cloud en lugar de tu propio hardware."
+body = "El razonamiento se ejecuta en la infraestructura de PaperRing y se factura a la cuenta a la que está vinculado este servidor. No hay ningún contenedor que ejecutar ni clave de proveedor que guardar aquí. Todo lo que lee la IA lo procesa Stirling Cloud en lugar de tu propio hardware."
 title = "Acerca de Stirling Cloud AI"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "Dónde se ejecuta la IA"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Sin contenedor, sin clave de proveedor, sin elección de modelo: el trabajo se ejecuta en Stirling Cloud y se factura a la cuenta a la que está vinculado este servidor."
-linkCta = "Conectar este servidor a una cuenta de Stirling"
+linkCta = "Conectar este servidor a una cuenta de PaperRing"
 notLinked = "Vincula primero una cuenta"
-ownerOnly = "Solo el propietario de la organización puede vincular este servidor a una cuenta de Stirling."
+ownerOnly = "Solo el propietario de la organización puede vincular este servidor a una cuenta de PaperRing."
 title = "Usar Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Ejecutar tu propio motor"
 
 [admin.settings.ai.general.note]
 docs = "Guía de configuración"
-intro = "Un contenedor independiente que ejecutas junto a Stirling. Hace el razonamiento; Stirling sigue haciendo por sí mismo todas las operaciones de página. Necesita el mismo"
+intro = "Un contenedor independiente que ejecutas junto a PaperRing. Hace el razonamiento; PaperRing sigue haciendo por sí mismo todas las operaciones de página. Necesita el mismo"
 outro = "en ambos contenedores y una clave de proveedor de modelos. Todo lo que lee la IA se envía al proveedor que elijas; un Ollama que alojes mantiene todas las páginas dentro de tu entorno."
 title = "Acerca del motor de AI"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Introduce el código de confirmación para continuar"
 confirmImport = "Confirmar importación"
 confirmImportTitle = "Confirmar importación de base de datos"
 connection = "Conexión"
-connectionDescription = "Apunta Stirling a una base de datos externa en lugar de a la integrada."
+connectionDescription = "Apunta PaperRing a una base de datos externa en lugar de a la integrada."
 createBackup = "Crear copia de seguridad"
 created = "Creado"
 delete = "Eliminar"
@@ -1224,11 +1224,11 @@ description = "Configura funciones y funcionalidades opcionales."
 title = "Funciones"
 
 [admin.settings.features.serverCertificate]
-description = "Genera el certificado que respalda la función de firma \"Firmar con Stirling-PDF\"."
+description = "Genera el certificado que respalda la función de firma \"Firmar con PaperRing\"."
 label = "Firma con certificado"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Ofrecer \"Firmar con Stirling-PDF\" usando un certificado generado por este servidor"
+description = "Ofrecer \"Firmar con PaperRing\" usando un certificado generado por este servidor"
 label = "Activar firma con certificado"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Validez del certificado (días)"
 
 [admin.settings.folderAccess]
 description = "Directorios desde los que las fuentes de carpeta y las salidas de carpeta pueden leer y en los que pueden escribir. Esto es un límite de seguridad: las automatizaciones nunca pueden apuntar a una ruta del servidor fuera de esta lista."
-securityNote = "Déjalo vacío para desactivar por completo las fuentes y salidas de carpeta. El directorio de configuración propio de Stirling siempre está fuera de los límites."
+securityNote = "Déjalo vacío para desactivar por completo las fuentes y salidas de carpeta. El directorio de configuración propio de PaperRing siempre está fuera de los límites."
 title = "Acceso a carpetas"
 
 [admin.settings.folderAccess.implied]
-description = "Estos directorios gestionados por Stirling siempre están permitidos y no se pueden cambiar aquí."
+description = "Estos directorios gestionados por PaperRing siempre están permitidos y no se pueden cambiar aquí."
 serverStorage = "Almacenamiento de archivos del servidor"
 title = "Siempre permitido"
 watchedFolder = "Carpeta vigilada del pipeline"
@@ -1390,7 +1390,7 @@ description = "URL o nombre de archivo de la política de cookies"
 label = "Política de cookies"
 
 [admin.settings.legal.disclaimer]
-message = "Al personalizar estos documentos legales, asumes la responsabilidad total de garantizar el cumplimiento de todas las leyes y normativas aplicables, incluidas, entre otras, el RGPD y otros requisitos de protección de datos de la UE. Solo modifica estos ajustes si: (1) operas una instancia personal/privada, (2) estás fuera de la jurisdicción de la UE y entiendes tus obligaciones legales locales, o (3) has obtenido el asesoramiento legal adecuado y aceptas la responsabilidad exclusiva de todos los datos de los usuarios y del cumplimiento legal. Stirling-PDF y sus desarrolladores no asumen ninguna responsabilidad por tus obligaciones legales."
+message = "Al personalizar estos documentos legales, asumes la responsabilidad total de garantizar el cumplimiento de todas las leyes y normativas aplicables, incluidas, entre otras, el RGPD y otros requisitos de protección de datos de la UE. Solo modifica estos ajustes si: (1) operas una instancia personal/privada, (2) estás fuera de la jurisdicción de la UE y entiendes tus obligaciones legales locales, o (3) has obtenido el asesoramiento legal adecuado y aceptas la responsabilidad exclusiva de todos los datos de los usuarios y del cumplimiento legal. PaperRing y sus desarrolladores no asumen ninguna responsabilidad por tus obligaciones legales."
 title = "Advertencia de responsabilidad legal"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "Nombre de usuario para la autenticación SMTP"
 label = "Nombre de usuario SMTP"
 
 [admin.settings.mcp]
-apikeyNote = "Los clientes envían una clave API de Stirling en la cabecera X-API-KEY (o Authorization: Bearer <key>). La clave se asigna a su usuario de Stirling propietario: solo entran las cuentas aprovisionadas y las acciones se auditan como ese usuario. Gestiona las claves en Cuenta > Claves API."
-description = "Expón las herramientas PDF y los agentes de AI de Stirling a clientes MCP mediante un endpoint protegido con OAuth."
+apikeyNote = "Los clientes envían una clave API de PaperRing en la cabecera X-API-KEY (o Authorization: Bearer <key>). La clave se asigna a su usuario de PaperRing propietario: solo entran las cuentas aprovisionadas y las acciones se auditan como ese usuario. Gestiona las claves en Cuenta > Claves API."
+description = "Expón las herramientas PDF y los agentes de AI de PaperRing a clientes MCP mediante un endpoint protegido con OAuth."
 title = "Servidor MCP"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "(o Authorization: Bearer <key>). No se usa OAuth ni descubrimien
 step4 = "Aprueba el inicio de sesión; el cliente reintenta con un token. Las herramientas aparecen agrupadas: convertir, páginas, varios, seguridad, ai."
 step4ApiKey = "Las herramientas aparecen agrupadas: convertir, páginas, varios, seguridad, ai, y cada llamada se audita como el propietario de la clave."
 tip = "Consejo: registra el ID de recurso como audiencia permitida en tu IdP. Probado con MCP Inspector y Claude Desktop."
-tipApiKey = "Consejo: el modo de clave API no necesita un IdP externo; es lo más sencillo para self-host. La clave se asigna a su usuario de Stirling propietario."
+tipApiKey = "Consejo: el modo de clave API no necesita un IdP externo; es lo más sencillo para self-host. La clave se asigna a su usuario de PaperRing propietario."
 title = "Conectar un cliente MCP"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "URL JWKS (opcional)"
 placeholder = "Descubierta automáticamente desde el emisor"
 
 [admin.settings.mcp.mode]
-apikey = "Clave API (clave por usuario de Stirling)"
-description = "OAuth necesita un IdP externo. La clave API usa una clave API por usuario de Stirling (X-API-KEY), lo más sencillo para self-host."
+apikey = "Clave API (clave por usuario de PaperRing)"
+description = "OAuth necesita un IdP externo. La clave API usa una clave API por usuario de PaperRing (X-API-KEY), lo más sencillo para self-host."
 label = "Modo de autenticación"
 oauth = "OAuth 2.1 (IdP externo)"
 
 [admin.settings.mcp.requireAccount]
-description = "Permitir tokens solo si su sujeto se asigna a un usuario de Stirling aprovisionado y activado."
-label = "Requerir una cuenta de Stirling existente"
+description = "Permitir tokens solo si su sujeto se asigna a un usuario de PaperRing aprovisionado y activado."
+label = "Requerir una cuenta de PaperRing existente"
 
 [admin.settings.mcp.resourceId]
 description = "La URL pública /mcp de este servidor. Los tokens deben incluirla en su audiencia (RFC 8707) o serán rechazados."
@@ -1540,7 +1540,7 @@ description = "Requerir mcp.tools.read para operaciones de lectura y mcp.tools.w
 label = "Aplicar scopes de OAuth"
 
 [admin.settings.mcp.usernameClaim]
-description = "Claim JWT que se compara con un nombre de usuario de Stirling (p. ej., sub, email, preferred_username)."
+description = "Claim JWT que se compara con un nombre de usuario de PaperRing (p. ej., sub, email, preferred_username)."
 label = "Claim de nombre de usuario"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Cuando está habilitado, solo los ID de usuario listados pueden u
 label = "Permitir ID de usuario específicos"
 
 [admin.settings.telegram.enabled]
-description = "Permite a los usuarios interactuar con Stirling PDF a través de tu bot de Telegram configurado."
+description = "Permite a los usuarios interactuar con PaperRing a través de tu bot de Telegram configurado."
 label = "Habilitar bot de Telegram"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Este es el <strong>Panel de configuración</strong>. Los aju
 systemCustomization = "Disponemos de amplias formas de personalizar la interfaz: <strong>System Settings</strong> te permite cambiar el nombre e idiomas de la aplicación, <strong>Features</strong> permite gestionar el certificado del servidor y <strong>Endpoints</strong> te permite habilitar o deshabilitar herramientas específicas para tus usuarios."
 teamsAndUsers = "Administra aquí los <strong>Equipos</strong> y usuarios individuales. Puedes invitar nuevos usuarios por correo electrónico, enlaces compartibles o crear tú mismo cuentas personalizadas para ellos."
 welcome = "¡Bienvenido al <strong>recorrido de administrador</strong>! Vamos a explorar las potentes funciones y ajustes empresariales disponibles para los administradores del sistema."
-wrapUp = "¡Ese ha sido el recorrido de administrador! Has visto las funciones empresariales que hacen de Stirling PDF una solución potente y personalizable para organizaciones. Puedes repetirlo cuando quieras: solo tienes que abrir <strong>Ajustes</strong> y encontrarlo aquí, en la sección <strong>Recorridos</strong> dentro de Ayuda."
+wrapUp = "¡Ese ha sido el recorrido de administrador! Has visto las funciones empresariales que hacen de PaperRing una solución potente y personalizable para organizaciones. Puedes repetirlo cuando quieras: solo tienes que abrir <strong>Ajustes</strong> y encontrarlo aquí, en la sección <strong>Recorridos</strong> dentro de Ayuda."
 
 [adminUserSettings]
 admin = "Administrador"
 title = "Configuración de control de usuario"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Árabe"
@@ -1952,9 +1952,9 @@ thai = "Tailandés"
 
 [analytics]
 learnMore = "Más información sobre nuestras analíticas"
-paragraph1 = "Stirling PDF cuenta con analíticas opcionales para ayudarnos a mejorar el producto. No rastreamos información personal ni el contenido de los archivos."
-paragraph2 = "Considere habilitar analíticas para ayudar a Stirling-PDF a crecer y permitirnos comprender mejor a nuestros usuarios."
-title = "¿Quieres ayudar a mejorar Stirling PDF?"
+paragraph1 = "PaperRing cuenta con analíticas opcionales para ayudarnos a mejorar el producto. No rastreamos información personal ni el contenido de los archivos."
+paragraph2 = "Considere habilitar analíticas para ayudar a PaperRing a crecer y permitirnos comprender mejor a nuestros usuarios."
+title = "¿Quieres ayudar a mejorar PaperRing?"
 
 [annotate]
 tags = "anotar,resaltar,dibujar,marcar,comentario,notas,revisar,marcas rojas,comentarios,herramientas de marcado,notas adhesivas,formas,flechas,cuadro de texto,mano alzada"
@@ -2902,9 +2902,9 @@ typeSignature = "Escribe tu nombre para crear una firma"
 uploadCert = "Subir un certificado"
 uploadCertDesc = "Usa tu propio certificado PKCS12, PFX, PEM o JKS."
 uploadSignature = "Sube la imagen de tu firma"
-usePersonalCert = "Stirling Sign · Personal"
+usePersonalCert = "PaperRing Sign · Personal"
 usePersonalCertDesc = "Firma con el certificado creado para tu cuenta."
-useServerCert = "Stirling Sign · Organización"
+useServerCert = "PaperRing Sign · Organización"
 useServerCertDesc = "Firma con el certificado de organización compartido de este servidor."
 useSignature = "Usar firma"
 
@@ -3224,10 +3224,10 @@ text = "Haz una pregunta sobre tus documentos u obtén ayuda con las herramienta
 
 [chat.fab]
 close = "Cerrar chat"
-open = "Abrir asistente de Stirling AI"
+open = "Abrir asistente de PaperRing AI"
 
 [chat.header]
-agentMenu = "Opciones del agente Stirling"
+agentMenu = "Opciones del agente PaperRing"
 assistant = "Asistente de AI"
 clearChat = "Borrar chat"
 
@@ -3587,9 +3587,9 @@ label = "Documentos por tipo: {{summary}}"
 noTypes = "Estos documentos no coincidieron con ningún tipo conocido."
 
 [classificationDemo.defaultApp]
-body = "Haz que Stirling sea tu aplicación PDF predeterminada. Cada PDF que abras, desde el correo electrónico, el navegador o el escritorio, llegará aquí, listo para leerlo o editarlo. Puedes cambiarlo en cualquier momento en Configuración."
-cta = "Hacer que Stirling sea mi predeterminada"
-title = "Abre todos los PDF en Stirling"
+body = "Haz que PaperRing sea tu aplicación PDF predeterminada. Cada PDF que abras, desde el correo electrónico, el navegador o el escritorio, llegará aquí, listo para leerlo o editarlo. Puedes cambiarlo en cualquier momento en Configuración."
+cta = "Hacer que PaperRing sea mi predeterminada"
+title = "Abre todos los PDF en PaperRing"
 
 [classificationDemo.followUp]
 background = "Esto se ejecuta en segundo plano. El anillo de la izquierda muestra el progreso."
@@ -3604,7 +3604,7 @@ other = "Otros"
 body = "Clasifica y organiza por tipo los {{count}} PDF más recientes de tu carpeta Descargas."
 cta = "Procesar mi carpeta Descargas"
 privacy = "Tus PDF permanecen en este dispositivo. Tu servidor conectado registra el uso de procesamiento."
-title = "Mira qué puede hacer Stirling con una carpeta completa"
+title = "Mira qué puede hacer PaperRing con una carpeta completa"
 
 [classificationDemo.phase]
 finishing = "Finalizando..."
@@ -3618,10 +3618,10 @@ counts = "de {{total}} PDF procesados"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF"
-failedBody = "Stirling no ha podido leer tu carpeta Descargas. No se ha cambiado nada en tu ordenador."
+failedBody = "PaperRing no ha podido leer tu carpeta Descargas. No se ha cambiado nada en tu ordenador."
 failedTitle = "Eso no ha finalizado"
 heading = "Tus Descargas, ordenadas"
-summary = "Stirling leyó {{documents}} y los ordenó en {{types}}."
+summary = "PaperRing leyó {{documents}} y los ordenó en {{types}}."
 typeCount_one = "{{count}} tipo"
 typeCount_other = "{{count}} tipos"
 
@@ -3947,14 +3947,14 @@ upgradeButton = "Actualizar Cuenta"
 
 [config.apiKeys]
 copyKeyAriaLabel = "Copiar clave API"
-description = "Tu clave API para acceder al conjunto de herramientas PDF de Stirling. Cópiala en tu proyecto o actualízala para generar una nueva."
-docsDescription = "Más información sobre cómo integrar con Stirling PDF:"
+description = "Tu clave API para acceder al conjunto de herramientas PDF de PaperRing. Cópiala en tu proyecto o actualízala para generar una nueva."
+docsDescription = "Más información sobre cómo integrar con PaperRing:"
 docsLink = "Documentación de la API"
 docsTitle = "Documentación de la API"
 generateError = "No pudimos generar tu clave API."
 goToAccount = "Ir a Cuenta"
 guestInfo = "Los usuarios invitados no reciben claves API. Crea una cuenta para obtener una clave API que puedas usar en tus aplicaciones."
-intro = "Usa tu clave de API para acceder de forma programática a las capacidades de procesamiento de Stirling PDF."
+intro = "Usa tu clave de API para acceder de forma programática a las capacidades de procesamiento de PaperRing."
 label = "Clave API"
 publicKeyAriaLabel = "Clave API pública"
 refreshAriaLabel = "Actualizar clave API"
@@ -3978,10 +3978,10 @@ title = "Actualizar Claves API"
 warning = "⚠️ Advertencia: Esta acción generará nuevas claves API y hará que tus claves anteriores sean inválidas."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) permite que asistentes de AI como Claude usen tus herramientas de Stirling PDF directamente. Conecta un cliente una vez y tu asistente podrá convertir, editar, proteger y procesar documentos en tu nombre."
-guestInfo = "Los usuarios invitados no pueden conectar clientes MCP. Crea una cuenta para usar el servidor MCP y permitir que tu asistente de AI ejecute herramientas de Stirling PDF en tu nombre."
+description = "Model Context Protocol (MCP) permite que asistentes de AI como Claude usen tus herramientas de PaperRing directamente. Conecta un cliente una vez y tu asistente podrá convertir, editar, proteger y procesar documentos en tu nombre."
+guestInfo = "Los usuarios invitados no pueden conectar clientes MCP. Crea una cuenta para usar el servidor MCP y permitir que tu asistente de AI ejecute herramientas de PaperRing en tu nombre."
 navLabel = "Servidor MCP"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Ver claves API"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Tu endpoint MCP"
 
 [config.mcp.setup]
 addTo = "Añadir a"
-hint = "Elige tu cliente, pega el fragmento en el archivo indicado y reinícialo. Iniciarás sesión con tu cuenta de Stirling la primera vez que lo uses; no hay claves que copiar."
+hint = "Elige tu cliente, pega el fragmento en el archivo indicado y reinícialo. Iniciarás sesión con tu cuenta de PaperRing la primera vez que lo uses; no hay claves que copiar."
 title = "Conecta tu asistente de AI"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Paso {{current}} de {{total}}"
 [connect.confirm]
 acknowledge = "Reconozco esta dirección y quiero conectarla a mi equipo"
 approve = "Conectar servidor"
-cannotDecide = "Solo el propietario de un equipo puede aprobar o rechazar esta conexión. Usa una cuenta diferente o descarta este aviso para seguir usando Stirling."
+cannotDecide = "Solo el propietario de un equipo puede aprobar o rechazar esta conexión. Usa una cuenta diferente o descarta este aviso para seguir usando PaperRing."
 deny = "Rechazar"
 dismiss = "Descartar"
-lead = "Un servidor de Stirling solicita conectarse a tu equipo. Comprueba que la dirección siguiente es tuya antes de aprobarlo."
+lead = "Un servidor de PaperRing solicita conectarse a tu equipo. Comprueba que la dirección siguiente es tuya antes de aprobarlo."
 originLabel = "Dirección"
 signedInAs = "Sesión iniciada como"
 switchAccount = "Usar una cuenta diferente"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Elige primero un formato de origen"
 settings = "Configuración"
 single = "Individual"
 sourceFormatPlaceholder = "Formato de origen"
-stirlingOfficeConvert = "Usar Stirling Office Convert (beta)"
+stirlingOfficeConvert = "Usar PaperRing Office Convert (beta)"
 stirlingOfficeConvertDescription = "Conversiones mejores y más rápidas con menos memoria. Desactívalo para usar el conversor estándar."
 strictMode = "Modo Estricto"
 strictModeDesc = "Error si la conversión no es perfecta (usa verificación VeraPDF)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Gestionar preferencias"
 title = "Cómo usamos las cookies"
 
 [cookieBanner.popUp.description]
-1 = "Usamos cookies y otras tecnologías para que Stirling PDF funcione mejor para ti, ayudándonos a mejorar nuestras herramientas y seguir creando funciones que te encantarán."
+1 = "Usamos cookies y otras tecnologías para que PaperRing funcione mejor para ti, ayudándonos a mejorar nuestras herramientas y seguir creando funciones que te encantarán."
 2 = "Si prefieres que no, al hacer clic en 'No gracias' solo se activarán las cookies esenciales necesarias para que todo funcione correctamente."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Uso de cookies"
 title = "Centro de Preferencias de Consentimiento"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Estas cookies nos ayudan a entender cómo se usan nuestras herramientas, para que podamos centrarnos en crear las funciones que más valora nuestra comunidad. Ten la seguridad de que Stirling PDF no puede ni podrá rastrear nunca el contenido de los documentos con los que trabajas."
+description = "Estas cookies nos ayudan a entender cómo se usan nuestras herramientas, para que podamos centrarnos en crear las funciones que más valora nuestra comunidad. Ten la seguridad de que PaperRing no puede ni podrá rastrear nunca el contenido de los documentos con los que trabajas."
 title = "Análisis"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF utiliza cookies y tecnologías similares para mejorar su experiencia y entender cómo se usan nuestras herramientas. Esto nos ayuda a mejorar el rendimiento, desarrollar las funciones que le interesan y proporcionar soporte continuo a nuestros usuarios."
-2 = "Stirling PDF no puede ni podrá nunca rastrear ni acceder al contenido de los documentos que usas."
+1 = "PaperRing utiliza cookies y tecnologías similares para mejorar su experiencia y entender cómo se usan nuestras herramientas. Esto nos ayuda a mejorar el rendimiento, desarrollar las funciones que le interesan y proporcionar soporte continuo a nuestros usuarios."
+2 = "PaperRing no puede ni podrá nunca rastrear ni acceder al contenido de los documentos que usas."
 3 = "Su privacidad y confianza son el núcleo de lo que hacemos."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "No se pudo establecer el gestor de PDF predeterminado"
 title = "Error"
 
 [defaultApp.settingsOpened]
-message = "En Configuración de Windows, busca 'PDF' y selecciona Stirling PDF como aplicación predeterminada"
+message = "En Configuración de Windows, busca 'PDF' y selecciona PaperRing como aplicación predeterminada"
 title = "Configuración abierta"
 
 [defaultApp.success]
-message = "Stirling PDF es ahora su editor de PDF predeterminado"
+message = "PaperRing es ahora su editor de PDF predeterminado"
 title = "Configurada la aplicación predeterminada"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Minimizar"
 restore = "Restaurar"
 
 [desktopBilling]
-description = "Gestione el uso y la facturación en su navegador. Inicie sesión con la misma cuenta de Stirling que usa aquí."
+description = "Gestione el uso y la facturación en su navegador. Inicie sesión con la misma cuenta de PaperRing que usa aquí."
 open = "Abrir Uso y facturación en el navegador"
 openFailed = "No se pudo abrir Uso y facturación. Compruebe su conexión e inténtelo de nuevo."
 selfHostedDescription = "Gestione el uso y la facturación en su servidor conectado desde el navegador. Inicie sesión con la cuenta del propietario del servidor."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Error al descargar o instalar la actualización."
 
 [desktopUpdate.blocked]
 docsLink = "Ver documentación de instalación"
-message = "Stirling-PDF no tiene permiso para actualizarse en esta máquina."
+message = "PaperRing no tiene permiso para actualizarse en esta máquina."
 title = "Se requieren permisos de administrador"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Renombrar"
 title = "Renombrar archivo"
 
 [filesPage]
-addedToLibrary = "Añadido a la biblioteca de Stirling"
-addingToLibrary = "Añadiendo a la biblioteca de Stirling…"
-addToLibrary = "Añadir a la biblioteca de Stirling…"
+addedToLibrary = "Añadido a la biblioteca de PaperRing"
+addingToLibrary = "Añadiendo a la biblioteca de PaperRing…"
+addToLibrary = "Añadir a la biblioteca de PaperRing…"
 addToLibraryFailed = "No se han podido añadir algunos archivos"
 addToWorkspace = "Añadir al espacio de trabajo"
 addToWorkspaceCount = "Añadir {{count}} al espacio de trabajo"
-allFiles = "Biblioteca de Stirling"
+allFiles = "Biblioteca de PaperRing"
 back = "Atrás"
 backToFolder = "Volver a {{folder}}"
 backToMyFiles = "Volver a la biblioteca de archivos"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Eliminar también {{count}} archivo dentro de la car
 deleteFolderContents_other = "Eliminar también {{count}} archivos dentro de la carpeta"
 deleteFolderContentsWarning = "Los archivos se eliminarán permanentemente y no se podrán recuperar."
 deleteFolderError = "No se pudo eliminar la carpeta. Vuelve a intentarlo."
-deleteFolderKeepHint = "Los archivos dentro se moverán a la biblioteca de Stirling."
+deleteFolderKeepHint = "Los archivos dentro se moverán a la biblioteca de PaperRing."
 deleteFolderTitle = "¿Eliminar carpeta?"
 deselectAll = "Borrar selección"
 details = "Detalles"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} archivos no se pudieron mover en el servido
 moveTo = "Mover a…"
 newFolder = "Nueva carpeta"
 newFolderStorageDisabled = "El almacenamiento de carpetas en el servidor no está activado."
-newFolderTabUnavailable = "Cambia a la biblioteca de Stirling para crear carpetas."
+newFolderTabUnavailable = "Cambia a la biblioteca de PaperRing para crear carpetas."
 offlineNoFolderEdits = "Sincronización de carpetas del servidor no disponible: los cambios en carpetas están desactivados. Comprueba el inicio de sesión y la configuración de almacenamiento."
 open = "Abrir"
 openVersionInWorkspace = "Abrir en el espacio de trabajo"
@@ -4856,7 +4856,7 @@ recentFiles = "Recientes"
 refresh = "Actualizar"
 refreshNeedsConnection = "Inicia sesión para actualizar desde el servidor."
 remove = "Eliminar"
-removeLocalFolder = "Desmontar de Stirling"
+removeLocalFolder = "Desmontar de PaperRing"
 removeVersion = "Eliminar esta versión"
 rename = "Renombrar"
 renamed = "Renombrado"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} elementos"
 tree = "Carpetas"
 unmount = "Desmontar"
 unmountFolderBody = "¿Desmontar \"{{name}}\"? La carpeta y sus archivos permanecerán en tu disco."
-unmountFolderTitle = "¿Desmontar de Stirling?"
+unmountFolderTitle = "¿Desmontar de PaperRing?"
 upload = "Subir"
 uploadFromMobile = "Subir desde el móvil"
 versionActions = "Acciones de versión"
@@ -4921,7 +4921,7 @@ orphaned = "No está en el disco"
 orphanedHint = "El original en {{path}} ha desaparecido. Esta copia solo está aquí; al guardarla se pedirá una nueva ubicación."
 unavailable = "No disponible"
 unavailableHintOffline = "La unidad o recurso compartido donde está este archivo no está conectado. Vuelve a conectarlo para recuperar los cambios."
-unavailableHintPermission = "Stirling no tiene permiso para leer esta ubicación. Concede acceso en Ajustes del sistema para recuperar los cambios."
+unavailableHintPermission = "PaperRing no tiene permiso para leer esta ubicación. Concede acceso en Ajustes del sistema para recuperar los cambios."
 unavailableHintUnknown = "No se puede acceder a este archivo ahora mismo. La copia de aquí no ha cambiado."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Nombre de la carpeta"
 
 [filesPage.folderOrigin]
 diskHint = "Una carpeta montada desde un directorio de tu disco"
-serverHint = "Una carpeta almacenada en el servidor de Stirling"
+serverHint = "Una carpeta almacenada en el servidor de PaperRing"
 virtualHint = "Una carpeta que solo existe en este navegador"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Sincronizada con tu cuenta, disponible dondequiera que inicies ses
 [filesPage.origin]
 all = "Todas las fuentes"
 cloud = "Nube"
-cloudHint = "Almacenado en el servidor de Stirling"
+cloudHint = "Almacenado en el servidor de PaperRing"
 diskFileHint = "Almacenado en tu ordenador"
 diskHint = "Un archivo en la carpeta montada de tu disco"
 local = "Local"
@@ -5474,7 +5474,7 @@ invisible = "Invisible (solo metadatos)"
 location = "Ubicación:"
 logo = "Logotipo:"
 logoHidden = "Sin logotipo"
-logoShown = "Se muestra el logotipo de Stirling PDF"
+logoShown = "Se muestra el logotipo de PaperRing"
 participantCount_one = "{{count}} participante seleccionado"
 participantCount_other = "{{count}} participantes seleccionados"
 participants = "Participantes"
@@ -5525,7 +5525,7 @@ title = "Firma en cualquier orden"
 dismiss = "Descartar banner"
 message = "Cree una cuenta gratuita para guardar su trabajo, acceder a más funciones y apoyar el proyecto."
 signUp = "Registrarse Gratis"
-title = "¡Está usando Stirling PDF como invitado!"
+title = "¡Está usando PaperRing como invitado!"
 
 [home.addAttachments]
 desc = "Ver, añadir, extraer, renombrar o eliminar adjuntos PDF incrustados"
@@ -5704,7 +5704,7 @@ tags = "combinar,unir,unificar,combinar,combinar PDFs,combinar PDFs,unir PDFs,co
 title = "Unir"
 
 [home.mobile]
-brandAlt = "Logotipo de Stirling PDF"
+brandAlt = "Logotipo de PaperRing"
 openFiles = "Abrir archivos"
 swipeHint = "Desliza a izquierda o derecha para cambiar de vista"
 tools = "Herramientas"
@@ -5743,7 +5743,7 @@ tags = "organizar,reordenar,reordenar,organizar páginas,ordenar,mover páginas,
 title = "Organizador"
 
 [home.pdfTextEditor]
-desc = "Revise y edite exportaciones JSON de Stirling PDF con edición de texto agrupada y regeneración de PDF"
+desc = "Revise y edite exportaciones JSON de PaperRing con edición de texto agrupada y regeneración de PDF"
 tags = "editar texto,modificar texto,cambiar texto,editar contenido,actualizar texto,reescribir,corregir,modificar,revisar,editor de texto,editor de contenido"
 title = "Editor de texto PDF"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Se requiere contraseña"
 signIn = "Iniciar sesión"
 validating = "Validando invitación..."
 validationError = "No se pudo validar el enlace de invitación"
-welcome = "Bienvenido a Stirling PDF"
+welcome = "Bienvenido a PaperRing"
 welcomeSubtitle = "Completa la configuración de tu cuenta para empezar"
 welcomeTitle = "¡Has sido invitado!"
 
@@ -6209,7 +6209,7 @@ message = "La autenticación no se realizó correctamente. Puede cerrar esta ven
 title = "Autenticación fallida"
 
 [oauth.success]
-message = "Puede cerrar esta ventana y volver a Stirling PDF."
+message = "Puede cerrar esta ventana y volver a PaperRing."
 title = "Autenticación correcta"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Volviendo a la app..."
-requesting = "{{app}} quiere acceder a tu cuenta de Stirling PDF"
+requesting = "{{app}} quiere acceder a tu cuenta de PaperRing"
 scopesIntro = "Esto permitirá a {{app}}:"
 signedInAs = "Sesión iniciada como {{name}}"
 signInButton = "Iniciar sesión para continuar"
-signInPrompt = "Inicia sesión en tu cuenta de Stirling PDF para continuar conectando la app."
+signInPrompt = "Inicia sesión en tu cuenta de PaperRing para continuar conectando la app."
 title = "Authorise access"
 unknownApp = "Una aplicación de terceros"
 
 [oauthConsent.access]
 actAsYou = "Actuar como tú: todo lo que haga {{app}} se ejecuta con tu cuenta y cuenta para tu uso"
-tools = "Usar tus herramientas de Stirling PDF en tu nombre: convertir, editar, firmar, proteger y procesar tus documentos"
+tools = "Usar tus herramientas de PaperRing en tu nombre: convertir, editar, firmar, proteger y procesar tus documentos"
 
 [oauthConsent.scope]
 email = "Ver tu dirección de email"
@@ -6362,26 +6362,26 @@ skipTheTour = "Saltar el recorrido"
 
 [onboarding.checklist]
 dismiss = "Descartar"
-title = "Configurar Stirling PDF"
+title = "Configurar PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Ejecuta Stirling de forma nativa en tu equipo"
-title = "Descargar Stirling para escritorio"
+description = "Ejecuta PaperRing de forma nativa en tu equipo"
+title = "Descargar PaperRing para escritorio"
 
 [onboarding.checklist.inviteTeam]
 description = "Colabora con tu equipo"
 title = "Invitar a miembros del equipo"
 
 [onboarding.checklist.setDefaultApp]
-description = "Abrir archivos PDF en Stirling PDF"
-title = "Hacer de Stirling la opción predeterminada"
+description = "Abrir archivos PDF en PaperRing"
+title = "Hacer de PaperRing la opción predeterminada"
 
 [onboarding.checklist.takeTour]
-description = "Descubre cómo funciona Stirling con una visita rápida"
+description = "Descubre cómo funciona PaperRing con una visita rápida"
 title = "Hacer la visita guiada"
 
 [onboarding.desktopInstall]
-body = "Stirling funciona mejor como aplicación de escritorio. Puede usarla sin conexión, acceder a los documentos más rápido y editar localmente en su ordenador."
+body = "PaperRing funciona mejor como aplicación de escritorio. Puede usarla sin conexión, acceder a los documentos más rápido y editar localmente en su ordenador."
 selectOs = "Seleccionar sistema operativo"
 title = "Descargar"
 titleWithOs = "Descargar para {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Descargar para {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Hay un montón de cambios nuevos por explorar, incluidos <strong>Agent Chat</strong>, la <strong>clasificación</strong> automática de documentos y mucho más."
 freeLine = "El editor ahora es <free>completamente gratuito</free>."
-title = "Te damos la bienvenida a Stirling <product>Desktop</product>"
+title = "Te damos la bienvenida a PaperRing <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "Código de autenticación"
@@ -6410,21 +6410,21 @@ success = "MFA se ha activado. Ya puedes continuar."
 title = "Configuración de autenticación multifactor"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Cuando habilite el modo de inicio de sesión, podrá gestionar usuarios, configurar ajustes y supervisar la salud del servidor. Las primeras <strong>{{freeTierLimit}}</strong> personas de su servidor pueden usar Stirling gratis."
-adminBodyLoginEnabled = "Como administrador, puede gestionar usuarios, configurar ajustes y supervisar la salud del servidor. Las primeras <strong>{{freeTierLimit}}</strong> personas de su servidor pueden usar Stirling gratis."
+adminBodyLoginDisabled = "Cuando habilite el modo de inicio de sesión, podrá gestionar usuarios, configurar ajustes y supervisar la salud del servidor. Las primeras <strong>{{freeTierLimit}}</strong> personas de su servidor pueden usar PaperRing gratis."
+adminBodyLoginEnabled = "Como administrador, puede gestionar usuarios, configurar ajustes y supervisar la salud del servidor. Las primeras <strong>{{freeTierLimit}}</strong> personas de su servidor pueden usar PaperRing gratis."
 adminTitle = "Resumen de administrador"
 userBody = "Invite a sus compañeros, asigne roles y mantenga sus documentos organizados en un espacio de trabajo seguro. Active el modo de inicio de sesión cuando esté listo para pasar del uso individual."
 userTitle = "Resumen del plan"
 
 [onboarding.processorIntro]
-body = "Stirling ahora ejecuta <strong>Políticas</strong>: reglas automatizadas que clasifican, protegen y procesan cada documento cuando llega. Configúralas y supervisa las ejecuciones en el <strong>Procesador</strong>."
+body = "PaperRing ahora ejecuta <strong>Políticas</strong>: reglas automatizadas que clasifican, protegen y procesan cada documento cuando llega. Configúralas y supervisa las ejecuciones en el <strong>Procesador</strong>."
 cta = "Ver el Procesador"
-title = "Descubre el Procesador de Stirling"
+title = "Descubre el Procesador de PaperRing"
 
 [onboarding.saas.freeEditor]
 freeLine = "El editor ahora es <free>completamente gratuito</free>."
 premium = "Hemos añadido muchas funciones nuevas, incluidas <strong>Políticas</strong> y <strong>Agent Chat</strong>."
-title = "Te damos la bienvenida a Stirling"
+title = "Te damos la bienvenida a PaperRing"
 
 [onboarding.saas.team]
 addButton = "Añadir"
@@ -6447,18 +6447,18 @@ title = "Comprobación de seguridad"
 [onboarding.serverLicense]
 freeBody = "Nuestra licencia <strong>Open-Core</strong> incluye <strong>OAuth SSO</strong> y hasta <strong>{{freeTierLimit}}</strong> usuarios gratis. Para crecer sin interrupciones, recomendamos el plan Stirling Team: <strong>100 usuarios</strong> por 99 $/mes."
 freeTitle = "Plan Team"
-overLimitBody = "Nuestra licencia permite hasta <strong>{{freeTierLimit}}</strong> usuarios gratis. Tienes <strong>{{overLimitUserCopy}}</strong> usuarios de Stirling. Para continuar sin interrupciones, actualiza al plan Stirling Team: <strong>100 usuarios</strong>, edición de texto PDF y control administrativo completo por 99 $/mes."
+overLimitBody = "Nuestra licencia permite hasta <strong>{{freeTierLimit}}</strong> usuarios gratis. Tienes <strong>{{overLimitUserCopy}}</strong> usuarios de PaperRing. Para continuar sin interrupciones, actualiza al plan Stirling Team: <strong>100 usuarios</strong>, edición de texto PDF y control administrativo completo por 99 $/mes."
 overLimitTitle = "Se necesita el plan Team"
 seePlans = "Ver planes →"
 upgrade = "Actualizar ahora →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 incluye decenas de herramientas y un diseño renovado. Haz un recorrido rápido para ver qué cambió y dónde encontrar las funciones que necesitas."
+body = "PaperRing V2 incluye decenas de herramientas y un diseño renovado. Haz un recorrido rápido para ver qué cambió y dónde encontrar las funciones que necesitas."
 title = "Resumen del recorrido"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF ya está listo para equipos de todos los tamaños. Esta actualización incluye un nuevo diseño, potentes capacidades de administración y nuestra función más solicitada: <strong>Editar texto</strong>."
-title = "Bienvenido a Stirling"
+body = "PaperRing ya está listo para equipos de todos los tamaños. Esta actualización incluye un nuevo diseño, potentes capacidades de administración y nuestra función más solicitada: <strong>Editar texto</strong>."
+title = "Bienvenido a PaperRing"
 
 [onboarding.whatsNew]
 activeFilesView = "Usa Archivos activos para ver todo lo que tienes abierto y elegir en qué trabajar."
@@ -6545,7 +6545,7 @@ check = "Comprobar de nuevo"
 checkAccount = "Comprobar cuenta"
 chooseEmail = "Elija su cuenta en {{team}} o introduzca un correo electrónico para invitarle."
 close = "Cerrar cuadro de transferencia"
-cloudAccount = "Cuenta de Stirling"
+cloudAccount = "Cuenta de PaperRing"
 cloudScopeStyled = "<user>{{name}}</user> gestionará {{team}}, sus miembros y la facturación."
 cloudTargetChanged = "Elija otro miembro de la nube. Esta cuenta ya no es apta para la transferencia."
 confirm = "Entiendo los cambios de acceso y propiedad."
@@ -6560,7 +6560,7 @@ inviteAddress = "Invitar a <account>{{email}}</account> a {{team}}."
 inviteBlocked = "No se pudo enviar la invitación. Compruebe las plazas disponibles del equipo y si el destinatario ya tiene una suscripción de pago."
 linkChanged = "El enlace a la nube del servidor ha cambiado. Pida al operador del servidor que restaure el enlace original antes de reanudar."
 linkedServerCount = "{{count}} servidores vinculados"
-linkRevoked = "El enlace a la nube de este servidor ya no es válido. Cancele la transferencia y vuelva a conectar su cuenta de Stirling en la configuración. La propiedad no cambiará."
+linkRevoked = "El enlace a la nube de este servidor ya no es válido. Cancele la transferencia y vuelva a conectar su cuenta de PaperRing en la configuración. La propiedad no cambiará."
 localScope = "Será propietario de este servidor y gestionará la facturación y las conexiones a la nube. Usted conservará el acceso de administrador, pero perderá el acceso a esos ajustes."
 membershipDetails = "Detalles de pertenencia al equipo"
 membershipFirst = "Debe unirse al equipo antes de que pueda confirmar la transferencia."
@@ -6872,7 +6872,7 @@ benefit1Body = "encadena herramientas, programa ejecuciones, procesa por lotes"
 benefit1Title = "Pipelines de automatización"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "Herramientas de AI"
-benefit3Body = "llama programáticamente a cualquier endpoint de Stirling"
+benefit3Body = "llama programáticamente a cualquier endpoint de PaperRing"
 benefit3Title = "Acceso API"
 button = "Activar Processor →"
 reassurance = "Sin mínimo · Establece un límite de 0 $ para probar · Cancela cuando quieras"
@@ -6962,7 +6962,7 @@ editorLabel = "Editor de PDF"
 login = "Iniciar sesión"
 manualToolsPromo = "Herramientas manuales de PDF gratuitas e ilimitadas"
 processorLabel = "Procesador de PDF"
-processorTitle = "Crea una cuenta para desbloquear lo mejor de Stirling"
+processorTitle = "Crea una cuenta para desbloquear lo mejor de PaperRing"
 readerLabel = "Lector de PDF"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "Estimado en USD. Puedes ajustar tu límite en cualquier momento despu
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / mes"
 edit = "Editar"
-help = "Stripe gestiona los datos de tu tarjeta. Stirling nunca los ve."
+help = "Stripe gestiona los datos de tu tarjeta. PaperRing nunca los ve."
 loading = "Cargando checkout…"
 noCap = "Sin límite"
 title = "Añade tu método de pago"
@@ -7010,7 +7010,7 @@ title = "Añade tu método de pago"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "Herramientas de AI"
-apiBody = "acceso programático a cualquier endpoint de Stirling"
+apiBody = "acceso programático a cualquier endpoint de PaperRing"
 apiTitle = "Llamadas API"
 automationBody = "herramientas encadenadas o ejecuciones programadas que no necesitan clics"
 automationTitle = "Pipelines de automatización"
@@ -7870,7 +7870,7 @@ connectDescription = "Conecta este servidor para usar la asignación de procesam
 disconnectBody = "Este servidor dejará de usar la asignación de procesamiento de tu equipo en Stirling Cloud. Tus archivos locales permanecerán en este servidor. Para volver a conectarlo, sigue los pasos de conexión originales."
 disconnectTitle = "¿Desconectar esta instancia?"
 eyebrow = "Esta instancia"
-linkButton = "Conectar tu cuenta de Stirling"
+linkButton = "Conectar tu cuenta de PaperRing"
 loading = "Comprobando conexión de la cuenta"
 notLinked = "No conectado"
 signedInAs = "Sesión iniciada en Stirling Cloud como"
@@ -7886,14 +7886,14 @@ description = "Pide al administrador de tu servidor que habilite la conexión a 
 title = "Conexión de cuenta no disponible"
 
 [portal.accountLink.connect]
-adminRequired = "Pide al administrador de tu servidor que abra Uso y facturación y vincule una cuenta de Stirling para obtener más créditos mensuales. Las herramientas manuales de PDF siguen estando disponibles."
+adminRequired = "Pide al administrador de tu servidor que abra Uso y facturación y vincule una cuenta de PaperRing para obtener más créditos mensuales. Las herramientas manuales de PDF siguen estando disponibles."
 adminTitle = "Pide ayuda al administrador de tu servidor"
 close = "Cerrar"
 copied = "Copiado"
 copyAdminMessage = "Copiar mensaje para el administrador"
-exhaustedLede = "Este servidor ha usado sus créditos gratuitos del mes. Vincula una cuenta de Stirling nueva o existente para acceder a la asignación mensual de tu equipo."
+exhaustedLede = "Este servidor ha usado sus créditos gratuitos del mes. Vincula una cuenta de PaperRing nueva o existente para acceder a la asignación mensual de tu equipo."
 notNow = "Ahora no"
-start = "Conectar cuenta de Stirling"
+start = "Conectar cuenta de PaperRing"
 step = "Paso {{current}} de {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Añade más usuarios con un plan Team de pago"
 teamsLabel = "Equipos más grandes"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "No has iniciado sesión en Stirling en este navegador, así que Uso y facturación te pedirá que inicies sesión."
+linkedNotSignedIn = "No has iniciado sesión en PaperRing en este navegador, así que Uso y facturación te pedirá que inicies sesión."
 retry = "Intentar de nuevo"
-signedInAnyway = "Has iniciado sesión en Stirling, así que Facturación y uso se cargará. Solo falta completar el vínculo del servidor."
+signedInAnyway = "Has iniciado sesión en PaperRing, así que Facturación y uso se cargará. Solo falta completar el vínculo del servidor."
 working = "Finalizando la conexión."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Esta solicitud se ha rechazado o ya se ha usado. Inicia otra si no era l
 title = "Conexión no completada"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling no ha confirmado la conexión. Suele ser temporal."
+body = "PaperRing no ha confirmado la conexión. Suele ser temporal."
 title = "Aún no ha terminado"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Créditos gratuitos restantes"
 creditsSuffix = "de {{allowance}} créditos gratuitos restantes"
 cta = "Hecho"
 inviteTeam = "Invita a tu equipo"
-lede = "Este servidor ahora se ejecuta con tu cuenta de Stirling."
+lede = "Este servidor ahora se ejecuta con tu cuenta de PaperRing."
 pendingTitle = "Casi listo"
 switchOnProcessor = "Activar el Processor"
 title = "Conectado"
 
 [portal.accountLink.connect.handoff]
-opening = "Abriendo el inicio de sesión de Stirling..."
-reauthLede = "Tu sesión de Stirling ha caducado. Iniciar sesión de nuevo mantiene visibles el uso y la facturación. Este servidor seguirá conectado de todos modos."
+opening = "Abriendo el inicio de sesión de PaperRing..."
+reauthLede = "Tu sesión de PaperRing ha caducado. Iniciar sesión de nuevo mantiene visibles el uso y la facturación. Este servidor seguirá conectado de todos modos."
 title = "Conectando"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "La dirección frontend configurada de este servidor no coinc
 cancel = "Cancelar"
 continueReauth = "Iniciar sesión de nuevo"
 exhaustedTitle = "Mantén tus flujos de trabajo en marcha"
-identity = "Cuenta de Stirling"
-linkTitle = "Conectar tu cuenta de Stirling"
-noAuthorizeUrl = "Stirling no ha devuelto ningún lugar para continuar. Inténtalo de nuevo en un momento."
-startFailed = "No se pudo contactar con Stirling para iniciar la conexión. Comprueba el acceso de red saliente de este servidor y vuelve a intentarlo."
+identity = "Cuenta de PaperRing"
+linkTitle = "Conectar tu cuenta de PaperRing"
+noAuthorizeUrl = "PaperRing no ha devuelto ningún lugar para continuar. Inténtalo de nuevo en un momento."
+startFailed = "No se pudo contactar con PaperRing para iniciar la conexión. Comprueba el acceso de red saliente de este servidor y vuelve a intentarlo."
 transferPending = "Hay una transferencia de propiedad pendiente. Vaya a Configuración → Usuarios para finalizarla o cancelarla y luego intente vincular de nuevo."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "para que este servidor pueda completar la conexión cuando vuelvas."
 and = "y"
 before = "Configura"
-title = "Conexión de Stirling no configurada"
+title = "Conexión de PaperRing no configurada"
 
 [portal.accountLink.notice]
 openFailed = "No se pudo abrir tu navegador. Abre Uso y facturación en tu servidor conectado para vincular una cuenta."
@@ -8027,7 +8027,7 @@ viewAll = "Ver todos los flujos"
 
 [portal.accountLink.rail]
 adminCta = "Cómo conseguir más créditos"
-adminSub = "Pide al administrador de tu servidor que vincule una cuenta de Stirling para obtener más créditos. Las herramientas PDF manuales siguen disponibles."
+adminSub = "Pide al administrador de tu servidor que vincule una cuenta de PaperRing para obtener más créditos. Las herramientas PDF manuales siguen disponibles."
 exhaustedCta = "Vincular cuenta para obtener más créditos"
 exhaustedSub = "Vincúlala para obtener créditos mensuales, facturación compartida y la opción de crecer con un plan Team."
 exhaustedTitle = "Los créditos gratuitos de este servidor se han agotado"
@@ -8041,9 +8041,9 @@ malformed = "No hemos podido verificar esta respuesta de inicio de sesión. Empi
 malformedTitle = "No se pudo verificar el inicio de sesión"
 rejected = "Esta solicitud de inicio de sesión se rechazó o ya se ha usado. Inténtalo de nuevo para renovar el acceso a la facturación."
 rejectedTitle = "Inicio de sesión no completado"
-retry = "Stirling no pudo terminar de renovar el acceso a la facturación. Inténtalo de nuevo en un momento; tu servidor sigue conectado."
+retry = "PaperRing no pudo terminar de renovar el acceso a la facturación. Inténtalo de nuevo en un momento; tu servidor sigue conectado."
 retryTitle = "Acceso a la facturación no restaurado"
-success = "Tu acceso a la facturación se ha renovado. Este servidor sigue conectado a la misma cuenta de Stirling."
+success = "Tu acceso a la facturación se ha renovado. Este servidor sigue conectado a la misma cuenta de PaperRing."
 title = "Renovar acceso a la facturación"
 working = "Restaurando acceso a la facturación."
 
@@ -8057,7 +8057,7 @@ close = "Cerrar asistente"
 error = "No se ha podido contactar con el asistente."
 errorWithDetail = "No se ha podido contactar con el asistente: {{detail}}"
 inputAriaLabel = "Preguntar al asistente"
-inputPlaceholder = "Pregunta sobre Stirling…"
+inputPlaceholder = "Pregunta sobre PaperRing…"
 open = "Abrir asistente"
 send = "Enviar"
 title = "Asistente"
@@ -8102,7 +8102,7 @@ title = "Establece tu límite de gasto"
 [portal.billing.checkout.card]
 fields = "Número de tarjeta · MM / AA · CVC · ZIP"
 label = "Datos de la tarjeta"
-note = "Datos de tarjeta recopilados por Stripe. Stirling nunca almacena PAN ni CVC."
+note = "Datos de tarjeta recopilados por Stripe. PaperRing nunca almacena PAN ni CVC."
 
 [portal.billing.checkout.error]
 title = "No se ha podido iniciar el pago"
@@ -8180,7 +8180,7 @@ users = "Usuarios"
 [portal.billing.enterprise]
 cta = "Obtener un presupuesto enterprise"
 sub = "Despliegue aislado, SCIM, residencia de datos, SLA de disponibilidad y un acuerdo a medida."
-title = "¿Ejecutas Stirling en un entorno regulado?"
+title = "¿Ejecutas PaperRing en un entorno regulado?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "No se ha podido iniciar el pago"
@@ -8458,7 +8458,7 @@ description = "Dónde acaban los documentos procesados: un bucket, una unidad, u
 label = "Archivo y adjuntar"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling lo almacena cifrado y nunca vuelve a mostrarlo."
+helperText = "PaperRing lo almacena cifrado y nunca vuelve a mostrarlo."
 label = "Token de acceso"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Intentarlo de nuevo"
 title = "Algo ha salido mal en esta página"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Nada coincide con los filtros actuales"
 occurrences = "{{count}} ocurrencias"
 searchPlaceholder = "Buscar incidencias, usuarios y errores"
@@ -9106,7 +9106,7 @@ description = "A este servidor le falta software que el paso necesita, por lo qu
 title = "Software no instalado"
 
 [portal.failures.kind.unknown]
-description = "Algo ha ido mal y Stirling aún no lo reconoce."
+description = "Algo ha ido mal y PaperRing aún no lo reconoce."
 title = "Problema no reconocido"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "Abrir la guía de {{name}}"
 openInBrowser = "Abrir en el navegador en su lugar"
 sectionDesktop = "Aplicación de escritorio"
 sectionSelfHosted = "Autoalojado"
-title = "Instalar el editor de Stirling PDF"
+title = "Instalar el editor de PaperRing"
 
 [portal.home.download.docker]
 detailBody = "Ejecuta la imagen oficial en tu servidor."
@@ -9224,7 +9224,7 @@ usageMonth = "Uso este mes"
 usageToday = "Uso hoy"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Crea una clave para empezar a llamar a la Stirling API."
+description = "Crea una clave para empezar a llamar a la PaperRing API."
 title = "Aún no hay claves API"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Hecho"
 keyNameLabel = "Nombre de clave"
 keyNamePlaceholder = "p. ej., Ingesta de producción"
 secretKeyCaption = "Clave secreta"
-secretWarning = "Guárdalo en un gestor de secretos. Stirling solo almacena un hash, así que no hay forma de recuperarlo más tarde."
+secretWarning = "Guárdalo en un gestor de secretos. PaperRing solo almacena un hash, así que no hay forma de recuperarlo más tarde."
 subtitle = "Dale un nombre a la clave para poder reconocerla después. Puedes revocarla en cualquier momento."
 subtitleCreated = "Copia este secreto ahora — no se volverá a mostrar."
 title = "Crear clave API"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} conexión"
 connectionCount_other = "{{count}} conexiones"
 customApi = "API personalizada"
 searchPlaceholder = "Buscar integraciones"
-subtitle = "Todo con lo que Stirling puede comunicarse. Las credenciales se crean una vez aquí y luego se referencian desde orígenes, políticas y canalizaciones."
+subtitle = "Todo con lo que PaperRing puede comunicarse. Las credenciales se crean una vez aquí y luego se referencian desde orígenes, políticas y canalizaciones."
 title = "Integraciones"
 typedName = "Nombre de {{tool}}"
 
@@ -10183,8 +10183,8 @@ saveFailed = "No se ha podido guardar el pipeline. Inténtalo de nuevo."
 
 [portal.policies.wizard.locations]
 aiSettings = "Abrir ajustes AI"
-builtin = "Base de conocimiento de Stirling"
-builtinHelp = "Indexa fragmentos buscables en Stirling y devuelve el PDF procesado al destino de abajo. Debe configurarse un proveedor de embedding en los ajustes AI."
+builtin = "Base de conocimiento de PaperRing"
+builtinHelp = "Indexa fragmentos buscables en PaperRing y devuelve el PDF procesado al destino de abajo. Debe configurarse un proveedor de embedding en los ajustes AI."
 checking = "Comprobando disponibilidad de ingesta..."
 chooseOutput = "Elige un destino de salida habilitado antes de guardar."
 chooseSource = "Elige de dónde vienen los documentos"
@@ -10276,7 +10276,7 @@ title = "Aún no hay flujo"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Conectar"
-editor = "Editor de Stirling PDF"
+editor = "Editor de PaperRing"
 heading = "Orígenes"
 perDay = "{{n}} / 24 h"
 
@@ -10293,7 +10293,7 @@ title = "Compras"
 agreeCta = "Firmar acuerdo"
 confidential = "Confidencial"
 confirm = "He leído y acepto este Acuerdo, y declaro que estoy autorizado para firmarlo en nombre de la organización indicada anteriormente."
-docName = "Acuerdo Enterprise de Stirling"
+docName = "Acuerdo Enterprise de PaperRing"
 docSub = "MSA, formulario de pedido, EULA y DPA, combinados en una sola firma."
 download = "Descargar"
 downloadDraftError = "No se ha podido generar el PDF del acuerdo: el renderizador de documentos no está disponible. Inténtalo de nuevo en breve o contacta con soporte."
@@ -10463,7 +10463,7 @@ gatingAction = "Acepta tu presupuesto"
 label = "Presupuesto"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Evalúa Stirling con tus documentos y flujos de trabajo."
+blurb = "Evalúa PaperRing con tus documentos y flujos de trabajo."
 gatingAction = "Crea tu presupuesto"
 label = "Prueba"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Este es tu archivo de licencia de prueba. Una vez que el acuerd
 
 [portal.procurement.link]
 cta = "Vincular cuenta"
-description = "Compras se ejecuta en tu cuenta de Stirling vinculada: así provisionamos la prueba, calculamos tu presupuesto e iniciamos la facturación. Vincula una cuenta para empezar."
+description = "Compras se ejecuta en tu cuenta de PaperRing vinculada: así provisionamos la prueba, calculamos tu presupuesto e iniciamos la facturación. Vincula una cuenta para empezar."
 eyebrow = "Empresa"
 title = "Vincula tu cuenta para empezar"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Gestionado, inicio más rápido"
 continue = "Continuar"
 deployment = "¿Dónde debe desplegarse?"
-eula = "Acepto el EULA y las condiciones comerciales de Stirling."
+eula = "Acepto el EULA y las condiciones comerciales de PaperRing."
 fullName = "Nombre completo"
 fullNamePlaceholder = "Tu nombre"
 invites = "Invitar compañeros · opcional"
@@ -10565,7 +10565,7 @@ account-link = "Conexión de cuenta"
 [portal.shell.sidebar]
 appEditor = "Editor"
 appProcessor = "Procesador"
-linkAccount = "Vincular cuenta de Stirling"
+linkAccount = "Vincular cuenta de PaperRing"
 primaryNav = "Navegación principal"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Buscar"
 
 [portal.sources]
 processingModeHelp = "Seguimiento conserva los originales y procesa cada versión una vez. Instantánea conserva los originales y los procesa en cada ejecución. Consumir elimina los originales tras la entrega correcta."
-subtitle = "Conexiones de entrada reutilizables que envían documentos a Stirling. Configura un origen una vez y luego úsalo desde cualquier número de pipelines."
+subtitle = "Conexiones de entrada reutilizables que envían documentos a PaperRing. Configura un origen una vez y luego úsalo desde cualquier número de pipelines."
 title = "Fuentes"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Los créditos mensuales de este servidor se comparten entre todos s
 barAria = "Créditos gratuitos restantes"
 capSuffix_one = "de {{allowance}} crédito gratuito restante este mes"
 capSuffix_other = "de {{allowance}} créditos gratuitos restantes este mes"
-connect = "Conectar una cuenta de Stirling"
+connect = "Conectar una cuenta de PaperRing"
 connectBody = "Al conectar se añade una segunda asignación mensual, aumenta el número de usuarios que puede tener este servidor y se activa el Procesador."
-connectTitle = "Este servidor no tiene una cuenta de Stirling"
+connectTitle = "Este servidor no tiene una cuenta de PaperRing"
 loadError = "No se pudo leer el uso de créditos de este servidor. Inténtalo de nuevo en un momento."
 loadErrorTitle = "No se pudo cargar el uso de créditos"
 resets = "Se restablece {{date}}"
 
 [portal.usage.sessionExpired]
-body = "La sesión de tu cuenta de Stirling ha caducado. Inicia sesión de nuevo para ver la facturación — tu instancia permanece vinculada."
+body = "La sesión de tu cuenta de PaperRing ha caducado. Inicia sesión de nuevo para ver la facturación — tu instancia permanece vinculada."
 
 [portal.users]
 title = "Usuarios"
@@ -11129,7 +11129,7 @@ files = "Archivos"
 account = "Cuenta"
 docs = "Documentación"
 editor = "Editor"
-home = "Stirling"
+home = "PaperRing"
 invite = "Invitar"
 landmark = "Navegación rápida"
 noProcessorAccess = "Pide acceso al procesador a un administrador"
@@ -11682,8 +11682,8 @@ hideTools = "Ocultar herramientas no disponibles ▴"
 messageNoFallback = "Las herramientas no estarán disponibles hasta que tu servidor vuelva a estar en línea."
 messageWithFallback = "Alguna herramientas requieren conexión con el servidor."
 showTools = "Ver herramientas no disponibles ▾"
-title = "Tu servidor de Stirling-PDF está inaccesible"
-toolNotAvailableLocally = "Tu servidor Stirling-PDF está sin conexión y \"{{endpoint}}\" no está disponible en el backend local."
+title = "Tu servidor de PaperRing está inaccesible"
+toolNotAvailableLocally = "Tu servidor PaperRing está sin conexión y \"{{endpoint}}\" no está disponible en el backend local."
 
 [session]
 expired = "Su sesión ha caducado. Actualice la página e inténtelo de nuevo."
@@ -11755,7 +11755,7 @@ unknown = "No disponible"
 yourTeam = "Tu equipo"
 
 [settings.connection]
-description = "Trabaja localmente en esta máquina o conecta la aplicación a un servidor de Stirling."
+description = "Trabaja localmente en esta máquina o conecta la aplicación a un servidor de PaperRing."
 localDescription = "Estás usando el backend local sin una cuenta. Algunas herramientas que requieren procesamiento en la nube o un servidor autoalojado no están disponibles."
 logout = "Cerrar sesión"
 server = "Servidor"
@@ -11770,7 +11770,7 @@ selfhosted = "Autoalojado"
 
 [settings.developer]
 apiKeys = "Claves API"
-apiKeysDescription = "Claves personales para llamar a la API de Stirling desde scripts e integraciones."
+apiKeysDescription = "Claves personales para llamar a la API de PaperRing desde scripts e integraciones."
 title = "Desarrollador"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Límite de archivos para descompresión automática"
 autoUnzipFileLimitTooltip = "Solo descomprime si el ZIP contiene esta cantidad de archivos o menos. Establécelo más alto para extraer ZIPs más grandes."
 autoUnzipTooltip = "Extrae automáticamente archivos ZIP devueltos por operaciones de la API. Desactívalo para mantener los ZIP intactos. Esto no afecta a los flujos de trabajo de automatización."
 defaultPdfEditor = "Editor de PDF predeterminado"
-defaultPdfEditorActive = "Stirling PDF es su editor de PDF predeterminado"
+defaultPdfEditorActive = "PaperRing es su editor de PDF predeterminado"
 defaultPdfEditorChecking = "Comprobando..."
 defaultPdfEditorInactive = "Otra aplicación está establecida como predeterminada"
 defaultPdfEditorSet = "Ya es predeterminado"
@@ -11849,7 +11849,7 @@ updateBehavior = "Comportamiento de actualización"
 updateBehaviorDescription = "Elige si se debe preguntar antes de instalar actualizaciones, instalarlas automáticamente o saltarse las comprobaciones de actualización por completo."
 updateBehaviorError = "No se pudo cambiar el comportamiento de actualización"
 updateBehaviorErrorLocked = "Este ajuste está bloqueado por tu administrador."
-updateBehaviorLockedDescription = "Tu administrador ha configurado cómo Stirling-PDF gestiona las actualizaciones en esta máquina. Contacta con él para cambiarlo."
+updateBehaviorLockedDescription = "Tu administrador ha configurado cómo PaperRing gestiona las actualizaciones en esta máquina. Contacta con él para cambiarlo."
 updateBehaviorSaved = "Comportamiento de actualización guardado."
 versionMismatch = "Tu aplicación de escritorio y el servidor están ejecutando versiones diferentes. Actualiza ambos a la misma versión para evitar problemas de compatibilidad."
 viewDetails = "Ver detalles"
@@ -12074,7 +12074,7 @@ emptyUsername = "Introduzca su nombre de usuario"
 oauthFailed = "Falló el inicio de sesión OAuth. Inténtelo de nuevo."
 
 [setup.saas]
-title = "Inicie sesión en Stirling"
+title = "Inicie sesión en PaperRing"
 
 [setup.selfhosted]
 changeServerLocked = "Tu organización ha restringido esta aplicación a un servidor específico"
@@ -12120,7 +12120,7 @@ step3 = "Reinicie el servidor"
 title = "Inicio de sesión no habilitado"
 
 [setup.server.url]
-description = "Introduzca la URL completa de su servidor autoalojado de Stirling PDF"
+description = "Introduzca la URL completa de su servidor autoalojado de PaperRing"
 label = "URL del servidor"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Por favor, complete todos los campos"
 signUp = "Registrarse"
 signUpWith = "Registrarse con"
 skip = "Omitir"
-subtitle = "Únase a Stirling PDF para comenzar"
+subtitle = "Únase a PaperRing para comenzar"
 title = "Crear una cuenta"
 unableToAccessTool = "No se puede acceder a la herramienta: {{error}}"
 unexpectedError = "Error inesperado: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Descargar"
 downloaded = "Descargado"
 downloadFailed = "No se puede descargar este archivo."
 downloadsCount = "Descargas: {{count}}"
-emailWarningBody = "Parece una dirección de correo electrónico. Si esta persona no es ya usuaria de Stirling PDF, no podrá acceder al archivo."
+emailWarningBody = "Parece una dirección de correo electrónico. Si esta persona no es ya usuaria de PaperRing, no podrá acceder al archivo."
 emailWarningConfirm = "Compartir de todos modos"
 emailWarningTitle = "Dirección de correo electrónico"
 errorTitle = "Error al compartir"
@@ -12887,7 +12887,7 @@ manageTitle = "Gestionar uso compartido"
 noActivity = "Aún no hay actividad."
 noLinks = "Aún no hay enlaces activos para compartir."
 noSharedUsers = "Aún no hay usuarios con acceso."
-openInApp = "Abrir en Stirling PDF"
+openInApp = "Abrir en PaperRing"
 ownerLabel = "Propietario"
 ownerUnknown = "Desconocido"
 removeLink = "Eliminar enlace"
@@ -12945,7 +12945,7 @@ all = "Todo"
 ariaLabel = "Superbúsqueda"
 filtersAriaLabel = "Filtros de búsqueda"
 hint = "Escribe para buscar"
-placeholder = "Buscar en Stirling"
+placeholder = "Buscar en PaperRing"
 placeholderShort = "Buscar"
 showLess = "Mostrar menos"
 showMore = "Mostrar {{count}} más"
@@ -12959,7 +12959,7 @@ settings = "Ajustes"
 tools = "Herramientas"
 
 [survey]
-title = "Encuesta de Stirling-PDF"
+title = "Encuesta de PaperRing"
 
 [swagger]
 clickHere = "haz clic aquí"
@@ -13128,7 +13128,7 @@ favorites = "Favoritos"
 heading = "Todas las herramientas (vista de pantalla completa)"
 noResults = "Intenta ajustar tu búsqueda o activar/desactivar las descripciones para encontrar lo que necesitas."
 recommended = "Recomendado"
-selfHostedOffline = "Requiere tu servidor Stirling-PDF (actualmente sin conexión):"
+selfHostedOffline = "Requiere tu servidor PaperRing (actualmente sin conexión):"
 showDetails = "Mostrar detalles"
 unavailable = "Desactivado por el administrador del servidor:"
 unavailableDependency = "No disponible - falta la herramienta requerida en el servidor:"
@@ -13137,7 +13137,7 @@ unfavorite = "Quitar de favoritos"
 [toolPanel.modePrompt]
 chooseFullscreen = "Usar modo pantalla completa"
 chooseSidebar = "Usar modo barra lateral"
-description = "Previsualiza ambos diseños y decide cómo quieres explorar las herramientas de Stirling PDF."
+description = "Previsualiza ambos diseños y decide cómo quieres explorar las herramientas de PaperRing."
 dismiss = "Quizás más tarde"
 fullscreenDescription = "Explora todas las herramientas en un catálogo que cubre el espacio de trabajo hasta que elijas una."
 fullscreenTitle = "Modo pantalla completa - (heredado)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Cargando información detallada..."
 migrationGuide = "Guía de migración"
 migrationGuides = "Guías de migración"
 migrationGuidesDesc = "Revisa los cambios importantes antes de actualizar."
-modalSubtitle = "Hay una nueva versión de Stirling PDF lista para instalar."
+modalSubtitle = "Hay una nueva versión de PaperRing lista para instalar."
 modalTitle = "Actualización disponible"
 notes = "Notas"
 releaseNotes = "Notas de la versión"
@@ -13230,7 +13230,7 @@ urgent = "Urgente"
 attentionBody = "Su administrador debe iniciar sesión para ver más información. Contáctelo de inmediato."
 attentionBodyAdmin = "Revise los requisitos de licencia para mantener este servidor conforme."
 attentionTitle = "Este servidor necesita atención del administrador"
-message = "Aproveche al máximo Stirling PDF con 100 usuarios, edición de texto PDF y funciones avanzadas"
+message = "Aproveche al máximo PaperRing con 100 usuarios, edición de texto PDF y funciones avanzadas"
 seeInfo = "Ver información"
 title = "Actualiza al plan Team"
 upgradeButton = "Actualizar ahora"
@@ -13368,7 +13368,7 @@ authWeb = "Contraseña"
 create = "Crear cuenta"
 createSubtitle = "Crea una cuenta self-hosted con contraseña o SSO."
 createTitle = "Crear cuenta"
-editorDesc = "Edita PDF en el Editor de Stirling PDF. Todo el mundo lo recibe."
+editorDesc = "Edita PDF en el Editor de PaperRing. Todo el mundo lo recibe."
 email = "Dirección de email"
 emailError = "Introduce una dirección de email válida"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Invitación enviada, pero aún no se ha podido conceder acc
 processorDesc = "La superficie de gobierno, ejecutar pipelines, agentes y la API."
 role = "Rol"
 send2 = "Enviar invitación"
-subtitle2 = "Recibirán un correo electrónico para unirse a tu espacio de trabajo de Stirling."
+subtitle2 = "Recibirán un correo electrónico para unirse a tu espacio de trabajo de PaperRing."
 team = "Equipo"
 title = "Invitar a personas"
 username = "Nombre de usuario"
@@ -13525,7 +13525,7 @@ downloads = "Descargas"
 entryLabel = "Resumen de firma"
 filesEvaluated_one = "{{count}} archivo evaluado"
 filesEvaluated_other = "{{count}} archivos evaluados"
-footer = "Validado mediante Stirling PDF"
+footer = "Validado mediante PaperRing"
 generatedAt = "Generado"
 noPdf = "El informe PDF estará disponible tras una validación correcta."
 page = "Página"
@@ -13718,7 +13718,7 @@ text = "Texto"
 addFile = "Añadir archivo"
 count_one = "{{count}} archivo en esta cartera"
 count_other = "{{count}} archivos en esta cartera"
-import = "Importar a Stirling"
+import = "Importar a PaperRing"
 importFailed = "No se pudo añadir este archivo a tu espacio de trabajo."
 memberUnavailable = "No se pudo leer este archivo de la cartera."
 preview = "Vista previa"

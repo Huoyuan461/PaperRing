@@ -55,7 +55,7 @@ keepWorking = "Continuați lucrul"
 loading = "Se încarcă..."
 loginAgreementAccept = "Acceptați"
 loginAgreementDecline = "Refuzați"
-loginAgreementProvider = "Această notificare este furnizată de administratorul dvs., nu de Stirling PDF Inc."
+loginAgreementProvider = "Această notificare este furnizată de administratorul dvs., nu de PaperRing"
 loginAgreementTitle = "Acord de autentificare"
 logOut = "Deconectare"
 marginTooltip = "Distanța dintre numărul paginii și marginea paginii."
@@ -668,8 +668,8 @@ description = "Timp maxim de execuție"
 label = "Timp de expirare (minute)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert este în beta. Oferă conversii mai bune, mai rapide și cu mai puțină memorie decât LibreOffice."
-label = "Utilizează noua conversie Stirling Office"
+description = "PaperRing Office Convert este în beta. Oferă conversii mai bune, mai rapide și cu mai puțină memorie decât LibreOffice."
+label = "Utilizează noua conversie PaperRing Office"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Configurați stocarea fișierelor temporare și comportamentul de curățare"
@@ -736,7 +736,7 @@ permissionNotice = "Calea tessdata nu are permisiuni de scriere. Descărcările 
 
 [admin.settings.ai]
 customProvider = "Personalizat (compatibil OpenAI)"
-description = "Conectați Stirling la motorul Python AI, alegeți-i modelele și setați limitele sub care rulează."
+description = "Conectați PaperRing la motorul Python AI, alegeți-i modelele și setați limitele sub care rulează."
 managedByCloud = "Gestionat de Stirling Cloud în acest mod."
 managedByCloudShort = "Gestionat de Stirling Cloud"
 
@@ -797,7 +797,7 @@ help = "Oprit înseamnă că întrebările despre document nu sunt disponibile. 
 label = "Permiteți Stirling Cloud să păstreze documente indexate"
 
 [admin.settings.ai.general.cloudNote]
-body = "Raționamentul rulează pe infrastructura Stirling, facturat în contul la care este legat acest server. Nu există niciun container de rulat și nicio cheie de furnizor de păstrat aici. Orice citește AI este procesat de Stirling Cloud, nu pe propriul dvs. hardware."
+body = "Raționamentul rulează pe infrastructura PaperRing, facturat în contul la care este legat acest server. Nu există niciun container de rulat și nicio cheie de furnizor de păstrat aici. Orice citește AI este procesat de Stirling Cloud, nu pe propriul dvs. hardware."
 title = "Despre Stirling Cloud AI"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "Unde rulează AI"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Fără container, fără cheie de furnizor, fără alegere de model - lucrarea rulează pe Stirling Cloud și este facturată în contul la care este legat acest server."
-linkCta = "Conectați acest server la un cont Stirling"
+linkCta = "Conectați acest server la un cont PaperRing"
 notLinked = "Legați mai întâi un cont"
-ownerOnly = "Doar proprietarul organizației poate lega acest server la un cont Stirling."
+ownerOnly = "Doar proprietarul organizației poate lega acest server la un cont PaperRing."
 title = "Utilizați Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Rulați propriul motor"
 
 [admin.settings.ai.general.note]
 docs = "Ghid de configurare"
-intro = "Un container separat pe care îl rulați lângă Stirling. Acesta face raționamentul; Stirling face în continuare singur fiecare operațiune pe pagină. Are nevoie de același"
+intro = "Un container separat pe care îl rulați lângă PaperRing. Acesta face raționamentul; PaperRing face în continuare singur fiecare operațiune pe pagină. Are nevoie de același"
 outro = "pe ambele containere și de o cheie de furnizor de modele. Orice citește AI este trimis furnizorului pe care îl alegeți - un Ollama găzduit de dvs. păstrează fiecare pagină intern."
 title = "Despre motorul AI"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Introduceți codul de confirmare pentru a continua"
 confirmImport = "Confirmă importul"
 confirmImportTitle = "Confirmă importul bazei de date"
 connection = "Conexiune"
-connectionDescription = "Direcționați Stirling către o bază de date externă în locul celei încorporate."
+connectionDescription = "Direcționați PaperRing către o bază de date externă în locul celei încorporate."
 createBackup = "Creează backup"
 created = "Creat"
 delete = "Șterge"
@@ -1224,11 +1224,11 @@ description = "Configurați funcții opționale și funcționalități."
 title = "Funcții"
 
 [admin.settings.features.serverCertificate]
-description = "Generează certificatul care susține funcția de semnare „Sign with Stirling-PDF”."
+description = "Generează certificatul care susține funcția de semnare „Sign with PaperRing”."
 label = "Semnare cu certificat"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Oferă „Sign with Stirling-PDF” folosind un certificat generat de acest server"
+description = "Oferă „Sign with PaperRing” folosind un certificat generat de acest server"
 label = "Activează semnarea cu certificat"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Valabilitate certificat (zile)"
 
 [admin.settings.folderAccess]
 description = "Directoare din care sursele de folder și ieșirile de folder au permisiunea să citească și în care să scrie. Aceasta este o limită de securitate: automatizările nu pot fi niciodată direcționate către o cale de server din afara acestei liste."
-securityNote = "Lăsați necompletat pentru a dezactiva complet sursele și ieșirile de folder. Directorul de configurare propriu al Stirling este întotdeauna interzis."
+securityNote = "Lăsați necompletat pentru a dezactiva complet sursele și ieșirile de folder. Directorul de configurare propriu al PaperRing este întotdeauna interzis."
 title = "Acces la foldere"
 
 [admin.settings.folderAccess.implied]
-description = "Aceste directoare gestionate de Stirling sunt întotdeauna permise și nu pot fi modificate aici."
+description = "Aceste directoare gestionate de PaperRing sunt întotdeauna permise și nu pot fi modificate aici."
 serverStorage = "Stocare fișiere server"
 title = "Permise întotdeauna"
 watchedFolder = "Folder monitorizat pentru pipeline"
@@ -1390,7 +1390,7 @@ description = "URL sau nume de fișier către politica de cookie-uri"
 label = "Politică cookie"
 
 [admin.settings.legal.disclaimer]
-message = "Prin personalizarea acestor documente legale, vă asumați întreaga responsabilitate pentru asigurarea conformității cu toate legile și reglementările aplicabile, inclusiv, dar fără a se limita la GDPR și alte cerințe de protecție a datelor din UE. Modificați aceste setări doar dacă: (1) operați o instanță personală/privată, (2) vă aflați în afara jurisdicției UE și înțelegeți obligațiile legale locale sau (3) ați obținut consultanță juridică adecvată și acceptați responsabilitatea exclusivă pentru toate datele utilizatorilor și conformitatea legală. Stirling-PDF și dezvoltatorii săi nu își asumă nicio răspundere pentru obligațiile dvs. legale."
+message = "Prin personalizarea acestor documente legale, vă asumați întreaga responsabilitate pentru asigurarea conformității cu toate legile și reglementările aplicabile, inclusiv, dar fără a se limita la GDPR și alte cerințe de protecție a datelor din UE. Modificați aceste setări doar dacă: (1) operați o instanță personală/privată, (2) vă aflați în afara jurisdicției UE și înțelegeți obligațiile legale locale sau (3) ați obținut consultanță juridică adecvată și acceptați responsabilitatea exclusivă pentru toate datele utilizatorilor și conformitatea legală. PaperRing și dezvoltatorii săi nu își asumă nicio răspundere pentru obligațiile dvs. legale."
 title = "Avertisment privind responsabilitatea legală"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "Numele de utilizator pentru autentificarea SMTP"
 label = "Utilizator SMTP"
 
 [admin.settings.mcp]
-apikeyNote = "Clienții trimit o cheie API Stirling în antetul X-API-KEY (sau Authorization: Bearer <key>). Cheia este asociată utilizatorului Stirling care o deține - doar conturile provisionate au acces, iar acțiunile sunt auditate ca acel utilizator. Gestionați cheile în Cont > Chei API."
-description = "Expuneți instrumentele PDF și agenții AI Stirling către clienți MCP printr-un endpoint protejat cu OAuth."
+apikeyNote = "Clienții trimit o cheie API PaperRing în antetul X-API-KEY (sau Authorization: Bearer <key>). Cheia este asociată utilizatorului PaperRing care o deține - doar conturile provisionate au acces, iar acțiunile sunt auditate ca acel utilizator. Gestionați cheile în Cont > Chei API."
+description = "Expuneți instrumentele PDF și agenții AI PaperRing către clienți MCP printr-un endpoint protejat cu OAuth."
 title = "Server MCP"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "antet (sau Authorization: Bearer <key>). Nu se folosește OAuth 
 step4 = "Aprobați autentificarea; clientul reîncearcă folosind un token. Instrumentele apar grupate: convert, pages, misc, security, ai."
 step4ApiKey = "Instrumentele apar grupate: convert, pages, misc, security, ai - și fiecare apel este auditat ca proprietarul cheii."
 tip = "Sfat: înregistrați resource ID ca audience permis în IdP. Testat cu MCP Inspector și Claude Desktop."
-tipApiKey = "Sfat: modul cu cheie API nu necesită IdP extern - cel mai simplu pentru self-host. Cheia este asociată utilizatorului Stirling care o deține."
+tipApiKey = "Sfat: modul cu cheie API nu necesită IdP extern - cel mai simplu pentru self-host. Cheia este asociată utilizatorului PaperRing care o deține."
 title = "Conectați un client MCP"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "URL JWKS (opțional)"
 placeholder = "Descoperit automat din issuer"
 
 [admin.settings.mcp.mode]
-apikey = "Cheie API (cheie Stirling per utilizator)"
-description = "OAuth necesită un IdP extern. Cheia API folosește o cheie API Stirling per utilizator (X-API-KEY) - cel mai simplu pentru self-host."
+apikey = "Cheie API (cheie PaperRing per utilizator)"
+description = "OAuth necesită un IdP extern. Cheia API folosește o cheie API PaperRing per utilizator (X-API-KEY) - cel mai simplu pentru self-host."
 label = "Mod de autentificare"
 oauth = "OAuth 2.1 (IdP extern)"
 
 [admin.settings.mcp.requireAccount]
-description = "Permiteți trecerea tokenurilor doar dacă subiectul lor corespunde unui utilizator Stirling provisionat și activat."
-label = "Necesită un cont Stirling existent"
+description = "Permiteți trecerea tokenurilor doar dacă subiectul lor corespunde unui utilizator PaperRing provisionat și activat."
+label = "Necesită un cont PaperRing existent"
 
 [admin.settings.mcp.resourceId]
 description = "URL-ul public /mcp al acestui server. Tokenurile trebuie să îl includă în audience (RFC 8707), altfel sunt respinse."
@@ -1540,7 +1540,7 @@ description = "Necesită mcp.tools.read pentru operații de citire și mcp.tools
 label = "Aplică scope-uri OAuth"
 
 [admin.settings.mcp.usernameClaim]
-description = "JWT claim comparat cu un nume de utilizator Stirling (de ex. sub, email, preferred_username)."
+description = "JWT claim comparat cu un nume de utilizator PaperRing (de ex. sub, email, preferred_username)."
 label = "Claim nume de utilizator"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Când este activat, doar ID-urile de utilizator listate pot folos
 label = "Permite ID-uri specifice de utilizator"
 
 [admin.settings.telegram.enabled]
-description = "Permite utilizatorilor să interacționeze cu Stirling PDF prin botul Telegram configurat."
+description = "Permite utilizatorilor să interacționeze cu PaperRing prin botul Telegram configurat."
 label = "Activează botul Telegram"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Acesta este <strong>Panoul de setări</strong>. Setările de
 systemCustomization = "Avem modalități extinse de a personaliza UI: <strong>Setările sistemului</strong> vă permit să schimbați numele aplicației și limbile, <strong>Funcții</strong> permite gestionarea certificatelor serverului, iar <strong>Puncte finale</strong> vă permite să activați sau să dezactivați instrumente specifice pentru utilizatorii dvs."
 teamsAndUsers = "Gestionați aici <strong>Echipe</strong> și utilizatori individuali. Puteți invita utilizatori noi prin email, linkuri partajabile sau le puteți crea conturi personalizate."
 welcome = "Bun venit la <strong>Turul Admin</strong>! Haideți să explorăm funcțiile enterprise și setările puternice disponibile administratorilor de sistem."
-wrapUp = "Acesta a fost turul de administrare! Ați văzut funcțiile enterprise care fac din Stirling PDF o soluție puternică și personalizabilă pentru organizații. Îl puteți relua oricând - deschideți <strong>Setări</strong> și găsiți-l aici, în secțiunea <strong>Tururi</strong> de sub Ajutor."
+wrapUp = "Acesta a fost turul de administrare! Ați văzut funcțiile enterprise care fac din PaperRing o soluție puternică și personalizabilă pentru organizații. Îl puteți relua oricând - deschideți <strong>Setări</strong> și găsiți-l aici, în secțiunea <strong>Tururi</strong> de sub Ajutor."
 
 [adminUserSettings]
 admin = "Administrator"
 title = "Setări Control Utilizator"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arabă"
@@ -1952,9 +1952,9 @@ thai = "Thailandeză"
 
 [analytics]
 learnMore = "Aflați mai multe despre analytics"
-paragraph1 = "Stirling PDF are analytics opțional pentru a ne ajuta să îmbunătățim produsul. Nu urmărim informații personale sau conținutul fișierelor."
-paragraph2 = "Vă rugăm să luați în considerare activarea analizelor pentru a ajuta Stirling-PDF să crească și pentru a ne permite să ne înțelegem mai bine utilizatorii."
-title = "Doriți să ajutați la îmbunătățirea Stirling PDF?"
+paragraph1 = "PaperRing are analytics opțional pentru a ne ajuta să îmbunătățim produsul. Nu urmărim informații personale sau conținutul fișierelor."
+paragraph2 = "Vă rugăm să luați în considerare activarea analizelor pentru a ajuta PaperRing să crească și pentru a ne permite să ne înțelegem mai bine utilizatorii."
+title = "Doriți să ajutați la îmbunătățirea PaperRing?"
 
 [annotate]
 tags = "adnotează,evidențiază,desenează,marcaj,comentariu,notițe,revizuire,redline,feedback,instrumente marcaj,notițe lipicioase,forme,săgeți,casetă text,mână liberă"
@@ -2902,9 +2902,9 @@ typeSignature = "Tastați-vă numele pentru a crea o semnătură"
 uploadCert = "Încărcați un certificat"
 uploadCertDesc = "Utilizați propriul certificat PKCS12, PFX, PEM sau JKS."
 uploadSignature = "Încărcați imaginea semnăturii"
-usePersonalCert = "Stirling Sign · Personal"
+usePersonalCert = "PaperRing Sign · Personal"
 usePersonalCertDesc = "Semnați cu certificatul creat pentru contul dvs."
-useServerCert = "Stirling Sign · Organizație"
+useServerCert = "PaperRing Sign · Organizație"
 useServerCertDesc = "Semnați cu certificatul de organizație partajat al acestui server."
 useSignature = "Folosește semnătura"
 
@@ -3224,10 +3224,10 @@ text = "Puneți o întrebare despre documentele dvs. sau obțineți ajutor cu in
 
 [chat.fab]
 close = "Închide chatul"
-open = "Deschide asistentul Stirling AI"
+open = "Deschide asistentul PaperRing AI"
 
 [chat.header]
-agentMenu = "Opțiuni agent Stirling"
+agentMenu = "Opțiuni agent PaperRing"
 assistant = "Asistent AI"
 clearChat = "Goliți chatul"
 
@@ -3587,9 +3587,9 @@ label = "Documente după tip: {{summary}}"
 noTypes = "Aceste documente nu s-au potrivit cu un tip cunoscut."
 
 [classificationDemo.defaultApp]
-body = "Setați Stirling ca aplicația PDF implicită. Fiecare PDF pe care îl deschideți, din email, browser sau desktop, ajunge aici, gata de citit sau editat. Puteți schimba acest lucru oricând din Setări."
-cta = "Setează Stirling ca implicit"
-title = "Deschideți fiecare PDF în Stirling"
+body = "Setați PaperRing ca aplicația PDF implicită. Fiecare PDF pe care îl deschideți, din email, browser sau desktop, ajunge aici, gata de citit sau editat. Puteți schimba acest lucru oricând din Setări."
+cta = "Setează PaperRing ca implicit"
+title = "Deschideți fiecare PDF în PaperRing"
 
 [classificationDemo.followUp]
 background = "Acest lucru rulează în fundal. Inelul din stânga arată progresul."
@@ -3604,7 +3604,7 @@ other = "Altele"
 body = "Clasificați și organizați după tip cele mai recente {{count}} PDF-uri din folderul Downloads."
 cta = "Procesează folderul Downloads"
 privacy = "PDF-urile dvs. rămân pe acest dispozitiv. Serverul conectat înregistrează utilizarea procesării."
-title = "Vedeți ce poate face Stirling cu un folder întreg"
+title = "Vedeți ce poate face PaperRing cu un folder întreg"
 
 [classificationDemo.phase]
 finishing = "Se finalizează..."
@@ -3618,10 +3618,10 @@ counts = "din {{total}} PDF-uri procesate"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF-uri"
-failedBody = "Stirling nu a putut citi folderul Downloads. Nimic de pe computerul dvs. nu a fost modificat."
+failedBody = "PaperRing nu a putut citi folderul Downloads. Nimic de pe computerul dvs. nu a fost modificat."
 failedTitle = "Nu s-a finalizat"
 heading = "Descărcările dvs., sortate"
-summary = "Stirling a citit {{documents}} și le-a sortat în {{types}}."
+summary = "PaperRing a citit {{documents}} și le-a sortat în {{types}}."
 typeCount_one = "{{count}} tip"
 typeCount_other = "{{count}} tipuri"
 
@@ -3947,14 +3947,14 @@ upgradeButton = "Actualizați contul"
 
 [config.apiKeys]
 copyKeyAriaLabel = "Copiați cheia API"
-description = "Cheia dvs. API pentru accesarea suitei de instrumente PDF Stirling. Copiați-o în proiectul dvs. sau reîmprospătați pentru a genera una nouă."
-docsDescription = "Aflați mai multe despre integrarea cu Stirling PDF:"
+description = "Cheia dvs. API pentru accesarea suitei de instrumente PDF PaperRing. Copiați-o în proiectul dvs. sau reîmprospătați pentru a genera una nouă."
+docsDescription = "Aflați mai multe despre integrarea cu PaperRing:"
 docsLink = "Documentație API"
 docsTitle = "Documentație API"
 generateError = "Nu am putut genera cheia API."
 goToAccount = "Mergeți la Cont"
 guestInfo = "Utilizatorii invitați nu primesc chei API. Creați un cont pentru a obține o cheie API pe care o puteți folosi în aplicațiile dvs."
-intro = "Folosiți cheia API pentru a accesa programatic capabilitățile de procesare ale Stirling PDF."
+intro = "Folosiți cheia API pentru a accesa programatic capabilitățile de procesare ale PaperRing."
 label = "Cheie API"
 publicKeyAriaLabel = "Cheie API publică"
 refreshAriaLabel = "Reîmprospătați cheia API"
@@ -3978,10 +3978,10 @@ title = "Reîmprospătați cheile API"
 warning = "⚠️ Avertisment: Această acțiune va genera chei API noi și va face cheile anterioare invalide."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) permite asistenților AI precum Claude să folosească direct instrumentele dvs. Stirling PDF. Conectați un client o singură dată, iar asistentul dvs. poate converti, edita, securiza și procesa documente în numele dvs."
-guestInfo = "Utilizatorii invitați nu pot conecta clienți MCP. Creați un cont pentru a folosi serverul MCP și pentru a permite asistentului AI să ruleze instrumente Stirling PDF în numele dvs."
+description = "Model Context Protocol (MCP) permite asistenților AI precum Claude să folosească direct instrumentele dvs. PaperRing. Conectați un client o singură dată, iar asistentul dvs. poate converti, edita, securiza și procesa documente în numele dvs."
+guestInfo = "Utilizatorii invitați nu pot conecta clienți MCP. Creați un cont pentru a folosi serverul MCP și pentru a permite asistentului AI să ruleze instrumente PaperRing în numele dvs."
 navLabel = "Server MCP"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Vizualizează cheile API"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Endpointul dvs. MCP"
 
 [config.mcp.setup]
 addTo = "Adaugă la"
-hint = "Alegeți clientul, lipiți fragmentul în fișierul indicat, apoi reporniți-l. Vă veți autentifica cu contul Stirling la prima utilizare - fără chei de copiat."
+hint = "Alegeți clientul, lipiți fragmentul în fișierul indicat, apoi reporniți-l. Vă veți autentifica cu contul PaperRing la prima utilizare - fără chei de copiat."
 title = "Conectați asistentul AI"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Pasul {{current}} din {{total}}"
 [connect.confirm]
 acknowledge = "Recunosc această adresă și vreau să o conectez la echipa mea"
 approve = "Conectează serverul"
-cannotDecide = "Doar un proprietar de echipă poate aproba sau respinge această conexiune. Utilizați un alt cont sau închideți această solicitare pentru a continua să utilizați Stirling."
+cannotDecide = "Doar un proprietar de echipă poate aproba sau respinge această conexiune. Utilizați un alt cont sau închideți această solicitare pentru a continua să utilizați PaperRing."
 deny = "Respinge"
 dismiss = "Închide"
-lead = "Un server Stirling solicită conectarea la echipa dvs. Verificați că adresa de mai jos este a dvs. înainte de a aproba."
+lead = "Un server PaperRing solicită conectarea la echipa dvs. Verificați că adresa de mai jos este a dvs. înainte de a aproba."
 originLabel = "Adresă"
 signedInAs = "Autentificat ca"
 switchAccount = "Utilizați un alt cont"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Alegeți mai întâi un format sursă"
 settings = "Setări"
 single = "Unic"
 sourceFormatPlaceholder = "Format sursă"
-stirlingOfficeConvert = "Utilizează Stirling Office Convert (beta)"
+stirlingOfficeConvert = "Utilizează PaperRing Office Convert (beta)"
 stirlingOfficeConvertDescription = "Conversii mai bune și mai rapide, cu mai puțină memorie. Dezactivează pentru a utiliza convertorul standard."
 strictMode = "Mod strict"
 strictModeDesc = "Eroare dacă conversia nu este perfectă (folosește verificarea VeraPDF)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Gestionați preferințele"
 title = "Cum folosim cookie-urile"
 
 [cookieBanner.popUp.description]
-1 = "Folosim cookie-uri și alte tehnologii pentru ca Stirling PDF să funcționeze mai bine pentru dvs. - ajutându-ne să ne îmbunătățim instrumentele și să continuăm să construim funcții care vă vor plăcea."
+1 = "Folosim cookie-uri și alte tehnologii pentru ca PaperRing să funcționeze mai bine pentru dvs. - ajutându-ne să ne îmbunătățim instrumentele și să continuăm să construim funcții care vă vor plăcea."
 2 = "Dacă preferați să nu, făcând clic pe „Nu, mulțumesc” vor fi activate doar cookie-urile esențiale necesare pentru funcționarea fără probleme."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Utilizarea cookie-urilor"
 title = "Centrul preferințelor de consimțământ"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Aceste cookie-uri ne ajută să înțelegem cum sunt folosite instrumentele noastre, pentru a ne concentra pe construirea funcțiilor pe care comunitatea noastră le apreciază cel mai mult. Fiți sigur - Stirling PDF nu poate și nu va urmări niciodată conținutul documentelor cu care lucrați."
+description = "Aceste cookie-uri ne ajută să înțelegem cum sunt folosite instrumentele noastre, pentru a ne concentra pe construirea funcțiilor pe care comunitatea noastră le apreciază cel mai mult. Fiți sigur - PaperRing nu poate și nu va urmări niciodată conținutul documentelor cu care lucrați."
 title = "Analiză"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF folosește cookie-uri și tehnologii similare pentru a vă îmbunătăți experiența și a înțelege cum sunt folosite instrumentele noastre. Aceasta ne ajută să îmbunătățim performanța, să dezvoltăm funcțiile care vă interesează și să oferim suport constant utilizatorilor noștri."
-2 = "Stirling PDF nu poate - și nu va putea niciodată - să urmărească sau să acceseze conținutul documentelor pe care le folosiți."
+1 = "PaperRing folosește cookie-uri și tehnologii similare pentru a vă îmbunătăți experiența și a înțelege cum sunt folosite instrumentele noastre. Aceasta ne ajută să îmbunătățim performanța, să dezvoltăm funcțiile care vă interesează și să oferim suport constant utilizatorilor noștri."
+2 = "PaperRing nu poate - și nu va putea niciodată - să urmărească sau să acceseze conținutul documentelor pe care le folosiți."
 3 = "Confidențialitatea și încrederea dvs. sunt în centrul a tot ceea ce facem."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Nu s-a putut seta gestionarul PDF implicit"
 title = "Eroare"
 
 [defaultApp.settingsOpened]
-message = "În Setările Windows, căutați „PDF” și selectați Stirling PDF ca aplicație implicită"
+message = "În Setările Windows, căutați „PDF” și selectați PaperRing ca aplicație implicită"
 title = "Setări deschise"
 
 [defaultApp.success]
-message = "Stirling PDF este acum editorul tău PDF implicit"
+message = "PaperRing este acum editorul tău PDF implicit"
 title = "Aplicație implicită setată"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Minimizează"
 restore = "Restaurează"
 
 [desktopBilling]
-description = "Gestionați utilizarea și facturarea în browser. Autentificați-vă cu același cont Stirling pe care îl folosiți aici."
+description = "Gestionați utilizarea și facturarea în browser. Autentificați-vă cu același cont PaperRing pe care îl folosiți aici."
 open = "Deschide Utilizare și facturare în browser"
 openFailed = "Nu s-a putut deschide Utilizare și facturare. Verificați conexiunea și încercați din nou."
 selfHostedDescription = "Gestionați utilizarea și facturarea pe serverul conectat în browser. Autentificați-vă cu contul de proprietar al serverului."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Nu s-a putut descărca sau instala actualizarea."
 
 [desktopUpdate.blocked]
 docsLink = "Vizualizați documentația de instalare"
-message = "Stirling-PDF nu are permisiunea de a se actualiza singur pe această mașină."
+message = "PaperRing nu are permisiunea de a se actualiza singur pe această mașină."
 title = "Sunt necesare permisiuni de administrator"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Redenumește"
 title = "Redenumește fișierul"
 
 [filesPage]
-addedToLibrary = "Adăugat în biblioteca Stirling"
-addingToLibrary = "Se adaugă în biblioteca Stirling…"
-addToLibrary = "Adaugă în biblioteca Stirling…"
+addedToLibrary = "Adăugat în biblioteca PaperRing"
+addingToLibrary = "Se adaugă în biblioteca PaperRing…"
+addToLibrary = "Adaugă în biblioteca PaperRing…"
 addToLibraryFailed = "Unele fișiere nu au putut fi adăugate"
 addToWorkspace = "Adăugați la spațiul de lucru"
 addToWorkspaceCount = "Adăugați {{count}} la spațiul de lucru"
-allFiles = "Biblioteca Stirling"
+allFiles = "Biblioteca PaperRing"
 back = "Înapoi"
 backToFolder = "Înapoi la {{folder}}"
 backToMyFiles = "Înapoi la biblioteca de fișiere"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Ștergeți și {{count}} fișier din dosar"
 deleteFolderContents_other = "Ștergeți și {{count}} fișiere din dosar"
 deleteFolderContentsWarning = "Fișierele vor fi eliminate definitiv și nu pot fi recuperate."
 deleteFolderError = "Nu s-a putut șterge folderul. Încercați din nou."
-deleteFolderKeepHint = "Fișierele din interior vor fi mutate în biblioteca Stirling."
+deleteFolderKeepHint = "Fișierele din interior vor fi mutate în biblioteca PaperRing."
 deleteFolderTitle = "Ștergeți folderul?"
 deselectAll = "Goliți selecția"
 details = "Detalii"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} fișiere nu au putut fi mutate pe server (f
 moveTo = "Mută în…"
 newFolder = "Folder nou"
 newFolderStorageDisabled = "Stocarea dosarelor pe server nu este activată."
-newFolderTabUnavailable = "Comutați la biblioteca Stirling pentru a crea dosare."
+newFolderTabUnavailable = "Comutați la biblioteca PaperRing pentru a crea dosare."
 offlineNoFolderEdits = "Sincronizarea folderelor cu serverul nu este disponibilă - modificările folderelor sunt dezactivate. Verificați autentificarea și configurația stocării."
 open = "Deschideți"
 openVersionInWorkspace = "Deschideți în spațiul de lucru"
@@ -4856,7 +4856,7 @@ recentFiles = "Recente"
 refresh = "Reîmprospătează"
 refreshNeedsConnection = "Autentifică-te pentru a reîmprospăta de pe server."
 remove = "Ștergeți"
-removeLocalFolder = "Demontează din Stirling"
+removeLocalFolder = "Demontează din PaperRing"
 removeVersion = "Eliminați această versiune"
 rename = "Redenumiți"
 renamed = "Redenumit"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} elemente"
 tree = "Foldere"
 unmount = "Demontează"
 unmountFolderBody = "Demontezi „{{name}}”? Folderul și fișierele sale rămân pe discul tău."
-unmountFolderTitle = "Demontezi din Stirling?"
+unmountFolderTitle = "Demontezi din PaperRing?"
 upload = "Încărcați"
 uploadFromMobile = "Încărcați de pe mobil"
 versionActions = "Acțiuni versiune"
@@ -4921,7 +4921,7 @@ orphaned = "Nu este pe disc"
 orphanedHint = "Originalul de la {{path}} a dispărut. Această copie este doar aici - salvarea ei va cere o locație nouă."
 unavailable = "Indisponibil"
 unavailableHintOffline = "Unitatea sau partajarea pe care se află acest fișier nu este conectată. Reconecteaz-o pentru a prelua din nou modificările."
-unavailableHintPermission = "Stirling nu are permisiunea de a citi această locație. Acordă acces în Setările sistemului pentru a prelua din nou modificările."
+unavailableHintPermission = "PaperRing nu are permisiunea de a citi această locație. Acordă acces în Setările sistemului pentru a prelua din nou modificările."
 unavailableHintUnknown = "Acest fișier nu poate fi accesat acum. Copia de aici este neschimbată."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Numele folderului"
 
 [filesPage.folderOrigin]
 diskHint = "Un folder montat dintr-un director de pe discul tău"
-serverHint = "Un folder stocat pe serverul Stirling"
+serverHint = "Un folder stocat pe serverul PaperRing"
 virtualHint = "Un folder care există doar în acest browser"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Sincronizat cu contul tău, disponibil oriunde te autentifici."
 [filesPage.origin]
 all = "Toate sursele"
 cloud = "Cloud"
-cloudHint = "Stocat pe serverul Stirling"
+cloudHint = "Stocat pe serverul PaperRing"
 diskFileHint = "Stocat pe computerul tău"
 diskHint = "Un fișier din folderul montat de pe discul tău"
 local = "Local"
@@ -5474,7 +5474,7 @@ invisible = "Invizibil (doar metadata)"
 location = "Locație:"
 logo = "Logo:"
 logoHidden = "Fără logo"
-logoShown = "Logo Stirling PDF afișat"
+logoShown = "Logo PaperRing afișat"
 participantCount_one = "{{count}} participant selectat"
 participantCount_other = "{{count}} participanți selectați"
 participants = "Participanți"
@@ -5525,7 +5525,7 @@ title = "Semnare în orice ordine"
 dismiss = "Închideți bannerul"
 message = "Creați un cont gratuit pentru a vă salva munca, a accesa mai multe funcții și a sprijini proiectul."
 signUp = "Înscriere gratuită"
-title = "Folosiți Stirling PDF ca invitat!"
+title = "Folosiți PaperRing ca invitat!"
 
 [home.addAttachments]
 desc = "Vizualizează, adaugă, extrage, redenumește sau șterge atașamente PDF încorporate"
@@ -5704,7 +5704,7 @@ tags = "combinare,alăturare,unire,îmbinare,îmbinare PDF-uri,combinare PDF-uri
 title = "Unifică"
 
 [home.mobile]
-brandAlt = "Logo Stirling PDF"
+brandAlt = "Logo PaperRing"
 openFiles = "Deschideți fișiere"
 swipeHint = "Glisați la stânga sau la dreapta pentru a schimba vizualizările"
 tools = "Instrumente"
@@ -5743,7 +5743,7 @@ tags = "organizare,rearanjare,reordonare,aranjare pagini,sortare,mutare pagini,�
 title = "Organizează"
 
 [home.pdfTextEditor]
-desc = "Revizuiește și editează exporturile JSON Stirling PDF cu editare de text grupată și regenerare PDF"
+desc = "Revizuiește și editează exporturile JSON PaperRing cu editare de text grupată și regenerare PDF"
 tags = "editează text,modifică text,schimbă text,editează conținut,actualizează text,rescrie,corectează,amendează,redline,revizuiește,editor text,editor conținut"
 title = "Editor text PDF"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Parola este obligatorie"
 signIn = "Autentificare"
 validating = "Se validează invitația..."
 validationError = "Validarea linkului de invitație a eșuat"
-welcome = "Bun venit la Stirling PDF"
+welcome = "Bun venit la PaperRing"
 welcomeSubtitle = "Finalizați configurarea contului pentru a începe"
 welcomeTitle = "Ați fost invitat!"
 
@@ -6209,7 +6209,7 @@ message = "Autentificarea nu a reușit. Puteți închide această fereastră și
 title = "Autentificare eșuată"
 
 [oauth.success]
-message = "Puteți închide această fereastră și reveni la Stirling PDF."
+message = "Puteți închide această fereastră și reveni la PaperRing."
 title = "Autentificare reușită"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Te întoarcem la aplicație..."
-requesting = "{{app}} dorește să acceseze contul tău Stirling PDF"
+requesting = "{{app}} dorește să acceseze contul tău PaperRing"
 scopesIntro = "Aceasta va permite {{app}} să:"
 signedInAs = "Autentificat ca {{name}}"
 signInButton = "Autentifică-te pentru a continua"
-signInPrompt = "Autentifică-te în contul tău Stirling PDF pentru a continua conectarea aplicației."
+signInPrompt = "Autentifică-te în contul tău PaperRing pentru a continua conectarea aplicației."
 title = "Authorise access"
 unknownApp = "O aplicație terță"
 
 [oauthConsent.access]
 actAsYou = "Acționeze în numele tău - tot ce face {{app}} rulează sub contul tău și se contorizează în utilizarea ta"
-tools = "Folosească instrumentele tale Stirling PDF în numele tău - să convertească, editeze, semneze, securizeze și proceseze documentele tale"
+tools = "Folosească instrumentele tale PaperRing în numele tău - să convertească, editeze, semneze, securizeze și proceseze documentele tale"
 
 [oauthConsent.scope]
 email = "Vadă adresa ta de email"
@@ -6362,26 +6362,26 @@ skipTheTour = "Sari peste tur"
 
 [onboarding.checklist]
 dismiss = "Închideți"
-title = "Configurați Stirling PDF"
+title = "Configurați PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Rulați Stirling nativ pe computerul dvs."
-title = "Descărcați Stirling pentru Desktop"
+description = "Rulați PaperRing nativ pe computerul dvs."
+title = "Descărcați PaperRing pentru Desktop"
 
 [onboarding.checklist.inviteTeam]
 description = "Colaborați cu echipa dvs."
 title = "Invitați membri ai echipei"
 
 [onboarding.checklist.setDefaultApp]
-description = "Deschideți fișiere PDF în Stirling PDF"
-title = "Setați Stirling ca implicit"
+description = "Deschideți fișiere PDF în PaperRing"
+title = "Setați PaperRing ca implicit"
 
 [onboarding.checklist.takeTour]
-description = "Vedeți cum funcționează Stirling într-un tur rapid"
+description = "Vedeți cum funcționează PaperRing într-un tur rapid"
 title = "Faceți turul"
 
 [onboarding.desktopInstall]
-body = "Stirling funcționează cel mai bine ca aplicație desktop. O poți folosi offline, accesezi documentele mai rapid și faci editări local pe computer."
+body = "PaperRing funcționează cel mai bine ca aplicație desktop. O poți folosi offline, accesezi documentele mai rapid și faci editări local pe computer."
 selectOs = "Selectează sistemul de operare"
 title = "Descărcare"
 titleWithOs = "Descărcare pentru {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Descărcare pentru {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Există o mulțime de modificări noi de explorat, inclusiv <strong>Agent Chat</strong>, <strong>clasificarea</strong> automată a documentelor și altele."
 freeLine = "Editorul este acum <free>complet gratuit</free>."
-title = "Bun venit la Stirling <product>Desktop</product>"
+title = "Bun venit la PaperRing <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "Cod de autentificare"
@@ -6410,21 +6410,21 @@ success = "MFA a fost activat. Acum puteți continua."
 title = "Configurare autentificare multi-factor"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "După ce activezi modul de autentificare, poți gestiona utilizatori, configura setări și monitoriza starea serverului. Primele <strong>{{freeTierLimit}}</strong> persoane de pe serverul tău folosesc Stirling gratuit."
-adminBodyLoginEnabled = "Ca admin, poți gestiona utilizatori, configura setări și monitoriza starea serverului. Primele <strong>{{freeTierLimit}}</strong> persoane de pe serverul tău folosesc Stirling gratuit."
+adminBodyLoginDisabled = "După ce activezi modul de autentificare, poți gestiona utilizatori, configura setări și monitoriza starea serverului. Primele <strong>{{freeTierLimit}}</strong> persoane de pe serverul tău folosesc PaperRing gratuit."
+adminBodyLoginEnabled = "Ca admin, poți gestiona utilizatori, configura setări și monitoriza starea serverului. Primele <strong>{{freeTierLimit}}</strong> persoane de pe serverul tău folosesc PaperRing gratuit."
 adminTitle = "Prezentare admin"
 userBody = "Invite colegi, atribuie roluri și ține documentele organizate într-un spațiu de lucru sigur. Activează modul de autentificare când ești pregătit să treci dincolo de utilizarea solo."
 userTitle = "Prezentare plan"
 
 [onboarding.processorIntro]
-body = "Stirling rulează acum <strong>Politici</strong> — reguli automate care clasifică, securizează și procesează fiecare document pe măsură ce sosește. Configurați-le și monitorizați rulările în <strong>Processor</strong>."
+body = "PaperRing rulează acum <strong>Politici</strong> — reguli automate care clasifică, securizează și procesează fiecare document pe măsură ce sosește. Configurați-le și monitorizați rulările în <strong>Processor</strong>."
 cta = "Consultați Processor"
-title = "Consultați Stirling Processor"
+title = "Consultați PaperRing Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "Editorul este acum <free>complet gratuit</free>."
 premium = "Am adăugat multe funcționalități noi, inclusiv <strong>Politici</strong> și <strong>Agent Chat</strong>."
-title = "Bun venit la Stirling"
+title = "Bun venit la PaperRing"
 
 [onboarding.saas.team]
 addButton = "Adaugă"
@@ -6447,18 +6447,18 @@ title = "Verificare de securitate"
 [onboarding.serverLicense]
 freeBody = "Licența noastră <strong>Open-Core</strong> include <strong>OAuth SSO</strong> și până la <strong>{{freeTierLimit}}</strong> utilizatori gratuit. Pentru a crește fără întreruperi, recomandăm planul Stirling Team — <strong>100 de utilizatori</strong> pentru 99 USD/lună."
 freeTitle = "Plan Team"
-overLimitBody = "Licențierea noastră permite până la <strong>{{freeTierLimit}}</strong> utilizatori gratuit. Ai <strong>{{overLimitUserCopy}}</strong> utilizatori Stirling. Pentru a continua fără întreruperi, fă upgrade la planul Stirling Team - <strong>100 de utilizatori</strong>, editare text PDF și control complet de administrator pentru $99/lună."
+overLimitBody = "Licențierea noastră permite până la <strong>{{freeTierLimit}}</strong> utilizatori gratuit. Ai <strong>{{overLimitUserCopy}}</strong> utilizatori PaperRing. Pentru a continua fără întreruperi, fă upgrade la planul Stirling Team - <strong>100 de utilizatori</strong>, editare text PDF și control complet de administrator pentru $99/lună."
 overLimitTitle = "Este necesar planul Team"
 seePlans = "Vezi planuri →"
 upgrade = "Fă upgrade acum →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 vine cu zeci de instrumente și un layout reîmprospătat. Faceți un tur rapid pentru a vedea ce s-a schimbat și unde găsiți funcțiile de care aveți nevoie."
+body = "PaperRing V2 vine cu zeci de instrumente și un layout reîmprospătat. Faceți un tur rapid pentru a vedea ce s-a schimbat și unde găsiți funcțiile de care aveți nevoie."
 title = "Prezentarea turului"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF este acum pregătit pentru echipe de orice dimensiune. Această actualizare include un nou aspect, capabilități puternice pentru admin și cea mai solicitată funcție - <strong>Edit Text</strong>."
-title = "Bun venit la Stirling"
+body = "PaperRing este acum pregătit pentru echipe de orice dimensiune. Această actualizare include un nou aspect, capabilități puternice pentru admin și cea mai solicitată funcție - <strong>Edit Text</strong>."
+title = "Bun venit la PaperRing"
 
 [onboarding.whatsNew]
 activeFilesView = "Folosiți Fișiere active pentru a vedea tot ce aveți deschis și a alege la ce să lucrați."
@@ -6545,7 +6545,7 @@ check = "Verifică din nou"
 checkAccount = "Verifică contul"
 chooseEmail = "Alegeți contul lor din {{team}} sau introduceți un e-mail pentru a-i invita."
 close = "Închide dialogul de transfer"
-cloudAccount = "Cont Stirling"
+cloudAccount = "Cont PaperRing"
 cloudScopeStyled = "<user>{{name}}</user> va gestiona {{team}}, membrii și facturarea acesteia."
 cloudTargetChanged = "Alegeți un alt membru cloud. Acest cont nu mai este eligibil pentru predare."
 confirm = "Înțeleg modificările de acces și proprietate."
@@ -6560,7 +6560,7 @@ inviteAddress = "Invitați <account>{{email}}</account> în {{team}}."
 inviteBlocked = "Invitația nu a putut fi trimisă. Verificați locurile disponibile în echipă și dacă destinatarul are deja un abonament plătit."
 linkChanged = "Legătura cloud a serverului s-a schimbat. Cereți operatorului serverului să restaureze legătura originală înainte de a relua."
 linkedServerCount = "{{count}} servere asociate"
-linkRevoked = "Legătura cloud a acestui server nu mai este validă. Anulați transferul, apoi reconectați contul Stirling în setări. Proprietatea nu se va schimba."
+linkRevoked = "Legătura cloud a acestui server nu mai este validă. Anulați transferul, apoi reconectați contul PaperRing în setări. Proprietatea nu se va schimba."
 localScope = "Aceștia vor deține acest server și vor gestiona facturarea și conexiunile cloud. Veți păstra accesul de administrator, dar veți pierde accesul la acele setări."
 membershipDetails = "Detalii despre apartenența la echipă"
 membershipFirst = "Aceștia trebuie să se alăture echipei înainte de a putea confirma transferul."
@@ -6872,7 +6872,7 @@ benefit1Body = "înlănțuie instrumente, programează rulări, procesează în 
 benefit1Title = "Pipeline-uri de automatizare"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "Instrumente AI"
-benefit3Body = "apelează programatic orice endpoint Stirling"
+benefit3Body = "apelează programatic orice endpoint PaperRing"
 benefit3Title = "Acces API"
 button = "Activează Processor →"
 reassurance = "Fără minim · Setează un plafon de $0 pentru testare · Anulează oricând"
@@ -6962,7 +6962,7 @@ editorLabel = "Editor PDF"
 login = "Autentifică-te"
 manualToolsPromo = "Instrumente PDF manuale gratuite nelimitate"
 processorLabel = "Procesor PDF"
-processorTitle = "Creează un cont pentru a debloca ce e mai bun din Stirling"
+processorTitle = "Creează un cont pentru a debloca ce e mai bun din PaperRing"
 readerLabel = "Cititor PDF"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "Estimat în USD. Îți poți ajusta plafonul oricând după abonare, 
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / lună"
 edit = "Editează"
-help = "Stripe gestionează detaliile cardului tău. Stirling nu le vede niciodată."
+help = "Stripe gestionează detaliile cardului tău. PaperRing nu le vede niciodată."
 loading = "Se încarcă checkout-ul…"
 noCap = "Fără plafon"
 title = "Adaugă metoda de plată"
@@ -7010,7 +7010,7 @@ title = "Adaugă metoda de plată"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "Instrumente AI"
-apiBody = "acces programatic la orice endpoint Stirling"
+apiBody = "acces programatic la orice endpoint PaperRing"
 apiTitle = "Apeluri API"
 automationBody = "instrumente înlănțuite sau rulări programate care nu necesită clicuri"
 automationTitle = "Pipeline-uri de automatizare"
@@ -7870,7 +7870,7 @@ connectDescription = "Conectează acest server pentru a folosi alocația de proc
 disconnectBody = "Acest server nu va mai folosi alocația de procesare a echipei tale în Stirling Cloud. Fișierele tale locale rămân pe acest server. Pentru a te conecta din nou, urmează pașii inițiali de conectare."
 disconnectTitle = "Deconectezi această instanță?"
 eyebrow = "Această instanță"
-linkButton = "Conectează-ți contul Stirling"
+linkButton = "Conectează-ți contul PaperRing"
 loading = "Se verifică conexiunea contului"
 notLinked = "Neconectat"
 signedInAs = "Autentificat în Stirling Cloud ca"
@@ -7886,14 +7886,14 @@ description = "Cere administratorului serverului să activeze conexiunea la Stir
 title = "Conexiunea contului nu este disponibilă"
 
 [portal.accountLink.connect]
-adminRequired = "Cere administratorului serverului să deschidă Utilizare și facturare și să conecteze un cont Stirling pentru mai multe credite lunare. Instrumentele PDF manuale sunt încă disponibile."
+adminRequired = "Cere administratorului serverului să deschidă Utilizare și facturare și să conecteze un cont PaperRing pentru mai multe credite lunare. Instrumentele PDF manuale sunt încă disponibile."
 adminTitle = "Cere administratorului serverului"
 close = "Închide"
 copied = "Copiat"
 copyAdminMessage = "Copiază mesajul pentru administrator"
-exhaustedLede = "Acest server și-a folosit creditele gratuite pentru luna curentă. Conectează un cont Stirling nou sau existent pentru a accesa alocația lunară a echipei tale."
+exhaustedLede = "Acest server și-a folosit creditele gratuite pentru luna curentă. Conectează un cont PaperRing nou sau existent pentru a accesa alocația lunară a echipei tale."
 notNow = "Nu acum"
-start = "Conectează contul Stirling"
+start = "Conectează contul PaperRing"
 step = "Pasul {{current}} din {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Adaugă mai mulți utilizatori cu un plan Team plătit"
 teamsLabel = "Echipe mai mari"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "Nu ești autentificat în Stirling în acest browser, așa că utilizarea și facturarea îți vor cere să te autentifici."
+linkedNotSignedIn = "Nu ești autentificat în PaperRing în acest browser, așa că utilizarea și facturarea îți vor cere să te autentifici."
 retry = "Încearcă din nou"
-signedInAnyway = "Ești autentificat în Stirling, așa că facturarea și utilizarea se vor încărca. Doar legătura cu serverul este incompletă."
+signedInAnyway = "Ești autentificat în PaperRing, așa că facturarea și utilizarea se vor încărca. Doar legătura cu serverul este incompletă."
 working = "Se finalizează conexiunea."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Această cerere a fost refuzată sau a fost deja folosită. Pornește al
 title = "Conexiunea nu a fost finalizată"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling nu a confirmat conexiunea. De obicei, acest lucru este temporar."
+body = "PaperRing nu a confirmat conexiunea. De obicei, acest lucru este temporar."
 title = "Încă nu s-a finalizat"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Credite gratuite rămase"
 creditsSuffix = "din {{allowance}} credite gratuite rămase"
 cta = "Gata"
 inviteTeam = "Invitați-vă echipa"
-lede = "Acest server rulează acum cu contul dvs. Stirling."
+lede = "Acest server rulează acum cu contul dvs. PaperRing."
 pendingTitle = "Aproape gata"
 switchOnProcessor = "Activați Processor"
 title = "Conectat"
 
 [portal.accountLink.connect.handoff]
-opening = "Se deschide autentificarea Stirling..."
-reauthLede = "Sesiunea dvs. Stirling a expirat. Autentificarea din nou păstrează vizibile utilizarea și facturarea. Acest server rămâne conectat în orice caz."
+opening = "Se deschide autentificarea PaperRing..."
+reauthLede = "Sesiunea dvs. PaperRing a expirat. Autentificarea din nou păstrează vizibile utilizarea și facturarea. Acest server rămâne conectat în orice caz."
 title = "Se conectează"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Adresa frontend configurată a acestui server nu se potrive�
 cancel = "Anulați"
 continueReauth = "Autentificați-vă din nou"
 exhaustedTitle = "Mențineți fluxurile de lucru în funcțiune"
-identity = "Cont Stirling"
-linkTitle = "Conectează-ți contul Stirling"
-noAuthorizeUrl = "Stirling nu a returnat o destinație pentru a continua. Încercați din nou peste puțin timp."
-startFailed = "Nu s-a putut contacta Stirling pentru a începe conexiunea. Verificați accesul de rețea outbound al acestui server, apoi încercați din nou."
+identity = "Cont PaperRing"
+linkTitle = "Conectează-ți contul PaperRing"
+noAuthorizeUrl = "PaperRing nu a returnat o destinație pentru a continua. Încercați din nou peste puțin timp."
+startFailed = "Nu s-a putut contacta PaperRing pentru a începe conexiunea. Verificați accesul de rețea outbound al acestui server, apoi încercați din nou."
 transferPending = "Un transfer de proprietate este în așteptare. Accesați Setări → Utilizatori pentru a-l finaliza sau anula, apoi încercați din nou asocierea."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "astfel încât acest server să poată finaliza conexiunea când revii."
 and = "și"
 before = "Setează"
-title = "Conexiunea Stirling nu este configurată"
+title = "Conexiunea PaperRing nu este configurată"
 
 [portal.accountLink.notice]
 openFailed = "Nu s-a putut deschide browserul. Deschideți Utilizare și facturare pe serverul conectat pentru a asocia un cont."
@@ -8027,7 +8027,7 @@ viewAll = "Vedeți toate pipeline-urile"
 
 [portal.accountLink.rail]
 adminCta = "Cum obțineți mai multe credite"
-adminSub = "Rugați administratorul serverului să asocieze un cont Stirling pentru mai multe credite. Instrumentele PDF manuale sunt încă disponibile."
+adminSub = "Rugați administratorul serverului să asocieze un cont PaperRing pentru mai multe credite. Instrumentele PDF manuale sunt încă disponibile."
 exhaustedCta = "Asociați contul pentru mai multe credite"
 exhaustedSub = "Asociați pentru credite lunare, facturare partajată și opțiunea de a crește cu un plan Team."
 exhaustedTitle = "Creditele gratuite ale acestui server au fost epuizate"
@@ -8041,9 +8041,9 @@ malformed = "Nu am putut verifica acest răspuns de autentificare. Porniți din 
 malformedTitle = "Nu s-a putut verifica autentificarea"
 rejected = "Această solicitare de autentificare a fost refuzată sau a fost deja utilizată. Încercați din nou pentru a reînnoi accesul la facturare."
 rejectedTitle = "Autentificarea nu a fost finalizată"
-retry = "Stirling nu a putut finaliza reînnoirea accesului la facturare. Încercați din nou peste puțin timp; serverul dvs. este încă conectat."
+retry = "PaperRing nu a putut finaliza reînnoirea accesului la facturare. Încercați din nou peste puțin timp; serverul dvs. este încă conectat."
 retryTitle = "Accesul la facturare nu a fost restabilit"
-success = "Accesul dvs. la facturare a fost reînnoit. Acest server este încă conectat la același cont Stirling."
+success = "Accesul dvs. la facturare a fost reînnoit. Acest server este încă conectat la același cont PaperRing."
 title = "Reînnoiți accesul la facturare"
 working = "Se restabilește accesul la facturare."
 
@@ -8057,7 +8057,7 @@ close = "Închide asistentul"
 error = "Nu s-a putut contacta asistentul."
 errorWithDetail = "Nu s-a putut contacta asistentul: {{detail}}"
 inputAriaLabel = "Întreabă asistentul"
-inputPlaceholder = "Întreabă despre Stirling…"
+inputPlaceholder = "Întreabă despre PaperRing…"
 open = "Deschide asistentul"
 send = "Trimite"
 title = "Asistent"
@@ -8102,7 +8102,7 @@ title = "Setați limita de cheltuieli"
 [portal.billing.checkout.card]
 fields = "Număr card · LL / AA · CVC · ZIP"
 label = "Detalii card"
-note = "Detaliile cardului sunt colectate de Stripe. Stirling nu stochează niciodată PAN sau CVC."
+note = "Detaliile cardului sunt colectate de Stripe. PaperRing nu stochează niciodată PAN sau CVC."
 
 [portal.billing.checkout.error]
 title = "Nu s-a putut porni checkout-ul"
@@ -8180,7 +8180,7 @@ users = "Utilizatori"
 [portal.billing.enterprise]
 cta = "Obțineți o ofertă enterprise"
 sub = "Implementare air-gapped, SCIM, rezidența datelor, SLA-uri de uptime și un acord pe măsură."
-title = "Rulați Stirling într-un mediu reglementat?"
+title = "Rulați PaperRing într-un mediu reglementat?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Nu s-a putut porni checkout-ul"
@@ -8458,7 +8458,7 @@ description = "Unde ajung documentele procesate - un bucket, un drive, un tichet
 label = "Fișier și atașare"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling stochează acest lucru criptat și nu îl mai afișează niciodată."
+helperText = "PaperRing stochează acest lucru criptat și nu îl mai afișează niciodată."
 label = "Token de acces"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Încercați din nou"
 title = "Ceva nu a mers bine pe această pagină"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Nimic nu corespunde filtrelor curente"
 occurrences = "{{count}} apariții"
 searchPlaceholder = "Căutați probleme, utilizatori și erori"
@@ -9106,7 +9106,7 @@ description = "Acestui server îi lipsește software-ul necesar pasului, deci ru
 title = "Software neinstalat"
 
 [portal.failures.kind.unknown]
-description = "Ceva nu a mers bine și Stirling nu recunoaște încă problema."
+description = "Ceva nu a mers bine și PaperRing nu recunoaște încă problema."
 title = "Problemă nerecunoscută"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "Deschideți ghidul {{name}}"
 openInBrowser = "Deschideți în browser în schimb"
 sectionDesktop = "Aplicație desktop"
 sectionSelfHosted = "Self-hosted"
-title = "Instalați Stirling PDF Editor"
+title = "Instalați PaperRing Editor"
 
 [portal.home.download.docker]
 detailBody = "Rulați imaginea oficială pe serverul dvs."
@@ -9224,7 +9224,7 @@ usageMonth = "Utilizare luna aceasta"
 usageToday = "Utilizare astăzi"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Creează o cheie pentru a începe să apelezi Stirling API."
+description = "Creează o cheie pentru a începe să apelezi PaperRing API."
 title = "Nu există încă chei API"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Gata"
 keyNameLabel = "Nume cheie"
 keyNamePlaceholder = "de ex. Ingestie producție"
 secretKeyCaption = "Cheie secretă"
-secretWarning = "Stochează acest lucru într-un manager de secrete. Stirling stochează doar un hash, deci nu există nicio modalitate de a-l recupera ulterior."
+secretWarning = "Stochează acest lucru într-un manager de secrete. PaperRing stochează doar un hash, deci nu există nicio modalitate de a-l recupera ulterior."
 subtitle = "Dă-i cheii un nume ca să o poți recunoaște mai târziu. O poți revoca oricând."
 subtitleCreated = "Copiați acest secret acum — nu va mai fi afișat."
 title = "Creați cheie API"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} conexiune"
 connectionCount_other = "{{count}} conexiuni"
 customApi = "API personalizat"
 searchPlaceholder = "Căutați integrări"
-subtitle = "Tot cu ce poate comunica Stirling. Credențialele sunt create o singură dată aici, apoi referențiate de surse, politici și pipeline-uri."
+subtitle = "Tot cu ce poate comunica PaperRing. Credențialele sunt create o singură dată aici, apoi referențiate de surse, politici și pipeline-uri."
 title = "Integrări"
 typedName = "Nume {{tool}}"
 
@@ -10183,8 +10183,8 @@ saveFailed = "Nu s-a putut salva pipeline-ul. Te rugăm să încerci din nou."
 
 [portal.policies.wizard.locations]
 aiSettings = "Deschideți setările AI"
-builtin = "Baza de cunoștințe Stirling"
-builtinHelp = "Indexează fragmente căutabile în Stirling și returnează PDF-ul procesat la destinația de mai jos. Un furnizor de embedding trebuie configurat în setările AI."
+builtin = "Baza de cunoștințe PaperRing"
+builtinHelp = "Indexează fragmente căutabile în PaperRing și returnează PDF-ul procesat la destinația de mai jos. Un furnizor de embedding trebuie configurat în setările AI."
 checking = "Se verifică disponibilitatea ingestiei..."
 chooseOutput = "Alegeți o destinație de ieșire activată înainte de salvare."
 chooseSource = "Alegeți de unde provin documentele"
@@ -10276,7 +10276,7 @@ title = "Încă nu există flux"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Conectați"
-editor = "Editor Stirling PDF"
+editor = "Editor PaperRing"
 heading = "Surse"
 perDay = "{{n}} / 24h"
 
@@ -10463,7 +10463,7 @@ gatingAction = "Acceptă oferta"
 label = "Ofertă"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Evaluează Stirling cu documentele și fluxurile tale de lucru."
+blurb = "Evaluează PaperRing cu documentele și fluxurile tale de lucru."
 gatingAction = "Construiește oferta"
 label = "Probă"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Acesta este fișierul dvs. de licență de probă. După ce aco
 
 [portal.procurement.link]
 cta = "Conectează contul"
-description = "Achizițiile rulează pe contul tău Stirling conectat: așa provisionăm trialul, stabilim prețul ofertei și pornim facturarea. Conectează un cont pentru a începe."
+description = "Achizițiile rulează pe contul tău PaperRing conectat: așa provisionăm trialul, stabilim prețul ofertei și pornim facturarea. Conectează un cont pentru a începe."
 eyebrow = "Enterprise"
 title = "Conectează-ți contul pentru a începe"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Gestionat, cel mai rapid start"
 continue = "Continuați"
 deployment = "Unde ar trebui implementat?"
-eula = "Sunt de acord cu Stirling EULA și Termenii comerciali."
+eula = "Sunt de acord cu PaperRing EULA și Termenii comerciali."
 fullName = "Nume complet"
 fullNamePlaceholder = "Numele dvs."
 invites = "Invitați colegi · opțional"
@@ -10565,7 +10565,7 @@ account-link = "Conexiune cont"
 [portal.shell.sidebar]
 appEditor = "Editor"
 appProcessor = "Procesor"
-linkAccount = "Conectează contul Stirling"
+linkAccount = "Conectează contul PaperRing"
 primaryNav = "Navigare principală"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Căutați"
 
 [portal.sources]
 processingModeHelp = "Track păstrează originalele și procesează fiecare versiune o singură dată. Snapshot păstrează originalele și le procesează la fiecare rulare. Consume șterge originalele după livrarea reușită."
-subtitle = "Conexiuni de intrare reutilizabile care alimentează documente în Stirling. Configurează o sursă o singură dată, apoi referențiaz-o din oricâte pipeline-uri."
+subtitle = "Conexiuni de intrare reutilizabile care alimentează documente în PaperRing. Configurează o sursă o singură dată, apoi referențiaz-o din oricâte pipeline-uri."
 title = "Surse"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Creditele lunare ale acestui server sunt partajate de toți cei de 
 barAria = "Credite gratuite rămase"
 capSuffix_one = "din {{allowance}} credit gratuit rămas luna aceasta"
 capSuffix_other = "din {{allowance}} credite gratuite rămase luna aceasta"
-connect = "Conectați un cont Stirling"
+connect = "Conectați un cont PaperRing"
 connectBody = "Conectarea adaugă o a doua alocare lunară, crește numărul de utilizatori pe care îl poate avea acest server și activează Procesorul."
-connectTitle = "Acest server nu are niciun cont Stirling"
+connectTitle = "Acest server nu are niciun cont PaperRing"
 loadError = "Nu s-a putut citi utilizarea creditelor acestui server. Încercați din nou peste câteva momente."
 loadErrorTitle = "Nu s-a putut încărca utilizarea creditelor"
 resets = "Se resetează {{date}}"
 
 [portal.usage.sessionExpired]
-body = "Sesiunea contului tău Stirling a expirat. Autentifică-te din nou pentru a vedea facturarea — instanța ta rămâne conectată."
+body = "Sesiunea contului tău PaperRing a expirat. Autentifică-te din nou pentru a vedea facturarea — instanța ta rămâne conectată."
 
 [portal.users]
 title = "Utilizatori"
@@ -11129,7 +11129,7 @@ files = "Fișiere"
 account = "Cont"
 docs = "Documentație"
 editor = "Editor"
-home = "Stirling"
+home = "PaperRing"
 invite = "Invitați"
 landmark = "Navigare rapidă"
 noProcessorAccess = "Cereți unui admin acces la procesor"
@@ -11682,8 +11682,8 @@ hideTools = "Ascunde instrumentele indisponibile ▴"
 messageNoFallback = "Instrumentele sunt indisponibile până când serverul revine online."
 messageWithFallback = "Unele instrumente necesită o conexiune la server."
 showTools = "Afișează instrumentele indisponibile ▾"
-title = "Serverul dvs. Stirling-PDF este inaccesibil"
-toolNotAvailableLocally = "Serverul dvs. Stirling-PDF este offline, iar \"{{endpoint}}\" nu este disponibil pe backendul local."
+title = "Serverul dvs. PaperRing este inaccesibil"
+toolNotAvailableLocally = "Serverul dvs. PaperRing este offline, iar \"{{endpoint}}\" nu este disponibil pe backendul local."
 
 [session]
 expired = "Sesiunea dvs. a expirat. Reîmprospătați pagina și încercați din nou."
@@ -11755,7 +11755,7 @@ unknown = "Indisponibil"
 yourTeam = "Echipa dvs."
 
 [settings.connection]
-description = "Lucrați local pe această mașină sau conectați aplicația la un server Stirling."
+description = "Lucrați local pe această mașină sau conectați aplicația la un server PaperRing."
 localDescription = "Folosiți backendul local fără un cont. Unele instrumente care necesită procesare în cloud sau un server self-hosted nu sunt disponibile."
 logout = "Deconectare"
 server = "Server"
@@ -11770,7 +11770,7 @@ selfhosted = "Găzduit local"
 
 [settings.developer]
 apiKeys = "Chei API"
-apiKeysDescription = "Chei personale pentru apelarea Stirling API din scripturi și integrări."
+apiKeysDescription = "Chei personale pentru apelarea PaperRing API din scripturi și integrări."
 title = "Dezvoltator"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Limită fișiere pentru dezarhivare automată"
 autoUnzipFileLimitTooltip = "Dezarhivați doar dacă ZIP-ul conține atâtea fișiere sau mai puține. Setați mai mare pentru a extrage ZIP-uri mai mari."
 autoUnzipTooltip = "Extrage automat fișierele ZIP returnate de operațiile API. Dezactivați pentru a păstra fișierele ZIP intacte. Aceasta nu afectează fluxurile de automatizare."
 defaultPdfEditor = "Editor PDF implicit"
-defaultPdfEditorActive = "Stirling PDF este editorul tău PDF implicit"
+defaultPdfEditorActive = "PaperRing este editorul tău PDF implicit"
 defaultPdfEditorChecking = "Se verifică..."
 defaultPdfEditorInactive = "O altă aplicație este setată ca implicită"
 defaultPdfEditorSet = "Deja implicit"
@@ -11849,7 +11849,7 @@ updateBehavior = "Comportament actualizare"
 updateBehaviorDescription = "Alegeți dacă să fiți întrebat înainte de instalarea actualizărilor, să le instalați automat sau să omiteți complet verificările de actualizare."
 updateBehaviorError = "Nu s-a putut schimba comportamentul de actualizare"
 updateBehaviorErrorLocked = "Această setare este blocată de administratorul dvs."
-updateBehaviorLockedDescription = "Administratorul a configurat modul în care Stirling-PDF gestionează actualizările pe această mașină. Contactați-l pentru modificări."
+updateBehaviorLockedDescription = "Administratorul a configurat modul în care PaperRing gestionează actualizările pe această mașină. Contactați-l pentru modificări."
 updateBehaviorSaved = "Comportamentul de actualizare a fost salvat."
 versionMismatch = "Aplicația desktop și serverul rulează versiuni diferite. Actualizează-le pe ambele la aceeași versiune pentru a evita problemele de compatibilitate."
 viewDetails = "Vezi detalii"
@@ -12074,7 +12074,7 @@ emptyUsername = "Te rugăm să introduci numele de utilizator"
 oauthFailed = "Autentificarea OAuth a eșuat. Încearcă din nou."
 
 [setup.saas]
-title = "Autentifică-te în Stirling"
+title = "Autentifică-te în PaperRing"
 
 [setup.selfhosted]
 changeServerLocked = "Organizația dvs. a restricționat această aplicație la un anumit server"
@@ -12120,7 +12120,7 @@ step3 = "Reporniți serverul"
 title = "Autentificarea nu este activată"
 
 [setup.server.url]
-description = "Introdu URL-ul complet al serverului tău Stirling PDF găzduit local"
+description = "Introdu URL-ul complet al serverului tău PaperRing găzduit local"
 label = "URL server"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Vă rugăm să completați toate câmpurile"
 signUp = "Înregistrare"
 signUpWith = "Înregistrează-te cu"
 skip = "Omite"
-subtitle = "Alăturați-vă Stirling PDF pentru a începe"
+subtitle = "Alăturați-vă PaperRing pentru a începe"
 title = "Creați un cont"
 unableToAccessTool = "Nu se poate accesa instrumentul: {{error}}"
 unexpectedError = "Eroare neașteptată: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Descărcați"
 downloaded = "Descărcat"
 downloadFailed = "Nu se poate descărca acest fișier."
 downloadsCount = "Descărcări: {{count}}"
-emailWarningBody = "Aceasta pare a fi o adresă de e-mail. Dacă această persoană nu este deja utilizator Stirling PDF, nu va putea accesa fișierul."
+emailWarningBody = "Aceasta pare a fi o adresă de e-mail. Dacă această persoană nu este deja utilizator PaperRing, nu va putea accesa fișierul."
 emailWarningConfirm = "Partajați oricum"
 emailWarningTitle = "Adresă de e-mail"
 errorTitle = "Partajarea a eșuat"
@@ -12887,7 +12887,7 @@ manageTitle = "Gestionați partajarea"
 noActivity = "Nicio activitate încă."
 noLinks = "Încă nu există linkuri de partajare active."
 noSharedUsers = "Încă nu au acces utilizatori."
-openInApp = "Deschide în Stirling PDF"
+openInApp = "Deschide în PaperRing"
 ownerLabel = "Proprietar"
 ownerUnknown = "Necunoscut"
 removeLink = "Eliminați linkul"
@@ -12945,7 +12945,7 @@ all = "Toate"
 ariaLabel = "Super căutare"
 filtersAriaLabel = "Filtre de căutare"
 hint = "Tastează pentru a căuta"
-placeholder = "Caută în Stirling"
+placeholder = "Caută în PaperRing"
 placeholderShort = "Caută"
 showLess = "Arată mai puțin"
 showMore = "Arată încă {{count}}"
@@ -12959,7 +12959,7 @@ settings = "Setări"
 tools = "Instrumente"
 
 [survey]
-title = "Sondaj Stirling-PDF"
+title = "Sondaj PaperRing"
 
 [swagger]
 clickHere = "faceți clic aici"
@@ -13128,7 +13128,7 @@ favorites = "Favorite"
 heading = "Toate instrumentele (vizualizare pe tot ecranul)"
 noResults = "Încercați să ajustați căutarea sau comutați descrierile pentru a găsi ce aveți nevoie."
 recommended = "Recomandat"
-selfHostedOffline = "Necesită serverul dvs. Stirling-PDF (în prezent offline):"
+selfHostedOffline = "Necesită serverul dvs. PaperRing (în prezent offline):"
 showDetails = "Afișați detalii"
 unavailable = "Dezactivat de administratorul serverului:"
 unavailableDependency = "Indisponibil – lipsește un instrument necesar pe server:"
@@ -13137,7 +13137,7 @@ unfavorite = "Eliminați din favorite"
 [toolPanel.modePrompt]
 chooseFullscreen = "Utilizați modul ecran complet"
 chooseSidebar = "Utilizați modul bară laterală"
-description = "Previzualizați ambele layout-uri și decideți cum doriți să explorați instrumentele Stirling PDF."
+description = "Previzualizați ambele layout-uri și decideți cum doriți să explorați instrumentele PaperRing."
 dismiss = "Poate mai târziu"
 fullscreenDescription = "Răsfoiți fiecare instrument într-un catalog care acoperă spațiul de lucru până când alegeți unul."
 fullscreenTitle = "Mod ecran complet - (învechit)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Se încarcă informațiile detaliate..."
 migrationGuide = "Ghid de migrare"
 migrationGuides = "Ghiduri de migrare"
 migrationGuidesDesc = "Revizuiți schimbările importante înainte de actualizare."
-modalSubtitle = "O nouă versiune a Stirling PDF este gata de instalare."
+modalSubtitle = "O nouă versiune a PaperRing este gata de instalare."
 modalTitle = "Actualizare disponibilă"
 notes = "Note"
 releaseNotes = "Note de versiune"
@@ -13230,7 +13230,7 @@ urgent = "Urgentă"
 attentionBody = "Adminul tău trebuie să se conecteze pentru mai multe informații. Contactează-l imediat."
 attentionBodyAdmin = "Revizuiește cerințele de licențiere pentru a menține conformitatea acestui server."
 attentionTitle = "Acest server necesită atenția adminului"
-message = "Profită la maximum de Stirling PDF cu 100 de utilizatori, editarea textului PDF și funcții avansate"
+message = "Profită la maximum de PaperRing cu 100 de utilizatori, editarea textului PDF și funcții avansate"
 seeInfo = "Vezi info"
 title = "Fă upgrade la planul Team"
 upgradeButton = "Fă upgrade acum"
@@ -13368,7 +13368,7 @@ authWeb = "Parolă"
 create = "Creează cont"
 createSubtitle = "Creează un cont self-hosted cu parolă sau SSO."
 createTitle = "Creează cont"
-editorDesc = "Editează PDF-uri în Stirling PDF Editor. Toată lumea primește acest lucru."
+editorDesc = "Editează PDF-uri în PaperRing Editor. Toată lumea primește acest lucru."
 email = "Adresă de email"
 emailError = "Introdu o adresă de email validă"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Invitația a fost trimisă, dar accesul Processor nu a putu
 processorDesc = "Suprafața de guvernanță, rularea pipeline-urilor, agenții și API."
 role = "Rol"
 send2 = "Trimite invitația"
-subtitle2 = "Vor primi un email pentru a se alătura spațiului dvs. de lucru Stirling."
+subtitle2 = "Vor primi un email pentru a se alătura spațiului dvs. de lucru PaperRing."
 team = "Echipă"
 title = "Invită persoane"
 username = "Nume de utilizator"
@@ -13525,7 +13525,7 @@ downloads = "Descărcări"
 entryLabel = "Rezumat semnătură"
 filesEvaluated_one = "{{count}} fișier evaluat"
 filesEvaluated_other = "{{count}} fișiere evaluate"
-footer = "Validat prin Stirling PDF"
+footer = "Validat prin PaperRing"
 generatedAt = "Generat"
 noPdf = "Raportul PDF va fi disponibil după o validare reușită."
 page = "Pagină"
@@ -13718,7 +13718,7 @@ text = "Text"
 addFile = "Adaugă fișier"
 count_one = "{{count}} fișier în acest portofoliu"
 count_other = "{{count}} fișiere în acest portofoliu"
-import = "Importă în Stirling"
+import = "Importă în PaperRing"
 importFailed = "Acest fișier nu a putut fi adăugat în spațiul dvs. de lucru."
 memberUnavailable = "Acest fișier nu a putut fi citit din portofoliu."
 preview = "Previzualizare"

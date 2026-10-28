@@ -60,7 +60,7 @@ class ReactRoutingControllerTest {
         assertEquals(MediaType.TEXT_HTML, response.getHeaders().getContentType());
         String body = response.getBody();
         assertNotNull(body);
-        assertTrue(body.contains("Stirling PDF"));
+        assertTrue(body.contains("纸环"));
     }
 
     @Test
@@ -93,7 +93,7 @@ class ReactRoutingControllerTest {
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertNotNull(response.getBody());
-        assertTrue(response.getBody().contains("Stirling PDF"));
+        assertTrue(response.getBody().contains("纸环"));
     }
 
     @Test
@@ -106,7 +106,7 @@ class ReactRoutingControllerTest {
         assertEquals(MediaType.TEXT_HTML, response.getHeaders().getContentType());
         String body = response.getBody();
         assertNotNull(body);
-        assertTrue(body.contains("Stirling PDF"));
+        assertTrue(body.contains("纸环"));
     }
 
     // --- mobile scanner route ---
@@ -178,7 +178,7 @@ class ReactRoutingControllerTest {
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertNotNull(response.getBody());
-        assertTrue(response.getBody().contains("Stirling PDF"));
+        assertTrue(response.getBody().contains("纸环"));
     }
 
     @Test
@@ -276,7 +276,7 @@ class ReactRoutingControllerTest {
         assertEquals(HttpStatus.OK, response.statusCode());
         assertInstanceOf(EntityResponse.class, response);
         Object body = ((EntityResponse<?>) response).entity();
-        assertTrue(body.toString().contains("Stirling PDF"));
+        assertTrue(body.toString().contains("纸环"));
     }
 
     @Test

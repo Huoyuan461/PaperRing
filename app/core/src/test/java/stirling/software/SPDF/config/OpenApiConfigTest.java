@@ -39,7 +39,7 @@ class OpenApiConfigTest {
             assertThat(openAPI).isNotNull();
             assertThat(openAPI.getOpenapi()).isEqualTo("3.0.3");
             assertThat(openAPI.getInfo()).isNotNull();
-            assertThat(openAPI.getInfo().getTitle()).isEqualTo("Stirling PDF API");
+            assertThat(openAPI.getInfo().getTitle()).isEqualTo("纸环 PaperRing API");
             // Version falls back to 1.0.0 when no implementation version on the package.
             assertThat(openAPI.getInfo().getVersion()).isNotBlank();
         }
@@ -51,11 +51,11 @@ class OpenApiConfigTest {
 
             assertThat(openAPI.getInfo().getLicense()).isNotNull();
             assertThat(openAPI.getInfo().getLicense().getName()).contains("MIT");
-            assertThat(openAPI.getInfo().getTermsOfService())
-                    .isEqualTo("https://www.stirlingpdf.com/terms");
+            assertThat(openAPI.getInfo().getLicense().getUrl()).contains("Stirling-PDF");
+            assertThat(openAPI.getInfo().getTermsOfService()).isNull();
             assertThat(openAPI.getInfo().getContact()).isNotNull();
-            assertThat(openAPI.getInfo().getContact().getEmail())
-                    .isEqualTo("contact@stirlingpdf.com");
+            assertThat(openAPI.getInfo().getContact().getName()).isEqualTo("纸环 PaperRing");
+            assertThat(openAPI.getInfo().getContact().getEmail()).isNull();
         }
 
         @Test
