@@ -151,7 +151,7 @@ const PageFooter = ({
   return (
     <Group justify="space-between" align="center" mt="auto" pt="md">
       <Text size="xs" c="dimmed">
-        {t("validateSignature.report.footer", "Validated via Stirling PDF")}
+        {t("validateSignature.report.footer", "Validated via PaperRing")}
       </Text>
       <Text size="xs" c="dimmed">
         {t("validateSignature.report.page", "Page")} {pageNumber} / {pageCount}

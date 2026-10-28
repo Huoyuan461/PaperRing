@@ -180,6 +180,12 @@
   margin: 0 auto;
 }
 
+.portal-docs__engine-note {
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
+  color: var(--c-text-muted);
+}
+
 /* ── On this page (right rail) ─────────────────────────────────────────── */
 
 .portal-docs__toc-col {

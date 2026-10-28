@@ -55,7 +55,7 @@ keepWorking = "Pokračovat v práci"
 loading = "Načítání..."
 loginAgreementAccept = "Přijmout"
 loginAgreementDecline = "Odmítnout"
-loginAgreementProvider = "Toto upozornění poskytl váš správce, ne společnost Stirling PDF Inc."
+loginAgreementProvider = "Toto upozornění poskytl váš správce, ne společnost PaperRing"
 loginAgreementTitle = "Přihlašovací ujednání"
 logOut = "Odhlásit se"
 marginTooltip = "Vzdálenost mezi číslem stránky a okrajem stránky."
@@ -668,8 +668,8 @@ description = "Maximální doba běhu"
 label = "Časový limit (minuty)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert je ve verzi beta. Nabízí lepší a rychlejší převody s menší spotřebou paměti než LibreOffice."
-label = "Použít nový převod Stirling Office"
+description = "PaperRing Office Convert je ve verzi beta. Nabízí lepší a rychlejší převody s menší spotřebou paměti než LibreOffice."
+label = "Použít nový převod PaperRing Office"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Nakonfigurujte úložiště dočasných souborů a chování čištění"
@@ -736,7 +736,7 @@ permissionNotice = "Cesta k tessdata není zapisovatelná. Stažení se otevře 
 
 [admin.settings.ai]
 customProvider = "Vlastní (kompatibilní s OpenAI)"
-description = "Připojte Stirling k Python AI enginu, vyberte jeho modely a nastavte omezení, podle kterých poběží."
+description = "Připojte PaperRing k Python AI enginu, vyberte jeho modely a nastavte omezení, podle kterých poběží."
 managedByCloud = "V tomto režimu spravuje Stirling Cloud."
 managedByCloudShort = "Spravováno službou Stirling Cloud"
 
@@ -797,7 +797,7 @@ help = "Vypnuto znamená, že otázky k dokumentům nejsou dostupné. Nezastaví
 label = "Povolit Stirling Cloud uchovávat indexované dokumenty"
 
 [admin.settings.ai.general.cloudNote]
-body = "Vyhodnocování běží na infrastruktuře Stirling a účtuje se účtu, se kterým je tento server propojen. Není zde žádný kontejner ke spuštění ani klíč poskytovatele k uložení. Cokoli AI čte, zpracovává Stirling Cloud místo vašeho vlastního hardwaru."
+body = "Vyhodnocování běží na infrastruktuře PaperRing a účtuje se účtu, se kterým je tento server propojen. Není zde žádný kontejner ke spuštění ani klíč poskytovatele k uložení. Cokoli AI čte, zpracovává Stirling Cloud místo vašeho vlastního hardwaru."
 title = "O Stirling Cloud AI"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "Kde běží AI"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Žádný kontejner, žádný klíč poskytovatele, žádná volba modelu – práce běží ve Stirling Cloud a účtuje se účtu, se kterým je tento server propojen."
-linkCta = "Propojit tento server s účtem Stirling"
+linkCta = "Propojit tento server s účtem PaperRing"
 notLinked = "Nejprve propojte účet"
-ownerOnly = "Pouze vlastník organizace může propojit tento server s účtem Stirling."
+ownerOnly = "Pouze vlastník organizace může propojit tento server s účtem PaperRing."
 title = "Použít Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Spustit vlastní engine"
 
 [admin.settings.ai.general.note]
 docs = "Průvodce nastavením"
-intro = "Samostatný kontejner, který spustíte vedle Stirling. Provádí vyhodnocování; Stirling stále provádí každou operaci se stránkami sám. Potřebuje stejný"
+intro = "Samostatný kontejner, který spustíte vedle PaperRing. Provádí vyhodnocování; PaperRing stále provádí každou operaci se stránkami sám. Potřebuje stejný"
 outro = "na obou kontejnerech a klíč poskytovatele modelu. Cokoli AI čte, je odesláno poskytovateli, kterého vyberete – vámi hostovaná Ollama udrží každou stránku interně."
 title = "O AI enginu"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Pro pokračování zadejte potvrzovací kód"
 confirmImport = "Potvrdit import"
 confirmImportTitle = "Potvrdit import databáze"
 connection = "Připojení"
-connectionDescription = "Nasměrujte Stirling na externí databázi místo vestavěné."
+connectionDescription = "Nasměrujte PaperRing na externí databázi místo vestavěné."
 createBackup = "Vytvořit zálohu"
 created = "Vytvořeno"
 delete = "Smazat"
@@ -1224,11 +1224,11 @@ description = "Nakonfigurujte volitelné funkce a funkcionalitu."
 title = "Funkce"
 
 [admin.settings.features.serverCertificate]
-description = "Vygenerujte certifikát, který podporuje funkci podepisování \"Podepsat pomocí Stirling-PDF\"."
+description = "Vygenerujte certifikát, který podporuje funkci podepisování \"Podepsat pomocí PaperRing\"."
 label = "Podepisování certifikátem"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Nabídnout \"Podepsat pomocí Stirling-PDF\" pomocí certifikátu vygenerovaného tímto serverem"
+description = "Nabídnout \"Podepsat pomocí PaperRing\" pomocí certifikátu vygenerovaného tímto serverem"
 label = "Povolit podepisování certifikátem"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Platnost certifikátu (dny)"
 
 [admin.settings.folderAccess]
 description = "Adresáře, ze kterých mohou zdroje složek a výstupy složek číst a do kterých mohou zapisovat. Toto je bezpečnostní hranice: automatizace nikdy nelze nasměrovat na cestu na serveru mimo tento seznam."
-securityNote = "Ponechte prázdné, chcete-li zdroje složek a výstupy úplně zakázat. Vlastní konfigurační adresář Stirling je vždy nepřístupný."
+securityNote = "Ponechte prázdné, chcete-li zdroje složek a výstupy úplně zakázat. Vlastní konfigurační adresář PaperRing je vždy nepřístupný."
 title = "Přístup ke složkám"
 
 [admin.settings.folderAccess.implied]
-description = "Tyto adresáře spravované Stirling jsou vždy povolené a zde je nelze změnit."
+description = "Tyto adresáře spravované PaperRing jsou vždy povolené a zde je nelze změnit."
 serverStorage = "Úložiště souborů serveru"
 title = "Vždy povoleno"
 watchedFolder = "Sledovaná složka pipeline"
@@ -1390,7 +1390,7 @@ description = "URL nebo název souboru se zásadami používání souborů cooki
 label = "Zásady používání souborů cookie"
 
 [admin.settings.legal.disclaimer]
-message = "Úpravou těchto právních dokumentů přebíráte plnou odpovědnost za zajištění souladu se všemi platnými zákony a předpisy, včetně, ale nejen GDPR a dalších požadavků EU na ochranu dat. Tyto hodnoty upravujte pouze pokud: (1) provozujete osobní/soukromou instanci, (2) nacházíte se mimo jurisdikci EU a rozumíte svým místním právním povinnostem, nebo (3) máte zajištěné odpovídající právní poradenství a přijímáte plnou odpovědnost za veškerá uživatelská data a právní soulad. Stirling-PDF a jeho vývojáři nenesou žádnou odpovědnost za vaše právní povinnosti."
+message = "Úpravou těchto právních dokumentů přebíráte plnou odpovědnost za zajištění souladu se všemi platnými zákony a předpisy, včetně, ale nejen GDPR a dalších požadavků EU na ochranu dat. Tyto hodnoty upravujte pouze pokud: (1) provozujete osobní/soukromou instanci, (2) nacházíte se mimo jurisdikci EU a rozumíte svým místním právním povinnostem, nebo (3) máte zajištěné odpovídající právní poradenství a přijímáte plnou odpovědnost za veškerá uživatelská data a právní soulad. PaperRing a jeho vývojáři nenesou žádnou odpovědnost za vaše právní povinnosti."
 title = "Upozornění na právní odpovědnost"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "Uživatelské jméno pro autentizaci SMTP"
 label = "Uživatelské jméno SMTP"
 
 [admin.settings.mcp]
-apikeyNote = "Klienti odesílají Stirling API key v hlavičce X-API-KEY (nebo Authorization: Bearer <key>). Klíč je přiřazen svému vlastníkovi, uživateli Stirling - přístup mají pouze zřízené účty a akce se auditují jako tento uživatel. Klíče spravujte v Účet > API Keys."
-description = "Zpřístupněte nástroje PDF a AI agenty Stirling klientům MCP přes koncový bod chráněný OAuth."
+apikeyNote = "Klienti odesílají PaperRing API key v hlavičce X-API-KEY (nebo Authorization: Bearer <key>). Klíč je přiřazen svému vlastníkovi, uživateli PaperRing - přístup mají pouze zřízené účty a akce se auditují jako tento uživatel. Klíče spravujte v Účet > API Keys."
+description = "Zpřístupněte nástroje PDF a AI agenty PaperRing klientům MCP přes koncový bod chráněný OAuth."
 title = "MCP Server"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "(nebo Authorization: Bearer <key>). Nepoužívá se žádné OAu
 step4 = "Schvalte přihlášení; klient to zkusí znovu s tokenem. Nástroje se zobrazí seskupené: convert, pages, misc, security, ai."
 step4ApiKey = "Nástroje se zobrazí seskupené: convert, pages, misc, security, ai - a každé volání se audituje jako vlastník klíče."
 tip = "Tip: zaregistrujte resource ID jako povolenou audience ve svém IdP. Testováno s MCP Inspector a Claude Desktop."
-tipApiKey = "Tip: režim API-key nepotřebuje externí IdP - nejjednodušší pro self-host. Klíč je přiřazen svému vlastníkovi, uživateli Stirling."
+tipApiKey = "Tip: režim API-key nepotřebuje externí IdP - nejjednodušší pro self-host. Klíč je přiřazen svému vlastníkovi, uživateli PaperRing."
 title = "Připojit MCP klienta"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (volitelné)"
 placeholder = "Automaticky zjištěno od vydavatele"
 
 [admin.settings.mcp.mode]
-apikey = "API klíč (klíč Stirling pro jednotlivé uživatele)"
-description = "OAuth vyžaduje externí IdP. API key používá uživatelský Stirling API key (X-API-KEY) - nejjednodušší pro self-host."
+apikey = "API klíč (klíč PaperRing pro jednotlivé uživatele)"
+description = "OAuth vyžaduje externí IdP. API key používá uživatelský PaperRing API key (X-API-KEY) - nejjednodušší pro self-host."
 label = "Režim ověřování"
 oauth = "OAuth 2.1 (externí IdP)"
 
 [admin.settings.mcp.requireAccount]
-description = "Propustit tokeny pouze tehdy, když se jejich subject mapuje na zřízeného a povoleného uživatele Stirling."
-label = "Vyžadovat existující účet Stirling"
+description = "Propustit tokeny pouze tehdy, když se jejich subject mapuje na zřízeného a povoleného uživatele PaperRing."
+label = "Vyžadovat existující účet PaperRing"
 
 [admin.settings.mcp.resourceId]
 description = "Veřejná /mcp URL tohoto serveru. Tokeny ji musí uvádět ve své audience (RFC 8707), jinak budou odmítnuty."
@@ -1540,7 +1540,7 @@ description = "Vyžadovat mcp.tools.read pro čtecí operace a mcp.tools.write p
 label = "Vynutit OAuth scopes"
 
 [admin.settings.mcp.usernameClaim]
-description = "JWT claim porovnávaný s uživatelským jménem Stirling (např. sub, email, preferred_username)."
+description = "JWT claim porovnávaný s uživatelským jménem PaperRing (např. sub, email, preferred_username)."
 label = "Claim uživatelského jména"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Pokud je zapnuto, bota mohou používat pouze uvedená ID uživat
 label = "Povolit konkrétní ID uživatelů"
 
 [admin.settings.telegram.enabled]
-description = "Umožněte uživatelům pracovat se Stirling PDF prostřednictvím vámi nastaveného Telegram bota."
+description = "Umožněte uživatelům pracovat se PaperRing prostřednictvím vámi nastaveného Telegram bota."
 label = "Povolit Telegram bota"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Toto je <strong>Panel nastavení</strong>. Administrátorsk�
 systemCustomization = "Nabízíme rozsáhlé možnosti přizpůsobení UI: <strong>Systémová nastavení</strong> umožňují změnit název aplikace a jazyky, <strong>Funkce</strong> umožňují správu serverových certifikátů a <strong>Koncové body</strong> umožňují povolit či zakázat konkrétní nástroje pro vaše uživatele."
 teamsAndUsers = "Zde spravujte <strong>Týmy</strong> a jednotlivé uživatele. Můžete zvát nové uživatele e‑mailem, sdílenými odkazy nebo jim sami vytvářet vlastní účty."
 welcome = "Vítejte v <strong>Prohlídce pro administrátory</strong>! Prozkoumejme výkonné podnikové funkce a nastavení dostupné správcům systému."
-wrapUp = "To je vše z prohlídky pro správce! Viděli jste enterprise funkce, díky nimž je Stirling PDF výkonným a přizpůsobitelným řešením pro organizace. Můžete si ji kdykoli přehrát znovu - stačí otevřít <strong>Nastavení</strong> a najít ji zde v sekci <strong>Prohlídky</strong> v nápovědě."
+wrapUp = "To je vše z prohlídky pro správce! Viděli jste enterprise funkce, díky nimž je PaperRing výkonným a přizpůsobitelným řešením pro organizace. Můžete si ji kdykoli přehrát znovu - stačí otevřít <strong>Nastavení</strong> a najít ji zde v sekci <strong>Prohlídky</strong> v nápovědě."
 
 [adminUserSettings]
 admin = "Správce"
 title = "Nastavení správy uživatelů"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arabština"
@@ -1952,9 +1952,9 @@ thai = "Thajština"
 
 [analytics]
 learnMore = "Zjistit více o naší analytice"
-paragraph1 = "Stirling PDF má volitelnou analytiku, která nám pomáhá zlepšovat produkt. Nesledujeme žádné osobní údaje ani obsah souborů."
-paragraph2 = "Zvažte prosím povolení analytiky, abyste pomohli růstu Stirling-PDF a umožnili nám lépe porozumět našim uživatelům."
-title = "Chcete pomoci zlepšit Stirling PDF?"
+paragraph1 = "PaperRing má volitelnou analytiku, která nám pomáhá zlepšovat produkt. Nesledujeme žádné osobní údaje ani obsah souborů."
+paragraph2 = "Zvažte prosím povolení analytiky, abyste pomohli růstu PaperRing a umožnili nám lépe porozumět našim uživatelům."
+title = "Chcete pomoci zlepšit PaperRing?"
 
 [annotate]
 tags = "anotovat,zvýraznit,kreslit,značení,komentář,poznámky,kontrola,redline,zpětná vazba,nástroje značení,lepicí poznámky,tvary,šipky,textové pole,od ruky"
@@ -2902,9 +2902,9 @@ typeSignature = "Zadejte své jméno pro vytvoření podpisu"
 uploadCert = "Nahrát certifikát"
 uploadCertDesc = "Použijte vlastní certifikát PKCS12, PFX, PEM nebo JKS."
 uploadSignature = "Nahrajte obrázek svého podpisu"
-usePersonalCert = "Stirling Sign · Osobní"
+usePersonalCert = "PaperRing Sign · Osobní"
 usePersonalCertDesc = "Podepsat certifikátem vytvořeným pro váš účet."
-useServerCert = "Stirling Sign · Organizace"
+useServerCert = "PaperRing Sign · Organizace"
 useServerCertDesc = "Podepsat sdíleným organizačním certifikátem tohoto serveru."
 useSignature = "Použít podpis"
 
@@ -3224,10 +3224,10 @@ text = "Zeptejte se na své dokumenty nebo získejte pomoc s nástroji PDF."
 
 [chat.fab]
 close = "Zavřít chat"
-open = "Otevřít asistenta Stirling AI"
+open = "Otevřít asistenta PaperRing AI"
 
 [chat.header]
-agentMenu = "Možnosti agenta Stirling"
+agentMenu = "Možnosti agenta PaperRing"
 assistant = "AI asistent"
 clearChat = "Vymazat chat"
 
@@ -3587,9 +3587,9 @@ label = "Dokumenty podle typu: {{summary}}"
 noTypes = "Tyto dokumenty neodpovídaly žádnému známému typu."
 
 [classificationDemo.defaultApp]
-body = "Nastavte Stirling jako výchozí aplikaci pro PDF. Každé PDF, které otevřete z e-mailu, prohlížeče nebo plochy, se otevře zde, připravené ke čtení nebo úpravám. Kdykoli to můžete změnit v Nastavení."
-cta = "Nastavit Stirling jako výchozí"
-title = "Otevírat každé PDF ve Stirling"
+body = "Nastavte PaperRing jako výchozí aplikaci pro PDF. Každé PDF, které otevřete z e-mailu, prohlížeče nebo plochy, se otevře zde, připravené ke čtení nebo úpravám. Kdykoli to můžete změnit v Nastavení."
+cta = "Nastavit PaperRing jako výchozí"
+title = "Otevírat každé PDF ve PaperRing"
 
 [classificationDemo.followUp]
 background = "Toto běží na pozadí. Kroužek vlevo ukazuje průběh."
@@ -3604,7 +3604,7 @@ other = "Ostatní"
 body = "Klasifikujte a uspořádejte {{count}} nejnovějších PDF ve složce Stažené soubory podle typu."
 cta = "Zpracovat moji složku Stažené soubory"
 privacy = "Vaše PDF zůstávají na tomto zařízení. Váš připojený server zaznamenává využití zpracování."
-title = "Podívejte se, co Stirling dokáže s celou složkou"
+title = "Podívejte se, co PaperRing dokáže s celou složkou"
 
 [classificationDemo.phase]
 finishing = "Dokončuje se..."
@@ -3618,10 +3618,10 @@ counts = "z {{total}} PDF zpracováno"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF"
-failedBody = "Stirling nemohl přečíst vaši složku Stažené soubory. Na vašem počítači se nic nezměnilo."
+failedBody = "PaperRing nemohl přečíst vaši složku Stažené soubory. Na vašem počítači se nic nezměnilo."
 failedTitle = "To se nedokončilo"
 heading = "Vaše Stažené soubory, seřazené"
-summary = "Stirling přečetl {{documents}} a roztřídil je do {{types}}."
+summary = "PaperRing přečetl {{documents}} a roztřídil je do {{types}}."
 typeCount_one = "{{count}} typ"
 typeCount_other = "{{count}} typů"
 
@@ -3948,13 +3948,13 @@ upgradeButton = "Vylepšit účet"
 [config.apiKeys]
 copyKeyAriaLabel = "Kopírovat API klíč"
 description = "Váš API klíč pro přístup k sadě PDF nástrojů Stirlingu. Zkopírujte si ho do projektu nebo obnovte pro vygenerování nového."
-docsDescription = "Zjistěte více o integraci se Stirling PDF:"
+docsDescription = "Zjistěte více o integraci se PaperRing:"
 docsLink = "API dokumentace"
 docsTitle = "API dokumentace"
 generateError = "Nepodařilo se vygenerovat váš API klíč."
 goToAccount = "Přejít do účtu"
 guestInfo = "Hosté nedostávají API klíče. Vytvořte si účet a získejte API klíč, který můžete používat ve svých aplikacích."
-intro = "Pomocí svého API klíče můžete programově využívat zpracování Stirling PDF."
+intro = "Pomocí svého API klíče můžete programově využívat zpracování PaperRing."
 label = "API klíč"
 publicKeyAriaLabel = "Veřejný API klíč"
 refreshAriaLabel = "Obnovit API klíč"
@@ -3978,10 +3978,10 @@ title = "Obnovit API klíče"
 warning = "⚠️ Varování: Tato akce vygeneruje nové API klíče a zneplatní vaše předchozí klíče."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) umožňuje AI asistentům, jako je Claude, používat vaše nástroje Stirling PDF přímo. Připojte klienta jednou a váš asistent může vaším jménem převádět, upravovat, zabezpečovat a zpracovávat dokumenty."
-guestInfo = "Hosté nemohou připojit MCP klienty. Vytvořte účet, abyste mohli používat MCP server a nechat svého AI asistenta spouštět nástroje Stirling PDF vaším jménem."
+description = "Model Context Protocol (MCP) umožňuje AI asistentům, jako je Claude, používat vaše nástroje PaperRing přímo. Připojte klienta jednou a váš asistent může vaším jménem převádět, upravovat, zabezpečovat a zpracovávat dokumenty."
+guestInfo = "Hosté nemohou připojit MCP klienty. Vytvořte účet, abyste mohli používat MCP server a nechat svého AI asistenta spouštět nástroje PaperRing vaším jménem."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Zobrazit API keys"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Váš MCP endpoint"
 
 [config.mcp.setup]
 addTo = "Přidat do"
-hint = "Vyberte svého klienta, vložte úryvek do zobrazeného souboru a poté jej restartujte. Při prvním použití se přihlásíte pomocí svého účtu Stirling - žádné klíče ke kopírování."
+hint = "Vyberte svého klienta, vložte úryvek do zobrazeného souboru a poté jej restartujte. Při prvním použití se přihlásíte pomocí svého účtu PaperRing - žádné klíče ke kopírování."
 title = "Připojte svého AI asistenta"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "Krok {{current}} z {{total}}"
 [connect.confirm]
 acknowledge = "Tuto adresu poznávám a chci ji připojit ke svému týmu"
 approve = "Připojit server"
-cannotDecide = "Toto připojení může schválit nebo odmítnout pouze vlastník týmu. Použijte jiný účet nebo zavřete tuto výzvu a pokračujte v používání Stirling."
+cannotDecide = "Toto připojení může schválit nebo odmítnout pouze vlastník týmu. Použijte jiný účet nebo zavřete tuto výzvu a pokračujte v používání PaperRing."
 deny = "Odmítnout"
 dismiss = "Zavřít"
-lead = "Server Stirling žádá o připojení k vašemu týmu. Než ho schválíte, zkontrolujte, že níže uvedená adresa je vaše."
+lead = "Server PaperRing žádá o připojení k vašemu týmu. Než ho schválíte, zkontrolujte, že níže uvedená adresa je vaše."
 originLabel = "Adresa"
 signedInAs = "Přihlášeni jako"
 switchAccount = "Použít jiný účet"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Nejprve vyberte zdrojový formát"
 settings = "Nastavení"
 single = "Jeden"
 sourceFormatPlaceholder = "Zdrojový formát"
-stirlingOfficeConvert = "Použít Stirling Office Convert (beta)"
+stirlingOfficeConvert = "Použít PaperRing Office Convert (beta)"
 stirlingOfficeConvertDescription = "Lepší a rychlejší převody s menší spotřebou paměti. Vypněte pro použití standardního převodníku."
 strictMode = "Striktní režim"
 strictModeDesc = "Chyba, pokud převod není dokonalý (používá ověření VeraPDF)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Spravovat předvolby"
 title = "Jak používáme soubory cookie"
 
 [cookieBanner.popUp.description]
-1 = "Používáme cookies a další technologie, aby pro vás Stirling PDF fungoval lépe - pomáhají nám zlepšovat naše nástroje a dál vytvářet funkce, které si oblíbíte."
+1 = "Používáme cookies a další technologie, aby pro vás PaperRing fungoval lépe - pomáhají nám zlepšovat naše nástroje a dál vytvářet funkce, které si oblíbíte."
 2 = "Pokud nechcete, kliknutím na „Ne, děkuji“ povolíte pouze nezbytné cookies potřebné pro hladký chod."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Použití cookies"
 title = "Centrum správy souhlasu"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Tyto cookies nám pomáhají pochopit, jak se naše nástroje používají, abychom se mohli soustředit na vytváření funkcí, kterých si naše komunita nejvíce cení. Buďte si jisti - Stirling PDF nemůže a nikdy nebude sledovat obsah dokumentů, se kterými pracujete."
+description = "Tyto cookies nám pomáhají pochopit, jak se naše nástroje používají, abychom se mohli soustředit na vytváření funkcí, kterých si naše komunita nejvíce cení. Buďte si jisti - PaperRing nemůže a nikdy nebude sledovat obsah dokumentů, se kterými pracujete."
 title = "Analytika"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF používá soubory cookie a podobné technologie ke zlepšení vašeho prostředí a pochopení, jak jsou naše nástroje používány. To nám pomáhá zlepšovat výkon, vyvíjet funkce, na kterých vám záleží, a poskytovat našim uživatelům průběžnou podporu."
-2 = "Stirling PDF nemůže - a nikdy nebude - sledovat ani přistupovat k obsahu dokumentů, které používáte."
+1 = "PaperRing používá soubory cookie a podobné technologie ke zlepšení vašeho prostředí a pochopení, jak jsou naše nástroje používány. To nám pomáhá zlepšovat výkon, vyvíjet funkce, na kterých vám záleží, a poskytovat našim uživatelům průběžnou podporu."
+2 = "PaperRing nemůže - a nikdy nebude - sledovat ani přistupovat k obsahu dokumentů, které používáte."
 3 = "Vaše soukromí a důvěra jsou středobodem toho, co děláme."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Nepodařilo se nastavit výchozí aplikaci pro PDF"
 title = "Chyba"
 
 [defaultApp.settingsOpened]
-message = "V Nastavení Windows vyhledejte „PDF“ a vyberte Stirling PDF jako výchozí aplikaci"
+message = "V Nastavení Windows vyhledejte „PDF“ a vyberte PaperRing jako výchozí aplikaci"
 title = "Otevřeno nastavení"
 
 [defaultApp.success]
-message = "Stirling PDF je nyní váš výchozí editor PDF"
+message = "PaperRing je nyní váš výchozí editor PDF"
 title = "Výchozí aplikace nastavena"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Minimalizovat"
 restore = "Obnovit"
 
 [desktopBilling]
-description = "Spravujte využití a fakturaci v prohlížeči. Přihlaste se stejným účtem Stirling, který používáte zde."
+description = "Spravujte využití a fakturaci v prohlížeči. Přihlaste se stejným účtem PaperRing, který používáte zde."
 open = "Otevřít Využití a fakturaci v prohlížeči"
 openFailed = "Nepodařilo se otevřít Využití a fakturaci. Zkontrolujte připojení a zkuste to znovu."
 selfHostedDescription = "Spravujte využití a fakturaci na připojeném serveru v prohlížeči. Přihlaste se účtem vlastníka serveru."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Nepodařilo se stáhnout nebo nainstalovat aktualizaci."
 
 [desktopUpdate.blocked]
 docsLink = "Zobrazit dokumentaci k instalaci"
-message = "Stirling-PDF nemá oprávnění k samoaktualizaci na tomto zařízení."
+message = "PaperRing nemá oprávnění k samoaktualizaci na tomto zařízení."
 title = "Vyžadována oprávnění správce"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Přejmenovat"
 title = "Přejmenovat soubor"
 
 [filesPage]
-addedToLibrary = "Přidáno do knihovny Stirling"
-addingToLibrary = "Přidávání do knihovny Stirling…"
-addToLibrary = "Přidat do knihovny Stirling…"
+addedToLibrary = "Přidáno do knihovny PaperRing"
+addingToLibrary = "Přidávání do knihovny PaperRing…"
+addToLibrary = "Přidat do knihovny PaperRing…"
 addToLibraryFailed = "Některé soubory se nepodařilo přidat"
 addToWorkspace = "Přidat do pracovního prostoru"
 addToWorkspaceCount = "Přidat {{count}} do pracovního prostoru"
-allFiles = "Knihovna Stirling"
+allFiles = "Knihovna PaperRing"
 back = "Zpět"
 backToFolder = "Zpět do {{folder}}"
 backToMyFiles = "Zpět do knihovny souborů"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Odstranit také {{count}} soubor ve složce"
 deleteFolderContents_other = "Odstranit také {{count}} souborů ve složce"
 deleteFolderContentsWarning = "Soubory budou trvale odstraněny a nelze je obnovit."
 deleteFolderError = "Složku se nepodařilo smazat. Zkuste to znovu."
-deleteFolderKeepHint = "Soubory uvnitř budou přesunuty do knihovny Stirling."
+deleteFolderKeepHint = "Soubory uvnitř budou přesunuty do knihovny PaperRing."
 deleteFolderTitle = "Smazat složku?"
 deselectAll = "Zrušit výběr"
 details = "Podrobnosti"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} souborů se nepodařilo přesunout na serve
 moveTo = "Přesunout do…"
 newFolder = "Nová složka"
 newFolderStorageDisabled = "Ukládání složek na serveru není povoleno."
-newFolderTabUnavailable = "Pro vytvoření složek přepněte do knihovny Stirling."
+newFolderTabUnavailable = "Pro vytvoření složek přepněte do knihovny PaperRing."
 offlineNoFolderEdits = "Synchronizace složek se serverem není dostupná – změny složek jsou zakázány. Zkontrolujte přihlášení a nastavení úložiště."
 open = "Otevřít"
 openVersionInWorkspace = "Otevřít v pracovním prostoru"
@@ -4856,7 +4856,7 @@ recentFiles = "Nedávné"
 refresh = "Obnovit"
 refreshNeedsConnection = "Pro obnovení ze serveru se přihlaste."
 remove = "Smazat"
-removeLocalFolder = "Odpojit ze Stirling"
+removeLocalFolder = "Odpojit ze PaperRing"
 removeVersion = "Odebrat tuto verzi"
 rename = "Přejmenovat"
 renamed = "Přejmenováno"
@@ -4878,7 +4878,7 @@ summary_other = "{{count}} položek"
 tree = "Složky"
 unmount = "Odpojit"
 unmountFolderBody = "Odpojit „{{name}}“? Složka a její soubory zůstanou na vašem disku."
-unmountFolderTitle = "Odpojit ze Stirling?"
+unmountFolderTitle = "Odpojit ze PaperRing?"
 upload = "Nahrát"
 uploadFromMobile = "Nahrát z mobilu"
 versionActions = "Akce verze"
@@ -4921,7 +4921,7 @@ orphaned = "Není na disku"
 orphanedHint = "Původní soubor v {{path}} zmizel. Tato kopie je pouze zde – při ukládání budete požádáni o nové umístění."
 unavailable = "Nedostupné"
 unavailableHintOffline = "Disk nebo sdílená složka, kde je tento soubor uložen, není připojena. Znovu ji připojte, aby bylo možné znovu načíst změny."
-unavailableHintPermission = "Stirling nemá povoleno číst toto umístění. Udělte přístup v Nastavení systému, aby bylo možné znovu načíst změny."
+unavailableHintPermission = "PaperRing nemá povoleno číst toto umístění. Udělte přístup v Nastavení systému, aby bylo možné znovu načíst změny."
 unavailableHintUnknown = "Tento soubor nyní nelze načíst. Kopie zde je beze změny."
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "Název složky"
 
 [filesPage.folderOrigin]
 diskHint = "Složka připojená z adresáře na vašem disku"
-serverHint = "Složka uložená na serveru Stirling"
+serverHint = "Složka uložená na serveru PaperRing"
 virtualHint = "Složka, která existuje pouze v tomto prohlížeči"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Synchronizováno s vaším účtem, dostupné odkudkoli se přihl�
 [filesPage.origin]
 all = "Všechny zdroje"
 cloud = "Cloud"
-cloudHint = "Uloženo na serveru Stirling"
+cloudHint = "Uloženo na serveru PaperRing"
 diskFileHint = "Uloženo ve vašem počítači"
 diskHint = "Soubor v připojené složce na vašem disku"
 local = "Místní"
@@ -5474,7 +5474,7 @@ invisible = "Neviditelné (pouze metadata)"
 location = "Místo:"
 logo = "Logo:"
 logoHidden = "Bez loga"
-logoShown = "Zobrazeno logo Stirling PDF"
+logoShown = "Zobrazeno logo PaperRing"
 participantCount_one = "{{count}} vybraný účastník"
 participantCount_other = "{{count}} vybraných účastníků"
 participants = "Účastníci"
@@ -5525,7 +5525,7 @@ title = "Podepisování v libovolném pořadí"
 dismiss = "Skrýt banner"
 message = "Vytvořte si bezplatný účet, ukládejte svou práci, získejte více funkcí a podpořte projekt."
 signUp = "Zaregistrovat se zdarma"
-title = "Používáte Stirling PDF jako host!"
+title = "Používáte PaperRing jako host!"
 
 [home.addAttachments]
 desc = "Zobrazte, přidejte, extrahujte, přejmenujte nebo odstraňte vložené přílohy PDF"
@@ -5704,7 +5704,7 @@ tags = "kombinovat,spojit,sloučit,merge,sloučit PDFs,kombinovat PDFs,spojit PD
 title = "Sloučit"
 
 [home.mobile]
-brandAlt = "Logo Stirling PDF"
+brandAlt = "Logo PaperRing"
 openFiles = "Otevřít soubory"
 swipeHint = "Přejeďte doleva nebo doprava pro přepnutí zobrazení"
 tools = "Nástroje"
@@ -5743,7 +5743,7 @@ tags = "organizovat,přeuspořádat,změnit pořadí,uspořádat stránky,seřad
 title = "Uspořádat"
 
 [home.pdfTextEditor]
-desc = "Prohlížejte a upravujte exporty JSON ze Stirling PDF se skupinovými úpravami textu a regenerací PDF"
+desc = "Prohlížejte a upravujte exporty JSON ze PaperRing se skupinovými úpravami textu a regenerací PDF"
 tags = "upravit text,změnit text,upravit text,upravit obsah,aktualizovat text,přepsat,opravit,doplnit,redline,revidovat,textový editor,editor obsahu"
 title = "Editor textu PDF"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Heslo je povinné"
 signIn = "Přihlásit se"
 validating = "Ověřování pozvánky..."
 validationError = "Nepodařilo se ověřit pozvánkový odkaz"
-welcome = "Vítejte ve Stirling PDF"
+welcome = "Vítejte ve PaperRing"
 welcomeSubtitle = "Dokončete nastavení účtu a začněte"
 welcomeTitle = "Byli jste pozváni!"
 
@@ -6209,7 +6209,7 @@ message = "Ověření nebylo úspěšné. Toto okno můžete zavřít a zkusit t
 title = "Ověření selhalo"
 
 [oauth.success]
-message = "Toto okno můžete zavřít a vrátit se do Stirling PDF."
+message = "Toto okno můžete zavřít a vrátit se do PaperRing."
 title = "Ověření úspěšné"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Vracíme vás do aplikace..."
-requesting = "{{app}} chce získat přístup k vašemu účtu Stirling PDF"
+requesting = "{{app}} chce získat přístup k vašemu účtu PaperRing"
 scopesIntro = "To umožní aplikaci {{app}}:"
 signedInAs = "Přihlášeni jako {{name}}"
 signInButton = "Přihlásit se a pokračovat"
-signInPrompt = "Přihlaste se ke svému účtu Stirling PDF a pokračujte v připojování aplikace."
+signInPrompt = "Přihlaste se ke svému účtu PaperRing a pokračujte v připojování aplikace."
 title = "Authorise access"
 unknownApp = "Aplikace třetí strany"
 
 [oauthConsent.access]
 actAsYou = "Jednat jako vy – vše, co {{app}} udělá, proběhne pod vaším účtem a započítá se do vašeho využití"
-tools = "Používat vaše nástroje Stirling PDF vaším jménem – převádět, upravovat, podepisovat, zabezpečovat a zpracovávat vaše dokumenty"
+tools = "Používat vaše nástroje PaperRing vaším jménem – převádět, upravovat, podepisovat, zabezpečovat a zpracovávat vaše dokumenty"
 
 [oauthConsent.scope]
 email = "Zobrazit vaši emailovou adresu"
@@ -6362,26 +6362,26 @@ skipTheTour = "Přeskočit průvodce"
 
 [onboarding.checklist]
 dismiss = "Zavřít"
-title = "Nastavte Stirling PDF"
+title = "Nastavte PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Spusťte Stirling nativně na svém počítači"
-title = "Stáhnout Stirling pro Desktop"
+description = "Spusťte PaperRing nativně na svém počítači"
+title = "Stáhnout PaperRing pro Desktop"
 
 [onboarding.checklist.inviteTeam]
 description = "Spolupracujte se svým týmem"
 title = "Pozvat členy týmu"
 
 [onboarding.checklist.setDefaultApp]
-description = "Otevírat PDF soubory v Stirling PDF"
-title = "Nastavit Stirling jako výchozí"
+description = "Otevírat PDF soubory v PaperRing"
+title = "Nastavit PaperRing jako výchozí"
 
 [onboarding.checklist.takeTour]
-description = "Podívejte se v krátké prohlídce, jak Stirling funguje"
+description = "Podívejte se v krátké prohlídce, jak PaperRing funguje"
 title = "Spustit prohlídku"
 
 [onboarding.desktopInstall]
-body = "Stirling nejlépe funguje jako desktopová aplikace. Můžete ji používat offline, rychleji přistupovat k dokumentům a provádět úpravy lokálně ve svém počítači."
+body = "PaperRing nejlépe funguje jako desktopová aplikace. Můžete ji používat offline, rychleji přistupovat k dokumentům a provádět úpravy lokálně ve svém počítači."
 selectOs = "Vyberte operační systém"
 title = "Stáhnout"
 titleWithOs = "Stáhnout pro {{osLabel}}"
@@ -6389,7 +6389,7 @@ titleWithOs = "Stáhnout pro {{osLabel}}"
 [onboarding.desktopWelcome]
 body = "Čeká na vás spousta nových změn k prozkoumání, včetně <strong>Agent Chat</strong>, automatické <strong>klasifikace</strong> dokumentů a dalších funkcí."
 freeLine = "Editor je nyní <free>zcela zdarma</free>."
-title = "Vítejte ve Stirling <product>Desktop</product>"
+title = "Vítejte ve PaperRing <product>Desktop</product>"
 
 [onboarding.mfa]
 authenticationCode = "Ověřovací kód"
@@ -6410,21 +6410,21 @@ success = "MFA bylo povoleno. Nyní můžete pokračovat."
 title = "Nastavení vícefaktorového ověření"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Po povolení režimu přihlášení můžete spravovat uživatele, konfigurovat nastavení a sledovat stav serveru. Prvních <strong>{{freeTierLimit}}</strong> uživatelů na vašem serveru může Stirling používat zdarma."
-adminBodyLoginEnabled = "Jako správce můžete spravovat uživatele, konfigurovat nastavení a sledovat stav serveru. Prvních <strong>{{freeTierLimit}}</strong> uživatelů na vašem serveru může Stirling používat zdarma."
+adminBodyLoginDisabled = "Po povolení režimu přihlášení můžete spravovat uživatele, konfigurovat nastavení a sledovat stav serveru. Prvních <strong>{{freeTierLimit}}</strong> uživatelů na vašem serveru může PaperRing používat zdarma."
+adminBodyLoginEnabled = "Jako správce můžete spravovat uživatele, konfigurovat nastavení a sledovat stav serveru. Prvních <strong>{{freeTierLimit}}</strong> uživatelů na vašem serveru může PaperRing používat zdarma."
 adminTitle = "Přehled pro správce"
 userBody = "Pozvěte kolegy, přiřazujte role a udržujte dokumenty uspořádané v jednom zabezpečeném prostoru. Režim přihlášení zapněte, jakmile budete chtít růst nad rámec sólo použití."
 userTitle = "Přehled plánu"
 
 [onboarding.processorIntro]
-body = "Stirling nyní spouští <strong>Zásady</strong> — automatizovaná pravidla, která klasifikují, zabezpečují a zpracovávají každý dokument při jeho příchodu. Nastavte je a sledujte běhy v <strong>Processoru</strong>."
+body = "PaperRing nyní spouští <strong>Zásady</strong> — automatizovaná pravidla, která klasifikují, zabezpečují a zpracovávají každý dokument při jeho příchodu. Nastavte je a sledujte běhy v <strong>Processoru</strong>."
 cta = "Podívat se na Processor"
-title = "Podívejte se na Stirling Processor"
+title = "Podívejte se na PaperRing Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "Editor je nyní <free>zcela zdarma</free>."
 premium = "Přidali jsme spoustu nových funkcí, včetně <strong>Zásad</strong> a <strong>Agent Chat</strong>."
-title = "Vítejte ve Stirling"
+title = "Vítejte ve PaperRing"
 
 [onboarding.saas.team]
 addButton = "Přidat"
@@ -6447,18 +6447,18 @@ title = "Kontrola zabezpečení"
 [onboarding.serverLicense]
 freeBody = "Naše licence <strong>Open-Core</strong> zahrnuje <strong>OAuth SSO</strong> a až <strong>{{freeTierLimit}}</strong> uživatelů zdarma. Pro růst bez přerušení doporučujeme plán Stirling Team — <strong>100 uživatelů</strong> za 99 $/měsíc."
 freeTitle = "Plán Team"
-overLimitBody = "Naše licence umožňuje zdarma až <strong>{{freeTierLimit}}</strong> uživatelů. Máte <strong>{{overLimitUserCopy}}</strong> uživatelů Stirling. Chcete-li pokračovat bez přerušení, upgradujte na plán Stirling Team – <strong>100 uživatelů</strong>, úpravy textu PDF a plná administrátorská kontrola za $99/mo."
+overLimitBody = "Naše licence umožňuje zdarma až <strong>{{freeTierLimit}}</strong> uživatelů. Máte <strong>{{overLimitUserCopy}}</strong> uživatelů PaperRing. Chcete-li pokračovat bez přerušení, upgradujte na plán Stirling Team – <strong>100 uživatelů</strong>, úpravy textu PDF a plná administrátorská kontrola za $99/mo."
 overLimitTitle = "Je potřeba plán Team"
 seePlans = "Zobrazit plány →"
 upgrade = "Upgradovat nyní →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 přináší desítky nástrojů a obnovené rozvržení. Projděte si krátkou prohlídku, abyste viděli, co se změnilo a kde najdete funkce, které potřebujete."
+body = "PaperRing V2 přináší desítky nástrojů a obnovené rozvržení. Projděte si krátkou prohlídku, abyste viděli, co se změnilo a kde najdete funkce, které potřebujete."
 title = "Přehled prohlídky"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF je nyní připraven pro týmy všech velikostí. Tato aktualizace přináší nové rozvržení, výkonné nové funkce pro správce a naši nejžádanější funkci – <strong>Úpravy textu</strong>."
-title = "Vítejte ve Stirling"
+body = "PaperRing je nyní připraven pro týmy všech velikostí. Tato aktualizace přináší nové rozvržení, výkonné nové funkce pro správce a naši nejžádanější funkci – <strong>Úpravy textu</strong>."
+title = "Vítejte ve PaperRing"
 
 [onboarding.whatsNew]
 activeFilesView = "Použijte Aktivní soubory, abyste viděli vše, co máte otevřené, a vybrali, s čím chcete pracovat."
@@ -6545,7 +6545,7 @@ check = "Zkontrolovat znovu"
 checkAccount = "Zkontrolovat účet"
 chooseEmail = "Vyberte jejich účet v {{team}} nebo zadejte e-mail pro pozvánku."
 close = "Zavřít dialog převodu"
-cloudAccount = "Účet Stirling"
+cloudAccount = "Účet PaperRing"
 cloudScopeStyled = "<user>{{name}}</user> bude spravovat {{team}}, jeho členy a fakturaci."
 cloudTargetChanged = "Vyberte jiného člena cloudu. Tento účet již není způsobilý k předání."
 confirm = "Rozumím změnám přístupu a vlastnictví."
@@ -6560,7 +6560,7 @@ inviteAddress = "Pozvat <account>{{email}}</account> do {{team}}."
 inviteBlocked = "Pozvánku se nepodařilo odeslat. Zkontrolujte dostupná místa v týmu a zda příjemce již nemá placené předplatné."
 linkChanged = "Cloudové propojení serveru se změnilo. Požádejte provozovatele serveru, aby před pokračováním obnovil původní propojení."
 linkedServerCount = "{{count}} propojených serverů"
-linkRevoked = "Cloudové propojení tohoto serveru již není platné. Zrušte převod a poté znovu připojte svůj účet Stirling v nastavení. Vlastnictví se nezmění."
+linkRevoked = "Cloudové propojení tohoto serveru již není platné. Zrušte převod a poté znovu připojte svůj účet PaperRing v nastavení. Vlastnictví se nezmění."
 localScope = "Budou vlastnit tento server a spravovat fakturaci a cloudová připojení. Vy si ponecháte přístup správce, ale ztratíte přístup k těmto nastavením."
 membershipDetails = "Podrobnosti členství v týmu"
 membershipFirst = "Než budete moci potvrdit převod, musí se připojit k týmu."
@@ -6872,7 +6872,7 @@ benefit1Body = "řetězte nástroje, plánujte běhy, dávkově zpracovávejte"
 benefit1Title = "Automatizační pipeline"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "AI nástroje"
-benefit3Body = "programově volejte libovolný endpoint Stirling"
+benefit3Body = "programově volejte libovolný endpoint PaperRing"
 benefit3Title = "Přístup k API"
 button = "Zapnout Processor →"
 reassurance = "Žádné minimum · Nastavte limit $0 pro testování · Zrušení kdykoli"
@@ -6962,7 +6962,7 @@ editorLabel = "Editor PDF"
 login = "Přihlásit se"
 manualToolsPromo = "Neomezené bezplatné ruční nástroje PDF"
 processorLabel = "Procesor PDF"
-processorTitle = "Vytvořte si účet a odemkněte to nejlepší ze Stirling"
+processorTitle = "Vytvořte si účet a odemkněte to nejlepší ze PaperRing"
 readerLabel = "Čtečka PDF"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "Odhad v USD. Limit můžete kdykoli po předplatném upravit ve vlast
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / měsíc"
 edit = "Upravit"
-help = "Stripe zpracovává údaje o vaší kartě. Stirling je nikdy nevidí."
+help = "Stripe zpracovává údaje o vaší kartě. PaperRing je nikdy nevidí."
 loading = "Načítání checkout…"
 noCap = "Bez limitu"
 title = "Přidejte platební metodu"
@@ -7010,7 +7010,7 @@ title = "Přidejte platební metodu"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "AI nástroje"
-apiBody = "programový přístup k libovolnému endpointu Stirling"
+apiBody = "programový přístup k libovolnému endpointu PaperRing"
 apiTitle = "API volání"
 automationBody = "řetězené nástroje nebo plánované běhy, které nevyžadují klikání"
 automationTitle = "Automatizační pipeline"
@@ -7870,7 +7870,7 @@ connectDescription = "Připojte tento server, aby mohl používat limit zpracov�
 disconnectBody = "Tento server přestane používat limit zpracování vašeho týmu ve Stirling Cloud. Vaše místní soubory zůstanou na tomto serveru. Chcete-li se znovu připojit, postupujte podle původních kroků připojení."
 disconnectTitle = "Odpojit tuto instanci?"
 eyebrow = "Tato instance"
-linkButton = "Připojit váš účet Stirling"
+linkButton = "Připojit váš účet PaperRing"
 loading = "Kontrola připojení účtu"
 notLinked = "Nepřipojeno"
 signedInAs = "Přihlášeni ke Stirling Cloud jako"
@@ -7886,14 +7886,14 @@ description = "Požádejte správce serveru, aby povolil připojení ke Stirling
 title = "Připojení účtu není dostupné"
 
 [portal.accountLink.connect]
-adminRequired = "Požádejte správce serveru, aby otevřel Použití a fakturaci a propojil účet Stirling pro více měsíčních kreditů. Ruční nástroje PDF jsou stále dostupné."
+adminRequired = "Požádejte správce serveru, aby otevřel Použití a fakturaci a propojil účet PaperRing pro více měsíčních kreditů. Ruční nástroje PDF jsou stále dostupné."
 adminTitle = "Požádejte správce serveru"
 close = "Zavřít"
 copied = "Zkopírováno"
 copyAdminMessage = "Zkopírovat zprávu pro správce"
-exhaustedLede = "Tento server využil své bezplatné kredity pro tento měsíc. Propojte nový nebo stávající účet Stirling a získejte přístup k měsíčnímu limitu svého týmu."
+exhaustedLede = "Tento server využil své bezplatné kredity pro tento měsíc. Propojte nový nebo stávající účet PaperRing a získejte přístup k měsíčnímu limitu svého týmu."
 notNow = "Teď ne"
-start = "Připojit účet Stirling"
+start = "Připojit účet PaperRing"
 step = "Krok {{current}} z {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "Přidejte více uživatelů s placeným plánem Team"
 teamsLabel = "Větší týmy"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "V tomto prohlížeči nejste přihlášeni ke Stirling, takže vás použití a fakturace vyzvou k přihlášení."
+linkedNotSignedIn = "V tomto prohlížeči nejste přihlášeni ke PaperRing, takže vás použití a fakturace vyzvou k přihlášení."
 retry = "Zkusit znovu"
-signedInAnyway = "Jste přihlášeni ke Stirling, takže fakturace a použití se načtou. Pouze propojení serveru není dokončeno."
+signedInAnyway = "Jste přihlášeni ke PaperRing, takže fakturace a použití se načtou. Pouze propojení serveru není dokončeno."
 working = "Dokončování připojení."
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "Tato žádost byla odmítnuta nebo již byla použita. Zahajte další, 
 title = "Připojení nebylo dokončeno"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling nepotvrdil připojení. Obvykle je to dočasné."
+body = "PaperRing nepotvrdil připojení. Obvykle je to dočasné."
 title = "Zatím nedokončeno"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Zbývající bezplatné kredity"
 creditsSuffix = "z {{allowance}} bezplatných kreditů zbývá"
 cta = "Hotovo"
 inviteTeam = "Pozvat tým"
-lede = "Tento server nyní běží pod vaším účtem Stirling."
+lede = "Tento server nyní běží pod vaším účtem PaperRing."
 pendingTitle = "Už jen kousek"
 switchOnProcessor = "Zapnout Processor"
 title = "Připojeno"
 
 [portal.accountLink.connect.handoff]
-opening = "Otevírá se přihlášení ke Stirling..."
-reauthLede = "Vaše relace Stirling vypršela. Opětovné přihlášení zachová viditelnost využití a fakturace. Tento server zůstane připojený v každém případě."
+opening = "Otevírá se přihlášení ke PaperRing..."
+reauthLede = "Vaše relace PaperRing vypršela. Opětovné přihlášení zachová viditelnost využití a fakturace. Tento server zůstane připojený v každém případě."
 title = "Připojování"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Nakonfigurovaná adresa frontendu tohoto serveru neodpovíd�
 cancel = "Zrušit"
 continueReauth = "Přihlásit se znovu"
 exhaustedTitle = "Udržte své pracovní postupy v chodu"
-identity = "Účet Stirling"
-linkTitle = "Připojte svůj účet Stirling"
-noAuthorizeUrl = "Stirling nevrátil místo, kde pokračovat. Zkuste to za chvíli znovu."
-startFailed = "Nepodařilo se spojit se Stirling pro zahájení připojení. Zkontrolujte odchozí síťový přístup tohoto serveru a zkuste to znovu."
+identity = "Účet PaperRing"
+linkTitle = "Připojte svůj účet PaperRing"
+noAuthorizeUrl = "PaperRing nevrátil místo, kde pokračovat. Zkuste to za chvíli znovu."
+startFailed = "Nepodařilo se spojit se PaperRing pro zahájení připojení. Zkontrolujte odchozí síťový přístup tohoto serveru a zkuste to znovu."
 transferPending = "Čeká převod vlastnictví. Přejděte do Nastavení → Uživatelé a dokončete ho nebo zrušte, poté zkuste propojení znovu."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "aby tento server mohl dokončit připojení, až se vrátíte."
 and = "a"
 before = "Nastavte"
-title = "Připojení Stirling není nakonfigurováno"
+title = "Připojení PaperRing není nakonfigurováno"
 
 [portal.accountLink.notice]
 openFailed = "Nepodařilo se otevřít prohlížeč. Chcete-li propojit účet, otevřete Využití a fakturace na připojeném serveru."
@@ -8027,7 +8027,7 @@ viewAll = "Zobrazit všechny pipeline"
 
 [portal.accountLink.rail]
 adminCta = "Jak získat více kreditů"
-adminSub = "Požádejte správce serveru, aby pro více kreditů propojil účet Stirling. Ruční nástroje PDF jsou stále dostupné."
+adminSub = "Požádejte správce serveru, aby pro více kreditů propojil účet PaperRing. Ruční nástroje PDF jsou stále dostupné."
 exhaustedCta = "Propojit účet pro více kreditů"
 exhaustedSub = "Propojte účet pro měsíční kredity, sdílenou fakturaci a možnost růstu s plánem Team."
 exhaustedTitle = "Bezplatné kredity tohoto serveru byly vyčerpány"
@@ -8041,9 +8041,9 @@ malformed = "Tuto odpověď přihlášení se nepodařilo ověřit. Začněte zn
 malformedTitle = "Přihlášení se nepodařilo ověřit"
 rejected = "Tento požadavek na přihlášení byl odmítnut nebo již byl použit. Zkuste znovu obnovit přístup k fakturaci."
 rejectedTitle = "Přihlášení nebylo dokončeno"
-retry = "Stirling nemohl dokončit obnovení přístupu k fakturaci. Zkuste to za chvíli znovu; váš server je stále připojený."
+retry = "PaperRing nemohl dokončit obnovení přístupu k fakturaci. Zkuste to za chvíli znovu; váš server je stále připojený."
 retryTitle = "Přístup k fakturaci nebyl obnoven"
-success = "Váš přístup k fakturaci byl obnoven. Tento server je stále připojený ke stejnému účtu Stirling."
+success = "Váš přístup k fakturaci byl obnoven. Tento server je stále připojený ke stejnému účtu PaperRing."
 title = "Obnovit přístup k fakturaci"
 working = "Obnovuje se přístup k fakturaci."
 
@@ -8057,7 +8057,7 @@ close = "Zavřít asistenta"
 error = "Asistenta se nepodařilo kontaktovat."
 errorWithDetail = "Asistenta se nepodařilo kontaktovat: {{detail}}"
 inputAriaLabel = "Zeptejte se asistenta"
-inputPlaceholder = "Zeptejte se na Stirling…"
+inputPlaceholder = "Zeptejte se na PaperRing…"
 open = "Otevřít asistenta"
 send = "Odeslat"
 title = "Asistent"
@@ -8102,7 +8102,7 @@ title = "Nastavte svůj limit výdajů"
 [portal.billing.checkout.card]
 fields = "Číslo karty · MM / RR · CVC · ZIP"
 label = "Údaje o kartě"
-note = "Údaje o kartě shromažďuje Stripe. Stirling nikdy neukládá PAN ani CVC."
+note = "Údaje o kartě shromažďuje Stripe. PaperRing nikdy neukládá PAN ani CVC."
 
 [portal.billing.checkout.error]
 title = "Nepodařilo se spustit checkout"
@@ -8180,7 +8180,7 @@ users = "Uživatelé"
 [portal.billing.enterprise]
 cta = "Získat nabídku Enterprise"
 sub = "Nasazení bez připojení k síti, SCIM, rezidence dat, SLA dostupnosti a odpovídající smlouva."
-title = "Provozujete Stirling v regulovaném prostředí?"
+title = "Provozujete PaperRing v regulovaném prostředí?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Nepodařilo se spustit checkout"
@@ -8458,7 +8458,7 @@ description = "Kam zpracované dokumenty skončí – bucket, disk, tiket nebo s
 label = "Soubor a příloha"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling to ukládá šifrovaně a už to nikdy nezobrazí."
+helperText = "PaperRing to ukládá šifrovaně a už to nikdy nezobrazí."
 label = "Přístupový token"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Zkusit znovu"
 title = "Na této stránce se něco pokazilo"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Aktuálním filtrům nic neodpovídá"
 occurrences = "{{count}} výskytů"
 searchPlaceholder = "Hledat problémy, uživatele a chyby"
@@ -9106,7 +9106,7 @@ description = "Na tomto serveru chybí software, který krok potřebuje, takže 
 title = "Software není nainstalován"
 
 [portal.failures.kind.unknown]
-description = "Něco se pokazilo a Stirling to zatím nerozpoznává."
+description = "Něco se pokazilo a PaperRing to zatím nerozpoznává."
 title = "Nerozpoznaný problém"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "Otevřít průvodce {{name}}"
 openInBrowser = "Místo toho otevřít v prohlížeči"
 sectionDesktop = "Desktopová aplikace"
 sectionSelfHosted = "Vlastní hostování"
-title = "Nainstalovat Stirling PDF Editor"
+title = "Nainstalovat PaperRing Editor"
 
 [portal.home.download.docker]
 detailBody = "Spusťte oficiální image na svém serveru."
@@ -9224,7 +9224,7 @@ usageMonth = "Využití tento měsíc"
 usageToday = "Využití dnes"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Vytvořte key a začněte volat Stirling API."
+description = "Vytvořte key a začněte volat PaperRing API."
 title = "Zatím žádné API klíče"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Hotovo"
 keyNameLabel = "Název klíče"
 keyNamePlaceholder = "např. Production ingest"
 secretKeyCaption = "Tajný klíč"
-secretWarning = "Uložte jej do správce tajných údajů. Stirling vždy ukládá pouze hash, takže jej později nelze obnovit."
+secretWarning = "Uložte jej do správce tajných údajů. PaperRing vždy ukládá pouze hash, takže jej později nelze obnovit."
 subtitle = "Pojmenujte key tak, abyste jej později poznali. Kdykoli jej můžete odvolat."
 subtitleCreated = "Zkopírujte si toto tajemství nyní — znovu se nezobrazí."
 title = "Vytvořit API klíč"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} připojení"
 connectionCount_other = "{{count}} připojení"
 customApi = "Vlastní API"
 searchPlaceholder = "Hledat integrace"
-subtitle = "Vše, s čím může Stirling komunikovat. Přihlašovací údaje se vytvoří jednou zde a poté se na ně odkazuje ve zdrojích, zásadách a pipeline."
+subtitle = "Vše, s čím může PaperRing komunikovat. Přihlašovací údaje se vytvoří jednou zde a poté se na ně odkazuje ve zdrojích, zásadách a pipeline."
 title = "Integrace"
 typedName = "Název {{tool}}"
 
@@ -10183,8 +10183,8 @@ saveFailed = "Pipeline se nepodařilo uložit. Zkuste to prosím znovu."
 
 [portal.policies.wizard.locations]
 aiSettings = "Otevřít nastavení AI"
-builtin = "Znalostní báze Stirling"
-builtinHelp = "Indexuje prohledávatelné části ve Stirling a vrací zpracované PDF do cíle níže. V nastavení AI musí být nakonfigurován poskytovatel embeddingu."
+builtin = "Znalostní báze PaperRing"
+builtinHelp = "Indexuje prohledávatelné části ve PaperRing a vrací zpracované PDF do cíle níže. V nastavení AI musí být nakonfigurován poskytovatel embeddingu."
 checking = "Kontrola dostupnosti ingestu..."
 chooseOutput = "Před uložením vyberte povolený výstupní cíl."
 chooseSource = "Vyberte, odkud dokumenty pocházejí"
@@ -10276,7 +10276,7 @@ title = "Zatím žádný tok"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Připojit"
-editor = "Stirling PDF Editor"
+editor = "PaperRing Editor"
 heading = "Zdroje"
 perDay = "{{n}} / 24 h"
 
@@ -10463,7 +10463,7 @@ gatingAction = "Přijměte svou nabídku"
 label = "Nabídka"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Vyhodnoťte Stirling na svých dokumentech a workflow."
+blurb = "Vyhodnoťte PaperRing na svých dokumentech a workflow."
 gatingAction = "Sestavte svou nabídku"
 label = "Zkušební verze"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Toto je váš soubor zkušební licence. Jakmile bude vaše doh
 
 [portal.procurement.link]
 cta = "Propojit účet"
-description = "Pořízení běží na vašem propojeném účtu Stirling: tak zřizujeme trial, oceňujeme vaši nabídku a spouštíme fakturaci. Propojte účet a začněte."
+description = "Pořízení běží na vašem propojeném účtu PaperRing: tak zřizujeme trial, oceňujeme vaši nabídku a spouštíme fakturaci. Propojte účet a začněte."
 eyebrow = "Enterprise"
 title = "Pro začátek propojte svůj účet"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Spravované, nejrychlejší start"
 continue = "Pokračovat"
 deployment = "Kam se má nasadit?"
-eula = "Souhlasím se Stirling EULA a obchodními podmínkami."
+eula = "Souhlasím se PaperRing EULA a obchodními podmínkami."
 fullName = "Celé jméno"
 fullNamePlaceholder = "Vaše jméno"
 invites = "Pozvat spolupracovníky · volitelné"
@@ -10565,7 +10565,7 @@ account-link = "Připojení účtu"
 [portal.shell.sidebar]
 appEditor = "Editor"
 appProcessor = "Procesor"
-linkAccount = "Propojit účet Stirling"
+linkAccount = "Propojit účet PaperRing"
 primaryNav = "Primární navigace"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Hledat"
 
 [portal.sources]
 processingModeHelp = "Režim sledování ponechává originály a zpracuje každou verzi jednou. Snímek ponechává originály a zpracuje je při každém spuštění. Spotřebování smaže originály po úspěšném doručení."
-subtitle = "Opakovaně použitelná vstupní připojení, která předávají dokumenty do Stirling. Nakonfigurujte zdroj jednou a poté na něj odkazujte z libovolného počtu pipeline."
+subtitle = "Opakovaně použitelná vstupní připojení, která předávají dokumenty do PaperRing. Nakonfigurujte zdroj jednou a poté na něj odkazujte z libovolného počtu pipeline."
 title = "Zdroje"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Měsíční kredity tohoto serveru sdílí všichni na něm, takže
 barAria = "Zbývající bezplatné kredity"
 capSuffix_one = "z {{allowance}} bezplatného kreditu zbývá tento měsíc"
 capSuffix_other = "z {{allowance}} bezplatných kreditů zbývá tento měsíc"
-connect = "Připojit účet Stirling"
+connect = "Připojit účet PaperRing"
 connectBody = "Připojení přidá druhý měsíční limit, zvýší počet uživatelů, které tento server může mít, a zapne Processor."
-connectTitle = "Tento server nemá účet Stirling"
+connectTitle = "Tento server nemá účet PaperRing"
 loadError = "Nepodařilo se načíst využití kreditů tohoto serveru. Zkuste to za chvíli znovu."
 loadErrorTitle = "Nepodařilo se načíst využití kreditů"
 resets = "Obnoví se {{date}}"
 
 [portal.usage.sessionExpired]
-body = "Relace vašeho účtu Stirling vypršela. Přihlaste se znovu, abyste zobrazili fakturaci — vaše instance zůstává propojená."
+body = "Relace vašeho účtu PaperRing vypršela. Přihlaste se znovu, abyste zobrazili fakturaci — vaše instance zůstává propojená."
 
 [portal.users]
 title = "Uživatelé"
@@ -11129,7 +11129,7 @@ files = "Soubory"
 account = "Účet"
 docs = "Dokumentace"
 editor = "Editor"
-home = "Stirling"
+home = "PaperRing"
 invite = "Pozvat"
 landmark = "Rychlá navigace"
 noProcessorAccess = "Požádejte administrátora o přístup k procesoru"
@@ -11682,8 +11682,8 @@ hideTools = "Skrýt nedostupné nástroje ▴"
 messageNoFallback = "Nástroje nebudou dostupné, dokud se váš server znovu nepřipojí."
 messageWithFallback = "Některé nástroje vyžadují připojení k serveru."
 showTools = "Zobrazit nedostupné nástroje ▾"
-title = "Váš server Stirling-PDF je nedostupný"
-toolNotAvailableLocally = "Váš server Stirling-PDF je offline a \"{{endpoint}}\" není dostupný v místním backendu."
+title = "Váš server PaperRing je nedostupný"
+toolNotAvailableLocally = "Váš server PaperRing je offline a \"{{endpoint}}\" není dostupný v místním backendu."
 
 [session]
 expired = "Vaše relace vypršela. Obnovte prosím stránku a zkuste to znovu."
@@ -11755,7 +11755,7 @@ unknown = "Není k dispozici"
 yourTeam = "Váš tým"
 
 [settings.connection]
-description = "Pracujte lokálně na tomto počítači nebo připojte aplikaci k serveru Stirling."
+description = "Pracujte lokálně na tomto počítači nebo připojte aplikaci k serveru PaperRing."
 localDescription = "Používáte místní backend bez účtu. Některé nástroje vyžadující cloudové zpracování nebo samostatně hostovaný server nejsou dostupné."
 logout = "Odhlásit se"
 server = "Server"
@@ -11770,7 +11770,7 @@ selfhosted = "Vlastní hosting"
 
 [settings.developer]
 apiKeys = "API klíče"
-apiKeysDescription = "Osobní klíče pro volání Stirling API ze skriptů a integrací."
+apiKeysDescription = "Osobní klíče pro volání PaperRing API ze skriptů a integrací."
 title = "Vývojář"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Limit pro automatické rozbalení"
 autoUnzipFileLimitTooltip = "Rozbalit pouze, pokud ZIP obsahuje tolik nebo méně souborů. Nastavte vyšší hodnotu pro rozbalení větších ZIP archivů."
 autoUnzipTooltip = "Automaticky extrahuje ZIP soubory vrácené z operací API. Vypněte pro zachování ZIP souborů. Toto neovlivňuje automatizační workflow."
 defaultPdfEditor = "Výchozí editor PDF"
-defaultPdfEditorActive = "Stirling PDF je váš výchozí editor PDF"
+defaultPdfEditorActive = "PaperRing je váš výchozí editor PDF"
 defaultPdfEditorChecking = "Kontrola..."
 defaultPdfEditorInactive = "Jiná aplikace je nastavena jako výchozí"
 defaultPdfEditorSet = "Již výchozí"
@@ -11849,7 +11849,7 @@ updateBehavior = "Chování aktualizací"
 updateBehaviorDescription = "Zvolte, zda se má před instalací aktualizací ptát, instalovat je automaticky, nebo kontroly aktualizací úplně přeskočit."
 updateBehaviorError = "Nepodařilo se změnit chování aktualizací"
 updateBehaviorErrorLocked = "Toto nastavení je uzamčeno vaším správcem."
-updateBehaviorLockedDescription = "Váš správce nastavil, jak Stirling-PDF na tomto počítači zachází s aktualizacemi. Kontaktujte ho pro změnu."
+updateBehaviorLockedDescription = "Váš správce nastavil, jak PaperRing na tomto počítači zachází s aktualizacemi. Kontaktujte ho pro změnu."
 updateBehaviorSaved = "Chování aktualizací uloženo."
 versionMismatch = "Vaše desktopová aplikace a server používají různé verze. Aktualizujte obě na stejnou verzi, abyste předešli problémům s kompatibilitou."
 viewDetails = "Zobrazit podrobnosti"
@@ -12074,7 +12074,7 @@ emptyUsername = "Zadejte své uživatelské jméno"
 oauthFailed = "Přihlášení přes OAuth selhalo. Zkuste to znovu."
 
 [setup.saas]
-title = "Přihlásit se do Stirling"
+title = "Přihlásit se do PaperRing"
 
 [setup.selfhosted]
 changeServerLocked = "Vaše organizace omezila tuto aplikaci na konkrétní server"
@@ -12120,7 +12120,7 @@ step3 = "Restartujte server"
 title = "Přihlášení není povoleno"
 
 [setup.server.url]
-description = "Zadejte úplnou URL vašeho samohostovaného serveru Stirling PDF"
+description = "Zadejte úplnou URL vašeho samohostovaného serveru PaperRing"
 label = "URL serveru"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Vyplňte prosím všechna pole"
 signUp = "Zaregistrovat se"
 signUpWith = "Zaregistrovat se pomocí"
 skip = "Přeskočit"
-subtitle = "Připojte se ke Stirling PDF a začněte"
+subtitle = "Připojte se ke PaperRing a začněte"
 title = "Vytvořit účet"
 unableToAccessTool = "Nelze získat přístup k nástroji: {{error}}"
 unexpectedError = "Neočekávaná chyba: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Stáhnout"
 downloaded = "Staženo"
 downloadFailed = "Tento soubor nelze stáhnout."
 downloadsCount = "Stažení: {{count}}"
-emailWarningBody = "Vypadá to jako e-mailová adresa. Pokud tato osoba ještě není uživatelem Stirling PDF, k souboru se nedostane."
+emailWarningBody = "Vypadá to jako e-mailová adresa. Pokud tato osoba ještě není uživatelem PaperRing, k souboru se nedostane."
 emailWarningConfirm = "Sdílet i tak"
 emailWarningTitle = "E-mailová adresa"
 errorTitle = "Sdílení se nezdařilo"
@@ -12887,7 +12887,7 @@ manageTitle = "Správa sdílení"
 noActivity = "Zatím žádná aktivita."
 noLinks = "Zatím nejsou žádné aktivní odkazy ke sdílení."
 noSharedUsers = "Zatím nemá přístup žádný uživatel."
-openInApp = "Otevřít ve Stirling PDF"
+openInApp = "Otevřít ve PaperRing"
 ownerLabel = "Vlastník"
 ownerUnknown = "Neznámý"
 removeLink = "Odebrat odkaz"
@@ -12945,7 +12945,7 @@ all = "Vše"
 ariaLabel = "Super vyhledávání"
 filtersAriaLabel = "Filtry vyhledávání"
 hint = "Začněte psát pro vyhledávání"
-placeholder = "Hledat ve Stirling"
+placeholder = "Hledat ve PaperRing"
 placeholderShort = "Hledat"
 showLess = "Zobrazit méně"
 showMore = "Zobrazit dalších {{count}}"
@@ -12959,7 +12959,7 @@ settings = "Nastavení"
 tools = "Nástroje"
 
 [survey]
-title = "Průzkum Stirling-PDF"
+title = "Průzkum PaperRing"
 
 [swagger]
 clickHere = "klikněte sem"
@@ -13128,7 +13128,7 @@ favorites = "Oblíbené"
 heading = "Všechny nástroje (zobrazení na celou obrazovku)"
 noResults = "Zkuste upravit hledání nebo přepnout popisy, abyste našli, co potřebujete."
 recommended = "Doporučeno"
-selfHostedOffline = "Vyžaduje váš server Stirling-PDF (aktuálně offline):"
+selfHostedOffline = "Vyžaduje váš server PaperRing (aktuálně offline):"
 showDetails = "Zobrazit podrobnosti"
 unavailable = "Zakázáno správcem serveru:"
 unavailableDependency = "Nedostupné – na serveru chybí požadovaný nástroj:"
@@ -13137,7 +13137,7 @@ unfavorite = "Odebrat z oblíbených"
 [toolPanel.modePrompt]
 chooseFullscreen = "Použít režim na celou obrazovku"
 chooseSidebar = "Použít režim postranního panelu"
-description = "Prohlédněte si obě rozložení a rozhodněte, jak chcete prozkoumávat nástroje Stirling PDF."
+description = "Prohlédněte si obě rozložení a rozhodněte, jak chcete prozkoumávat nástroje PaperRing."
 dismiss = "Možná později"
 fullscreenDescription = "Procházejte všechny nástroje v katalogu, který překryje pracovní prostor, dokud si nevyberete."
 fullscreenTitle = "Režim na celou obrazovku – (zastaralé)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Načítání podrobných informací..."
 migrationGuide = "Migrační průvodce"
 migrationGuides = "Migrační průvodci"
 migrationGuidesDesc = "Před aktualizací si projděte důležité změny."
-modalSubtitle = "Nová verze Stirling PDF je připravena k instalaci."
+modalSubtitle = "Nová verze PaperRing je připravena k instalaci."
 modalTitle = "Dostupná aktualizace"
 notes = "Poznámky"
 releaseNotes = "Poznámky k vydání"
@@ -13230,7 +13230,7 @@ urgent = "Naléhavá"
 attentionBody = "Váš správce se musí přihlásit, aby zobrazil další informace. Kontaktujte jej prosím co nejdříve."
 attentionBodyAdmin = "Zkontrolujte licenční požadavky, aby byl tento server v souladu."
 attentionTitle = "Tento server vyžaduje zásah správce"
-message = "Využijte Stirling PDF naplno se 100 uživateli, úpravami textu v PDF a pokročilými funkcemi"
+message = "Využijte PaperRing naplno se 100 uživateli, úpravami textu v PDF a pokročilými funkcemi"
 seeInfo = "Zobrazit informace"
 title = "Upgradujte na tarif Team"
 upgradeButton = "Upgradovat nyní"
@@ -13368,7 +13368,7 @@ authWeb = "Heslo"
 create = "Vytvořit účet"
 createSubtitle = "Vytvořte self-hosted účet s heslem nebo SSO."
 createTitle = "Vytvořit účet"
-editorDesc = "Upravujte PDFs v editoru Stirling PDF. Toto má každý."
+editorDesc = "Upravujte PDFs v editoru PaperRing. Toto má každý."
 email = "E-mailová adresa"
 emailError = "Zadejte platnou e-mailovou adresu"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Pozvánka odeslána, ale přístup k Processor zatím nešl
 processorDesc = "Plocha pro governance, spouštění pipeline, agentů a API."
 role = "Role"
 send2 = "Odeslat pozvánku"
-subtitle2 = "Obdrží e-mail, aby se připojili k vašemu pracovnímu prostoru Stirling."
+subtitle2 = "Obdrží e-mail, aby se připojili k vašemu pracovnímu prostoru PaperRing."
 team = "Tým"
 title = "Pozvat osoby"
 username = "Uživatelské jméno"
@@ -13525,7 +13525,7 @@ downloads = "Ke stažení"
 entryLabel = "Souhrn podpisu"
 filesEvaluated_one = "Vyhodnocen {{count}} soubor"
 filesEvaluated_other = "Vyhodnoceno {{count}} souborů"
-footer = "Ověřeno pomocí Stirling PDF"
+footer = "Ověřeno pomocí PaperRing"
 generatedAt = "Vygenerováno"
 noPdf = "PDF zpráva bude k dispozici po úspěšném ověření."
 page = "Stránka"
@@ -13718,7 +13718,7 @@ text = "Text"
 addFile = "Přidat soubor"
 count_one = "{{count}} soubor v tomto portfoliu"
 count_other = "{{count}} souborů v tomto portfoliu"
-import = "Importovat do Stirling"
+import = "Importovat do PaperRing"
 importFailed = "Tento soubor se nepodařilo přidat do vašeho pracovního prostoru."
 memberUnavailable = "Tento soubor se nepodařilo přečíst z portfolia."
 preview = "Náhled"

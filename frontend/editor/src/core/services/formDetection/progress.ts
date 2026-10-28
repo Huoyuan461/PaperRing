@@ -17,7 +17,7 @@ export function onSummary(cb: (s: DetectionSummary) => void): () => void {
   return () => window.removeEventListener(SUMMARY_EVENT, handler);
 }
 
-/** Parse the server's X-Stirling-Detected-Fields header; a missing or bad one shows nothing. */
+/** Parse the server's X-PaperRing-Detected-Fields header; a missing or bad one shows nothing. */
 export function parseSummary(header: unknown): DetectionSummary | null {
   if (typeof header !== "string" || header.length === 0) return null;
   try {

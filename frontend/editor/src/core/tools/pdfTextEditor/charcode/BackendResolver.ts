@@ -63,7 +63,7 @@ interface EncodeCharcodesResponse {
 }
 
 // POST JSON to the charcode endpoint via the shared `apiClient`. `apiClient` is
-// the canonical Stirling HTTP helper.
+// the canonical PaperRing HTTP helper.
 async function postCharcodes(
   body: Record<string, unknown>,
 ): Promise<EncodeCharcodesResponse | null> {

@@ -381,7 +381,7 @@ export default function HomePage() {
     )?.hideToolPanel ??
       false);
 
-  const brandAltText = t("home.mobile.brandAlt", "Stirling PDF logo");
+  const brandAltText = t("home.mobile.brandAlt", "PaperRing logo");
 
   const quickNavToolReasons = useMemo(() => {
     const reasons: QuickNavToolReasons = {};
@@ -573,7 +573,7 @@ export default function HomePage() {
     : undefined;
   const defaultDescription = t(
     "app.description",
-    "A free, private PDF editor you can run on any infrastructure.",
+    "纸环 PaperRing — a private PDF editor that runs on your computer.",
   );
   const metaTitle = seoOverride
     ? `${seoOverride.title} - ${appName}`

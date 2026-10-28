@@ -32,7 +32,7 @@ function makeWrapper() {
 describe("useAdminSettings", () => {
   beforeEach(() => {
     vi.clearAllMocks();
-    mockFetch.mockResolvedValue({ appName: "Stirling" });
+    mockFetch.mockResolvedValue({ appName: "PaperRing" });
     mockPutSection.mockResolvedValue(undefined);
     mockPutSettings.mockResolvedValue(undefined);
   });
@@ -45,7 +45,7 @@ describe("useAdminSettings", () => {
 
     expect(result.current.loading).toBe(true);
     await waitFor(() => expect(result.current.loading).toBe(false));
-    expect(result.current.settings).toEqual({ appName: "Stirling" });
+    expect(result.current.settings).toEqual({ appName: "PaperRing" });
     expect(mockFetch).toHaveBeenCalledWith("general");
   });
 
@@ -125,7 +125,7 @@ describe("useAdminSettings", () => {
   });
 
   it("sends only changed fields", async () => {
-    mockFetch.mockResolvedValue({ appName: "Stirling", theme: "dark" });
+    mockFetch.mockResolvedValue({ appName: "PaperRing", theme: "dark" });
     const { result } = renderHook(
       () =>
         useAdminSettings<{ appName: string; theme: string }>({
@@ -162,7 +162,7 @@ describe("useAdminSettings", () => {
   });
 
   it("refetches after a save so the _pending block is current", async () => {
-    mockFetch.mockResolvedValue({ appName: "Stirling" });
+    mockFetch.mockResolvedValue({ appName: "PaperRing" });
     const { result } = renderHook(
       () => useAdminSettings<{ appName: string }>({ sectionName: "general" }),
       {
@@ -173,7 +173,7 @@ describe("useAdminSettings", () => {
     expect(mockFetch).toHaveBeenCalledTimes(1);
 
     mockFetch.mockResolvedValue({
-      appName: "Stirling",
+      appName: "PaperRing",
       _pending: { appName: "Renamed" },
     });
     act(() => {
@@ -189,7 +189,7 @@ describe("useAdminSettings", () => {
 
   it("surfaces pending values in the draft and flags the field", async () => {
     mockFetch.mockResolvedValue({
-      appName: "Stirling",
+      appName: "PaperRing",
       _pending: { appName: "Queued" },
     });
     const { result } = renderHook(

@@ -552,7 +552,7 @@ pub async fn login(
                    (error_lower.contains("handshake") && (error_lower.contains("tls") || error_lower.contains("ssl"))) {
                     format!(
                         "TLS version not supported: The server appears to be using TLS 1.0 or TLS 1.1, which are not supported by this desktop app. \
-                        Please upgrade your server to use TLS 1.2 or higher, or use the web version of Stirling-PDF instead. \
+                        Please upgrade your server to use TLS 1.2 or higher, or use the web version of 纸环 PaperRing instead. \
                         Technical details: {}", e
                     )
                 // Other TLS/SSL errors (certificate issues)

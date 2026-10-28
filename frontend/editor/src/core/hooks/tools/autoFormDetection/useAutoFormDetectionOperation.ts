@@ -59,7 +59,7 @@ async function processAutoFormDetection(
     // Not fatal - the PDF is still correct - but the results panel needs the header, so a
     // proxy that drops it would otherwise mean a silently missing summary.
     console.warn(
-      "[AutoFormDetection] no X-Stirling-Detected-Fields header; skipping the results summary",
+      "[AutoFormDetection] no X-PaperRing-Detected-Fields header; skipping the results summary",
     );
   }
   return { files: [asPdf(res.data as Blob, file)] };

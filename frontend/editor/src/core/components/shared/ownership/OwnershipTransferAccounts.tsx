@@ -43,7 +43,7 @@ export function OwnershipTransferAccounts({
                 className="ownership-flow__account-label"
                 htmlFor="ownership-cloud-email"
               >
-                {t("ownership.cloudAccount", "Stirling account")}
+                {t("ownership.cloudAccount", "PaperRing account")}
               </label>
               {canSelectCloud && !partial ? (
                 <Combobox

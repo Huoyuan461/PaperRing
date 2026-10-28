@@ -328,7 +328,7 @@ test.describe("as the organization owner", () => {
     );
 
     const link = page.getByRole("link", {
-      name: /Connect this server to a Stirling account/i,
+      name: /Connect this server to a PaperRing account/i,
     });
     await expect(link).toBeVisible();
     await expect(link).toHaveAttribute("href", "/settings/account-link");
@@ -360,7 +360,7 @@ test.describe("as an admin who is not the owner", () => {
     // The account-link page is not listed for them, so a link there would lead nowhere.
     await expect(
       page.getByRole("link", {
-        name: /Connect this server to a Stirling account/i,
+        name: /Connect this server to a PaperRing account/i,
       }),
     ).toHaveCount(0);
   });

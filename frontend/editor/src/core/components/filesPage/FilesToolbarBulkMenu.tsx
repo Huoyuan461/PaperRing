@@ -62,7 +62,7 @@ export function FilesToolbarBulkMenu({
             disabled={Boolean(saveToServerDisabledReason)}
             onClick={onSaveToServer}
           >
-            {t("filesPage.addToLibrary", "Add to Stirling library…")}
+            {t("filesPage.addToLibrary", "Add to PaperRing library…")}
           </Menu.Item>
         )}
         {onShowDetails && (

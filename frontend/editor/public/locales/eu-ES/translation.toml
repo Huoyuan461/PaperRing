@@ -55,7 +55,7 @@ keepWorking = "Lanean jarraitu"
 loading = "Kargatzen..."
 loginAgreementAccept = "Onartu"
 loginAgreementDecline = "Ukatu"
-loginAgreementProvider = "Ohar hau zure administratzaileak eman du, ez Stirling PDF Inc.-ek."
+loginAgreementProvider = "Ohar hau zure administratzaileak eman du, ez PaperRing-ek."
 loginAgreementTitle = "Saio-hasierako hitzarmena"
 logOut = "Saioa itxi"
 marginTooltip = "Orri-zenbakiaren eta orrialdearen ertzen arteko distantzia."
@@ -668,8 +668,8 @@ description = "Gehienezko exekuzio-denbora"
 label = "Denbora-muga (minutuak)"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert beta bertsioan dago. LibreOffice baino bihurketa hobeak eta azkarragoak eskaintzen ditu, memoria gutxiagorekin."
-label = "Erabili Stirling Office bihurketa berria"
+description = "PaperRing Office Convert beta bertsioan dago. LibreOffice baino bihurketa hobeak eta azkarragoak eskaintzen ditu, memoria gutxiagorekin."
+label = "Erabili PaperRing Office bihurketa berria"
 
 [admin.settings.advanced.tempFileManagement]
 description = "Konfiguratu aldi baterako fitxategien biltegiratzea eta garbiketaren portaera"
@@ -736,7 +736,7 @@ permissionNotice = "tessdata bidea ez da idazgarria. Deskargak nabigatzailean ir
 
 [admin.settings.ai]
 customProvider = "Pertsonalizatua (OpenAI-rekin bateragarria)"
-description = "Konektatu Stirling Python AI motorrera, aukeratu haren ereduak eta ezarri exekutatzeko babes-mugak."
+description = "Konektatu PaperRing Python AI motorrera, aukeratu haren ereduak eta ezarri exekutatzeko babes-mugak."
 managedByCloud = "Modu honetan Stirling Cloud-ek kudeatzen du."
 managedByCloudShort = "Stirling Cloud-ek kudeatua"
 
@@ -797,7 +797,7 @@ help = "Desaktibatuta badago, dokumentu-galderak ez dira erabilgarri egongo. Hor
 label = "Utzi Stirling Cloud-i dokumentu indexatuak gordetzen"
 
 [admin.settings.ai.general.cloudNote]
-body = "Arrazonamendua Stirling-en azpiegituran exekutatzen da, zerbitzari hau lotuta dagoen kontuan fakturatuta. Ez dago exekutatu beharreko edukiontzirik, ezta hemen gordetzeko hornitzaile-gakorik ere. AI-k irakurtzen duen guztia Stirling Cloud-ek prozesatzen du, ez zure hardware propioan."
+body = "Arrazonamendua PaperRing-en azpiegituran exekutatzen da, zerbitzari hau lotuta dagoen kontuan fakturatuta. Ez dago exekutatu beharreko edukiontzirik, ezta hemen gordetzeko hornitzaile-gakorik ere. AI-k irakurtzen duen guztia Stirling Cloud-ek prozesatzen du, ez zure hardware propioan."
 title = "Stirling Cloud AI-ri buruz"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "AI non exekutatzen den"
 
 [admin.settings.ai.general.mode.cloud]
 description = "Ez dago edukiontzirik, ez hornitzaile-gakorik, ez eredu-aukerarik: lana Stirling Cloud-en exekutatzen da eta zerbitzari hau lotuta dagoen kontuan fakturatzen da."
-linkCta = "Konektatu zerbitzari hau Stirling kontu batera"
+linkCta = "Konektatu zerbitzari hau PaperRing kontu batera"
 notLinked = "Lotu kontu bat lehenik"
-ownerOnly = "Erakundearen jabeak bakarrik lotu dezake zerbitzari hau Stirling kontu batera."
+ownerOnly = "Erakundearen jabeak bakarrik lotu dezake zerbitzari hau PaperRing kontu batera."
 title = "Erabili Stirling Cloud AI"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "Exekutatu zure motor propioa"
 
 [admin.settings.ai.general.note]
 docs = "Konfigurazio-gida"
-intro = "Stirling-en ondoan exekutatzen duzun edukiontzi bereizi bat. Hark egiten du arrazonamendua; Stirling-ek oraindik orrialde-eragiketa guztiak berak egiten ditu. Berbera behar du"
+intro = "PaperRing-en ondoan exekutatzen duzun edukiontzi bereizi bat. Hark egiten du arrazonamendua; PaperRing-ek oraindik orrialde-eragiketa guztiak berak egiten ditu. Berbera behar du"
 outro = "bi edukiontzietan eta eredu-hornitzaile baten gakoa. AI-k irakurtzen duen guztia zuk aukeratutako hornitzailera bidaltzen da; zuk ostatatutako Ollama batek orrialde guztiak etxe barruan mantentzen ditu."
 title = "AI motorrari buruz"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "Jarraitzeko, sartu berrespen-kodea"
 confirmImport = "Inportazioa berretsi"
 confirmImportTitle = "Datu-base inportazioa berretsi"
 connection = "Konexioa"
-connectionDescription = "Bideratu Stirling kanpoko datu-base batera kapsulatutakoaren ordez."
+connectionDescription = "Bideratu PaperRing kanpoko datu-base batera kapsulatutakoaren ordez."
 createBackup = "Babeskopia sortu"
 created = "Sortze-data"
 delete = "Ezabatu"
@@ -1224,11 +1224,11 @@ description = "Konfiguratu aukerako eginbideak eta funtzionalitatea."
 title = "Eginbideak"
 
 [admin.settings.features.serverCertificate]
-description = "Sortu \"Sign with Stirling-PDF\" sinadura-eginbideari eusten dion ziurtagiria."
+description = "Sortu \"Sign with PaperRing\" sinadura-eginbideari eusten dion ziurtagiria."
 label = "Ziurtagiri bidezko sinadura"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Eskaini \"Sign with Stirling-PDF\" zerbitzari honek sortzen duen ziurtagiri bat erabiliz"
+description = "Eskaini \"Sign with PaperRing\" zerbitzari honek sortzen duen ziurtagiri bat erabiliz"
 label = "Gaitu ziurtagiri bidezko sinadura"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "Ziurtagiriaren balio-epea (egunak)"
 
 [admin.settings.folderAccess]
 description = "Karpeta-iturriek eta karpeta-irteerek irakurri eta idatz ditzaketen direktorioak. Hau segurtasun-muga bat da: automatizazioak ezin dira inoiz zerrenda honetatik kanpoko zerbitzari-bide batera zuzendu."
-securityNote = "Utzi hau hutsik karpeta-iturriak eta irteerak erabat desgaitzeko. Stirling-en konfigurazio-direktorioa beti dago mugaz kanpo."
+securityNote = "Utzi hau hutsik karpeta-iturriak eta irteerak erabat desgaitzeko. PaperRing-en konfigurazio-direktorioa beti dago mugaz kanpo."
 title = "Karpeta-sarbidea"
 
 [admin.settings.folderAccess.implied]
-description = "Stirling-ek kudeatutako direktorio hauek beti baimenduta daude eta ezin dira hemen aldatu."
+description = "PaperRing-ek kudeatutako direktorio hauek beti baimenduta daude eta ezin dira hemen aldatu."
 serverStorage = "Zerbitzariko fitxategi-biltegia"
 title = "Beti baimenduta"
 watchedFolder = "Pipelinearen zaindutako karpeta"
@@ -1390,7 +1390,7 @@ description = "Cookieen politikara doan URLa edo fitxategi-izena"
 label = "Cookieen politika"
 
 [admin.settings.legal.disclaimer]
-message = "Dokumentu legal hauek pertsonalizatuta, erantzukizun osoa hartzen duzu indarrean dauden lege eta araudi guztiekin bat etortzea bermatzeko, GDPR eta beste EBko datu-babes eskakizunak barne baina ez soilik. Ezarpen hauek soilik aldatu: (1) instantzia pertsonal/pribatua erabiltzen baduzu, (2) EBko jurisdikziotik kanpo bazaude eta zure betebehar legalak ulertzen badituzu, edo (3) aholku legal egokia eskuratu baduzu eta erabiltzaileen datu eta lege-betetze guztien erantzukizun esklusiboa onartzen baduzu. Stirling-PDF eta bere garatzaileek ez dute zure betebehar legalen erantzukizunik hartzen."
+message = "Dokumentu legal hauek pertsonalizatuta, erantzukizun osoa hartzen duzu indarrean dauden lege eta araudi guztiekin bat etortzea bermatzeko, GDPR eta beste EBko datu-babes eskakizunak barne baina ez soilik. Ezarpen hauek soilik aldatu: (1) instantzia pertsonal/pribatua erabiltzen baduzu, (2) EBko jurisdikziotik kanpo bazaude eta zure betebehar legalak ulertzen badituzu, edo (3) aholku legal egokia eskuratu baduzu eta erabiltzaileen datu eta lege-betetze guztien erantzukizun esklusiboa onartzen baduzu. PaperRing eta bere garatzaileek ez dute zure betebehar legalen erantzukizunik hartzen."
 title = "Erantzukizun legalaren abisua"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "SMTP autentifikaziorako erabiltzaile-izena"
 label = "SMTP erabiltzaile-izena"
 
 [admin.settings.mcp]
-apikeyNote = "Bezeroek Stirling API gako bat bidaltzen dute X-API-KEY goiburuan (edo Authorization: Bearer <key>). Gakoa dagokion Stirling erabiltzailearekin lotzen da: hornitutako kontuak bakarrik sartzen dira, eta ekintzak erabiltzaile horren izenean ikuskatzen dira. Kudeatu gakoak Kontua > API gakoak atalean."
-description = "Jarri Stirling-en PDF tresnak eta AI agenteak MCP bezeroen eskura, OAuth bidez babestutako endpoint baten bidez."
+apikeyNote = "Bezeroek PaperRing API gako bat bidaltzen dute X-API-KEY goiburuan (edo Authorization: Bearer <key>). Gakoa dagokion PaperRing erabiltzailearekin lotzen da: hornitutako kontuak bakarrik sartzen dira, eta ekintzak erabiltzaile horren izenean ikuskatzen dira. Kudeatu gakoak Kontua > API gakoak atalean."
+description = "Jarri PaperRing-en PDF tresnak eta AI agenteak MCP bezeroen eskura, OAuth bidez babestutako endpoint baten bidez."
 title = "MCP zerbitzaria"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "goiburu batean (edo Authorization: Bearer <key>). Ez da OAuth ed
 step4 = "Onartu saio-hasiera; bezeroak token batekin berriro saiatuko da. Tresnak taldekatuta agertuko dira: convert, pages, misc, security, ai."
 step4ApiKey = "Tresnak taldekatuta agertuko dira: convert, pages, misc, security, ai - eta dei bakoitza gakoaren jabearen izenean ikuskatuko da."
 tip = "Aholkua: erregistratu resource ID zure IdP-n baimendutako audience gisa. MCP Inspector eta Claude Desktop-ekin probatua."
-tipApiKey = "Aholkua: API-key moduak ez du kanpoko IdP-rik behar - errazena self-host-erako. Gakoa dagokion Stirling erabiltzailearekin lotzen da."
+tipApiKey = "Aholkua: API-key moduak ez du kanpoko IdP-rik behar - errazena self-host-erako. Gakoa dagokion PaperRing erabiltzailearekin lotzen da."
 title = "Konektatu MCP bezero bat"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (aukerakoa)"
 placeholder = "Jaulkitzailetik automatikoki aurkitua"
 
 [admin.settings.mcp.mode]
-apikey = "API gakoa (Stirling erabiltzaile bakoitzeko gakoa)"
-description = "OAuth-ek kanpoko IdP bat behar du. API gakoak Stirling-en erabiltzaile bakoitzeko API gako bat erabiltzen du (X-API-KEY) - errazena self-host-erako."
+apikey = "API gakoa (PaperRing erabiltzaile bakoitzeko gakoa)"
+description = "OAuth-ek kanpoko IdP bat behar du. API gakoak PaperRing-en erabiltzaile bakoitzeko API gako bat erabiltzen du (X-API-KEY) - errazena self-host-erako."
 label = "Autentifikazio modua"
 oauth = "OAuth 2.1 (kanpoko IdP)"
 
 [admin.settings.mcp.requireAccount]
-description = "Utzi tokenak pasatzen soilik haien subject-a hornitutako eta gaitutako Stirling erabiltzaile batekin bat badator."
-label = "Eskatu lehendik dagoen Stirling kontu bat"
+description = "Utzi tokenak pasatzen soilik haien subject-a hornitutako eta gaitutako PaperRing erabiltzaile batekin bat badator."
+label = "Eskatu lehendik dagoen PaperRing kontu bat"
 
 [admin.settings.mcp.resourceId]
 description = "Zerbitzari honen /mcp URL publikoa. Tokenek beren audience-an zerrendatu behar dute (RFC 8707), bestela baztertu egingo dira."
@@ -1540,7 +1540,7 @@ description = "Eskatu mcp.tools.read irakurketa-eragiketetarako eta mcp.tools.wr
 label = "Betearazi OAuth scopes"
 
 [admin.settings.mcp.usernameClaim]
-description = "Stirling erabiltzaile-izen batekin parekatutako JWT claim-a (adib. sub, email, preferred_username)."
+description = "PaperRing erabiltzaile-izen batekin parekatutako JWT claim-a (adib. sub, email, preferred_username)."
 label = "Erabiltzaile-izenaren claim-a"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "Gaituta dagoenean, zerrendatutako erabiltzaile IDek bakarrik erab
 label = "Baimendu erabiltzaile ID zehatzak"
 
 [admin.settings.telegram.enabled]
-description = "Baimendu erabiltzaileek Stirling PDFekin elkarreragitea konfiguratutako Telegram bot-aren bidez."
+description = "Baimendu erabiltzaileek PaperRingekin elkarreragitea konfiguratutako Telegram bot-aren bidez."
 label = "Gaitu Telegram bot-a"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "Hau da <strong>Ezarpenen panela</strong>. Administrazio-ezar
 systemCustomization = "UI pertsonalizatzeko modu ugari ditugu: <strong>Sistemaren ezarpenek</strong> aplikazioaren izena eta hizkuntzak aldatzea uzten dute, <strong>Ezaugarriek</strong> zerbitzariaren ziurtagirien kudeaketa ahalbidetzen dute, eta <strong>Endpoints</strong> atalak erabiltzaileentzako tresna zehatzak gaitu edo desgaitu ditzake."
 teamsAndUsers = "Kudeatu hemen <strong>Taldeak</strong> eta erabiltzaile indibidualak. Erabiltzaile berriak e-postaz, partekatzeko esteken bidez gonbidatu edo zuk zeuk kontu pertsonalizatuak sor ditzakezu."
 welcome = "Ongi etorri <strong>Administrazio-birara</strong>! Azter ditzagun sistema-administratzaileentzako ezaugarri eta ezarpen boteretsuak."
-wrapUp = "Hori izan da administratzailearen ibilbidea! Stirling PDF erakundeentzat irtenbide indartsu eta pertsonalizagarria bihurtzen duten enterprise eginbideak ikusi dituzu. Edozein unetan errepika dezakezu: ireki <strong>Ezarpenak</strong> eta bilatu hemen, Laguntza ataleko <strong>Ibilbideak</strong> sekzioan."
+wrapUp = "Hori izan da administratzailearen ibilbidea! PaperRing erakundeentzat irtenbide indartsu eta pertsonalizagarria bihurtzen duten enterprise eginbideak ikusi dituzu. Edozein unetan errepika dezakezu: ireki <strong>Ezarpenak</strong> eta bilatu hemen, Laguntza ataleko <strong>Ibilbideak</strong> sekzioan."
 
 [adminUserSettings]
 admin = "Admin"
 title = "Erabiltzailearen Ezarpenen Kontrolak"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "PaperRing"
 
 [alphabetOptions]
 arabic = "Arabiera"
@@ -1952,9 +1952,9 @@ thai = "Thailandiera"
 
 [analytics]
 learnMore = "Ikasi gehiago gure analitikari buruz"
-paragraph1 = "Stirling PDF-ek aukerazko analitika du produktua hobetzen laguntzeko. Ez dugu informazio pertsonalik edo fitxategien edukirik jarraitzen."
-paragraph2 = "Mesedez, kontuan hartu analitikak gaitzea Stirling-PDF hazten laguntzeko eta gure erabiltzaileak hobeto ulertzeko."
-title = "Stirling PDF hobetzen lagundu nahi duzu?"
+paragraph1 = "PaperRing-ek aukerazko analitika du produktua hobetzen laguntzeko. Ez dugu informazio pertsonalik edo fitxategien edukirik jarraitzen."
+paragraph2 = "Mesedez, kontuan hartu analitikak gaitzea PaperRing hazten laguntzeko eta gure erabiltzaileak hobeto ulertzeko."
+title = "PaperRing hobetzen lagundu nahi duzu?"
 
 [annotate]
 tags = "oharrak gehitu,nabarmendu,marraztu,markatu,iruzkina,oharrak,berrikusi,redline,feedback,markatze-tresnak,ohar itsaskorrak,formak,geziak,testu-koadroa,esku hutsez"
@@ -2902,9 +2902,9 @@ typeSignature = "Idatzi zure izena sinadura sortzeko"
 uploadCert = "Kargatu ziurtagiri bat"
 uploadCertDesc = "Erabili zeure PKCS12, PFX, PEM edo JKS ziurtagiria."
 uploadSignature = "Igo zure sinadura-irudia"
-usePersonalCert = "Stirling Sign · Pertsonala"
+usePersonalCert = "PaperRing Sign · Pertsonala"
 usePersonalCertDesc = "Sinatu zure konturako sortutako ziurtagiriarekin."
-useServerCert = "Stirling Sign · Erakundea"
+useServerCert = "PaperRing Sign · Erakundea"
 useServerCertDesc = "Sinatu zerbitzari honen erakundearen ziurtagiri partekatuarekin."
 useSignature = "Erabili sinadura"
 
@@ -3224,10 +3224,10 @@ text = "Egin galdera bat zure dokumentuei buruz edo lortu laguntza PDF tresnekin
 
 [chat.fab]
 close = "Itxi txata"
-open = "Ireki Stirling AI laguntzailea"
+open = "Ireki PaperRing AI laguntzailea"
 
 [chat.header]
-agentMenu = "Stirling agentearen aukerak"
+agentMenu = "PaperRing agentearen aukerak"
 assistant = "AI laguntzailea"
 clearChat = "Garbitu txata"
 
@@ -3587,9 +3587,9 @@ label = "Dokumentuak motaren arabera: {{summary}}"
 noTypes = "Dokumentu hauek ez datoz bat mota ezagun batekin."
 
 [classificationDemo.defaultApp]
-body = "Egin Stirling zure PDF aplikazio lehenetsia. Irekitzen duzun PDF oro, email-etik, nabigatzailetik edo mahaigainetik, hemen agertuko da, irakurtzeko edo editatzeko prest. Hau edozein unetan alda dezakezu Ezarpenetan."
-cta = "Egin Stirling nire lehenetsi"
-title = "Ireki PDF guztiak Stirling-en"
+body = "Egin PaperRing zure PDF aplikazio lehenetsia. Irekitzen duzun PDF oro, email-etik, nabigatzailetik edo mahaigainetik, hemen agertuko da, irakurtzeko edo editatzeko prest. Hau edozein unetan alda dezakezu Ezarpenetan."
+cta = "Egin PaperRing nire lehenetsi"
+title = "Ireki PDF guztiak PaperRing-en"
 
 [classificationDemo.followUp]
 background = "Hau atzeko planoan exekutatzen da. Ezkerreko eraztunak aurrerapena erakusten du."
@@ -3604,7 +3604,7 @@ other = "Besteak"
 body = "Sailkatu eta antolatu Deskargak karpetako azken {{count}} PDFak motaren arabera."
 cta = "Prozesatu nire Deskargak karpeta"
 privacy = "Zure PDFak gailu honetan geratzen dira. Konektatutako zerbitzariak prozesatze-erabilera erregistratzen du."
-title = "Ikusi Stirling-ek zer egin dezakeen karpeta oso batekin"
+title = "Ikusi PaperRing-ek zer egin dezakeen karpeta oso batekin"
 
 [classificationDemo.phase]
 finishing = "Amaitzen..."
@@ -3618,10 +3618,10 @@ counts = "{{total}} PDFetatik prozesatuta"
 [classificationDemo.results]
 documentCount_one = "{{count}} PDF"
 documentCount_other = "{{count}} PDF"
-failedBody = "Stirling-ek ezin izan du zure Deskargak karpeta irakurri. Zure ordenagailuan ez da ezer aldatu."
+failedBody = "PaperRing-ek ezin izan du zure Deskargak karpeta irakurri. Zure ordenagailuan ez da ezer aldatu."
 failedTitle = "Hori ez da amaitu"
 heading = "Zure Deskargak, ordenatuta"
-summary = "Stirling-ek {{documents}} irakurri eta {{types}} motatan sailkatu ditu."
+summary = "PaperRing-ek {{documents}} irakurri eta {{types}} motatan sailkatu ditu."
 typeCount_one = "{{count}} mota"
 typeCount_other = "{{count}} mota"
 
@@ -3948,13 +3948,13 @@ upgradeButton = "Bertsio-berritu kontua"
 [config.apiKeys]
 copyKeyAriaLabel = "API gakoa kopiatu"
 description = "Stirlingen PDF tresna-multzora sartzeko zure API gakoa. Kopiatu zure proiektuara edo berritu berri bat sortzeko."
-docsDescription = "Ikasi gehiago Stirling PDFrekin integrazioari buruz:"
+docsDescription = "Ikasi gehiago PaperRingrekin integrazioari buruz:"
 docsLink = "API dokumentazioa"
 docsTitle = "API dokumentazioa"
 generateError = "Ezin izan dugu zure API gakoa sortu."
 goToAccount = "Joan kontura"
 guestInfo = "Gonbidatu erabiltzaileek ez dute API gakorik jasotzen. Sortu kontu bat zure aplikazioetan erabil dezakezun API gakoa lortzeko."
-intro = "Erabili zure API gakoa Stirling PDFren prozesatzeko gaitasunetara programatikoki sartzeko."
+intro = "Erabili zure API gakoa PaperRingren prozesatzeko gaitasunetara programatikoki sartzeko."
 label = "API gakoa"
 publicKeyAriaLabel = "API gako publikoa"
 refreshAriaLabel = "API gakoa berritu"
@@ -3978,10 +3978,10 @@ title = "API gakoak berritu"
 warning = "⚠️ Abisua: Ekintza honek API gako berriak sortuko ditu eta aurreko gakoak baliogabe utziko ditu."
 
 [config.mcp]
-description = "Model Context Protocol (MCP)-ek Claude bezalako AI laguntzaileei zure Stirling PDF tresnak zuzenean erabiltzeko aukera ematen die. Konektatu bezero bat behin, eta zure laguntzaileak dokumentuak bihurtu, editatu, babestu eta prozesatu ahal izango ditu zure izenean."
-guestInfo = "Gonbidatuek ezin dituzte MCP bezeroak konektatu. Sortu kontu bat MCP zerbitzaria erabiltzeko eta zure AI laguntzaileari Stirling PDF tresnak zure izenean exekutatzen uzteko."
+description = "Model Context Protocol (MCP)-ek Claude bezalako AI laguntzaileei zure PaperRing tresnak zuzenean erabiltzeko aukera ematen die. Konektatu bezero bat behin, eta zure laguntzaileak dokumentuak bihurtu, editatu, babestu eta prozesatu ahal izango ditu zure izenean."
+guestInfo = "Gonbidatuek ezin dituzte MCP bezeroak konektatu. Sortu kontu bat MCP zerbitzaria erabiltzeko eta zure AI laguntzaileari PaperRing tresnak zure izenean exekutatzen uzteko."
 navLabel = "MCP zerbitzaria"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using PaperRing directly."
 viewApiKeys = "Ikusi API gakoak"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "Zure MCP endpoint-a"
 
 [config.mcp.setup]
 addTo = "Gehitu hona"
-hint = "Aukeratu zure bezeroa, itsatsi zatia erakutsitako fitxategian, eta berrabiarazi. Lehen erabileran zure Stirling kontuarekin hasiko duzu saioa - ez dago kopiatzeko gakorik."
+hint = "Aukeratu zure bezeroa, itsatsi zatia erakutsitako fitxategian, eta berrabiarazi. Lehen erabileran zure PaperRing kontuarekin hasiko duzu saioa - ez dago kopiatzeko gakorik."
 title = "Konektatu zure AI laguntzailea"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "{{current}}. urratsa {{total}}tik"
 [connect.confirm]
 acknowledge = "Helbide hau ezagutzen dut eta nire taldearekin konektatu nahi dut"
 approve = "Konektatu zerbitzaria"
-cannotDecide = "Taldearen jabeak bakarrik onar edo bazter dezake konexio hau. Erabili beste kontu bat edo baztertu ohar hau Stirling erabiltzen jarraitzeko."
+cannotDecide = "Taldearen jabeak bakarrik onar edo bazter dezake konexio hau. Erabili beste kontu bat edo baztertu ohar hau PaperRing erabiltzen jarraitzeko."
 deny = "Baztertu"
 dismiss = "Itxi"
-lead = "Stirling zerbitzari batek zure taldearekin konektatzeko eskatzen du. Onartu aurretik, egiaztatu beheko helbidea zurea dela."
+lead = "PaperRing zerbitzari batek zure taldearekin konektatzeko eskatzen du. Onartu aurretik, egiaztatu beheko helbidea zurea dela."
 originLabel = "Helbidea"
 signedInAs = "Honela saioa hasita"
 switchAccount = "Erabili beste kontu bat"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "Aukeratu lehenik jatorri-formatu bat"
 settings = "Ezarpenak"
 single = "Bakarra"
 sourceFormatPlaceholder = "Iturburu formatua"
-stirlingOfficeConvert = "Erabili Stirling Office Convert (beta)"
+stirlingOfficeConvert = "Erabili PaperRing Office Convert (beta)"
 stirlingOfficeConvertDescription = "Bihurketa hobeak eta azkarragoak, memoria gutxiagorekin. Desaktibatu bihurgailu estandarra erabiltzeko."
 strictMode = "Modu zorrotza"
 strictModeDesc = "Errorea bihurketa perfektua ez bada (VeraPDF egiaztapena erabiltzen du)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "Kudeatu hobespenak"
 title = "Cookieak nola erabiltzen ditugu"
 
 [cookieBanner.popUp.description]
-1 = "Cookieak eta beste teknologia batzuk erabiltzen ditugu Stirling PDF zuretzat hobeto funtziona dezan, gure tresnak hobetzen eta gustatuko zaizkizun eginbideak eraikitzen jarraitzen lagunduz."
+1 = "Cookieak eta beste teknologia batzuk erabiltzen ditugu PaperRing zuretzat hobeto funtziona dezan, gure tresnak hobetzen eta gustatuko zaizkizun eginbideak eraikitzen jarraitzen lagunduz."
 2 = "Nahiago ez baduzu, 'Ez, eskerrik asko' sakatzeak gauzak ondo funtzionatzen mantentzeko beharrezko cookieak bakarrik gaituko ditu."
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "Cookieen erabilera"
 title = "Baimen-hobespenen zentroa"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Cookie hauek gure tresnak nola erabiltzen diren ulertzen laguntzen digute, gure komunitateak gehien baloratzen dituen eginbideak eraikitzen zentratzeko. Lasai: Stirling PDF-ek ezin du eta ez du inoiz jarraituko lantzen dituzun dokumentuen edukia."
+description = "Cookie hauek gure tresnak nola erabiltzen diren ulertzen laguntzen digute, gure komunitateak gehien baloratzen dituen eginbideak eraikitzen zentratzeko. Lasai: PaperRing-ek ezin du eta ez du inoiz jarraituko lantzen dituzun dokumentuen edukia."
 title = "Analitika"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDFk cookieak eta antzeko teknologiak erabiltzen ditu zure esperientzia hobetzeko eta gure tresnak nola erabiltzen diren ulertzeko. Honek errendimendua hobetzen eta axola zaizkizun ezaugarriak garatzen laguntzen digu, eta erabiltzaileei etengabeko laguntza ematen die."
-2 = "Stirling PDF-ek ezin du, eta ez du inoiz, erabiltzen dituzun dokumentuen edukia jarraitu edo atzitu."
+1 = "PaperRingk cookieak eta antzeko teknologiak erabiltzen ditu zure esperientzia hobetzeko eta gure tresnak nola erabiltzen diren ulertzeko. Honek errendimendua hobetzen eta axola zaizkizun ezaugarriak garatzen laguntzen digu, eta erabiltzaileei etengabeko laguntza ematen die."
+2 = "PaperRing-ek ezin du, eta ez du inoiz, erabiltzen dituzun dokumentuen edukia jarraitu edo atzitu."
 3 = "Zure pribatutasuna eta konfiantza gure lanaren muinean daude."
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "Ezin izan da PDF kudeatzaile lehenetsia ezarri"
 title = "Errorea"
 
 [defaultApp.settingsOpened]
-message = "Windows ezarpenetan, bilatu 'PDF' eta hautatu Stirling PDF zure aplikazio lehenetsi gisa"
+message = "Windows ezarpenetan, bilatu 'PDF' eta hautatu PaperRing zure aplikazio lehenetsi gisa"
 title = "Ezarpenak ireki dira"
 
 [defaultApp.success]
-message = "Stirling PDF orain zure PDF editore lehenetsia da"
+message = "PaperRing orain zure PDF editore lehenetsia da"
 title = "Aplikazio lehenetsia ezarrita"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "Minimizatu"
 restore = "Leheneratu"
 
 [desktopBilling]
-description = "Kudeatu erabilera eta fakturazioa zure nabigatzailean. Hasi saioa hemen erabiltzen duzun Stirling kontu berarekin."
+description = "Kudeatu erabilera eta fakturazioa zure nabigatzailean. Hasi saioa hemen erabiltzen duzun PaperRing kontu berarekin."
 open = "Ireki Erabilera eta fakturazioa nabigatzailean"
 openFailed = "Ezin izan da Erabilera eta fakturazioa ireki. Egiaztatu konexioa eta saiatu berriro."
 selfHostedDescription = "Kudeatu erabilera eta fakturazioa konektatutako zerbitzarian zure nabigatzailean. Hasi saioa zerbitzariaren jabearen kontuarekin."
@@ -4377,7 +4377,7 @@ updateFailedMessage = "Ezin izan da eguneratzea deskargatu edo instalatu."
 
 [desktopUpdate.blocked]
 docsLink = "Ikusi instalazioaren dokumentazioa"
-message = "Stirling-PDFk ez du baimenik makina honetan bere burua eguneratzeko."
+message = "PaperRingk ez du baimenik makina honetan bere burua eguneratzeko."
 title = "Administratzaile-baimenak behar dira"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "Berrizendatu"
 title = "Berrizendatu fitxategia"
 
 [filesPage]
-addedToLibrary = "Stirling liburutegian gehituta"
-addingToLibrary = "Stirling liburutegian gehitzen…"
-addToLibrary = "Gehitu Stirling liburutegian…"
+addedToLibrary = "PaperRing liburutegian gehituta"
+addingToLibrary = "PaperRing liburutegian gehitzen…"
+addToLibrary = "Gehitu PaperRing liburutegian…"
 addToLibraryFailed = "Fitxategi batzuk ezin izan dira gehitu"
 addToWorkspace = "Gehitu lan-eremura"
 addToWorkspaceCount = "Gehitu {{count}} lan-eremura"
-allFiles = "Stirling liburutegia"
+allFiles = "PaperRing liburutegia"
 back = "Atzera"
 backToFolder = "Itzuli hona: {{folder}}"
 backToMyFiles = "Itzuli fitxategi-liburutegira"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "Ezabatu baita karpetaren barruko {{count}} fitxategi
 deleteFolderContents_other = "Ezabatu baita karpetaren barruko {{count}} fitxategiak ere"
 deleteFolderContentsWarning = "Fitxategiak betiko ezabatuko dira eta ezin izango dira berreskuratu."
 deleteFolderError = "Ezin izan da karpeta ezabatu. Saiatu berriro."
-deleteFolderKeepHint = "Barruko fitxategiak Stirling liburutegira eramango dira."
+deleteFolderKeepHint = "Barruko fitxategiak PaperRing liburutegira eramango dira."
 deleteFolderTitle = "Karpeta ezabatu?"
 deselectAll = "Garbitu hautapena"
 details = "Xehetasunak"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "{{count}} fitxategi ezin izan dira zerbitzarian mugit
 moveTo = "Eraman hona…"
 newFolder = "Karpeta berria"
 newFolderStorageDisabled = "Zerbitzariko karpeta-biltegiratzea ez dago gaituta."
-newFolderTabUnavailable = "Aldatu Stirling liburutegira karpetak sortzeko."
+newFolderTabUnavailable = "Aldatu PaperRing liburutegira karpetak sortzeko."
 offlineNoFolderEdits = "Zerbitzariaren karpeten sinkronizazioa ez dago erabilgarri - karpeten aldaketak desgaituta daude. Egiaztatu saio-hasiera eta biltegiratzearen konfigurazioa."
 open = "Ireki"
 openVersionInWorkspace = "Ireki lan-eremuan"
@@ -5036,7 +5036,7 @@ placeholder = "Karpetaren izena"
 
 [filesPage.folderOrigin]
 diskHint = "Zure diskoko direktorio batetik muntatutako karpeta"
-serverHint = "Stirling zerbitzarian gordetako karpeta"
+serverHint = "PaperRing zerbitzarian gordetako karpeta"
 virtualHint = "Arakatzaile honetan bakarrik dagoen karpeta"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "Zure kontuarekin sinkronizatuta, saioa hasten duzun edonon erabilg
 [filesPage.origin]
 all = "Jatorri guztiak"
 cloud = "Hodeia"
-cloudHint = "Stirling zerbitzarian gordeta"
+cloudHint = "PaperRing zerbitzarian gordeta"
 diskFileHint = "Zure ordenagailuan gordeta"
 diskHint = "Zure diskoko muntatutako karpetako fitxategia"
 local = "Tokikoa"
@@ -5474,7 +5474,7 @@ invisible = "Ikusezina (metadatuak soilik)"
 location = "Kokapena:"
 logo = "Logotipoa:"
 logoHidden = "Logotiporik ez"
-logoShown = "Stirling PDF logotipoa erakusten da"
+logoShown = "PaperRing logotipoa erakusten da"
 participantCount_one = "{{count}} parte-hartzaile hautatuta"
 participantCount_other = "{{count}} parte-hartzaile hautatuta"
 participants = "Parte-hartzaileak"
@@ -5525,7 +5525,7 @@ title = "Edozein ordenatan sinatzea"
 dismiss = "Baztertu pankarta"
 message = "Sortu doako kontu bat zure lana gordetzeko, ezaugarri gehiago eskuratzeko eta proiektua babesteko."
 signUp = "Izena eman doan"
-title = "Stirling PDF gonbidatu gisa erabiltzen ari zara!"
+title = "PaperRing gonbidatu gisa erabiltzen ari zara!"
 
 [home.addAttachments]
 desc = "Ikusi, gehitu, atera, berrizendatu edo ezabatu PDF eranskin txertatuak"
@@ -5704,7 +5704,7 @@ tags = "konbinatu,elkartu,batu,bateratu,bateratu PDFak,konbinatu PDFak,elkartu P
 title = "Elkartu"
 
 [home.mobile]
-brandAlt = "Stirling PDF logotipoa"
+brandAlt = "PaperRing logotipoa"
 openFiles = "Ireki fitxategiak"
 swipeHint = "Egin hatz-keinua ezkerrera edo eskuinera ikuspegiak aldatzeko"
 tools = "Tresnak"
@@ -5743,7 +5743,7 @@ tags = "antolatu,berrantolatu,berordenatu,antolatu orriak,ordenatu,mugitu orriak
 title = "Antolatzailea"
 
 [home.pdfTextEditor]
-desc = "Berrikusi eta editatu Stirling PDF JSON esportazioak taldekatutako testu-edizioarekin eta PDF birsorkuntzarekin"
+desc = "Berrikusi eta editatu PaperRing JSON esportazioak taldekatutako testu-edizioarekin eta PDF birsorkuntzarekin"
 tags = "editatu testua,aldatu testua,aldatu testua,editatu edukia,eguneratu testua,berridatzi,zuzendu,emendatu,redline,berrikusi,testu-editorea,eduki-editorea"
 title = "PDF testu-editorea"
 
@@ -5921,7 +5921,7 @@ passwordRequired = "Pasahitza beharrezkoa da"
 signIn = "Hasi saioa"
 validating = "Gonbidapena baliozkotzen..."
 validationError = "Ezin izan da gonbidapen-esteka baliozkotu"
-welcome = "Ongi etorri Stirling PDFra"
+welcome = "Ongi etorri PaperRingra"
 welcomeSubtitle = "Amaitu zure kontuaren konfigurazioa hasteko"
 welcomeTitle = "Gonbidapena jaso duzu!"
 
@@ -6209,7 +6209,7 @@ message = "Autentifikazioa ez da ongi burutu. Leiho hau itxi eta saiatu berriro.
 title = "Autentifikazioak huts egin du"
 
 [oauth.success]
-message = "Leiho hau itxi eta Stirling PDF-era itzul zaitezke."
+message = "Leiho hau itxi eta PaperRing-era itzul zaitezke."
 title = "Autentifikazioa ongi burutu da"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Aplikaziora itzultzen..."
-requesting = "{{app}} aplikazioak zure Stirling PDF kontura sartu nahi du"
+requesting = "{{app}} aplikazioak zure PaperRing kontura sartu nahi du"
 scopesIntro = "Honek {{app}} aplikazioari hau egiteko aukera emango dio:"
 signedInAs = "{{name}} gisa saioa hasita"
 signInButton = "Hasi saioa jarraitzeko"
-signInPrompt = "Hasi saioa zure Stirling PDF kontuan aplikazioa konektatzen jarraitzeko."
+signInPrompt = "Hasi saioa zure PaperRing kontuan aplikazioa konektatzen jarraitzeko."
 title = "Authorise access"
 unknownApp = "Hirugarrenen aplikazio bat"
 
 [oauthConsent.access]
 actAsYou = "Zure izenean jardun - {{app}} aplikazioak egiten duen guztia zure kontuaren pean exekutatzen da eta zure erabileran zenbatzen da"
-tools = "Erabili zure Stirling PDF tresnak zure izenean - bihurtu, editatu, sinatu, babestu eta prozesatu zure dokumentuak"
+tools = "Erabili zure PaperRing tresnak zure izenean - bihurtu, editatu, sinatu, babestu eta prozesatu zure dokumentuak"
 
 [oauthConsent.scope]
 email = "Ikusi zure email helbidea"
@@ -6362,26 +6362,26 @@ skipTheTour = "Utzi bisita gidatua"
 
 [onboarding.checklist]
 dismiss = "Baztertu"
-title = "Konfiguratu Stirling PDF"
+title = "Konfiguratu PaperRing"
 
 [onboarding.checklist.downloadDesktop]
-description = "Exekutatu Stirling modu natiboan zure makinan"
-title = "Deskargatu Stirling mahaigainerako"
+description = "Exekutatu PaperRing modu natiboan zure makinan"
+title = "Deskargatu PaperRing mahaigainerako"
 
 [onboarding.checklist.inviteTeam]
 description = "Kolaboratu zure taldearekin"
 title = "Gonbidatu taldeko kideak"
 
 [onboarding.checklist.setDefaultApp]
-description = "Ireki PDF fitxategiak Stirling PDF-n"
-title = "Ezarri Stirling lehenetsi gisa"
+description = "Ireki PDF fitxategiak PaperRing-n"
+title = "Ezarri PaperRing lehenetsi gisa"
 
 [onboarding.checklist.takeTour]
-description = "Ikusi Stirling nola dabilen ibilbide azkar batean"
+description = "Ikusi PaperRing nola dabilen ibilbide azkar batean"
 title = "Egin ibilbidea"
 
 [onboarding.desktopInstall]
-body = "Stirling hobekien funtzionatzen du mahaigaineko aplikazio gisa. Offline erabil dezakezu, dokumentuak azkarrago atzitu, eta editatu tokian bertan zure ordenagailuan."
+body = "PaperRing hobekien funtzionatzen du mahaigaineko aplikazio gisa. Offline erabil dezakezu, dokumentuak azkarrago atzitu, eta editatu tokian bertan zure ordenagailuan."
 selectOs = "Hautatu sistema eragilea"
 title = "Deskargatu"
 titleWithOs = "Deskargatu {{osLabel}}-rako"
@@ -6389,7 +6389,7 @@ titleWithOs = "Deskargatu {{osLabel}}-rako"
 [onboarding.desktopWelcome]
 body = "Aldaketa berri ugari daude arakatzeko, besteak beste <strong>Agent Chat</strong>, dokumentuen <strong>sailkapen</strong> automatikoa eta gehiago."
 freeLine = "Editorea orain <free>erabat doakoa</free> da."
-title = "Ongi etorri Stirling <product>Desktop</product>era"
+title = "Ongi etorri PaperRing <product>Desktop</product>era"
 
 [onboarding.mfa]
 authenticationCode = "Autentifikazio-kodea"
@@ -6410,16 +6410,16 @@ success = "MFA gaituta dago. Orain jarrai dezakezu."
 title = "Faktore anitzeko autentifikazioaren konfigurazioa"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "Saio-hasiera modua gaitzen duzunean, erabiltzaileak kudeatu, ezarpenak konfiguratu eta zerbitzariaren osasuna monitorizatu ahal izango dituzu. Zure zerbitzariko lehen <strong>{{freeTierLimit}}</strong> pertsonek doan erabil dezakete Stirling."
-adminBodyLoginEnabled = "Admin gisa, erabiltzaileak kudeatu, ezarpenak konfiguratu eta zerbitzariaren osasuna monitorizatu ditzakezu. Zure zerbitzariko lehen <strong>{{freeTierLimit}}</strong> pertsonak doan erabil dezakete Stirling."
+adminBodyLoginDisabled = "Saio-hasiera modua gaitzen duzunean, erabiltzaileak kudeatu, ezarpenak konfiguratu eta zerbitzariaren osasuna monitorizatu ahal izango dituzu. Zure zerbitzariko lehen <strong>{{freeTierLimit}}</strong> pertsonek doan erabil dezakete PaperRing."
+adminBodyLoginEnabled = "Admin gisa, erabiltzaileak kudeatu, ezarpenak konfiguratu eta zerbitzariaren osasuna monitorizatu ditzakezu. Zure zerbitzariko lehen <strong>{{freeTierLimit}}</strong> pertsonak doan erabil dezakete PaperRing."
 adminTitle = "Admin ikuspegi orokorra"
 userBody = "Gonbidatu taldekideak, esleitu rolak eta mantendu dokumentuak antolatuta lan-espazio seguruan. Gaitu saio-hasiera modua bakarkako erabileratik harago hazteko prest zaudenean."
 userTitle = "Planaren ikuspegi orokorra"
 
 [onboarding.processorIntro]
-body = "Stirling-ek orain <strong>Politikak</strong> exekutatzen ditu — dokumentu bakoitza iristen denean sailkatu, babestu eta prozesatzen duten arau automatizatuak. Konfiguratu eta monitorizatu exekuzioak <strong>Processor</strong>-en."
+body = "PaperRing-ek orain <strong>Politikak</strong> exekutatzen ditu — dokumentu bakoitza iristen denean sailkatu, babestu eta prozesatzen duten arau automatizatuak. Konfiguratu eta monitorizatu exekuzioak <strong>Processor</strong>-en."
 cta = "Ikusi Processor"
-title = "Ikusi Stirling Processor"
+title = "Ikusi PaperRing Processor"
 
 [onboarding.saas.freeEditor]
 freeLine = "Editorea orain <free>erabat doakoa</free> da."
@@ -6447,17 +6447,17 @@ title = "Segurtasun-egiaztapena"
 [onboarding.serverLicense]
 freeBody = "Gure <strong>Open-Core</strong> lizentziak <strong>OAuth SSO</strong> eta gehienez <strong>{{freeTierLimit}}</strong> erabiltzaile barne hartzen ditu doan. Etenik gabe hazteko, Stirling Team plana gomendatzen dugu — <strong>100 erabiltzaile</strong> hilean 99 $-ren truke."
 freeTitle = "Team plana"
-overLimitBody = "Gure lizentziak gehienez <strong>{{freeTierLimit}}</strong> erabiltzaile baimentzen ditu doan. <strong>{{overLimitUserCopy}}</strong> Stirling erabiltzaile dituzu. Etenik gabe jarraitzeko, eguneratu Stirling Team planera - <strong>100 erabiltzaile</strong>, PDF testu-edizioa eta administrazio-kontrol osoa $99/mo truke."
+overLimitBody = "Gure lizentziak gehienez <strong>{{freeTierLimit}}</strong> erabiltzaile baimentzen ditu doan. <strong>{{overLimitUserCopy}}</strong> PaperRing erabiltzaile dituzu. Etenik gabe jarraitzeko, eguneratu Stirling Team planera - <strong>100 erabiltzaile</strong>, PDF testu-edizioa eta administrazio-kontrol osoa $99/mo truke."
 overLimitTitle = "Team plana behar da"
 seePlans = "Ikusi planak →"
 upgrade = "Eguneratu orain →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2k dozenaka tresna eta diseinu berritua dakartza. Egin ibilbide azkar bat aldaketak eta behar dituzun funtzioak non dauden ikusteko."
+body = "PaperRing V2k dozenaka tresna eta diseinu berritua dakartza. Egin ibilbide azkar bat aldaketak eta behar dituzun funtzioak non dauden ikusteko."
 title = "Ibilbidearen ikuspegi orokorra"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF orain tamaina guztietako taldeentzat prest dago. Eguneratze honek diseinu berria, admin gaitasun indartsu berriak, eta eskatuen izan den eginbidea dakar - <strong>Testua editatu</strong>."
+body = "PaperRing orain tamaina guztietako taldeentzat prest dago. Eguneratze honek diseinu berria, admin gaitasun indartsu berriak, eta eskatuen izan den eginbidea dakar - <strong>Testua editatu</strong>."
 title = "Ongi etorri Stirlingera"
 
 [onboarding.whatsNew]
@@ -6545,7 +6545,7 @@ check = "Egiaztatu berriro"
 checkAccount = "Egiaztatu kontua"
 chooseEmail = "Hautatu haien kontua {{team}} taldean, edo sartu email bat gonbidatzeko."
 close = "Itxi transferentzia-elkarrizketa"
-cloudAccount = "Stirling kontua"
+cloudAccount = "PaperRing kontua"
 cloudScopeStyled = "<user>{{name}}</user> erabiltzaileak {{team}}, haren kideak eta fakturazioa kudeatuko ditu."
 cloudTargetChanged = "Hautatu beste hodeiko kide bat. Kontu hau jada ez da egokia eskualdaketarako."
 confirm = "Ulertzen ditut sarbide- eta jabetza-aldaketak."
@@ -6560,7 +6560,7 @@ inviteAddress = "Gonbidatu <account>{{email}}</account> {{team}} taldera."
 inviteBlocked = "Ezin izan da gonbidapena bidali. Egiaztatu taldeko eserleku erabilgarriak eta hartzaileak dagoeneko ordainpeko harpidetzarik duen."
 linkChanged = "Zerbitzariaren hodeiko esteka aldatu da. Eskatu zerbitzariaren operadoreari jatorrizko esteka leheneratzeko jarraitu aurretik."
 linkedServerCount = "{{count}} zerbitzari lotu"
-linkRevoked = "Zerbitzari honen hodeiko esteka jada ez da baliozkoa. Utzi transferentzia, eta gero berriro konektatu zure Stirling kontua ezarpenetan. Jabetza ez da aldatuko."
+linkRevoked = "Zerbitzari honen hodeiko esteka jada ez da baliozkoa. Utzi transferentzia, eta gero berriro konektatu zure PaperRing kontua ezarpenetan. Jabetza ez da aldatuko."
 localScope = "Zerbitzari honen jabe izango dira eta fakturazioa eta hodeiko konexioak kudeatuko dituzte. Administratzaile-sarbidea mantenduko duzu, baina ezarpen horietarako sarbidea galduko duzu."
 membershipDetails = "Taldeko kidetzaren xehetasunak"
 membershipFirst = "Taldean sartu behar dute transferentzia berretsi ahal izan aurretik."
@@ -6872,7 +6872,7 @@ benefit1Body = "kateatu tresnak, programatu exekuzioak, prozesatu batch moduan"
 benefit1Title = "Automatizazio-pipelineak"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "AI tresnak"
-benefit3Body = "deitu programatikoki edozein Stirling endpoint-i"
+benefit3Body = "deitu programatikoki edozein PaperRing endpoint-i"
 benefit3Title = "API sarbidea"
 button = "Aktibatu Processor →"
 reassurance = "Gutxienekorik ez · Ezarri $0-ko muga probatzeko · Utzi edozein unetan"
@@ -7010,7 +7010,7 @@ title = "Gehitu zure ordainketa-metodoa"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "AI tresnak"
-apiBody = "edozein Stirling endpoint-era sarbide programatikoa"
+apiBody = "edozein PaperRing endpoint-era sarbide programatikoa"
 apiTitle = "API deiak"
 automationBody = "klikik behar ez duten tresna kateatuak edo programatutako exekuzioak"
 automationTitle = "Automatizazio-pipelineak"
@@ -7870,7 +7870,7 @@ connectDescription = "Konektatu zerbitzari hau zure taldearen prozesatze-muga St
 disconnectBody = "Zerbitzari honek zure taldearen prozesatze-muga Stirling Cloud-en erabiltzeari utziko dio. Zure fitxategi lokalak zerbitzari honetan geratuko dira. Berriro konektatzeko, jarraitu jatorrizko konexio-urratsak."
 disconnectTitle = "Deskonektatu instantzia hau?"
 eyebrow = "Instantzia hau"
-linkButton = "Konektatu zure Stirling kontua"
+linkButton = "Konektatu zure PaperRing kontua"
 loading = "Kontu-konexioa egiaztatzen"
 notLinked = "Konektatu gabe"
 signedInAs = "Stirling Cloud-en saioa hasita honela"
@@ -7886,14 +7886,14 @@ description = "Eskatu zure zerbitzari-administratzaileari Stirling Cloud-erako k
 title = "Kontu-konexioa ez dago erabilgarri"
 
 [portal.accountLink.connect]
-adminRequired = "Eskatu zure zerbitzari-administratzaileari Erabilera eta fakturazioa irekitzeko eta Stirling kontu bat lotzeko hileko kreditu gehiago lortzeko. Eskuzko PDF tresnak erabilgarri daude oraindik."
+adminRequired = "Eskatu zure zerbitzari-administratzaileari Erabilera eta fakturazioa irekitzeko eta PaperRing kontu bat lotzeko hileko kreditu gehiago lortzeko. Eskuzko PDF tresnak erabilgarri daude oraindik."
 adminTitle = "Eskatu zure zerbitzari-administratzaileari"
 close = "Itxi"
 copied = "Kopiatuta"
 copyAdminMessage = "Kopiatu mezua administratzailearentzat"
-exhaustedLede = "Zerbitzari honek hileko doako kredituak erabili ditu. Lotu Stirling kontu berri edo lehendik dagoen bat zure taldearen hileko mugara sartzeko."
+exhaustedLede = "Zerbitzari honek hileko doako kredituak erabili ditu. Lotu PaperRing kontu berri edo lehendik dagoen bat zure taldearen hileko mugara sartzeko."
 notNow = "Orain ez"
-start = "Konektatu Stirling kontua"
+start = "Konektatu PaperRing kontua"
 step = "{{current}} / {{total}} urratsa"
 
 [portal.accountLink.connect.benefits]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "Geratzen diren doako kredituak"
 creditsSuffix = "{{allowance}} doako kreditutik geratzen dira"
 cta = "Eginda"
 inviteTeam = "Gonbidatu zure taldea"
-lede = "Zerbitzari hau zure Stirling kontuarekin dabil orain."
+lede = "Zerbitzari hau zure PaperRing kontuarekin dabil orain."
 pendingTitle = "Ia prest"
 switchOnProcessor = "Aktibatu Processor"
 title = "Konektatuta"
 
 [portal.accountLink.connect.handoff]
-opening = "Stirling saio-hasiera irekitzen..."
-reauthLede = "Zure Stirling saioa iraungi da. Berriro saioa hasiz, erabilera eta fakturazioa ikusgai mantentzen dira. Zerbitzari honek konektatuta jarraituko du nolanahi ere."
+opening = "PaperRing saio-hasiera irekitzen..."
+reauthLede = "Zure PaperRing saioa iraungi da. Berriro saioa hasiz, erabilera eta fakturazioa ikusgai mantentzen dira. Zerbitzari honek konektatuta jarraituko du nolanahi ere."
 title = "Konektatzen"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "Zerbitzari honen konfiguratutako frontend helbidea ez dator 
 cancel = "Utzi"
 continueReauth = "Hasi saioa berriro"
 exhaustedTitle = "Mantendu zure lan-fluxuak martxan"
-identity = "Stirling kontua"
-linkTitle = "Konektatu zure Stirling kontua"
-noAuthorizeUrl = "Stirling-ek ez du jarraitzeko tokirik itzuli. Saiatu berriro une batean."
-startFailed = "Ezin izan da Stirling-era iritsi konexioa hasteko. Egiaztatu zerbitzari honen kanporako sare-sarbidea, eta saiatu berriro."
+identity = "PaperRing kontua"
+linkTitle = "Konektatu zure PaperRing kontua"
+noAuthorizeUrl = "PaperRing-ek ez du jarraitzeko tokirik itzuli. Saiatu berriro une batean."
+startFailed = "Ezin izan da PaperRing-era iritsi konexioa hasteko. Egiaztatu zerbitzari honen kanporako sare-sarbidea, eta saiatu berriro."
 transferPending = "Jabetza-transferentzia bat zain dago. Joan Ezarpenak → Erabiltzaileak atalera amaitzeko edo bertan behera uzteko, eta gero saiatu berriro lotzen."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "zerbitzari honek itzultzen zarenean konexioa amaitu dezan."
 and = "eta"
 before = "Ezarri"
-title = "Stirling konexioa ez dago konfiguratuta"
+title = "PaperRing konexioa ez dago konfiguratuta"
 
 [portal.accountLink.notice]
 openFailed = "Ezin izan da zure arakatzailea ireki. Ireki Erabilera eta fakturazioa konektatutako zerbitzarian kontu bat estekatzeko."
@@ -8027,7 +8027,7 @@ viewAll = "Ikusi pipeline guztiak"
 
 [portal.accountLink.rail]
 adminCta = "Nola lortu kreditu gehiago"
-adminSub = "Eskatu zure zerbitzari-administratzaileari Stirling kontu bat estekatzeko kreditu gehiago lortzeko. Eskuzko PDF tresnak erabilgarri daude oraindik."
+adminSub = "Eskatu zure zerbitzari-administratzaileari PaperRing kontu bat estekatzeko kreditu gehiago lortzeko. Eskuzko PDF tresnak erabilgarri daude oraindik."
 exhaustedCta = "Estekatu kontua kreditu gehiago lortzeko"
 exhaustedSub = "Estekatu hileko kredituak, fakturazio partekatua eta Team plan batekin hazteko aukera izateko."
 exhaustedTitle = "Zerbitzari honen doako kredituak agortu dira"
@@ -8041,9 +8041,9 @@ malformed = "Ezin izan dugu saioa hasteko erantzun hau egiaztatu. Hasi berriro E
 malformedTitle = "Ezin izan da saio-hasiera egiaztatu"
 rejected = "Saioa hasteko eskaera hau ukatu da edo dagoeneko erabili da. Saiatu berriro fakturazio-sarbidea berritzeko."
 rejectedTitle = "Saioa hastea ez da osatu"
-retry = "Stirling-ek ezin izan du fakturazio-sarbidearen berritzea amaitu. Saiatu berriro une batean; zure zerbitzariak konektatuta jarraitzen du."
+retry = "PaperRing-ek ezin izan du fakturazio-sarbidearen berritzea amaitu. Saiatu berriro une batean; zure zerbitzariak konektatuta jarraitzen du."
 retryTitle = "Fakturazio-sarbidea ez da berrezarri"
-success = "Zure fakturazio-sarbidea berritu da. Zerbitzari honek Stirling kontu berera konektatuta jarraitzen du."
+success = "Zure fakturazio-sarbidea berritu da. Zerbitzari honek PaperRing kontu berera konektatuta jarraitzen du."
 title = "Berritu fakturazio-sarbidea"
 working = "Fakturazio-sarbidea berrezartzen."
 
@@ -8057,7 +8057,7 @@ close = "Itxi laguntzailea"
 error = "Ezin izan da laguntzailearekin konektatu."
 errorWithDetail = "Ezin izan da laguntzailearekin konektatu: {{detail}}"
 inputAriaLabel = "Galdetu laguntzaileari"
-inputPlaceholder = "Galdetu Stirling-i buruz…"
+inputPlaceholder = "Galdetu PaperRing-i buruz…"
 open = "Ireki laguntzailea"
 send = "Bidali"
 title = "Laguntzailea"
@@ -8102,7 +8102,7 @@ title = "Ezarri zure gastu-muga"
 [portal.billing.checkout.card]
 fields = "Txartel-zenbakia · HH / UU · CVC · ZIP"
 label = "Txartelaren xehetasunak"
-note = "Txartelaren xehetasunak Stripe-k biltzen ditu. Stirling-ek ez du inoiz PAN edo CVC gordetzen."
+note = "Txartelaren xehetasunak Stripe-k biltzen ditu. PaperRing-ek ez du inoiz PAN edo CVC gordetzen."
 
 [portal.billing.checkout.error]
 title = "Ezin izan da ordainketa-prozesua hasi"
@@ -8180,7 +8180,7 @@ users = "Erabiltzaileak"
 [portal.billing.enterprise]
 cta = "Lortu enpresa-eskaintza bat"
 sub = "Air-gapped inplementazioa, SCIM, datuen egoitza, funtzionamendu-denboraren SLAak eta horri egokitutako akordioa."
-title = "Stirling ingurune arautu batean exekutatzen ari zara?"
+title = "PaperRing ingurune arautu batean exekutatzen ari zara?"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "Ezin izan da ordainketa-prozesua hasi"
@@ -8458,7 +8458,7 @@ description = "Prozesatutako dokumentuak non amaitzen diren - bucket bat, drive 
 label = "Fitxategia eta erantsi"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling-ek hau zifratuta gordetzen du eta ez du berriro erakusten."
+helperText = "PaperRing-ek hau zifratuta gordetzen du eta ez du berriro erakusten."
 label = "Sarbide-tokena"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "Saiatu berriro"
 title = "Zerbait gaizki atera da orri honetan"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "PaperRing"
 noMatches = "Ez dago uneko iragazkiekin bat datorrenik"
 occurrences = "{{count}} agerraldi"
 searchPlaceholder = "Bilatu arazoak, erabiltzaileak eta erroreak"
@@ -9144,7 +9144,7 @@ guide = "Ireki {{name}} gida"
 openInBrowser = "Ireki arakatzailean ordez"
 sectionDesktop = "Mahaigaineko aplikazioa"
 sectionSelfHosted = "Autoostatatua"
-title = "Instalatu Stirling PDF Editor"
+title = "Instalatu PaperRing Editor"
 
 [portal.home.download.docker]
 detailBody = "Exekutatu irudi ofiziala zure zerbitzarian."
@@ -9224,7 +9224,7 @@ usageMonth = "Hilabete honetako erabilera"
 usageToday = "Gaurko erabilera"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Sortu gako bat Stirling API deitzen hasteko."
+description = "Sortu gako bat PaperRing API deitzen hasteko."
 title = "Oraindik ez dago API gakorik"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "Eginda"
 keyNameLabel = "Gakoaren izena"
 keyNamePlaceholder = "adib. Ekoizpeneko ingestioa"
 secretKeyCaption = "Gako sekretua"
-secretWarning = "Gorde hau sekretuen kudeatzaile batean. Stirling-ek hash bat baino ez du gordetzen, beraz ez dago gero berreskuratzeko modurik."
+secretWarning = "Gorde hau sekretuen kudeatzaile batean. PaperRing-ek hash bat baino ez du gordetzen, beraz ez dago gero berreskuratzeko modurik."
 subtitle = "Eman izen bat gakoari, gero ezagutu ahal izateko. Edozein unetan baliogabetu dezakezu."
 subtitleCreated = "Kopiatu sekretu hau orain — ez da berriro erakutsiko."
 title = "Sortu API gakoa"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} konexio"
 connectionCount_other = "{{count}} konexio"
 customApi = "API pertsonalizatua"
 searchPlaceholder = "Bilatu integrazioak"
-subtitle = "Stirling-ek komunikatu dezakeen guztia. Kredentzialak behin sortzen dira hemen, eta gero iturburu, politika eta pipeline-ek erreferentziatzen dituzte."
+subtitle = "PaperRing-ek komunikatu dezakeen guztia. Kredentzialak behin sortzen dira hemen, eta gero iturburu, politika eta pipeline-ek erreferentziatzen dituzte."
 title = "Integrazioak"
 typedName = "{{tool}} izena"
 
@@ -10183,8 +10183,8 @@ saveFailed = "Ezin izan da pipelinea gorde. Saiatu berriro."
 
 [portal.policies.wizard.locations]
 aiSettings = "Ireki AI ezarpenak"
-builtin = "Stirling ezagutza-basea"
-builtinHelp = "Stirling-en bilagarriak diren zatiak indexatzen ditu eta prozesatutako PDFa beheko helmugara itzultzen du. Embedding hornitzaile bat konfiguratu behar da AI ezarpenetan."
+builtin = "PaperRing ezagutza-basea"
+builtinHelp = "PaperRing-en bilagarriak diren zatiak indexatzen ditu eta prozesatutako PDFa beheko helmugara itzultzen du. Embedding hornitzaile bat konfiguratu behar da AI ezarpenetan."
 checking = "Ingestioaren erabilgarritasuna egiaztatzen..."
 chooseOutput = "Aukeratu gaitutako irteera-helmuga bat gorde aurretik."
 chooseSource = "Aukeratu dokumentuak nondik datozen"
@@ -10276,7 +10276,7 @@ title = "Oraindik ez dago fluxurik"
 
 [portal.processorFlow.sources]
 comingSoonTag = "Konektatu"
-editor = "Stirling PDF editorea"
+editor = "PaperRing editorea"
 heading = "Iturburuak"
 perDay = "{{n}} / 24h"
 
@@ -10463,7 +10463,7 @@ gatingAction = "Onartu zure aurrekontua"
 label = "Aurrekontua"
 
 [portal.procurement.journeySteps.trial]
-blurb = "Ebaluatu Stirling zure dokumentu eta lan-fluxuen aurka."
+blurb = "Ebaluatu PaperRing zure dokumentu eta lan-fluxuen aurka."
 gatingAction = "Eraiki zure aurrekontua"
 label = "Probaldia"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "Hau zure proba-lizentziaren fitxategia da. Zure akordioa indarr
 
 [portal.procurement.link]
 cta = "Lotu kontua"
-description = "Erosketa zure lotutako Stirling kontuan exekutatzen da: horrela hornitzen dugu probaldia, aurrekontuaren prezioa kalkulatzen dugu eta fakturazioa hasten dugu. Lotu kontu bat hasteko."
+description = "Erosketa zure lotutako PaperRing kontuan exekutatzen da: horrela hornitzen dugu probaldia, aurrekontuaren prezioa kalkulatzen dugu eta fakturazioa hasten dugu. Lotu kontu bat hasteko."
 eyebrow = "Enterprise"
 title = "Lotu zure kontua hasteko"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "Kudeatua, hasiera azkarrena"
 continue = "Jarraitu"
 deployment = "Non zabaldu behar da?"
-eula = "Stirling EULA eta merkataritza-baldintzak onartzen ditut."
+eula = "PaperRing EULA eta merkataritza-baldintzak onartzen ditut."
 fullName = "Izen-abizenak"
 fullNamePlaceholder = "Zure izena"
 invites = "Gonbidatu taldekideak · aukerakoa"
@@ -10565,7 +10565,7 @@ account-link = "Kontuaren konexioa"
 [portal.shell.sidebar]
 appEditor = "Editorea"
 appProcessor = "Prozesadorea"
-linkAccount = "Lotu Stirling kontua"
+linkAccount = "Lotu PaperRing kontua"
 primaryNav = "Nabigazio nagusia"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "Bilatu"
 
 [portal.sources]
 processingModeHelp = "Track moduak jatorrizkoak gordetzen ditu eta bertsio bakoitza behin prozesatzen du. Snapshot moduak jatorrizkoak gordetzen ditu eta exekuzio bakoitzean prozesatzen ditu. Consume moduak jatorrizkoak ezabatzen ditu entrega arrakastatsuaren ondoren."
-subtitle = "Dokumentuak Stirling-era elikatzen dituzten sarrera-konexio berrerabilgarriak. Konfiguratu iturri bat behin, eta erreferentziatu edozein pipeline kopurutatik."
+subtitle = "Dokumentuak PaperRing-era elikatzen dituzten sarrera-konexio berrerabilgarriak. Konfiguratu iturri bat behin, eta erreferentziatu edozein pipeline kopurutatik."
 title = "Iturburuak"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "Zerbitzari honen hileko kredituak bertako guztiek partekatzen dituz
 barAria = "Geratzen diren doako kredituak"
 capSuffix_one = "{{allowance}} doako kreditutik bat geratzen da hilabete honetan"
 capSuffix_other = "{{allowance}} doako kreditutik geratzen dira hilabete honetan"
-connect = "Konektatu Stirling kontu bat"
+connect = "Konektatu PaperRing kontu bat"
 connectBody = "Konektatzeak bigarren hileko esleipena gehitzen du, zerbitzari honek izan ditzakeen erabiltzaileak handitzen ditu eta Processor aktibatzen du."
-connectTitle = "Zerbitzari honek ez du Stirling konturik"
+connectTitle = "Zerbitzari honek ez du PaperRing konturik"
 loadError = "Ezin izan da zerbitzari honen kreditu-erabilera irakurri. Saiatu berriro une batean."
 loadErrorTitle = "Ezin izan da kreditu-erabilera kargatu"
 resets = "Berrezartzea: {{date}}"
 
 [portal.usage.sessionExpired]
-body = "Zure Stirling kontuaren saioa iraungi da. Hasi saioa berriro fakturazioa ikusteko — zure instantziak lotuta jarraitzen du."
+body = "Zure PaperRing kontuaren saioa iraungi da. Hasi saioa berriro fakturazioa ikusteko — zure instantziak lotuta jarraitzen du."
 
 [portal.users]
 title = "Erabiltzaileak"
@@ -11129,7 +11129,7 @@ files = "Fitx."
 account = "Kontua"
 docs = "Dokumentazioa"
 editor = "Editorea"
-home = "Stirling"
+home = "PaperRing"
 invite = "Gonbidatu"
 landmark = "Nabigazio azkarra"
 noProcessorAccess = "Eskatu administratzaile bati processor sarbidea"
@@ -11682,8 +11682,8 @@ hideTools = "Ezkutatu erabilgarri ez dauden tresnak ▴"
 messageNoFallback = "Tresnak ez daude erabilgarri zure zerbitzaria linean egon arte."
 messageWithFallback = "Zenbait tresnek zerbitzariarekiko konexioa behar dute."
 showTools = "Ikusi erabilgarri ez dauden tresnak ▾"
-title = "Ezin da atzitu zure Stirling-PDF zerbitzaria"
-toolNotAvailableLocally = "Zure Stirling-PDF zerbitzaria lineaz kanpo dago eta \"{{endpoint}}\" ez dago erabilgarri tokiko backend-ean."
+title = "Ezin da atzitu zure PaperRing zerbitzaria"
+toolNotAvailableLocally = "Zure PaperRing zerbitzaria lineaz kanpo dago eta \"{{endpoint}}\" ez dago erabilgarri tokiko backend-ean."
 
 [session]
 expired = "Zure saioa iraungi da. Freskatu orria eta saiatu berriro."
@@ -11755,7 +11755,7 @@ unknown = "Ez dago erabilgarri"
 yourTeam = "Zure taldea"
 
 [settings.connection]
-description = "Lan egin lokalki makina honetan edo konektatu aplikazioa Stirling zerbitzari batera."
+description = "Lan egin lokalki makina honetan edo konektatu aplikazioa PaperRing zerbitzari batera."
 localDescription = "Tokiko backend-a erabiltzen ari zara konturik gabe. Hodei-prozesamendua edo norberak ostatatutako zerbitzaria behar duten tresna batzuk ez daude erabilgarri."
 logout = "Saioa amaitu"
 server = "Zerbitzaria"
@@ -11770,7 +11770,7 @@ selfhosted = "Auto-ostatua"
 
 [settings.developer]
 apiKeys = "API gakoak"
-apiKeysDescription = "Stirling API scriptetatik eta integrazioetatik deitzeko gako pertsonalak."
+apiKeysDescription = "PaperRing API scriptetatik eta integrazioetatik deitzeko gako pertsonalak."
 title = "Garatzailea"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "Auto-deskonprimitze fitxategi-muga"
 autoUnzipFileLimitTooltip = "Deskonprimitu soilik ZIPak hainbeste fitxategi edo gutxiago baditu. Ezarri handiagoa ZIP handiagoak erauzteko."
 autoUnzipTooltip = "Automatikoki deskonprimitu API eragiketek itzultzen dituzten ZIP fitxategiak. Desgaitu ZIP fitxategiak bere horretan mantentzeko. Honek ez du eraginik automatizazio-fluxuetan."
 defaultPdfEditor = "PDF editore lehenetsia"
-defaultPdfEditorActive = "Stirling PDF zure PDF editore lehenetsia da"
+defaultPdfEditorActive = "PaperRing zure PDF editore lehenetsia da"
 defaultPdfEditorChecking = "Egiaztatzen..."
 defaultPdfEditorInactive = "Beste aplikazio bat dago lehenetsi gisa"
 defaultPdfEditorSet = "Dagoeneko lehenetsia"
@@ -11849,7 +11849,7 @@ updateBehavior = "Eguneratzeen portaera"
 updateBehaviorDescription = "Aukeratu eguneratzeak instalatu aurretik galdetzea, automatikoki instalatzea edo eguneratzeen egiaztapenak erabat saltatzea."
 updateBehaviorError = "Ezin izan da eguneratzeen portaera aldatu"
 updateBehaviorErrorLocked = "Ezarpen hau administratzaileak blokeatu du."
-updateBehaviorLockedDescription = "Zure administratzaileak konfiguratu du Stirling-PDF nola kudeatzen duen eguneratzeak makina honetan. Jarri harekin harremanetan aldatzeko."
+updateBehaviorLockedDescription = "Zure administratzaileak konfiguratu du PaperRing nola kudeatzen duen eguneratzeak makina honetan. Jarri harekin harremanetan aldatzeko."
 updateBehaviorSaved = "Eguneratzeen portaera gordeta."
 versionMismatch = "Zure mahaigaineko aplikazioa eta zerbitzaria bertsio desberdinetan ari dira exekutatzen. Eguneratu biak bertsio berera bateragarritasun-arazoak saihesteko."
 viewDetails = "Xehetasunak ikusi"
@@ -12120,7 +12120,7 @@ step3 = "Berrabiarazi zerbitzaria"
 title = "Saio-hasiera ez dago gaituta"
 
 [setup.server.url]
-description = "Sartu zure auto-ostatuko Stirling PDF zerbitzariaren URLa osoa"
+description = "Sartu zure auto-ostatuko PaperRing zerbitzariaren URLa osoa"
 label = "Zerbitzariaren URLa"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "Bete eremu guztiak, mesedez"
 signUp = "Eman izena"
 signUpWith = "Erregistratu honekin"
 skip = "Saltatu"
-subtitle = "Batu Stirling PDFra hasteko"
+subtitle = "Batu PaperRingra hasteko"
 title = "Sortu kontu bat"
 unableToAccessTool = "Ezin da tresnara sartu: {{error}}"
 unexpectedError = "Ustekabeko errorea: {{message}}"
@@ -12856,7 +12856,7 @@ download = "Deskargatu"
 downloaded = "Deskargatuta"
 downloadFailed = "Ezin da fitxategi hau deskargatu."
 downloadsCount = "Deskargak: {{count}}"
-emailWarningBody = "Honek helbide elektroniko baten itxura du. Pertsona hau Stirling PDF erabiltzailea ez bada, ezin izango du fitxategia atzitu."
+emailWarningBody = "Honek helbide elektroniko baten itxura du. Pertsona hau PaperRing erabiltzailea ez bada, ezin izango du fitxategia atzitu."
 emailWarningConfirm = "Partekatu hala ere"
 emailWarningTitle = "Helbide elektronikoa"
 errorTitle = "Partekatzea huts egin du"
@@ -12887,7 +12887,7 @@ manageTitle = "Partekatzea kudeatu"
 noActivity = "Oraindik ez dago jarduerarik."
 noLinks = "Ez dago partekatzeko esteka aktiborik oraindik."
 noSharedUsers = "Oraindik ez du inork atzipenik."
-openInApp = "Ireki Stirling PDF"
+openInApp = "Ireki PaperRing"
 ownerLabel = "Jabea"
 ownerUnknown = "Ezezaguna"
 removeLink = "Kendu esteka"
@@ -12945,7 +12945,7 @@ all = "Guztiak"
 ariaLabel = "Super bilaketa"
 filtersAriaLabel = "Bilaketa-iragazkiak"
 hint = "Idatzi bilatzeko"
-placeholder = "Bilatu Stirling"
+placeholder = "Bilatu PaperRing"
 placeholderShort = "Bilatu"
 showLess = "Erakutsi gutxiago"
 showMore = "Erakutsi beste {{count}}"
@@ -12959,7 +12959,7 @@ settings = "Ezarpenak"
 tools = "Tresnak"
 
 [survey]
-title = "Stirling-PDF inkesta"
+title = "PaperRing inkesta"
 
 [swagger]
 clickHere = "egin klik hemen"
@@ -13128,7 +13128,7 @@ favorites = "Gogokoak"
 heading = "Tresna guztiak (pantaila osoko ikuspegia)"
 noResults = "Saiatu bilaketa moldatzen edo deskribapenak txandakatzen behar duzuna aurkitzeko."
 recommended = "Gomendatua"
-selfHostedOffline = "Zure Stirling-PDF zerbitzaria behar da (unean lineaz kanpo):"
+selfHostedOffline = "Zure PaperRing zerbitzaria behar da (unean lineaz kanpo):"
 showDetails = "Erakutsi xehetasunak"
 unavailable = "Zerbitzariaren administratzaileak desgaituta:"
 unavailableDependency = "Ez dago eskuragarri - beharrezko tresna falta da zerbitzarian:"
@@ -13137,7 +13137,7 @@ unfavorite = "Kendu gogokoetatik"
 [toolPanel.modePrompt]
 chooseFullscreen = "Erabili pantaila osoko modua"
 chooseSidebar = "Erabili alboko barra modua"
-description = "Aurrebista bi diseinuak eta erabaki nola arakatu nahi dituzun Stirling PDF tresnak."
+description = "Aurrebista bi diseinuak eta erabaki nola arakatu nahi dituzun PaperRing tresnak."
 dismiss = "Agian geroago"
 fullscreenDescription = "Arakatu tresna guztiak katalogo batean, tresna bat aukeratu arte lan-eremua estaltzen duena."
 fullscreenTitle = "Pantaila osoko modua - (ondarea)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "Informazio zehatza kargatzen..."
 migrationGuide = "Migrazio-gida"
 migrationGuides = "Migrazio-gidak"
 migrationGuidesDesc = "Berrikusi aldaketa garrantzitsuak eguneratu aurretik."
-modalSubtitle = "Stirling PDFren bertsio berria instalatzeko prest dago."
+modalSubtitle = "PaperRingren bertsio berria instalatzeko prest dago."
 modalTitle = "Eguneratzea eskuragarri"
 notes = "Oharrak"
 releaseNotes = "Argitalpen-oharrak"
@@ -13230,7 +13230,7 @@ urgent = "Premiazko"
 attentionBody = "Zure administratzaileak saioa hasi behar du informazio gehiago ikusteko. Jarri harekin harremanetan berehala."
 attentionBodyAdmin = "Berrikusi lizentzia-eskakizunak zerbitzari hau betean mantentzeko."
 attentionTitle = "Zerbitzari honek admin arreta behar du"
-message = "Atera etekinik handiena Stirling PDF-i 100 erabiltzailerekin, PDF testu-edizioarekin eta funtzio aurreratuekin"
+message = "Atera etekinik handiena PaperRing-i 100 erabiltzailerekin, PDF testu-edizioarekin eta funtzio aurreratuekin"
 seeInfo = "Ikusi informazioa"
 title = "Eguneratu Team planera"
 upgradeButton = "Eguneratu orain"
@@ -13368,7 +13368,7 @@ authWeb = "Pasahitza"
 create = "Sortu kontua"
 createSubtitle = "Sortu self-hosted kontu bat pasahitzarekin edo SSOrekin."
 createTitle = "Sortu kontua"
-editorDesc = "Editatu PDFak Stirling PDF Editor-en. Denek jasotzen dute hau."
+editorDesc = "Editatu PDFak PaperRing Editor-en. Denek jasotzen dute hau."
 email = "Email helbidea"
 emailError = "Sartu baliozko email helbide bat"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "Gonbidapena bidalita, baina Processor sarbidea oraindik ezi
 processorDesc = "Gobernantza-azalera, pipelineak, agenteak eta API exekutatzeko."
 role = "Rola"
 send2 = "Bidali gonbidapena"
-subtitle2 = "Mezu elektroniko bat jasoko dute zure Stirling lan-eremura sartzeko."
+subtitle2 = "Mezu elektroniko bat jasoko dute zure PaperRing lan-eremura sartzeko."
 team = "Taldea"
 title = "Gonbidatu pertsonak"
 username = "Erabiltzaile-izena"
@@ -13525,7 +13525,7 @@ downloads = "Deskargak"
 entryLabel = "Sinaduraren laburpena"
 filesEvaluated_one = "{{count}} fitxategi ebaluatu da"
 filesEvaluated_other = "{{count}} fitxategi ebaluatu dira"
-footer = "Balidatua Stirling PDF bidez"
+footer = "Balidatua PaperRing bidez"
 generatedAt = "Sortuta"
 noPdf = "PDF txostena erabilgarri egongo da balidazio arrakastatsu baten ostean."
 page = "Orria"
@@ -13718,7 +13718,7 @@ text = "Testua"
 addFile = "Gehitu fitxategia"
 count_one = "{{count}} fitxategi portfolio honetan"
 count_other = "{{count}} fitxategi portfolio honetan"
-import = "Inportatu Stirling-era"
+import = "Inportatu PaperRing-era"
 importFailed = "Ezin izan da fitxategi hau zure lan-eremura gehitu."
 memberUnavailable = "Ezin izan da fitxategi hau portfoliotik irakurri."
 preview = "Aurrebista"

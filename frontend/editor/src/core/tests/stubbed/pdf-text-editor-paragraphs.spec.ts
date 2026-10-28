@@ -176,7 +176,7 @@ function lineCount(info: ParaInfo): number {
   return uniq.size;
 }
 
-const INTRO = "Stirling\\s+PDF\\s+is\\s+a\\s+robust";
+const INTRO = "PaperRing\\s+PDF\\s+is\\s+a\\s+robust";
 const CARD = "Comprehensive\\s+toolkit";
 
 test.describe("PDF text editor - paragraph editing battery", () => {
@@ -460,7 +460,7 @@ test.describe("PDF text editor - paragraph editing battery", () => {
       .not.toContain("OMEGA");
     const after = await readGlyphs(page, id);
     if (!after) throw new Error("vanished after undo");
-    expect(after.text.replace(/\s+/g, " ")).toMatch(/Stirling.*robust/);
+    expect(after.text.replace(/\s+/g, " ")).toMatch(/PaperRing.*robust/);
     expect(Math.abs(lineCount(after) - beforeLines)).toBeLessThanOrEqual(1);
   });
 
@@ -645,7 +645,7 @@ test.describe("PDF text editor - paragraph editing battery", () => {
     ).toBeLessThanOrEqual(info.pageWidth);
     // "dfg" landed and the original words survived.
     expect(info.text.replace(/\s+/g, " ")).toContain("dfg");
-    expect(info.text.replace(/\s+/g, " ")).toMatch(/Stirling.*robust/);
+    expect(info.text.replace(/\s+/g, " ")).toMatch(/PaperRing.*robust/);
   });
 
   test("wrap: two manual breaks both survive", async ({ page }) => {

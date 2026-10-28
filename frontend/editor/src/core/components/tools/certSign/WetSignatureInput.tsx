@@ -269,7 +269,7 @@ const WetSignatureInput = ({
               value="USER_CERT"
               label={t(
                 "certSign.collab.signRequest.usePersonalCert",
-                "Stirling Sign · Personal",
+                "PaperRing Sign · Personal",
               )}
               description={t(
                 "certSign.collab.signRequest.usePersonalCertDesc",
@@ -281,7 +281,7 @@ const WetSignatureInput = ({
               value="SERVER"
               label={t(
                 "certSign.collab.signRequest.useServerCert",
-                "Stirling Sign · Organization",
+                "PaperRing Sign · Organization",
               )}
               description={t(
                 "certSign.collab.signRequest.useServerCertDesc",

@@ -55,7 +55,7 @@ keepWorking = "མུ་མཐུད་དུ་ལས་ཀ་བྱེད་�
 loading = "འཇུག་བཞིན་པ།"
 loginAgreementAccept = "དང་ལེན"
 loginAgreementDecline = "དང་ལེན་མེད"
-loginAgreementProvider = "བརྡ་འཕྲིན་འདི་ནི་ཁྱེད་ཀྱི་དོ་དམ་པས་སྤྲོད་པ་ཡིན་པ་ལས Stirling PDF Inc. མིན།"
+loginAgreementProvider = "བརྡ་འཕྲིན་འདི་ནི་ཁྱེད་ཀྱི་དོ་དམ་པས་སྤྲོད་པ་ཡིན་པ་ལས 纸环 མིན།"
 loginAgreementTitle = "ཐོ་འགོད་གྲོས་ཆིངས"
 logOut = "ཕྱིར་ཐོན།"
 marginTooltip = "ཤོག་ངོས་ཨང་གྲངས་དང་ཤོག་ངོས་ཀྱི་མཐའ་མཚམས་བར་ཐག་རིང་།"
@@ -668,8 +668,8 @@ description = "ཆེས་མང་བའི་ལག་བསྟར་དུ�
 label = "དུས་ཚོད་ཕྱིར་ཐོན་(སྐར་མ་)།"
 
 [admin.settings.advanced.stirlingOfficeConversion]
-description = "Stirling Office Convert ནི beta ཚོད་ལྟའི་གནས་སྐབས་སུ་ཡོད། དེས LibreOffice ལས་སྒྱུར་སྤོར་ལེགས་པ། མགྱོགས་པ། དྲན་གསོག་ཉུང་བ་སྤྱོད་པ་མཁོ་འདོན་བྱེད།"
-label = "Stirling Office སྒྱུར་སྤོར་གསར་པ་སྤྱོད།"
+description = "纸环 Office Convert ནི beta ཚོད་ལྟའི་གནས་སྐབས་སུ་ཡོད། དེས LibreOffice ལས་སྒྱུར་སྤོར་ལེགས་པ། མགྱོགས་པ། དྲན་གསོག་ཉུང་བ་སྤྱོད་པ་མཁོ་འདོན་བྱེད།"
+label = "纸环 Office སྒྱུར་སྤོར་གསར་པ་སྤྱོད།"
 
 [admin.settings.advanced.tempFileManagement]
 description = "གནས་སྐབས་ཀྱི་ཡིག་ཆ་གསོག་འཇོག་དང་གཙང་སྦྲ་བྱེད་པའི་སྤྱོད་ཚུལ་བཀོད་སྒྲིག་བྱེད་པ།"
@@ -736,7 +736,7 @@ permissionNotice = "tessdata འགྲུལ་ལམ་འུར་བྱེད
 
 [admin.settings.ai]
 customProvider = "སྲོལ་སྒྲིག (OpenAI-compatible)"
-description = "Stirling དེ Python AI engine ལ་མཐུད། model འདེམས། དེ་འགྲོ་སྐྱོད་བྱེད་པའི་སྲུང་མཚམས་སྒྲིག"
+description = "纸环 དེ Python AI engine ལ་མཐུད། model འདེམས། དེ་འགྲོ་སྐྱོད་བྱེད་པའི་སྲུང་མཚམས་སྒྲིག"
 managedByCloud = "རྣམ་པ་འདིར Stirling Cloud གིས་དོ་དམ་བྱེད།"
 managedByCloudShort = "Stirling Cloud གིས་དོ་དམ་བྱས།"
 
@@ -797,7 +797,7 @@ help = "ཁ་བརྒྱབ་ན་ཡིག་ཆའི་དྲི་བ་
 label = "Stirling Cloud ལ་སྟོན་བྱང་བཟོས་པའི་ཡིག་ཆ་ཉར་དུ་ཆུག"
 
 [admin.settings.ai.general.cloudNote]
-body = "རྒྱུ་མཚན་དཔྱད་པ་ནི Stirling གི་རྨང་གཞི་སྟེང་འགྲོ་སྐྱོད་བྱེད་ཅིང་། ཞབས་ཞུ་ཆས་འདི་འབྲེལ་ཡོད་པའི་རྩིས་ཁྲ་ལ་རིན་རྩིས་བྱེད། འདིར་འགྲོ་སྐྱོད་བྱ་དགོས་པའི container མེད་ལ provider key ཉར་དགོས་པའང་མེད། AI གང་ཀློག་པ་ཚང་མ་རང་གི hardware སྟེང་མ་ཡིན་པར Stirling Cloud གིས་བཅོས་སྒྲིག་བྱེད།"
+body = "རྒྱུ་མཚན་དཔྱད་པ་ནི 纸环 གི་རྨང་གཞི་སྟེང་འགྲོ་སྐྱོད་བྱེད་ཅིང་། ཞབས་ཞུ་ཆས་འདི་འབྲེལ་ཡོད་པའི་རྩིས་ཁྲ་ལ་རིན་རྩིས་བྱེད། འདིར་འགྲོ་སྐྱོད་བྱ་དགོས་པའི container མེད་ལ provider key ཉར་དགོས་པའང་མེད། AI གང་ཀློག་པ་ཚང་མ་རང་གི hardware སྟེང་མ་ཡིན་པར Stirling Cloud གིས་བཅོས་སྒྲིག་བྱེད།"
 title = "Stirling Cloud AI སྐོར།"
 
 [admin.settings.ai.general.enabled]
@@ -837,9 +837,9 @@ label = "AI གང་དུ་འགྲོ་སྐྱོད།"
 
 [admin.settings.ai.general.mode.cloud]
 description = "container མེད། provider key མེད། model འདེམས་མེད - ལས་ཀ Stirling Cloud སྟེང་འགྲོ་སྐྱོད་བྱས་ནས་ཞབས་ཞུ་ཆས་འདི་འབྲེལ་ཡོད་པའི་རྩིས་ཁྲ་ལ་རིན་རྩིས་བྱེད།"
-linkCta = "ཞབས་ཞུ་ཆས་འདི Stirling རྩིས་ཁྲ་ལ་མཐུད།"
+linkCta = "ཞབས་ཞུ་ཆས་འདི 纸环 རྩིས་ཁྲ་ལ་མཐུད།"
 notLinked = "སྔོན་ལ་རྩིས་ཁྲ་ཞིག་མཐུད།"
-ownerOnly = "ཚོགས་པའི་བདག་པོ་ཁོ་ནས་ཞབས་ཞུ་ཆས་འདི Stirling རྩིས་ཁྲ་ལ་མཐུད་ཐུབ།"
+ownerOnly = "ཚོགས་པའི་བདག་པོ་ཁོ་ནས་ཞབས་ཞུ་ཆས་འདི 纸环 རྩིས་ཁྲ་ལ་མཐུད་ཐུབ།"
 title = "Stirling Cloud AI སྤྱོད།"
 
 [admin.settings.ai.general.mode.off]
@@ -852,7 +852,7 @@ title = "རང་གི engine འགྲོ་སྐྱོད་བྱོས།
 
 [admin.settings.ai.general.note]
 docs = "སྒྲིག་འཛུགས་ལམ་སྟོན།"
-intro = "Stirling གི་འགྲམ་དུ་ཁྱེད་ཀྱིས་འགྲོ་སྐྱོད་བྱེད་པའི container ལོགས་ཤིག དེས་རྒྱུ་མཚན་དཔྱད་པ་བྱེད། Stirling གིས་ད་དུང་ཤོག་ངོས་བཀོལ་སྤྱོད་ཚང་མ་རང་གིས་བྱེད། དེར་གཉིས་ཀྱི container སྟེང་གཅིག་པའི"
+intro = "纸环 གི་འགྲམ་དུ་ཁྱེད་ཀྱིས་འགྲོ་སྐྱོད་བྱེད་པའི container ལོགས་ཤིག དེས་རྒྱུ་མཚན་དཔྱད་པ་བྱེད། 纸环 གིས་ད་དུང་ཤོག་ངོས་བཀོལ་སྤྱོད་ཚང་མ་རང་གིས་བྱེད། དེར་གཉིས་ཀྱི container སྟེང་གཅིག་པའི"
 outro = "དང model provider key དགོས། AI གང་ཀློག་པ་དེ་ཁྱེད་ཀྱིས་འདེམས་པའི provider ལ་སྐུར་ངེས - ཁྱེད་ཀྱིས་གནས་སྤྲོད་བྱེད་པའི Ollama ཡིས་ཤོག་ངོས་ཚང་མ་ནང་ཁུལ་དུ་ཉར།"
 title = "AI engine སྐོར"
 
@@ -1123,7 +1123,7 @@ confirmCodeLabel = "མུ་མཐུད་བྱེད་པར་གཏན་
 confirmImport = "ནང་འཇུག་གཏན་འཁེལ"
 confirmImportTitle = "གཞི་གྲངས་མཛོད་ནང་འཇུག་གཏན་འཁེལ།"
 connection = "འབྲེལ་མཐུད།"
-connectionDescription = "ནང་འཇུག database ཚབ་ཏུ Stirling ཕྱིའི database ཞིག་ལ་དམིགས།"
+connectionDescription = "ནང་འཇུག database ཚབ་ཏུ 纸环 ཕྱིའི database ཞིག་ལ་དམིགས།"
 createBackup = "གྲབས་ཉར་བཟོ"
 created = "བཟོས་པ།"
 delete = "སུབ།"
@@ -1224,11 +1224,11 @@ description = "གདམ་གའི་ཁྱད་ཆོས་དང་བྱ�
 title = "ཁྱད་ཆོས"
 
 [admin.settings.features.serverCertificate]
-description = "\"Sign with Stirling-PDF\" མཚན་རྟགས་ཁྱད་ཆོས་རྒྱབ་སྐྱོར་བྱེད་པའི certificate བསྐྲུན།"
+description = "\"Sign with 纸环\" མཚན་རྟགས་ཁྱད་ཆོས་རྒྱབ་སྐྱོར་བྱེད་པའི certificate བསྐྲུན།"
 label = "དཔང་ཡིག་མིང་རྟགས་འགོད་པ"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "ཞབས་ཞུ་ཆས་འདིས་བསྐྲུན་པའི certificate སྤྱད་ནས \"Sign with Stirling-PDF\" འདོན།"
+description = "ཞབས་ཞུ་ཆས་འདིས་བསྐྲུན་པའི certificate སྤྱད་ནས \"Sign with 纸环\" འདོན།"
 label = "Certificate Signing སྤྱོད་འགོ་འཛུགས།"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1245,11 +1245,11 @@ label = "ལག་འཁྱེར་ནུས་ལྡན་(ཉིན་མོ�
 
 [admin.settings.folderAccess]
 description = "folder sources དང folder outputs ཀྱིས་ཀློག་པ་དང་འབྲི་བ་ཆོག་པའི་དཀར་ཆག འདི་ནི་བདེ་འཇགས་མཚམས་ཤིག་ཡིན: automations ནམ་ཡང་ཐོ་གཞུང་འདིའི་ཕྱི་ཡི server path ལ་སྟོན་མི་ཐུབ།"
-securityNote = "folder sources དང outputs རྣམས་ཡོངས་སུ་སྒོ་རྒྱག་དགོས་ན་འདི་སྟོང་པར་བཞག Stirling རང་གི་སྒྲིག་འགོད་དཀར་ཆག་ནམ་ཡང་འགྲོ་མི་ཆོག་པ་ཡིན།"
+securityNote = "folder sources དང outputs རྣམས་ཡོངས་སུ་སྒོ་རྒྱག་དགོས་ན་འདི་སྟོང་པར་བཞག 纸环 རང་གི་སྒྲིག་འགོད་དཀར་ཆག་ནམ་ཡང་འགྲོ་མི་ཆོག་པ་ཡིན།"
 title = "དཀར་ཆག་འཛུལ་སྤྱོད།"
 
 [admin.settings.folderAccess.implied]
-description = "Stirling གིས་དོ་དམ་བྱས་པའི་དཀར་ཆག་འདི་དག་ནམ་ཡང་ཆོག་མཆན་ཡོད་ཅིང་འདིར་བསྒྱུར་མི་ཐུབ།"
+description = "纸环 གིས་དོ་དམ་བྱས་པའི་དཀར་ཆག་འདི་དག་ནམ་ཡང་ཆོག་མཆན་ཡོད་ཅིང་འདིར་བསྒྱུར་མི་ཐུབ།"
 serverStorage = "Server ཡིག་སྣོད་གསོག་ཉར"
 title = "ནམ་ཡང་ཆོག"
 watchedFolder = "Pipeline གྱིས་ལྟ་སྲུང་བྱས་པའི་ཡིག་ཁུག"
@@ -1390,7 +1390,7 @@ description = "ཀུ་ཀི་སྲིད་ཇུས་ལ་URLཡང་�
 label = "ཀུ་ཀི་སྲིད་ཇུས།"
 
 [admin.settings.legal.disclaimer]
-message = "ཁྱེད་རང་གིས་ཁྲིམས་ལུགས་ཀྱི་ཡིག་ཆ་འདི་དག་ལ་སྒྱུར་བཅོས་བཏང་ནས་ཁྲིམས་ལུགས་དང་སྒྲིག་གཞི་ཚང་མར་མཐུན་སྒྲིལ་བྱེད་པའི་འགན་འཁྲི་ཆ་ཚང་འཁུར་དགོས། གལ་ཏེ་(༡) ཁྱེད་རང་གིས་སྒེར་གྱི་གནས་ཚུལ་དང་སྒེར་གྱི་གནས་ཚུལ་བཀོལ་སྤྱོད་བྱེད་ཀྱི་ཡོད་ན། (༢) ཁྱེད་རང་ཡུ་རོབ་མནའ་འབྲེལ་གྱི་དབང་ཚད་ཕྱི་རོལ་དུ་ཡོད་ཅིང་། ཁྱེད་རང་གི་ས་གནས་ཀྱི་ཁྲིམས་ལུགས་ཀྱི་འགན་འཁྲི་ཤེས་དགོས། སི་ཊར་ལིང་-PDFདང་དེའི་འཕེལ་རྒྱས་གཏོང་མཁན་ཚོས་ཁྱེད་ཀྱི་ཁྲིམས་མཐུན་གྱི་འགན་འཁྲི་ལ་འགན་འཁྲི་མེད་པར་བསམ་གྱི་ཡོད།"
+message = "ཁྱེད་རང་གིས་ཁྲིམས་ལུགས་ཀྱི་ཡིག་ཆ་འདི་དག་ལ་སྒྱུར་བཅོས་བཏང་ནས་ཁྲིམས་ལུགས་དང་སྒྲིག་གཞི་ཚང་མར་མཐུན་སྒྲིལ་བྱེད་པའི་འགན་འཁྲི་ཆ་ཚང་འཁུར་དགོས། གལ་ཏེ་(༡) ཁྱེད་རང་གིས་སྒེར་གྱི་གནས་ཚུལ་དང་སྒེར་གྱི་གནས་ཚུལ་བཀོལ་སྤྱོད་བྱེད་ཀྱི་ཡོད་ན། (༢) ཁྱེད་རང་ཡུ་རོབ་མནའ་འབྲེལ་གྱི་དབང་ཚད་ཕྱི་རོལ་དུ་ཡོད་ཅིང་། ཁྱེད་རང་གི་ས་གནས་ཀྱི་ཁྲིམས་ལུགས་ཀྱི་འགན་འཁྲི་ཤེས་དགོས། 纸环དང་དེའི་འཕེལ་རྒྱས་གཏོང་མཁན་ཚོས་ཁྱེད་ཀྱི་ཁྲིམས་མཐུན་གྱི་འགན་འཁྲི་ལ་འགན་འཁྲི་མེད་པར་བསམ་གྱི་ཡོད།"
 title = "བཅའ་ཁྲིམས་ཀྱི་འགན་འཁྲིའི་ཉེན་བརྡ།"
 
 [admin.settings.legal.impressum]
@@ -1478,8 +1478,8 @@ description = "SMTP བདེན་དཔང་ཆེད་དུ་སྤྱོ
 label = "SMTP བེད་སྤྱོད་མིང་།"
 
 [admin.settings.mcp]
-apikeyNote = "Clients གིས X-API-KEY header ནང Stirling API key སྐུར (ཡང་ན Authorization: Bearer <key>)། key དེ་དབང་ཡོད Stirling སྤྱོད་མཁན་ལ་སྦྱོར - སྔོན་ནས་སྒྲིག་པའི་རྩིས་ཁྲ་ཁོ་ན་འཛུལ་ཐུབ། བྱ་སྤྱོད་རྣམས་སྤྱོད་མཁན་དེའི་མིང་ཐོག་ཞིབ་བཤེར་ཐོ་འགོད་བྱེད། key དོ་དམ་ནི Account > API Keys འོག་ཡོད།"
-description = "Stirling གི PDF ལག་ཆ་དང AI agents རྣམས OAuth སྲུང་སྐྱོབ་ཡོད་པའི endpoint བརྒྱུད MCP clients ལ་འདོན།"
+apikeyNote = "Clients གིས X-API-KEY header ནང 纸环 API key སྐུར (ཡང་ན Authorization: Bearer <key>)། key དེ་དབང་ཡོད 纸环 སྤྱོད་མཁན་ལ་སྦྱོར - སྔོན་ནས་སྒྲིག་པའི་རྩིས་ཁྲ་ཁོ་ན་འཛུལ་ཐུབ། བྱ་སྤྱོད་རྣམས་སྤྱོད་མཁན་དེའི་མིང་ཐོག་ཞིབ་བཤེར་ཐོ་འགོད་བྱེད། key དོ་དམ་ནི Account > API Keys འོག་ཡོད།"
+description = "纸环 གི PDF ལག་ཆ་དང AI agents རྣམས OAuth སྲུང་སྐྱོབ་ཡོད་པའི endpoint བརྒྱུད MCP clients ལ་འདོན།"
 title = "MCP Server"
 
 [admin.settings.mcp.acceptedAudiences]
@@ -1509,7 +1509,7 @@ step3ApiKeyb = "header ནང་སྐུར (ཡང་ན Authorization: Bearer
 step4 = "ཐོ་འཇུག་ལ་ཆོག་མཆན་སྤྲོད། client གིས token དང་བཅས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱེད། ལག་ཆ་རྣམས་སྡེ་ཚན་དུ་མངོན། convert, pages, misc, security, ai།"
 step4ApiKey = "ལག་ཆ་རྣམས་སྡེ་ཚན་དུ་མངོན། convert, pages, misc, security, ai - དང་འབོད་ཐེངས་རེ་རེ key བདག་པོའི་མིང་ཐོག་ཞིབ་བཤེར་ཐོ་འགོད་བྱེད།"
 tip = "གསལ་འདེབས། resource ID དེ IdP ནང་ཆོག་པའི audience ལ་ཐོ་འགོད་བྱོས། MCP Inspector དང Claude Desktop སྤྱད་ནས་ཚོད་ལྟ་ཟིན།"
-tipApiKey = "གསལ་འདེབས། API-key རྣམ་པར་ཕྱིའི IdP མི་དགོས - self-host ལ་ཆེས་སླ། key དེ་དབང་ཡོད Stirling སྤྱོད་མཁན་ལ་སྦྱོར།"
+tipApiKey = "གསལ་འདེབས། API-key རྣམ་པར་ཕྱིའི IdP མི་དགོས - self-host ལ་ཆེས་སླ། key དེ་དབང་ཡོད 纸环 སྤྱོད་མཁན་ལ་སྦྱོར།"
 title = "MCP client ཞིག་མཐུད།"
 
 [admin.settings.mcp.issuerUri]
@@ -1522,14 +1522,14 @@ label = "JWKS URL (འདེམས་རུང)"
 placeholder = "issuer ནས་རང་འགུལ་རྙེད།"
 
 [admin.settings.mcp.mode]
-apikey = "API ལྡེ་མིག (Stirling སྤྱོད་མཁན་རེ་རེའི་ལྡེ་མིག)"
-description = "OAuth ལ་ཕྱིའི IdP དགོས། API key ཡིས Stirling per-user API key (X-API-KEY) སྤྱོད - self-host ལ་ཆེས་སླ།"
+apikey = "API ལྡེ་མིག (纸环 སྤྱོད་མཁན་རེ་རེའི་ལྡེ་མིག)"
+description = "OAuth ལ་ཕྱིའི IdP དགོས། API key ཡིས 纸环 per-user API key (X-API-KEY) སྤྱོད - self-host ལ་ཆེས་སླ།"
 label = "ཐོབ་ཐང་ར་སྤྲོད་རྣམ་པ"
 oauth = "OAuth 2.1 (ཕྱིའི IdP)"
 
 [admin.settings.mcp.requireAccount]
-description = "subject དེ་སྔོན་ནས་སྒྲིག་པ་དང་སྤྱོད་ཡོད་པའི Stirling སྤྱོད་མཁན་ལ་སྦྱོར་ཐུབ་ན་ཁོ་ན token འགྲོ་དུ་འཇུག"
-label = "ད་ཡོད Stirling རྩིས་ཁྲ་དགོས།"
+description = "subject དེ་སྔོན་ནས་སྒྲིག་པ་དང་སྤྱོད་ཡོད་པའི 纸环 སྤྱོད་མཁན་ལ་སྦྱོར་ཐུབ་ན་ཁོ་ན token འགྲོ་དུ་འཇུག"
+label = "ད་ཡོད 纸环 རྩིས་ཁྲ་དགོས།"
 
 [admin.settings.mcp.resourceId]
 description = "ཞབས་ཞུ་ཆས་འདིའི་སྤྱི་སྤྱོད /mcp URL། Tokens གི audience ནང་དེ་འཁོད་དགོས (RFC 8707) མེད་ན་དང་ལེན་མི་བྱེད།"
@@ -1540,7 +1540,7 @@ description = "read ops ལ mcp.tools.read དང write/AI ops ལ mcp.tools.wri
 label = "OAuth scopes བཙན་སྒྲུབ།"
 
 [admin.settings.mcp.usernameClaim]
-description = "Stirling username དང་མཐུན་སྦྱོར་བྱེད་པའི JWT claim (དཔེར་ན sub, email, preferred_username)།"
+description = "纸环 username དང་མཐུན་སྦྱོར་བྱེད་པའི JWT claim (དཔེར་ན sub, email, preferred_username)།"
 label = "སྤྱོད་མཁན་མིང་གི claim"
 
 [admin.settings.plan.noData]
@@ -1860,7 +1860,7 @@ description = "འགོ་སློངས་ན་ ཐོ་ཡིག་དུ�
 label = "སྤྱོད་མཁན ID དམིགས་བསལ་ཆོག"
 
 [admin.settings.telegram.enabled]
-description = "ཁྱེད་ཀྱིས་སྒྲིག་འགོད་བྱས་ Telegram bot བརྒྱུད་པར་སྤྱོད་མཁན་ཚོས Stirling PDF དང་འབྲེལ་བ་བྱེད་ཆོག"
+description = "ཁྱེད་ཀྱིས་སྒྲིག་འགོད་བྱས་ Telegram bot བརྒྱུད་པར་སྤྱོད་མཁན་ཚོས 纸环 དང་འབྲེལ་བ་བྱེད་ཆོག"
 label = "Telegram Bot འགོ་སློང"
 
 [admin.settings.telegram.feedback]
@@ -1933,14 +1933,14 @@ settingsOverview = "འདི་<strong>སྒྲིག་བཀོད་སྒ�
 systemCustomization = "ང་ཚོ་ལ་UI བསྒྱུར་བཅོས་བྱེད་པའི་ཐབས་ལམ་རྒྱ་ཆེ་བ་ཡོད། མ་ལག་སྒྲིག་སྟངས་</strong> མཉེན་ཆས་མིང་དང་སྐད་ཡིག་བསྒྱུར་ཐུབ།"
 teamsAndUsers = "འཛིན་སྐྱོང་ <strong>རུ་ཁག་</strong> དང་སྤྱོད་མཁན་རེ་རེ་འདིར་ཡོད། ཁྱེད་ཀྱིས་སྤྱོད་མཁན་གསར་པ་རྣམས་གློག་འཕྲིན་བརྒྱུད་ནས་མགྲོན་འབོད་བྱེད་ཐུབ།"
 welcome = "<strong>འཛིན་སྐྱོང་སྐོར་སྐྱོད་</strong>ལ་ཕེབས་པར་དགའ་བསུ་ཞུ། མ་ལག་འཛིན་སྐྱོང་པ་ལ་ཡོད་པའི་ཁེ་ལས་ཀྱི་ཁྱད་ཆོས་དང་སྒྲིག་བཀོད་ཤུགས་ལྡན་དེ་ཚོ་འཚོལ་ཞིབ་བྱེད།"
-wrapUp = "འདི་ནི admin སྐོར་སྐྱོད་ཡིན། Stirling PDF དེ་ཚོགས་པར་ནུས་ལྡན་དང་སྲོལ་སྒྲིག་ཐུབ་པའི་ཐབས་ཤེས་བཟོ་བའི་ཁེ་ལས་ཁྱད་ཆོས་ཁྱེད་ཀྱིས་མཐོང་ཟིན། དུས་གང་རུང་ཡང་བསྐྱར་སྟོན་ཆོག - <strong>སྒྲིག་འགོད</strong> ཁ་ཕྱེ་ནས Help འོག་གི <strong>སྐོར་སྐྱོད</strong> སྡེ་ཚན་ནང་འདི་རྙེད།"
+wrapUp = "འདི་ནི admin སྐོར་སྐྱོད་ཡིན། 纸环 དེ་ཚོགས་པར་ནུས་ལྡན་དང་སྲོལ་སྒྲིག་ཐུབ་པའི་ཐབས་ཤེས་བཟོ་བའི་ཁེ་ལས་ཁྱད་ཆོས་ཁྱེད་ཀྱིས་མཐོང་ཟིན། དུས་གང་རུང་ཡང་བསྐྱར་སྟོན་ཆོག - <strong>སྒྲིག་འགོད</strong> ཁ་ཕྱེ་ནས Help འོག་གི <strong>སྐོར་སྐྱོད</strong> སྡེ་ཚན་ནང་འདི་རྙེད།"
 
 [adminUserSettings]
 admin = "འཛིན་སྐྱོང་།"
 title = "སྤྱོད་མཁན་ཚོད་འཛིན་སྒྲིག་སྟངས།"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "纸环"
 
 [alphabetOptions]
 arabic = "ཨ་རབ་ཡིག"
@@ -1952,9 +1952,9 @@ thai = "ཐའི་ཡིག"
 
 [analytics]
 learnMore = "ང་ཚོའི་དབྱེ་ཞིབ་སྐོར་ལ་མང་ཙམ་ཤེས་དགོས།"
-paragraph1 = "སི་ཊར་ལིང་PDFལ་ཐོན་རྫས་དེ་ཡར་རྒྱས་གཏོང་བར་ཕན་ཐོགས་པའི་དབྱེ་ཞིབ་འདེམས་སྒྲུག་བྱས་ཡོད། ང་ཚོས་སྒེར་གྱི་གནས་ཚུལ་དང་ཡིག་ཆའི་ནང་དོན་གང་རུང་ལ་རྗེས་འདེད་བྱེད་ཀྱི་མེད།"
-paragraph2 = "དབྱེ་ཞིབ་བྱེད་པར་སི་ཊར་ལིང་-པི་ཌི་ཨེཕ་འཕེལ་རྒྱས་འགྲོ་བར་ཕན་ཐོགས་ཡོད་པ་དང་། ང་ཚོའི་སྤྱོད་མཁན་ལ་གོ་བ་ཡག་པོ་ལེན་ཐུབ་པའི་ཆེད་དུ་བསམ་གཞིག་གནང་རོགས།"
-title = "ཁྱེད་རང་གིས་སི་ཊར་ལིང་PDFཡར་རྒྱས་གཏོང་བར་རོགས་པ་བྱེད་འདོད་དམ།"
+paragraph1 = "纸环ལ་ཐོན་རྫས་དེ་ཡར་རྒྱས་གཏོང་བར་ཕན་ཐོགས་པའི་དབྱེ་ཞིབ་འདེམས་སྒྲུག་བྱས་ཡོད། ང་ཚོས་སྒེར་གྱི་གནས་ཚུལ་དང་ཡིག་ཆའི་ནང་དོན་གང་རུང་ལ་རྗེས་འདེད་བྱེད་ཀྱི་མེད།"
+paragraph2 = "དབྱེ་ཞིབ་བྱེད་པར་纸环འཕེལ་རྒྱས་འགྲོ་བར་ཕན་ཐོགས་ཡོད་པ་དང་། ང་ཚོའི་སྤྱོད་མཁན་ལ་གོ་བ་ཡག་པོ་ལེན་ཐུབ་པའི་ཆེད་དུ་བསམ་གཞིག་གནང་རོགས།"
+title = "ཁྱེད་རང་གིས་纸环ཡར་རྒྱས་གཏོང་བར་རོགས་པ་བྱེད་འདོད་དམ།"
 
 [annotate]
 tags = "མཆན་འགོད,མངོན་གསལ,འབྲི,རྟགས་འགོད,མཆན,ཟིན་ཐོ,ཞིབ་སྐྱོར,redline,ཚུར་ལན,རྟགས་འགོད་ལག་ཆ,sticky notes,དབྱིབས,མདའ,ཡིག་སྒྲོམ,freehand"
@@ -2902,9 +2902,9 @@ typeSignature = "ཁྱེད་ཀྱི་མིང་འཇུག་ནས་
 uploadCert = "དཔང་ཡིག་ཡར་སྤྲོད"
 uploadCertDesc = "རང་གི PKCS12, PFX, PEM ཡང་ན JKS དཔང་ཡིག་སྤྱོད།"
 uploadSignature = "ཁྱེད་ཀྱི་མཛུབ་འགན་པར་ཡར་འཇུག"
-usePersonalCert = "Stirling Sign · སྒེར"
+usePersonalCert = "纸环 Sign · སྒེར"
 usePersonalCertDesc = "ཁྱེད་ཀྱི་རྩིས་ཁྲའི་ཆེད་དུ་བཟོས་པའི་དཔང་ཡིག་གིས་མིང་རྟགས་འགོད།"
-useServerCert = "Stirling Sign · ཚོགས་སྡེ"
+useServerCert = "纸环 Sign · ཚོགས་སྡེ"
 useServerCertDesc = "server འདིའི་མཉམ་སྤྱོད་ཚོགས་སྡེའི་དཔང་ཡིག་གིས་མིང་རྟགས་འགོད།"
 useSignature = "མིང་རྟགས་སྤྱོད"
 
@@ -3224,10 +3224,10 @@ text = "ཁྱེད་ཀྱི་ཡིག་ཆ་སྐོར་དྲི་
 
 [chat.fab]
 close = "chat ཁ་རྒྱག"
-open = "Stirling AI assistant ཁ་ཕྱེ།"
+open = "纸环 AI assistant ཁ་ཕྱེ།"
 
 [chat.header]
-agentMenu = "Stirling agent འདེམས་ཚན"
+agentMenu = "纸环 agent འདེམས་ཚན"
 assistant = "AI ལས་རོགས"
 clearChat = "གླེང་མོལ་བཤོལ"
 
@@ -3587,9 +3587,9 @@ label = "རིགས་ལྟར་ཡིག་ཆ། {{summary}}"
 noTypes = "ཡིག་ཆ་འདི་དག་རིགས་ཤེས་ཟིན་པ་ཞིག་དང་མ་མཐུན།"
 
 [classificationDemo.defaultApp]
-body = "Stirling ཁྱེད་ཀྱི་སྔོན་འཇོག PDF app ཏུ་སྒྲིགས། Email དང་ browser ཡང་ན་མདུན་ངོས་ནས་ཁྱེད་ཀྱིས་ཁ་ཕྱེ་བའི PDF ཚང་མ་འདིར་འབྱོར་ཞིང་། ཀློག་པའམ་རྩོམ་སྒྲིག་ལ་གྲ་སྒྲིག་ཡོད། Settings ནང་དུས་ནམ་ཡང་འདི་བསྒྱུར་ཆོག"
-cta = "Stirling ངའི་སྔོན་འཇོག་ཏུ་སྒྲིག"
-title = "PDF ཚང་མ Stirling ནང་ཁ་ཕྱེ"
+body = "纸环 ཁྱེད་ཀྱི་སྔོན་འཇོག PDF app ཏུ་སྒྲིགས། Email དང་ browser ཡང་ན་མདུན་ངོས་ནས་ཁྱེད་ཀྱིས་ཁ་ཕྱེ་བའི PDF ཚང་མ་འདིར་འབྱོར་ཞིང་། ཀློག་པའམ་རྩོམ་སྒྲིག་ལ་གྲ་སྒྲིག་ཡོད། Settings ནང་དུས་ནམ་ཡང་འདི་བསྒྱུར་ཆོག"
+cta = "纸环 ངའི་སྔོན་འཇོག་ཏུ་སྒྲིག"
+title = "PDF ཚང་མ 纸环 ནང་ཁ་ཕྱེ"
 
 [classificationDemo.followUp]
 background = "འདི་རྒྱབ་ལྗོངས་སུ་འཁོར་བཞིན་ཡོད། གཡོན་གྱི་ཨ་ལོང་གིས་འཕེལ་རིམ་སྟོན།"
@@ -3604,7 +3604,7 @@ other = "གཞན"
 body = "Downloads ཡིག་སྣོད་ནང་གི་ཉེ་ཆར་གྱི PDF {{count}} རིགས་ལྟར་དབྱེ་སྒྲིག་དང་གོ་སྒྲིག་བྱེད།"
 cta = "ངའི Downloads ཡིག་སྣོད་སྒྲིག་སྦྱོར་བྱེད"
 privacy = "ཁྱེད་ཀྱི PDFs འདི་སྒྲིག་ཆས་འདིར་གནས། ཁྱེད་ཀྱི་མཐུད་ཟིན་པའི server གིས་སྒྲིག་སྦྱོར་བེད་སྤྱོད་ཟིན་ཐོར་འགོད།"
-title = "ཡིག་སྣོད་ཆ་ཚང་ཞིག་ལ་བརྟེན་ནས Stirling གིས་ཅི་བྱེད་ཐུབ་མཐོང་།"
+title = "ཡིག་སྣོད་ཆ་ཚང་ཞིག་ལ་བརྟེན་ནས 纸环 གིས་ཅི་བྱེད་ཐུབ་མཐོང་།"
 
 [classificationDemo.phase]
 finishing = "མཇུག་བསྡུ་བཞིན་པ..."
@@ -3618,10 +3618,10 @@ counts = "PDF བསྡོམས {{total}} ལས་སྒྲིག་སྦྱ�
 [classificationDemo.results]
 documentCount_one = "PDF {{count}}"
 documentCount_other = "PDFs {{count}}"
-failedBody = "Stirling གིས་ཁྱེད་ཀྱི Downloads ཡིག་སྣོད་ཀློག་མ་ཐུབ། ཁྱེད་ཀྱི་རྩིས་འཁོར་ཐོག་ཅི་ཡང་བསྒྱུར་མེད།"
+failedBody = "纸环 གིས་ཁྱེད་ཀྱི Downloads ཡིག་སྣོད་ཀློག་མ་ཐུབ། ཁྱེད་ཀྱི་རྩིས་འཁོར་ཐོག་ཅི་ཡང་བསྒྱུར་མེད།"
 failedTitle = "འདི་ཚར་མ་སོང་།"
 heading = "ཁྱེད་ཀྱི Downloads སྒྲིག་ཟིན།"
-summary = "Stirling གིས {{documents}} ཀློག་ནས {{types}} ནང་དབྱེ་སྒྲིག་བྱས།"
+summary = "纸环 གིས {{documents}} ཀློག་ནས {{types}} ནང་དབྱེ་སྒྲིག་བྱས།"
 typeCount_one = "རིགས {{count}}"
 typeCount_other = "རིགས {{count}}"
 
@@ -3947,8 +3947,8 @@ upgradeButton = "རིམ་སྤོར་རྩིས་ཁྲ།"
 
 [config.apiKeys]
 copyKeyAriaLabel = "API ལྡེ་མིག་འདྲ་བཤུས།"
-description = "ཁྱེད་ཀྱི་APIལྡེ་མིག་དེ་སི་ཊར་ལིང་གི་PDFལག་ཆའི་སྒྲིག་ཆས་ལ་འཛུལ་ཞུགས་བྱེད་པར་ཡིན། ཁྱེད་རང་གི་ལས་གཞི་ལ་འདྲ་བཤུས་བྱེད་པའམ་ཡང་ན་གསར་པ་བསྐྲུན་ཆེད་དུ་གསར་བརྗེ་བྱེད་དགོས།"
-docsDescription = "སི་ཊར་ལིང་PDFདང་མཉམ་དུ་སྒྲིག་སྦྱོར་བྱེད་པའི་སྐོར་ལ་མང་ཙམ་ཤེས་དགོས།"
+description = "ཁྱེད་ཀྱི་APIལྡེ་མིག་དེ་纸环གི་PDFལག་ཆའི་སྒྲིག་ཆས་ལ་འཛུལ་ཞུགས་བྱེད་པར་ཡིན། ཁྱེད་རང་གི་ལས་གཞི་ལ་འདྲ་བཤུས་བྱེད་པའམ་ཡང་ན་གསར་པ་བསྐྲུན་ཆེད་དུ་གསར་བརྗེ་བྱེད་དགོས།"
+docsDescription = "纸环དང་མཉམ་དུ་སྒྲིག་སྦྱོར་བྱེད་པའི་སྐོར་ལ་མང་ཙམ་ཤེས་དགོས།"
 docsLink = "APIཡིག་ཆ།"
 docsTitle = "APIཡིག་ཆ།"
 generateError = "ང་ཚོས་ཁྱེད་ཀྱི་APIལྡེ་མིག་བཟོ་ཐུབ་མ་སོང་།"
@@ -3978,10 +3978,10 @@ title = "གསར་བརྗེའི་APIལྡེ་མིག"
 warning = "⚠️ ཉེན་བརྡ། བྱ་སྤྱོད་འདིས་API ལྡེ་མིག་གསར་པ་བཟོས་ནས་ཁྱེད་ཀྱི་སྔོན་གྱི་ལྡེ་མིག་དེ་ནུས་མེད་བཟོ་ཐུབ།"
 
 [config.mcp]
-description = "Model Context Protocol (MCP) གིས Claude ལྟ་བུའི AI ལས་རོགས་ལ་ཁྱེད་ཀྱི Stirling PDF ལག་ཆ་ཐད་ཀར་སྤྱོད་དུ་འཇུག ཐེངས་གཅིག client མཐུད་ནས་ཁྱེད་ཀྱི་ཚབ་ཏུ་ཡིག་ཆ་སྒྱུར་བ། རྩོམ་སྒྲིག བདེ་འཇགས་དང་སྒྲིག་སྦྱོར་བྱེད་དུ་འཇུག"
-guestInfo = "མགྲོན་པོའི་སྤྱོད་མཁན་གྱིས MCP clients མཐུད་མི་ཐུབ། MCP server སྤྱོད་པར་རྩིས་ཐོ་ཞིག་གསར་བཟོ་བྱས་ནས AI ལས་རོགས་ལ་ཁྱེད་ཀྱི་ཚབ་ཏུ Stirling PDF ལག་ཆ་འཁོར་སྤྱོད་བྱེད་དུ་འཇུག"
+description = "Model Context Protocol (MCP) གིས Claude ལྟ་བུའི AI ལས་རོགས་ལ་ཁྱེད་ཀྱི 纸环 ལག་ཆ་ཐད་ཀར་སྤྱོད་དུ་འཇུག ཐེངས་གཅིག client མཐུད་ནས་ཁྱེད་ཀྱི་ཚབ་ཏུ་ཡིག་ཆ་སྒྱུར་བ། རྩོམ་སྒྲིག བདེ་འཇགས་དང་སྒྲིག་སྦྱོར་བྱེད་དུ་འཇུག"
+guestInfo = "མགྲོན་པོའི་སྤྱོད་མཁན་གྱིས MCP clients མཐུད་མི་ཐུབ། MCP server སྤྱོད་པར་རྩིས་ཐོ་ཞིག་གསར་བཟོ་བྱས་ནས AI ལས་རོགས་ལ་ཁྱེད་ཀྱི་ཚབ་ཏུ 纸环 ལག་ཆ་འཁོར་སྤྱོད་བྱེད་དུ་འཇུག"
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using 纸环 directly."
 viewApiKeys = "API keys ལྟ"
 
 [config.mcp.copy]
@@ -3997,7 +3997,7 @@ label = "ཁྱེད་ཀྱི MCP endpoint"
 
 [config.mcp.setup]
 addTo = "ནང་སྣོན"
-hint = "ཁྱེད་ཀྱི client འདེམས། snippet དེ་སྟོན་པའི་ཡིག་ཆའི་ནང་སྦྱར། དེ་ནས་བསྐྱར་འགོ་འཛུགས། ཐོག་མར་སྤྱོད་སྐབས་ཁྱེད་ཀྱི Stirling རྩིས་ཐོས་ནང་འཛུལ་བྱེད། keys འདྲ་བཤུས་དགོས་མེད།"
+hint = "ཁྱེད་ཀྱི client འདེམས། snippet དེ་སྟོན་པའི་ཡིག་ཆའི་ནང་སྦྱར། དེ་ནས་བསྐྱར་འགོ་འཛུགས། ཐོག་མར་སྤྱོད་སྐབས་ཁྱེད་ཀྱི 纸环 རྩིས་ཐོས་ནང་འཛུལ་བྱེད། keys འདྲ་བཤུས་དགོས་མེད།"
 title = "ཁྱེད་ཀྱི AI ལས་རོགས་མཐུད"
 
 [config.overview]
@@ -4021,10 +4021,10 @@ step = "གོམ་པ {{current}} / {{total}}"
 [connect.confirm]
 acknowledge = "ངས་ཁ་བྱང་འདི་ངོ་ཤེས་ཤིང་ངའི་ཚོགས་པ་དང་མཐུད་འདོད།"
 approve = "Server མཐུད"
-cannotDecide = "ཚོགས་པའི་བདག་པོ་ཁོ་ནས་མཐུད་འདི་ཆོག་མཆན་ནམ་དང་ལེན་མི་བྱེད་པ་ཐག་གཅོད་ཐུབ། རྩིས་ཐོ་གཞན་སྤྱོད་པའམ་བརྡ་སྐུལ་འདི་སྒོ་རྒྱག་ནས Stirling མུ་མཐུད་སྤྱོད།"
+cannotDecide = "ཚོགས་པའི་བདག་པོ་ཁོ་ནས་མཐུད་འདི་ཆོག་མཆན་ནམ་དང་ལེན་མི་བྱེད་པ་ཐག་གཅོད་ཐུབ། རྩིས་ཐོ་གཞན་སྤྱོད་པའམ་བརྡ་སྐུལ་འདི་སྒོ་རྒྱག་ནས 纸环 མུ་མཐུད་སྤྱོད།"
 deny = "དང་ལེན་མི་བྱེད"
 dismiss = "སྒོ་རྒྱག"
-lead = "Stirling server ཞིག་གིས་ཁྱེད་ཀྱི་ཚོགས་པ་དང་མཐུད་རེ་འདུན་བྱེད་ཀྱི་འདུག ཆོག་མཆན་སྤྲོད་སྔོན་གཤམ་གྱི་ཁ་བྱང་དེ་ཁྱེད་རང་གི་ཡིན་མིན་ཞིབ་བཤེར་བྱེད།"
+lead = "纸环 server ཞིག་གིས་ཁྱེད་ཀྱི་ཚོགས་པ་དང་མཐུད་རེ་འདུན་བྱེད་ཀྱི་འདུག ཆོག་མཆན་སྤྲོད་སྔོན་གཤམ་གྱི་ཁ་བྱང་དེ་ཁྱེད་རང་གི་ཡིན་མིན་ཞིབ་བཤེར་བྱེད།"
 originLabel = "ཁ་བྱང"
 signedInAs = "ནང་འཛུལ་ཟིན་པ"
 switchAccount = "རྩིས་ཐོ་གཞན་སྤྱོད"
@@ -4130,7 +4130,7 @@ selectSourceFormatFirst = "སྔོན་ལ་ཁུངས་ཀྱི་ར�
 settings = "སྒྲིག་སྟངས།"
 single = "ཁེར་ཧྲེང"
 sourceFormatPlaceholder = "འབྱུང་ཁུངས་རྣམ་གྲངས།"
-stirlingOfficeConvert = "Stirling Office Convert (beta) སྤྱོད།"
+stirlingOfficeConvert = "纸环 Office Convert (beta) སྤྱོད།"
 stirlingOfficeConvertDescription = "དྲན་གསོག་ཉུང་བས་སྒྱུར་སྤོར་ལེགས་པ་དང་མགྱོགས་པ། ཚད་ལྡན་སྒྱུར་ཆས་སྤྱོད་པར་ཁ་རྒྱགပါ།"
 strictMode = "ནན་མོའི་རྣམ་པ"
 strictModeDesc = "སྒྱུར་བ་འཐུས་ཚང་མིན་ན་ནོར་འཁྲུལ་སྟོན (VeraPDF verification སྤྱོད)"
@@ -4188,7 +4188,7 @@ showPreferencesBtn = "འདོད་མོས་དོ་དམ་བྱེད�
 title = "ང་ཚོས་ཀུ་ཀིས་ཇི་ལྟར་སྤྱོད་སྟངས།"
 
 [cookieBanner.popUp.description]
-1 = "Stirling PDF ཁྱེད་ལ་ལེགས་པར་འཁོར་སྤྱོད་ཡོང་ཕྱིར་ང་ཚོས cookies དང་ལག་རྩལ་གཞན་སྤྱོད། དེས་ང་ཚོའི་ལག་ཆ་ལེགས་བཅོས་དང་ཁྱེད་ཀྱིས་དགའ་བའི་ནུས་པ་མུ་མཐུད་བཟོ་བར་རོགས་བྱེད།"
+1 = "纸环 ཁྱེད་ལ་ལེགས་པར་འཁོར་སྤྱོད་ཡོང་ཕྱིར་ང་ཚོས cookies དང་ལག་རྩལ་གཞན་སྤྱོད། དེས་ང་ཚོའི་ལག་ཆ་ལེགས་བཅོས་དང་ཁྱེད་ཀྱིས་དགའ་བའི་ནུས་པ་མུ་མཐུད་བཟོ་བར་རོགས་བྱེད།"
 2 = "གལ་ཏེ་ཁྱེད་རང་གིས་མ་འདོད་ན། 'No the the the the the the the the the the the the the the the the the the the the secokies དེ་དག་ལ་སྟབས་བདེ་པོའི་ངང་ལས་ཀ་བྱེད་ཐུབ་པ་རེད།"
 
 [cookieBanner.preferencesModal]
@@ -4201,12 +4201,12 @@ subtitle = "ཀུ་ཀི་བེད་སྤྱོད།"
 title = "མོས་མཐུན་འདོད་མོས་ལྟེ་གནས།"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Cookies འདི་དག་གིས་ང་ཚོའི་ལག་ཆ་ཇི་ལྟར་སྤྱོད་ཀྱི་ཡོད་པ་ཤེས་རོགས་བྱེད་པས། ང་ཚོས་སྤྱི་ཚོགས་ཀྱིས་རིན་ཐང་ཆེན་པོར་བརྩི་བའི་ནུས་པ་བཟོ་བར་གཙོ་བོ་དམིགས་ཐུབ། སེམས་བདེ་བར་གནས། Stirling PDF གིས་ཁྱེད་ཀྱིས་ལས་ཀ་བྱེད་པའི་ཡིག་ཆའི་ནང་དོན་རྗེས་འདེད་བྱེད་མི་ཐུབ་ལ་ནམ་ཡང་བྱེད་མི་སྲིད།"
+description = "Cookies འདི་དག་གིས་ང་ཚོའི་ལག་ཆ་ཇི་ལྟར་སྤྱོད་ཀྱི་ཡོད་པ་ཤེས་རོགས་བྱེད་པས། ང་ཚོས་སྤྱི་ཚོགས་ཀྱིས་རིན་ཐང་ཆེན་པོར་བརྩི་བའི་ནུས་པ་བཟོ་བར་གཙོ་བོ་དམིགས་ཐུབ། སེམས་བདེ་བར་གནས། 纸环 གིས་ཁྱེད་ཀྱིས་ལས་ཀ་བྱེད་པའི་ཡིག་ཆའི་ནང་དོན་རྗེས་འདེད་བྱེད་མི་ཐུབ་ལ་ནམ་ཡང་བྱེད་མི་སྲིད།"
 title = "དབྱེ་ཞིབ།"
 
 [cookieBanner.preferencesModal.description]
 1 = "ཁྱེད་ཀྱི་ཉམས་མྱོང་འཕེལ་རྒྱས་གཏོང་བ་དང་ང་ཚོའི་ལག་ཆ་ཇི་ལྟར་བེད་སྤྱོད་གཏོང་དགོས་མིན་ཤེས་པར་བྱེད་པར་PDFཡིས་ཀུ་ཀི་དང་འཕྲུལ་རིག་འདྲ་མཚུངས་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད། འདི་ལ་བརྟེན་ནས་ང་ཚོས་ལས་ཀའི་སྤུས་ཚད་ཡར་རྒྱས་གཏོང་བ་དང་། ཁྱེད་རང་གིས་བརྩི་བཀུར་བྱེད་པའི་ཁྱད་ཆོས་འཕེལ་རྒྱས་གཏོང་བ། ང་ཚོའི་སྤྱོད་མཁན་ལ་མུ་མཐུད་ནས་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་ཡོད།"
-2 = "Stirling PDF གིས་ཁྱེད་ཀྱིས་སྤྱོད་པའི་ཡིག་ཆའི་ནང་དོན་རྗེས་འདེད་དམ་འཛུལ་སྤྱོད་བྱེད་མི་ཐུབ་ལ་ནམ་ཡང་བྱེད་མི་སྲིད།"
+2 = "纸环 གིས་ཁྱེད་ཀྱིས་སྤྱོད་པའི་ཡིག་ཆའི་ནང་དོན་རྗེས་འདེད་དམ་འཛུལ་སྤྱོད་བྱེད་མི་ཐུབ་ལ་ནམ་ཡང་བྱེད་མི་སྲིད།"
 3 = "ཁྱེད་ཀྱི་སྒེར་གྱི་གནས་ཚུལ་དང་ཡིད་ཆེས་དེ་ང་ཚོས་བྱེད་པའི་ལས་ཀ་དེའི་ལྟེ་བ་ཡིན།"
 
 [cookieBanner.preferencesModal.necessary]
@@ -4308,11 +4308,11 @@ message = "སྔོན་སྒྲིག་PDFའཛིན་སྐྱོང་
 title = "ནོར་འཁྲུལ"
 
 [defaultApp.settingsOpened]
-message = "ཝིན་ཌོ་སྒྲིག་སྟངས་ནང་ 'PDF' འཚོལ་ཞིབ་བྱས་ནས་ཁྱེད་ཀྱི་སྔོན་སྒྲིག་མཉེན་ཆས་ལྟར་སི་ཊར་ལིང་ PDF འདེམས།"
+message = "ཝིན་ཌོ་སྒྲིག་སྟངས་ནང་ 'PDF' འཚོལ་ཞིབ་བྱས་ནས་ཁྱེད་ཀྱི་སྔོན་སྒྲིག་མཉེན་ཆས་ལྟར་纸环 འདེམས།"
 title = "སྒྲིག་སྟངས་སྒོ་ཕྱེས་པ།"
 
 [defaultApp.success]
-message = "སི་ཊར་ལིང་PDFནི་ད་ལྟ་ཁྱེད་ཀྱི་སྔོན་སྒྲིག་PDFརྩོམ་སྒྲིག་པ་ཡིན།"
+message = "纸环ནི་ད་ལྟ་ཁྱེད་ཀྱི་སྔོན་སྒྲིག་PDFརྩོམ་སྒྲིག་པ་ཡིན།"
 title = "སྔོན་སྒྲིག་མཉེན་ཆས་ཆ་ཚན་ཆ་ཚང་།"
 
 [desktop.fileSave]
@@ -4329,7 +4329,7 @@ minimize = "ཆུང་ཤོས་བཟོ"
 restore = "སླར་གསོ"
 
 [desktopBilling]
-description = "browser ནང་བེད་སྤྱོད་དང་འཛིན་ཤོག་དོ་དམ་བྱེད། འདིར་སྤྱོད་པའི Stirling རྩིས་ཐོ་དེ་ག་རང་གིས་ནང་འཛུལ་བྱེད།"
+description = "browser ནང་བེད་སྤྱོད་དང་འཛིན་ཤོག་དོ་དམ་བྱེད། འདིར་སྤྱོད་པའི 纸环 རྩིས་ཐོ་དེ་ག་རང་གིས་ནང་འཛུལ་བྱེད།"
 open = "Usage & Billing browser ནང་ཁ་ཕྱེ"
 openFailed = "Usage & Billing ཁ་ཕྱེ་མ་ཐུབ། ཁྱེད་ཀྱི་མཐུད་ལམ་ཞིབ་བཤེར་བྱས་ནས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱེད།"
 selfHostedDescription = "ཁྱེད་ཀྱི་མཐུད་ཟིན་པའི server ཐོག་གི་བེད་སྤྱོད་དང་འཛིན་ཤོག browser ནང་དོ་དམ་བྱེད། ཁྱེད་ཀྱི server བདག་པོའི་རྩིས་ཐོས་ནང་འཛུལ་བྱེད།"
@@ -4377,7 +4377,7 @@ updateFailedMessage = "གསར་སྒྱུར་ཕབ་ལེན་ཡང
 
 [desktopUpdate.blocked]
 docsLink = "འཇུག་ཐབས་ཡིག་ཆ་ལྟ"
-message = "Stirling-PDF ལ་འཕྲུལ་ཆས་འདིའི་སྟེང་རང་ཉིད་ལ་གསར་སྒྱུར་བྱེད་པའི་དབང་ཆ་མེད།"
+message = "纸环 ལ་འཕྲུལ་ཆས་འདིའི་སྟེང་རང་ཉིད་ལ་གསར་སྒྱུར་བྱེད་པའི་དབང་ཆ་མེད།"
 title = "དོ་དམ་པའི་དབང་ཆ་དགོས།"
 
 [devAirgapped]
@@ -4775,13 +4775,13 @@ save = "མིང་བསྐྱར་འདོགས"
 title = "ཡིག་ཆའི་མིང་བསྐྱར་འདོགས"
 
 [filesPage]
-addedToLibrary = "Stirling མཛོད་ལ་ཁ་སྣོན་བྱས"
-addingToLibrary = "Stirling མཛོད་ལ་ཁ་སྣོན་བྱེད་བཞིན…"
-addToLibrary = "Stirling མཛོད་ལ་ཁ་སྣོན…"
+addedToLibrary = "纸环 མཛོད་ལ་ཁ་སྣོན་བྱས"
+addingToLibrary = "纸环 མཛོད་ལ་ཁ་སྣོན་བྱེད་བཞིན…"
+addToLibrary = "纸环 མཛོད་ལ་ཁ་སྣོན…"
 addToLibraryFailed = "ཡིག་ཆ་ཁ་ཤས་ཁ་སྣོན་མ་ཐུབ"
 addToWorkspace = "ལས་གནས་ལ་ཁ་སྣོན"
 addToWorkspaceCount = "{{count}} ལས་གནས་ལ་ཁ་སྣོན"
-allFiles = "Stirling མཛོད"
+allFiles = "纸环 མཛོད"
 back = "ཕྱིར་ལོག"
 backToFolder = "{{folder}} ལ་ཕྱིར་ལོག"
 backToMyFiles = "ཡིག་ཆའི་མཛོད་ལ་ཕྱིར་ལོག"
@@ -4809,7 +4809,7 @@ deleteFolderContents_one = "ཡིག་ཁུག་ནང་གི་ཡིག�
 deleteFolderContents_other = "ཡིག་ཁུག་ནང་གི་ཡིག་ཆ {{count}} ཡང་སུབ"
 deleteFolderContentsWarning = "ཡིག་ཆ་ཚང་མ་རྟག་པར་སུབ་བྱས་ནས་སླར་ཐོན་མི་སློང་ཐུབ།"
 deleteFolderError = "སྣོད་འགེངས་སུབ་མ་ཐུབ། བསྐྱར་འདོད།"
-deleteFolderKeepHint = "ནང་གི་ཡིག་ཆ་རྣམས Stirling མཛོད་ལ་སྤོ་རྒྱུ་ཡིན།"
+deleteFolderKeepHint = "ནང་གི་ཡིག་ཆ་རྣམས 纸环 མཛོད་ལ་སྤོ་རྒྱུ་ཡིན།"
 deleteFolderTitle = "སྣོད་འགེངས་སུབ་དགོས་སམ?"
 deselectAll = "འདེམས་བཤོལ"
 details = "ཞིབ་ཕྲ"
@@ -4847,7 +4847,7 @@ moveSkippedRemote_other = "server ཐོག་ཡིག་ཆ {{count}} སྤ�
 moveTo = "སྤོ་བསྒྱུར…"
 newFolder = "སྣོད་འགེངས་གསར་པ"
 newFolderStorageDisabled = "server ཡིག་ཁུག་ཉར་སྣོད་སྤར་མེད།"
-newFolderTabUnavailable = "ཡིག་ཁུག་གསར་བཟོ་བྱེད་པར Stirling མཛོད་ལ་བརྗེ།"
+newFolderTabUnavailable = "ཡིག་ཁུག་གསར་བཟོ་བྱེད་པར 纸环 མཛོད་ལ་བརྗེ།"
 offlineNoFolderEdits = "སར་བར་སྣོད་འགེངས་མཉམ་འགྲིག་མེད་པས—སྣོད་འགེངས་བཟོ་བཅོས་མི་ཆོག ནང་འཛུལ་དང་ཉར་གསོག་སྒྲིག་འགོད་ཞིབ་བཤེར།"
 open = "ཁ་ཕྱེ"
 openVersionInWorkspace = "ལས་གནས་ནང་ཁ་ཕྱེ"
@@ -4856,7 +4856,7 @@ recentFiles = "ཉེ་ཆར"
 refresh = "གསར་སྒྱུར"
 refreshNeedsConnection = "server ནས་གསར་སྒྱུར་བྱེད་པར་ནང་འཛུལ་གནང་།"
 remove = "སུབ"
-removeLocalFolder = "Stirling ནས་བཏོན"
+removeLocalFolder = "纸环 ནས་བཏོན"
 removeVersion = "པར་གཞི་སུབ"
 rename = "མིང་བསྐྱར་བཏགས"
 renamed = "མིང་བསྐྱར་བཏགས"
@@ -4878,7 +4878,7 @@ summary_other = "རྣམ་གྲངས {{count}}"
 tree = "སྣོད་འགེངས"
 unmount = "Unmount"
 unmountFolderBody = "\"{{name}}\" Unmount བྱེད་དམ། ཡིག་ཁུག་དང་དེའི་ཡིག་ཆ་རྣམས་ཁྱེད་ཀྱི་སྡུད་སྡེར་ཐོག་ལྷག་རྒྱུ་ཡིན།"
-unmountFolderTitle = "Stirling ནས Unmount བྱེད་དམ།"
+unmountFolderTitle = "纸环 ནས Unmount བྱེད་དམ།"
 upload = "ཡར་འཇུག"
 uploadFromMobile = "སྒུལ་ཁུངས་ནས་ཡར་འཇུག"
 versionActions = "པར་གཞི་བྱ་བ"
@@ -4921,7 +4921,7 @@ orphaned = "སྡུད་སྡེར་ཐོག་མེད"
 orphanedHint = "{{path}} ནས་སྔ་མ་དེ་མེད་སོང་། འདྲ་བཤུས་འདི་འདིར་ཁོ་ན་ཡོད - ཉར་སྐབས་གནས་ས་གསར་པ་འདྲི་རྒྱུ་ཡིན།"
 unavailable = "སྤྱོད་མི་ཐུབ"
 unavailableHintOffline = "ཡིག་ཆ་འདི་གནས་པའི་སྡུད་སྡེར་རམ་མཉམ་སྤྱོད་མཐུད་མེད། འགྱུར་བ་ཡང་བསྐྱར་ལེན་པར་བསྐྱར་མཐུད་གནང་།"
-unavailableHintPermission = "Stirling ལ་གནས་ས་འདི་ཀློག་ཆོག་མཆན་མེད། System Settings ནང་ཆོག་མཆན་སྤྲད་ནས་འགྱུར་བ་ཡང་བསྐྱར་ལེན།"
+unavailableHintPermission = "纸环 ལ་གནས་ས་འདི་ཀློག་ཆོག་མཆན་མེད། System Settings ནང་ཆོག་མཆན་སྤྲད་ནས་འགྱུར་བ་ཡང་བསྐྱར་ལེན།"
 unavailableHintUnknown = "ད་ལྟ་ཡིག་ཆ་འདིར་སླེབས་མི་ཐུབ། འདིའི་འདྲ་བཤུས་ལ་འགྱུར་བ་མེད།"
 
 [filesPage.diskState]
@@ -5036,7 +5036,7 @@ placeholder = "སྣོད་འགེངས་མིང"
 
 [filesPage.folderOrigin]
 diskHint = "ཁྱེད་ཀྱི་སྡུད་སྡེར་ཐོག་གི་དཀར་ཆག་ནས mount བྱས་པའི་ཡིག་ཁུག"
-serverHint = "Stirling server ཐོག་ཉར་བའི་ཡིག་ཁུག"
+serverHint = "纸环 server ཐོག་ཉར་བའི་ཡིག་ཁུག"
 virtualHint = "བཤེར་ཆས་འདི་ཁོ་ནའི་ནང་གནས་པའི་ཡིག་ཁུག"
 
 [filesPage.moveDialog]
@@ -5060,7 +5060,7 @@ serverHint = "ཁྱེད་ཀྱི་རྩིས་ཐོ་དང་མཉ
 [filesPage.origin]
 all = "ཁུངས་ཡོངས"
 cloud = "སྤྲིན"
-cloudHint = "Stirling སར་བར་ནང་ཉར"
+cloudHint = "纸环 སར་བར་ནང་ཉར"
 diskFileHint = "ཁྱེད་ཀྱི་གློག་ཀླད་ཐོག་ཉར་ཡོད"
 diskHint = "ཁྱེད་ཀྱི་སྡུད་སྡེར་ཐོག mount བྱས་པའི་ཡིག་ཁུག་ནང་གི་ཡིག་ཆ"
 local = "རང་ས"
@@ -5474,7 +5474,7 @@ invisible = "མཐོང་མི་རུང (metadata ཙམ)"
 location = "གནས་ཡུལ:"
 logo = "ལས་རྟགས:"
 logoHidden = "ལས་རྟགས་མེད"
-logoShown = "Stirling PDF ལས་རྟགས་མངོན"
+logoShown = "纸环 ལས་རྟགས་མངོན"
 participantCount_one = "ཞུགས་མཁན {{count}} གོ་རིམ་བཞིན་མིང་རྟགས་འགོད"
 participantCount_other = "ཞུགས་མཁན {{count}} གོ་རིམ་བཞིན་མིང་རྟགས་འགོད"
 participants = "ཞུགས་མཁན"
@@ -5525,7 +5525,7 @@ title = "གོ་རིམ་གང་རུང་ནང་མིང་རྟ�
 dismiss = "དར་ཆ་ཕྱིར་འབུད་བྱེད་པ།"
 message = "ཁྱེད་རང་གི་ལས་ཀ་གསོག་འཇོག་བྱེད་པར་རིན་མེད་ཀྱི་རྩིས་ཁྲ་བཟོས་ནས་ཁྱད་ཆོས་མང་བ་འཛུལ་ཐུབ་པ་དང་ལས་གཞི་ལ་རྒྱབ་སྐྱོར་བྱེད་དགོས།"
 signUp = "རིན་མེད་དུ་མིང་ཐོ་འགོད་པ།"
-title = "ཁྱེད་རང་གིས་མགྲོན་པོ་ལྟར་སི་ཊར་ལིང་PDFབེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།"
+title = "ཁྱེད་རང་གིས་མགྲོན་པོ་ལྟར་纸环བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།"
 
 [home.addAttachments]
 desc = "PDF ནང་སྦས་པའི་ཟུར་སྦྱར་ལྟ་བ། ཁ་སྣོན། འདོན་པ། མིང་བསྐྱར་འདོགས། ཡང་ན་སུབ"
@@ -5921,7 +5921,7 @@ passwordRequired = "གསང་གྲངས་དགོས།"
 signIn = "མཚན་རྟགས་བཀོད་པ།"
 validating = "མགྲོན་འབོད་ལ་ཁུངས་གཏུག་བྱེད་པ།"
 validationError = "གདན་ཞུའི་འབྲེལ་མཐུད་ལ་ཁུངས་སྐྱེལ་མ་ཐུབ་པ།"
-welcome = "སི་ཊར་ལིང་PDFལ་ཕེབས་པར་དགའ་བསུ་ཞུ།"
+welcome = "纸环ལ་ཕེབས་པར་དགའ་བསུ་ཞུ།"
 welcomeSubtitle = "ཁྱེད་རང་གི་རྩིས་ཁྲའི་སྒྲིག་བཀོད་ཚང་མ་འགོ་འཛུགས་དགོས།"
 welcomeTitle = "ཁྱེད་རང་གདན་འདྲེན་ཞུས་ཡོད།"
 
@@ -6209,7 +6209,7 @@ message = "བདེན་དཔང་དེ་གྲུབ་འབྲས་ཐ
 title = "བདེན་དཔང་མ་ཐུབ་པ།"
 
 [oauth.success]
-message = "ཁྱེད་ཀྱིས་སྒེའུ་ཁུང་འདི་ཁ་རྒྱག་ནས་སི་ཊར་ལིང་PDFལ་ལོག་ཐུབ།"
+message = "ཁྱེད་ཀྱིས་སྒེའུ་ཁུང་འདི་ཁ་རྒྱག་ནས་纸环ལ་ལོག་ཐུབ།"
 title = "བདེན་དཔང་ལམ་ལྷོང་།"
 
 [oauthConsent]
@@ -6222,17 +6222,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "app ལ་ཁྱེད་ཕྱིར་སྐྱེལ་བཞིན..."
-requesting = "{{app}} ཡིས་ཁྱེད་ཀྱི Stirling PDF རྩིས་ཐོ་ལ་འཛུལ་སྤྱོད་འདོད"
+requesting = "{{app}} ཡིས་ཁྱེད་ཀྱི 纸环 རྩིས་ཐོ་ལ་འཛུལ་སྤྱོད་འདོད"
 scopesIntro = "འདིས {{app}} ལ་འདི་དག་བྱ་ཆོག་པར་བྱེད།"
 signedInAs = "{{name}} ལྟར་ནང་འཛུལ"
 signInButton = "མུ་མཐུད་པར་ནང་འཛུལ"
-signInPrompt = "app མཐུད་པ་མུ་མཐུད་པར་ཁྱེད་ཀྱི Stirling PDF རྩིས་ཐོ་ལ་ནང་འཛུལ་གནང་།"
+signInPrompt = "app མཐུད་པ་མུ་མཐུད་པར་ཁྱེད་ཀྱི 纸环 རྩིས་ཐོ་ལ་ནང་འཛུལ་གནང་།"
 title = "Authorise access"
 unknownApp = "ཕྱི་རོལ་གྱི application ཞིག"
 
 [oauthConsent.access]
 actAsYou = "ཁྱེད་ལྟར་བྱེད - {{app}} ཡིས་བྱས་པ་ཚང་མ་ཁྱེད་ཀྱི་རྩིས་ཐོ་འོག་འགྲོ་ཞིང་ཁྱེད་ཀྱི་སྤྱོད་ཚད་ལ་རྩིས་འཇུག་བྱེད"
-tools = "ཁྱེད་ཀྱི་ཚབ་ཏུ Stirling PDF ལག་ཆས་སྤྱོད - ཡིག་ཆ་སྒྱུར། རྩོམ་སྒྲིག མིང་རྟགས། བདེ་འཇགས། སྒྲིག་གཅོད"
+tools = "ཁྱེད་ཀྱི་ཚབ་ཏུ 纸环 ལག་ཆས་སྤྱོད - ཡིག་ཆ་སྒྱུར། རྩོམ་སྒྲིག མིང་རྟགས། བདེ་འཇགས། སྒྲིག་གཅོད"
 
 [oauthConsent.scope]
 email = "ཁྱེད་ཀྱི email ཁ་བྱང་ལྟ"
@@ -6362,26 +6362,26 @@ skipTheTour = "སྐོར་སྐྱོད་ལ་བསྐྱོད་པ�
 
 [onboarding.checklist]
 dismiss = "སེལ"
-title = "Stirling PDF སྒྲིག"
+title = "纸环 སྒྲིག"
 
 [onboarding.checklist.downloadDesktop]
-description = "Stirling ཁྱེད་ཀྱི་འཕྲུལ་ཆས་ཐོག་ཐད་ཀར་སྤེལ"
-title = "Desktop ལ་སྤྱོད་པའི Stirling ཕབ་ལེན"
+description = "纸环 ཁྱེད་ཀྱི་འཕྲུལ་ཆས་ཐོག་ཐད་ཀར་སྤེལ"
+title = "Desktop ལ་སྤྱོད་པའི 纸环 ཕབ་ལེན"
 
 [onboarding.checklist.inviteTeam]
 description = "ཁྱེད་ཀྱི་ཚོགས་ཆུང་དང་མཉམ་ལས་བྱེད"
 title = "ཚོགས་ཆུང་ཁོངས་མི་གདན་འདྲེན"
 
 [onboarding.checklist.setDefaultApp]
-description = "PDF ཡིག་ཆ Stirling PDF ནང་ཁ་འབྱེད"
-title = "Stirling ཁྱེད་ཀྱི་སྔོན་སྒྲིག་བཟོ"
+description = "PDF ཡིག་ཆ 纸环 ནང་ཁ་འབྱེད"
+title = "纸环 ཁྱེད་ཀྱི་སྔོན་སྒྲིག་བཟོ"
 
 [onboarding.checklist.takeTour]
-description = "མགྱོགས་པོའི་སྟོན་སྐོར་ནང Stirling ཇི་ལྟར་ལས་ཀ་བྱེད་པ་ལྟ"
+description = "མགྱོགས་པོའི་སྟོན་སྐོར་ནང 纸环 ཇི་ལྟར་ལས་ཀ་བྱེད་པ་ལྟ"
 title = "སྟོན་སྐོར་ལ་ཞུགས"
 
 [onboarding.desktopInstall]
-body = "སི་ཊར་ལིང་གིས་ཀམ་པུ་ཊར་གྱི་མཉེན་ཆས་ལྟར་ལས་ཀ་ཡག་ཤོས་བྱེད་ཀྱི་ཡོད། ཁྱེད་ཀྱིས་དེ་དྲ་རྒྱ་ལས་ཕྱིར་སྤྱོད་ཐུབ་པ་དང་། ཡིག་ཆ་མགྱོགས་པོ་འཛུལ་ཐུབ་པ། དེ་བཞིན་ཁྱེད་རང་གི་གློག་ཀླད་ཐོག་ས་གནས་སུ་རྩོམ་སྒྲིག་བྱེད་ཐུབ།"
+body = "纸环གིས་ཀམ་པུ་ཊར་གྱི་མཉེན་ཆས་ལྟར་ལས་ཀ་ཡག་ཤོས་བྱེད་ཀྱི་ཡོད། ཁྱེད་ཀྱིས་དེ་དྲ་རྒྱ་ལས་ཕྱིར་སྤྱོད་ཐུབ་པ་དང་། ཡིག་ཆ་མགྱོགས་པོ་འཛུལ་ཐུབ་པ། དེ་བཞིན་ཁྱེད་རང་གི་གློག་ཀླད་ཐོག་ས་གནས་སུ་རྩོམ་སྒྲིག་བྱེད་ཐུབ།"
 selectOs = "བཀོལ་སྤྱོད་མ་ལག་འདེམས"
 title = "ཕབ་ལེན"
 titleWithOs = "{{osLabel}} ལ་ཕབ་ལེན།"
@@ -6389,7 +6389,7 @@ titleWithOs = "{{osLabel}} ལ་ཕབ་ལེན།"
 [onboarding.desktopWelcome]
 body = "ཞིབ་བཤེར་བྱ་རྒྱུའི་འགྱུར་བ་གསར་པ་མང་པོ་ཡོད། <strong>Agent Chat</strong>, ཡིག་ཆ་རང་འགུལ <strong>classification</strong> དང་གཞན་མང་པོ་ཚུད།"
 freeLine = "རྩོམ་སྒྲིག་ཆས་ད་ལྟ <free>རིན་མེད་ཡོངས་རྫོགས</free> ཡིན།"
-title = "Stirling <product>Desktop</product> ལ་དགའ་བསུ"
+title = "纸环 <product>Desktop</product> ལ་དགའ་བསུ"
 
 [onboarding.mfa]
 authenticationCode = "ར་སྤྲོད་ཨང་རྟགས"
@@ -6410,21 +6410,21 @@ success = "MFA སྤྱོད་འགོ་བཙུགས་ཟིན། ད�
 title = "Multi-Factor Authentication སྒྲིག་སྟངས"
 
 [onboarding.planOverview]
-adminBodyLoginDisabled = "ནང་འཇུག་ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་རྗེས་སྤྱོད་མཁན་དོ་དམ་, སྒྲིག་བཀོད་དང་སར་བར་གྱི་བདེ་འཇགས་གནས་བབ་ལ་ལྟ་ཞིབ་བྱེད་ཐུབ། ཁྱེད་ཀྱི་སར་བར་ནང་གི་མི་དང་པོ <strong>{{freeTierLimit}}</strong> ལ་སི་ཊར་ལིང་དེ་རིན་མེད་དུ་བཀོལ་ཆོག"
-adminBodyLoginEnabled = "འཛིན་སྐྱོང་པ་ཡིན་པའི་ཐོག་ནས་སྤྱོད་མཁན་དོ་དམ་, སྒྲིག་བཀོད་དང་སར་བར་གྱི་བདེ་འཇགས་གནས་བབ་ལ་ལྟ་ཞིབ་བྱེད་ཐུབ། ཁྱེད་ཀྱི་སར་བར་ནང་གི་མི་དང་པོ <strong>{{freeTierLimit}}</strong> ལ་སི་ཊར་ལིང་དེ་རིན་མེད་དུ་བཀོལ་ཆོག"
+adminBodyLoginDisabled = "ནང་འཇུག་ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་རྗེས་སྤྱོད་མཁན་དོ་དམ་, སྒྲིག་བཀོད་དང་སར་བར་གྱི་བདེ་འཇགས་གནས་བབ་ལ་ལྟ་ཞིབ་བྱེད་ཐུབ། ཁྱེད་ཀྱི་སར་བར་ནང་གི་མི་དང་པོ <strong>{{freeTierLimit}}</strong> ལ་纸环དེ་རིན་མེད་དུ་བཀོལ་ཆོག"
+adminBodyLoginEnabled = "འཛིན་སྐྱོང་པ་ཡིན་པའི་ཐོག་ནས་སྤྱོད་མཁན་དོ་དམ་, སྒྲིག་བཀོད་དང་སར་བར་གྱི་བདེ་འཇགས་གནས་བབ་ལ་ལྟ་ཞིབ་བྱེད་ཐུབ། ཁྱེད་ཀྱི་སར་བར་ནང་གི་མི་དང་པོ <strong>{{freeTierLimit}}</strong> ལ་纸环དེ་རིན་མེད་དུ་བཀོལ་ཆོག"
 adminTitle = "འཛིན་སྐྱོང་སྤྱི་བསྡོམས།"
 userBody = "རུ་མི་གདན་འདྲེན་ཞུ་བ་དང་། ལས་འགན་སྤྲོད་པ། ཁྱེད་ཀྱི་ཡིག་ཆ་བདེ་འཇགས་ལྡན་པའི་ལས་ཀའི་ས་ཆ་གཅིག་ཏུ་སྒྲིག་འཛུགས་བྱེད་དགོས། ཁྱེད་རང་གཅིག་པོ་བེད་སྤྱོད་ལས་བརྒལ་བར་འཕེལ་རྒྱས་འགྲོ་རྒྱུར་གྲ་སྒྲིག་ཡོད་པའི་སྐབས་ལ་ནང་འཇུག་ཐབས་ལམ་ལ་ནུས་ཤུགས་སྤྲོད་དགོས།"
 userTitle = "འཆར་གཞིའི་སྤྱི་བསྡོམས།"
 
 [onboarding.processorIntro]
-body = "Stirling ད་ལྟ <strong>སྲིད་ཇུས</strong> སྤེལ་བཞིན་ཡོད — ཡིག་ཆ་རེ་རེ་འབྱོར་སྐབས་དེ་དག་རིགས་དབྱེ། བདེ་འཇགས་སྲུང་སྐྱོབ། དང་ལས་སྣོན་བྱེད་པའི་རང་འགུལ་སྒྲིག་སྲོལ་ཡིན། དེ་དག་སྒྲིག་ནས <strong>ལས་སྣོན་ཆས</strong> ནང་སྤེལ་བ་ལྟ་ཞིབ་བྱེད།"
+body = "纸环 ད་ལྟ <strong>སྲིད་ཇུས</strong> སྤེལ་བཞིན་ཡོད — ཡིག་ཆ་རེ་རེ་འབྱོར་སྐབས་དེ་དག་རིགས་དབྱེ། བདེ་འཇགས་སྲུང་སྐྱོབ། དང་ལས་སྣོན་བྱེད་པའི་རང་འགུལ་སྒྲིག་སྲོལ་ཡིན། དེ་དག་སྒྲིག་ནས <strong>ལས་སྣོན་ཆས</strong> ནང་སྤེལ་བ་ལྟ་ཞིབ་བྱེད།"
 cta = "ལས་སྣོན་ཆས་ལ་ལྟ"
-title = "Stirling Processor ལ་ལྟ"
+title = "纸环 Processor ལ་ལྟ"
 
 [onboarding.saas.freeEditor]
 freeLine = "རྩོམ་སྒྲིག་ཆས་ད་ལྟ <free>རིན་མེད་ཡོངས་རྫོགས</free> ཡིན།"
 premium = "ང་ཚོས་ཁྱད་ཆོས་གསར་པ་མང་པོ་ཁ་སྣོན་བྱས་ཡོད། <strong>Policies</strong> དང <strong>Agent Chat</strong> ཚུད།"
-title = "Stirling ལ་དགའ་བསུ"
+title = "纸环 ལ་དགའ་བསུ"
 
 [onboarding.saas.team]
 addButton = "ཁ་སྣོན"
@@ -6447,7 +6447,7 @@ title = "བདེ་འཇགས་ཞིབ་བཤེར"
 [onboarding.serverLicense]
 freeBody = "ང་ཚོའི <strong>Open-Core</strong> ཆོག་མཆན་ནང་ <strong>OAuth SSO</strong> དང་སྤྱོད་མཁན་<strong>{{freeTierLimit}}</strong> བར་རིན་མེད་དུ་ཚུད་ཡོད། བར་ཆད་མེད་པར་རྒྱ་སྐྱེད་བྱ་ཆེད། ང་ཚོས་ཟླ་རེར་ཨ་སྒོར་99 ཡིས་<strong>སྤྱོད་མཁན་100</strong> ལ་ཞབས་ཞུ་སྤྲོད་པའི་Stirling Team འཆར་གཞི་འོས་སྦྱོར་བྱེད།"
 freeTitle = "ཚོགས་པའི་འཆར་གཞི"
-overLimitBody = "ང་ཚོའི་ཆོག་མཆན་གྱིས་སྤྱོད་མཁན <strong>{{freeTierLimit}}</strong> བར་རིན་མེད་ཆོག ཁྱེད་ལ <strong>{{overLimitUserCopy}}</strong> Stirling སྤྱོད་མཁན་ཡོད། བར་མ་ཆད་པར་མུ་མཐུད་པར Stirling Team plan ལ་སྤར། - <strong>སྤྱོད་མཁན 100</strong>, PDF ཡི་གེ་རྩོམ་སྒྲིག, དང $99/mo ལ་དོ་དམ་ཆ་ཚང་ཚད་འཛིན།"
+overLimitBody = "ང་ཚོའི་ཆོག་མཆན་གྱིས་སྤྱོད་མཁན <strong>{{freeTierLimit}}</strong> བར་རིན་མེད་ཆོག ཁྱེད་ལ <strong>{{overLimitUserCopy}}</strong> 纸环 སྤྱོད་མཁན་ཡོད། བར་མ་ཆད་པར་མུ་མཐུད་པར Stirling Team plan ལ་སྤར། - <strong>སྤྱོད་མཁན 100</strong>, PDF ཡི་གེ་རྩོམ་སྒྲིག, དང $99/mo ལ་དོ་དམ་ཆ་ཚང་ཚད་འཛིན།"
 overLimitTitle = "Team plan དགོས"
 seePlans = "འཆར་གཞི་ལ་གཟིགས།"
 upgrade = "ད་ལྟ་རིམ་སྤོར་ →"
@@ -6457,8 +6457,8 @@ body = "PDF V2 གྲུ་གཟིངས་ལ་ལག་ཆ་བཅུ་�
 title = "ཡུལ་སྐོར་སྤྱི་བསྡོམས།"
 
 [onboarding.welcomeSlide]
-body = "སི་ཊར་ལིང་PDFདེ་ད་ལྟ་ཚད་གཞི་གང་འདྲ་ཞིག་གི་རུ་ཁག་ལ་གྲ་སྒྲིག་ཡོད། གསར་བརྗེ་འདིའི་ནང་ལ་བཀོད་སྒྲིག་གསར་པ་དང་། ཤུགས་ཆེ་བའི་འཛིན་སྐྱོང་ནུས་པ་གསར་པ་དང་།"
-title = "སི་ཊར་ལིང་ལ་ཕེབས་པར་དགའ་བསུ་ཞུ།"
+body = "纸环དེ་ད་ལྟ་ཚད་གཞི་གང་འདྲ་ཞིག་གི་རུ་ཁག་ལ་གྲ་སྒྲིག་ཡོད། གསར་བརྗེ་འདིའི་ནང་ལ་བཀོད་སྒྲིག་གསར་པ་དང་། ཤུགས་ཆེ་བའི་འཛིན་སྐྱོང་ནུས་པ་གསར་པ་དང་།"
+title = "纸环ལ་ཕེབས་པར་དགའ་བསུ་ཞུ།"
 
 [onboarding.whatsNew]
 activeFilesView = "ཁྱེད་རང་གིས་ཁ་ཕྱེ་ཡོད་པའི་དངོས་པོ་ཚང་མ་མཐོང་ཆེད་ཡིག་ཆ་Active བེད་སྤྱོད་བྱེད་དགོས།"
@@ -6545,7 +6545,7 @@ check = "ཡང་བསྐྱར་ཞིབ་བཤེར"
 checkAccount = "རྩིས་ཐོ་ཞིབ་བཤེར"
 chooseEmail = "{{team}} ནང་ཁོང་ཚོའི་རྩིས་ཐོ་འདེམས་པའམ། གདན་འདྲེན་བྱེད་པར email ཞིག་འཇུག་རོགས།"
 close = "སྤོ་སྒྱུར་གླེང་སྒྲོམ་ཁ་རྒྱག"
-cloudAccount = "Stirling རྩིས་ཐོ"
+cloudAccount = "纸环 རྩིས་ཐོ"
 cloudScopeStyled = "<user>{{name}}</user> ཡིས་ {{team}} དང་། དེའི་ཚོགས་མི། རྩིས་སྤྲོད་བཅས་དོ་དམ་བྱེད།"
 cloudTargetChanged = "སྤྲིན་ཚོགས་མི་གཞན་ཞིག་འདེམས་རོགས། རྩིས་ཐོ་འདི་ད་ལྟ་སྤོ་སྒྱུར་ལ་འོས་འཚམ་མིན།"
 confirm = "ངས་འཛུལ་སྤྱོད་དང་བདག་དབང་གི་འགྱུར་བ་རྟོགས་ཡོད།"
@@ -6560,7 +6560,7 @@ inviteAddress = "<account>{{email}}</account> དེ་ {{team}} ལ་གདན
 inviteBlocked = "གདན་འདྲེན་བསྐུར་མ་ཐུབ། ཚོགས་ཆུང་གི་ས་ཆ་ཡོད་མེད་དང་ལེན་མཁན་ལ་སྔོན་ནས་རིན་སྤྲད་མངགས་ཉོ་ཡོད་མེད་ཞིབ་བཤེར་བྱེད།"
 linkChanged = "ཞབས་ཞུ་ཆས་ཀྱི་སྤྲིན་མཐུད་སྦྲེལ་འགྱུར་འདུག མུ་མཐུད་མ་བྱས་གོང་ཞབས་ཞུ་ཆས་སྤྱོད་མཁན་ལ་མ་གཞིའི་མཐུད་སྦྲེལ་སླར་གསོ་བྱེད་རོགས་ཞུ།"
 linkedServerCount = "མཐུད་ཡོད་པའི་ཞབས་ཞུ་ཆས་ {{count}}"
-linkRevoked = "ཞབས་ཞུ་ཆས་འདིའི་སྤྲིན་མཐུད་སྦྲེལ་ད་ལྟ་ནུས་མེད་རེད། སྤོ་སྒྱུར་དོར་ནས། སྒྲིག་འགོད་ནང་ཁྱེད་ཀྱི་ Stirling རྩིས་ཐོ་ཡང་བསྐྱར་མཐུད། བདག་དབང་མི་འགྱུར།"
+linkRevoked = "ཞབས་ཞུ་ཆས་འདིའི་སྤྲིན་མཐུད་སྦྲེལ་ད་ལྟ་ནུས་མེད་རེད། སྤོ་སྒྱུར་དོར་ནས། སྒྲིག་འགོད་ནང་ཁྱེད་ཀྱི་ 纸环 རྩིས་ཐོ་ཡང་བསྐྱར་མཐུད། བདག་དབང་མི་འགྱུར།"
 localScope = "ཁོང་ཚོས་ཞབས་ཞུ་ཆས་འདི་བདག་ཏུ་འཛིན་ཞིང་། རྩིས་སྤྲོད་དང་སྤྲིན་མཐུད་སྦྲེལ་དོ་དམ་བྱེད། ཁྱེད་ལ་དོ་དམ་པའི་འཛུལ་སྤྱོད་མུ་མཐུད་ཡོད་ཀྱང་། སྒྲིག་འགོད་དེ་ཚོར་འཛུལ་སྤྱོད་བាត់་འགྲོ།"
 membershipDetails = "ཚོགས་ཆུང་ཚོགས་མིའི་ཞིབ་ཕྲ"
 membershipFirst = "སྤོ་སྒྱུར་གཏན་འཁེལ་མ་བྱས་གོང་ཁོང་ཚོ་ཚོགས་ཆུང་ལ་ཞུགས་དགོས།"
@@ -6872,7 +6872,7 @@ benefit1Body = "ལག་ཆ་མུ་སྦྲེལ། དུས་ཚོད
 benefit1Title = "རང་འགུལ་རྒྱུན་རིམ"
 benefit2Body = "summarise, classify, redact, AI-OCR"
 benefit2Title = "AI ལག་ཆ"
-benefit3Body = "Stirling endpoint གང་རུང་ལ programmatically འབོད"
+benefit3Body = "纸环 endpoint གང་རུང་ལ programmatically འབོད"
 benefit3Title = "API འཛུལ་སྤྱོད"
 button = "Processor སྒོ་ཕྱེ →"
 reassurance = "ཉུང་མཐའ་མེད · ཚོད་ལྟར $0 ཚད་གོང་སྒྲིག · དུས་ནམ་ཡང་དོར་ཆོག"
@@ -6962,7 +6962,7 @@ editorLabel = "PDF རྩོམ་སྒྲིག་ཆས"
 login = "ནང་འཛུལ"
 manualToolsPromo = "ཚད་མེད་རིན་མེད་ལག་སྒྲུབ་ PDF ལག་ཆ"
 processorLabel = "PDF སྒྲིག་གཅོད་ཆས"
-processorTitle = "Stirling གི་ལེགས་ཤོས་སྒོ་ཕྱེ་བར་རྩིས་ཐོ་གསར་བཟོ"
+processorTitle = "纸环 གི་ལེགས་ཤོས་སྒོ་ཕྱེ་བར་རྩིས་ཐོ་གསར་བཟོ"
 readerLabel = "PDF Reader"
 
 [payg.spendCapMeter]
@@ -7002,7 +7002,7 @@ usdNote = "USD ནང་སྔོན་རྩིས། མངགས་ཉོ་�
 [payg.upgrade.checkout]
 capValue = "{{symbol}}{{amount}} / ཟླ་རེ"
 edit = "རྩོམ་སྒྲིག"
-help = "Stripe ཡིས་ཁྱེད་ཀྱི card ཞིབ་ཕྲ་སྒྲིག་གི་རེད། Stirling གིས་དེ་ཚོ་ནམ་ཡང་མི་མཐོང་།"
+help = "Stripe ཡིས་ཁྱེད་ཀྱི card ཞིབ་ཕྲ་སྒྲིག་གི་རེད། 纸环 གིས་དེ་ཚོ་ནམ་ཡང་མི་མཐོང་།"
 loading = "checkout འཇུག་བཞིན…"
 noCap = "ཚད་གོང་མེད"
 title = "ཁྱེད་ཀྱི་སྤྲོད་ཐབས་སྣོན"
@@ -7010,7 +7010,7 @@ title = "ཁྱེད་ཀྱི་སྤྲོད་ཐབས་སྣོན"
 [payg.upgrade.help]
 aiBody = "summarise, classify, redact, AI-OCR"
 aiTitle = "AI ལག་ཆ"
-apiBody = "Stirling endpoint གང་རུང་ལ programmatic འཛུལ་སྤྱོད"
+apiBody = "纸环 endpoint གང་རུང་ལ programmatic འཛུལ་སྤྱོད"
 apiTitle = "API འབོད་སྤྱོད"
 automationBody = "མནན་མི་དགོས་པའི་མུ་སྦྲེལ་ལག་ཆ་འམ་དུས་ཚོད་ལྟར་གཡོག་སྐོར"
 automationTitle = "རང་འགུལ་རྒྱུན་རིམ"
@@ -7870,7 +7870,7 @@ connectDescription = "Stirling Cloud ནང་ཁྱེད་ཚོའི་ཚ�
 disconnectBody = "server འདིས Stirling Cloud ནང་ཁྱེད་ཚོའི་ཚོགས་པའི་བཟོ་སྒྲིག་ཆོག་ཚད་སྤྱོད་པ་མཚམས་འཇོག་བྱེད། ཁྱེད་ཀྱི་ས་གནས་ཡིག་ཆ་རྣམས་ server འདིའི་སྟེང་ཉར་ཚགས་ཡོད། ཡང་བསྐྱར་སྦྲེལ་དགོས་ན། ཐོག་མའི་སྦྲེལ་བའི་གོམ་རིམ་ལ་བསྟུན།"
 disconnectTitle = "instance འདི་སྦྲེལ་བ་གཅོད་དམ།"
 eyebrow = "instance འདི"
-linkButton = "ཁྱེད་ཀྱི Stirling རྩིས་ཐོ་སྦྲེལ་པ"
+linkButton = "ཁྱེད་ཀྱི 纸环 རྩིས་ཐོ་སྦྲེལ་པ"
 loading = "རྩིས་ཐོའི་སྦྲེལ་མཐུད་ཞིབ་བཤེར་བྱེད་བཞིན"
 notLinked = "སྦྲེལ་མཐུད་མེད"
 signedInAs = "Stirling Cloud ལ་ནང་འཛུལ་བྱས་པ"
@@ -7886,14 +7886,14 @@ description = "Stirling Cloud ལ་སྦྲེལ་བ་སྤྱོད་�
 title = "རྩིས་ཐོའི་སྦྲེལ་མཐུད་སྤྱོད་མི་ཐུབ"
 
 [portal.accountLink.connect]
-adminRequired = "ཟླ་རེའི credits མང་བར་ཐོབ་ཆེད་ Usage & billing ཁ་ཕྱེ་ནས Stirling རྩིས་ཐོ་སྦྲེལ་བར་ཁྱེད་ཀྱི server དོ་དམ་པར་ཞུ། ལག་དེབ PDF ལག་ཆ་ད་དུང་སྤྱོད་ཐུབ།"
+adminRequired = "ཟླ་རེའི credits མང་བར་ཐོབ་ཆེད་ Usage & billing ཁ་ཕྱེ་ནས 纸环 རྩིས་ཐོ་སྦྲེལ་བར་ཁྱེད་ཀྱི server དོ་དམ་པར་ཞུ། ལག་དེབ PDF ལག་ཆ་ད་དུང་སྤྱོད་ཐུབ།"
 adminTitle = "ཁྱེད་ཀྱི server དོ་དམ་པར་ཞུ"
 close = "ཁ་རྒྱག་པ"
 copied = "འདྲ་བཤུས་བྱས་ཟིན"
 copyAdminMessage = "དོ་དམ་པར་བསྐུར་རྒྱུའི་འཕྲིན་ཐུང་འདྲ་བཤུས"
-exhaustedLede = "server འདིས་ཟླ་འདིའི་རིན་མེད credits སྤྱད་ཚར་འདུག ཁྱེད་ཚོའི་ཚོགས་པའི་ཟླ་རེའི་ཆོག་ཚད་ལ་འཛུལ་ཆེད་ Stirling རྩིས་ཐོ་གསར་པའམ་ཡོད་པ་ཞིག་སྦྲེལ།"
+exhaustedLede = "server འདིས་ཟླ་འདིའི་རིན་མེད credits སྤྱད་ཚར་འདུག ཁྱེད་ཚོའི་ཚོགས་པའི་ཟླ་རེའི་ཆོག་ཚད་ལ་འཛུལ་ཆེད་ 纸环 རྩིས་ཐོ་གསར་པའམ་ཡོད་པ་ཞིག་སྦྲེལ།"
 notNow = "ད་ལྟ་མིན"
-start = "Stirling རྩིས་ཐོ་སྦྲེལ་པ"
+start = "纸环 རྩིས་ཐོ་སྦྲེལ་པ"
 step = "གོམ་རིམ་ {{current}} / {{total}}"
 
 [portal.accountLink.connect.benefits]
@@ -7907,9 +7907,9 @@ teamsDetail = "རིན་སྤྲད་པའི Team plan དང་སྦྲ
 teamsLabel = "ཚོགས་པ་ཆེ་བ"
 
 [portal.accountLink.connect.callback]
-linkedNotSignedIn = "browser འདིའི་ནང་ཁྱེད་རང Stirling ལ་ནང་འཛུལ་བྱས་མི་འདུག་པས། སྤྱོད་ཚད་དང་རྩིས་སྤྲོད་ཀྱིས་ཁྱེད་ལ་ནང་འཛུལ་བྱེད་དུ་འཇུག་པར་འདྲི་ཡོང་།"
+linkedNotSignedIn = "browser འདིའི་ནང་ཁྱེད་རང 纸环 ལ་ནང་འཛུལ་བྱས་མི་འདུག་པས། སྤྱོད་ཚད་དང་རྩིས་སྤྲོད་ཀྱིས་ཁྱེད་ལ་ནང་འཛུལ་བྱེད་དུ་འཇུག་པར་འདྲི་ཡོང་།"
 retry = "ཡང་བསྐྱར་ཚོད་ལྟ"
-signedInAnyway = "ཁྱེད་རང Stirling ལ་ནང་འཛུལ་བྱས་འདུག་པས། རྩིས་སྤྲོད་དང་སྤྱོད་ཚད་འགེལ་ཐུབ། server སྦྲེལ་མཐུད་ཁོ་ན་ཆ་ཚང་མིན།"
+signedInAnyway = "ཁྱེད་རང 纸环 ལ་ནང་འཛུལ་བྱས་འདུག་པས། རྩིས་སྤྲོད་དང་སྤྱོད་ཚད་འགེལ་ཐུབ། server སྦྲེལ་མཐུད་ཁོ་ན་ཆ་ཚང་མིན།"
 working = "སྦྲེལ་མཐུད་མཇུག་སྒྲིལ་བཞིན།"
 
 [portal.accountLink.connect.callback.expired]
@@ -7925,7 +7925,7 @@ body = "རེ་ཞུ་འདི་ངོས་ལེན་མ་བྱས་
 title = "སྦྲེལ་མཐུད་མཇུག་སྒྲིལ་མ་ཐུབ"
 
 [portal.accountLink.connect.callback.unfinished]
-body = "Stirling གིས་སྦྲེལ་མཐུད་ངེས་གཏན་མ་བྱས། འདི་སྤྱིར་བཏང་གནས་སྐབས་ཙམ་ཡིན།"
+body = "纸环 གིས་སྦྲེལ་མཐུད་ངེས་གཏན་མ་བྱས། འདི་སྤྱིར་བཏང་གནས་སྐབས་ཙམ་ཡིན།"
 title = "ད་དུང་མཇུག་སྒྲིལ་མེད"
 
 [portal.accountLink.connect.done]
@@ -7936,14 +7936,14 @@ creditsBarLabel = "ལྷག་ཡོད་རིན་མེད credits"
 creditsSuffix = "རིན་མེད credits {{allowance}} ནས་ལྷག་པ"
 cta = "ཚར་སོང་"
 inviteTeam = "ཁྱེད་ཀྱི་ཚོགས་པ་གདན་འདྲེན"
-lede = "server འདི་ད་ལྟ་ཁྱེད་ཀྱི Stirling རྩིས་ཐོ་ལ་བརྟེན་ནས་འཁོར་སྐྱོད་བྱེད།"
+lede = "server འདི་ད་ལྟ་ཁྱེད་ཀྱི 纸环 རྩིས་ཐོ་ལ་བརྟེན་ནས་འཁོར་སྐྱོད་བྱེད།"
 pendingTitle = "ཕལ་ཆེར་ཚར་འདུག"
 switchOnProcessor = "Processor སྤོར་བ"
 title = "སྦྲེལ་ཟིན"
 
 [portal.accountLink.connect.handoff]
-opening = "Stirling ནང་འཛུལ་ཁ་ཕྱེ་བཞིན..."
-reauthLede = "ཁྱེད་ཀྱི Stirling session དུས་ཚོད་ཡོལ་སོང་། ཡང་བསྐྱར་ནང་འཛུལ་བྱས་ན་སྤྱོད་ཚད་དང་རྩིས་སྤྲོད་མཐོང་ཐུབ། གང་ལྟར་ཡང server འདི་སྦྲེལ་ནས་སྡོད།"
+opening = "纸环 ནང་འཛུལ་ཁ་ཕྱེ་བཞིན..."
+reauthLede = "ཁྱེད་ཀྱི 纸环 session དུས་ཚོད་ཡོལ་སོང་། ཡང་བསྐྱར་ནང་འཛུལ་བྱས་ན་སྤྱོད་ཚད་དང་རྩིས་སྤྲོད་མཐོང་ཐུབ། གང་ལྟར་ཡང server འདི་སྦྲེལ་ནས་སྡོད།"
 title = "སྦྲེལ་མཐུད་བྱེད་བཞིན"
 
 [portal.accountLink.connectionNotice]
@@ -7981,17 +7981,17 @@ callbackMismatch = "server འདིའི་སྒྲིག་ཟིན་པ�
 cancel = "མེད་པར་བཟོ"
 continueReauth = "ཡང་བསྐྱར་ནང་འཛུལ"
 exhaustedTitle = "ཁྱེད་ཀྱི workflows འཁོར་སྐྱོད་མུ་མཐུད་བྱེད་དུ་འཇུག"
-identity = "Stirling རྩིས་ཐོ"
-linkTitle = "ཁྱེད་ཀྱི Stirling རྩིས་ཐོ་སྦྲེལ་པ"
-noAuthorizeUrl = "Stirling གིས་མུ་མཐུད་བྱ་ས་ཞིག་ཕྱིར་མ་སྤྲད། ཅུང་ཙམ་རྗེས་སུ་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།"
-startFailed = "སྦྲེལ་མཐུད་འགོ་འཛུགས་ཆེད Stirling ལ་འབྲེལ་མ་ཐུབ། server འདིའི་ཕྱིར་སྐྱོད་དྲ་རྒྱའི་འཛུལ་ཐོབ་ཞིབ་བཤེར་བྱས་ནས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།"
+identity = "纸环 རྩིས་ཐོ"
+linkTitle = "ཁྱེད་ཀྱི 纸环 རྩིས་ཐོ་སྦྲེལ་པ"
+noAuthorizeUrl = "纸环 གིས་མུ་མཐུད་བྱ་ས་ཞིག་ཕྱིར་མ་སྤྲད། ཅུང་ཙམ་རྗེས་སུ་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།"
+startFailed = "སྦྲེལ་མཐུད་འགོ་འཛུགས་ཆེད 纸环 ལ་འབྲེལ་མ་ཐུབ། server འདིའི་ཕྱིར་སྐྱོད་དྲ་རྒྱའི་འཛུལ་ཐོབ་ཞིབ་བཤེར་བྱས་ནས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།"
 transferPending = "བདག་དབང་སྤོ་སྒྱུར་ཞིག་སྒུག་བསྡད་ཡོད། དེ་མཇུག་སྒྲིལ་བའམ་མེད་པར་བཟོ་ཆེད Settings → Users ལ་སོང་། དེ་ནས་ཡང་བསྐྱར་སྦྲེལ་ཚོད་ལྟ་བྱོས།"
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "ཁྱེད་ཕྱིར་ཡོང་སྐབས server འདིས་སྦྲེལ་མཐུད་མཇུག་སྒྲིལ་ཐུབ་པའི་ཆེད།"
 and = "དང"
 before = "སྒྲིག"
-title = "Stirling སྦྲེལ་མཐུད་སྒྲིག་མེད"
+title = "纸环 སྦྲེལ་མཐུད་སྒྲིག་མེད"
 
 [portal.accountLink.notice]
 openFailed = "ཁྱེད་ཀྱི browser ཁ་ཕྱེ་མ་ཐུབ། རྩིས་ཐོ་སྦྲེལ་ཆེད་ཁྱེད་ཀྱི་སྦྲེལ་ཡོད server སྟེང Usage & billing ཁ་ཕྱེ།"
@@ -8027,7 +8027,7 @@ viewAll = "pipeline ཚང་མ་ལྟ"
 
 [portal.accountLink.rail]
 adminCta = "credits མང་བ་ཇི་ལྟར་ཐོབ"
-adminSub = "སར་བར་དོ་དམ་པར credits མང་བ་ཐོབ་ཆེད Stirling རྩིས་ཐོ་ཞིག་སྦྲེལ་རོགས་ཞུས། ལག་བཟོས PDF ལག་ཆ་ད་དུང་སྤྱོད་ཆོག"
+adminSub = "སར་བར་དོ་དམ་པར credits མང་བ་ཐོབ་ཆེད 纸环 རྩིས་ཐོ་ཞིག་སྦྲེལ་རོགས་ཞུས། ལག་བཟོས PDF ལག་ཆ་ད་དུང་སྤྱོད་ཆོག"
 exhaustedCta = "credits མང་བའི་ཆེད་རྩིས་ཐོ་སྦྲེལ"
 exhaustedSub = "ཟླ་རེའི credits, མཉམ་སྤྱོད་རྩིས་ཐོ་དང Team འཆར་གཞིས་རྒྱ་བསྐྱེད་གདམ་གའི་ཆེད་སྦྲེལ།"
 exhaustedTitle = "སར་བར་འདིའི་རིན་མེད credits སྤྱད་ཚར་འདུག"
@@ -8041,9 +8041,9 @@ malformed = "ནང་འཛུལ་ལན་འདི་ང་ཚོས་ར�
 malformedTitle = "ནང་འཛུལ་ར་སྤྲོད་བྱ་མ་ཐུབ"
 rejected = "ནང་འཛུལ་རེ་ཞུ་འདི་དང་ལེན་བྱས་མེད་པའམ་སྔོན་ནས་སྤྱད་ཟིན། རྩིས་ཐོ་འཛུལ་སྤྱོད་བསྐྱར་གསོའི་ཆེད་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།"
 rejectedTitle = "ནང་འཛུལ་ལེགས་གྲུབ་མ་བྱུང"
-retry = "Stirling གིས་རྩིས་ཐོ་འཛུལ་སྤྱོད་བསྐྱར་གསོ་མཇུག་སྒྲིལ་མ་ཐུབ། སྐད་ཅིག་རྗེས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས། ཁྱེད་ཀྱི་སར་བར་ད་དུང་སྦྲེལ་ཡོད།"
+retry = "纸环 གིས་རྩིས་ཐོ་འཛུལ་སྤྱོད་བསྐྱར་གསོ་མཇུག་སྒྲིལ་མ་ཐུབ། སྐད་ཅིག་རྗེས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས། ཁྱེད་ཀྱི་སར་བར་ད་དུང་སྦྲེལ་ཡོད།"
 retryTitle = "རྩིས་ཐོ་འཛུལ་སྤྱོད་སླར་གསོ་མ་བྱུང"
-success = "ཁྱེད་ཀྱི་རྩིས་ཐོ་འཛུལ་སྤྱོད་བསྐྱར་གསོ་བྱས་ཟིན། སར་བར་འདི་ད་དུང Stirling རྩིས་ཐོ་དེ་རང་ལ་སྦྲེལ་ཡོད།"
+success = "ཁྱེད་ཀྱི་རྩིས་ཐོ་འཛུལ་སྤྱོད་བསྐྱར་གསོ་བྱས་ཟིན། སར་བར་འདི་ད་དུང 纸环 རྩིས་ཐོ་དེ་རང་ལ་སྦྲེལ་ཡོད།"
 title = "རྩིས་ཐོ་འཛུལ་སྤྱོད་བསྐྱར་གསོ"
 working = "རྩིས་ཐོ་འཛུལ་སྤྱོད་སླར་གསོ་བྱེད་བཞིན་ཡོད།"
 
@@ -8057,7 +8057,7 @@ close = "Assistant ཁ་རྒྱག"
 error = "Assistant ལ་འབྲེལ་མ་ཐུབ།"
 errorWithDetail = "Assistant ལ་འབྲེལ་མ་ཐུབ། {{detail}}"
 inputAriaLabel = "Assistant ལ་དྲིས"
-inputPlaceholder = "Stirling སྐོར་དྲིས…"
+inputPlaceholder = "纸环 སྐོར་དྲིས…"
 open = "Assistant ཁ་འབྱེད"
 send = "སྐུར"
 title = "རོགས་རམ་པ"
@@ -8102,7 +8102,7 @@ title = "ཁྱེད་ཀྱི་སྤྱོད་འགྲོ་ཚད་�
 [portal.billing.checkout.card]
 fields = "གཱ་ཨང་ · MM / YY · CVC · ZIP"
 label = "གཱ་ཞིབ་ཆ"
-note = "གཱ་ཞིབ་ཆ་ Stripe ཡིས་བསྡུ་ལེན་བྱེད། Stirling གིས PAN ཡང་ན CVC ནམ་ཡང་ཉར་མི་བྱེད།"
+note = "གཱ་ཞིབ་ཆ་ Stripe ཡིས་བསྡུ་ལེན་བྱེད། 纸环 གིས PAN ཡང་ན CVC ནམ་ཡང་ཉར་མི་བྱེད།"
 
 [portal.billing.checkout.error]
 title = "checkout འགོ་འཛུགས་མ་ཐུབ"
@@ -8180,7 +8180,7 @@ users = "སྤྱོད་མཁན"
 [portal.billing.enterprise]
 cta = "Enterprise རིན་འབབ་ལེན"
 sub = "Air-gapped སྤེལ་འཇོག, SCIM, གཞི་གྲངས་གནས་ཡུལ, uptime SLAs དང་མཐུན་པའི་གྲོས་མཐུན།"
-title = "སྒྲིག་སྲོལ་ཡོད་པའི་ཁོར་ཡུག་ནང Stirling སྒྲུབ་བཞིན་ཡོད་དམ།"
+title = "སྒྲིག་སྲོལ་ཡོད་པའི་ཁོར་ཡུག་ནང 纸环 སྒྲུབ་བཞིན་ཡོད་དམ།"
 
 [portal.billing.freePlan]
 checkoutErrorTitle = "checkout འགོ་འཛུགས་མ་ཐུབ"
@@ -8458,7 +8458,7 @@ description = "སྒྲིག་གཅོད་བྱས་པའི་ཡི�
 label = "ཡིག་ཆ་དང་ཟུར་སྦྱར་"
 
 [portal.connections.commonFields.accessToken]
-helperText = "Stirling གིས་འདི་གསང་སྡོམ་བྱས་ནས་ཉར་བ་དང་སླར་ཡང་མི་སྟོན།"
+helperText = "纸环 གིས་འདི་གསང་སྡོམ་བྱས་ནས་ཉར་བ་དང་སླར་ཡང་མི་སྟོན།"
 label = "འཛུལ་སྤྱོད token"
 
 [portal.connections.commonFields.apiKey]
@@ -9002,7 +9002,7 @@ retry = "ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས"
 title = "ཤོག་ངོས་འདིར་གནད་དོན་ཞིག་བྱུང་།"
 
 [portal.failures]
-closedBySystem = "Stirling"
+closedBySystem = "纸环"
 noMatches = "མིག་སྔའི་འཚག་ཆས་དང་མཐུན་པ་མེད།"
 occurrences = "{{count}} ཐོན་ཐེངས"
 searchPlaceholder = "གནད་དོན། སྤྱོད་མཁན། ནོར་འཁྲུལ་འཚོལ"
@@ -9106,7 +9106,7 @@ description = "Server འདིར་གོམ་སྟབས་དགོས་�
 title = "མཉེན་ཆས་སྒྲིག་འཇུག་མ་བྱས"
 
 [portal.failures.kind.unknown]
-description = "Stirling གིས་ད་དུང་ངོས་མི་འཛིན་པའི་གནད་དོན་ཞིག་བྱུང་།"
+description = "纸环 གིས་ད་དུང་ངོས་མི་འཛིན་པའི་གནད་དོན་ཞིག་བྱུང་།"
 title = "ངོས་མ་ཟིན་པའི་གནད་དོན"
 
 [portal.failures.log]
@@ -9144,7 +9144,7 @@ guide = "{{name}} ལམ་སྟོན་ཁ་ཕྱེ"
 openInBrowser = "དེའི་ཚབ་ཏུ་བཤེར་ཆས་ནང་ཁ་ཕྱེ"
 sectionDesktop = "ཅོག་ངོས་ཉེར་སྤྱོད"
 sectionSelfHosted = "རང་གིས་གནས་སྡོད"
-title = "Stirling PDF Editor སྒྲིག་འཇུག"
+title = "纸环 Editor སྒྲིག་འཇུག"
 
 [portal.home.download.docker]
 detailBody = "ཁྱེད་ཀྱི server ཐོག་དངོས་སུ་འགྲེམས་པའི image འཁོར་སྐྱོད་བྱོས།"
@@ -9224,7 +9224,7 @@ usageMonth = "ཟླ་འདིའི་སྤྱོད་ཚད"
 usageToday = "དེ་རིང་གི་སྤྱོད་ཚད"
 
 [portal.infrastructure.apiKeys.empty]
-description = "Stirling API འབོད་འགོ་འཛུགས་པར་ལྡེ་མིག་ཅིག་གསར་བཟོ་བྱོས།"
+description = "纸环 API འབོད་འགོ་འཛུགས་པར་ལྡེ་མིག་ཅིག་གསར་བཟོ་བྱོས།"
 title = "ད་དུང API ལྡེ་མིག་མེད"
 
 [portal.infrastructure.apiKeys.error]
@@ -9314,7 +9314,7 @@ done = "ལེགས་གྲུབ"
 keyNameLabel = "ལྡེ་མིག་གི་མིང་"
 keyNamePlaceholder = "དཔེར་ན། ཐོན་སྐྱེད་ནང་འཇུག"
 secretKeyCaption = "གསང་བའི་ལྡེ་མིག"
-secretWarning = "འདི་གསང་བའི་དོ་དམ་ཆས་ནང་ཉར་ཚགས་བྱོས། Stirling གིས་ནམ་ཡང་ཧེ་ཤ་ཁོ་ན་ཉར་བས། རྗེས་སུ་དེ་སླར་གསོ་བྱེད་ཐབས་མེད།"
+secretWarning = "འདི་གསང་བའི་དོ་དམ་ཆས་ནང་ཉར་ཚགས་བྱོས། 纸环 གིས་ནམ་ཡང་ཧེ་ཤ་ཁོ་ན་ཉར་བས། རྗེས་སུ་དེ་སླར་གསོ་བྱེད་ཐབས་མེད།"
 subtitle = "རྗེས་སུ་ངོས་འཛིན་ཐུབ་པའི་ཆེད་ལྡེ་མིག་ལ་མིང་ཞིག་སྤྲོད། ཁྱེད་ཀྱིས་དུས་ནམ་ཡང་དེ་ཕྱིར་འཐེན་བྱེད་ཆོག"
 subtitleCreated = "ད་ལྟ་གསང་བ་འདི་འདྲ་བཤུས་བྱོས — འདི་ཡང་བསྐྱར་མི་སྟོན།"
 title = "API ལྡེ་མིག་གསར་སྐྲུན"
@@ -9498,7 +9498,7 @@ connectionCount_one = "{{count}} འབྲེལ་མཐུད"
 connectionCount_other = "{{count}} འབྲེལ་མཐུད"
 customApi = "རང་སྒྲིག API"
 searchPlaceholder = "མཉམ་འདྲེས་འཚོལ"
-subtitle = "Stirling གིས་འབྲེལ་བ་བྱེད་ཐུབ་པ་ཚང་མ། དཔང་ཡིག་འདིར་ཐེངས་གཅིག་བཟོས་རྗེས། ཁུངས། སྲིད་ཇུས། ལས་རིམ་རྒྱུན་བཅས་ཀྱིས་དེ་ལ་གཞི་འཛིན་བྱེད།"
+subtitle = "纸环 གིས་འབྲེལ་བ་བྱེད་ཐུབ་པ་ཚང་མ། དཔང་ཡིག་འདིར་ཐེངས་གཅིག་བཟོས་རྗེས། ཁུངས། སྲིད་ཇུས། ལས་རིམ་རྒྱུན་བཅས་ཀྱིས་དེ་ལ་གཞི་འཛིན་བྱེད།"
 title = "མཉམ་འདྲེས"
 typedName = "{{tool}} མིང"
 
@@ -10183,8 +10183,8 @@ saveFailed = "Pipeline ཉར་མ་ཐུབ། ཡང་བསྐྱར་�
 
 [portal.policies.wizard.locations]
 aiSettings = "AI settings ཁ་ཕྱེ"
-builtin = "Stirling ཤེས་བྱ་གཞི་མཛོད"
-builtinHelp = "Stirling ནང་འཚོལ་ཐུབ་པའི chunks index བྱེད་ཅིང་ལས་སྣོན་བྱས་པའི PDF གཤམ་གྱི་དམིགས་ཡུལ་ལ་ཕྱིར་སྤྲོད། Embedding provider ཞིག AI settings ནང་སྒྲིག་འགོད་དགོས།"
+builtin = "纸环 ཤེས་བྱ་གཞི་མཛོད"
+builtinHelp = "纸环 ནང་འཚོལ་ཐུབ་པའི chunks index བྱེད་ཅིང་ལས་སྣོན་བྱས་པའི PDF གཤམ་གྱི་དམིགས་ཡུལ་ལ་ཕྱིར་སྤྲོད། Embedding provider ཞིག AI settings ནང་སྒྲིག་འགོད་དགོས།"
 checking = "ingestion སྤྱོད་ཐུབ་མིན་ཞིབ་བཤེར་བཞིན..."
 chooseOutput = "ཉར་མ་བྱས་གོང་སྤར་ཡོད་པའི output དམིགས་ཡུལ་འདེམས།"
 chooseSource = "ཡིག་ཚགས་གང་ནས་ཡོང་བ་འདེམས"
@@ -10276,7 +10276,7 @@ title = "ད་དུང་རྒྱུན་རིམ་མེད"
 
 [portal.processorFlow.sources]
 comingSoonTag = "མཐུད"
-editor = "Stirling PDF རྩོམ་སྒྲིག་ཆས"
+editor = "纸环 རྩོམ་སྒྲིག་ཆས"
 heading = "ཁུངས"
 perDay = "{{n}} / 24h"
 
@@ -10463,7 +10463,7 @@ gatingAction = "ཁྱེད་ཀྱི་རིན་གོང་འདྲེ�
 label = "རིན་གོང་འདྲེན་ཡིག"
 
 [portal.procurement.journeySteps.trial]
-blurb = "ཁྱེད་ཀྱི་ཡིག་ཆ་དང་ལས་རིམ་ཐོག Stirling ཚོད་དཔག་བྱེད།"
+blurb = "ཁྱེད་ཀྱི་ཡིག་ཆ་དང་ལས་རིམ་ཐོག 纸环 ཚོད་དཔག་བྱེད།"
 gatingAction = "ཁྱེད་ཀྱི་རིན་གོང་འདྲེན་ཡིག་བཟོ"
 label = "ཚོད་ལྟ"
 
@@ -10480,7 +10480,7 @@ trialFileHint = "འདི་ནི་ཁྱེད་ཀྱི་ཚོད་ས
 
 [portal.procurement.link]
 cta = "རྩིས་ཐོ་འབྲེལ་མཐུད"
-description = "ཉོ་སྒྲུབ་ནི་ཁྱེད་ཀྱི་འབྲེལ་མཐུད་བྱས་པའི Stirling རྩིས་ཐོ་ཐོག་འགྲོ་སྐྱོང་བྱེད། འདིས་ང་ཚོས་ཚོད་སྤྱོད་སྤྲོད་པ། གོང་འབོལ་རིན་གོང་རྩིས་པ། དང་རྩིས་བསྡུ་འགོ་འཛུགས་པའི་ཐབས་ཡིན། འགོ་འཛུགས་ཆེད་རྩིས་ཐོ་ཞིག་འབྲེལ་མཐུད་བྱོས།"
+description = "ཉོ་སྒྲུབ་ནི་ཁྱེད་ཀྱི་འབྲེལ་མཐུད་བྱས་པའི 纸环 རྩིས་ཐོ་ཐོག་འགྲོ་སྐྱོང་བྱེད། འདིས་ང་ཚོས་ཚོད་སྤྱོད་སྤྲོད་པ། གོང་འབོལ་རིན་གོང་རྩིས་པ། དང་རྩིས་བསྡུ་འགོ་འཛུགས་པའི་ཐབས་ཡིན། འགོ་འཛུགས་ཆེད་རྩིས་ཐོ་ཞིག་འབྲེལ་མཐུད་བྱོས།"
 eyebrow = "ཁེ་ལས"
 title = "འགོ་འཛུགས་ཆེད་ཁྱེད་ཀྱི་རྩིས་ཐོ་འབྲེལ་མཐུད་བྱོས"
 
@@ -10526,7 +10526,7 @@ cloud = "Stirling Cloud"
 cloudSub = "དོ་དམ་བྱས་པ། འགོ་འཛུགས་མགྱོགས་ཤོས"
 continue = "མུ་མཐུད"
 deployment = "གང་དུ་འགྲེམས་སྤེལ་བྱ་དགོས།"
-eula = "ངས Stirling EULA & Commercial Terms ལ་མོས་མཐུན་བྱེད།"
+eula = "ངས 纸环 EULA & Commercial Terms ལ་མོས་མཐུན་བྱེད།"
 fullName = "མིང་ཆ་ཚང"
 fullNamePlaceholder = "ཁྱེད་ཀྱི་མིང"
 invites = "ཚོགས་གཏོགས་གདན་འདྲེན · འདེམས་རུང"
@@ -10565,7 +10565,7 @@ account-link = "རྩིས་ཐོ་སྦྲེལ་མཐུད"
 [portal.shell.sidebar]
 appEditor = "རྩོམ་སྒྲིག་ཆས"
 appProcessor = "ལས་སྒྲུབ་ཆས"
-linkAccount = "Stirling རྩིས་ཐོ་འབྲེལ་མཐུད"
+linkAccount = "纸环 རྩིས་ཐོ་འབྲེལ་མཐུད"
 primaryNav = "གཙོ་བོའི་ཁ་ཕྱོགས་འདྲེན"
 
 [portal.shell.topbar]
@@ -10575,7 +10575,7 @@ search = "འཚོལ"
 
 [portal.sources]
 processingModeHelp = "Track ཡིས་མ་ཡིག་ཉར་ཞིང་ཐོན་རིམ་རེ་རེ་ཐེངས་གཅིག་ལས་སྣོན་བྱེད། Snapshot ཡིས་མ་ཡིག་ཉར་ཞིང་འཁོར་སྐྱོད་རེ་རེར་དེ་དག་ལས་སྣོན་བྱེད། Consume ཡིས་ལེགས་གྲུབ་སྐྱེལ་རྗེས་མ་ཡིག་སུབ།"
-subtitle = "ཡིག་ཆ་རྣམས Stirling ནང་འཇུག་པའི་བསྐྱར་སྤྱོད་ཆོག་པའི་ནང་འཇུག་འབྲེལ་མཐུད། ཁུངས་ཞིག་ཐེངས་གཅིག་སྒྲིག་རྗེས། ལས་རིམ་རྒྱུན་གྲངས་མང་ནས་དེ་ལ་གཞི་བཅོལ་བྱེད་ཆོག"
+subtitle = "ཡིག་ཆ་རྣམས 纸环 ནང་འཇུག་པའི་བསྐྱར་སྤྱོད་ཆོག་པའི་ནང་འཇུག་འབྲེལ་མཐུད། ཁུངས་ཞིག་ཐེངས་གཅིག་སྒྲིག་རྗེས། ལས་རིམ་རྒྱུན་གྲངས་མང་ནས་དེ་ལ་གཞི་བཅོལ་བྱེད་ཆོག"
 title = "ཁུངས"
 
 [portal.sources.actions]
@@ -10796,15 +10796,15 @@ adminOnly = "server འདིའི་ཟླ་རེའི credits ནི་ད
 barAria = "ལྷག་ཡོད་པའི་རིན་མེད credits"
 capSuffix_one = "ཟླ་འདིར {{allowance}} ནས་རིན་མེད credit ལྷག་ཡོད"
 capSuffix_other = "ཟླ་འདིར {{allowance}} ནས་རིན་མེད credits ལྷག་ཡོད"
-connect = "Stirling རྩིས་ཐོ་མཐུད་པ"
+connect = "纸环 རྩིས་ཐོ་མཐུད་པ"
 connectBody = "མཐུད་པས་ཟླ་རེའི་ཐོབ་སྐལ་གཉིས་པ་ཞིག་སྣོན་པ། server འདིར་ཡོད་ཆོག་པའི་སྤྱོད་མཁན་གྲངས་འཕར་བ། དང Processor ཁ་ཕྱེ་བ་བྱེད།"
-connectTitle = "server འདིར Stirling རྩིས་ཐོ་མེད"
+connectTitle = "server འདིར 纸环 རྩིས་ཐོ་མེད"
 loadError = "server འདིའི credit སྤྱོད་ཚད་ཀློག་མ་ཐུབ། ཅུང་ཙམ་རྗེས་སུ་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།"
 loadErrorTitle = "credit སྤྱོད་ཚད་འགེལ་མ་ཐུབ"
 resets = "{{date}} ལ་བསྐྱར་སྒྲིག"
 
 [portal.usage.sessionExpired]
-body = "ཁྱེད་ཀྱི Stirling རྩིས་ཁྲའི session དུས་ཡོལ་ཟིན། རིན་བསྡུ་ལྟ་བར་ཡང་བསྐྱར་ནང་འཛུལ་བྱེད — ཁྱེད་ཀྱི instance འབྲེལ་མཐུད་རང་སོར་གནས།"
+body = "ཁྱེད་ཀྱི 纸环 རྩིས་ཁྲའི session དུས་ཡོལ་ཟིན། རིན་བསྡུ་ལྟ་བར་ཡང་བསྐྱར་ནང་འཛུལ་བྱེད — ཁྱེད་ཀྱི instance འབྲེལ་མཐུད་རང་སོར་གནས།"
 
 [portal.users]
 title = "སྤྱོད་མཁན"
@@ -11129,7 +11129,7 @@ files = "ཡིག་ཆ།"
 account = "རྩིས་ཐོ"
 docs = "ཡིག་ཚགས"
 editor = "རྩོམ་སྒྲིག་ཆས"
-home = "Stirling"
+home = "纸环"
 invite = "གདན་འདྲེན"
 landmark = "མྱུར་འགྲོ་ཕྱོགས་སྟོན"
 noProcessorAccess = "Processor སྤྱོད་དབང་ལ admin ལ་ཞུ་རོགས"
@@ -11682,8 +11682,8 @@ hideTools = "མི་འཐོབ་ལག་ཆ་སྦེད་ ▴"
 messageNoFallback = "ཁྱེད་ཀྱི་ཞབས་ཞུ་དྲྭ་ཐོག་ལ་ཕྱིར་འབྱོར་མ་བྱས་བར་ལག་ཆ་མི་འཐོབ།"
 messageWithFallback = "ལག་ཆ་ཁ་ཤས་ལ་ཞབས་ཞུ་མཐུད་དགོས།"
 showTools = "མི་འཐོབ་ལག་ཆ་ལྟ་ ▾"
-title = "ཁྱེད་ཀྱི Stirling-PDF ཞབས་ཞུ་ལ་མཐུད་མི་ཐུབ"
-toolNotAvailableLocally = "ཁྱེད་ཀྱི Stirling-PDF ཞབས་ཞུ་ཨོླཕ་ལ་ཡིན་པས \"{{endpoint}}\" རང་གནས་རྒྱབ་སྟེགས་ནང་མི་འཐོབ།"
+title = "ཁྱེད་ཀྱི 纸环 ཞབས་ཞུ་ལ་མཐུད་མི་ཐུབ"
+toolNotAvailableLocally = "ཁྱེད་ཀྱི 纸环 ཞབས་ཞུ་ཨོླཕ་ལ་ཡིན་པས \"{{endpoint}}\" རང་གནས་རྒྱབ་སྟེགས་ནང་མི་འཐོབ།"
 
 [session]
 expired = "ཁྱེད་རང་གི་ཚོགས་ཐུན་དུས་ཚོད་རྫོགས་ཡོད། ཤོག་བུ་གསར་བཟོ་བྱས་ནས་བསྐྱར་དུ་ཚོད་ལྟ་གནང་རོགས།"
@@ -11755,7 +11755,7 @@ unknown = "སྤྱོད་མི་ཐུབ"
 yourTeam = "ཁྱེད་ཀྱི་ཚོགས་པ"
 
 [settings.connection]
-description = "འཕྲུལ་ཆས་འདིའི་ཐོག་རང་སར་ལས་ཀ་བྱེད་པའམ app དེ Stirling server ཞིག་ལ་མཐུད།"
+description = "འཕྲུལ་ཆས་འདིའི་ཐོག་རང་སར་ལས་ཀ་བྱེད་པའམ app དེ 纸环 server ཞིག་ལ་མཐུད།"
 localDescription = "ཁྱེད་ཀྱིས་རྩིས་ཁྲོད་མེད་པར་རང་གནས་རྒྱབ་སྟེགས་སྤྱོད་བཞིན། སྤྱི་དྲ་སྔོན་འགྲོའི་ལས་སྦྱོར་དམ་རང་དབང་ཞབས་ཞུ་དགོས་པའི་ལག་ཆ་ཁ་ཤས་མི་འཐོབ།"
 logout = "དྲན་ཐོ།"
 server = "སར་བར།"
@@ -11770,7 +11770,7 @@ selfhosted = "རང་གིས་རང་ལ་མགྲོན་ཁང་།
 
 [settings.developer]
 apiKeys = "APIལྡེ་མིག"
-apiKeysDescription = "scripts དང integrations ནས Stirling API འབོད་པའི་མི་སྒེར keys།"
+apiKeysDescription = "scripts དང integrations ནས 纸环 API འབོད་པའི་མི་སྒེར keys།"
 title = "གོང་འཕེལ་གཏོང་མཁན།"
 
 [settings.general]
@@ -11779,7 +11779,7 @@ autoUnzipFileLimit = "རང་འགུལ་གྱིས་ཡིག་ཚག�
 autoUnzipFileLimitTooltip = "གལ་ཏེ་ZIPནང་དུ་ཡིག་ཆ་མང་པོ་ཡང་ན་ཉུང་བ་ཡོད་ན། ZIPs ཆེ་བ་འདོན་ཆེད་དུ་མཐོ་རུ་བཅུག"
 autoUnzipTooltip = "རང་འགུལ་གྱིས་APIབཀོལ་སྤྱོད་ནས་ཕྱིར་ལོག་པའི་ZIPཡིག་ཆ་འཐེན་ཐུབ། ZIP ཡིག་ཆ་དེ་དག་བཟོད་སྒོམ་བྱེད་མི་ཐུབ་པ་རེད། འདིས་རང་འགུལ་ལས་ཀའི་འགྲོ་ལུགས་ལ་ཤུགས་རྐྱེན་ཐེབས་མི་ཐུབ།"
 defaultPdfEditor = "སྔོན་སྒྲིག་PDFརྩོམ་སྒྲིག་པ།"
-defaultPdfEditorActive = "སི་ཊར་ལིང་PDFནི་ཁྱེད་ཀྱི་སྔོན་སྒྲིག་PDFརྩོམ་སྒྲིག་པ་ཡིན།"
+defaultPdfEditorActive = "纸环ནི་ཁྱེད་ཀྱི་སྔོན་སྒྲིག་PDFརྩོམ་སྒྲིག་པ་ཡིན།"
 defaultPdfEditorChecking = "ཞིབ་བཤེར་བྱེད་པ་..."
 defaultPdfEditorInactive = "མཉེན་ཆས་གཞན་ཞིག་ནི་སྔོན་སྒྲིག་ལྟར་སྒྲིག་ཡོད།"
 defaultPdfEditorSet = "ད་ལྟ་སྔོན་སྒྲིག་བྱས་ཟིན།"
@@ -11849,7 +11849,7 @@ updateBehavior = "གསར་སྒྱུར་སྤྱོད་སྟངས"
 updateBehaviorDescription = "གསར་སྒྱུར་འཇུག་སྔོན་ལ་དྲིས་པ། ཡང་ན་རང་འགུལ་འཇུག་ཡང་ན་གསར་སྒྱུར་ཞིབ་བཤེར་ཡོད་མེད་བརྗེ་བ།"
 updateBehaviorError = "གསར་སྒྱུར་སྤྱོད་སྟངས་བཟོ་མ་ཐུབ"
 updateBehaviorErrorLocked = "སྒྲིག་འགོད་འདི་དོ་དམ་པས་བཀག་སྡོམ་བྱས་ཡོད།"
-updateBehaviorLockedDescription = "ཁྱེད་ཀྱི་འཕྲུལ་ཆས་འདི་སྟེང་གསར་སྒྱུར་གཙོ་འཁོར་གྱི་སྟངས་ལ་ Stirling-PDF ཡིས་འགོ་འཛུགས་བྱས་ཡོད། བཅོས་དག་བྱེད་པར་དོ་དམ་པ་ལ་འབྲེལ་བ།"
+updateBehaviorLockedDescription = "ཁྱེད་ཀྱི་འཕྲུལ་ཆས་འདི་སྟེང་གསར་སྒྱུར་གཙོ་འཁོར་གྱི་སྟངས་ལ་ 纸环 ཡིས་འགོ་འཛུགས་བྱས་ཡོད། བཅོས་དག་བྱེད་པར་དོ་དམ་པ་ལ་འབྲེལ་བ།"
 updateBehaviorSaved = "གསར་སྒྱུར་སྤྱོད་སྟངས་སྲུངས་ཟིན།"
 versionMismatch = "ཁྱེད་ཀྱི desktop application དང server ནི versions མི་འདྲ་བ་སྤྱོད་བཞིན་ཡོད། མཐུན་འགྲིག་གི་དཀའ་ངལ་སྔོན་འགོག་ཆེད་གཉིས་ཀ་དེ་མཚུངས version ལ་གསར་སྒྱུར་བྱོས།"
 viewDetails = "ཞིབ་ཕྲའི་གནས་ཚུལ་ལ་ལྟོས།"
@@ -12074,7 +12074,7 @@ emptyUsername = "ཁྱེད་རང་གི་སྤྱོད་མཁན་
 oauthFailed = "OAuth ནང་འཛུལ་བྱེད་མ་ཐུབ་པ་རེད། བསྐྱར་དུ་ཚོད་ལྟ་གནང་རོགས།"
 
 [setup.saas]
-title = "སི་ཊར་ལིང་ལ་འཛུལ་བ།"
+title = "纸环ལ་འཛུལ་བ།"
 
 [setup.selfhosted]
 changeServerLocked = "ཁྱེད་ཀྱི་ཚོགས་སྡེས་མ་ལག་འདི་སར་བར་གཅིག་ལ་བཀག་འགོག་བྱས་ཡོད།"
@@ -12120,7 +12120,7 @@ step3 = "སར་བར་བསྐྱར་འགོ་ཚུགས།"
 title = "ནང་འཛུལ་མེད་པ།"
 
 [setup.server.url]
-description = "ཁྱེད་རང་གི་རང་ཉིད་ཀྱིས་གཉེར་བའི་སི་ཊར་ལིང་PDFསར་བར་གྱི་URLཆ་ཚང་བླུགས།"
+description = "ཁྱེད་རང་གི་རང་ཉིད་ཀྱིས་གཉེར་བའི་纸环སར་བར་གྱི་URLཆ་ཚང་བླུགས།"
 label = "སར་བར་URL"
 
 [sharedSign]
@@ -12574,7 +12574,7 @@ pleaseFillAllFields = "ས་སྒོ་ཚང་མ་བཀང་རོགས
 signUp = "མིང་རྟགས་བཀོད་པ།"
 signUpWith = "འདིས sign up"
 skip = "མཆོང་བ"
-subtitle = "འགོ་འཛུགས་ཆེད་དུ་སི་ཊར་ལིང་PDFལ་མཉམ་ཞུགས་བྱོས།"
+subtitle = "འགོ་འཛུགས་ཆེད་དུ་纸环ལ་མཉམ་ཞུགས་བྱོས།"
 title = "རྩིས་ཁྲ་བཟོས་པ།"
 unableToAccessTool = "tool ལ་འཛུལ་མི་ཐུབ: {{error}}"
 unexpectedError = "རྗེས་འགྲོ་མ་ངེས་པའི་ནོར་འཁྲུལ: {{message}}"
@@ -12856,7 +12856,7 @@ download = "ཕབ་ལེན"
 downloaded = "ཕབ་ལེན་བྱས་ཟིན།"
 downloadFailed = "ཡིག་ཆ་འདི་ཕབ་ལེན་མི་ཐུབ།"
 downloadsCount = "ཕབ་ལེན: {{count}}"
-emailWarningBody = "འདི་གློག་འཕྲིན་གྲངས་འཛིན་ལྟར་མཐོང་བ་ཡིན། མི་འདི་ནི Stirling PDF སྤྱོད་མཁན་མ་རེད་ན་ཡིག་ཆ་ལ་འཛུལ་མི་ཐུབ།"
+emailWarningBody = "འདི་གློག་འཕྲིན་གྲངས་འཛིན་ལྟར་མཐོང་བ་ཡིན། མི་འདི་ནི 纸环 སྤྱོད་མཁན་མ་རེད་ན་ཡིག་ཆ་ལ་འཛུལ་མི་ཐུབ།"
 emailWarningConfirm = "མཉམ་སྤྱོད་གང་རེད་ཀྱང་"
 emailWarningTitle = "གློག་འཕྲིན་གྲངས་འཛིན"
 errorTitle = "མཉམ་སྤྱོད་ཕམ་པ"
@@ -12887,7 +12887,7 @@ manageTitle = "མཉམ་སྤྱོད་དོ་དམ"
 noActivity = "ལཱ་འགུལ་མེད།"
 noLinks = "མཉམ་སྤྱོད་འབྲེལ་ཐག་མ་འདུག"
 noSharedUsers = "འཛུལ་ས་ཡོད་པའི་མི་མེད།"
-openInApp = "Stirling PDF ནང་ཁ་ཕྱེ"
+openInApp = "纸环 ནང་ཁ་ཕྱེ"
 ownerLabel = "བདག་པོ"
 ownerUnknown = "མ་ཤེས"
 removeLink = "འབྲེལ་ཐག་བསུབ"
@@ -12945,7 +12945,7 @@ all = "ཚང་མ"
 ariaLabel = "སྤྱི་ཡོངས་འཚོལ་བ"
 filtersAriaLabel = "འཚོལ་ཞིབ་འཚག་ཆས"
 hint = "འཚོལ་བར་ཡི་གེ་འཇུག"
-placeholder = "Stirling འཚོལ"
+placeholder = "纸环 འཚོལ"
 placeholderShort = "འཚོལ།"
 showLess = "ཉུང་ཙམ་སྟོན"
 showMore = "ད་དུང {{count}} སྟོན"
@@ -12959,7 +12959,7 @@ settings = "སྒྲིག་འགོད"
 tools = "ལག་ཆ"
 
 [survey]
-title = "Stirling-PDF བསམ་འཆར་ཞིབ་འཇུག"
+title = "纸环 བསམ་འཆར་ཞིབ་འཇུག"
 
 [swagger]
 clickHere = "འདིར་གནོན"
@@ -13128,7 +13128,7 @@ favorites = "དགའ་ཤོས།"
 heading = "ལག་ཆ་ཚང་མ།(གློག་བརྙན་ཆ་ཚང་གི་ལྟ་ཚུལ།)"
 noResults = "ཁྱེད་ལ་དགོས་མཁོ་ཡོད་པའི་དངོས་པོ་འཚོལ་བར་འཚོལ་ཞིབ་ཡང་ན་འགྲེལ་བཤད་བསྒྱུར་ཐབས་བྱོས།"
 recommended = "འོས་སྦྱོར་བྱས་པའི"
-selfHostedOffline = "ཁྱེད་ཀྱི Stirling-PDF ཞབས་ཞུ་དགོས (དེང་སླར་ཨོླཕ་ལ་ཡིན):"
+selfHostedOffline = "ཁྱེད་ཀྱི 纸环 ཞབས་ཞུ་དགོས (དེང་སླར་ཨོླཕ་ལ་ཡིན):"
 showDetails = "ཞིབ་ཕྲ།"
 unavailable = "སར་བར་གྱི་དོ་དམ་པས་ལྕོགས་མིན་བཟོས།"
 unavailableDependency = "མེད་པ། ཞབས་ཞུའི་སྟེང་དགོས་མཁོའི་ལག་ཆ་མེད་པ་"
@@ -13137,7 +13137,7 @@ unfavorite = "དགའ་མོས་ཆེ་ཤོས་ལས་ཕྱིར
 [toolPanel.modePrompt]
 chooseFullscreen = "བརྙན་ཤེལ་གྱི་རྣམ་པ་ཆ་ཚང་བེད་སྤྱོད་བྱེད་པ།"
 chooseSidebar = "ཟུར་སྣོན་ཐབས་ལམ་བེད་སྤྱོད་བྱེད་པ།"
-description = "བཀོད་སྒྲིག་གཉིས་ཀ་སྔོན་ལྟ་བྱེད་པ་དང་ཁྱེད་ཀྱིས་སི་ཊར་ལིང་PDFལག་ཆ་ཇི་ལྟར་འཚོལ་ཞིབ་བྱེད་འདོད་ཡོད་མེད་ཐག་གཅོད་བྱེད་དགོས།"
+description = "བཀོད་སྒྲིག་གཉིས་ཀ་སྔོན་ལྟ་བྱེད་པ་དང་ཁྱེད་ཀྱིས་纸环ལག་ཆ་ཇི་ལྟར་འཚོལ་ཞིབ་བྱེད་འདོད་ཡོད་མེད་ཐག་གཅོད་བྱེད་དགོས།"
 dismiss = "གཅིག་བྱས་ན་ཕྱིས་སུ།"
 fullscreenDescription = "ཁྱེད་ཀྱིས་གཅིག་འདེམས་མ་ཐུབ་བར་དུ་ལས་ཀའི་ས་ཆ་དེ་ལ་ཁེབས་པའི་ཐོ་གཞུང་ནང་ལག་ཆ་ཚང་མ་ལྟ་ཞིབ་བྱེད་དགོས།"
 fullscreenTitle = "གློག་བརྙན་ཆ་ཚང་གི་ཐབས་ལམ། - (ཤུལ་བཞག་)"
@@ -13204,7 +13204,7 @@ loadingDetailedInfo = "ཞིབ་ཕྲའི་གནས་ཚུལ་མང
 migrationGuide = "གནས་སྤོའི་ལམ་སྟོན།"
 migrationGuides = "གནས་སྤོའི་ལམ་སྟོན།"
 migrationGuidesDesc = "གསར་སྒྱུར་སྔོན་ལ་གནས་འགྱུར་གལ་ཆེའི་གཏོགས་མཐུད་ལྟ་བ།"
-modalSubtitle = "Stirling PDF ཐོན་རྟགས་གསར་པ་འཇུག་གྲ་སྒྲིག་ཡོད།"
+modalSubtitle = "纸环 ཐོན་རྟགས་གསར་པ་འཇུག་གྲ་སྒྲིག་ཡོད།"
 modalTitle = "གསར་བརྗེ།"
 notes = "མཆན"
 releaseNotes = "གློད་བཀྲོལ་དྲན་ཐོ།"
@@ -13230,7 +13230,7 @@ urgent = "ཛ་དྲག་གི"
 attentionBody = "ཁྱེད་ཀྱི་འཛིན་སྐྱོང་པས་གནས་ཚུལ་མང་བ་མཐོང་ཆེད་ནང་དུ་འཛུལ་དགོས། དེ་མ་ཐག་ཁོང་ཚོར་འབྲེལ་གཏུག་གནང་རོགས།"
 attentionBodyAdmin = "གསབ་ལེན་འདི་ལག་བསྟར་བྱེད་པར་ཆོག་མཆན་གྱི་དགོས་མཁོ་ལ་ཞིབ་བཤེར་བྱོས།"
 attentionTitle = "སར་བར་འདི་ལ་འཛིན་སྐྱོང་དོ་སྣང་དགོས།"
-message = "སྤྱོད་མཁན་100 དང་PDF ཡིག་གེ་རྩོམ་སྒྲིག མཐོ་རིམ་གྱི་བྱེད་ནུས་བཅས་ཀྱིས་Stirling PDF ལས་ཕན་ཐོགས་ཆེ་ཤོས་ལེན་རོགས།"
+message = "སྤྱོད་མཁན་100 དང་PDF ཡིག་གེ་རྩོམ་སྒྲིག མཐོ་རིམ་གྱི་བྱེད་ནུས་བཅས་ཀྱིས་纸环 ལས་ཕན་ཐོགས་ཆེ་ཤོས་ལེན་རོགས།"
 seeInfo = "གནས་ཚུལ་ལ་གཟིགས།"
 title = "Team plan ལ་རིམ་སྤར"
 upgradeButton = "ད་ལྟ་ཡར་རྒྱས་གཏོང་བ།"
@@ -13368,7 +13368,7 @@ authWeb = "གསང་ཨང་།"
 create = "རྩིས་ཁྲ་བཟོ།"
 createSubtitle = "གསང་ཨང་ངམ SSO སྤྱད་ནས་རང་གིས་སྐྱོང་བའི་རྩིས་ཁྲ་བཟོ།"
 createTitle = "རྩིས་ཁྲ་བཟོ།"
-editorDesc = "Stirling PDF Editor ནང PDF རྩོམ་སྒྲིག་བྱོས། མི་ཚང་མར་འདི་ཐོབ།"
+editorDesc = "纸环 Editor ནང PDF རྩོམ་སྒྲིག་བྱོས། མི་ཚང་མར་འདི་ཐོབ།"
 email = "གློག་ཡིག་ཁ་བྱང་།"
 emailError = "ནུས་ལྡན་གློག་ཡིག་ཁ་བྱང་ཞིག་འཇུག་རོགས།"
 emailPlaceholder2 = "name@company.com"
@@ -13383,7 +13383,7 @@ processorDeferred = "གདན་ཞུ་བསྐུར་ཟིན། འོ�
 processorDesc = "སྐྱོང་སྡོམ་ངོས། pipelines འཁོར་སྐྱོད། agents དང API།"
 role = "འགན་འཁྲི།"
 send2 = "གདན་ཞུ་བསྐུར།"
-subtitle2 = "ཁོང་ཚོས་ཁྱེད་ཀྱི Stirling ལས་ཁུལ་ལ་ཞུགས་ཆེད་གློག་ཡིག་ཞིག་འཐོབ།"
+subtitle2 = "ཁོང་ཚོས་ཁྱེད་ཀྱི 纸环 ལས་ཁུལ་ལ་ཞུགས་ཆེད་གློག་ཡིག་ཞིག་འཐོབ།"
 team = "ཚོགས་ཆུང་།"
 title = "མི་སྣ་གདན་ཞུ།"
 username = "སྤྱོད་མིང་།"
@@ -13525,7 +13525,7 @@ downloads = "ཕབ་ལེན།"
 entryLabel = "མཚན་རྟགས་སྙིང་བསྡུས།"
 filesEvaluated_one = "{{count}} ཡིག་ཆ་ཞིབ་བཤེར་བྱས"
 filesEvaluated_other = "{{count}} ཡིག་ཆ་ཞིབ་བཤེར་བྱས"
-footer = "སི་ཊར་ལིང་PDFབརྒྱུད་ནས་བདེན་དཔང་བྱས།"
+footer = "纸环བརྒྱུད་ནས་བདེན་དཔང་བྱས།"
 generatedAt = "བསྐྲུན་པ།"
 noPdf = "PDFསྙན་ཞུ་དེ་བདེན་དཔང་མཐར་ཕྱིན་རྗེས་ཐོབ་ཐུབ།"
 page = "ཤོག་ངོས།"
@@ -13718,7 +13718,7 @@ text = "ཡིག་རྐྱང་།"
 addFile = "ཡིག་ཆ་སྣོན།"
 count_one = "Portfolio འདིའི་ནང་ཡིག་ཆ་ {{count}}"
 count_other = "Portfolio འདིའི་ནང་ཡིག་ཆ་ {{count}}"
-import = "Stirling ནང་འདྲེན།"
+import = "纸环 ནང་འདྲེན།"
 importFailed = "ཡིག་ཆ་འདི་ཁྱེད་ཀྱི workspace ལ་སྣོན་མ་ཐུབ།"
 memberUnavailable = "ཡིག་ཆ་འདི portfolio ནས་ཀློག་མ་ཐུབ།"
 preview = "སྔོན་ལྟ།"

@@ -210,7 +210,7 @@ export function SoftwareUpdatesCard({
                     desktopUpdateMode.locked
                       ? t(
                           "settings.general.updates.updateBehaviorLockedDescription",
-                          "Your administrator has configured how Stirling-PDF handles updates on this machine. Contact them to change this.",
+                          "Your administrator has configured how PaperRing handles updates on this machine. Contact them to change this.",
                         )
                       : t(
                           "settings.general.updates.updateBehaviorDescription",

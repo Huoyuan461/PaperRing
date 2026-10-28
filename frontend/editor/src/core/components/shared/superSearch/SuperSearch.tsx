@@ -649,7 +649,7 @@ export default function SuperSearch({
           placeholder={
             isMobile
               ? t("superSearch.placeholderShort", "Search")
-              : t("superSearch.placeholder", "Search Stirling")
+              : t("superSearch.placeholder", "Search PaperRing")
           }
           icon={<Icon name="search" size="1.1rem" />}
           autoComplete="off"

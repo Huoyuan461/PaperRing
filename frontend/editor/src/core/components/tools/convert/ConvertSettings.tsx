@@ -527,7 +527,7 @@ const ConvertSettings = ({
           </>
         )}
 
-      {/* Stirling Office Convert or LibreOffice */}
+      {/* PaperRing Office Convert or LibreOffice */}
       {usesOfficeEngine(parameters.fromExtension, parameters.toExtension) && (
         <>
           <Divider />

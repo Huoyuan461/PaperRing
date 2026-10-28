@@ -53,7 +53,7 @@ export const WithLinkAccountCta: Story = {
     accountExtras: (
       <NavItem
         id="account-link"
-        label="Link Stirling account"
+        label="Link PaperRing account"
         icon={<Icon name="link" size={"1.1rem"} />}
       />
     ),

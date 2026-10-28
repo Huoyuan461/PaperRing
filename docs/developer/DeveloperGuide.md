@@ -1,10 +1,12 @@
-# Stirling-PDF Developer Guide
+# 纸环 PaperRing developer guide
+
+This tree ships as 纸环 PaperRing. The PDF engine and editor come from the open-source Stirling-PDF project. Sections below keep upstream names where they refer to that engine, its packages, or its release files.
 
 ## 1. Introduction
 
-Stirling-PDF is a robust, locally hosted, web-based PDF manipulation tool. **Stirling 2.0** represents a complete frontend rewrite with a modern React SPA (Single Page Application).
+纸环 is a locally hosted PDF tool. The editor is a React SPA in front of a Spring Boot backend.
 
-This guide focuses on developing for Stirling 2.0, including both the React frontend and Spring Boot backend development workflows.
+This guide covers that frontend and backend.
 
 ## 2. Project Overview
 

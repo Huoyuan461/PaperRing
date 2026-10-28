@@ -14,7 +14,7 @@ export function ownershipErrorText(
   if (error?.includes("LINK_REVOKED"))
     return t(
       "ownership.linkRevoked",
-      "This server's cloud link is no longer valid. Cancel the transfer, then reconnect your Stirling account in settings. Ownership will not change.",
+      "This server's cloud link is no longer valid. Cancel the transfer, then reconnect your PaperRing account in settings. Ownership will not change.",
     );
   if (error?.includes("FINISH_LOCAL_TRANSFER"))
     return t(

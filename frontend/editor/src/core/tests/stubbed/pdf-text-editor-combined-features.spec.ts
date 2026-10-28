@@ -256,7 +256,7 @@ test.describe("PDF text editor - combined feature set", () => {
     page,
   }) => {
     await open(page, 1);
-    const id = await runId(page, 1, "Stirling\\s+PDF\\s+is\\s+a\\s+robust");
+    const id = await runId(page, 1, "PaperRing\\s+PDF\\s+is\\s+a\\s+robust");
     await selectRun(page, id);
     await page.getByTestId("pdf-editor-toggle-lock").click();
     await page.waitForTimeout(200);
@@ -299,7 +299,7 @@ test.describe("PDF text editor - combined feature set", () => {
     page,
   }) => {
     await open(page, 1);
-    const a = await runId(page, 1, "Stirling\\s+PDF\\s+is\\s+a\\s+robust");
+    const a = await runId(page, 1, "PaperRing\\s+PDF\\s+is\\s+a\\s+robust");
     const b = await runId(page, 1, "Comprehensive\\s+toolkit");
     await selectMany(page, [a, b]);
     await clickArrange(page, "pdf-editor-align-left");
@@ -390,7 +390,7 @@ test.describe("PDF text editor - combined feature set", () => {
     page,
   }) => {
     await open(page, 1);
-    const id = await runId(page, 1, "Stirling\\s+PDF\\s+is\\s+a\\s+robust");
+    const id = await runId(page, 1, "PaperRing\\s+PDF\\s+is\\s+a\\s+robust");
     const before = await page.evaluate(
       (rid: string) => [
         ...(window as unknown as EditorTestWindow).__editor_store.doc
@@ -639,7 +639,7 @@ test.describe("PDF text editor - combined feature set", () => {
     page,
   }) => {
     await open(page, 1);
-    const a = await runId(page, 1, "Stirling\\s+PDF\\s+is\\s+a\\s+robust");
+    const a = await runId(page, 1, "PaperRing\\s+PDF\\s+is\\s+a\\s+robust");
     const b = await runId(page, 1, "Comprehensive\\s+toolkit");
     await selectMany(page, [a, b]);
     await clickArrange(page, "pdf-editor-align-right");
@@ -665,7 +665,7 @@ test.describe("PDF text editor - combined feature set", () => {
     page,
   }) => {
     await open(page, 1);
-    const a = await runId(page, 1, "Stirling\\s+PDF\\s+is\\s+a\\s+robust");
+    const a = await runId(page, 1, "PaperRing\\s+PDF\\s+is\\s+a\\s+robust");
     const b = await runId(page, 1, "Comprehensive\\s+toolkit");
     await selectMany(page, [a, b]);
     await clickArrange(page, "pdf-editor-align-top");

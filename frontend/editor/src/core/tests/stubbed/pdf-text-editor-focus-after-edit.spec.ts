@@ -39,7 +39,7 @@ async function findId(page: Page): Promise<string> {
     const s = (window as unknown as EditorTestWindow).__editor_store;
     const r = s.doc
       .page(1)
-      .runs.find((x) => /Stirling\s+PDF\s+is\s+a\s+robust/.test(x.text));
+      .runs.find((x) => /PaperRing\s+PDF\s+is\s+a\s+robust/.test(x.text));
     return r ? r.id : "";
   });
   expect(id, "fixture paragraph not found").not.toBe("");

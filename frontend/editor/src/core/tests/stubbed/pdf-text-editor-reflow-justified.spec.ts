@@ -65,7 +65,7 @@ function readRun(page: Page, id?: string): Promise<RunView | null> {
       for (const r of p.runs) {
         const match = rid
           ? r.id === rid
-          : /Stirling\s+PDF\s+is\s+a\s+robust/.test(r.text);
+          : /PaperRing\s+PDF\s+is\s+a\s+robust/.test(r.text);
         if (match) {
           return {
             id: r.id,

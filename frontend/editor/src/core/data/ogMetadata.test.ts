@@ -22,7 +22,7 @@ const TEMPLATE = `<!doctype html>
 <html lang="en-US">
   <head>
     <base href="./" />
-    <title>Stirling PDF</title>
+    <title>PaperRing</title>
     <meta
       name="description"
       content="A free, private PDF editor you can run on any infrastructure."
@@ -62,13 +62,13 @@ describe("getToolOgImage (client resolver)", () => {
 describe("injectOg (build-time prerender)", () => {
   const entry = {
     image: "/og_images/compress.png",
-    title: "Compress - Stirling PDF",
+    title: "Compress - PaperRing",
     description: "Compress PDFs to reduce their file size.",
   };
 
   it("replaces title + description and injects exactly one of each", () => {
     const out = injectOg(TEMPLATE, entry, {});
-    expect(out).toContain("<title>Compress - Stirling PDF</title>");
+    expect(out).toContain("<title>Compress - PaperRing</title>");
     expect(out).toContain(
       '<meta name="description" content="Compress PDFs to reduce their file size." />',
     );
@@ -138,14 +138,14 @@ describe("injectOg (build-time prerender)", () => {
       TEMPLATE,
       {
         image: "/og_images/saas/app.png",
-        title: "Stirling - Edit any PDF. Govern every PDF.",
+        title: "PaperRing - Edit any PDF. Govern every PDF.",
         ogTitle: "Edit any PDF. Govern every PDF.",
         description: "d",
       },
       {},
     );
     expect(out).toContain(
-      "<title>Stirling - Edit any PDF. Govern every PDF.</title>",
+      "<title>PaperRing - Edit any PDF. Govern every PDF.</title>",
     );
     expect(out).toContain(
       '<meta property="og:title" content="Edit any PDF. Govern every PDF." />',
@@ -159,7 +159,7 @@ describe("injectOg (build-time prerender)", () => {
 describe("injectOg SEO extras (robots, canonical, JSON-LD)", () => {
   const entry = {
     image: "/og_images/compress.png",
-    title: "Compress - Stirling PDF",
+    title: "Compress - PaperRing",
     description: "Compress PDFs to reduce their file size.",
   };
 
@@ -209,7 +209,7 @@ describe("injectOg SEO extras (robots, canonical, JSON-LD)", () => {
   it("escapes '<' inside JSON-LD so a value cannot close the script early", () => {
     const out = injectOg(
       TEMPLATE,
-      { ...entry, title: "A <script> B - Stirling PDF" },
+      { ...entry, title: "A <script> B - PaperRing" },
       {
         ogBase: "https://stirling.com",
         canonicalBase: "https://stirling.com",
@@ -240,18 +240,18 @@ describe("buildSitemap", () => {
   const manifest = {
     default: {
       image: "/og_images/home.png",
-      title: "Stirling PDF",
+      title: "PaperRing",
       description: "d",
     },
     byTool: {
       compress: {
         image: "/og_images/compress.png",
-        title: "Compress - Stirling PDF",
+        title: "Compress - PaperRing",
         description: "c",
       },
       "/settings/people": {
         image: "/og_images/home.png",
-        title: "People Settings - Stirling PDF",
+        title: "People Settings - PaperRing",
         description: "p",
         noindex: true,
       },
@@ -299,7 +299,7 @@ describe("buildSitemap", () => {
 describe("buildBodyContent + injectBody (crawlable landing content)", () => {
   const entry = {
     image: "/og_images/compress.png",
-    title: "PDF to Word Converter - Stirling PDF",
+    title: "PDF to Word Converter - PaperRing",
     description: "Convert PDF files into editable Word documents.",
   };
   const navLinks = [
@@ -351,18 +351,18 @@ describe("buildBodyContent + injectBody (crawlable landing content)", () => {
     const manifest = {
       default: {
         image: "/og_images/home.png",
-        title: "Stirling PDF",
+        title: "PaperRing",
         description: "home",
       },
       byTool: {
         compress: {
           image: "/og_images/compress.png",
-          title: "Compress - Stirling PDF",
+          title: "Compress - PaperRing",
           description: "c",
         },
         "/settings/people": {
           image: "/og_images/home.png",
-          title: "People Settings - Stirling PDF",
+          title: "People Settings - PaperRing",
           description: "p",
           noindex: true,
         },
@@ -404,13 +404,13 @@ describe("buildBodyContent + injectBody (crawlable landing content)", () => {
     const manifest = {
       default: {
         image: "/og_images/home.png",
-        title: "Stirling PDF",
+        title: "PaperRing",
         description: "home",
       },
       byTool: {
         compress: {
           image: "/og_images/compress.png",
-          title: "Compress - Stirling PDF",
+          title: "Compress - PaperRing",
           description: "c",
         },
       },
@@ -424,7 +424,7 @@ describe("buildBodyContent + injectBody (crawlable landing content)", () => {
     expect(compress).toContain('<div id="root"></div>');
     expect(compress).not.toContain("spdf-seo");
     // OG/title metadata is still baked in - only the visible body is skipped.
-    expect(compress).toContain("<title>Compress - Stirling PDF</title>");
+    expect(compress).toContain("<title>Compress - PaperRing</title>");
 
     const home = await fs.readFile(path.join(dir, "index.html"), "utf8");
     expect(home).not.toContain("spdf-seo");
@@ -438,7 +438,7 @@ describe("buildBodyContent + injectBody (crawlable landing content)", () => {
     const manifest = {
       default: {
         image: "/og_images/home.png",
-        title: "Stirling PDF",
+        title: "PaperRing",
         description: "home",
       },
       byTool: {},
@@ -466,18 +466,18 @@ describe("prerenderOg (flat + nested route files)", () => {
     const manifest = {
       default: {
         image: "/og_images/home.png",
-        title: "Stirling PDF",
+        title: "PaperRing",
         description: "d",
       },
       byTool: {
         compress: {
           image: "/og_images/compress.png",
-          title: "Compress - Stirling PDF",
+          title: "Compress - PaperRing",
           description: "c",
         },
         "/settings/people": {
           image: "/og_images/home.png",
-          title: "People Settings - Stirling PDF",
+          title: "People Settings - PaperRing",
           description: "p",
         },
       },
@@ -505,7 +505,7 @@ describe("prerenderOg (flat + nested route files)", () => {
       path.join(dir, "settings", "people.html"),
       "utf8",
     );
-    expect(nested).toContain("<title>People Settings - Stirling PDF</title>");
+    expect(nested).toContain("<title>People Settings - PaperRing</title>");
     expect(nested).toContain('<base href="/"'); // nested base rewritten to absolute
 
     await fs.rm(dir, { recursive: true, force: true });
@@ -517,13 +517,13 @@ describe("prerenderOg (flat + nested route files)", () => {
     const manifest = {
       default: {
         image: "/og_images/home.png",
-        title: "Stirling PDF",
+        title: "PaperRing",
         description: "d",
       },
       byTool: {
         compress: {
           image: "/og_images/compress.png",
-          title: "Compress - Stirling PDF",
+          title: "Compress - PaperRing",
           description: "c",
         },
       },
@@ -565,13 +565,13 @@ describe("prerenderOg (flat + nested route files)", () => {
     const manifest = {
       default: {
         image: "/og_images/home.png",
-        title: "Stirling PDF",
+        title: "PaperRing",
         description: "home",
       },
       byTool: {
         "/login": {
           image: "/og_images/home.png",
-          title: "Sign In - Stirling PDF",
+          title: "Sign In - PaperRing",
           description: "l",
           noindex: true,
         },
@@ -638,13 +638,13 @@ describe("prerenderOg on a sub-path deploy", () => {
   const manifest = {
     default: {
       image: "/og_images/home.png",
-      title: "Stirling PDF",
+      title: "PaperRing",
       description: "home",
     },
     byTool: {
       compress: {
         image: "/og_images/compress.png",
-        title: "Compress - Stirling PDF",
+        title: "Compress - PaperRing",
         description: "c",
       },
     },
@@ -715,7 +715,7 @@ describe("prerenderOg on a sub-path deploy", () => {
 describe("prerender refuses a drifted HTML shell", () => {
   const entry = {
     image: "/og_images/compress.png",
-    title: "Compress - Stirling PDF",
+    title: "Compress - PaperRing",
     description: "c",
   };
 
@@ -749,13 +749,13 @@ describe("prerender refuses a drifted HTML shell", () => {
     const manifest = {
       default: {
         image: "/og_images/home.png",
-        title: "Stirling PDF",
+        title: "PaperRing",
         description: "home",
       },
       byTool: {
         compress: {
           image: "/og_images/compress.png",
-          title: "Compress - Stirling PDF",
+          title: "Compress - PaperRing",
           description: "c",
         },
       },
@@ -773,7 +773,7 @@ describe("prerender refuses a drifted HTML shell", () => {
     });
 
     const html = await fs.readFile(path.join(dir, "compress.html"), "utf8");
-    expect(html).toContain("<title>Compress - Stirling PDF</title>");
+    expect(html).toContain("<title>Compress - PaperRing</title>");
     expect(html).toContain('<meta name="description" content="c" />');
     expect(html).toContain(
       '<link rel="canonical" href="https://stirling.com/compress" />',
@@ -858,13 +858,13 @@ describe("shipped OG manifests", () => {
 
   it("gives the self-hosted home the brand card, verbatim", async () => {
     const manifest = await load("og-metadata.json");
-    expect(manifest.default.title).toBe("Stirling PDF - 30M+ Downloads");
+    expect(manifest.default.title).toBe("纸环 PaperRing");
     expect(manifest.default.description).toBe(
       "A free, private PDF editor you can run on any infrastructure.",
     );
     const html = injectOg(TEMPLATE, manifest.default, { isHome: true });
     expect(html).toContain(
-      '<meta name="twitter:title" content="Stirling PDF - 30M+ Downloads" />',
+      '<meta name="twitter:title" content="纸环 PaperRing" />',
     );
     expect(html).toContain(
       '<meta name="twitter:description" content="A free, private ' +

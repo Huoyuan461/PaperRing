@@ -118,7 +118,7 @@ interface FilesPageContextValue {
 
   currentTab: FilesPageTab;
   setCurrentTab: (tab: FilesPageTab) => void;
-  /** Opens the folder in Stirling library with one browser history entry. */
+  /** Opens the folder in PaperRing library with one browser history entry. */
   openFolder: (id: FolderId | null) => void;
 
   folderNameDialog: FolderNameDialogState;

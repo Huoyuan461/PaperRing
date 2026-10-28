@@ -157,7 +157,7 @@ describe("library browser history", () => {
     expect(result.current.currentTab).toBe("recent");
   });
 
-  it("restores folder navigation within Stirling library", () => {
+  it("restores folder navigation within PaperRing library", () => {
     const { result } = setup(["/files/invoices"]);
     act(() => result.current.openFolder("receipts" as FolderId));
     act(() => result.current.navigate(-1));
@@ -167,7 +167,7 @@ describe("library browser history", () => {
     expect(result.current.currentFolderId).toBe("receipts");
   });
 
-  it("uses Stirling library for an unrecognized view", () => {
+  it("uses PaperRing library for an unrecognized view", () => {
     const { result } = setup(["/files?view=unknown"]);
     expect(result.current.currentTab).toBe("all");
     expect(result.current.currentFolderId).toBeNull();

@@ -10,8 +10,6 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
-import io.micrometer.common.util.StringUtils;
-
 import jakarta.annotation.PostConstruct;
 
 import lombok.RequiredArgsConstructor;
@@ -59,22 +57,11 @@ public class InitialSetup {
         }
     }
 
-    public void initLegalUrls() throws IOException {
-        // Initialize Terms and Conditions
-        String termsUrl = applicationProperties.getLegal().getTermsAndConditions();
-        if (StringUtils.isEmpty(termsUrl)) {
-            String defaultTermsUrl = "https://www.stirlingpdf.com/terms";
-            GeneralUtils.saveKeyToSettings("legal.termsAndConditions", defaultTermsUrl);
-            applicationProperties.getLegal().setTermsAndConditions(defaultTermsUrl);
-        }
-        // Initialize Privacy Policy
-        String privacyUrl = applicationProperties.getLegal().getPrivacyPolicy();
-        if (StringUtils.isEmpty(privacyUrl)) {
-            String defaultPrivacyUrl = "https://www.stirlingpdf.com/privacy-policy";
-            GeneralUtils.saveKeyToSettings("legal.privacyPolicy", defaultPrivacyUrl);
-            applicationProperties.getLegal().setPrivacyPolicy(defaultPrivacyUrl);
-        }
-    }
+    /**
+     * Leaves terms and privacy URLs unset when the install has none. Filling them
+     * with Stirling-PDF's website would present that site as 纸环's own policy.
+     */
+    public void initLegalUrls() {}
 
     public void initSetAppVersion() throws IOException {
         // Check if this is a new server before setting the version

@@ -174,7 +174,7 @@ export const Typography: Story = {
             fontWeight: 700,
           }}
         >
-          Stirling
+          PaperRing
         </span>
       </div>
       <div>

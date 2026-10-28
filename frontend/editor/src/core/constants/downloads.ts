@@ -1,4 +1,4 @@
-// Centralized download URLs for Stirling PDF desktop installers
+// Centralized download URLs for PaperRing desktop installers
 export const DOWNLOAD_URLS = {
   WINDOWS: "https://files.stirlingpdf.com/win-installer.exe",
   WINDOWS_ARM64: "https://files.stirlingpdf.com/win-arm64-installer.exe",

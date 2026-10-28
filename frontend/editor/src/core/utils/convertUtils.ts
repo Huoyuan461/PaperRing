@@ -48,7 +48,7 @@ const OFFICE_EXTENSIONS = [
   "odp",
 ];
 
-/** Whether the conversion can run on Stirling Office Convert instead of LibreOffice. */
+/** Whether the conversion can run on PaperRing Office Convert instead of LibreOffice. */
 export const usesOfficeEngine = (
   fromExtension: string,
   toExtension: string,

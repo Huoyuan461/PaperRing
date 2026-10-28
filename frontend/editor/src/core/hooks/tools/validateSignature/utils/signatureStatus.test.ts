@@ -38,7 +38,7 @@ describe("computeSignatureStatus - trust surfacing", () => {
     expect(status.details.join(" ")).toMatch(/self-signed/i);
   });
 
-  test("self-signed BUT explicitly trusted (Stirling auto cert) -> green Valid", () => {
+  test("self-signed BUT explicitly trusted (PaperRing auto cert) -> green Valid", () => {
     const status = computeSignatureStatus(
       sig({ selfSigned: true, chainValid: true, trustValid: true }),
       t,

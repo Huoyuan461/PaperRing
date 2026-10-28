@@ -185,8 +185,8 @@ test.describe("PDF text editor - reported issue: align multi-select (real UI)", 
     page,
   }) => {
     await open(page, 1);
-    const a = await runId(page, 1, "What\\s+is\\s+Stirling");
-    const b = await runId(page, 1, "Stirling\\s+PDF\\s+is\\s+a\\s+robust");
+    const a = await runId(page, 1, "What\\s+is\\s+PaperRing");
+    const b = await runId(page, 1, "PaperRing\\s+PDF\\s+is\\s+a\\s+robust");
     const c = await runId(page, 1, "Comprehensive\\s+toolkit");
     await page.getByTestId(`pdf-editor-run-${a}`).click();
     await page
@@ -243,7 +243,7 @@ test.describe("PDF text editor - reported issue: align a single paragraph's line
     page,
   }) => {
     await open(page, 1);
-    const para = await runId(page, 1, "Stirling\\s+PDF\\s+is\\s+a\\s+robust");
+    const para = await runId(page, 1, "PaperRing\\s+PDF\\s+is\\s+a\\s+robust");
     await selectOne(page, para);
     // Horizontal aligns enable on a single paragraph...
     expect(await arrangeItemDisabled(page, "pdf-editor-align-left")).toBe(
@@ -263,7 +263,7 @@ test.describe("PDF text editor - reported issue: align a single paragraph's line
     page,
   }) => {
     await open(page, 1);
-    const heading = await runId(page, 1, "What\\s+is\\s+Stirling");
+    const heading = await runId(page, 1, "What\\s+is\\s+PaperRing");
     await selectOne(page, heading);
     expect(await arrangeItemDisabled(page, "pdf-editor-align-left")).toBe(true);
     expect(await arrangeItemDisabled(page, "pdf-editor-align-right")).toBe(
@@ -275,7 +275,7 @@ test.describe("PDF text editor - reported issue: align a single paragraph's line
     page,
   }) => {
     await open(page, 1);
-    const para = await runId(page, 1, "Stirling\\s+PDF\\s+is\\s+a\\s+robust");
+    const para = await runId(page, 1, "PaperRing\\s+PDF\\s+is\\s+a\\s+robust");
     await selectOne(page, para);
     const before = await lineRights(page, para);
     expect(before.length, "paragraph has multiple lines").toBeGreaterThan(1);

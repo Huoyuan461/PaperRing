@@ -82,7 +82,7 @@ describe("processAutoFormDetection", () => {
   });
 
   it("still returns the PDF when the summary header is missing or malformed", async () => {
-    expectConsole.warn(/no X-Stirling-Detected-Fields header/);
+    expectConsole.warn(/no X-PaperRing-Detected-Fields header/);
     respond({ "x-stirling-detected-fields": "not json" });
     const seen: unknown[] = [];
     const stop = onSummary((s) => seen.push(s));

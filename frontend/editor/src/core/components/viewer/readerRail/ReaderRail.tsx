@@ -189,7 +189,7 @@ export function ReaderRail() {
             {documents.length > 0 && <Menu.Divider />}
             <Menu.Item
               leftSection={<Icon name="plus" size={SIZE} />}
-              // The full library modal, as the home screen opens it: Stirling's
+              // The full library modal, as the home screen opens it: PaperRing's
               // own files as well as the device.
               onClick={() => openFilesModal()}
             >

@@ -1,7 +1,7 @@
 {
   "$schema": "../../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "Stirling PDF",
-  "mainBinaryName": "Stirling-PDF",
+  "productName": "纸环 PaperRing",
+  "mainBinaryName": "PaperRing",
   "version": "3.2.0",
   "identifier": "stirling.pdf.dev",
   "build": {
@@ -16,7 +16,7 @@
   "bundle": {
     "active": true,
     "createUpdaterArtifacts": true,
-    "publisher": "Stirling PDF Inc.",
+    "publisher": "PaperRing",
     "targets": ["deb", "rpm", "appimage", "dmg", "app", "msi"],
     "icon": [
       "icons/windows/app.ico",

@@ -260,7 +260,7 @@ export function FileDetailsPanel({
                       ? selectedFolder.name
                       : !single.folderId && getFileOrigin(single) === "local"
                         ? t("filesPage.recentFiles", "Recents")
-                        : t("filesPage.allFiles", "Stirling library")
+                        : t("filesPage.allFiles", "PaperRing library")
                   }
                 />
               </div>

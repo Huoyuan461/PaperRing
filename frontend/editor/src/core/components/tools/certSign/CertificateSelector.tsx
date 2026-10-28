@@ -158,7 +158,7 @@ export const CertificateSelector: React.FC<CertificateSelectorProps> = ({
               icon="user"
               title={t(
                 "certSign.collab.signRequest.usePersonalCert",
-                "Stirling Sign · Personal",
+                "PaperRing Sign · Personal",
               )}
               description={t(
                 "certSign.collab.signRequest.usePersonalCertDesc",
@@ -176,7 +176,7 @@ export const CertificateSelector: React.FC<CertificateSelectorProps> = ({
               icon="building-2"
               title={t(
                 "certSign.collab.signRequest.useServerCert",
-                "Stirling Sign · Organization",
+                "PaperRing Sign · Organization",
               )}
               description={t(
                 "certSign.collab.signRequest.useServerCertDesc",

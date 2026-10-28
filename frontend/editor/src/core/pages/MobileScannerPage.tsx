@@ -997,7 +997,7 @@ export default function MobileScannerPage() {
         >
           <Group gap="sm" align="center" wrap="nowrap">
             <LogoIcon
-              alt={t("home.mobile.brandAlt", "Stirling PDF logo")}
+              alt={t("home.mobile.brandAlt", "PaperRing logo")}
               style={{ height: FLUID.logo, width: FLUID.logo }}
             />
             <Wordmark alt="纸环 PaperRing" style={{ height: FLUID.wordmark }} />

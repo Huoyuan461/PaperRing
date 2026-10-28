@@ -509,7 +509,7 @@ class ConvertPDFToPDFAGapTest {
                 invokeInstance(newController(), "sanitizeMetadata", document);
 
                 PDDocumentInformation result = document.getDocumentInformation();
-                assertThat(result.getProducer()).isEqualTo("Stirling-PDF Sanitizer");
+                assertThat(result.getProducer()).isEqualTo("纸环 PaperRing");
                 assertThat(result.getCustomMetadataValue("Custom")).isEqualTo("cleanvalue");
             }
         }
@@ -525,7 +525,7 @@ class ConvertPDFToPDFAGapTest {
                 invokeInstance(newController(), "sanitizeMetadata", document);
 
                 assertThat(document.getDocumentInformation().getProducer())
-                        .isEqualTo("Stirling-PDF Sanitizer");
+                        .isEqualTo("纸环 PaperRing");
             }
         }
 

@@ -41,7 +41,7 @@ fn reset_starting_flag() {
     *starting_guard = false;
 }
 
-// Extract port number from "Stirling-PDF running on port: PORT" log line
+// Extract port number from "纸环 PaperRing running on port: PORT" log line
 fn extract_port_from_running_log(log_line: &str) -> Option<u16> {
     // Look for pattern: "running on port: PORT"
     if let Some(start) = log_line.find("running on port: ") {
@@ -120,7 +120,7 @@ fn find_stirling_jar(resource_dir: &PathBuf) -> Result<PathBuf, String> {
         .collect();
 
     if jar_files.is_empty() {
-        let error_msg = "No Stirling-PDF JAR found in libs directory.".to_string();
+        let error_msg = "No application JAR found in the libs directory.".to_string();
         add_log(error_msg.clone());
         return Err(error_msg);
     }
@@ -442,7 +442,7 @@ fn monitor_backend_output(mut rx: tauri::async_runtime::Receiver<tauri_plugin_sh
                     add_log(format!("📤 Backend: {}", output_str));
 
                     // Look for actual runtime port from web server initialization
-                    // Format: "Stirling-PDF running on port: PORT"
+                    // Format: "纸环 PaperRing running on port: PORT"
                     if output_str.contains("running on port:") {
                         _startup_detected = true;
                         if let Some(port) = extract_port_from_running_log(&output_str) {

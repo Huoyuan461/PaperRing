@@ -233,7 +233,7 @@ describe("library file picker", () => {
       const user = userEvent.setup();
       show();
       await user.click(
-        screen.getByRole("button", { name: "Stirling library" }),
+        screen.getByRole("button", { name: "PaperRing library" }),
       );
       await user.click(screen.getByText("Processing"));
       await waitFor(() => expect(state.listProcessingFiles).toHaveBeenCalled());
@@ -292,7 +292,7 @@ describe("library file picker", () => {
       expect(fileOrder()).toEqual(["Old.pdf", "New.pdf"]);
 
       await user.click(
-        screen.getByRole("button", { name: "Stirling library" }),
+        screen.getByRole("button", { name: "PaperRing library" }),
       );
       expect(fileOrder()).toEqual(["Old.pdf", "New.pdf"]);
       expect(
@@ -424,7 +424,7 @@ describe("library file picker", () => {
       await user.click(screen.getByText("One.pdf"));
       await user.click(
         screen.getByRole("button", {
-          name: "Stirling library",
+          name: "PaperRing library",
           pressed: false,
         }),
       );
@@ -460,7 +460,7 @@ describe("library file picker", () => {
     expect(screen.getByText("Unfiled.pdf")).toBeInTheDocument();
     await user.click(screen.getByText("One.pdf"));
     await user.click(
-      screen.getByRole("button", { name: "Stirling library", pressed: false }),
+      screen.getByRole("button", { name: "PaperRing library", pressed: false }),
     );
     expect(screen.queryByText("One.pdf")).not.toBeInTheDocument();
     expect(screen.queryByText("Unfiled.pdf")).not.toBeInTheDocument();
@@ -561,7 +561,7 @@ describe("library file picker", () => {
       target: { files: [new File(["PDF"], "New.pdf")] },
     });
     await user.click(
-      screen.getAllByRole("button", { name: "Stirling library" })[0],
+      screen.getAllByRole("button", { name: "PaperRing library" })[0],
     );
     await user.click(screen.getByRole("textbox", { name: "Filter by source" }));
     await user.click(await screen.findByRole("option", { name: "Cloud" }));
@@ -635,7 +635,7 @@ describe("library file picker", () => {
     show();
     await user.click(screen.getByText("One.pdf"));
     await user.click(
-      screen.getByRole("button", { name: "Stirling library", pressed: false }),
+      screen.getByRole("button", { name: "PaperRing library", pressed: false }),
     );
     await user.click(screen.getByText("Documents"));
     await user.click(await screen.findByText("Missing.pdf"));
@@ -736,7 +736,7 @@ describe("library file picker", () => {
     await user.click(await screen.findByRole("option", { name: "Local" }));
     await user.click(screen.getByText("One.pdf"));
     await user.click(
-      screen.getByRole("button", { name: "Stirling library", pressed: false }),
+      screen.getByRole("button", { name: "PaperRing library", pressed: false }),
     );
     await user.click(screen.getByText("Invoices"));
     await user.click(screen.getByRole("button", { name: "Search filenames" }));
@@ -756,7 +756,7 @@ describe("library file picker", () => {
     ).toHaveValue("Local");
     expect(screen.getByText("One.pdf")).toBeInTheDocument();
     await user.click(
-      screen.getByRole("button", { name: "Stirling library", pressed: false }),
+      screen.getByRole("button", { name: "PaperRing library", pressed: false }),
     );
     await user.click(screen.getByRole("button", { name: "Search filenames" }));
     expect(
@@ -912,15 +912,15 @@ describe("library file picker", () => {
     const user = userEvent.setup();
     show();
     await user.click(
-      screen.getByRole("button", { name: "Stirling library", pressed: false }),
+      screen.getByRole("button", { name: "PaperRing library", pressed: false }),
     );
     await user.click(screen.getByText("A", { exact: true }));
     await user.click(await screen.findByText("A.pdf"));
     expect(
-      screen.getAllByRole("button", { name: "Stirling library" }),
+      screen.getAllByRole("button", { name: "PaperRing library" }),
     ).toHaveLength(1);
     await user.click(
-      screen.getByRole("button", { name: "Stirling library", pressed: true }),
+      screen.getByRole("button", { name: "PaperRing library", pressed: true }),
     );
     await user.click(screen.getByText("B", { exact: true }));
     await user.click(await screen.findByText("B.pdf"));
@@ -953,7 +953,7 @@ describe("library file picker", () => {
     const user = userEvent.setup();
     const view = show();
     await user.click(
-      screen.getByRole("button", { name: "Stirling library", pressed: false }),
+      screen.getByRole("button", { name: "PaperRing library", pressed: false }),
     );
     await user.click(screen.getByText("Documents"));
     await user.click(await screen.findByText("Disk.pdf"));

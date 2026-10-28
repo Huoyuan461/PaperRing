@@ -12,7 +12,7 @@ import "@app/components/docs/DeveloperDocs.css";
 
 /**
  * Developer Docs — a markdown browser over the docs manifest generated from the
- * Stirling docs repo (see scripts/sync-portal-docs.mts). The nav is auto-sorted
+ * upstream Stirling-PDF docs repo (see scripts/sync-portal-docs.mts). The nav is auto-sorted
  * from the repo's folders + frontmatter; content is the repo markdown. Full-text
  * search across docs lives in the global super search (Cmd/Ctrl+K).
  */
@@ -87,6 +87,12 @@ export function DeveloperDocs() {
 
       <main className="portal-docs__content" ref={contentRef}>
         <div className="portal-docs__content-inner">
+          <p className="portal-docs__engine-note">
+            {t(
+              "portal.docs.engineNote",
+              "These articles describe the open-source Stirling-PDF engine. This app is 纸环 PaperRing.",
+            )}
+          </p>
           <DocsSection
             id={doc.id}
             eyebrow={section?.label ?? ""}

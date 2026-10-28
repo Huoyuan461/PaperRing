@@ -254,7 +254,7 @@ export default function LoginAgreementModal({
                 <Text size="xs" c="dimmed" style={{ flex: 1, minWidth: 0 }}>
                   {t(
                     "loginAgreementProvider",
-                    "This notice is provided by your administrator, not Stirling PDF Inc.",
+                    "This notice is provided by your administrator, not PaperRing.",
                   )}
                 </Text>
                 <Group gap="sm" wrap="nowrap">

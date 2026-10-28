@@ -177,7 +177,7 @@ function RootRow({ fileCount, isActive, onSelect, onDropFiles }: RootRowProps) {
       <span className="files-page-tree-name">
         {localOnly
           ? t("desktopPrivacy.localFiles", "Local files")
-          : t("filesPage.allFiles", "Stirling library")}
+          : t("filesPage.allFiles", "PaperRing library")}
       </span>
       <span className="files-page-tree-count">{fileCount}</span>
     </div>
@@ -464,7 +464,7 @@ function TreeNodeRow({
                 }
               >
                 {kind === "local"
-                  ? t("filesPage.removeLocalFolder", "Unmount from Stirling")
+                  ? t("filesPage.removeLocalFolder", "Unmount from PaperRing")
                   : t("filesPage.treeMenu.delete", "Delete folder")}
               </Menu.Item>
             )}
