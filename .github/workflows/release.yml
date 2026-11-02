@@ -37,7 +37,7 @@ jobs:
 
       # ---------- 工具链(版本与 build-mac.sh 一一对应) ----------
       - name: Setup JDK 25 (Temurin)
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: "25"
